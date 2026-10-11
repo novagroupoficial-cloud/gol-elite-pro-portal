@@ -1,0 +1,337 @@
+<title>Nova Gol 4.0 · 10 de octubre</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: hoja de pronósticos tipo planilla de estadio — encabezado, resumen por rangos, tablas agrupadas por Over 1.5 */
+:root{--bg:#f3f5f2;--panel:#ffffff;--ink:#14231c;--muted:#5b6b62;--line:#d9e0db;--pitch:#1d6b45;--gold:#a77a10;--gold-bg:#fbf3dc;
+--s3:#1d6b45;--s2:#5f8a2e;--s1:#8a7a2e;--s0:#8b9690;--chipbg:#eef2ef;--okfg:#17603d;--okbg:#e2f1e8;--kofg:#9b2f22;--kobg:#f8e3df;
+--disp:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;--body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1713;--panel:#16211b;--ink:#e6eee9;--muted:#9aaba1;--line:#27352d;--pitch:#4fbf86;--gold:#e2b64a;--gold-bg:#2a2412;
+--s3:#4fbf86;--s2:#9ac35a;--s1:#d1bb5c;--s0:#7f8c85;--chipbg:#1e2b24;--okfg:#7fdcaa;--okbg:#173827;--kofg:#f0998b;--kobg:#3a1d19;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1713;--panel:#16211b;--ink:#e6eee9;--muted:#9aaba1;--line:#27352d;--pitch:#4fbf86;--gold:#e2b64a;--gold-bg:#2a2412;
+--s3:#4fbf86;--s2:#9ac35a;--s1:#d1bb5c;--s0:#7f8c85;--chipbg:#1e2b24;--okfg:#7fdcaa;--okbg:#173827;--kofg:#f0998b;--kobg:#3a1d19;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:28px 56px;display:grid;gap:28px}
+.top{display:grid;gap:6px;border-bottom:3px solid var(--pitch);padding-bottom:18px}
+.eyebrow{font-family:var(--disp);letter-spacing:.14em;text-transform:uppercase;color:var(--pitch);font-weight:700;font-size:15px}
+h1{font-family:var(--disp);font-weight:800;font-size:clamp(34px,6vw,56px);line-height:1;margin:0;text-wrap:balance}
+.top p{margin:0;color:var(--muted);max-width:75ch}
+.resumen{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.rc{display:grid;gap:2px;padding:14px 16px;background:var(--panel);border:1px solid var(--line);border-radius:8px;text-decoration:none;color:var(--ink)}
+.rc:focus-visible,.rc:hover{outline:2px solid var(--pitch);outline-offset:2px}
+.rc.elite{background:var(--gold-bg);border-color:var(--gold)}
+.rn{font-family:var(--disp);font-size:40px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.rc.elite .rn{color:var(--gold)}
+.rt{font-weight:600;font-size:15px}
+.grupo{display:grid;gap:10px}
+.ghead{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
+.ghead h2{font-family:var(--disp);font-weight:800;font-size:30px;margin:0;letter-spacing:.02em}
+.ghead p{margin:0;color:var(--muted);font-size:15px}
+.elite .ghead h2{color:var(--gold)}
+.tw{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px}
+.elite .tw{border:2px solid var(--gold)}
+table{width:100%;border-collapse:collapse;min-width:940px}
+th{text-align:left;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600;padding:12px 14px;border-bottom:2px solid var(--line);vertical-align:bottom}
+th:nth-child(n+3){text-align:right}
+td{padding:14px;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+.hora{font-family:var(--disp);font-size:22px;font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
+.liga{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+.match{font-size:18px;font-weight:600;line-height:1.3}
+.vs{color:var(--muted);font-weight:400;font-size:15px}
+.dato{font-size:14px;color:var(--muted);margin-top:6px;max-width:62ch}
+.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;font-size:17px}
+.big{font-family:var(--disp);font-size:28px;font-weight:800;color:var(--pitch);min-width:120px}
+.elite .big{color:var(--gold)}
+.bar{height:6px;background:var(--chipbg);border-radius:3px;margin:8px 0 4px auto;width:100px;overflow:hidden}
+.bar span{display:block;height:100%;background:currentColor}
+.score{font-family:var(--disp);font-size:24px;font-weight:700}
+.chip{display:inline-block;margin-top:6px;font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--chipbg)}
+.chip.s3{color:var(--s3)}.chip.s2{color:var(--s2)}.chip.s1{color:var(--s1)}.chip.s0{color:var(--s0)}
+.tag{display:inline-block;margin:6px 6px 0 0;font-size:12px;font-weight:600;padding:2px 8px;border-radius:4px;border:1px solid var(--pitch);color:var(--pitch)}
+.tag.alt{border-color:var(--muted);color:var(--muted)}
+.vacio{color:var(--muted);text-align:center}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px 20px;display:grid;gap:10px}
+.box h2{font-family:var(--disp);font-size:24px;margin:0}
+.box ul{margin:0;padding-left:18px;display:grid;gap:6px}
+.box li .hora{font-size:17px}
+.box li .liga{display:inline;margin-left:6px}
+.box p{margin:0;max-width:80ch}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.legal{font-size:14px;color:var(--muted)}
+
+.res{min-width:130px}
+.score.real{font-size:28px}
+.mks{display:flex;gap:6px;justify-content:flex-end;flex-wrap:wrap;margin-top:6px}
+.mk{font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;font-family:var(--body)}
+.mk.ok{color:var(--okfg);background:var(--okbg)}
+.mk.ko{color:var(--kofg);background:var(--kobg)}
+.pend{display:inline-block;font-size:13px;font-weight:600;color:var(--muted);padding:2px 8px;border:1px dashed var(--line);border-radius:999px}
+.vivo{font-size:12px;color:var(--muted)}
+.exacto{display:inline-block;margin-top:6px;font-size:12px;font-weight:600;color:var(--gold)}
+.auditoria{display:grid;gap:12px}
+.augrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.au{display:grid;gap:2px;padding:14px 16px;background:var(--panel);border:1px solid var(--line);border-radius:8px}
+.aut{font-weight:600;font-size:15px}
+.aun{font-family:var(--disp);font-size:40px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums;color:var(--pitch)}
+.aup{font-weight:600}
+.aus{font-size:13px;color:var(--muted)}
+.aunota{margin:0;color:var(--muted);font-size:15px;max-width:90ch}
+@media (max-width:760px){.augrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:760px){.resumen{grid-template-columns:repeat(2,minmax(0,1fr))}.cols{grid-template-columns:1fr}}
+</style>
+<div class="wrap">
+<header class="top">
+<div class="eyebrow">Nova Gol Analytics · Modelo Nova Gol 4.0</div>
+<h1>Pronósticos del sábado 10 de octubre de 2026</h1>
+<p>29 partidos (tus capturas más Lorient–Paris FC), agrupados por la probabilidad de Over 1.5. Pronósticos generados entre las 10:55 y las 11:02, hora de Ecuador, antes del inicio de cada partido, y guardados sin modificar para auditoría.</p>
+</header>
+<nav class="resumen" aria-label="Resumen por rango"><a class="rc elite" href="#elite"><span class="rn">5</span><span class="rt">GOL ÉLITE</span></a><a class="rc g80" href="#g80"><span class="rn">12</span><span class="rt">Rango 80 %</span></a><a class="rc g70" href="#g70"><span class="rn">8</span><span class="rt">Rango 70 %</span></a><a class="rc g00" href="#g00"><span class="rn">4</span><span class="rt">Menos de 70 %</span></a></nav>
+<section class="auditoria" id="auditoria" aria-labelledby="auditoria-t">
+<header class="ghead"><h2 id="auditoria-t">Auditoría final</h2><p>Cerrada el domingo 11 a las 07:30, hora de Ecuador · 29 de 29 partidos con resultado</p></header>
+<div class="augrid"><div class="au"><div class="aut">GOL ÉLITE · Over 1.5</div><div class="aun">5 de 5</div><div class="aup">100 % de acierto</div><div class="aus">Over 1.5 de 90 % o más. Pendientes: 0</div></div><div class="au"><div class="aut">Rango 80 · Over 1.5</div><div class="aun">9 de 12</div><div class="aup">75 % de acierto</div><div class="aus">Over 1.5 entre 80 y 89,9 %. Pendientes: 0</div></div><div class="au"><div class="aut">Rango 70 · Over 1.5</div><div class="aun">7 de 8</div><div class="aup">88 % de acierto</div><div class="aus">Over 1.5 entre 70 y 79,9 %. Pendientes: 0</div></div><div class="au"><div class="aut">Over 2.5 con señal</div><div class="aun">8 de 11</div><div class="aup">73 % de acierto</div><div class="aus">Señal fuerte o moderada (65 % o más). Pendientes: 0</div></div></div>
+<p class="aunota">Los pronósticos de esta página no se modificaron: solo se agregó la columna Resultado real. ✓ significa que el mercado se cumplió (Over 1.5: 2 goles o más; Over 2.5: 3 o más). En los rangos de 70 % o más, Over 1.5 acertó 21 de 25 (84 %). Fallaron: Real Madrid 1-0 Villarreal, Lorient 1-0 Paris FC, Vasco 0-0 Remo y River 1-0 Est. Río Cuarto. Los 4 partidos de menos de 70 % terminaron con 2 goles o más. Marcadores exactos acertados: 3 de 29 (Manchester United 1-1, Philadelphia 2-1 y LAFC 1-1).</p>
+</section>
+<section class="grupo elite" id="elite">
+<header class="ghead"><h2>GOL ÉLITE</h2><p>Over 1.5 de 90 % o más · 5 partidos</p></header>
+<div class="tw"><table>
+<thead><tr><th>Hora<br>ECU</th><th>Partido y dato histórico</th><th>Over 1.5</th><th>Over 2.5</th><th>Under 2.5</th><th>Goles<br>esperados</th><th>Marcador<br>probable</th><th>Resultado<br>real</th></tr></thead>
+<tbody><tr>
+<td class="hora">14:00</td>
+<td><div class="liga">Eredivisie</div><div class="match">Ajax <span class="vs">vs</span> NEC Nijmegen</div><div class="dato">Ajax en casa: 2,5 GF y 2,0 GC por partido (4 PJ). NEC Nijmegen fuera: 2,3 GF y 1,7 GC (3 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:92.9%"></span></div>92,9 %</td>
+<td class="num">79,4 %<div><span class="chip s3">Señal fuerte</span></div></td>
+<td class="num">20,6 %</td>
+<td class="num">4,2</td>
+<td class="num score">2-2</td><td class="num res"><div class="score real">1-1</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ko">O2.5 ✗</span></div></td></tr><tr>
+<td class="hora">11:30</td>
+<td><div class="liga">Bundesliga</div><div class="match">RB Leipzig <span class="vs">vs</span> Eintracht Frankfurt</div><div class="dato">RB Leipzig en casa: 4,0 GF y 0,0 GC por partido (2 PJ). Eintracht Frankfurt fuera: 3,0 GF y 2,0 GC (2 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:91.8%"></span></div>91,8 %</td>
+<td class="num">77,1 %<div><span class="chip s3">Señal fuerte</span></div></td>
+<td class="num">22,9 %</td>
+<td class="num">4,1</td>
+<td class="num score">2-1</td><td class="num res"><div class="score real">6-0</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">11:45</td>
+<td><div class="liga">Eredivisie</div><div class="match">Feyenoord <span class="vs">vs</span> AZ Alkmaar</div><div class="dato">Feyenoord en casa: 3,0 GF y 1,3 GC por partido (3 PJ). AZ Alkmaar fuera: 3,0 GF y 1,0 GC (3 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:91.1%"></span></div>91,1 %</td>
+<td class="num">75,6 %<div><span class="chip s3">Señal fuerte</span></div></td>
+<td class="num">24,4 %</td>
+<td class="num">4,0</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">2-0</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ko">O2.5 ✗</span></div></td></tr><tr>
+<td class="hora">11:00</td>
+<td><div class="liga">Serie A</div><div class="match">Inter Milán <span class="vs">vs</span> Parma</div><span class="tag">En juego · pronóstico 10:55</span><div class="dato">Inter en casa: 4,0 GF y 2,0 GC por partido (3 PJ). Parma fuera: 0,5 GF y 2,0 GC (2 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:91.0%"></span></div>91,0 %</td>
+<td class="num">75,5 %<div><span class="chip s3">Señal fuerte</span></div></td>
+<td class="num">24,5 %</td>
+<td class="num">4,0</td>
+<td class="num score">2-1</td><td class="num res"><div class="score real">3-0</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">18:30</td>
+<td><div class="liga">MLS</div><div class="match">Atlanta United <span class="vs">vs</span> FC Cincinnati</div><div class="dato">Atlanta United FC: 1,2 GF y 1,7 GC por partido. FC Cincinnati: 2,2 GF y 2,4 GC (temporada general, 26 y 25 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:90.4%"></span></div>90,4 %</td>
+<td class="num">74,1 %<div><span class="chip s2">Señal moderada</span></div></td>
+<td class="num">25,9 %</td>
+<td class="num">3,9</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">1-3</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr></tbody></table></div></section><section class="grupo g80" id="g80">
+<header class="ghead"><h2>Rango 80 %</h2><p>Over 1.5 entre 80 % y 89,9 % · 12 partidos</p></header>
+<div class="tw"><table>
+<thead><tr><th>Hora<br>ECU</th><th>Partido y dato histórico</th><th>Over 1.5</th><th>Over 2.5</th><th>Under 2.5</th><th>Goles<br>esperados</th><th>Marcador<br>probable</th><th>Resultado<br>real</th></tr></thead>
+<tbody><tr>
+<td class="hora">18:30</td>
+<td><div class="liga">MLS</div><div class="match">Inter Miami <span class="vs">vs</span> DC United</div><div class="dato">Inter Miami CF: 2,4 GF y 1,8 GC por partido. D.C. United: 1,2 GF y 1,6 GC (temporada general, 25 y 25 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:89.8%"></span></div>89,8 %</td>
+<td class="num">73,1 %<div><span class="chip s2">Señal moderada</span></div></td>
+<td class="num">26,9 %</td>
+<td class="num">3,8</td>
+<td class="num score">2-1</td><td class="num res"><div class="score real">4-0</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">14:00</td>
+<td><div class="liga">LaLiga</div><div class="match">Real Madrid <span class="vs">vs</span> Villarreal</div><div class="dato">Real Madrid en casa: 4,0 GF y 0,7 GC por partido (3 PJ). Villarreal fuera: 1,8 GF y 1,5 GC (4 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:89.3%"></span></div>89,3 %</td>
+<td class="num">72,1 %<div><span class="chip s2">Señal moderada</span></div></td>
+<td class="num">27,9 %</td>
+<td class="num">3,7</td>
+<td class="num score">2-1</td><td class="num res"><div class="score real">1-0</div><div class="mks"><span class="mk ko">O1.5 ✗</span><span class="mk ko">O2.5 ✗</span></div></td></tr><tr>
+<td class="hora">18:30</td>
+<td><div class="liga">MLS</div><div class="match">Philadelphia Union <span class="vs">vs</span> Real Salt Lake</div><div class="dato">Philadelphia Union: 1,9 GF y 1,6 GC por partido. Real Salt Lake: 1,5 GF y 1,7 GC (temporada general, 26 y 25 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:87.2%"></span></div>87,2 %</td>
+<td class="num">68,0 %<div><span class="chip s2">Señal moderada</span></div></td>
+<td class="num">32,0 %</td>
+<td class="num">3,5</td>
+<td class="num score">2-1</td><td class="num res"><div class="score real">2-1</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div> <span class="exacto">Marcador exacto</span></td></tr><tr>
+<td class="hora">11:30</td>
+<td><div class="liga">LaLiga</div><div class="match">Barcelona <span class="vs">vs</span> Getafe</div><div class="dato">Barcelona en casa: 4,7 GF y 1,3 GC por partido (3 PJ). Getafe fuera: 0,0 GF y 1,7 GC (3 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:86.9%"></span></div>86,9 %</td>
+<td class="num">67,8 %<div><span class="chip s2">Señal moderada</span></div></td>
+<td class="num">32,2 %</td>
+<td class="num">3,5</td>
+<td class="num score">2-0</td><td class="num res"><div class="score real">3-0</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">18:30</td>
+<td><div class="liga">MLS</div><div class="match">Charlotte FC <span class="vs">vs</span> FC Dallas</div><div class="dato">Charlotte FC: 1,8 GF y 1,4 GC por partido. FC Dallas: 1,9 GF y 1,6 GC (temporada general, 26 y 26 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:86.8%"></span></div>86,8 %</td>
+<td class="num">67,3 %<div><span class="chip s2">Señal moderada</span></div></td>
+<td class="num">32,7 %</td>
+<td class="num">3,5</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">3-2</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">12:00</td>
+<td><div class="liga">MLS</div><div class="match">Toronto FC <span class="vs">vs</span> CF Montréal</div><div class="dato">Toronto FC: 1,5 GF y 1,9 GC por partido. CF Montreal: 1,2 GF y 2,0 GC (temporada general, 26 y 26 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:85.4%"></span></div>85,4 %</td>
+<td class="num">65,0 %<div><span class="chip s2">Señal moderada</span></div></td>
+<td class="num">35,0 %</td>
+<td class="num">3,4</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">2-1</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">18:30</td>
+<td><div class="liga">MLS</div><div class="match">New York Red Bulls <span class="vs">vs</span> San Diego FC</div><div class="dato">New York Red Bulls: 1,3 GF y 1,8 GC por partido. San Diego FC: 1,7 GF y 1,7 GC (temporada general, 26 y 25 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:84.2%"></span></div>84,2 %</td>
+<td class="num">62,9 %<div><span class="chip s1">Informativa</span></div></td>
+<td class="num">37,1 %</td>
+<td class="num">3,2</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">4-1</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">13:45</td>
+<td><div class="liga">Ligue 1</div><div class="match">PSG <span class="vs">vs</span> Le Mans</div><div class="dato">PSG en casa: 1,0 GF y 2,0 GC por partido (1 PJ). Le Mans fuera: 1,5 GF y 2,0 GC (2 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:82.3%"></span></div>82,3 %</td>
+<td class="num">59,8 %<div><span class="chip s1">Informativa</span></div></td>
+<td class="num">40,2 %</td>
+<td class="num">3,1</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">3-1</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">13:45</td>
+<td><div class="liga">Ligue 1</div><div class="match">Monaco <span class="vs">vs</span> Toulouse</div><div class="dato">Monaco en casa: 2,0 GF y 0,5 GC por partido (2 PJ). Toulouse fuera: 2,0 GF y 2,0 GC (2 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:82.1%"></span></div>82,1 %</td>
+<td class="num">59,5 %<div><span class="chip s1">Informativa</span></div></td>
+<td class="num">40,5 %</td>
+<td class="num">3,1</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">2-2</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">16:00</td>
+<td><div class="liga">Brasileirao</div><div class="match">Vasco da Gama <span class="vs">vs</span> Remo</div><div class="dato">Vasco da Gama en casa: 1,5 GF y 1,3 GC por partido (14 PJ). Remo fuera: 1,0 GF y 2,0 GC (14 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:80.9%"></span></div>80,9 %</td>
+<td class="num">57,7 %<div><span class="chip s1">Informativa</span></div></td>
+<td class="num">42,3 %</td>
+<td class="num">3,0</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">0-0</div><div class="mks"><span class="mk ko">O1.5 ✗</span><span class="mk ko">O2.5 ✗</span></div></td></tr><tr>
+<td class="hora">13:45</td>
+<td><div class="liga">Ligue 1</div><div class="match">Lorient <span class="vs">vs</span> Paris FC</div><div class="dato">Lorient en casa: 1,5 GF y 2,0 GC por partido (2 PJ). Paris FC fuera: 1,5 GF y 1,0 GC (2 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:80.5%"></span></div>80,5 %</td>
+<td class="num">56,9 %<div><span class="chip s1">Informativa</span></div></td>
+<td class="num">43,1 %</td>
+<td class="num">3,0</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">1-0</div><div class="mks"><span class="mk ko">O1.5 ✗</span><span class="mk ko">O2.5 ✗</span></div></td></tr><tr>
+<td class="hora">13:30</td>
+<td><div class="liga">MLS</div><div class="match">Chicago Fire <span class="vs">vs</span> New York City</div><div class="dato">Chicago Fire FC: 1,8 GF y 1,5 GC por partido. New York City FC: 1,5 GF y 1,3 GC (temporada general, 25 y 26 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:80.0%"></span></div>80,0 %</td>
+<td class="num">56,3 %<div><span class="chip s1">Informativa</span></div></td>
+<td class="num">43,7 %</td>
+<td class="num">2,9</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">2-1</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr></tbody></table></div></section><section class="grupo g70" id="g70">
+<header class="ghead"><h2>Rango 70 %</h2><p>Over 1.5 entre 70 % y 79,9 % · 8 partidos</p></header>
+<div class="tw"><table>
+<thead><tr><th>Hora<br>ECU</th><th>Partido y dato histórico</th><th>Over 1.5</th><th>Over 2.5</th><th>Under 2.5</th><th>Goles<br>esperados</th><th>Marcador<br>probable</th><th>Resultado<br>real</th></tr></thead>
+<tbody><tr>
+<td class="hora">11:30</td>
+<td><div class="liga">Premier League</div><div class="match">Manchester United <span class="vs">vs</span> Tottenham</div><div class="dato">Manchester United en casa: 2,5 GF y 1,5 GC por partido (2 PJ). Tottenham fuera: 0,0 GF y 1,5 GC (2 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:76.9%"></span></div>76,9 %</td>
+<td class="num">51,8 %<div><span class="chip s0">Sin señal</span></div></td>
+<td class="num">48,2 %</td>
+<td class="num">2,8</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">1-1</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ko">O2.5 ✗</span></div> <span class="exacto">Marcador exacto</span></td></tr><tr>
+<td class="hora">19:30</td>
+<td><div class="liga">MLS</div><div class="match">Austin FC <span class="vs">vs</span> Nashville SC</div><div class="dato">Austin FC: 1,2 GF y 1,7 GC por partido. Nashville SC: 2,0 GF y 0,8 GC (temporada general, 26 y 26 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:76.3%"></span></div>76,3 %</td>
+<td class="num">51,1 %<div><span class="chip s0">Sin señal</span></div></td>
+<td class="num">48,9 %</td>
+<td class="num">2,7</td>
+<td class="num score">0-2</td><td class="num res"><div class="score real">1-4</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">19:30</td>
+<td><div class="liga">Liga Profesional ARG</div><div class="match">River Plate <span class="vs">vs</span> Estudiantes Río Cuarto</div><div class="dato">River Plate en casa: 1,3 GF y 1,2 GC por partido (6 PJ). Estudiantes Rio Cuarto fuera: 0,8 GF y 2,0 GC (5 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:76.1%"></span></div>76,1 %</td>
+<td class="num">50,8 %<div><span class="chip s0">Sin señal</span></div></td>
+<td class="num">49,2 %</td>
+<td class="num">2,7</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">1-0</div><div class="mks"><span class="mk ko">O1.5 ✗</span><span class="mk ko">O2.5 ✗</span></div></td></tr><tr>
+<td class="hora">19:00</td>
+<td><div class="liga">Brasileirao</div><div class="match">São Paulo <span class="vs">vs</span> Vitória</div><div class="dato">Sao Paulo en casa: 1,6 GF y 0,9 GC por partido (14 PJ). Vitoria fuera: 0,7 GF y 2,1 GC (14 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:75.9%"></span></div>75,9 %</td>
+<td class="num">50,7 %<div><span class="chip s0">Sin señal</span></div></td>
+<td class="num">49,3 %</td>
+<td class="num">2,7</td>
+<td class="num score">2-0</td><td class="num res"><div class="score real">2-1</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">13:45</td>
+<td><div class="liga">Ligue 1</div><div class="match">Brest <span class="vs">vs</span> Angers</div><div class="dato">Brest en casa: 1,0 GF y 1,5 GC por partido (2 PJ). Angers fuera: 1,5 GF y 0,5 GC (2 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:72.2%"></span></div>72,2 %</td>
+<td class="num">45,5 %<div><span class="chip s0">Sin señal</span></div></td>
+<td class="num">54,5 %</td>
+<td class="num">2,5</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">5-1</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">21:30</td>
+<td><div class="liga">MLS</div><div class="match">LAFC <span class="vs">vs</span> Vancouver Whitecaps</div><div class="dato">Los Angeles FC: 1,6 GF y 1,1 GC por partido. Vancouver Whitecaps FC: 2,2 GF y 0,9 GC (temporada general, 27 y 25 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:72.1%"></span></div>72,1 %</td>
+<td class="num">45,4 %<div><span class="chip s0">Sin señal</span></div></td>
+<td class="num">54,6 %</td>
+<td class="num">2,5</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">1-1</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ko">O2.5 ✗</span></div> <span class="exacto">Marcador exacto</span></td></tr><tr>
+<td class="hora">13:45</td>
+<td><div class="liga">Serie A</div><div class="match">Nápoles <span class="vs">vs</span> Frosinone</div><div class="dato">Napoli en casa: 1,0 GF y 1,0 GC por partido (2 PJ). Frosinone fuera: 2,0 GF y 0,5 GC (2 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:71.9%"></span></div>71,9 %</td>
+<td class="num">45,2 %<div><span class="chip s0">Sin señal</span></div></td>
+<td class="num">54,8 %</td>
+<td class="num">2,5</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">3-0</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">11:30</td>
+<td><div class="liga">LigaPro Ecuador</div><div class="match">Independiente del Valle <span class="vs">vs</span> Aucas</div><div class="dato">Independiente del Valle en casa: 2,4 GF y 1,0 GC por partido (15 PJ). Aucas fuera: 0,9 GF y 0,8 GC (15 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:70.4%"></span></div>70,4 %</td>
+<td class="num">43,3 %<div><span class="chip s0">Sin señal</span></div></td>
+<td class="num">56,7 %</td>
+<td class="num">2,4</td>
+<td class="num score">1-1</td><td class="num res"><div class="score real">2-1</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr></tbody></table></div></section><section class="grupo g00" id="g00">
+<header class="ghead"><h2>Menos de 70 %</h2><p>Over 1.5 por debajo de 70 % · 4 partidos</p></header>
+<div class="tw"><table>
+<thead><tr><th>Hora<br>ECU</th><th>Partido y dato histórico</th><th>Over 1.5</th><th>Over 2.5</th><th>Under 2.5</th><th>Goles<br>esperados</th><th>Marcador<br>probable</th><th>Resultado<br>real</th></tr></thead>
+<tbody><tr>
+<td class="hora">16:30</td>
+<td><div class="liga">LigaPro Ecuador</div><div class="match">Guayaquil City <span class="vs">vs</span> Emelec</div><div class="dato">Guayaquil City en casa: 1,1 GF y 0,9 GC por partido (15 PJ). Emelec fuera: 0,6 GF y 1,4 GC (15 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:55.2%"></span></div>55,2 %</td>
+<td class="num">27,4 %<div><span class="chip s0">Sin señal</span></div></td>
+<td class="num">72,6 %</td>
+<td class="num">1,8</td>
+<td class="num score">1-0</td><td class="num res"><div class="score real">3-2</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">13:45</td>
+<td><div class="liga">Liga Profesional ARG</div><div class="match">Barracas Central <span class="vs">vs</span> Huracán</div><div class="dato">Barracas Central en casa: 0,4 GF y 0,8 GC por partido (5 PJ). Huracan fuera: 1,2 GF y 1,2 GC (5 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:53.2%"></span></div>53,2 %</td>
+<td class="num">25,5 %<div><span class="chip s0">Sin señal</span></div></td>
+<td class="num">74,5 %</td>
+<td class="num">1,8</td>
+<td class="num score">0-0</td><td class="num res"><div class="score real">2-0</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ko">O2.5 ✗</span></div></td></tr><tr>
+<td class="hora">15:00</td>
+<td><div class="liga">Liga Profesional ARG</div><div class="match">Central Córdoba <span class="vs">vs</span> Estudiantes de La Plata</div><div class="dato">Central Cordoba en casa: 0,6 GF y 1,2 GC por partido (5 PJ). Estudiantes LP fuera: 0,2 GF y 1,6 GC (5 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:51.7%"></span></div>51,7 %</td>
+<td class="num">24,3 %<div><span class="chip s0">Sin señal</span></div></td>
+<td class="num">75,7 %</td>
+<td class="num">1,7</td>
+<td class="num score">0-0</td><td class="num res"><div class="score real">2-2</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr><tr>
+<td class="hora">17:15</td>
+<td><div class="liga">Liga Profesional ARG</div><div class="match">Tigre <span class="vs">vs</span> Banfield</div><div class="dato">Tigre en casa: 0,6 GF y 0,4 GC por partido (5 PJ). Banfield fuera: 0,8 GF y 1,3 GC (6 PJ).</div></td>
+<td class="num big"><div class="bar"><span style="width:46.0%"></span></div>46,0 %</td>
+<td class="num">19,8 %<div><span class="chip s0">Sin señal</span></div></td>
+<td class="num">80,2 %</td>
+<td class="num">1,5</td>
+<td class="num score">0-0</td><td class="num res"><div class="score real">1-2</div><div class="mks"><span class="mk ok">O1.5 ✓</span><span class="mk ok">O2.5 ✓</span></div></td></tr></tbody></table></div></section>
+<div class="cols">
+<section class="box"><h2>Pendientes por falta de datos</h2>
+<p>Estos partidos del 10 de octubre no se pronosticaron: no encontré estadísticas actuales verificables de goles de local y visitante. La regla del modelo prohíbe inventar datos.</p>
+<ul><li><span class='hora'>18:00</span> <b>FC Juárez vs Tijuana</b> <span class='liga'>Liga MX</span></li><li><span class='hora'>18:00</span> <b>Querétaro vs Atlante</b> <span class='liga'>Liga MX</span></li><li><span class='hora'>20:00</span> <b>Atlas vs Chivas</b> <span class='liga'>Liga MX</span></li><li><span class='hora'>22:10</span> <b>América vs Monterrey</b> <span class='liga'>Liga MX</span></li><li><span class='hora'>15:30</span> <b>Huachipato vs O&#x27;Higgins</b> <span class='liga'>Primera División Chile</span></li><li><span class='hora'>18:00</span> <b>Universidad Católica vs Audax Italiano</b> <span class='liga'>Primera División Chile</span></li><li><span class='hora'>16:00</span> <b>Portuguesa vs Dep. La Guaira</b> <span class='liga'>Primera División Venezuela</span></li><li><span class='hora'>17:00</span> <b>Deportivo Táchira vs Universidad Central</b> <span class='liga'>Primera División Venezuela</span></li><li><span class='hora'>18:30</span> <b>Metropolitanos vs Rayo Zuliano</b> <span class='liga'>Primera División Venezuela</span></li><li><span class='hora'>18:10</span> <b>Junior vs Internacional de Bogotá</b> <span class='liga'>Liga BetPlay</span></li></ul></section>
+<section class="box"><h2>Fuera de la lista</h2>
+<ul>
+<li>Ya habían empezado (9:00–9:15): Chelsea–Bournemouth, Sunderland–Brighton, Ipswich–Fulham, Aston Villa–Brentford y Alavés–Atlético.</li>
+<li>Se juegan el 11 de octubre: Liverpool–Manchester City y Sassuolo–AC Milan.</li>
+<li>No estaban en tus capturas (excluidos para mantener la misma referencia): New England–Seattle y Orlando City–Columbus.</li>
+</ul>
+<h2>Cómo leer la tabla</h2>
+<ul>
+<li><b>Over 1.5</b>: 2 goles o más en el partido. <b>Over 2.5</b>: 3 o más. <b>Under 2.5</b>: 2 o menos.</li>
+<li><b>Goles esperados</b>: total previsto por el modelo (λ). <b>GF/GC</b>: goles a favor y en contra. <b>PJ</b>: partidos jugados.</li>
+<li>Over 2.5: señal fuerte desde 75 %, moderada desde 65 %, informativa desde 55 %.</li>
+</ul></section>
+</div>
+<section class="box legal">
+<h2>Notas del modelo y fuentes</h2>
+<p>Los porcentajes son probabilidades estimadas a partir de datos históricos de referencia. No son una garantía de resultado. En esta corrida no se usaron xG ni cuotas, así que su peso se repartió entre los datos de goles. Al ser inicio de temporada en Europa, varias muestras son de 1 a 4 partidos por condición; el modelo las acerca a la media de su liga para evitar extremos.</p>
+<p>Datos de local y visitante: SoccerSTATS (Premier y Ligue 1 hasta el 20 de septiembre; Serie A y Eredivisie hasta el 20 de septiembre; Bundesliga hasta el 9 de octubre; LaLiga, Brasileirão y Argentina Clausura actualizados a esta semana). LigaPro Ecuador: Fase Inicial 2026 (Wikipedia, resultados por partido), con el reparto local/visitante de goles estimado. MLS: tabla general de Wikipedia al 19 de septiembre, ajustada con el reparto local/visitante histórico de la liga.</p>
+</section>
+</div>

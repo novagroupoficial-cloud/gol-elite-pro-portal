@@ -1,0 +1,534 @@
+[
+ {
+  "hora": "08:00",
+  "liga": "ENG",
+  "local": "Crystal Palace",
+  "visita": "Nottm Forest",
+  "casa": [
+   2,
+   3,
+   7
+  ],
+  "fuera": [
+   2,
+   4,
+   3
+  ],
+  "HG": 1.52,
+  "AG": 1.26,
+  "lambda_local": 1.51,
+  "lambda_visita": 2.4,
+  "goles_esperados": 3.9,
+  "over15": 90.7,
+  "over25": 74.8,
+  "under25": 25.2,
+  "marcador": "1-2",
+  "categoria": "GOL ÉLITE",
+  "senal_o25": "moderada",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "08:00",
+  "liga": "ITA",
+  "local": "Lecce",
+  "visita": "Bologna",
+  "casa": [
+   2,
+   3,
+   6
+  ],
+  "fuera": [
+   2,
+   0,
+   2
+  ],
+  "HG": 1.49,
+  "AG": 1.41,
+  "lambda_local": 1.33,
+  "lambda_visita": 1.29,
+  "goles_esperados": 2.6,
+  "over15": 74.7,
+  "over25": 48.8,
+  "under25": 51.2,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "08:00",
+  "liga": "ITA",
+  "local": "Lazio",
+  "visita": "Monza",
+  "casa": [
+   2,
+   3,
+   2
+  ],
+  "fuera": [
+   3,
+   4,
+   8
+  ],
+  "HG": 1.49,
+  "AG": 1.41,
+  "lambda_local": 2.0,
+  "lambda_visita": 1.24,
+  "goles_esperados": 3.2,
+  "over15": 84.2,
+  "over25": 62.9,
+  "under25": 37.1,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "08:00",
+  "liga": "FRA",
+  "local": "Nice",
+  "visita": "Strasbourg",
+  "casa": [
+   3,
+   3,
+   2
+  ],
+  "fuera": [
+   3,
+   7,
+   8
+  ],
+  "HG": 1.53,
+  "AG": 1.26,
+  "lambda_local": 1.72,
+  "lambda_visita": 1.37,
+  "goles_esperados": 3.1,
+  "over15": 82.2,
+  "over25": 59.7,
+  "under25": 40.3,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "09:15",
+  "liga": "ESP",
+  "local": "Real Sociedad",
+  "visita": "Deportivo",
+  "casa": [
+   3,
+   2,
+   4
+  ],
+  "fuera": [
+   3,
+   5,
+   4
+  ],
+  "HG": 1.69,
+  "AG": 1.34,
+  "lambda_local": 1.14,
+  "lambda_visita": 1.48,
+  "goles_esperados": 2.6,
+  "over15": 74.5,
+  "over25": 48.5,
+  "under25": 51.5,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "10:30",
+  "liga": "ENG",
+  "local": "Liverpool",
+  "visita": "Manchester City",
+  "casa": [
+   2,
+   2,
+   2
+  ],
+  "fuera": [
+   2,
+   5,
+   1
+  ],
+  "HG": 1.52,
+  "AG": 1.26,
+  "lambda_local": 1.04,
+  "lambda_visita": 1.56,
+  "goles_esperados": 2.6,
+  "over15": 74.3,
+  "over25": 48.2,
+  "under25": 51.8,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "11:00",
+  "liga": "ITA",
+  "local": "Sassuolo",
+  "visita": "AC Milan",
+  "casa": [
+   2,
+   5,
+   3
+  ],
+  "fuera": [
+   3,
+   5,
+   4
+  ],
+  "HG": 1.49,
+  "AG": 1.41,
+  "lambda_local": 1.74,
+  "lambda_visita": 1.55,
+  "goles_esperados": 3.3,
+  "over15": 84.9,
+  "over25": 64.0,
+  "under25": 36.0,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "11:30",
+  "liga": "ESP",
+  "local": "Real Betis",
+  "visita": "Osasuna",
+  "casa": [
+   3,
+   3,
+   0
+  ],
+  "fuera": [
+   3,
+   4,
+   10
+  ],
+  "HG": 1.69,
+  "AG": 1.34,
+  "lambda_local": 1.98,
+  "lambda_visita": 0.8,
+  "goles_esperados": 2.8,
+  "over15": 77.3,
+  "over25": 52.5,
+  "under25": 47.5,
+  "marcador": "2-0",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "11:30",
+  "liga": "ECU",
+  "local": "Universidad Católica",
+  "visita": "Macará",
+  "casa": [
+   14,
+   35,
+   13
+  ],
+  "fuera": [
+   15,
+   17,
+   19
+  ],
+  "HG": 1.29,
+  "AG": 0.96,
+  "lambda_local": 2.03,
+  "lambda_visita": 1.07,
+  "goles_esperados": 3.1,
+  "over15": 82.3,
+  "over25": 59.9,
+  "under25": 40.1,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "13:45",
+  "liga": "ITA",
+  "local": "Cagliari",
+  "visita": "Juventus",
+  "casa": [
+   2,
+   1,
+   1
+  ],
+  "fuera": [
+   2,
+   3,
+   3
+  ],
+  "HG": 1.49,
+  "AG": 1.41,
+  "lambda_local": 1.16,
+  "lambda_visita": 1.13,
+  "goles_esperados": 2.3,
+  "over15": 67.8,
+  "over25": 40.2,
+  "under25": 59.8,
+  "marcador": "1-1",
+  "categoria": "Menos de 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "13:45",
+  "liga": "FRA",
+  "local": "Troyes",
+  "visita": "Marseille",
+  "casa": [
+   2,
+   2,
+   6
+  ],
+  "fuera": [
+   2,
+   0,
+   3
+  ],
+  "HG": 1.53,
+  "AG": 1.26,
+  "lambda_local": 1.35,
+  "lambda_visita": 1.22,
+  "goles_esperados": 2.6,
+  "over15": 73.7,
+  "over25": 47.4,
+  "under25": 52.6,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "14:00",
+  "liga": "ESP",
+  "local": "Racing",
+  "visita": "Valencia",
+  "casa": [
+   3,
+   7,
+   5
+  ],
+  "fuera": [
+   3,
+   2,
+   4
+  ],
+  "HG": 1.69,
+  "AG": 1.34,
+  "lambda_local": 1.79,
+  "lambda_visita": 1.16,
+  "goles_esperados": 2.9,
+  "over15": 80.2,
+  "over25": 56.5,
+  "under25": 43.5,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "14:00",
+  "liga": "BRA",
+  "local": "Atletico MG",
+  "visita": "Santos",
+  "casa": [
+   14,
+   24,
+   16
+  ],
+  "fuera": [
+   14,
+   23,
+   23
+  ],
+  "HG": 1.53,
+  "AG": 1.14,
+  "lambda_local": 1.77,
+  "lambda_visita": 1.54,
+  "goles_esperados": 3.3,
+  "over15": 85.0,
+  "over25": 64.1,
+  "under25": 35.9,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "15:30",
+  "liga": "BRA",
+  "local": "Flamengo",
+  "visita": "Fluminense",
+  "casa": [
+   14,
+   28,
+   10
+  ],
+  "fuera": [
+   14,
+   20,
+   22
+  ],
+  "HG": 1.53,
+  "AG": 1.14,
+  "lambda_local": 1.93,
+  "lambda_visita": 0.97,
+  "goles_esperados": 2.9,
+  "over15": 79.4,
+  "over25": 55.5,
+  "under25": 44.5,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "informativa",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "15:30",
+  "liga": "BRA",
+  "local": "Palmeiras",
+  "visita": "Corinthians",
+  "casa": [
+   14,
+   24,
+   9
+  ],
+  "fuera": [
+   14,
+   15,
+   18
+  ],
+  "HG": 1.53,
+  "AG": 1.14,
+  "lambda_local": 1.46,
+  "lambda_visita": 0.72,
+  "goles_esperados": 2.2,
+  "over15": 65.1,
+  "over25": 37.3,
+  "under25": 62.7,
+  "marcador": "1-0",
+  "categoria": "Menos de 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "16:30",
+  "liga": "ECU",
+  "local": "LDU Quito",
+  "visita": "Barcelona SC",
+  "casa": [
+   15,
+   13,
+   11
+  ],
+  "fuera": [
+   15,
+   10,
+   15
+  ],
+  "HG": 1.29,
+  "AG": 0.96,
+  "lambda_local": 0.79,
+  "lambda_visita": 0.59,
+  "goles_esperados": 1.4,
+  "over15": 41.0,
+  "over25": 16.1,
+  "under25": 83.9,
+  "marcador": "0-0",
+  "categoria": "Menos de 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "18:00",
+  "liga": "MEX",
+  "local": "A. San Luis",
+  "visita": "Santos Laguna",
+  "casa": [
+   5,
+   6,
+   8
+  ],
+  "fuera": [
+   5,
+   7,
+   12
+  ],
+  "HG": 1.56,
+  "AG": 1.39,
+  "lambda_local": 1.77,
+  "lambda_visita": 1.51,
+  "goles_esperados": 3.3,
+  "over15": 84.7,
+  "over25": 63.7,
+  "under25": 36.3,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "18:10",
+  "liga": "MEX",
+  "local": "Pachuca",
+  "visita": "Necaxa",
+  "casa": [
+   4,
+   6,
+   8
+  ],
+  "fuera": [
+   4,
+   4,
+   8
+  ],
+  "HG": 1.56,
+  "AG": 1.39,
+  "lambda_local": 1.75,
+  "lambda_visita": 1.46,
+  "goles_esperados": 3.2,
+  "over15": 83.7,
+  "over25": 62.1,
+  "under25": 37.9,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null
+ },
+ {
+  "hora": "20:15",
+  "liga": "MEX",
+  "local": "Pumas UNAM",
+  "visita": "Cruz Azul",
+  "casa": [
+   5,
+   6,
+   8
+  ],
+  "fuera": [
+   4,
+   7,
+   6
+  ],
+  "HG": 1.56,
+  "AG": 1.39,
+  "lambda_local": 1.33,
+  "lambda_visita": 1.7,
+  "goles_esperados": 3.0,
+  "over15": 81.5,
+  "over25": 58.5,
+  "under25": 41.5,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null
+ }
+]

@@ -130,6 +130,7 @@ a{{color:var(--acc)}}
 .tabs{{background:#0a1711;border-bottom:1px solid var(--line);position:sticky;top:calc(env(safe-area-inset-top,0px) + 58px);z-index:4}}
 .tabs-in{{max-width:1240px;margin:0 auto;padding:0 16px;display:flex;gap:4px;overflow-x:auto}}
 .tab{{font:600 14px var(--body);background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:12px 12px;cursor:pointer;white-space:nowrap}}
+.tabl{{font:700 14px var(--body);color:var(--gold);text-decoration:none;padding:12px 12px;white-space:nowrap;border-bottom:3px solid transparent}}
 .tab.on{{color:var(--ink);border-color:var(--acc)}}
 .wrap{{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:24px}}
 main{{display:grid;gap:28px;min-width:0}}
@@ -200,9 +201,9 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 .ev-t{{display:flex;align-items:center;gap:4px}}
 </style>
 <header class="bar"><div class="bar-in"><div class="logo">GOL <span>ÉLITE</span> PRO<small>con Nova Gol Analytics</small></div>
-<nav class="menu" aria-label="Principal"><a href="#predicciones">Predicciones</a><a href="#destacados">Destacados</a><a href="#partidos">Partidos</a><a href="#historial">Historial</a></nav>
+<nav class="menu" aria-label="Principal"><a href="#predicciones">Predicciones</a><a href="#destacados">Destacados</a><a href="#partidos">Partidos</a><a href="/galeria.html">Galería</a></nav>
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
-<div class="tabs"><div class="tabs-in" role="tablist">{tabs}</div></div>
+<div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
 <div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del domingo 11 de octubre; se integrará al portal cuando llegue el código.</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
@@ -221,7 +222,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <aside>
 <section class="box" id="historial"><h3>Auditoría del sábado 10</h3>
 <div class="kpis"><div class="kpi g"><b>5/5</b><span>GOL ÉLITE · Over 1.5</span></div><div class="kpi"><b>21/25</b><span>Over 1.5 de 70 % o más (84 %)</span></div><div class="kpi"><b>8/11</b><span>Over 2.5 con señal (73 %)</span></div><div class="kpi"><b>3/29</b><span>Marcadores exactos</span></div></div>
-<p class="legal">Fallos: Real Madrid 1-0, Lorient 1-0, Vasco 0-0 y River 1-0. Pronósticos sellados antes de cada partido y nunca modificados.</p></section>
+<p class="legal">Fallos: Real Madrid 1-0, Lorient 1-0, Vasco 0-0 y River 1-0. Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 90 % o más</li><li><span class="badge r80">Rango 80</span> de 80 % a 89,9 %</li><li><span class="badge r70">Rango 70</span> de 70 % a 79,9 %</li><li><span class="badge r00">Menos de 70</span> no recomendado</li></ul></section>
 <section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p><ul>{''.join(f'<li>{e(s)}</li>' for s in SIN)}</ul></section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>

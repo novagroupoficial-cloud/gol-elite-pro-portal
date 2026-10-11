@@ -1,0 +1,83 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Galería de aciertos · Gol Élite Pro</title>
+<meta name="description" content="Constancia histórica de los pronósticos y aciertos de Gol Élite Pro con el modelo Nova Gol 4.0. Pronósticos sellados antes de cada partido.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#06110c;--panel:#0d1c15;--panel2:#12261c;--ink:#eef4ef;--muted:#9fb2a6;--line:#1f3a2b;--acc:#2ee88a;--gold:#e6b84a;--gold2:#fff1b8;
+--disp:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;--body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 500px at 50% -120px,#0f4a2c 0%,transparent 70%),var(--bg);color:var(--ink);font:15px/1.5 var(--body)}
+a{color:var(--acc)}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:#030a07;border-bottom:1px solid var(--line)}
+.bar-in{max-width:1240px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.logo{font-family:var(--disp);font-weight:800;font-size:24px;letter-spacing:.04em;color:var(--ink);text-decoration:none}.logo span{color:var(--gold)}
+.menu{display:flex;gap:16px;font-weight:600;font-size:14px;margin-left:auto}.menu a{color:var(--ink);text-decoration:none;opacity:.85}.menu a.on{color:var(--gold);opacity:1}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:28px 56px;display:grid;gap:28px}
+h1{font-family:var(--disp);font-weight:800;font-size:clamp(36px,6vw,64px);line-height:1;margin:0;text-transform:uppercase;text-wrap:balance;background:linear-gradient(180deg,#fff,var(--gold2) 45%,var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+.intro{color:var(--muted);max-width:70ch;margin:8px 0 0}
+.tot{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.k{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px}
+.k b{display:block;font-family:var(--disp);font-size:40px;line-height:1;color:var(--gold);font-variant-numeric:tabular-nums}.k span{color:var(--muted);font-size:13px}
+.dia{background:var(--panel);border:2px solid var(--gold);border-radius:10px;overflow:hidden;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}
+.dia button{all:unset;cursor:zoom-in;display:block;background:#000}
+.dia img{display:block;width:100%;height:auto;max-width:100%}
+.info{padding:22px;display:grid;gap:14px;align-content:start}
+.fecha{font-family:var(--disp);font-size:34px;font-weight:800;line-height:1;text-transform:uppercase}
+.sello{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--acc)}
+.res{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.res div{background:var(--panel2);border-radius:6px;padding:10px}.res b{font-family:var(--disp);font-size:30px;display:block;line-height:1}.res span{font-size:12px;color:var(--muted)}
+.res div:first-child b{color:var(--gold)}
+.info ul{margin:0;padding-left:18px;font-size:14px}.info p{margin:0;font-size:14px;color:var(--muted)}
+.vacio{color:var(--muted)}
+dialog{border:0;padding:0;background:transparent;max-width:96vw;max-height:94vh}
+dialog::backdrop{background:rgba(0,0,0,.85)}
+dialog img{display:block;max-width:96vw;max-height:90vh;width:auto;height:auto;border-radius:6px}
+dialog form{text-align:right}dialog button{font:700 15px var(--body);background:var(--gold);color:#1b1403;border:0;border-radius:4px;padding:8px 14px;margin-bottom:8px;cursor:pointer}
+.legal{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:820px){.dia{grid-template-columns:minmax(0,1fr)}.menu{margin-left:0}}
+</style></head><body>
+<header class="bar"><div class="bar-in"><a class="logo" href="/">GOL <span>ÉLITE</span> PRO</a>
+<nav class="menu" aria-label="Principal"><a href="/">Pronósticos de hoy</a><a class="on" href="/galeria.html">Galería</a></nav></div></header>
+<main class="wrap">
+<section><h1>Galería de aciertos</h1>
+<p class="intro">Constancia de nuestras predicciones con el modelo Nova Gol 4.0. Cada pronóstico se publica y se sella antes del inicio del partido, y no se modifica después. Aquí guardamos el resultado de cada jornada, con aciertos y fallos.</p></section>
+<section class="tot" id="totales" aria-label="Acumulado"></section>
+<section id="dias" style="display:grid;gap:22px"><p class="vacio">Cargando galería…</p></section>
+<p class="legal">Probabilidades estadísticas basadas en datos históricos; no garantizan resultados. Contenido para mayores de 18 años. <a href="/terminos.html">Términos</a> · <a href="/privacidad.html">Privacidad</a></p>
+</main>
+<dialog id="zoom"><form method="dialog"><button>Cerrar ✕</button></form><img alt=""></dialog>
+<script>
+(function(){
+  var fmt=function(s){var p=s.split('/');return p.length==2?[+p[0],+p[1]]:null};
+  fetch('/historial/historial.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(H){
+    H.sort(function(a,b){return b.fecha.localeCompare(a.fecha)});
+    var ac={o15:[0,0],elite:[0,0],o25:[0,0]};
+    H.forEach(function(d){
+      d.resumen.forEach(function(r){var v=fmt(r[0]);if(!v)return;var t=r[1];
+        if(/GOL ÉLITE/.test(t)){ac.elite[0]+=v[0];ac.elite[1]+=v[1]}
+        else if(/Over 1\.5/.test(t)){ac.o15[0]+=v[0];ac.o15[1]+=v[1]}
+        else if(/Over 2\.5/.test(t)){ac.o25[0]+=v[0];ac.o25[1]+=v[1]}});
+    });
+    var pct=function(x){return x[1]?(Math.round(x[0]*1000/x[1])/10).toString().replace('.',',')+' %':'—'};
+    document.getElementById('totales').innerHTML=
+      '<div class="k"><b>'+H.length+'</b><span>Jornadas auditadas</span></div>'+
+      '<div class="k"><b>'+ac.elite[0]+'/'+ac.elite[1]+'</b><span>GOL ÉLITE · Over 1.5 ('+pct(ac.elite)+')</span></div>'+
+      '<div class="k"><b>'+ac.o15[0]+'/'+ac.o15[1]+'</b><span>Over 1.5 de 70 % o más ('+pct(ac.o15)+')</span></div>'+
+      '<div class="k"><b>'+ac.o25[0]+'/'+ac.o25[1]+'</b><span>Over 2.5 con señal ('+pct(ac.o25)+')</span></div>';
+    var esc=function(s){var e=document.createElement('i');e.textContent=s;return e.innerHTML};
+    document.getElementById('dias').innerHTML=H.map(function(d){
+      return '<article class="dia" id="d'+d.fecha+'">'+
+        (d.imagen?'<button type="button" data-img="'+esc(d.imagen)+'" aria-label="Ampliar imagen del '+esc(d.titulo)+'"><img loading="lazy" src="'+esc(d.imagen)+'" alt="Resultados del '+esc(d.titulo)+'"></button>':'<div></div>')+
+        '<div class="info"><div class="sello">Jornada auditada · '+(d.partidos||'')+' partidos</div><div class="fecha">'+esc(d.titulo)+'</div>'+
+        '<div class="res">'+d.resumen.map(function(r){return '<div><b>'+esc(r[0])+'</b><span>'+esc(r[1])+'</span></div>'}).join('')+'</div>'+
+        (d.aciertos_destacados?'<div><b>Aciertos destacados</b><ul>'+d.aciertos_destacados.map(function(x){return '<li>'+esc(x)+' ✔</li>'}).join('')+'</ul></div>':'')+
+        (d.fallos?'<p><b>Fallos:</b> '+esc(d.fallos)+'</p>':'')+'</div></article>';
+    }).join('');
+    var dlg=document.getElementById('zoom'),im=dlg.querySelector('img');
+    document.querySelectorAll('[data-img]').forEach(function(b){b.addEventListener('click',function(){im.src=b.getAttribute('data-img');if(dlg.showModal)dlg.showModal();})});
+    dlg.addEventListener('click',function(e){if(e.target===dlg)dlg.close()});
+  }).catch(function(){document.getElementById('dias').innerHTML='<p class="vacio">No se pudo cargar la galería.</p>'});
+})();
+</script>
+</body></html>

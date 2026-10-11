@@ -21,3 +21,8 @@ Netlify publica automáticamente cada cambio en la rama `main`.
 4. `python3 tools/portal.py && python3 tools/envolver.py` → `public/index.html`.
 5. Auditoría del día anterior: resultados reales con fuentes → `data/AYER/auditoria.json` y bloque de auditoría en la portada.
 6. Commit y push a `main`; Netlify publica solo.
+
+## Galería de aciertos (public/galeria.html)
+- Datos en `public/historial/historial.json` (una entrada por jornada auditada: fecha, título, imagen, resumen, aciertos destacados, fallos).
+- Imágenes en `public/historial/AAAA-MM-DD.jpg` (la imagen de resultados que sube el equipo; si no hay, la lámina "Así nos fue ayer" del kit).
+- Nunca se borran ni editan jornadas pasadas: es la constancia histórica.

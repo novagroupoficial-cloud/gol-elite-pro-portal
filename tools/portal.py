@@ -184,6 +184,9 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 .kpi.g b{{color:var(--gold)}}
 .legal{{font-size:13px;color:var(--muted)}}
 .preview{{background:var(--gold-bg);color:var(--gold2);border:1px dashed var(--gold);border-radius:6px;padding:10px 14px;font-size:14px}}
+@media (max-width:400px){{.logo small{{display:none}} .bar-in{{gap:10px}} .bar .cta{{font-size:12px;padding:6px 8px}} .bar .logo{{font-size:17px}}}}
+/* home */.home{{display:inline-flex;align-items:center;gap:6px;background:#e6b84a;color:#1b1403;font:700 14px system-ui,sans-serif;padding:8px 12px;border-radius:999px;text-decoration:none;flex-shrink:0}}.home:hover{{background:#fff1b8}}
+.fab{{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:9;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:#e6b84a;color:#1b1403;box-shadow:0 6px 20px rgba(0,0,0,.45),0 0 0 2px #0e1c16;text-decoration:none}}.fab svg{{width:24px;height:24px}}.fab:hover{{background:#fff1b8}}
 .hide{{display:none}}
 .hero{{position:relative;display:grid;grid-template-columns:240px minmax(0,1fr);gap:0;border:2px solid var(--gold);border-radius:8px;overflow:hidden;background:linear-gradient(120deg,#0b2a1b,#06110c 60%);box-shadow:0 0 30px rgba(46,232,138,.12)}}
 .hero img{{width:100%;height:100%;object-fit:cover;object-position:top;display:block;max-width:100%}}
@@ -194,13 +197,13 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 .hero .odds{{max-width:420px}}
 .hero .odd b{{font-size:28px}}
 .hero p{{margin:0;color:var(--muted);font-size:14px;max-width:52ch}}
-@media (max-width:640px){{.hero{{grid-template-columns:120px minmax(0,1fr)}} .hero-b{{padding:14px}} .hero .odd b{{font-size:20px}}}}
+@media (max-width:640px){{.home span{{display:none}} .logo{{white-space:nowrap;font-size:19px}} .logo small{{font-size:9px}} .cta{{white-space:nowrap}} .home{{padding:9px}} .hero{{grid-template-columns:minmax(0,1fr)}} .hero img{{height:260px;object-position:top}} .hero .vsx{{font-size:20px}} .hero-b{{padding:14px}} .hero .odd b{{font-size:20px}}}}
 
 @media (max-width:980px){{.wrap{{grid-template-columns:minmax(0,1fr)}}}}
 @media (max-width:640px){{.bar-in{{flex-wrap:nowrap}} .logo{{font-size:21px}} .cta{{padding:7px 10px;font-size:13px}} .ev summary{{grid-template-columns:62px minmax(0,1fr);}} .ev-t .ko{{font-size:18px}} .ev-o{{grid-column:1/-1}} .ev-c{{display:none}} .menu{{display:none}} .tabs{{position:static}} .news.big h3{{font-size:26px}}}}
 .ev-t{{display:flex;align-items:center;gap:4px}}
 </style>
-<header class="bar"><div class="bar-in"><div class="logo">GOL <span>ÉLITE</span> PRO<small>con Nova Gol Analytics</small></div>
+<header class="bar"><div class="bar-in"><a class="home" href="/" aria-label="Ir al inicio" title="Inicio"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z" fill="currentColor"/></svg><span>Inicio</span></a><div class="logo">GOL <span>ÉLITE</span> PRO<small>con Nova Gol Analytics</small></div>
 <nav class="menu" aria-label="Principal"><a href="#predicciones">Predicciones</a><a href="#destacados">Destacados</a><a href="#partidos">Partidos</a><a href="/galeria.html">Galería</a></nav>
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
@@ -228,6 +231,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
 <p>Las noticias enlazan a sus medios de origen. Las imágenes de los partidos son ilustraciones propias de Gol Élite Pro.</p><p>Estadísticas: SoccerSTATS (tablas de local y visitante) y Wikipedia (LigaPro, fase inicial 2026).</p></section>
 </aside></div>
+<a class="fab" href="/" aria-label="Volver al inicio" title="Inicio"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z" fill="currentColor"/></svg></a>
 <script>
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados

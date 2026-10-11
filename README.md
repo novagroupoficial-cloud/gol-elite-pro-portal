@@ -13,3 +13,11 @@ Portal público de Gol Élite Pro con los pronósticos del modelo **Nova Gol 4.0
 - `assets/` — imágenes propias (presentadora y fotos de equipos generadas por el equipo).
 
 Netlify publica automáticamente cada cambio en la rama `main`.
+
+## Actualización diaria
+1. Editar `tools/datos.py` (tablas casa/fuera del día, verificadas) y la lista de partidos en `tools/correr.py`.
+2. `python3 tools/correr.py` → `tools/pron.json` (sellar la hora; copiar a `data/AAAA-MM-DD/pronosticos.json`).
+3. Editar `tools/enlaces.py` (titular, medio y URL de cada noticia; listas PRED y DEST; colores).
+4. `python3 tools/portal.py && python3 tools/envolver.py` → `public/index.html`.
+5. Auditoría del día anterior: resultados reales con fuentes → `data/AYER/auditoria.json` y bloque de auditoría en la portada.
+6. Commit y push a `main`; Netlify publica solo.

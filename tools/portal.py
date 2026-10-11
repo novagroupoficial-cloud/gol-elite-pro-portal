@@ -1,4 +1,5 @@
-import json, html
+import json, html, base64, os, sys
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 P=[p for p in json.load(open('pron.json')) if not p.get('sin')]
 NOM={'ENG':'Premier League','ITA':'Serie A','FRA':'Ligue 1','ESP':'LaLiga','BRA':'Brasileirão','MEX':'Liga MX','ECU':'LigaPro'}
 PAIS={'ENG':'Inglaterra','ITA':'Italia','FRA':'Francia','ESP':'España','BRA':'Brasil','MEX':'México','ECU':'Ecuador'}
@@ -106,7 +107,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 SIN=['Juventud LP–Racing (Uruguay)','Benfica–Vitória Guimarães','San Lorenzo–Riestra','Cerro Largo–Albion','UTC–Sporting Cristal','Coquimbo–Colo Colo','Rubio Ñu–Olimpia','Platense–Argentinos','Rosario Central–Ind. Rivadavia','Sport Boys–Alianza Atlético','Jaguares–Tolima','Racing–Belgrano','Libertad–Guaraní','Escorpiones–Saprissa','St. Louis–LA Galaxy','Cusco–Alianza Lima','Talleres–Independiente','América–Medellín']
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
-FOTO=open('foto.b64').read()
+FOTO=base64.b64encode(open('../assets/presentadora.jpg','rb').read()).decode()
 top=max(P,key=lambda p:p['over15'])
 out=f'''<title>Gol Élite Pro · Portada</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -237,5 +238,5 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
     document.getElementById('partidos').scrollIntoView({{behavior:'smooth',block:'start'}});}})}});
 }})();
 </script>'''
-open('../pub/gol-elite-portada.html','w',encoding='utf-8').write(out)
+open('_portada.html','w',encoding='utf-8').write(out)
 print('ok',len(P))

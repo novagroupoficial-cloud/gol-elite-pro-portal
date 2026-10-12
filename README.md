@@ -30,3 +30,8 @@ Netlify publica automáticamente cada cambio en la rama `main`.
 - Datos en `public/historial/historial.json` (una entrada por jornada auditada: fecha, título, imagen, resumen, aciertos destacados, fallos).
 - Imágenes en `public/historial/AAAA-MM-DD.jpg` (la imagen de resultados que sube el equipo; si no hay, la lámina "Así nos fue ayer" del kit).
 - Nunca se borran ni editan jornadas pasadas: es la constancia histórica.
+
+## Refresco horario (Ranking del día)
+- Tarea programada "Gol Elite Pro refresco horario" (cada hora, minuto 09 ECU), procedimiento en `tools/skills/gol-elite-pro-refresco-horario.md`.
+- Resultados provisionales con fuente en `data/AAAA-MM-DD/resultados-en-vivo.json` (solo se agregan).
+- `python3 tools/refresco.py AAAA-MM-DD` → `public/api/hoy.json` (todos los pronósticos de mayor a menor Over 1.5, con estado y resultado) y `tools/ranking.html` (sección "Ranking del día" de la portada). Luego `python3 tools/portal.py && python3 tools/envolver.py`.

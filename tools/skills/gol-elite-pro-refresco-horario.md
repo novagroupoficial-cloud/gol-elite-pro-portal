@@ -1,6 +1,6 @@
 ---
 name: gol-elite-pro-refresco-horario
-description: "Refresco cada hora del sistema GOL ÉLITE PRO: reintenta la rutina diaria si no se hizo, registra resultados de los partidos ya jugados hoy con fuente, actualiza el feed del Dashboard (public/api/hoy.json), integra las estadísticas del Dashboard al portal y vigila que Netlify publique. Si algo falla, queda pendiente para la hora siguiente."
+description: "Refresco cada hora del sistema GOL ÉLITE PRO: mantiene el RANKING DEL DÍA (todos los pronósticos de hoy de mayor a menor Over 1.5, con Over 2.5, estado y resultado) en la portada y en el feed del Dashboard (public/api/hoy.json), registra resultados con fuente, reintenta la rutina diaria si no se hizo, integra las estadísticas del Dashboard y vigila que Netlify publique. Si algo falla, queda pendiente para la hora siguiente."
 ---
 
 # GOL ÉLITE PRO — refresco horario
@@ -53,10 +53,14 @@ Se crea en la primera ejecución del día. Se actualiza y se sube en el mismo co
    - escribir en `data/<HOY>/resultados-en-vivo.json` (lista; solo se AGREGAN partidos, un partido ya registrado no se toca salvo para pasar de "pendiente" a "terminado"):
      `{"local","visita","hora","resultado":"3-3","goles":6,"estado":"terminado|pendiente|anulado","over15_dado","over25_dado","acierto_over15","acierto_over25","marcador_exacto","fuente":"URL","registrado":"HH:MM ECU"}`
    - Este archivo es **provisional**: la auditoría oficial (`auditoria.json`) la escribe la rutina diaria de mañana, que puede reutilizar estas fuentes.
-4. **Feed del Dashboard.** Regenerar `public/api/hoy.json` desde `data/<HOY>/pronosticos.json` (mismo esquema que hoy: `rango_80_90`, `todos`, `sin_pronostico`) y añadir a cada partido `"resultado"` (o `null`) y `"estado"` tomados de `resultados-en-vivo.json`. No cambiar ninguna probabilidad.
-5. **Estadísticas del Dashboard.** Si `public/api/estadisticas.json` es de HOY y es más nuevo que el último `public/index.html`, regenerar el portal según `tools/contrato-estadisticas.md`: `python3 tools/portal.py && python3 tools/envolver.py`. Si portal.py falla, no publicar a medias: anotar en `pendientes`.
+4. **Ranking del día y feed (cada hora, aunque no haya resultados nuevos).** Ejecutar `python3 tools/refresco.py <HOY>` y luego `python3 tools/portal.py && python3 tools/envolver.py`. El script:
+   - ordena TODOS los pronósticos sellados de hoy de mayor a menor Over 1.5 (con Over 2.5, marcador, hora y liga);
+   - marca cada partido como "por jugar", "en juego" o "Final X-Y ✔/✘" (enlace a la fuente) según `resultados-en-vivo.json`;
+   - escribe `public/api/hoy.json` (feed del Dashboard: `todos` en ese orden, `rango_80_90`, `resumen_del_dia`, `actualizado`) y `tools/ranking.html`, que portal.py inserta en la portada como sección "Ranking del día" con la hora de actualización.
+   No cambia ninguna probabilidad. Si portal.py falla, no publicar a medias: anotar en `pendientes`.
+5. **Estadísticas del Dashboard.** Si `public/api/estadisticas.json` es de HOY, el paso 4 ya lo incluye al regenerar el portal (según `tools/contrato-estadisticas.md`).
 6. **Verificar publicación.** WebFetch `https://gol-elite-pro.netlify.app/index` (sin .html, para evitar caché) y comprobar que muestra la fecha de HOY (o la de ayer si aún no corre la rutina diaria). Si no coincide con lo que hay en `main`, sumar `deploy.fallos_seguidos`; si coincide, ponerlo en 0.
-7. **Publicar:** si hubo cambios, commit "Refresco HH:MM ECU <HOY>: <qué cambió>" y push. Si el push es rechazado, `git pull --rebase` y reintentar una vez; si vuelve a fallar, dejarlo en `pendientes`.
+7. **Publicar:** si hubo cambios (el ranking cambia de hora cada vez que hay partidos por jugar o en juego, así que normalmente habrá commit mientras dure la jornada), commit "Refresco HH:MM ECU <HOY>: <qué cambió>" y push. Si el push es rechazado, `git pull --rebase` y reintentar una vez; si vuelve a fallar, dejarlo en `pendientes`.
 
 ## 4. Cuándo avisar a Marco (PushNotification con `<routine_summary>`)
 Solo una vez por motivo y por día (registrar en `avisos_enviados`). El resto de las horas, silencio.

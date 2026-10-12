@@ -91,6 +91,9 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 SIN=['U. de Chile–Ñublense (Chile)']  # sin tabla casa/fuera verificable
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
+# Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
+RANK=open('ranking.html',encoding='utf-8').read() if os.path.exists('ranking.html') else ''
+if RANK and RANK.split('\n',1)[0]!='<!--partidos:'+';'.join(sorted(key(p) for p in P))+'-->': RANK=''
 FOTO=base64.b64encode(open('../assets/presentadora.jpg','rb').read()).decode()
 top=max(P,key=lambda p:p['over15'])
 out=f'''<title>Gol Élite Pro · Portada</title>
@@ -168,6 +171,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 .kpi.g b{{color:var(--gold)}}
 .legal{{font-size:13px;color:var(--muted)}}
 .preview{{background:var(--gold-bg);color:var(--gold2);border:1px dashed var(--gold);border-radius:6px;padding:10px 14px;font-size:14px}}
+@media (max-width:340px){{.bar .cta{{font-size:11px!important;padding:6px 7px!important}} .bar .logo{{font-size:15px!important}} .bar-in{{gap:6px!important}}}}
 @media (max-width:400px){{.logo small{{display:none}} .bar-in{{gap:10px}} .bar .cta{{font-size:12px;padding:6px 8px}} .bar .logo{{font-size:17px}}}}
 .acg{{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}}
 .ac{{display:flex;gap:12px;align-items:center;background:var(--panel);border:1px solid #2a4a38;border-left:4px solid var(--acc);border-radius:6px;padding:12px 14px;text-decoration:none;color:var(--ink)}}
@@ -212,6 +216,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{f1(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{f1(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.0, calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK[key(top)][1])} · <a href="{LINK[key(top)][2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
+{RANK}
 <section id="aciertos"><div class="sh"><h2>¡Acertamos ayer!</h2><p>Domingo 11 de octubre · Over 1.5 en 17 de 19 partidos · toca para ver el resultado en su medio</p></div>
 <div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>

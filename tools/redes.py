@@ -11,6 +11,7 @@ NOM={'ENG':'Premier League','ITA':'Serie A','FRA':'Ligue 1','ESP':'LaLiga','BRA'
 ES={'Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasbourg':'Estrasburgo','Deportivo':'Deportivo La Coruña','AC Milan':'Milan','Real Betis':'Betis','Marseille':'Marsella','Racing':'Racing Santander','Atletico MG':'Atlético MG','A. San Luis':'Atlético San Luis','Pumas UNAM':'Pumas','Universidad Católica':'U. Católica','Coventry':'Coventry City','Newcastle':'Newcastle United','Lanus':'Lanús','Velez Sarsfield':'Vélez Sarsfield','Gimnasia Mendoza':'Gimnasia (Mendoza)','Newells Old Boys':"Newell's",'Bragantino':'RB Bragantino','Athletico-PR':'Athletico-PR'}
 n=lambda x:ES.get(x,x)
 f1=lambda v:f"{v:.1f}".replace('.',',')
+pc=lambda v:str(int(v))  # en redes: entero hacia abajo (89,9 -> 89), nunca cruza de categoría
 f2=lambda v:f"{v:.2f}".replace('.',',')
 def ink(c):
     r,g,b=(int(c[i:i+2],16) for i in (1,3,5)); return '#111' if 0.299*r+0.587*g+0.114*b>150 else '#fff'
@@ -51,26 +52,28 @@ def historia():
  <div class="disp" style="text-align:center;font-size:62px">{e(n(top['local']))}<br><span class="dor" style="font-size:44px">vs</span><br>{e(n(top['visita']))}</div>
  <div style="text-align:center;font-size:34px;font-weight:600">{e(NOM[top['liga']])}<br><span class="dor">{e(K['fecha_larga'])} · {top['hora']} ECU</span></div>
  <div class="caja" style="padding:26px;display:grid;gap:18px">
-  <div style="display:flex;justify-content:space-between;align-items:center"><span class="disp" style="font-size:56px">Over 1.5</span><span class="disp verde" style="font-size:96px">{f1(top['over15'])}%</span></div>
-  <div style="display:flex;justify-content:space-between;align-items:center"><span class="disp" style="font-size:56px">Over 2.5</span><span class="disp" style="font-size:80px">{f1(top['over25'])}%</span></div>
+  <div style="display:flex;justify-content:space-between;align-items:center"><span class="disp" style="font-size:56px">2+ goles</span><span class="disp verde" style="font-size:96px">{pc(top['over15'])}%</span></div>
+  <div style="display:flex;justify-content:space-between;align-items:center"><span class="disp" style="font-size:56px">3+ goles</span><span class="disp" style="font-size:80px">{pc(top['over25'])}%</span></div>
   <div style="display:flex;justify-content:space-between;align-items:center"><span class="disp" style="font-size:44px">Marcador estimado</span><span class="disp dor" style="font-size:80px">{top['marcador']}</span></div>
  </div>
  <div class="caja" style="padding:22px 26px;font-size:30px;line-height:1.35">
   <b class="dor">Por qué:</b> {e(n(top['local']))} marca <b>{f2(gfL/pjL)}</b> en casa · {e(n(top['visita']))} recibe <b>{f2(gcV/pjV)}</b> fuera · goles esperados <b class="verde">{f1(top['goles_esperados'])}</b>
  </div>
 </div>
+<div style="position:absolute;left:0;right:0;bottom:78px;padding:12px 40px;background:rgba(3,10,7,.88);text-align:center;font-size:23px;color:#cfe">2+ goles = Over 1.5: 2 goles o más en el partido, sin importar quién gane · 3+ goles = Over 2.5</div>
 <div class="pie"><span>Modelo Nova Gol 4.0 · {e(SELLO)}</span><span class="legal">+18 · No garantiza resultados</span></div>
 </div>'''
 
 def slide(contenido):
     return CSS+f'''<div class="lienzo" style="width:1080px;height:1350px"><div class="luces"></div>
 <div class="marca" style="position:absolute;top:40px;left:0;right:0;font-size:64px">GOL <b>ÉLITE</b> PRO</div>{contenido}
+<div style="position:absolute;left:0;right:0;bottom:78px;padding:12px 40px;background:rgba(3,10,7,.88);text-align:center;font-size:23px;color:#cfe">2+ goles = Over 1.5: 2 goles o más en el partido, sin importar quién gane · 3+ goles = Over 2.5</div>
 <div class="pie"><span>Nova Gol 4.0 · {e(K['fecha_larga'])}</span><span class="legal">+18 · No garantiza resultados</span></div></div>'''
 
 def fila(p,big=False):
     return f'''<div style="display:grid;grid-template-columns:110px 1fr 160px 150px;gap:16px;align-items:center;padding:16px 22px;border-bottom:1px solid #1f3a2b">
 <span class="disp dor" style="font-size:40px">{p['hora']}</span><span style="font-size:30px;font-weight:600;line-height:1.15">{e(n(p['local']))}<br>{e(n(p['visita']))}</span>
-<span class="disp verde" style="font-size:52px;text-align:right">{f1(p['over15'])}%</span><span class="disp" style="font-size:38px;text-align:right;color:#cfe">{f1(p['over25'])}%</span></div>'''
+<span class="disp verde" style="font-size:52px;text-align:right">{pc(p['over15'])}%</span><span class="disp" style="font-size:38px;text-align:right;color:#cfe">{pc(p['over25'])}%</span></div>'''
 
 def carrusel():
     s=[]
@@ -82,8 +85,8 @@ def carrusel():
  <div style="display:flex;gap:24px;align-items:center">{escudo(top['local'],150)}<span class="disp oro" style="font-size:70px">VS</span>{escudo(top['visita'],150)}</div>
  <div class="disp" style="font-size:72px;white-space:normal">{e(n(top['local']))} <span class="dor">vs</span> {e(n(top['visita']))}</div>
  <div class="caja" style="padding:24px;display:grid;grid-template-columns:repeat(3,1fr);text-align:center;gap:10px">
-  <div><div style="font-size:24px;color:#9fb2a6">OVER 1.5</div><div class="disp verde" style="font-size:72px">{f1(top['over15'])}%</div></div>
-  <div><div style="font-size:24px;color:#9fb2a6">OVER 2.5</div><div class="disp" style="font-size:72px">{f1(top['over25'])}%</div></div>
+  <div><div style="font-size:24px;color:#9fb2a6">2+ GOLES</div><div class="disp verde" style="font-size:72px">{pc(top['over15'])}%</div></div>
+  <div><div style="font-size:24px;color:#9fb2a6">3+ GOLES</div><div class="disp" style="font-size:72px">{pc(top['over25'])}%</div></div>
   <div><div style="font-size:24px;color:#9fb2a6">MARCADOR</div><div class="disp dor" style="font-size:72px">{top['marcador']}</div></div></div>
  <div style="font-size:30px;color:#cfe">Desliza para ver las estadísticas que lo justifican →</div></div>'''))
     # 2 estadísticas que lo justifican
@@ -101,7 +104,7 @@ def carrusel():
     # 3 resto de rango 80
     otros=[p for p in sorted(P,key=lambda p:-p['over15']) if p['over15']>=80 and p is not top and p['hora']>K.get('desde','00:00')]
     s.append(slide(f'''<div class="disp oro" style="position:absolute;top:120px;left:0;right:0;text-align:center;font-size:90px">Más pronósticos del día</div>
-<div style="position:absolute;top:230px;left:0;right:0;text-align:center;font-size:30px;color:#9fb2a6">Over 1.5 de 80 % o más · <span class="verde">Over 1.5</span> · Over 2.5</div>
+<div style="position:absolute;top:230px;left:0;right:0;text-align:center;font-size:30px;color:#9fb2a6">80 % o más de probabilidad de 2+ goles · <span class="verde">2+ goles</span> · 3+ goles</div>
 <div class="caja" style="position:absolute;left:50px;right:50px;top:300px">{''.join(fila(p) for p in otros[:8])}</div>'''))
     # 4 auditoría
     A=K['auditoria']
@@ -134,11 +137,12 @@ def historia_acierto(A):
  <div style="text-align:center;font-size:32px;font-weight:600">{e(A['liga'])}</div>
  <div class="caja" style="padding:28px;display:grid;gap:20px;text-align:center">
   <div><div style="font-size:30px;color:#9fb2a6">RESULTADO FINAL</div><div class="disp oro" style="font-size:150px">{e(A['resultado'])}</div></div>
-  <div style="display:flex;justify-content:space-between;align-items:center"><span class="disp" style="font-size:44px">Dimos Over 1.5</span><span class="disp verde" style="font-size:80px">{e(A['over15'])}%</span></div>
-  <div class="disp verde" style="font-size:42px;white-space:normal">✔ {e(A['goles'])} goles · Over 1.5 cumplido</div>
+  <div style="display:flex;justify-content:space-between;align-items:center"><span class="disp" style="font-size:44px">Dijimos 2+ goles</span><span class="disp verde" style="font-size:80px">{pc(float(str(A['over15']).replace(',','.')))}%</span></div>
+  <div class="disp verde" style="font-size:42px;white-space:normal">✔ Hubo {e(A['goles'])} goles</div>
  </div>
  <div class="caja" style="padding:22px 26px;font-size:30px;line-height:1.35;text-align:center">Pronóstico sellado a las <b class="dor">{e(A['sellado'])}</b>, antes del partido, y nunca modificado. Aciertos y fallos en <b>gol-elite-pro.netlify.app/galeria.html</b></div>
 </div>
+<div style="position:absolute;left:0;right:0;bottom:78px;padding:12px 40px;background:rgba(3,10,7,.88);text-align:center;font-size:23px;color:#cfe">2+ goles = Over 1.5: 2 goles o más en el partido, sin importar quién gane · 3+ goles = Over 2.5</div>
 <div class="pie"><span>Modelo Nova Gol 4.0 · auditoría pública</span><span class="legal">+18 · No garantiza resultados</span></div>
 </div>'''
 

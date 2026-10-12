@@ -1,8 +1,46 @@
-{"local":"Levante","fecha_larga":"Lunes 12 de octubre de 2026","desde":"06:12",
- "contexto":["Jornada 8 de LaLiga · Ciutat de València · 14:00 hora de Ecuador.",
+{
+ "local": "Levante",
+ "fecha_larga": "Lunes 12 de octubre de 2026",
+ "desde": "06:12",
+ "contexto": [
+  "Jornada 8 de LaLiga · Ciutat de València · 14:00 hora de Ecuador.",
   "Los partidos del Levante en casa promedian 6,50 goles (13 en 2): muestra corta, por eso el modelo la contrae hacia la media de la liga.",
-  "Sevilla marca 1,67 por partido fuera (5 en 3); en los últimos 6 duelos ganó 4 y el Levante 2 (Comuniate)."],
- "auditoria":{"titulo":"Domingo 11 de octubre · 19 partidos auditados con resultados oficiales",
-  "tiles":[["1/1","GOL ÉLITE · Over 1.5","oro"],["14/16","Over 1.5 de 70 % o más (88 %)","verde"],["1/1","Over 2.5 con señal (100 %)",""],["2/19","Marcadores exactos","dor"]],
-  "nota":"Partido del día: Atlético MG 2-1 Santos ✔. Fallos en Over 1.5: U. Católica 0-1 Macará (82,3 %) y Flamengo 1-0 Fluminense (79,4 %). Publicamos aciertos y fallos: pronósticos sellados antes de cada partido."},
- "acierto":{"fecha":"domingo 11 de octubre","local":"Atletico MG","visita":"Santos","liga":"Brasileirão Serie A · fecha 30","resultado":"2-1","goles":"3","over15":"85,0","sellado":"08:41 ECU del 11-oct"}}
+  "Sevilla marca 1,67 por partido fuera (5 en 3); en los últimos 6 duelos ganó 4 y el Levante 2 (Comuniate)."
+ ],
+ "auditoria": {
+  "titulo": "Domingo 11 de octubre · 19 partidos auditados con resultados oficiales",
+  "tiles": [
+   [
+    "1/1",
+    "GOL ÉLITE: hubo 2+ goles",
+    "oro"
+   ],
+   [
+    "14/16",
+    "Pronósticos de 70 % o más: hubo 2+ goles (88 %)",
+    "verde"
+   ],
+   [
+    "1/1",
+    "Señal de 3+ goles cumplida (100 %)",
+    ""
+   ],
+   [
+    "2/19",
+    "Marcadores exactos",
+    "dor"
+   ]
+  ],
+  "nota": "Partido del día: Atlético MG 2-1 Santos ✔ (dijimos 85 % de 2+ goles; hubo 3 goles). No se cumplió en: U. Católica 0-1 Macará (dijimos 82 %; hubo 1 gol) y Flamengo 1-0 Fluminense (dijimos 79 %; hubo 1 gol). Publicamos aciertos y fallos: pronósticos sellados antes de cada partido."
+ },
+ "acierto": {
+  "fecha": "domingo 11 de octubre",
+  "local": "Atletico MG",
+  "visita": "Santos",
+  "liga": "Brasileirão Serie A · fecha 30",
+  "resultado": "2-1",
+  "goles": "3",
+  "over15": "85,0",
+  "sellado": "08:41 ECU del 11-oct"
+ }
+}

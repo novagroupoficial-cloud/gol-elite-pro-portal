@@ -1,6 +1,6 @@
 # Modelo oficial de carrusel · Gol Élite Pro (aprobado 11-oct-2026)
 
-Una imagen por partido. Orden: por hora de inicio. Partidos: los de Over 1.5 ≥80 % que no hayan empezado (el partido del día va primero si se hace carrusel del día).
+Una imagen por partido. Orden: por hora de inicio. Partidos: los de 80 % o más de probabilidad de 2 goles o más (Over 1.5) que no hayan empezado (el partido del día va primero si se hace carrusel del día).
 Se entrega como PROMPT para el generador de imágenes del equipo (Gemini/ChatGPT), uno completo por partido, en redes/<fecha>/prompts-carrusel.md.
 
 ## Reglas
@@ -17,5 +17,12 @@ Se entrega como PROMPT para el generador de imágenes del equipo (Gemini/ChatGPT
 > • {dato de promedio de goles en sus partidos de casa o de visita, el más llamativo}
 > • {VISITANTE} DE VISITA: marca {GF/PJ} y recibe {GC/PJ} goles por partido
 > • {posición/puntos/forma/goleadores — solo si están verificados}
-> Al final, un panel destacado más grande titulado "NUESTRO PRONÓSTICO": "PROBABILIDAD OVER 1.5: {x,x}%" (número enorme en verde neón), "Over 2.5: {x,x}%" (más pequeño) y "MARCADOR SUGERIDO: {m-m}" (grande, en dorado).
-> Abajo, un botón dorado "¡SÍGUENOS!" y en letra pequeña "+18 · Probabilidades estadísticas, no garantías". Texto en español, legible y sin errores.
+> Al final, un panel destacado más grande titulado "NUESTRO PRONÓSTICO": "PROBABILIDAD DE 2 GOLES O MÁS: {xx}%" (número enorme en verde neón), "3 goles o más: {xx}%" (más pequeño) y "MARCADOR SUGERIDO: {m-m}" (grande, en dorado).
+> Abajo, un botón dorado "¡SÍGUENOS!" y en letra pequeña "2+ goles = Over 1.5: 2 goles o más en el partido, sin importar quién gane · +18 · Probabilidades estadísticas, no garantías". Texto en español, legible y sin errores.
+
+
+## Regla de porcentajes (aprobada por Marco, 12-oct-2026)
+- Nunca un porcentaje suelto: siempre "X % de probabilidad de 2 goles o más" (Over 1.5) o "de 3 goles o más" (Over 2.5).
+- En redes, número entero hacia abajo (89,9 → 89 %), así nunca cruza de categoría; el decimal sellado queda en el portal.
+- En los aciertos: "Dijimos X % de 2+ goles · Hubo N goles".
+- Siempre la aclaración: "2+ goles = Over 1.5: 2 goles o más en el partido, sin importar quién gane".

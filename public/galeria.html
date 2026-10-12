@@ -44,7 +44,7 @@ dialog form{text-align:right}dialog button{font:700 15px var(--body);background:
 <main class="wrap">
 <section><h1>Galería de aciertos</h1>
 <p class="intro">Constancia de nuestras predicciones con el modelo Nova Gol 4.0. Cada pronóstico se publica y se sella antes del inicio del partido, y no se modifica después. Aquí guardamos el resultado de cada jornada, con aciertos y fallos.</p>
-<p class="intro" style="margin-top:6px"><b>Cómo leer:</b> “2+ goles” (Over 1.5) es la probabilidad de que haya 2 goles o más en el partido, sin importar quién gane; “3+ goles” (Over 2.5), 3 goles o más.</p></section>
+<p class="intro" style="margin-top:6px"><b>¿Qué es Over 1.5?</b> Que en el partido haya 2 goles o más, sin importar quién gane. Over 2.5 = 3 goles o más.</p></section>
 <section class="tot" id="totales" aria-label="Acumulado"></section>
 <section id="dias" style="display:grid;gap:22px"><p class="vacio">Cargando galería…</p></section>
 <p class="legal">Probabilidades estadísticas basadas en datos históricos; no garantizan resultados. Contenido para mayores de 18 años. <a href="/terminos.html">Términos</a> · <a href="/privacidad.html">Privacidad</a></p>
@@ -66,17 +66,15 @@ dialog form{text-align:right}dialog button{font:700 15px var(--body);background:
     var pct=function(x){return x[1]?(Math.round(x[0]*1000/x[1])/10).toString().replace('.',',')+' %':'—'};
     document.getElementById('totales').innerHTML=
       '<div class="k"><b>'+H.length+'</b><span>Jornadas auditadas</span></div>'+
-      '<div class="k"><b>'+ac.elite[0]+'/'+ac.elite[1]+'</b><span>GOL ÉLITE: hubo 2+ goles ('+pct(ac.elite)+')</span></div>'+
-      '<div class="k"><b>'+ac.o15[0]+'/'+ac.o15[1]+'</b><span>Pronósticos de 70 % o más: hubo 2+ goles ('+pct(ac.o15)+')</span></div>'+
-      '<div class="k"><b>'+ac.o25[0]+'/'+ac.o25[1]+'</b><span>Señal de 3+ goles cumplida ('+pct(ac.o25)+')</span></div>';
-    // Texto claro para el público; los datos guardados no se modifican
-    var claro=function(t){return t.replace(/^GOL ÉLITE · Over 1\.5/,'GOL ÉLITE: hubo 2+ goles').replace(/^Over 1\.5 de 70 % o más/,'Pronósticos de 70 % o más: hubo 2+ goles').replace(/^Over 2\.5 con señal/,'Señal de 3+ goles cumplida')};
+      '<div class="k"><b>'+ac.elite[0]+'/'+ac.elite[1]+'</b><span>GOL ÉLITE · Over 1.5 ('+pct(ac.elite)+')</span></div>'+
+      '<div class="k"><b>'+ac.o15[0]+'/'+ac.o15[1]+'</b><span>Over 1.5 de 70 % o más ('+pct(ac.o15)+')</span></div>'+
+      '<div class="k"><b>'+ac.o25[0]+'/'+ac.o25[1]+'</b><span>Over 2.5 con señal ('+pct(ac.o25)+')</span></div>';
     var esc=function(s){var e=document.createElement('i');e.textContent=s;return e.innerHTML};
     document.getElementById('dias').innerHTML=H.map(function(d){
       return '<article class="dia" id="d'+d.fecha+'">'+
         (d.imagen?'<button type="button" data-img="'+esc(d.imagen)+'" aria-label="Ampliar imagen del '+esc(d.titulo)+'"><img loading="lazy" src="'+esc(d.imagen)+'" alt="Resultados del '+esc(d.titulo)+'"></button>':'<div></div>')+
         '<div class="info"><div class="sello">Jornada auditada · '+(d.partidos||'')+' partidos</div><div class="fecha">'+esc(d.titulo)+'</div>'+
-        '<div class="res">'+d.resumen.map(function(r){return '<div><b>'+esc(r[0])+'</b><span>'+esc(claro(r[1]))+'</span></div>'}).join('')+'</div>'+
+        '<div class="res">'+d.resumen.map(function(r){return '<div><b>'+esc(r[0])+'</b><span>'+esc(r[1])+'</span></div>'}).join('')+'</div>'+
         (d.aciertos_destacados?'<div><b>Aciertos destacados</b><ul>'+d.aciertos_destacados.map(function(x){return '<li>'+esc(x)+' ✔</li>'}).join('')+'</ul></div>':'')+
         (d.fallos?'<p><b>Fallos:</b> '+esc(d.fallos)+'</p>':'')+'</div></article>';
     }).join('');

@@ -55,13 +55,13 @@ def card(k,big=False):
 <div class="nb"><div class="news-top">{chips(p)}<span class="live" hidden>En juego / jugado</span></div>
 <h3><a href="{url}" target="_blank" rel="noopener">{e(tit)}</a></h3>
 <div class="src">{e(medio)} · <a href="{url}" target="_blank" rel="noopener">Leer la noticia ↗</a></div>
-<div class="odds"><div class="odd"><span>2+ goles</span><b>{f1(p['over15'])}%</b></div><div class="odd"><span>3+ goles</span><b>{f1(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div></div></article>'''
+<div class="odds"><div class="odd"><span>Over 1.5</span><b>{f1(p['over15'])}%</b></div><div class="odd"><span>Over 2.5</span><b>{f1(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div></div></article>'''
 top=max(P,key=lambda p:p['over15'])
 sec1=''.join(card(k) for k in PRED if k!=key(top))
 sec2=''.join(card(k) for k in DEST)
 def goles(r):
     m=re.match(r'\s*(\d+)-(\d+)',r); return int(m[1])+int(m[2]) if m else '?'
-acier=''.join(f'''<a class="ac" href="{u}" target="_blank" rel="noopener"><span class="ac-ok">✔</span><div><b>{e(m)}</b><span class="ac-r">{e(r)}</span><small>Dijimos {e(pc.split(' · ')[0])} de 2+ goles · hubo {goles(r)} goles{(' · '+e(pc.split(' · ')[1])) if ' · ' in pc else ''} · {e(md)} ↗</small></div></a>''' for m,r,pc,md,u in ACIERTOS)
+acier=''.join(f'''<a class="ac" href="{u}" target="_blank" rel="noopener"><span class="ac-ok">✔</span><div><b>{e(m)}</b><span class="ac-r">{e(r)}</span><small>Dimos Over 1.5 al {e(pc.split(' · ')[0])} · hubo {goles(r)} goles{(' · '+e(pc.split(' · ')[1])) if ' · ' in pc else ''} · {e(md)} ↗</small></div></a>''' for m,r,pc,md,u in ACIERTOS)
 def llegan(k):
     p=idx.get(k)
     if not p: return ''
@@ -71,7 +71,7 @@ def llegan(k):
     return f'''<article class="ll"><div class="ll-h"><span class="lg">{NOM[p['liga']]} · {p['hora']} ECU</span>{chips(p)}</div>
 <h3>{e(n(p['local']))} <span>vs</span> {e(n(p['visita']))}</h3>
 <div class="ll-k"><div><b>{f1(gfL/pjL)}</b><span>GF casa {e(n(p['local']))}</span></div><div><b>{f1(gcL/pjL)}</b><span>GC casa</span></div><div><b>{f1(gfV/pjV)}</b><span>GF fuera {e(n(p['visita']))}</span></div><div><b>{f1(gcV/pjV)}</b><span>GC fuera</span></div></div>
-<ul>{li}</ul><div class="ll-p"><span>2+ goles <b>{f1(p['over15'])}%</b></span><span>3+ goles <b>{f1(p['over25'])}%</b></span><span>Marcador <b>{p['marcador']}</b></span></div><small class="src">{fu}</small></article>'''
+<ul>{li}</ul><div class="ll-p"><span>Over 1.5 <b>{f1(p['over15'])}%</b></span><span>Over 2.5 <b>{f1(p['over25'])}%</b></span><span>Marcador <b>{p['marcador']}</b></span></div><small class="src">{fu}</small></article>'''
 secll=''.join(llegan(k) for k in sorted(LLEGAN,key=lambda k:-idx[k]['over15'] if k in idx else 0))
 
 
@@ -85,7 +85,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
     rows+=f'''<details class="ev {c}" data-l="{p['liga']}" data-ko="{p['hora']}"><summary>
 <div class="ev-t"><span class="ko">{p['hora']}</span><span class="live" hidden>●</span></div>
 <div class="ev-m"><span class="lg">{NOM[p['liga']]}</span><span class="tm">{e(n(p['local']))}</span><span class="tm">{e(n(p['visita']))}</span></div>
-<div class="ev-o"><div class="odd {'hot' if p['over15']>=80 else ''}"><span>2+ goles</span><b>{f1(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>3+ goles</span><b>{f1(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
+<div class="ev-o"><div class="odd {'hot' if p['over15']>=80 else ''}"><span>Over 1.5</span><b>{f1(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{f1(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
 SIN=['U. de Chile–Ñublense (Chile)']  # sin tabla casa/fuera verificable
@@ -183,6 +183,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 /* home */.home{{display:inline-flex;align-items:center;gap:6px;background:#e6b84a;color:#1b1403;font:700 14px system-ui,sans-serif;padding:8px 12px;border-radius:999px;text-decoration:none;flex-shrink:0}}.home:hover{{background:#fff1b8}}
 .fab{{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:9;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:#e6b84a;color:#1b1403;box-shadow:0 6px 20px rgba(0,0,0,.45),0 0 0 2px #0e1c16;text-decoration:none}}.fab svg{{width:24px;height:24px}}.fab:hover{{background:#fff1b8}}
 .hide{{display:none}}
+.nota-over{{margin:-12px 0 0;padding:10px 14px;border-left:4px solid var(--gold);background:var(--panel);border-radius:4px;font-size:14px;color:var(--muted)}} .nota-over b{{color:var(--ink)}}
 .hero{{position:relative;display:grid;grid-template-columns:240px minmax(0,1fr);gap:0;border:2px solid var(--gold);border-radius:8px;overflow:hidden;background:linear-gradient(120deg,#0b2a1b,#06110c 60%);box-shadow:0 0 30px rgba(46,232,138,.12)}}
 .hero img{{width:100%;height:100%;object-fit:cover;object-position:top;display:block;max-width:100%}}
 .hero-b{{padding:20px 22px;display:grid;gap:10px;align-content:center}}
@@ -208,24 +209,25 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Lunes 12 de octubre de 2026 · sellado 06:12 ECU</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
-<div class="odds"><div class="odd hot"><span>2+ goles</span><b>{f1(top['over15'])}%</b></div><div class="odd hot"><span>3+ goles</span><b>{f1(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
-<p>{f1(top['over15'])} % de probabilidad de que haya 2 goles o más en el partido, sin importar quién gane, y {f1(top['over25'])} % de que haya 3 o más. Modelo Nova Gol 4.0 con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK[key(top)][1])} · <a href="{LINK[key(top)][2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
-<section id="aciertos"><div class="sh"><h2>¡Acertamos ayer!</h2><p>Domingo 11 de octubre · hubo 2 goles o más en 17 de 19 partidos · toca para ver el resultado en su medio</p></div>
+<div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{f1(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{f1(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
+<p>Probabilidades del modelo Nova Gol 4.0, calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK[key(top)][1])} · <a href="{LINK[key(top)][2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
+<p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
+<section id="aciertos"><div class="sh"><h2>¡Acertamos ayer!</h2><p>Domingo 11 de octubre · Over 1.5 en 17 de 19 partidos · toca para ver el resultado en su medio</p></div>
 <div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
-<section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>80 % o más de probabilidad de 2 goles o más · toca una noticia para leerla en su medio</p></div>
+<section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1}</div></section>
 <section id="destacados"><div class="sh"><h2>Lo más importante del lunes</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Lunes 12 de octubre de 2026 · pronósticos sellados a las 06:12 y 06:25 (hora de Ecuador) · toca un partido para ver sus datos</p><p style="flex-basis:100%"><b style="color:var(--ink)">2+ goles</b> = probabilidad de 2 goles o más en el partido (Over 1.5), sin importar quién gane · <b style="color:var(--ink)">3+ goles</b> = 3 goles o más (Over 2.5)</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Lunes 12 de octubre de 2026 · pronósticos sellados a las 06:12 y 06:25 (hora de Ecuador) · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
 <section class="box" id="historial"><h3>Auditoría del domingo 11</h3>
-<div class="kpis"><div class="kpi g"><b>1/1</b><span>GOL ÉLITE: hubo 2+ goles</span></div><div class="kpi"><b>14/16</b><span>Pronósticos de 70 % o más: hubo 2+ goles (88 %)</span></div><div class="kpi"><b>1/1</b><span>Señal de 3+ goles cumplida (100 %)</span></div><div class="kpi"><b>2/19</b><span>Marcadores exactos</span></div></div>
-<p class="legal">Partido del día: Atlético MG 2-1 Santos (dijimos 85,0 % de 2+ goles, sellado 08:41; hubo 3 goles) ✔. Fallos: U. Católica 0-1 Macará y Flamengo 1-0 Fluminense. Acumulado de la galería: 6/6 GOL ÉLITE y 35/41 pronósticos de 70 % o más con 2+ goles (85 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
-<section class="box"><h3>Cómo leer los porcentajes</h3><p class="legal" style="margin:0"><b style="color:var(--ink)">2+ goles</b> (Over 1.5): probabilidad de que haya 2 goles o más en el partido, sin importar quién gane. <b style="color:var(--ink)">3+ goles</b> (Over 2.5): 3 goles o más.</p><ul><li><span class="badge elite">GOL ÉLITE</span> 90 % o más de 2+ goles</li><li><span class="badge r80">Rango 80</span> de 80 % a 89,9 %</li><li><span class="badge r70">Rango 70</span> de 70 % a 79,9 %</li><li><span class="badge r00">Menos de 70</span> no recomendado</li></ul></section>
+<div class="kpis"><div class="kpi g"><b>1/1</b><span>GOL ÉLITE · Over 1.5</span></div><div class="kpi"><b>14/16</b><span>Over 1.5 de 70 % o más (88 %)</span></div><div class="kpi"><b>1/1</b><span>Over 2.5 con señal (100 %)</span></div><div class="kpi"><b>2/19</b><span>Marcadores exactos</span></div></div>
+<p class="legal">Partido del día: Atlético MG 2-1 Santos (Over 1.5 al 85,0 %, sellado 08:41; hubo 3 goles) ✔. Fallos: U. Católica 0-1 Macará y Flamengo 1-0 Fluminense. Acumulado de la galería: 6/6 GOL ÉLITE y 35/41 en Over 1.5 de 70 % o más (85 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
+<section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 90 % o más</li><li><span class="badge r80">Rango 80</span> de 80 % a 89,9 %</li><li><span class="badge r70">Rango 70</span> de 70 % a 79,9 %</li><li><span class="badge r00">Menos de 70</span> no recomendado</li></ul></section>
 <section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos encontrados de las ligas principales (Premier League, LaLiga, Brasileirão y Liga Profesional) tienen datos verificados. Sin jornada hoy en Serie A, Bundesliga, Ligue 1, Eredivisie, Liga Portugal, Liga MX, MLS, LigaPro, Colombia, Perú ni Chile.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
 <p>Las noticias enlazan a sus medios de origen. Las imágenes de los partidos son ilustraciones propias de Gol Élite Pro.</p><p>Estadísticas de local y visitante: SoccerSTATS (Argentina), Meu Timão (Brasileirão), Fútbol Total (LaLiga) y resultados de Sports Mole y Football Web Pages (Premier League), verificadas con sumas cruzadas.</p></section>

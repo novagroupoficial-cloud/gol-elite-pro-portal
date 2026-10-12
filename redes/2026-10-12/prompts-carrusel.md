@@ -1,6 +1,6 @@
 # Prompts de carrusel · Lunes 12 de octubre de 2026
 
-Modelo oficial: `tools/plantilla-carrusel.md`. Partidos con 80 % o más de probabilidad de 2 goles o más (Over 1.5) que aún no han empezado a la hora de esta entrega (sellado 06:12 ECU), en orden de hora (a igual hora, primero el partido del día). Las cifras de pronóstico salen de las selladas a las 06:12 ECU en `data/2026-10-12/pronosticos.json` (no se recalculan); en redes se muestran en entero hacia abajo (89,9 → 89 %); las estadísticas salen de las tablas casa/fuera de `tools/datos.py`, divididas en Python.
+Modelo oficial: `tools/plantilla-carrusel.md`. Partidos de Over 1.5 de 80 % o más que aún no han empezado a la hora de esta entrega (sellado 06:12 ECU), en orden de hora (a igual hora, primero el partido del día). Las cifras de pronóstico salen de las selladas a las 06:12 ECU en `data/2026-10-12/pronosticos.json` (no se recalculan); en redes se muestran en entero hacia abajo (89,9 → 89 %); las estadísticas salen de las tablas casa/fuera de `tools/datos.py`, divididas en Python.
 
 ---
 
@@ -12,8 +12,8 @@ Modelo oficial: `tools/plantilla-carrusel.md`. Partidos con 80 % o más de proba
 > • Los partidos del LEVANTE en casa promedian 6,50 goles (13 en 2)
 > • SEVILLA DE VISITA: marca 1,67 y recibe 0,67 goles por partido
 > • Últimos 6 duelos: 4 victorias del Sevilla y 2 del Levante
-> Al final, un panel destacado más grande titulado "NUESTRO PRONÓSTICO": "PROBABILIDAD DE 2 GOLES O MÁS: 89%" (número enorme en verde neón), "3 goles o más: 73%" (más pequeño) y "MARCADOR SUGERIDO: 1-1" (grande, en dorado).
-> Abajo, un botón dorado "¡SÍGUENOS!" y en letra pequeña "2+ goles = Over 1.5: 2 goles o más en el partido, sin importar quién gane · +18 · Probabilidades estadísticas, no garantías". Texto en español, legible y sin errores.
+> Al final, un panel destacado más grande titulado "NUESTRO PRONÓSTICO": "PROBABILIDAD OVER 1.5: 89%" (número enorme en verde neón), "Over 2.5: 73%" (más pequeño) y "MARCADOR SUGERIDO: 1-1" (grande, en dorado).
+> Abajo, un botón dorado "¡SÍGUENOS!" y en letra pequeña "Over 1.5 = 2 goles o más en el partido, sin importar quién gane · +18 · Probabilidades estadísticas, no garantías". Texto en español, legible y sin errores.
 
 ---
 
@@ -25,8 +25,8 @@ Modelo oficial: `tools/plantilla-carrusel.md`. Partidos con 80 % o más de proba
 > • Los partidos del NEWCASTLE de visita promedian 3,50 goles (7 en 2)
 > • NEWCASTLE DE VISITA: marca 1,50 y recibe 2,00 goles por partido
 > • Coventry, recién ascendido, llega en zona de descenso
-> Al final, un panel destacado más grande titulado "NUESTRO PRONÓSTICO": "PROBABILIDAD DE 2 GOLES O MÁS: 82%" (número enorme en verde neón), "3 goles o más: 60%" (más pequeño) y "MARCADOR SUGERIDO: 1-1" (grande, en dorado).
-> Abajo, un botón dorado "¡SÍGUENOS!" y en letra pequeña "2+ goles = Over 1.5: 2 goles o más en el partido, sin importar quién gane · +18 · Probabilidades estadísticas, no garantías". Texto en español, legible y sin errores.
+> Al final, un panel destacado más grande titulado "NUESTRO PRONÓSTICO": "PROBABILIDAD OVER 1.5: 82%" (número enorme en verde neón), "Over 2.5: 60%" (más pequeño) y "MARCADOR SUGERIDO: 1-1" (grande, en dorado).
+> Abajo, un botón dorado "¡SÍGUENOS!" y en letra pequeña "Over 1.5 = 2 goles o más en el partido, sin importar quién gane · +18 · Probabilidades estadísticas, no garantías". Texto en español, legible y sin errores.
 
 ---
 
@@ -38,8 +38,8 @@ Modelo oficial: `tools/plantilla-carrusel.md`. Partidos con 80 % o más de proba
 > • Los partidos del BOTAFOGO de visita promedian 3,00 goles (42 en 14)
 > • BOTAFOGO DE VISITA: marca 1,21 y recibe 1,79 goles por partido
 > • Coritiba 38 puntos · Botafogo 35 puntos, cerca de la zona de descenso
-> Al final, un panel destacado más grande titulado "NUESTRO PRONÓSTICO": "PROBABILIDAD DE 2 GOLES O MÁS: 80%" (número enorme en verde neón), "3 goles o más: 56%" (más pequeño) y "MARCADOR SUGERIDO: 1-1" (grande, en dorado).
-> Abajo, un botón dorado "¡SÍGUENOS!" y en letra pequeña "2+ goles = Over 1.5: 2 goles o más en el partido, sin importar quién gane · +18 · Probabilidades estadísticas, no garantías". Texto en español, legible y sin errores.
+> Al final, un panel destacado más grande titulado "NUESTRO PRONÓSTICO": "PROBABILIDAD OVER 1.5: 80%" (número enorme en verde neón), "Over 2.5: 56%" (más pequeño) y "MARCADOR SUGERIDO: 1-1" (grande, en dorado).
+> Abajo, un botón dorado "¡SÍGUENOS!" y en letra pequeña "Over 1.5 = 2 goles o más en el partido, sin importar quién gane · +18 · Probabilidades estadísticas, no garantías". Texto en español, legible y sin errores.
 
 ---
 
@@ -51,8 +51,8 @@ Modelo oficial: `tools/plantilla-carrusel.md`. Partidos con 80 % o más de proba
 > • Los partidos de la CHAPECOENSE en casa promedian 3,62 goles (47 en 13)
 > • ATHLETICO-PR DE VISITA: marca 1,29 y recibe 1,50 goles por partido
 > • Athletico 4.º con 50 puntos · Chapecoense 20.ª con 18
-> Al final, un panel destacado más grande titulado "NUESTRO PRONÓSTICO": "PROBABILIDAD DE 2 GOLES O MÁS: 86%" (número enorme en verde neón), "3 goles o más: 66%" (más pequeño) y "MARCADOR SUGERIDO: 1-1" (grande, en dorado).
-> Abajo, un botón dorado "¡SÍGUENOS!" y en letra pequeña "2+ goles = Over 1.5: 2 goles o más en el partido, sin importar quién gane · +18 · Probabilidades estadísticas, no garantías". Texto en español, legible y sin errores.
+> Al final, un panel destacado más grande titulado "NUESTRO PRONÓSTICO": "PROBABILIDAD OVER 1.5: 86%" (número enorme en verde neón), "Over 2.5: 66%" (más pequeño) y "MARCADOR SUGERIDO: 1-1" (grande, en dorado).
+> Abajo, un botón dorado "¡SÍGUENOS!" y en letra pequeña "Over 1.5 = 2 goles o más en el partido, sin importar quién gane · +18 · Probabilidades estadísticas, no garantías". Texto en español, legible y sin errores.
 
 ---
 

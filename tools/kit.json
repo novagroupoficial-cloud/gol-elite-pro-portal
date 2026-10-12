@@ -12,17 +12,17 @@
   "tiles": [
    [
     "1/1",
-    "GOL ÉLITE: hubo 2+ goles",
+    "GOL ÉLITE · Over 1.5",
     "oro"
    ],
    [
     "14/16",
-    "Pronósticos de 70 % o más: hubo 2+ goles (88 %)",
+    "Over 1.5 de 70 % o más (88 %)",
     "verde"
    ],
    [
     "1/1",
-    "Señal de 3+ goles cumplida (100 %)",
+    "Over 2.5 con señal (100 %)",
     ""
    ],
    [
@@ -31,7 +31,7 @@
     "dor"
    ]
   ],
-  "nota": "Partido del día: Atlético MG 2-1 Santos ✔ (dijimos 85 % de 2+ goles; hubo 3 goles). No se cumplió en: U. Católica 0-1 Macará (dijimos 82 %; hubo 1 gol) y Flamengo 1-0 Fluminense (dijimos 79 %; hubo 1 gol). Publicamos aciertos y fallos: pronósticos sellados antes de cada partido."
+  "nota": "Partido del día: Atlético MG 2-1 Santos ✔ (Over 1.5 al 85 %; hubo 3 goles). No se cumplió en: U. Católica 0-1 Macará (82 %; hubo 1 gol) y Flamengo 1-0 Fluminense (79 %; hubo 1 gol). Publicamos aciertos y fallos: pronósticos sellados antes de cada partido."
  },
  "acierto": {
   "fecha": "domingo 11 de octubre",

@@ -22,6 +22,10 @@ Netlify publica automáticamente cada cambio en la rama `main`.
 5. Auditoría del día anterior: resultados reales con fuentes → `data/AYER/auditoria.json` y bloque de auditoría en la portada.
 6. Commit y push a `main`; Netlify publica solo.
 
+## Estadísticas del rango 80–90 % (Dashboard)
+- El Dashboard lee `public/api/hoy.json` y publica `public/api/estadisticas.json` (copia sellada en `data/AAAA-MM-DD/estadisticas.json`). No modifica ningún pronóstico.
+- Formato y flujo completos en `tools/contrato-estadisticas.md`. El portal toma de ahí las fichas, los "datos clave" del carrusel y el partido destacado.
+
 ## Galería de aciertos (public/galeria.html)
 - Datos en `public/historial/historial.json` (una entrada por jornada auditada: fecha, título, imagen, resumen, aciertos destacados, fallos).
 - Imágenes en `public/historial/AAAA-MM-DD.jpg` (la imagen de resultados que sube el equipo; si no hay, la lámina "Así nos fue ayer" del kit).

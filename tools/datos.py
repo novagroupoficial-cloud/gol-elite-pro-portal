@@ -58,3 +58,6 @@ for _k,_d in L.items():
     assert gfc==sum(v[2] for v in f.values()), (_k,'GF casa != GC fuera')
     assert gcc==sum(v[1] for v in f.values()), (_k,'GC casa != GF fuera')
     _d['HG'],_d['AG'],_d['PJ']=gfc/pj,gcc/pj,pj
+
+# ITA: soccerstats.com latest.asp?league=italy (Serie A 2026/27, 56 partidos, act. 12-oct; Atalanta casa 2-1,1-0,1-2; Venezia fuera 0-2,2-3)
+L['ITA']=dict(casa={'Atalanta':(3,4,3)},fuera={'Venezia':(2,2,5)},HG=86/56,AG=75/56)

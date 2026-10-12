@@ -2,6 +2,7 @@ import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
 P=[ # hora (Ecuador), liga, local, visita — lunes 12-oct-2026
+ ('11:30','ITA','Atalanta','Venezia'),
  ('14:00','ENG','Coventry','Newcastle'),
  ('14:00','ESP','Levante','Sevilla'),
  ('14:00','BRA','Coritiba','Botafogo'),

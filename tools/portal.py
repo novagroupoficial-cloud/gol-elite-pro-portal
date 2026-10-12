@@ -36,7 +36,7 @@ def stats(p):
 <div><b>Goles esperados</b><span>{f1(p['lambda_local'])} + {f1(p['lambda_visita'])} = {f1(p['goles_esperados'])}</span></div>
 <div><b>Media de la liga</b><span>{f1(p['HG'])} local · {f1(p['AG'])} visitante</span></div></div></div>'''
 
-from enlaces import LINK, PRED, DEST, COL
+from enlaces import LINK, PRED, DEST, COL, ACIERTOS, LLEGAN
 def ink(hexc):
     r,g,b=(int(hexc[i:i+2],16) for i in (1,3,5)); return '#111' if (0.299*r+0.587*g+0.114*b)>150 else '#fff'
 def img(p):
@@ -59,6 +59,19 @@ def card(k,big=False):
 top=max(P,key=lambda p:p['over15'])
 sec1=''.join(card(k) for k in PRED if k!=key(top))
 sec2=''.join(card(k) for k in DEST)
+acier=''.join(f'''<a class="ac" href="{u}" target="_blank" rel="noopener"><span class="ac-ok">✔</span><div><b>{e(m)}</b><span class="ac-r">{e(r)}</span><small>Dimos {e(pc)} · {e(md)} ↗</small></div></a>''' for m,r,pc,md,u in ACIERTOS)
+def llegan(k):
+    p=idx.get(k)
+    if not p: return ''
+    pjL,gfL,gcL=p['casa']; pjV,gfV,gcV=p['fuera']
+    li=''.join(f'<li>{e(x)}</li>' for x in LLEGAN[k] if not x.startswith('Fuente'))
+    fu=''.join(e(x) for x in LLEGAN[k] if x.startswith('Fuente'))
+    return f'''<article class="ll"><div class="ll-h"><span class="lg">{NOM[p['liga']]} · {p['hora']} ECU</span>{chips(p)}</div>
+<h3>{e(n(p['local']))} <span>vs</span> {e(n(p['visita']))}</h3>
+<div class="ll-k"><div><b>{f1(gfL/pjL)}</b><span>GF casa {e(n(p['local']))}</span></div><div><b>{f1(gcL/pjL)}</b><span>GC casa</span></div><div><b>{f1(gfV/pjV)}</b><span>GF fuera {e(n(p['visita']))}</span></div><div><b>{f1(gcV/pjV)}</b><span>GC fuera</span></div></div>
+<ul>{li}</ul><div class="ll-p"><span>Over 1.5 <b>{f1(p['over15'])}%</b></span><span>Over 2.5 <b>{f1(p['over25'])}%</b></span><span>Marcador <b>{p['marcador']}</b></span></div><small class="src">{fu}</small></article>'''
+secll=''.join(llegan(k) for k in sorted(LLEGAN,key=lambda k:-idx[k]['over15'] if k in idx else 0))
+
 
 ligas=[]
 for p in sorted(P,key=lambda p:p['hora']):
@@ -73,7 +86,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if p['over15']>=80 else ''}"><span>O1.5</span><b>{f1(p['over15'])}</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>O2.5</span><b>{f1(p['over25'])}</b></div><div class="odd"><span>Marc.</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=[]  # lunes 12-oct: todos los partidos encontrados de las ligas principales tienen datos verificados
+SIN=['U. de Chile–Ñublense (Chile)']  # sin tabla casa/fuera verificable
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 FOTO=base64.b64encode(open('../assets/presentadora.jpg','rb').read()).decode()
@@ -154,6 +167,17 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 .legal{{font-size:13px;color:var(--muted)}}
 .preview{{background:var(--gold-bg);color:var(--gold2);border:1px dashed var(--gold);border-radius:6px;padding:10px 14px;font-size:14px}}
 @media (max-width:400px){{.logo small{{display:none}} .bar-in{{gap:10px}} .bar .cta{{font-size:12px;padding:6px 8px}} .bar .logo{{font-size:17px}}}}
+.acg{{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}}
+.ac{{display:flex;gap:12px;align-items:center;background:var(--panel);border:1px solid #2a4a38;border-left:4px solid var(--acc);border-radius:6px;padding:12px 14px;text-decoration:none;color:var(--ink)}}
+.ac:hover{{border-color:var(--gold)}} .ac-ok{{font-size:22px;color:var(--acc);font-weight:800}}
+.ac div{{display:grid;min-width:0}} .ac b{{font-size:15px}} .ac-r{{font-family:var(--disp);font-size:28px;font-weight:800;color:var(--gold);line-height:1.1}} .ac small{{color:var(--muted);font-size:12px}}
+.llg{{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}}
+.ll{{background:var(--panel);border:1px solid #2a4a38;border-radius:6px;padding:14px;display:grid;gap:10px;align-content:start}}
+.ll-h{{display:flex;gap:8px;align-items:center;flex-wrap:wrap}} .ll h3{{font-family:var(--disp);font-size:24px;margin:0;line-height:1.1}} .ll h3 span{{color:var(--gold);font-size:18px}}
+.ll-k{{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}} .ll-k div{{background:var(--odd);border-radius:4px;padding:6px;text-align:center;display:grid}}
+.ll-k b{{font-family:var(--disp);font-size:24px;color:var(--acc)}} .ll-k span{{font-size:10.5px;color:var(--muted);line-height:1.2}}
+.ll ul{{margin:0;padding-left:18px;font-size:14px;display:grid;gap:4px}}
+.ll-p{{display:flex;gap:12px;flex-wrap:wrap;font-size:14px;border-top:1px dashed var(--line);padding-top:8px}} .ll-p b{{color:var(--gold)}}
 /* home */.home{{display:inline-flex;align-items:center;gap:6px;background:#e6b84a;color:#1b1403;font:700 14px system-ui,sans-serif;padding:8px 12px;border-radius:999px;text-decoration:none;flex-shrink:0}}.home:hover{{background:#fff1b8}}
 .fab{{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:9;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:#e6b84a;color:#1b1403;box-shadow:0 6px 20px rgba(0,0,0,.45),0 0 0 2px #0e1c16;text-decoration:none}}.fab svg{{width:24px;height:24px}}.fab:hover{{background:#fff1b8}}
 .hide{{display:none}}
@@ -173,7 +197,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 .ev-t{{display:flex;align-items:center;gap:4px}}
 </style>
 <header class="bar"><div class="bar-in"><a class="home" href="/" aria-label="Ir al inicio" title="Inicio"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z" fill="currentColor"/></svg><span>Inicio</span></a><div class="logo">GOL <span>ÉLITE</span> PRO<small>con Nova Gol Analytics</small></div>
-<nav class="menu" aria-label="Principal"><a href="#predicciones">Predicciones</a><a href="#destacados">Destacados</a><a href="#partidos">Partidos</a><a href="/galeria.html">Galería</a></nav>
+<nav class="menu" aria-label="Principal"><a href="#aciertos">Aciertos</a><a href="#predicciones">Predicciones</a><a href="#llegan">Cómo llegan</a><a href="#destacados">Destacados</a><a href="#partidos">Partidos</a><a href="/galeria.html">Galería</a></nav>
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
@@ -184,11 +208,15 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{f1(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{f1(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.0, calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK[key(top)][1])} · <a href="{LINK[key(top)][2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
+<section id="aciertos"><div class="sh"><h2>¡Acertamos ayer!</h2><p>Domingo 11 de octubre · Over 1.5 en 17 de 19 partidos · toca para ver el resultado en su medio</p></div>
+<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1}</div></section>
 <section id="destacados"><div class="sh"><h2>Lo más importante del lunes</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Lunes 12 de octubre de 2026 · pronósticos sellados a las 06:12 (hora de Ecuador) · toca un partido para ver sus datos</p></div>
+<section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
+<div class="llg">{secll}</div></section>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Lunes 12 de octubre de 2026 · pronósticos sellados a las 06:12 y 06:25 (hora de Ecuador) · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>

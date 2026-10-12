@@ -194,5 +194,34 @@
   "categoria": "Rango 70",
   "senal_o25": "sin señal",
   "aviso_mercado": null
+ },
+ {
+  "hora": "11:30",
+  "liga": "ITA",
+  "local": "Atalanta",
+  "visita": "Venezia",
+  "casa": [
+   3,
+   4,
+   3
+  ],
+  "fuera": [
+   2,
+   2,
+   5
+  ],
+  "HG": 1.54,
+  "AG": 1.34,
+  "lambda_local": 1.75,
+  "lambda_visita": 1.09,
+  "goles_esperados": 2.8,
+  "over15": 78.5,
+  "over25": 54.1,
+  "under25": 45.9,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-12 06:25 ECU"
  }
 ]

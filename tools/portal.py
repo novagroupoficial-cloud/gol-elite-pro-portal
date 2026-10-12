@@ -1,9 +1,9 @@
 import json, html, base64, os, sys
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 P=[p for p in json.load(open('pron.json')) if not p.get('sin')]
-NOM={'ENG':'Premier League','ITA':'Serie A','FRA':'Ligue 1','ESP':'LaLiga','BRA':'Brasileirão','MEX':'Liga MX','ECU':'LigaPro'}
-PAIS={'ENG':'Inglaterra','ITA':'Italia','FRA':'Francia','ESP':'España','BRA':'Brasil','MEX':'México','ECU':'Ecuador'}
-ES={'Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasbourg':'Estrasburgo','Deportivo':'Deportivo La Coruña','AC Milan':'Milan','Real Betis':'Betis','Marseille':'Marsella','Racing':'Racing Santander','Atletico MG':'Atlético MG','A. San Luis':'Atlético San Luis','Pumas UNAM':'Pumas'}
+NOM={'ENG':'Premier League','ITA':'Serie A','FRA':'Ligue 1','ESP':'LaLiga','BRA':'Brasileirão','MEX':'Liga MX','ECU':'LigaPro','ARG':'Liga Profesional','GER':'Bundesliga','NED':'Eredivisie','POR':'Liga Portugal','USA':'MLS'}
+PAIS={'ENG':'Inglaterra','ITA':'Italia','FRA':'Francia','ESP':'España','BRA':'Brasil','MEX':'México','ECU':'Ecuador','ARG':'Argentina','GER':'Alemania','NED':'Países Bajos','POR':'Portugal','USA':'EE. UU.'}
+ES={'Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasbourg':'Estrasburgo','Deportivo':'Deportivo La Coruña','AC Milan':'Milan','Real Betis':'Betis','Marseille':'Marsella','Racing':'Racing Santander','Atletico MG':'Atlético MG','A. San Luis':'Atlético San Luis','Pumas UNAM':'Pumas','Coventry':'Coventry City','Newcastle':'Newcastle United','Lanus':'Lanús','Velez Sarsfield':'Vélez Sarsfield','Gimnasia Mendoza':'Gimnasia (Mendoza)','Newells Old Boys':"Newell's Old Boys",'Bragantino':'Red Bull Bragantino','Athletico-PR':'Athletico Paranaense'}
 n=lambda x:ES.get(x,x)
 e=html.escape
 f1=lambda v:f"{v:.1f}".replace('.',',')
@@ -12,47 +12,16 @@ def cat(o):
 def key(p): return f"{p['local']}|{p['visita']}"
 
 # ---- Noticias (hechos de fuentes citadas al pie; texto propio) ----
-NEWS_PRED={
- 'Crystal Palace|Nottm Forest':("El partido con más goles esperados del domingo",
-   "Palace recibe 3,5 goles por partido en Selhurst Park y Forest marca 2,0 por salida: el modelo lo pone en 90,7 % de Over 1.5. Palace llega 15.º, con 11 goles encajados en cinco fechas y bajas de Henderson, Mateta y Tomiyasu, más la sanción de Disasi. En Forest, Igor Jesus se perderá alrededor de un mes y Milenkovic se pierde este partido. Ojo: los tres últimos duelos de Premier entre ellos terminaron 1-1.",[0]),
- 'Sassuolo|AC Milan':("Milan de Amorim visita a un Sassuolo goleador en casa",
-   "Sassuolo marca 2,5 por partido como local y el Milan anota 1,7 fuera: 84,9 % de Over 1.5. El Milan llega quinto con 11 puntos tras golear 3-0 al Lecce; Sassuolo viene de perder 2-1 en Monza. Estupiñán arrastra molestias de la selección y es duda.",[1]),
- 'Atletico MG|Santos':("Santos, una defensa que concede fuera de casa",
-   "Santos encaja 1,6 goles por salida y Atlético MG promedia 1,7 a favor en el Arena MRV: 85,0 % de Over 1.5, el más alto de Sudamérica hoy. Es la fecha 30 del Brasileirão, 14:00 hora de Ecuador.",[2]),
- 'Universidad Católica|Macará':("Católica, la mejor ofensiva local de la LigaPro, recibe al segundo",
-   "Católica hizo 35 goles en 14 partidos de local en la fase inicial (2,5 por partido) y Macará recibió 1,3 por salida: 82,3 % de Over 1.5. Es la fecha 2 del hexagonal: Macará es segundo con 54 puntos y Católica tercera con 51. Goleadores en cancha: Fajardo (11) por Católica; Posse (12) y Campana (10) por Macará.",[3]),
- 'A. San Luis|Santos Laguna':("Santos Laguna, de las defensas más frágiles de visita",
-   "Santos Laguna recibe 2,4 goles por partido fuera de casa y San Luis marca 1,2 en casa: 84,7 % de Over 1.5.",[]),
- 'Pachuca|Necaxa':("Pachuca–Necaxa: dos defensas que conceden",
-   "Pachuca recibe 2,0 por partido en casa y Necaxa 2,0 fuera: 83,7 % de Over 1.5, aunque la muestra es corta (4 y 4 partidos).",[]),
- 'Pumas UNAM|Cruz Azul':("Pumas busca revancha de la final del Clausura",
-   "Cruz Azul fue campeón del Clausura 2026 en el Olímpico Universitario, con gol de Rotondi en el 90+4. Hoy ambos llegan con tres partidos sin ganar; Cruz Azul ha recibido 18 goles en diez fechas y Paradela es duda. Modelo: 81,5 % de Over 1.5.",[4]),
- 'Lazio|Monza':("Monza, de las visitas que más goles reciben",
-   "Monza encaja 2,7 goles por salida y Lazio solo recibe 1,0 en casa: 84,2 % de Over 1.5, con un 1-1 como marcador más probable.",[]),
- 'Nice|Strasbourg':("Estrasburgo: partidos abiertos lejos de casa",
-   "Estrasburgo marca 2,3 y recibe 2,7 por salida; Niza promedia 1,0 a favor en casa: 82,2 % de Over 1.5.",[]),
- 'Racing|Valencia':("Racing Santander hace goles en El Sardinero",
-   "Racing marca 2,3 por partido en casa y recibe 1,7; Valencia hizo solo 0,7 por salida: 80,2 % de Over 1.5, el límite del Rango 80.",[]),
-}
-NEWS_DEST=[
- ('Liverpool|Manchester City',"Clásico en Anfield: el líder perfecto contra un Liverpool golpeado",
-   "Manchester City llega con cinco victorias en cinco fechas de Premier. Liverpool tiene dudas de Isak y Gakpo y bajas en ataque y defensa; Foden cumple sanción en el City. El modelo ve un partido más cerrado de lo que sugiere el cartel: 74,3 % de Over 1.5 y 1-1 como marcador más probable.",[5]),
- ('LDU Quito|Barcelona SC',"Liga–Barcelona en Quito, sin hinchada visitante",
-   "Fecha 2 del hexagonal final, 16:30 en el Rodrigo Paz. Liga ganó 2-1 a Católica en la fecha 1; Barcelona aún no debuta porque su partido con IDV se postergó. Es el partido más cerrado del día para el modelo: 41,0 % de Over 1.5, con 0-0 como marcador más probable. Liga marcó solo 0,9 por partido en casa en la fase inicial.",[6,3]),
- ('Palmeiras|Corinthians',"Dérbi con Corinthians sin técnico titular",
-   "Tras la salida de Fernando Diniz, Corinthians llega con comisión interina (Léo Porto y William Batista). Palmeiras, que recibe solo 0,6 goles por partido en casa, es el local más sólido del Brasileirão. Modelo: 65,1 % de Over 1.5, 1-0 como marcador más probable.",[7]),
- ('Flamengo|Fluminense',"Fla-Flu en la fecha 30",
-   "Flamengo marca 2,0 por partido en casa y recibe 0,7; Fluminense hace 1,4 por salida. Modelo: 79,4 % de Over 1.5 y 55,5 % de Over 2.5.",[]),
-]
+NEWS_PRED={}  # (sin uso en la portada actual)
+NEWS_DEST=[]
 FUENTES=[
- ("Sports Mole · Crystal Palace vs Nottingham Forest","https://www.sportsmole.co.uk/football/crystal-palace/preview/crystal-palace-vs-nottm-forest-prediction-team-news-lineups_606578.html"),
- ("Pazzidifanta · Sassuolo-Milan, probabili formazioni","https://www.pazzidifanta.com/news/sassuolo-milan-probabile-formazione-6a-giornata-serie-a-2026-2027-459799"),
- ("Fútbol Total · Atlético MG vs Santos","https://futboltotal.futbol/partido/atletico-mg-vs-santos-campeonato-brasileno-de-serie-a-2026-10-11"),
- ("Primicias · Fecha 2 del hexagonal final","https://www.primicias.ec/deportes/ligapro/fecha-2-hexagonal-final-boletos-copa-libertadores-134545/"),
- ("Claro Sports · Pumas busca revancha","https://www.clarosports.com/us/cruz-azul-vuelve-a-donde-fue-campeon-pumas-busca-revancha-de-la-final-del-clausura-2026/"),
- ("Khel Now · Liverpool vs Manchester City","https://khelnow.com/football/liverpool-vs-manchester-city-preview-premier-league-202610"),
- ("Primicias · LDU vs Barcelona SC","https://www.primicias.ec/deportes/ligapro/liga-de-quito/ldu-barcelonasc-venta-entradas-precios-fecha2-primer-hexagonal-134100/"),
- ("Tribuna de Jundiaí · Corinthians para el clásico","https://tribunadejundiai.com.br/mais/esportes/corinthians-prepara-comissao-emergencial-para-classico/"),
+ ("Comuniate · Levante-Sevilla, previa jornada 8","https://www.comuniate.com/noticias/38270/levante-sevilla-previa-alineaciones-probables-y-consejos-fantasy-jornada-8-de-laliga"),
+ ("VAVEL · Coventry City vs Newcastle, previa","https://www.vavel.com/en/football/2026/10/09/premier-league/1274500-newcastle-vs-coventry-preview.html"),
+ ("Futebol Interior · cierre de la fecha 30 del Brasileirão","https://www.futebolinterior.com.br/brasileirao-2026-jogos-30a-rodada-segunda-feira/"),
+ ("Valor Final · Chapecoense x Athletico-PR","https://valorfinal.com.br/brasileirao/2026/jogos/chapecoense-x-athletico-pr"),
+ ("Valor Final · Bragantino x Cruzeiro","https://valorfinal.com.br/brasileirao/2026/jogos/bragantino-x-cruzeiro"),
+ ("Todo Jujuy · Lanús vs Vélez","https://www.todojujuy.com/lanus-vs-velez-previa-horario-y-como-llegan-la-fecha-12-del-clausura-n297238"),
+ ("Todo Jujuy · Gimnasia (Mendoza) vs Newell's","https://www.todojujuy.com/gimnasia-mendoza-vs-newells-previa-horario-y-como-llegan-la-fecha-12-del-clausura-n297239"),
 ]
 idx={key(p):p for p in P}
 
@@ -104,7 +73,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if p['over15']>=80 else ''}"><span>O1.5</span><b>{f1(p['over15'])}</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>O2.5</span><b>{f1(p['over25'])}</b></div><div class="odd"><span>Marc.</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=['Juventud LP–Racing (Uruguay)','Benfica–Vitória Guimarães','San Lorenzo–Riestra','Cerro Largo–Albion','UTC–Sporting Cristal','Coquimbo–Colo Colo','Rubio Ñu–Olimpia','Platense–Argentinos','Rosario Central–Ind. Rivadavia','Sport Boys–Alianza Atlético','Jaguares–Tolima','Racing–Belgrano','Libertad–Guaraní','Escorpiones–Saprissa','St. Louis–LA Galaxy','Cusco–Alianza Lima','Talleres–Independiente','América–Medellín']
+SIN=[]  # lunes 12-oct: todos los partidos encontrados de las ligas principales tienen datos verificados
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 FOTO=base64.b64encode(open('../assets/presentadora.jpg','rb').read()).decode()
@@ -208,35 +177,35 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del domingo 11 de octubre; se integrará al portal cuando llegue el código.</div>
+<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del lunes 12 de octubre; se integrará al portal cuando llegue el código.</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Lunes 12 de octubre de 2026 · sellado 06:12 ECU</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{f1(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{f1(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.0, calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK[key(top)][1])} · <a href="{LINK[key(top)][2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del domingo</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del lunes</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Toca un partido para ver sus datos de Nova Gol Analytics</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Lunes 12 de octubre de 2026 · pronósticos sellados a las 06:12 (hora de Ecuador) · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
-<section class="box" id="historial"><h3>Auditoría del sábado 10</h3>
-<div class="kpis"><div class="kpi g"><b>5/5</b><span>GOL ÉLITE · Over 1.5</span></div><div class="kpi"><b>21/25</b><span>Over 1.5 de 70 % o más (84 %)</span></div><div class="kpi"><b>8/11</b><span>Over 2.5 con señal (73 %)</span></div><div class="kpi"><b>3/29</b><span>Marcadores exactos</span></div></div>
-<p class="legal">Fallos: Real Madrid 1-0, Lorient 1-0, Vasco 0-0 y River 1-0. Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
+<section class="box" id="historial"><h3>Auditoría del domingo 11</h3>
+<div class="kpis"><div class="kpi g"><b>1/1</b><span>GOL ÉLITE · Over 1.5</span></div><div class="kpi"><b>14/16</b><span>Over 1.5 de 70 % o más (88 %)</span></div><div class="kpi"><b>1/1</b><span>Over 2.5 con señal (100 %)</span></div><div class="kpi"><b>2/19</b><span>Marcadores exactos</span></div></div>
+<p class="legal">Partido del día: Atlético MG 2-1 Santos (Over 1.5 al 85,0 %, sellado 08:41) ✔. Fallos: U. Católica 0-1 Macará y Flamengo 1-0 Fluminense. Acumulado de la galería: 6/6 GOL ÉLITE y 35/41 en Over 1.5 de 70 % o más (85 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 90 % o más</li><li><span class="badge r80">Rango 80</span> de 80 % a 89,9 %</li><li><span class="badge r70">Rango 70</span> de 70 % a 79,9 %</li><li><span class="badge r00">Menos de 70</span> no recomendado</li></ul></section>
-<section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p><ul>{''.join(f'<li>{e(s)}</li>' for s in SIN)}</ul></section>
+<section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos encontrados de las ligas principales (Premier League, LaLiga, Brasileirão y Liga Profesional) tienen datos verificados. Sin jornada hoy en Serie A, Bundesliga, Ligue 1, Eredivisie, Liga Portugal, Liga MX, MLS, LigaPro, Colombia, Perú ni Chile.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
-<p>Las noticias enlazan a sus medios de origen. Las imágenes de los partidos son ilustraciones propias de Gol Élite Pro.</p><p>Estadísticas: SoccerSTATS (tablas de local y visitante) y Wikipedia (LigaPro, fase inicial 2026).</p></section>
+<p>Las noticias enlazan a sus medios de origen. Las imágenes de los partidos son ilustraciones propias de Gol Élite Pro.</p><p>Estadísticas de local y visitante: SoccerSTATS (Argentina), Meu Timão (Brasileirão), Fútbol Total (LaLiga) y resultados de Sports Mole y Football Web Pages (Premier League), verificadas con sumas cruzadas.</p></section>
 </aside></div>
 <a class="fab" href="/" aria-label="Volver al inicio" title="Inicio"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z" fill="currentColor"/></svg></a>
 <script>
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-10-11"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-10-12"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

@@ -8,7 +8,7 @@ P=[p for p in json.load(open('pron.json')) if not p.get('sin')]
 K=json.load(open('kit.json'))          # partido del día, textos, auditoría, fecha larga
 e=html.escape
 NOM={'ENG':'Premier League','ITA':'Serie A','FRA':'Ligue 1','ESP':'LaLiga','BRA':'Brasileirão Serie A','MEX':'Liga MX','ECU':'LigaPro Ecuador','GER':'Bundesliga','NED':'Eredivisie','POR':'Liga Portugal','USA':'MLS','ARG':'Liga Profesional'}
-ES={'Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasbourg':'Estrasburgo','Deportivo':'Deportivo La Coruña','AC Milan':'Milan','Real Betis':'Betis','Marseille':'Marsella','Racing':'Racing Santander','Atletico MG':'Atlético MG','A. San Luis':'Atlético San Luis','Pumas UNAM':'Pumas','Universidad Católica':'U. Católica'}
+ES={'Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasbourg':'Estrasburgo','Deportivo':'Deportivo La Coruña','AC Milan':'Milan','Real Betis':'Betis','Marseille':'Marsella','Racing':'Racing Santander','Atletico MG':'Atlético MG','A. San Luis':'Atlético San Luis','Pumas UNAM':'Pumas','Universidad Católica':'U. Católica','Coventry':'Coventry City','Newcastle':'Newcastle United','Lanus':'Lanús','Velez Sarsfield':'Vélez Sarsfield','Gimnasia Mendoza':'Gimnasia (Mendoza)','Newells Old Boys':"Newell's",'Bragantino':'RB Bragantino','Athletico-PR':'Athletico-PR'}
 n=lambda x:ES.get(x,x)
 f1=lambda v:f"{v:.1f}".replace('.',',')
 f2=lambda v:f"{v:.2f}".replace('.',',')
@@ -119,7 +119,32 @@ def carrusel():
 <div class="legal">Probabilidades estadísticas, no garantías. Solo mayores de 18 años. Presentadora creada con IA.</div></div>'''))
     return s
 
+
+def historia_acierto(A):
+    """Historia 1080x1920 '¡ACERTAMOS!' para el partido del día anterior (solo si acertó). A: dict de kit.json['acierto']."""
+    return CSS+f'''<div class="lienzo" style="width:1080px;height:1920px">
+<div class="luces"></div>
+<div class="marca" style="position:absolute;top:60px;left:0;right:0;font-size:84px">GOL <b>ÉLITE</b> PRO</div>
+<div class="disp oro" style="position:absolute;top:170px;left:40px;right:40px;text-align:center;font-size:190px">¡ACERTAMOS!</div>
+<div class="disp verde" style="position:absolute;top:385px;left:0;right:0;text-align:center;font-size:46px;letter-spacing:.08em">Partido del día de ayer · {e(A['fecha'])}</div>
+<img src="{foto}" style="position:absolute;left:0;bottom:120px;height:1100px;width:auto;mask-image:linear-gradient(90deg,#000 70%,transparent);-webkit-mask-image:linear-gradient(90deg,#000 70%,transparent)">
+<div style="position:absolute;right:50px;top:480px;width:600px;display:grid;gap:28px;grid-template-columns:minmax(0,1fr)">
+ <div style="display:flex;align-items:center;justify-content:space-between">{escudo(A['local'],160)}<div class="disp oro" style="font-size:72px">VS</div>{escudo(A['visita'],160)}</div>
+ <div class="disp" style="text-align:center;font-size:58px;white-space:normal">{e(n(A['local']))} <span class="dor">vs</span> {e(n(A['visita']))}</div>
+ <div style="text-align:center;font-size:32px;font-weight:600">{e(A['liga'])}</div>
+ <div class="caja" style="padding:28px;display:grid;gap:20px;text-align:center">
+  <div><div style="font-size:30px;color:#9fb2a6">RESULTADO FINAL</div><div class="disp oro" style="font-size:150px">{e(A['resultado'])}</div></div>
+  <div style="display:flex;justify-content:space-between;align-items:center"><span class="disp" style="font-size:44px">Dimos Over 1.5</span><span class="disp verde" style="font-size:80px">{e(A['over15'])}%</span></div>
+  <div class="disp verde" style="font-size:42px;white-space:normal">✔ {e(A['goles'])} goles · Over 1.5 cumplido</div>
+ </div>
+ <div class="caja" style="padding:22px 26px;font-size:30px;line-height:1.35;text-align:center">Pronóstico sellado a las <b class="dor">{e(A['sellado'])}</b>, antes del partido, y nunca modificado. Aciertos y fallos en <b>gol-elite-pro.netlify.app/galeria.html</b></div>
+</div>
+<div class="pie"><span>Modelo Nova Gol 4.0 · auditoría pública</span><span class="legal">+18 · No garantiza resultados</span></div>
+</div>'''
+
 os.makedirs(f'../redes/{FECHA}',exist_ok=True)
 open(f'../redes/{FECHA}/historia.html','w',encoding='utf-8').write(historia())
 for i,h in enumerate(carrusel(),1): open(f'../redes/{FECHA}/carrusel-{i}.html','w',encoding='utf-8').write(h)
 print('html listo')
+if K.get('acierto'):
+    open(f'../redes/{FECHA}/historia-acierto.html','w',encoding='utf-8').write(historia_acierto(K['acierto'])); print('historia-acierto lista')

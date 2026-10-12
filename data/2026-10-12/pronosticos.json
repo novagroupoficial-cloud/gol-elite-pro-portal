@@ -1,0 +1,205 @@
+[
+ {
+  "hora": "14:00",
+  "liga": "ENG",
+  "local": "Coventry",
+  "visita": "Newcastle",
+  "casa": [
+   2,
+   0,
+   6
+  ],
+  "fuera": [
+   2,
+   3,
+   4
+  ],
+  "HG": 1.58,
+  "AG": 1.34,
+  "lambda_local": 1.15,
+  "lambda_visita": 1.97,
+  "goles_esperados": 3.1,
+  "over15": 82.5,
+  "over25": 60.2,
+  "under25": 39.8,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-12 06:12 ECU (UTC-5)"
+ },
+ {
+  "hora": "14:00",
+  "liga": "ESP",
+  "local": "Levante",
+  "visita": "Sevilla",
+  "casa": [
+   2,
+   7,
+   6
+  ],
+  "fuera": [
+   3,
+   5,
+   2
+  ],
+  "HG": 1.74,
+  "AG": 1.31,
+  "lambda_local": 1.71,
+  "lambda_visita": 2.09,
+  "goles_esperados": 3.8,
+  "over15": 89.9,
+  "over25": 73.2,
+  "under25": 26.8,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "sellado": "2026-10-12 06:12 ECU (UTC-5)"
+ },
+ {
+  "hora": "14:00",
+  "liga": "BRA",
+  "local": "Coritiba",
+  "visita": "Botafogo",
+  "casa": [
+   14,
+   19,
+   19
+  ],
+  "fuera": [
+   14,
+   17,
+   25
+  ],
+  "HG": 1.53,
+  "AG": 1.13,
+  "lambda_local": 1.58,
+  "lambda_visita": 1.38,
+  "goles_esperados": 3.0,
+  "over15": 80.3,
+  "over25": 56.7,
+  "under25": 43.3,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-12 06:12 ECU (UTC-5)"
+ },
+ {
+  "hora": "14:00",
+  "liga": "ARG",
+  "local": "Lanus",
+  "visita": "Velez Sarsfield",
+  "casa": [
+   6,
+   6,
+   6
+  ],
+  "fuera": [
+   5,
+   8,
+   6
+  ],
+  "HG": 1.26,
+  "AG": 1.01,
+  "lambda_local": 1.07,
+  "lambda_visita": 1.33,
+  "goles_esperados": 2.4,
+  "over15": 70.3,
+  "over25": 43.1,
+  "under25": 56.9,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-12 06:12 ECU (UTC-5)"
+ },
+ {
+  "hora": "16:30",
+  "liga": "ARG",
+  "local": "Gimnasia Mendoza",
+  "visita": "Newells Old Boys",
+  "casa": [
+   5,
+   8,
+   3
+  ],
+  "fuera": [
+   5,
+   3,
+   4
+  ],
+  "HG": 1.26,
+  "AG": 1.01,
+  "lambda_local": 1.16,
+  "lambda_visita": 0.61,
+  "goles_esperados": 1.8,
+  "over15": 53.5,
+  "over25": 25.9,
+  "under25": 74.1,
+  "marcador": "1-0",
+  "categoria": "Menos de 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-12 06:12 ECU (UTC-5)"
+ },
+ {
+  "hora": "17:30",
+  "liga": "BRA",
+  "local": "Chapecoense",
+  "visita": "Athletico-PR",
+  "casa": [
+   13,
+   18,
+   29
+  ],
+  "fuera": [
+   14,
+   18,
+   21
+  ],
+  "HG": 1.53,
+  "AG": 1.13,
+  "lambda_local": 1.4,
+  "lambda_visita": 2.0,
+  "goles_esperados": 3.4,
+  "over15": 86.1,
+  "over25": 66.0,
+  "under25": 34.0,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "sellado": "2026-10-12 06:12 ECU (UTC-5)"
+ },
+ {
+  "hora": "19:00",
+  "liga": "BRA",
+  "local": "Bragantino",
+  "visita": "Cruzeiro",
+  "casa": [
+   14,
+   20,
+   15
+  ],
+  "fuera": [
+   14,
+   18,
+   24
+  ],
+  "HG": 1.53,
+  "AG": 1.13,
+  "lambda_local": 1.59,
+  "lambda_visita": 1.2,
+  "goles_esperados": 2.8,
+  "over15": 77.6,
+  "over25": 52.7,
+  "under25": 47.3,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-12 06:12 ECU (UTC-5)"
+ }
+]

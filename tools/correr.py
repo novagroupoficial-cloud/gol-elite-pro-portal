@@ -1,26 +1,14 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora, liga, local, visita
- ('08:00','ENG','Crystal Palace','Nottm Forest'),
- ('08:00','ITA','Lecce','Bologna'),
- ('08:00','ITA','Lazio','Monza'),
- ('08:00','FRA','Nice','Strasbourg'),
- ('09:15','ESP','Real Sociedad','Deportivo'),
- ('10:30','ENG','Liverpool','Manchester City'),
- ('11:00','ITA','Sassuolo','AC Milan'),
- ('11:30','ESP','Real Betis','Osasuna'),
- ('11:30','ECU','Universidad Católica','Macará'),
- ('13:45','ITA','Cagliari','Juventus'),
- ('13:45','FRA','Troyes','Marseille'),
- ('14:00','ESP','Racing','Valencia'),
- ('14:00','BRA','Atletico MG','Santos'),
- ('15:30','BRA','Flamengo','Fluminense'),
- ('15:30','BRA','Palmeiras','Corinthians'),
- ('16:30','ECU','LDU Quito','Barcelona SC'),
- ('18:00','MEX','A. San Luis','Santos Laguna'),
- ('18:10','MEX','Pachuca','Necaxa'),
- ('20:15','MEX','Pumas UNAM','Cruz Azul'),
+P=[ # hora (Ecuador), liga, local, visita — lunes 12-oct-2026
+ ('14:00','ENG','Coventry','Newcastle'),
+ ('14:00','ESP','Levante','Sevilla'),
+ ('14:00','BRA','Coritiba','Botafogo'),
+ ('14:00','ARG','Lanus','Velez Sarsfield'),
+ ('16:30','ARG','Gimnasia Mendoza','Newells Old Boys'),
+ ('17:30','BRA','Chapecoense','Athletico-PR'),
+ ('19:00','BRA','Bragantino','Cruzeiro'),
 ]
 out=[]
 for h,lg,a,b in P:

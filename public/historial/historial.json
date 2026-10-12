@@ -3,5 +3,10 @@
   "resumen":[["5/5","GOL ÉLITE · Over 1.5"],["21/25","Over 1.5 de 70 % o más (84 %)"],["8/11","Over 2.5 con señal (73 %)"],["3/29","Marcadores exactos"]],
   "fallos":"Real Madrid 1-0, Lorient 1-0, Vasco 0-0 y River 1-0.",
   "aciertos_destacados":["Ajax 1-1 NEC","RB Leipzig 6-0 Frankfurt","Feyenoord 2-0 AZ","Inter 3-0 Parma","Atlanta 1-3 Cincinnati"],
-  "partidos":29}
+  "partidos":29},
+ {"fecha":"2026-10-11","titulo":"Domingo 11 de octubre de 2026","imagen":"/historial/2026-10-11.jpg",
+  "resumen":[["1/1","GOL ÉLITE · Over 1.5"],["14/16","Over 1.5 de 70 % o más (88 %)"],["1/1","Over 2.5 con señal (100 %)"],["2/19","Marcadores exactos"]],
+  "fallos":"U. Católica 0-1 Macará y Flamengo 1-0 Fluminense.",
+  "aciertos_destacados":["Crystal Palace 3-1 Nottingham Forest","Atlético MG 2-1 Santos","Real Betis 5-2 Osasuna","Pachuca 3-3 Necaxa","Sassuolo 1-1 Milan (marcador exacto)"],
+  "partidos":19}
 ]

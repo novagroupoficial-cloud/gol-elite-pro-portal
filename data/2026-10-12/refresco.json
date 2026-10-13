@@ -1,16 +1,16 @@
 {
  "fecha": "2026-10-12",
- "ultima_ejecucion": "2026-10-12 22:10 ECU",
- "ultima_ok": "2026-10-12 22:10 ECU",
+ "ultima_ejecucion": "2026-10-12 23:10 ECU",
+ "ultima_ok": "2026-10-12 23:10 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": null,
  "pendientes": [
-  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index pidió permiso y no se respondió (19:12, 20:12, 21:12, 22:10)"
+  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index pidió permiso y no se respondió (19:12, 20:12, 21:12, 22:10, 23:10)"
  ],
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "22:10 (sin lectura)"
+  "ultima_revision": "23:10 (sin lectura)"
  },
  "avisos_enviados": [
   "cierre_del_dia",

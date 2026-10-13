@@ -1,0 +1,14 @@
+{
+ "fecha": "2026-10-12",
+ "ultima_ejecucion": "2026-10-12 19:17 ECU",
+ "ultima_ok": "2026-10-12 19:17 ECU",
+ "rutina_diaria": "hecha",
+ "rutina_diaria_inicio": null,
+ "pendientes": [
+  "Resultado Chapecoense vs Athletico-PR (17:30 ECU): buscar desde las 19:45 ECU",
+  "Resultado Bragantino vs Cruzeiro (19:00 ECU): buscar desde las 21:15 ECU",
+  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index pidió permiso y no se respondió (19:12)"
+ ],
+ "deploy": {"ok": null, "fallos_seguidos": 0, "ultima_revision": "19:12 (sin lectura)"},
+ "avisos_enviados": ["partido_del_dia"]
+}

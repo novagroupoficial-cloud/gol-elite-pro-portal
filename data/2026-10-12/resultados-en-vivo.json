@@ -1,7 +1,62 @@
 [
- {"local":"Atalanta","visita":"Venezia","hora":"11:30","resultado":"3-1","estado":"terminado","fuente":"https://www.ansa.it/sito/notizie/sport/calcio/2026/10/12/serie-a-atalanta-venezia-3-1_20d4a04d-bc3f-41f2-a0be-cbbe054bed4d.html","registrado":"18:20 ECU"},
- {"local":"Levante","visita":"Sevilla","hora":"14:00","resultado":"3-3","estado":"terminado","fuente":"https://www.elperiodicodeceuta.es/resultados-laliga-2026-10-12/","registrado":"18:20 ECU"},
- {"local":"Coventry","visita":"Newcastle","hora":"14:00","resultado":"4-1","estado":"terminado","fuente":"https://www.flashscore.com/match/football/coventry-GOvB22xg/newcastle-utd-p6ahwuwJ/summary/stats/","registrado":"18:20 ECU"},
- {"local":"Coritiba","visita":"Botafogo","hora":"14:00","resultado":"1-1","estado":"terminado","fuente":"https://www.lance.com.br/botafogo/botafogo-empata-com-o-coritiba-no-couto-pereira-e-mantem-alerta-de-rebaixamento-ligado.html","registrado":"18:20 ECU"},
- {"local":"Lanus","visita":"Velez Sarsfield","hora":"14:00","resultado":"2-0","estado":"terminado","fuente":"https://www.lanacion.com.ar/deportes/canchallena/lanus-vencio-por-2-0-a-velez-sarsfield-por-el-torneo-clausura-2026-nid12102026/","registrado":"18:20 ECU"}
+ {
+  "local": "Atalanta",
+  "visita": "Venezia",
+  "hora": "11:30",
+  "resultado": "3-1",
+  "estado": "terminado",
+  "fuente": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/12/serie-a-atalanta-venezia-3-1_20d4a04d-bc3f-41f2-a0be-cbbe054bed4d.html",
+  "registrado": "18:20 ECU"
+ },
+ {
+  "local": "Levante",
+  "visita": "Sevilla",
+  "hora": "14:00",
+  "resultado": "3-3",
+  "estado": "terminado",
+  "fuente": "https://www.elperiodicodeceuta.es/resultados-laliga-2026-10-12/",
+  "registrado": "18:20 ECU"
+ },
+ {
+  "local": "Coventry",
+  "visita": "Newcastle",
+  "hora": "14:00",
+  "resultado": "4-1",
+  "estado": "terminado",
+  "fuente": "https://www.flashscore.com/match/football/coventry-GOvB22xg/newcastle-utd-p6ahwuwJ/summary/stats/",
+  "registrado": "18:20 ECU"
+ },
+ {
+  "local": "Coritiba",
+  "visita": "Botafogo",
+  "hora": "14:00",
+  "resultado": "1-1",
+  "estado": "terminado",
+  "fuente": "https://www.lance.com.br/botafogo/botafogo-empata-com-o-coritiba-no-couto-pereira-e-mantem-alerta-de-rebaixamento-ligado.html",
+  "registrado": "18:20 ECU"
+ },
+ {
+  "local": "Lanus",
+  "visita": "Velez Sarsfield",
+  "hora": "14:00",
+  "resultado": "2-0",
+  "estado": "terminado",
+  "fuente": "https://www.lanacion.com.ar/deportes/canchallena/lanus-vencio-por-2-0-a-velez-sarsfield-por-el-torneo-clausura-2026-nid12102026/",
+  "registrado": "18:20 ECU"
+ },
+ {
+  "local": "Gimnasia Mendoza",
+  "visita": "Newells Old Boys",
+  "hora": "16:30",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 53.5,
+  "over25_dado": 25.9,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.lanacion.com.ar/deportes/canchallena/gimnasia-mendoza-vencio-por-1-0-a-newells-old-boys-por-el-torneo-clausura-2026-nid12102026/",
+  "registrado": "19:15 ECU"
+ }
 ]

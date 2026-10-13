@@ -1,13 +1,13 @@
 {
  "fecha": "2026-10-12",
- "actualizado": "2026-10-12 18:12 ECU (UTC-5)",
+ "actualizado": "2026-10-12 19:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-12/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 5,
+  "terminados": 6,
   "total": 8,
   "over15_70": [
    5,
@@ -17,7 +17,7 @@
    1,
    1
   ],
-  "marcadores_exactos": 1
+  "marcadores_exactos": 2
  },
  "rango_80_90": [
   {
@@ -314,7 +314,7 @@
     "gc": 24
    },
    "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -371,8 +371,13 @@
     "gc": 4
    },
    "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/gimnasia-mendoza-vencio-por-1-0-a-newells-old-boys-por-el-torneo-clausura-2026-nid12102026/"
   }
  ],
  "sin_pronostico": []

@@ -2,8 +2,8 @@
  "fecha": "2026-10-13",
  "ultima_ejecucion": "2026-10-13 05:10 ECU",
  "ultima_ok": "2026-10-13 05:10 ECU",
- "rutina_diaria": "pendiente",
- "rutina_diaria_inicio": null,
+ "rutina_diaria": "en_curso",
+ "rutina_diaria_inicio": "2026-10-13 05:26 ECU",
  "pendientes": [
   "Rutina diaria de hoy (05:24 ECU) aún no corre: sin data/2026-10-13/pronosticos.json; el ranking de hoy se genera cuando exista. Si a las 08:00 sigue faltando, la recupera el refresco.",
   "Auditoría oficial de 2026-10-12 (auditoria.json + galería): la hace la rutina diaria de hoy con las fuentes de resultados-en-vivo.json.",

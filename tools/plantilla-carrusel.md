@@ -25,3 +25,7 @@ Se entrega como PROMPT para el generador de imágenes del equipo (Gemini/ChatGPT
 - Se usan los términos que conoce el público: "Over 1.5" y "Over 2.5", con UNA sola nota que explique: "Over 1.5 = 2 goles o más en el partido, sin importar quién gane · Over 2.5 = 3 goles o más".
 - En redes, número entero hacia abajo (89,9 → 89 %), así nunca cruza de categoría; el decimal sellado queda en el portal.
 - En los aciertos: "Dimos Over 1.5 al X % · Hubo N goles".
+
+## Vocabulario de los prompts (acordado con Marco, 12-oct-2026)
+- **Recuadro**: cada bloque donde va un partido (borde dorado, escudos, marcador o pronóstico, "Dimos Over 1.5 al X % · Hubo N goles"). Usar siempre "recuadro", nunca "tarjeta".
+- **Historia "¡LO VOLVIÓ A ACERTAR!"** (9:16): título, fecha, presentadora profesional a la izquierda y 3 recuadros a la derecha con los mejores aciertos; zona segura libre del 13 % superior e inferior; nota de Over 1.5, +18 y "Probabilidades estadísticas, no garantías" al pie. Siempre con su ANTI-PROMPT.

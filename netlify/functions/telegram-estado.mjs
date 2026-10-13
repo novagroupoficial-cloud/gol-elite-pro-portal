@@ -23,6 +23,8 @@ export default async (req) => {
     if (c && c.type === "channel") vistos.set(c.id, { id: c.id, titulo: c.title, usuario: c.username ? `@${c.username}` : null });
   }
   out.canales_donde_esta_el_bot = [...vistos.values()];
+  if (!up.ok) out.aviso_actualizaciones = up.description || "Telegram no entregó actualizaciones";
+  else if (!vistos.size) out.aviso_actualizaciones = "Sin novedades del canal: publica cualquier mensaje en el canal y vuelve a consultar.";
 
   const store = getStore({ name: "telegram", consistency: "strong" });
   out.envios_de_hoy = await store.get(`estado-${ahoraEcuador().fecha}`, { type: "json" });

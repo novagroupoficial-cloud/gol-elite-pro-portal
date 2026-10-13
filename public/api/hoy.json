@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-12",
- "actualizado": "2026-10-12 19:16 ECU (UTC-5)",
+ "actualizado": "2026-10-12 20:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-12/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 6,
+  "terminados": 7,
   "total": 8,
   "over15_70": [
-   5,
-   5
+   6,
+   6
   ],
   "over25_senal": [
-   1,
-   1
+   2,
+   2
   ],
   "marcadores_exactos": 2
  },
@@ -74,8 +74,13 @@
     "gc": 21
    },
    "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-4",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.cnnbrasil.com.br/esportes/brasileirao/athletico-amassa-a-chapecoense-e-retoma-a-terceira-posicao-do-brasileirao/"
   },
   {
    "puesto": 3,
@@ -195,8 +200,13 @@
     "gc": 21
    },
    "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-4",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.cnnbrasil.com.br/esportes/brasileirao/athletico-amassa-a-chapecoense-e-retoma-a-terceira-posicao-do-brasileirao/"
   },
   {
    "puesto": 3,

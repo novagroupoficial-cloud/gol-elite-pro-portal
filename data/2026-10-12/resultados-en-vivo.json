@@ -58,5 +58,20 @@
   "marcador_exacto": false,
   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/gimnasia-mendoza-vencio-por-1-0-a-newells-old-boys-por-el-torneo-clausura-2026-nid12102026/",
   "registrado": "19:15 ECU"
+ },
+ {
+  "local": "Chapecoense",
+  "visita": "Athletico-PR",
+  "hora": "17:30",
+  "resultado": "1-4",
+  "goles": 5,
+  "estado": "terminado",
+  "over15_dado": 86.1,
+  "over25_dado": 66.0,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.cnnbrasil.com.br/esportes/brasileirao/athletico-amassa-a-chapecoense-e-retoma-a-terceira-posicao-do-brasileirao/",
+  "registrado": "20:15 ECU"
  }
 ]

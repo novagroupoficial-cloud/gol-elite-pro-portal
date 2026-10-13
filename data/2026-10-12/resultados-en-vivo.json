@@ -73,5 +73,20 @@
   "marcador_exacto": false,
   "fuente": "https://www.cnnbrasil.com.br/esportes/brasileirao/athletico-amassa-a-chapecoense-e-retoma-a-terceira-posicao-do-brasileirao/",
   "registrado": "20:15 ECU"
+ },
+ {
+  "local": "Bragantino",
+  "visita": "Cruzeiro",
+  "hora": "19:00",
+  "resultado": "4-2",
+  "goles": 6,
+  "estado": "terminado",
+  "over15_dado": 77.6,
+  "over25_dado": 52.7,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.metropoles.com/esportes/em-jogo-de-seis-gols-bragantino-domina-e-vence-o-cruzeiro-no-brasileirao",
+  "registrado": "21:15 ECU"
  }
 ]

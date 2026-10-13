@@ -1,0 +1,9 @@
+{
+  "name": "gol-elite-pro-portal",
+  "private": true,
+  "type": "module",
+  "description": "Portal GOL ÉLITE PRO: sitio estático (public/) + funciones de Netlify (aviso a Telegram).",
+  "dependencies": {
+    "@netlify/blobs": "11.1.3"
+  }
+}

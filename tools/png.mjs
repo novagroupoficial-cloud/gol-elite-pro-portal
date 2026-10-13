@@ -1,5 +1,5 @@
 // Renderiza los .html de una carpeta a .png (historia 1080x1920, carrusel 1080x1350).
-// Uso: node tools/png.mjs redes/AAAA-MM-DD   (requiere: npm i playwright)
+// Uso: node tools/png.mjs redes/AAAA-MM-DD   (requiere: npm i --no-save playwright; nunca guardarlo en package.json)
 import { chromium } from 'playwright';
 import fs from 'fs'; import path from 'path';
 const dir=path.resolve(process.argv[2]);

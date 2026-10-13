@@ -2,6 +2,12 @@
   publish = "public"
   command = ""
 
+# Funciones: aviso a Telegram (netlify/functions/telegram.mjs, cada hora en el minuto 20)
+# y /api/telegram-estado para revisar la conexión. Se activan con TELEGRAM_BOT_TOKEN y TELEGRAM_CANAL.
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
 [[headers]]
   for = "/*"
   [headers.values]

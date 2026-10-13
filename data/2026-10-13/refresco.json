@@ -1,18 +1,18 @@
 {
  "fecha": "2026-10-13",
- "ultima_ejecucion": "2026-10-13 01:10 ECU",
- "ultima_ok": "2026-10-13 01:10 ECU",
+ "ultima_ejecucion": "2026-10-13 02:10 ECU",
+ "ultima_ok": "2026-10-13 02:10 ECU",
  "rutina_diaria": "pendiente",
  "rutina_diaria_inicio": null,
  "pendientes": [
   "Rutina diaria de hoy (05:24 ECU) aún no corre: sin data/2026-10-13/pronosticos.json; el ranking de hoy se genera cuando exista. Si a las 08:00 sigue faltando, la recupera el refresco.",
   "Auditoría oficial de 2026-10-12 (auditoria.json + galería): la hace la rutina diaria de hoy con las fuentes de resultados-en-vivo.json.",
-  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso sin respuesta (desde 2026-10-12 19:12; también 00:10 y 01:10 del 13). Aviso de bloqueo ya enviado el 2026-10-12; si sigue igual en horario diurno, repetir aviso del día."
+  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso sin respuesta (desde 2026-10-12 19:12; también 00:10, 01:10 y 02:10 del 13). Aviso de bloqueo ya enviado el 2026-10-12; si sigue igual en horario diurno (08:00+), repetir aviso del día."
  ],
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "01:10 (sin lectura)"
+  "ultima_revision": "02:10 (sin lectura)"
  },
  "avisos_enviados": []
 }

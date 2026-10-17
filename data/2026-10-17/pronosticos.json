@@ -1,0 +1,1802 @@
+[
+ {
+  "hora": "06:30",
+  "liga": "ENG",
+  "local": "Everton",
+  "visita": "Chelsea",
+  "casa": [
+   3,
+   5,
+   2
+  ],
+  "fuera": [
+   3,
+   4,
+   7
+  ],
+  "HG": 1.62,
+  "AG": 1.33,
+  "lambda_local": 1.95,
+  "lambda_visita": 1.05,
+  "goles_esperados": 3.0,
+  "over15": 80.9,
+  "over25": 57.6,
+  "under25": 42.4,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/premier-league/results.html (60 resultados, jornadas 1-6, último partido 12-oct-2026) — totales y W/D/L casa/fuera verificados contra https://www.footballwebpages.co.uk/premier-league/league-table (actualizada lunes 12-oct-2026 21:52) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "07:00",
+  "liga": "ESP",
+  "local": "Espanyol",
+  "visita": "Atletico Madrid",
+  "casa": [
+   4,
+   6,
+   6
+  ],
+  "fuera": [
+   4,
+   8,
+   5
+  ],
+  "HG": 1.75,
+  "AG": 1.33,
+  "lambda_local": 1.39,
+  "lambda_visita": 1.77,
+  "goles_esperados": 3.2,
+  "over15": 83.2,
+  "over25": 61.3,
+  "under25": 38.7,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "Calculada partido a partido con los 79 resultados de https://futboltotal.futbol/league/la-liga/todos-los-partidos (J1-J8 + Deportivo 1-1 Levante del 16-oct, J9) y verificada equipo por equipo (PJ casa, PJ fuera, GF y GC totales) contra https://www.footballwebpages.co.uk/barcelona/league-table (actualizada 16-oct-2026 21:59): los 20 equipos coinciden (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "08:00",
+  "liga": "ITA",
+  "local": "Venezia",
+  "visita": "Napoli",
+  "casa": [
+   3,
+   2,
+   8
+  ],
+  "fuera": [
+   3,
+   5,
+   4
+  ],
+  "HG": 1.59,
+  "AG": 1.33,
+  "lambda_local": 1.11,
+  "lambda_visita": 2.11,
+  "goles_esperados": 3.2,
+  "over15": 83.9,
+  "over25": 62.5,
+  "under25": 37.5,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=italy (temporada 2026/27 seleccionada; sin fecha visible; consultada 17-oct-2026 ~05:45 ECU; incluye J1-J6 + Frosinone 4-2 Sassuolo del vie 16-oct = 61 partidos) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "08:30",
+  "liga": "GER",
+  "local": "Elversberg",
+  "visita": "Augsburg",
+  "casa": [
+   2,
+   4,
+   4
+  ],
+  "fuera": [
+   2,
+   6,
+   4
+  ],
+  "HG": 2.33,
+  "AG": 1.43,
+  "lambda_local": 2.11,
+  "lambda_visita": 2.21,
+  "goles_esperados": 4.3,
+  "over15": 93.5,
+  "over25": 80.6,
+  "under25": 19.4,
+  "marcador": "2-2",
+  "categoria": "GOL ÉLITE",
+  "senal_o25": "fuerte",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/bundesliga/2026-27/ (Home/Away Table 2026-27, incluye el Eintracht Frankfurt–1. FC Köln del vie 16-oct; totales cotejados con https://www.footballwebpages.co.uk/bayern-munich/league-table actualizado 16-oct-2026 21:27) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "08:30",
+  "liga": "GER",
+  "local": "Hamburger SV",
+  "visita": "VfB Stuttgart",
+  "casa": [
+   2,
+   2,
+   6
+  ],
+  "fuera": [
+   3,
+   4,
+   7
+  ],
+  "HG": 2.33,
+  "AG": 1.43,
+  "lambda_local": 1.89,
+  "lambda_visita": 1.9,
+  "goles_esperados": 3.8,
+  "over15": 89.8,
+  "over25": 72.8,
+  "under25": 27.2,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/bundesliga/2026-27/ (Home/Away Table 2026-27, incluye el Eintracht Frankfurt–1. FC Köln del vie 16-oct; totales cotejados con https://www.footballwebpages.co.uk/bayern-munich/league-table actualizado 16-oct-2026 21:27) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "08:30",
+  "liga": "GER",
+  "local": "Schalke 04",
+  "visita": "Mainz 05",
+  "casa": [
+   2,
+   0,
+   0
+  ],
+  "fuera": [
+   2,
+   9,
+   3
+  ],
+  "HG": 2.33,
+  "AG": 1.43,
+  "lambda_local": 1.37,
+  "lambda_visita": 1.53,
+  "goles_esperados": 2.9,
+  "over15": 79.4,
+  "over25": 55.3,
+  "under25": 44.7,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/bundesliga/2026-27/ (Home/Away Table 2026-27, incluye el Eintracht Frankfurt–1. FC Köln del vie 16-oct; totales cotejados con https://www.footballwebpages.co.uk/bayern-munich/league-table actualizado 16-oct-2026 21:27) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "08:30",
+  "liga": "GER",
+  "local": "Union Berlin",
+  "visita": "Borussia Dortmund",
+  "casa": [
+   3,
+   5,
+   6
+  ],
+  "fuera": [
+   2,
+   4,
+   2
+  ],
+  "HG": 2.33,
+  "AG": 1.43,
+  "lambda_local": 1.66,
+  "lambda_visita": 1.9,
+  "goles_esperados": 3.6,
+  "over15": 87.7,
+  "over25": 68.9,
+  "under25": 31.1,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/bundesliga/2026-27/ (Home/Away Table 2026-27, incluye el Eintracht Frankfurt–1. FC Köln del vie 16-oct; totales cotejados con https://www.footballwebpages.co.uk/bayern-munich/league-table actualizado 16-oct-2026 21:27) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "08:30",
+  "liga": "GER",
+  "local": "Werder Bremen",
+  "visita": "SC Paderborn",
+  "casa": [
+   2,
+   6,
+   3
+  ],
+  "fuera": [
+   2,
+   0,
+   3
+  ],
+  "HG": 2.33,
+  "AG": 1.43,
+  "lambda_local": 2.25,
+  "lambda_visita": 0.97,
+  "goles_esperados": 3.2,
+  "over15": 83.8,
+  "over25": 62.4,
+  "under25": 37.6,
+  "marcador": "2-0",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/bundesliga/2026-27/ (Home/Away Table 2026-27, incluye el Eintracht Frankfurt–1. FC Köln del vie 16-oct; totales cotejados con https://www.footballwebpages.co.uk/bayern-munich/league-table actualizado 16-oct-2026 21:27) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "09:00",
+  "liga": "ENG",
+  "local": "Brentford",
+  "visita": "Liverpool",
+  "casa": [
+   3,
+   7,
+   1
+  ],
+  "fuera": [
+   3,
+   5,
+   2
+  ],
+  "HG": 1.62,
+  "AG": 1.33,
+  "lambda_local": 1.44,
+  "lambda_visita": 1.0,
+  "goles_esperados": 2.4,
+  "over15": 71.0,
+  "over25": 44.1,
+  "under25": 55.9,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/premier-league/results.html (60 resultados, jornadas 1-6, último partido 12-oct-2026) — totales y W/D/L casa/fuera verificados contra https://www.footballwebpages.co.uk/premier-league/league-table (actualizada lunes 12-oct-2026 21:52) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "09:00",
+  "liga": "ENG",
+  "local": "Fulham",
+  "visita": "Hull City",
+  "casa": [
+   3,
+   5,
+   7
+  ],
+  "fuera": [
+   3,
+   4,
+   4
+  ],
+  "HG": 1.62,
+  "AG": 1.33,
+  "lambda_local": 1.52,
+  "lambda_visita": 1.76,
+  "goles_esperados": 3.3,
+  "over15": 84.7,
+  "over25": 63.6,
+  "under25": 36.4,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/premier-league/results.html (60 resultados, jornadas 1-6, último partido 12-oct-2026) — totales y W/D/L casa/fuera verificados contra https://www.footballwebpages.co.uk/premier-league/league-table (actualizada lunes 12-oct-2026 21:52) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "09:00",
+  "liga": "ENG",
+  "local": "Manchester City",
+  "visita": "Ipswich Town",
+  "casa": [
+   3,
+   8,
+   4
+  ],
+  "fuera": [
+   3,
+   5,
+   8
+  ],
+  "HG": 1.62,
+  "AG": 1.33,
+  "lambda_local": 2.64,
+  "lambda_visita": 1.48,
+  "goles_esperados": 4.1,
+  "over15": 92.2,
+  "over25": 77.9,
+  "under25": 22.1,
+  "marcador": "2-1",
+  "categoria": "GOL ÉLITE",
+  "senal_o25": "fuerte",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/premier-league/results.html (60 resultados, jornadas 1-6, último partido 12-oct-2026) — totales y W/D/L casa/fuera verificados contra https://www.footballwebpages.co.uk/premier-league/league-table (actualizada lunes 12-oct-2026 21:52) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "09:15",
+  "liga": "ESP",
+  "local": "Villarreal",
+  "visita": "Elche",
+  "casa": [
+   3,
+   6,
+   6
+  ],
+  "fuera": [
+   4,
+   7,
+   6
+  ],
+  "HG": 1.75,
+  "AG": 1.33,
+  "lambda_local": 1.72,
+  "lambda_visita": 1.87,
+  "goles_esperados": 3.6,
+  "over15": 88.1,
+  "over25": 69.7,
+  "under25": 30.3,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "Calculada partido a partido con los 79 resultados de https://futboltotal.futbol/league/la-liga/todos-los-partidos (J1-J8 + Deportivo 1-1 Levante del 16-oct, J9) y verificada equipo por equipo (PJ casa, PJ fuera, GF y GC totales) contra https://www.footballwebpages.co.uk/barcelona/league-table (actualizada 16-oct-2026 21:59): los 20 equipos coinciden (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "09:30",
+  "liga": "NED",
+  "local": "ADO Den Haag",
+  "visita": "PSV",
+  "casa": [
+   3,
+   4,
+   8
+  ],
+  "fuera": [
+   4,
+   13,
+   6
+  ],
+  "HG": 1.74,
+  "AG": 2.0,
+  "lambda_local": 1.46,
+  "lambda_visita": 3.0,
+  "goles_esperados": 4.5,
+  "over15": 94.1,
+  "over25": 82.2,
+  "under25": 17.8,
+  "marcador": "1-2",
+  "categoria": "GOL ÉLITE",
+  "senal_o25": "fuerte",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/eredivisie/2026-27/ (Home/Away Table 2026-27, al 16-oct-2026, incluye Heerenveen–Excelsior del viernes) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "10:15",
+  "liga": "FRA",
+  "local": "Strasbourg",
+  "visita": "Paris Saint-Germain",
+  "casa": [
+   2,
+   3,
+   2
+  ],
+  "fuera": [
+   4,
+   7,
+   5
+  ],
+  "HG": 1.64,
+  "AG": 1.27,
+  "lambda_local": 1.4,
+  "lambda_visita": 1.4,
+  "goles_esperados": 2.8,
+  "over15": 78.0,
+  "over25": 53.2,
+  "under25": 46.8,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=france (temporada 2026/27 seleccionada; sin fecha visible; consultada 17-oct-2026 ~05:50 ECU; incluye J1-J6 + Le Mans-Toulouse del vie 16-oct = 55 partidos) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "11:00",
+  "liga": "ITA",
+  "local": "Bologna",
+  "visita": "Inter",
+  "casa": [
+   3,
+   3,
+   4
+  ],
+  "fuera": [
+   2,
+   3,
+   2
+  ],
+  "HG": 1.59,
+  "AG": 1.33,
+  "lambda_local": 1.17,
+  "lambda_visita": 1.39,
+  "goles_esperados": 2.6,
+  "over15": 73.5,
+  "over25": 47.1,
+  "under25": 52.9,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=italy (temporada 2026/27 seleccionada; sin fecha visible; consultada 17-oct-2026 ~05:45 ECU; incluye J1-J6 + Frosinone 4-2 Sassuolo del vie 16-oct = 61 partidos) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "11:30",
+  "liga": "ECU",
+  "local": "Libertad",
+  "visita": "Guayaquil City",
+  "casa": [
+   15,
+   20,
+   15
+  ],
+  "fuera": [
+   15,
+   17,
+   23
+  ],
+  "HG": 1.29,
+  "AG": 0.97,
+  "lambda_local": 1.52,
+  "lambda_visita": 1.13,
+  "goles_esperados": 2.6,
+  "over15": 75.1,
+  "over25": 49.3,
+  "under25": 50.7,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=ecuador (consultado 17-oct-2026; sin fecha de actualización visible). FASE REGULAR LigaPro 2026 completa: 240/240 partidos, 15 PJ casa y 15 fuera por equipo. NO incluye las fechas 1-2 de la fase final (hexagonales/cuadrangular). (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "11:30",
+  "liga": "ENG",
+  "local": "Newcastle United",
+  "visita": "Aston Villa",
+  "casa": [
+   3,
+   6,
+   5
+  ],
+  "fuera": [
+   3,
+   3,
+   6
+  ],
+  "HG": 1.62,
+  "AG": 1.33,
+  "lambda_local": 1.96,
+  "lambda_visita": 1.32,
+  "goles_esperados": 3.3,
+  "over15": 84.7,
+  "over25": 63.7,
+  "under25": 36.3,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/premier-league/results.html (60 resultados, jornadas 1-6, último partido 12-oct-2026) — totales y W/D/L casa/fuera verificados contra https://www.footballwebpages.co.uk/premier-league/league-table (actualizada lunes 12-oct-2026 21:52) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "11:30",
+  "liga": "ESP",
+  "local": "Real Betis",
+  "visita": "Barcelona",
+  "casa": [
+   4,
+   8,
+   2
+  ],
+  "fuera": [
+   4,
+   17,
+   3
+  ],
+  "HG": 1.75,
+  "AG": 1.33,
+  "lambda_local": 1.34,
+  "lambda_visita": 1.46,
+  "goles_esperados": 2.8,
+  "over15": 77.9,
+  "over25": 53.1,
+  "under25": 46.9,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "Calculada partido a partido con los 79 resultados de https://futboltotal.futbol/league/la-liga/todos-los-partidos (J1-J8 + Deportivo 1-1 Levante del 16-oct, J9) y verificada equipo por equipo (PJ casa, PJ fuera, GF y GC totales) contra https://www.footballwebpages.co.uk/barcelona/league-table (actualizada 16-oct-2026 21:59): los 20 equipos coinciden (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "11:30",
+  "liga": "GER",
+  "local": "Bayern Munich",
+  "visita": "RB Leipzig",
+  "casa": [
+   2,
+   12,
+   1
+  ],
+  "fuera": [
+   2,
+   1,
+   5
+  ],
+  "HG": 2.33,
+  "AG": 1.43,
+  "lambda_local": 3.64,
+  "lambda_visita": 0.88,
+  "goles_esperados": 4.5,
+  "over15": 94.3,
+  "over25": 82.8,
+  "under25": 17.2,
+  "marcador": "3-0",
+  "categoria": "GOL ÉLITE",
+  "senal_o25": "fuerte",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/bundesliga/2026-27/ (Home/Away Table 2026-27, incluye el Eintracht Frankfurt–1. FC Köln del vie 16-oct; totales cotejados con https://www.footballwebpages.co.uk/bayern-munich/league-table actualizado 16-oct-2026 21:27) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "13:00",
+  "liga": "ARG",
+  "local": "Banfield",
+  "visita": "Argentinos Juniors",
+  "casa": [
+   5,
+   7,
+   9
+  ],
+  "fuera": [
+   7,
+   6,
+   7
+  ],
+  "HG": 1.26,
+  "AG": 1.01,
+  "lambda_local": 1.16,
+  "lambda_visita": 1.31,
+  "goles_esperados": 2.5,
+  "over15": 71.7,
+  "over25": 44.9,
+  "under25": 55.1,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "Calculada partido a partido con los resultados de las jornadas 1-13 del Clausura 2026 en https://futboltotal.futbol/league/liga-profesional-argentina/round/clausura-1 … clausura-13 (181 partidos, hasta jueves 15/10: Huracán 1-2 Gimnasia LP). Cotejada con la tabla de Wikipedia (https://en.wikipedia.org/wiki/2026_AFA_Liga_Profesional_de_F%C3%BAtbol, act. 10/10) y con puntos/PJ de https://futboltotal.futbol/league/liga-profesional-argentina/clasificacion. NO incluye Defensa–Instituto ni Boca–Talleres (viernes 16/10): resultados no verificados. (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "13:00",
+  "liga": "NED",
+  "local": "Telstar",
+  "visita": "Feyenoord",
+  "casa": [
+   4,
+   5,
+   11
+  ],
+  "fuera": [
+   4,
+   16,
+   3
+  ],
+  "HG": 1.74,
+  "AG": 2.0,
+  "lambda_local": 1.07,
+  "lambda_visita": 3.56,
+  "goles_esperados": 4.6,
+  "over15": 94.8,
+  "over25": 84.1,
+  "under25": 15.9,
+  "marcador": "1-3",
+  "categoria": "GOL ÉLITE",
+  "senal_o25": "fuerte",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/eredivisie/2026-27/ (Home/Away Table 2026-27, al 16-oct-2026, incluye Heerenveen–Excelsior del viernes) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "13:30",
+  "liga": "USA",
+  "local": "Philadelphia",
+  "visita": "Charlotte",
+  "casa": [
+   14,
+   25,
+   14
+  ],
+  "fuera": [
+   14,
+   22,
+   27
+  ],
+  "HG": 1.86,
+  "AG": 1.4,
+  "lambda_local": 1.86,
+  "lambda_visita": 1.19,
+  "goles_esperados": 3.0,
+  "over15": 81.6,
+  "over25": 58.7,
+  "under25": 41.3,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "13:45",
+  "liga": "FRA",
+  "local": "Lille",
+  "visita": "Brest",
+  "casa": [
+   3,
+   5,
+   2
+  ],
+  "fuera": [
+   3,
+   5,
+   5
+  ],
+  "HG": 1.64,
+  "AG": 1.27,
+  "lambda_local": 1.66,
+  "lambda_visita": 1.15,
+  "goles_esperados": 2.8,
+  "over15": 78.0,
+  "over25": 53.3,
+  "under25": 46.7,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=france (temporada 2026/27 seleccionada; sin fecha visible; consultada 17-oct-2026 ~05:50 ECU; incluye J1-J6 + Le Mans-Toulouse del vie 16-oct = 55 partidos) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "13:45",
+  "liga": "FRA",
+  "local": "Troyes",
+  "visita": "Lens",
+  "casa": [
+   3,
+   2,
+   8
+  ],
+  "fuera": [
+   3,
+   4,
+   6
+  ],
+  "HG": 1.64,
+  "AG": 1.27,
+  "lambda_local": 1.34,
+  "lambda_visita": 1.91,
+  "goles_esperados": 3.2,
+  "over15": 84.3,
+  "over25": 62.9,
+  "under25": 37.1,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=france (temporada 2026/27 seleccionada; sin fecha visible; consultada 17-oct-2026 ~05:50 ECU; incluye J1-J6 + Le Mans-Toulouse del vie 16-oct = 55 partidos) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "13:45",
+  "liga": "ITA",
+  "local": "Roma",
+  "visita": "Genoa",
+  "casa": [
+   3,
+   8,
+   3
+  ],
+  "fuera": [
+   2,
+   1,
+   3
+  ],
+  "HG": 1.59,
+  "AG": 1.33,
+  "lambda_local": 2.01,
+  "lambda_visita": 0.94,
+  "goles_esperados": 3.0,
+  "over15": 80.2,
+  "over25": 56.6,
+  "under25": 43.4,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=italy (temporada 2026/27 seleccionada; sin fecha visible; consultada 17-oct-2026 ~05:45 ECU; incluye J1-J6 + Frosinone 4-2 Sassuolo del vie 16-oct = 61 partidos) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "14:00",
+  "liga": "ECU",
+  "local": "Macará",
+  "visita": "Independiente del Valle",
+  "casa": [
+   15,
+   23,
+   14
+  ],
+  "fuera": [
+   15,
+   37,
+   18
+  ],
+  "HG": 1.29,
+  "AG": 0.97,
+  "lambda_local": 1.4,
+  "lambda_visita": 1.51,
+  "goles_esperados": 2.9,
+  "over15": 79.5,
+  "over25": 55.5,
+  "under25": 44.5,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=ecuador (consultado 17-oct-2026; sin fecha de actualización visible). FASE REGULAR LigaPro 2026 completa: 240/240 partidos, 15 PJ casa y 15 fuera por equipo. NO incluye las fechas 1-2 de la fase final (hexagonales/cuadrangular). (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "14:00",
+  "liga": "ESP",
+  "local": "Valencia",
+  "visita": "Athletic Club",
+  "casa": [
+   4,
+   2,
+   9
+  ],
+  "fuera": [
+   2,
+   2,
+   2
+  ],
+  "HG": 1.75,
+  "AG": 1.33,
+  "lambda_local": 0.96,
+  "lambda_visita": 1.64,
+  "goles_esperados": 2.6,
+  "over15": 74.3,
+  "over25": 48.3,
+  "under25": 51.7,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "Calculada partido a partido con los 79 resultados de https://futboltotal.futbol/league/la-liga/todos-los-partidos (J1-J8 + Deportivo 1-1 Levante del 16-oct, J9) y verificada equipo por equipo (PJ casa, PJ fuera, GF y GC totales) contra https://www.footballwebpages.co.uk/barcelona/league-table (actualizada 16-oct-2026 21:59): los 20 equipos coinciden (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "14:00",
+  "liga": "NED",
+  "local": "Sparta Rotterdam",
+  "visita": "Willem II",
+  "casa": [
+   4,
+   5,
+   10
+  ],
+  "fuera": [
+   4,
+   4,
+   13
+  ],
+  "HG": 1.74,
+  "AG": 2.0,
+  "lambda_local": 2.14,
+  "lambda_visita": 1.69,
+  "goles_esperados": 3.8,
+  "over15": 90.2,
+  "over25": 73.6,
+  "under25": 26.4,
+  "marcador": "1-1",
+  "categoria": "GOL ÉLITE",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.sportsmole.co.uk/football/eredivisie/2026-27/ (Home/Away Table 2026-27, al 16-oct-2026, incluye Heerenveen–Excelsior del viernes) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "15:00",
+  "liga": "COL",
+  "local": "Boyacá Chicó",
+  "visita": "Atlético Nacional",
+  "casa": [
+   6,
+   8,
+   4
+  ],
+  "fuera": [
+   6,
+   13,
+   7
+  ],
+  "HG": 1.42,
+  "AG": 1.16,
+  "lambda_local": 1.22,
+  "lambda_visita": 1.31,
+  "goles_esperados": 2.5,
+  "over15": 73.0,
+  "over25": 46.5,
+  "under25": 53.5,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=colombia2 (Liga BetPlay II / Clausura 2026, 128/190 partidos; últimos resultados 14-oct-2026; consultado 17-oct-2026). Partidos 14-oct Millonarios-Once Caldas y 15-oct Santa Fe-Jaguares aplazados, así que está al día. (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "15:00",
+  "liga": "PER",
+  "local": "Juan Pablo II",
+  "visita": "Sport Boys",
+  "casa": [
+   5,
+   12,
+   2
+  ],
+  "fuera": [
+   5,
+   4,
+   5
+  ],
+  "HG": 1.69,
+  "AG": 1.24,
+  "lambda_local": 1.61,
+  "lambda_visita": 0.62,
+  "goles_esperados": 2.2,
+  "over15": 66.2,
+  "over25": 38.6,
+  "under25": 61.4,
+  "marcador": "1-0",
+  "categoria": "Menos de 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/latest.asp?league=peru2 (Liga 1 Clausura 2026, 99 partidos, últimos resultados 12-oct) + 2 resultados del viernes 16-oct añadidos a mano: Sport Huancayo 2-1 Cusco FC (https://libero.pe/futbol-peruano/liga-1/2026/10/16/tabla-de-posiciones-del-torneo-clausura-liga-1-clasificacion-en-fecha-12-1060980) y Los Chankas 2-1 ADT (https://dsn.pe/posiciones-de-los-chankas-contra-adt-remontada-2-1-los-hace-subir-en-el-clausura-2026-y-complica-a-los-tarmenos/). DG resultante coincide con la tabla de Líbero. (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "15:30",
+  "liga": "ARG",
+  "local": "Independiente Rivadavia",
+  "visita": "Tigre",
+  "casa": [
+   5,
+   12,
+   7
+  ],
+  "fuera": [
+   6,
+   7,
+   9
+  ],
+  "HG": 1.26,
+  "AG": 1.01,
+  "lambda_local": 2.11,
+  "lambda_visita": 1.34,
+  "goles_esperados": 3.5,
+  "over15": 86.6,
+  "over25": 67.0,
+  "under25": 33.0,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "Calculada partido a partido con los resultados de las jornadas 1-13 del Clausura 2026 en https://futboltotal.futbol/league/liga-profesional-argentina/round/clausura-1 … clausura-13 (181 partidos, hasta jueves 15/10: Huracán 1-2 Gimnasia LP). Cotejada con la tabla de Wikipedia (https://en.wikipedia.org/wiki/2026_AFA_Liga_Profesional_de_F%C3%BAtbol, act. 10/10) y con puntos/PJ de https://futboltotal.futbol/league/liga-profesional-argentina/clasificacion. NO incluye Defensa–Instituto ni Boca–Talleres (viernes 16/10): resultados no verificados. (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "15:30",
+  "liga": "ARG",
+  "local": "Platense",
+  "visita": "Lanus",
+  "casa": [
+   6,
+   5,
+   10
+  ],
+  "fuera": [
+   5,
+   7,
+   3
+  ],
+  "HG": 1.26,
+  "AG": 1.01,
+  "lambda_local": 0.71,
+  "lambda_visita": 1.71,
+  "goles_esperados": 2.4,
+  "over15": 70.4,
+  "over25": 43.5,
+  "under25": 56.5,
+  "marcador": "0-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "Calculada partido a partido con los resultados de las jornadas 1-13 del Clausura 2026 en https://futboltotal.futbol/league/liga-profesional-argentina/round/clausura-1 … clausura-13 (181 partidos, hasta jueves 15/10: Huracán 1-2 Gimnasia LP). Cotejada con la tabla de Wikipedia (https://en.wikipedia.org/wiki/2026_AFA_Liga_Profesional_de_F%C3%BAtbol, act. 10/10) y con puntos/PJ de https://futboltotal.futbol/league/liga-profesional-argentina/clasificacion. NO incluye Defensa–Instituto ni Boca–Talleres (viernes 16/10): resultados no verificados. (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "15:30",
+  "liga": "USA",
+  "local": "Minnesota United",
+  "visita": "St. Louis City",
+  "casa": [
+   14,
+   16,
+   18
+  ],
+  "fuera": [
+   14,
+   20,
+   19
+  ],
+  "HG": 1.86,
+  "AG": 1.4,
+  "lambda_local": 1.03,
+  "lambda_visita": 1.33,
+  "goles_esperados": 2.4,
+  "over15": 69.3,
+  "over25": 42.0,
+  "under25": 58.0,
+  "marcador": "1-1",
+  "categoria": "Menos de 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "16:00",
+  "liga": "BRA",
+  "local": "Botafogo",
+  "visita": "Chapecoense",
+  "casa": [
+   15,
+   25,
+   22
+  ],
+  "fuera": [
+   15,
+   11,
+   28
+  ],
+  "HG": 1.54,
+  "AG": 1.13,
+  "lambda_local": 1.91,
+  "lambda_visita": 1.01,
+  "goles_esperados": 2.9,
+  "over15": 79.7,
+  "over25": 55.9,
+  "under25": 44.1,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://valorfinal.com.br/brasileirao/tabelas-por-recorte — actualizada 17/10/2026 00:00, tras la 30ª rodada e incluye Mirassol 2-0 Internacional (16/10, 31ª rodada) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "16:30",
+  "liga": "BRA",
+  "local": "Atletico MG",
+  "visita": "Coritiba",
+  "casa": [
+   15,
+   26,
+   17
+  ],
+  "fuera": [
+   15,
+   18,
+   28
+  ],
+  "HG": 1.54,
+  "AG": 1.13,
+  "lambda_local": 1.98,
+  "lambda_visita": 1.19,
+  "goles_esperados": 3.2,
+  "over15": 83.2,
+  "over25": 61.2,
+  "under25": 38.8,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://valorfinal.com.br/brasileirao/tabelas-por-recorte — actualizada 17/10/2026 00:00, tras la 30ª rodada e incluye Mirassol 2-0 Internacional (16/10, 31ª rodada) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "16:30",
+  "liga": "ECU",
+  "local": "Aucas",
+  "visita": "LDU Quito",
+  "casa": [
+   15,
+   19,
+   16
+  ],
+  "fuera": [
+   15,
+   18,
+   13
+  ],
+  "HG": 1.29,
+  "AG": 0.97,
+  "lambda_local": 0.94,
+  "lambda_visita": 1.24,
+  "goles_esperados": 2.2,
+  "over15": 65.2,
+  "over25": 37.3,
+  "under25": 62.7,
+  "marcador": "1-1",
+  "categoria": "Menos de 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=ecuador (consultado 17-oct-2026; sin fecha de actualización visible). FASE REGULAR LigaPro 2026 completa: 240/240 partidos, 15 PJ casa y 15 fuera por equipo. NO incluye las fechas 1-2 de la fase final (hexagonales/cuadrangular). (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "17:30",
+  "liga": "BRA",
+  "local": "Athletico-PR",
+  "visita": "Palmeiras",
+  "casa": [
+   15,
+   27,
+   13
+  ],
+  "fuera": [
+   15,
+   24,
+   12
+  ],
+  "HG": 1.54,
+  "AG": 1.13,
+  "lambda_local": 1.08,
+  "lambda_visita": 1.22,
+  "goles_esperados": 2.3,
+  "over15": 68.1,
+  "over25": 40.6,
+  "under25": 59.4,
+  "marcador": "1-1",
+  "categoria": "Menos de 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://valorfinal.com.br/brasileirao/tabelas-por-recorte — actualizada 17/10/2026 00:00, tras la 30ª rodada e incluye Mirassol 2-0 Internacional (16/10, 31ª rodada) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "18:00",
+  "liga": "ARG",
+  "local": "Atletico Tucuman",
+  "visita": "Rosario Central",
+  "casa": [
+   6,
+   4,
+   7
+  ],
+  "fuera": [
+   6,
+   7,
+   5
+  ],
+  "HG": 1.26,
+  "AG": 1.01,
+  "lambda_local": 0.72,
+  "lambda_visita": 1.21,
+  "goles_esperados": 1.9,
+  "over15": 58.4,
+  "over25": 30.4,
+  "under25": 69.6,
+  "marcador": "0-1",
+  "categoria": "Menos de 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "Calculada partido a partido con los resultados de las jornadas 1-13 del Clausura 2026 en https://futboltotal.futbol/league/liga-profesional-argentina/round/clausura-1 … clausura-13 (181 partidos, hasta jueves 15/10: Huracán 1-2 Gimnasia LP). Cotejada con la tabla de Wikipedia (https://en.wikipedia.org/wiki/2026_AFA_Liga_Profesional_de_F%C3%BAtbol, act. 10/10) y con puntos/PJ de https://futboltotal.futbol/league/liga-profesional-argentina/clasificacion. NO incluye Defensa–Instituto ni Boca–Talleres (viernes 16/10): resultados no verificados. (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "18:00",
+  "liga": "ARG",
+  "local": "Velez Sarsfield",
+  "visita": "Gimnasia Mendoza",
+  "casa": [
+   6,
+   9,
+   5
+  ],
+  "fuera": [
+   6,
+   6,
+   9
+  ],
+  "HG": 1.26,
+  "AG": 1.01,
+  "lambda_local": 1.56,
+  "lambda_visita": 0.9,
+  "goles_esperados": 2.5,
+  "over15": 71.5,
+  "over25": 44.7,
+  "under25": 55.3,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "Calculada partido a partido con los resultados de las jornadas 1-13 del Clausura 2026 en https://futboltotal.futbol/league/liga-profesional-argentina/round/clausura-1 … clausura-13 (181 partidos, hasta jueves 15/10: Huracán 1-2 Gimnasia LP). Cotejada con la tabla de Wikipedia (https://en.wikipedia.org/wiki/2026_AFA_Liga_Profesional_de_F%C3%BAtbol, act. 10/10) y con puntos/PJ de https://futboltotal.futbol/league/liga-profesional-argentina/clasificacion. NO incluye Defensa–Instituto ni Boca–Talleres (viernes 16/10): resultados no verificados. (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "18:00",
+  "liga": "COL",
+  "local": "Millonarios",
+  "visita": "Jaguares de Córdoba",
+  "casa": [
+   5,
+   6,
+   2
+  ],
+  "fuera": [
+   5,
+   4,
+   10
+  ],
+  "HG": 1.42,
+  "AG": 1.16,
+  "lambda_local": 1.59,
+  "lambda_visita": 0.61,
+  "goles_esperados": 2.2,
+  "over15": 65.5,
+  "over25": 37.8,
+  "under25": 62.2,
+  "marcador": "1-0",
+  "categoria": "Menos de 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=colombia2 (Liga BetPlay II / Clausura 2026, 128/190 partidos; últimos resultados 14-oct-2026; consultado 17-oct-2026). Partidos 14-oct Millonarios-Once Caldas y 15-oct Santa Fe-Jaguares aplazados, así que está al día. (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "18:00",
+  "liga": "MEX",
+  "local": "Santos Laguna",
+  "visita": "Queretaro",
+  "casa": [
+   5,
+   3,
+   3
+  ],
+  "fuera": [
+   5,
+   8,
+   2
+  ],
+  "HG": 1.53,
+  "AG": 1.4,
+  "lambda_local": 0.61,
+  "lambda_visita": 1.03,
+  "goles_esperados": 1.6,
+  "over15": 49.7,
+  "over25": 22.7,
+  "under25": 77.3,
+  "marcador": "0-0",
+  "categoria": "Menos de 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=mexico (Liga MX Apertura 2026, consultada 17-oct-2026; incluye hasta J11, último partido lunes 12-oct) + 3 partidos del viernes 16-oct añadidos a mano (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "18:00",
+  "liga": "PER",
+  "local": "Melgar",
+  "visita": "Deportivo Garcilaso",
+  "casa": [
+   5,
+   9,
+   7
+  ],
+  "fuera": [
+   5,
+   2,
+   2
+  ],
+  "HG": 1.69,
+  "AG": 1.24,
+  "lambda_local": 1.05,
+  "lambda_visita": 0.83,
+  "goles_esperados": 1.9,
+  "over15": 57.1,
+  "over25": 29.1,
+  "under25": 70.9,
+  "marcador": "0-0",
+  "categoria": "Menos de 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/latest.asp?league=peru2 (Liga 1 Clausura 2026, 99 partidos, últimos resultados 12-oct) + 2 resultados del viernes 16-oct añadidos a mano: Sport Huancayo 2-1 Cusco FC (https://libero.pe/futbol-peruano/liga-1/2026/10/16/tabla-de-posiciones-del-torneo-clausura-liga-1-clasificacion-en-fecha-12-1060980) y Los Chankas 2-1 ADT (https://dsn.pe/posiciones-de-los-chankas-contra-adt-remontada-2-1-los-hace-subir-en-el-clausura-2026-y-complica-a-los-tarmenos/). DG resultante coincide con la tabla de Líbero. (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "18:07",
+  "liga": "MEX",
+  "local": "Guadalajara",
+  "visita": "Tigres UANL",
+  "casa": [
+   5,
+   9,
+   6
+  ],
+  "fuera": [
+   6,
+   4,
+   10
+  ],
+  "HG": 1.53,
+  "AG": 1.4,
+  "lambda_local": 1.77,
+  "lambda_visita": 0.88,
+  "goles_esperados": 2.7,
+  "over15": 75.2,
+  "over25": 49.5,
+  "under25": 50.5,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=mexico (Liga MX Apertura 2026, consultada 17-oct-2026; incluye hasta J11, último partido lunes 12-oct) + 3 partidos del viernes 16-oct añadidos a mano (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "18:30",
+  "liga": "USA",
+  "local": "Atlanta United",
+  "visita": "Inter Miami",
+  "casa": [
+   14,
+   20,
+   26
+  ],
+  "fuera": [
+   14,
+   29,
+   24
+  ],
+  "HG": 1.86,
+  "AG": 1.4,
+  "lambda_local": 1.43,
+  "lambda_visita": 2.41,
+  "goles_esperados": 3.8,
+  "over15": 90.2,
+  "over25": 73.7,
+  "under25": 26.3,
+  "marcador": "1-2",
+  "categoria": "GOL ÉLITE",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "18:30",
+  "liga": "USA",
+  "local": "New England",
+  "visita": "Chicago Fire",
+  "casa": [
+   14,
+   26,
+   16
+  ],
+  "fuera": [
+   14,
+   24,
+   24
+  ],
+  "HG": 1.86,
+  "AG": 1.4,
+  "lambda_local": 1.75,
+  "lambda_visita": 1.41,
+  "goles_esperados": 3.2,
+  "over15": 83.1,
+  "over25": 61.0,
+  "under25": 39.0,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "18:30",
+  "liga": "USA",
+  "local": "New York RB",
+  "visita": "Toronto",
+  "casa": [
+   14,
+   22,
+   27
+  ],
+  "fuera": [
+   13,
+   10,
+   23
+  ],
+  "HG": 1.86,
+  "AG": 1.4,
+  "lambda_local": 1.58,
+  "lambda_visita": 1.19,
+  "goles_esperados": 2.8,
+  "over15": 77.2,
+  "over25": 52.1,
+  "under25": 47.9,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "18:30",
+  "liga": "USA",
+  "local": "Orlando City",
+  "visita": "DC United",
+  "casa": [
+   14,
+   26,
+   19
+  ],
+  "fuera": [
+   13,
+   16,
+   21
+  ],
+  "HG": 1.86,
+  "AG": 1.4,
+  "lambda_local": 1.67,
+  "lambda_visita": 1.24,
+  "goles_esperados": 2.9,
+  "over15": 79.6,
+  "over25": 55.7,
+  "under25": 44.3,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "19:00",
+  "liga": "BRA",
+  "local": "São Paulo",
+  "visita": "Vasco da Gama",
+  "casa": [
+   15,
+   24,
+   13
+  ],
+  "fuera": [
+   14,
+   15,
+   24
+  ],
+  "HG": 1.54,
+  "AG": 1.13,
+  "lambda_local": 1.73,
+  "lambda_visita": 0.88,
+  "goles_esperados": 2.6,
+  "over15": 74.4,
+  "over25": 48.4,
+  "under25": 51.6,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://valorfinal.com.br/brasileirao/tabelas-por-recorte — actualizada 17/10/2026 00:00, tras la 30ª rodada e incluye Mirassol 2-0 Internacional (16/10, 31ª rodada) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "19:30",
+  "liga": "USA",
+  "local": "Austin",
+  "visita": "Vancouver",
+  "casa": [
+   14,
+   20,
+   19
+  ],
+  "fuera": [
+   14,
+   26,
+   16
+  ],
+  "HG": 1.86,
+  "AG": 1.4,
+  "lambda_local": 1.07,
+  "lambda_visita": 1.71,
+  "goles_esperados": 2.8,
+  "over15": 77.4,
+  "over25": 52.5,
+  "under25": 47.5,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "19:30",
+  "liga": "USA",
+  "local": "Houston Dynamo",
+  "visita": "Dallas",
+  "casa": [
+   14,
+   17,
+   12
+  ],
+  "fuera": [
+   15,
+   27,
+   25
+  ],
+  "HG": 1.86,
+  "AG": 1.4,
+  "lambda_local": 1.25,
+  "lambda_visita": 1.2,
+  "goles_esperados": 2.4,
+  "over15": 71.1,
+  "over25": 44.2,
+  "under25": 55.8,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "19:30",
+  "liga": "USA",
+  "local": "Sporting KC",
+  "visita": "Real Salt Lake",
+  "casa": [
+   14,
+   21,
+   29
+  ],
+  "fuera": [
+   14,
+   14,
+   26
+  ],
+  "HG": 1.86,
+  "AG": 1.4,
+  "lambda_local": 1.58,
+  "lambda_visita": 1.49,
+  "goles_esperados": 3.1,
+  "over15": 82.0,
+  "over25": 59.3,
+  "under25": 40.7,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "20:00",
+  "liga": "MEX",
+  "local": "Leon",
+  "visita": "America",
+  "casa": [
+   5,
+   9,
+   4
+  ],
+  "fuera": [
+   5,
+   11,
+   8
+  ],
+  "HG": 1.53,
+  "AG": 1.4,
+  "lambda_local": 1.72,
+  "lambda_visita": 1.41,
+  "goles_esperados": 3.1,
+  "over15": 82.8,
+  "over25": 60.5,
+  "under25": 39.5,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=mexico (Liga MX Apertura 2026, consultada 17-oct-2026; incluye hasta J11, último partido lunes 12-oct) + 3 partidos del viernes 16-oct añadidos a mano (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "20:00",
+  "liga": "MEX",
+  "local": "Toluca",
+  "visita": "A. San Luis",
+  "casa": [
+   5,
+   15,
+   8
+  ],
+  "fuera": [
+   5,
+   8,
+   10
+  ],
+  "HG": 1.53,
+  "AG": 1.4,
+  "lambda_local": 2.75,
+  "lambda_visita": 1.63,
+  "goles_esperados": 4.4,
+  "over15": 93.7,
+  "over25": 81.2,
+  "under25": 18.8,
+  "marcador": "2-1",
+  "categoria": "GOL ÉLITE",
+  "senal_o25": "fuerte",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=mexico (Liga MX Apertura 2026, consultada 17-oct-2026; incluye hasta J11, último partido lunes 12-oct) + 3 partidos del viernes 16-oct añadidos a mano (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "20:10",
+  "liga": "COL",
+  "local": "Independiente Medellín",
+  "visita": "Once Caldas",
+  "casa": [
+   7,
+   10,
+   8
+  ],
+  "fuera": [
+   7,
+   7,
+   9
+  ],
+  "HG": 1.42,
+  "AG": 1.16,
+  "lambda_local": 1.34,
+  "lambda_visita": 1.05,
+  "goles_esperados": 2.4,
+  "over15": 69.9,
+  "over25": 42.7,
+  "under25": 57.3,
+  "marcador": "1-1",
+  "categoria": "Menos de 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=colombia2 (Liga BetPlay II / Clausura 2026, 128/190 partidos; últimos resultados 14-oct-2026; consultado 17-oct-2026). Partidos 14-oct Millonarios-Once Caldas y 15-oct Santa Fe-Jaguares aplazados, así que está al día. (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "20:30",
+  "liga": "PER",
+  "local": "Alianza Lima",
+  "visita": "Atlético Grau",
+  "casa": [
+   6,
+   9,
+   5
+  ],
+  "fuera": [
+   5,
+   6,
+   10
+  ],
+  "HG": 1.69,
+  "AG": 1.24,
+  "lambda_local": 1.74,
+  "lambda_visita": 0.98,
+  "goles_esperados": 2.7,
+  "over15": 76.3,
+  "over25": 51.0,
+  "under25": 49.0,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/latest.asp?league=peru2 (Liga 1 Clausura 2026, 99 partidos, últimos resultados 12-oct) + 2 resultados del viernes 16-oct añadidos a mano: Sport Huancayo 2-1 Cusco FC (https://libero.pe/futbol-peruano/liga-1/2026/10/16/tabla-de-posiciones-del-torneo-clausura-liga-1-clasificacion-en-fecha-12-1060980) y Los Chankas 2-1 ADT (https://dsn.pe/posiciones-de-los-chankas-contra-adt-remontada-2-1-los-hace-subir-en-el-clausura-2026-y-complica-a-los-tarmenos/). DG resultante coincide con la tabla de Líbero. (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "21:30",
+  "liga": "USA",
+  "local": "LA Galaxy",
+  "visita": "San Diego",
+  "casa": [
+   15,
+   20,
+   18
+  ],
+  "fuera": [
+   14,
+   16,
+   27
+  ],
+  "HG": 1.86,
+  "AG": 1.4,
+  "lambda_local": 1.49,
+  "lambda_visita": 1.06,
+  "goles_esperados": 2.6,
+  "over15": 73.3,
+  "over25": 46.9,
+  "under25": 53.1,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "21:30",
+  "liga": "USA",
+  "local": "Portland",
+  "visita": "Colorado Rapids",
+  "casa": [
+   14,
+   31,
+   25
+  ],
+  "fuera": [
+   14,
+   13,
+   26
+  ],
+  "HG": 1.86,
+  "AG": 1.4,
+  "lambda_local": 2.14,
+  "lambda_visita": 1.25,
+  "goles_esperados": 3.4,
+  "over15": 85.9,
+  "over25": 65.8,
+  "under25": 34.2,
+  "marcador": "1-1",
+  "categoria": "Rango 80",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "21:30",
+  "liga": "USA",
+  "local": "SJ Earthquakes",
+  "visita": "Nashville SC",
+  "casa": [
+   14,
+   25,
+   22
+  ],
+  "fuera": [
+   14,
+   18,
+   10
+  ],
+  "HG": 1.86,
+  "AG": 1.4,
+  "lambda_local": 1.08,
+  "lambda_visita": 1.43,
+  "goles_esperados": 2.5,
+  "over15": 72.6,
+  "over25": 46.0,
+  "under25": 54.0,
+  "marcador": "1-1",
+  "categoria": "Rango 70",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "21:30",
+  "liga": "USA",
+  "local": "Seattle",
+  "visita": "CF Montreal",
+  "casa": [
+   14,
+   23,
+   20
+  ],
+  "fuera": [
+   14,
+   16,
+   38
+  ],
+  "HG": 1.86,
+  "AG": 1.4,
+  "lambda_local": 2.3,
+  "lambda_visita": 1.22,
+  "goles_esperados": 3.5,
+  "over15": 87.2,
+  "over25": 68.2,
+  "under25": 31.8,
+  "marcador": "2-1",
+  "categoria": "Rango 80",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ },
+ {
+  "hora": "22:00",
+  "liga": "MEX",
+  "local": "Cruz Azul",
+  "visita": "Juarez",
+  "casa": [
+   6,
+   12,
+   12
+  ],
+  "fuera": [
+   5,
+   3,
+   15
+  ],
+  "HG": 1.53,
+  "AG": 1.4,
+  "lambda_local": 2.78,
+  "lambda_visita": 1.2,
+  "goles_esperados": 4.0,
+  "over15": 91.2,
+  "over25": 75.9,
+  "under25": 24.1,
+  "marcador": "2-1",
+  "categoria": "GOL ÉLITE",
+  "senal_o25": "fuerte",
+  "aviso_mercado": null,
+  "sellado": "2026-10-17 05:55 ECU (UTC-5)",
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=mexico (Liga MX Apertura 2026, consultada 17-oct-2026; incluye hasta J11, último partido lunes 12-oct) + 3 partidos del viernes 16-oct añadidos a mano (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+ }
+]

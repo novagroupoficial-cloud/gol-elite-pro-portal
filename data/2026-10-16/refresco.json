@@ -1,10 +1,16 @@
 {
  "fecha": "2026-10-16",
- "ultima_ejecucion": "2026-10-16 21:10 ECU",
- "ultima_ok": "2026-10-16 21:10 ECU",
- "rutina_diaria": "en_curso",
+ "ultima_ejecucion": "2026-10-16 21:19 ECU",
+ "ultima_ok": "2026-10-16 21:19 ECU",
+ "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-16 21:15 ECU",
- "pendientes": [],
- "deploy": {"ok": null, "fallos_seguidos": 0, "ultima_revision": "21:10 (sin lectura)"},
- "avisos_enviados": []
+ "nota": "Rutina del día recuperada por el refresco a las 21:15 ECU: solo quedaban por empezar los partidos de Liga MX de las 22:00 (Tijuana–Puebla y Atlante–Pumas), sellados a las 21:17 con datos manuales de SoccerSTATS (/api/dia no disponible). Portal actualizado al 16-oct. Lectura tomada: rutina reducida (sin kit de redes) por la hora.",
+ "pendientes": [
+  "Resultados de Tijuana–Puebla y Atlante–Pumas (22:00 ECU): buscarlos desde las 00:15 ECU del 17 y registrarlos en data/2026-10-16/resultados-en-vivo.json.",
+  "Kit de redes del 16-oct no generado (rutina recuperada a las 21:15, partidos a las 22:00).",
+  "Auditoría oficial de 2026-10-12 (auditoria.json + galería) nunca se hizo: la rutina del 13 quedó en_curso y no hubo rutinas el 13, 14 ni 15 (sin pronósticos esos días).",
+  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso sin respuesta."
+ ],
+ "deploy": {"ok": null, "fallos_seguidos": 0, "ultima_revision": "21:19 (sin lectura)"},
+ "avisos_enviados": ["rutina_recuperada"]
 }

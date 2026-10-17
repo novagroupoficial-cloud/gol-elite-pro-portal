@@ -56,3 +56,22 @@ LLEGAN={
    "En casa de Coritiba hay 2,71 goles por partido (19 a favor y 19 en contra en 14).",
    "Fuente: Valor Final."],
 }
+
+# ---- Viernes 16-oct-2026 (rutina recuperada por el refresco de las 21:15 ECU; solo Liga MX de las 22:00) ----
+LINK={
+ 'Tijuana|Puebla':("Tijuana recibe a Puebla en la jornada 12 del Apertura 2026","El Congresista","https://elcongresista.mx/tijuana-vs-puebla-jornada-12-apertura-2026"),
+ 'Atlante|Pumas UNAM':("Atlante vs Pumas: horario, alineaciones y dónde ver el partido de la jornada 12","Claro Sports","https://www.clarosports.com/futbol/liga-mx/atlante-vs-pumas-en-vivo-la-liga-mx-horario-alineaciones-y-donde-ver-el-partido-del-apertura-2026-jornada-12/"),
+}
+PRED=[]
+DEST=['Atlante|Pumas UNAM','Tijuana|Puebla']
+COL.update({'Tijuana':'#c8102e','Puebla':'#1d3f8f','Atlante':'#8b1a2b'})
+LLEGAN={
+ 'Atlante|Pumas UNAM':["Atlante en casa: 6 goles a favor y 7 en contra en 5 partidos.",
+   "Pumas fuera: 8 goles a favor y 8 en contra en 5 partidos (3,2 goles por partido).",
+   "En la tabla general, Pumas es 12.º (17 GF, 19 GC) y Atlante 16.º (12 GF, 17 GC) tras 11 jornadas.",
+   "Fuentes: SoccerSTATS y The Stats API."],
+ 'Tijuana|Puebla':["Tijuana en casa: 10 goles a favor y 6 en contra en 6 partidos.",
+   "Puebla fuera: 6 goles a favor y 7 en contra en 6 partidos (2,2 goles por partido).",
+   "Tijuana es 8.º y Puebla 9.º en la tabla general.",
+   "Fuentes: SoccerSTATS y The Stats API."],
+}

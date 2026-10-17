@@ -15,13 +15,10 @@ def key(p): return f"{p['local']}|{p['visita']}"
 NEWS_PRED={}  # (sin uso en la portada actual)
 NEWS_DEST=[]
 FUENTES=[
- ("Comuniate · Levante-Sevilla, previa jornada 8","https://www.comuniate.com/noticias/38270/levante-sevilla-previa-alineaciones-probables-y-consejos-fantasy-jornada-8-de-laliga"),
- ("VAVEL · Coventry City vs Newcastle, previa","https://www.vavel.com/en/football/2026/10/09/premier-league/1274500-newcastle-vs-coventry-preview.html"),
- ("Futebol Interior · cierre de la fecha 30 del Brasileirão","https://www.futebolinterior.com.br/brasileirao-2026-jogos-30a-rodada-segunda-feira/"),
- ("Valor Final · Chapecoense x Athletico-PR","https://valorfinal.com.br/brasileirao/2026/jogos/chapecoense-x-athletico-pr"),
- ("Valor Final · Bragantino x Cruzeiro","https://valorfinal.com.br/brasileirao/2026/jogos/bragantino-x-cruzeiro"),
- ("Todo Jujuy · Lanús vs Vélez","https://www.todojujuy.com/lanus-vs-velez-previa-horario-y-como-llegan-la-fecha-12-del-clausura-n297238"),
- ("Todo Jujuy · Gimnasia (Mendoza) vs Newell's","https://www.todojujuy.com/gimnasia-mendoza-vs-newells-previa-horario-y-como-llegan-la-fecha-12-del-clausura-n297239"),
+ ("El Congresista · Tijuana recibe a Puebla, jornada 12","https://elcongresista.mx/tijuana-vs-puebla-jornada-12-apertura-2026"),
+ ("Claro Sports · Atlante vs Pumas, jornada 12","https://www.clarosports.com/futbol/liga-mx/atlante-vs-pumas-en-vivo-la-liga-mx-horario-alineaciones-y-donde-ver-el-partido-del-apertura-2026-jornada-12/"),
+ ("SoccerSTATS · Liga MX Apertura, tablas de local y visitante","https://www.soccerstats.com/homeaway.asp?league=mexico"),
+ ("The Stats API · tabla del Apertura 2026","https://www.thestatsapi.com/football/league/liga-mx-apertura/standings"),
 ]
 idx={key(p):p for p in P}
 
@@ -88,7 +85,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if p['over15']>=80 else ''}"><span>Over 1.5</span><b>{f1(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{f1(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=['U. de Chile–Ñublense (Chile)']  # sin tabla casa/fuera verificable
+SIN=[]  # sin tabla casa/fuera verificable
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 # Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
@@ -208,24 +205,24 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del lunes 12 de octubre; se integrará al portal cuando llegue el código.</div>
+<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del viernes 16 de octubre; se integrará al portal cuando llegue el código.</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Lunes 12 de octubre de 2026 · sellado 06:12 ECU</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Viernes 16 de octubre de 2026 · sellado 21:17 ECU</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{f1(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{f1(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.0, calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK[key(top)][1])} · <a href="{LINK[key(top)][2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
 {RANK}
-<section id="aciertos"><div class="sh"><h2>¡Acertamos ayer!</h2><p>Domingo 11 de octubre · Over 1.5 en 17 de 19 partidos · toca para ver el resultado en su medio</p></div>
+<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>Domingo 11 de octubre · Over 1.5 en 17 de 19 partidos · toca para ver el resultado en su medio</p></div>
 <div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del lunes</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del viernes</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Lunes 12 de octubre de 2026 · pronósticos sellados a las 06:12 y 06:25 (hora de Ecuador) · toca un partido para ver sus datos</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Viernes 16 de octubre de 2026 · pronósticos sellados a las 21:17 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
@@ -233,16 +230,16 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <div class="kpis"><div class="kpi g"><b>1/1</b><span>GOL ÉLITE · Over 1.5</span></div><div class="kpi"><b>14/16</b><span>Over 1.5 de 70 % o más (88 %)</span></div><div class="kpi"><b>1/1</b><span>Over 2.5 con señal (100 %)</span></div><div class="kpi"><b>2/19</b><span>Marcadores exactos</span></div></div>
 <p class="legal">Partido del día: Atlético MG 2-1 Santos (Over 1.5 al 85,0 %, sellado 08:41; hubo 3 goles) ✔. Fallos: U. Católica 0-1 Macará y Flamengo 1-0 Fluminense. Acumulado de la galería: 6/6 GOL ÉLITE y 35/41 en Over 1.5 de 70 % o más (85 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 90 % o más</li><li><span class="badge r80">Rango 80</span> de 80 % a 89,9 %</li><li><span class="badge r70">Rango 70</span> de 70 % a 79,9 %</li><li><span class="badge r00">Menos de 70</span> no recomendado</li></ul></section>
-<section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos encontrados de las ligas principales (Premier League, LaLiga, Brasileirão y Liga Profesional) tienen datos verificados. Sin jornada hoy en Serie A, Bundesliga, Ligue 1, Eredivisie, Liga Portugal, Liga MX, MLS, LigaPro, Colombia, Perú ni Chile.</p>'}</section>
+<section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy solo se pronosticaron los partidos de Liga MX de las 22:00 (hora de Ecuador), los únicos que aún no empezaban cuando se recuperó la rutina del día. Los partidos anteriores de hoy no tienen pronóstico.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
-<p>Las noticias enlazan a sus medios de origen. Las imágenes de los partidos son ilustraciones propias de Gol Élite Pro.</p><p>Estadísticas de local y visitante: SoccerSTATS (Argentina), Meu Timão (Brasileirão), Fútbol Total (LaLiga) y resultados de Sports Mole y Football Web Pages (Premier League), verificadas con sumas cruzadas.</p></section>
+<p>Las noticias enlazan a sus medios de origen. Las imágenes de los partidos son ilustraciones propias de Gol Élite Pro.</p><p>Estadísticas de local y visitante: SoccerSTATS (Liga MX), verificadas con sumas cruzadas y con la tabla general de The Stats API.</p></section>
 </aside></div>
 <a class="fab" href="/" aria-label="Volver al inicio" title="Inicio"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z" fill="currentColor"/></svg></a>
 <script>
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-10-12"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-10-16"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

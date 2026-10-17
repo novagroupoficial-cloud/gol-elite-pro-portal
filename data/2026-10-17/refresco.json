@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-17",
- "ultima_ejecucion": "2026-10-17 05:10 ECU",
- "ultima_ok": "2026-10-17 01:16 ECU",
+ "ultima_ejecucion": "2026-10-17 06:10 ECU",
+ "ultima_ok": "2026-10-17 06:10 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-17 05:25 ECU",
  "pendientes": [
@@ -12,13 +12,13 @@
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "05:10 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
+  "ultima_revision": "06:10 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
  },
  "avisos_enviados": [
   "cierre_del_dia_2026-10-16",
   "partido_del_dia_2026-10-16",
   "bloqueo"
  ],
- "web_sin_lectura_seguidas": 9,
- "nota": "01:16: Tijuana 0-0 Puebla registrado (VAVEL 'EVENT ENDED'; Mediotiempo resumen 0-0). Jornada del 16 cerrada: Over 1.5 70 %+ 1/1. Ranking del 16 publicado como final hasta que la rutina del 17 selle pronósticos. | 02:10: antes de 08:00 ECU, sin pronósticos del 17 aún; ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch). | 03:09: antes de 08:00 ECU, sin pronósticos del 17; ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 04:09: antes de 08:00 ECU, sin pronósticos del 17 (refresco.py no corre sin pronosticos.json); ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 05:10: antes de 08:00 ECU, sin pronósticos del 17 (la rutina diaria corre a las 05:24); ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 06:2x: rutina diaria hecha: 60 pronósticos sellados 05:55 ECU (datos manuales, /api/dia no existe), auditoría del 16 y galería, kit de redes del 17."
+ "web_sin_lectura_seguidas": 10,
+ "nota": "01:16: Tijuana 0-0 Puebla registrado (VAVEL 'EVENT ENDED'; Mediotiempo resumen 0-0). Jornada del 16 cerrada: Over 1.5 70 %+ 1/1. Ranking del 16 publicado como final hasta que la rutina del 17 selle pronósticos. | 02:10: antes de 08:00 ECU, sin pronósticos del 17 aún; ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch). | 03:09: antes de 08:00 ECU, sin pronósticos del 17; ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 04:09: antes de 08:00 ECU, sin pronósticos del 17 (refresco.py no corre sin pronosticos.json); ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 05:10: antes de 08:00 ECU, sin pronósticos del 17 (la rutina diaria corre a las 05:24); ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 06:2x: rutina diaria hecha: 60 pronósticos sellados 05:55 ECU (datos manuales, /api/dia no existe), auditoría del 16 y galería, kit de redes del 17. | 06:10: ranking del 17 generado (60 partidos, ninguno terminado; primero 06:30 Everton-Chelsea). Sin estadisticas.json del Dashboard. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy."
 }

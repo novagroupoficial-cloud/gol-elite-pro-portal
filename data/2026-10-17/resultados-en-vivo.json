@@ -13,5 +13,20 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/everton-vs-chelsea-premier-league-2026-10-17",
   "registrado": "09:15 ECU"
+ },
+ {
+  "local": "Espanyol",
+  "visita": "Atletico Madrid",
+  "hora": "07:00",
+  "resultado": "0-1",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 83.2,
+  "over25_dado": 61.3,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/espanyol-vs-atletico-madrid-la-liga-2026-10-17",
+  "registrado": "10:15 ECU"
  }
 ]

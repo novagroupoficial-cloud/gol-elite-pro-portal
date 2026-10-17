@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-17",
- "actualizado": "2026-10-17 09:16 ECU (UTC-5)",
+ "actualizado": "2026-10-17 10:15 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-17/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 1,
+  "terminados": 2,
   "total": 60,
   "over15_70": [
    1,
-   1
+   2
   ],
   "over25_senal": [
    0,
@@ -329,8 +329,13 @@
     "gc": 5
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/espanyol-vs-atletico-madrid-la-liga-2026-10-17"
   },
   {
    "puesto": 22,
@@ -596,7 +601,7 @@
     "gc": 6
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1064,8 +1069,13 @@
     "gc": 5
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/espanyol-vs-atletico-madrid-la-liga-2026-10-17"
   },
   {
    "puesto": 22,
@@ -1381,7 +1391,7 @@
     "gc": 5
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

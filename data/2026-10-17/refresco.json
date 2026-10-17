@@ -1,24 +1,25 @@
 {
  "fecha": "2026-10-17",
- "ultima_ejecucion": "2026-10-17 10:15 ECU",
- "ultima_ok": "2026-10-17 10:15 ECU",
+ "ultima_ejecucion": "2026-10-17 11:16 ECU",
+ "ultima_ok": "2026-10-17 11:16 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-17 05:25 ECU",
  "pendientes": [
   "Kit de redes del 16-oct no generado.",
   "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso sin respuesta.",
-  "Auditoría oficial de 2026-10-12 sigue sin hacerse (no la cubrió la rutina del 17)."
+  "Auditoría oficial de 2026-10-12 sigue sin hacerse (no la cubrió la rutina del 17).",
+  "Resultados Bundesliga 08:30 (Elversberg-Augsburg, HSV-Stuttgart, Schalke-Mainz, Union-Dortmund, Bremen-Paderborn): fuentes con caché desactualizada o pidiendo permiso; reintentar."
  ],
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "10:15 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
+  "ultima_revision": "11:16 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
  },
  "avisos_enviados": [
   "cierre_del_dia_2026-10-16",
   "partido_del_dia_2026-10-16",
   "bloqueo"
  ],
- "web_sin_lectura_seguidas": 14,
- "nota": "01:16: Tijuana 0-0 Puebla registrado (VAVEL 'EVENT ENDED'; Mediotiempo resumen 0-0). Jornada del 16 cerrada: Over 1.5 70 %+ 1/1. Ranking del 16 publicado como final hasta que la rutina del 17 selle pronósticos. | 02:10: antes de 08:00 ECU, sin pronósticos del 17 aún; ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch). | 03:09: antes de 08:00 ECU, sin pronósticos del 17; ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 04:09: antes de 08:00 ECU, sin pronósticos del 17 (refresco.py no corre sin pronosticos.json); ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 05:10: antes de 08:00 ECU, sin pronósticos del 17 (la rutina diaria corre a las 05:24); ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 06:2x: rutina diaria hecha: 60 pronósticos sellados 05:55 ECU (datos manuales, /api/dia no existe), auditoría del 16 y galería, kit de redes del 17. | 06:10: ranking del 17 generado (60 partidos, ninguno terminado; primero 06:30 Everton-Chelsea). Sin estadisticas.json del Dashboard. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 07:11: ranking actualizado (60 partidos; Everton-Chelsea y Espanyol-Atlético en juego, ninguno terminado). Sin estadisticas.json. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 08:10: ranking actualizado (60 partidos; ninguno terminado aún, primeros resultados desde las 08:45). Rutina diaria ya hecha. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 09:15: Everton 0-2 Chelsea registrado (futboltotal 'Final'): Over 1.5 ✔, Over 2.5 ✘. Ranking actualizado. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 10:15: Espanyol 0-1 Atlético registrado (futboltotal 'Final', gol de Baena 89'): Over 1.5 ✘, Over 2.5 ✘. Ranking actualizado (2/60 terminados; Over 1.5 70 %+ 1/2). estadisticas.json de hoy integrado. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy."
+ "web_sin_lectura_seguidas": 15,
+ "nota": "01:16: Tijuana 0-0 Puebla registrado (VAVEL 'EVENT ENDED'; Mediotiempo resumen 0-0). Jornada del 16 cerrada: Over 1.5 70 %+ 1/1. Ranking del 16 publicado como final hasta que la rutina del 17 selle pronósticos. | 02:10: antes de 08:00 ECU, sin pronósticos del 17 aún; ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch). | 03:09: antes de 08:00 ECU, sin pronósticos del 17; ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 04:09: antes de 08:00 ECU, sin pronósticos del 17 (refresco.py no corre sin pronosticos.json); ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 05:10: antes de 08:00 ECU, sin pronósticos del 17 (la rutina diaria corre a las 05:24); ranking del 16 sigue como final. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 06:2x: rutina diaria hecha: 60 pronósticos sellados 05:55 ECU (datos manuales, /api/dia no existe), auditoría del 16 y galería, kit de redes del 17. | 06:10: ranking del 17 generado (60 partidos, ninguno terminado; primero 06:30 Everton-Chelsea). Sin estadisticas.json del Dashboard. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 07:11: ranking actualizado (60 partidos; Everton-Chelsea y Espanyol-Atlético en juego, ninguno terminado). Sin estadisticas.json. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 08:10: ranking actualizado (60 partidos; ninguno terminado aún, primeros resultados desde las 08:45). Rutina diaria ya hecha. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 09:15: Everton 0-2 Chelsea registrado (futboltotal 'Final'): Over 1.5 ✔, Over 2.5 ✘. Ranking actualizado. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 10:15: Espanyol 0-1 Atlético registrado (futboltotal 'Final', gol de Baena 89'): Over 1.5 ✘, Over 2.5 ✘. Ranking actualizado (2/60 terminados; Over 1.5 70 %+ 1/2). estadisticas.json de hoy integrado. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 11:16: Venezia 1-0 Napoli registrado (futboltotal \"Final\", gol de Akor Adams 49'): Over 1.5 ✘, Over 2.5 ✘. Bundesliga 08:30 sin resultado final legible (pendiente). Ranking actualizado (3/60 terminados; Over 1.5 70 %+ 1/3). Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy."
 }

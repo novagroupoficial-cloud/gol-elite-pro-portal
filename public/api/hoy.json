@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-17",
- "actualizado": "2026-10-17 10:15 ECU (UTC-5)",
+ "actualizado": "2026-10-17 11:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-17/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 2,
+  "terminados": 3,
   "total": 60,
   "over15_70": [
    1,
-   2
+   3
   ],
   "over25_senal": [
    0,
@@ -277,8 +277,13 @@
     "gc": 4
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/venezia-vs-napoli-serie-a-2026-10-17"
   },
   {
    "puesto": 20,
@@ -1017,8 +1022,13 @@
     "gc": 4
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/venezia-vs-napoli-serie-a-2026-10-17"
   },
   {
    "puesto": 20,
@@ -1651,7 +1661,7 @@
     "gc": 2
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

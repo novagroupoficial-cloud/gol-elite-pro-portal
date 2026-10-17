@@ -28,5 +28,20 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/espanyol-vs-atletico-madrid-la-liga-2026-10-17",
   "registrado": "10:15 ECU"
+ },
+ {
+  "local": "Venezia",
+  "visita": "Napoli",
+  "hora": "08:00",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 83.9,
+  "over25_dado": 62.5,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/venezia-vs-napoli-serie-a-2026-10-17",
+  "registrado": "11:15 ECU"
  }
 ]

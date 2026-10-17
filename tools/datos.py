@@ -61,3 +61,6 @@ for _k,_d in L.items():
 
 # ITA: soccerstats.com latest.asp?league=italy (Serie A 2026/27, 56 partidos, act. 12-oct; Atalanta casa 2-1,1-0,1-2; Venezia fuera 0-2,2-3)
 L['ITA']=dict(casa={'Atalanta':(3,4,3)},fuera={'Venezia':(2,2,5)},HG=86/56,AG=75/56)
+
+# Liga MX Apertura 2026 — SoccerSTATS homeaway.asp?league=mexico (16-oct-2026 21:20 ECU, 97 partidos; control: PJ 97=97, GF casa 152 = GC fuera 152, GC casa 136 = GF fuera 136)
+L['MEX']=dict(casa={'Tijuana':(6,10,6),'Atlante':(5,6,7)},fuera={'Puebla':(6,6,7),'Pumas UNAM':(5,8,8)},HG=152/97,AG=136/97)

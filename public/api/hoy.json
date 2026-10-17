@@ -1,398 +1,77 @@
 {
- "fecha": "2026-10-12",
- "actualizado": "2026-10-12 23:10 ECU (UTC-5)",
+ "fecha": "2026-10-16",
+ "actualizado": "2026-10-16 21:17 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
- "fuente_sellada": "data/2026-10-12/pronosticos.json",
+ "fuente_sellada": "data/2026-10-16/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 8,
-  "total": 8,
+  "terminados": 0,
+  "total": 2,
   "over15_70": [
-   7,
-   7
+   0,
+   0
   ],
   "over25_senal": [
-   2,
-   2
+   0,
+   0
   ],
-  "marcadores_exactos": 2
+  "marcadores_exactos": 0
  },
- "rango_80_90": [
-  {
-   "puesto": 1,
-   "hora_ecuador": "14:00",
-   "liga": "LaLiga",
-   "local": "Levante",
-   "visitante": "Sevilla",
-   "over15": 89.9,
-   "over25": 73.2,
-   "marcador": "1-1",
-   "goles_esperados": 3.8,
-   "categoria": "Rango 80",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 2,
-    "gf": 7,
-    "gc": 6
-   },
-   "fuera_visitante": {
-    "pj": 3,
-    "gf": 5,
-    "gc": 2
-   },
-   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "3-3",
-   "goles": 6,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.elperiodicodeceuta.es/resultados-laliga-2026-10-12/"
-  },
-  {
-   "puesto": 2,
-   "hora_ecuador": "17:30",
-   "liga": "Brasileirão",
-   "local": "Chapecoense",
-   "visitante": "Athletico-PR",
-   "over15": 86.1,
-   "over25": 66.0,
-   "marcador": "1-1",
-   "goles_esperados": 3.4,
-   "categoria": "Rango 80",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 13,
-    "gf": 18,
-    "gc": 29
-   },
-   "fuera_visitante": {
-    "pj": 14,
-    "gf": 18,
-    "gc": 21
-   },
-   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-4",
-   "goles": 5,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.cnnbrasil.com.br/esportes/brasileirao/athletico-amassa-a-chapecoense-e-retoma-a-terceira-posicao-do-brasileirao/"
-  },
-  {
-   "puesto": 3,
-   "hora_ecuador": "14:00",
-   "liga": "Premier League",
-   "local": "Coventry",
-   "visitante": "Newcastle",
-   "over15": 82.5,
-   "over25": 60.2,
-   "marcador": "1-1",
-   "goles_esperados": 3.1,
-   "categoria": "Rango 80",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 2,
-    "gf": 0,
-    "gc": 6
-   },
-   "fuera_visitante": {
-    "pj": 2,
-    "gf": 3,
-    "gc": 4
-   },
-   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "4-1",
-   "goles": 5,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.flashscore.com/match/football/coventry-GOvB22xg/newcastle-utd-p6ahwuwJ/summary/stats/"
-  },
-  {
-   "puesto": 4,
-   "hora_ecuador": "14:00",
-   "liga": "Brasileirão",
-   "local": "Coritiba",
-   "visitante": "Botafogo",
-   "over15": 80.3,
-   "over25": 56.7,
-   "marcador": "1-1",
-   "goles_esperados": 3.0,
-   "categoria": "Rango 80",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 14,
-    "gf": 19,
-    "gc": 19
-   },
-   "fuera_visitante": {
-    "pj": 14,
-    "gf": 17,
-    "gc": 25
-   },
-   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-1",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": true,
-   "fuente": "https://www.lance.com.br/botafogo/botafogo-empata-com-o-coritiba-no-couto-pereira-e-mantem-alerta-de-rebaixamento-ligado.html"
-  }
- ],
+ "rango_80_90": [],
  "todos": [
   {
    "puesto": 1,
-   "hora_ecuador": "14:00",
-   "liga": "LaLiga",
-   "local": "Levante",
-   "visitante": "Sevilla",
-   "over15": 89.9,
-   "over25": 73.2,
+   "hora_ecuador": "22:00",
+   "liga": "Liga MX",
+   "local": "Atlante",
+   "visitante": "Pumas UNAM",
+   "over15": 79.3,
+   "over25": 55.2,
    "marcador": "1-1",
-   "goles_esperados": 3.8,
-   "categoria": "Rango 80",
-   "senal_over25": "moderada",
+   "goles_esperados": 2.9,
+   "categoria": "Rango 70",
+   "senal_over25": "informativa",
    "casa_local": {
-    "pj": 2,
-    "gf": 7,
-    "gc": 6
+    "pj": 5,
+    "gf": 6,
+    "gc": 7
    },
    "fuera_visitante": {
-    "pj": 3,
-    "gf": 5,
-    "gc": 2
+    "pj": 5,
+    "gf": 8,
+    "gc": 8
    },
-   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "3-3",
-   "goles": 6,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.elperiodicodeceuta.es/resultados-laliga-2026-10-12/"
+   "sellado": "2026-10-16 21:17 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
    "puesto": 2,
-   "hora_ecuador": "17:30",
-   "liga": "Brasileirão",
-   "local": "Chapecoense",
-   "visitante": "Athletico-PR",
-   "over15": 86.1,
-   "over25": 66.0,
+   "hora_ecuador": "22:00",
+   "liga": "Liga MX",
+   "local": "Tijuana",
+   "visitante": "Puebla",
+   "over15": 68.8,
+   "over25": 41.4,
    "marcador": "1-1",
-   "goles_esperados": 3.4,
-   "categoria": "Rango 80",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 13,
-    "gf": 18,
-    "gc": 29
-   },
-   "fuera_visitante": {
-    "pj": 14,
-    "gf": 18,
-    "gc": 21
-   },
-   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-4",
-   "goles": 5,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.cnnbrasil.com.br/esportes/brasileirao/athletico-amassa-a-chapecoense-e-retoma-a-terceira-posicao-do-brasileirao/"
-  },
-  {
-   "puesto": 3,
-   "hora_ecuador": "14:00",
-   "liga": "Premier League",
-   "local": "Coventry",
-   "visitante": "Newcastle",
-   "over15": 82.5,
-   "over25": 60.2,
-   "marcador": "1-1",
-   "goles_esperados": 3.1,
-   "categoria": "Rango 80",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 2,
-    "gf": 0,
-    "gc": 6
-   },
-   "fuera_visitante": {
-    "pj": 2,
-    "gf": 3,
-    "gc": 4
-   },
-   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "4-1",
-   "goles": 5,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.flashscore.com/match/football/coventry-GOvB22xg/newcastle-utd-p6ahwuwJ/summary/stats/"
-  },
-  {
-   "puesto": 4,
-   "hora_ecuador": "14:00",
-   "liga": "Brasileirão",
-   "local": "Coritiba",
-   "visitante": "Botafogo",
-   "over15": 80.3,
-   "over25": 56.7,
-   "marcador": "1-1",
-   "goles_esperados": 3.0,
-   "categoria": "Rango 80",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 14,
-    "gf": 19,
-    "gc": 19
-   },
-   "fuera_visitante": {
-    "pj": 14,
-    "gf": 17,
-    "gc": 25
-   },
-   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-1",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": true,
-   "fuente": "https://www.lance.com.br/botafogo/botafogo-empata-com-o-coritiba-no-couto-pereira-e-mantem-alerta-de-rebaixamento-ligado.html"
-  },
-  {
-   "puesto": 5,
-   "hora_ecuador": "11:30",
-   "liga": "Serie A",
-   "local": "Atalanta",
-   "visitante": "Venezia",
-   "over15": 78.5,
-   "over25": 54.1,
-   "marcador": "1-1",
-   "goles_esperados": 2.8,
-   "categoria": "Rango 70",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 3,
-    "gf": 4,
-    "gc": 3
-   },
-   "fuera_visitante": {
-    "pj": 2,
-    "gf": 2,
-    "gc": 5
-   },
-   "sellado": "2026-10-12 06:25 ECU",
-   "estado": "terminado",
-   "resultado": "3-1",
-   "goles": 4,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/12/serie-a-atalanta-venezia-3-1_20d4a04d-bc3f-41f2-a0be-cbbe054bed4d.html"
-  },
-  {
-   "puesto": 6,
-   "hora_ecuador": "19:00",
-   "liga": "Brasileirão",
-   "local": "Bragantino",
-   "visitante": "Cruzeiro",
-   "over15": 77.6,
-   "over25": 52.7,
-   "marcador": "1-1",
-   "goles_esperados": 2.8,
-   "categoria": "Rango 70",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 14,
-    "gf": 20,
-    "gc": 15
-   },
-   "fuera_visitante": {
-    "pj": 14,
-    "gf": 18,
-    "gc": 24
-   },
-   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "4-2",
-   "goles": 6,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.metropoles.com/esportes/em-jogo-de-seis-gols-bragantino-domina-e-vence-o-cruzeiro-no-brasileirao"
-  },
-  {
-   "puesto": 7,
-   "hora_ecuador": "14:00",
-   "liga": "Liga Profesional",
-   "local": "Lanus",
-   "visitante": "Velez Sarsfield",
-   "over15": 70.3,
-   "over25": 43.1,
-   "marcador": "1-1",
-   "goles_esperados": 2.4,
-   "categoria": "Rango 70",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 6,
-    "gf": 6,
-    "gc": 6
-   },
-   "fuera_visitante": {
-    "pj": 5,
-    "gf": 8,
-    "gc": 6
-   },
-   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-0",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/lanus-vencio-por-2-0-a-velez-sarsfield-por-el-torneo-clausura-2026-nid12102026/"
-  },
-  {
-   "puesto": 8,
-   "hora_ecuador": "16:30",
-   "liga": "Liga Profesional",
-   "local": "Gimnasia Mendoza",
-   "visitante": "Newells Old Boys",
-   "over15": 53.5,
-   "over25": 25.9,
-   "marcador": "1-0",
-   "goles_esperados": 1.8,
+   "goles_esperados": 2.3,
    "categoria": "Menos de 70",
    "senal_over25": "sin señal",
    "casa_local": {
-    "pj": 5,
-    "gf": 8,
-    "gc": 3
+    "pj": 6,
+    "gf": 10,
+    "gc": 6
    },
    "fuera_visitante": {
-    "pj": 5,
-    "gf": 3,
-    "gc": 4
+    "pj": 6,
+    "gf": 6,
+    "gc": 7
    },
-   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-0",
-   "goles": 1,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": true,
-   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/gimnasia-mendoza-vencio-por-1-0-a-newells-old-boys-por-el-torneo-clausura-2026-nid12102026/"
+   "sellado": "2026-10-16 21:17 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   }
  ],
  "sin_pronostico": []

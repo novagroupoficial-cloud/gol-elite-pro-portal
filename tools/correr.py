@@ -1,15 +1,9 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — lunes 12-oct-2026
- ('11:30','ITA','Atalanta','Venezia'),
- ('14:00','ENG','Coventry','Newcastle'),
- ('14:00','ESP','Levante','Sevilla'),
- ('14:00','BRA','Coritiba','Botafogo'),
- ('14:00','ARG','Lanus','Velez Sarsfield'),
- ('16:30','ARG','Gimnasia Mendoza','Newells Old Boys'),
- ('17:30','BRA','Chapecoense','Athletico-PR'),
- ('19:00','BRA','Bragantino','Cruzeiro'),
+P=[ # hora (Ecuador), liga, local, visita — viernes 16-oct-2026 (recuperada 21:15 ECU; solo partidos aún no empezados)
+ ('22:00','MEX','Tijuana','Puebla'),
+ ('22:00','MEX','Atlante','Pumas UNAM'),
 ]
 out=[]
 for h,lg,a,b in P:

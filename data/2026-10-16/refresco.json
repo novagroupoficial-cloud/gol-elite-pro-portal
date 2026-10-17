@@ -1,0 +1,10 @@
+{
+ "fecha": "2026-10-16",
+ "ultima_ejecucion": "2026-10-16 21:10 ECU",
+ "ultima_ok": "2026-10-16 21:10 ECU",
+ "rutina_diaria": "en_curso",
+ "rutina_diaria_inicio": "2026-10-16 21:15 ECU",
+ "pendientes": [],
+ "deploy": {"ok": null, "fallos_seguidos": 0, "ultima_revision": "21:10 (sin lectura)"},
+ "avisos_enviados": []
+}

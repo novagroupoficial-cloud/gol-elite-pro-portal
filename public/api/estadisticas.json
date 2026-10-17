@@ -1,0 +1,903 @@
+{
+ "fecha": "2026-10-17",
+ "generado_ecuador": "2026-10-17 07:17 ECU (UTC-5)",
+ "fuente_pronosticos": "public/api/hoy.json",
+ "modelo": "GOL ÉLITE PRO 4.0 (Nova Gol 4.0)",
+ "generado_por": "Claude (provisional mientras el Dashboard Gol 4.0 no entregue)",
+ "criterio": "GOL ÉLITE 95 (Over 1.5 >= 95) y GOL ÉLITE (Over 1.5 >= 90)",
+ "aviso": "+18 · Probabilidades estadísticas, no garantías.",
+ "partidos": [
+  {
+   "hora_ecuador": "13:00",
+   "liga": "Eredivisie",
+   "local": "Telstar",
+   "visitante": "Feyenoord",
+   "over15": 94.8,
+   "over25": 84.1,
+   "marcador": "1-3",
+   "goles_esperados": 4.6,
+   "categoria": "GOL ÉLITE",
+   "senal_over25": "fuerte",
+   "destacado": true,
+   "lambda_local": 1.07,
+   "lambda_visita": 3.56,
+   "modelo_extra": {
+    "over05": 98.7,
+    "over35": 67.9,
+    "over45": 49.2,
+    "ambos_marcan": 64.1,
+    "gana_local": 6.8,
+    "empate": 10.8,
+    "gana_visit": 82.4,
+    "distribucion": [
+     1.3,
+     3.9,
+     10.8,
+     16.2,
+     18.7,
+     17.3,
+     13.4,
+     18.5
+    ],
+    "marcadores_top6": [
+     [
+      "1-3",
+      7.9
+     ],
+     [
+      "0-3",
+      7.3
+     ],
+     [
+      "1-4",
+      7.0
+     ],
+     [
+      "1-2",
+      6.6
+     ],
+     [
+      "0-4",
+      6.5
+     ],
+     [
+      "0-2",
+      6.2
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.74,
+    "visitante": 2.0
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 4,
+    "gf_pj": 1.25,
+    "gc_pj": 2.75,
+    "goles_pj": 4.0,
+    "indice_ataque": 0.72,
+    "indice_defensa": 1.38,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 4,
+    "gf_pj": 4.0,
+    "gc_pj": 0.75,
+    "goles_pj": 4.75,
+    "indice_ataque": 2.0,
+    "indice_defensa": 0.43,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Telstar en casa: 1,25 goles a favor y 2,75 en contra por partido (4 PJ)",
+    "Feyenoord fuera: 4,00 a favor y 0,75 en contra por partido (4 PJ)",
+    "Sus partidos promedian 4,0 y 4,8 goles",
+    "Goles esperados por el modelo: 4,6",
+    "Ambos marcan: 64 %"
+   ],
+   "fuentes": [
+    "https://www.sportsmole.co.uk/football/eredivisie/2026-27/ (Home/Away Table 2026-27, al 16-oct-2026, incluye Heerenveen–Excelsior del viernes) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-17"
+  },
+  {
+   "hora_ecuador": "11:30",
+   "liga": "Bundesliga",
+   "local": "Bayern Munich",
+   "visitante": "RB Leipzig",
+   "over15": 94.3,
+   "over25": 82.8,
+   "marcador": "3-0",
+   "goles_esperados": 4.5,
+   "categoria": "GOL ÉLITE",
+   "senal_over25": "fuerte",
+   "destacado": false,
+   "lambda_local": 3.64,
+   "lambda_visita": 0.88,
+   "modelo_extra": {
+    "over05": 98.6,
+    "over35": 66.1,
+    "over45": 47.1,
+    "ambos_marcan": 57.3,
+    "gana_local": 86.1,
+    "empate": 9.2,
+    "gana_visit": 4.7,
+    "distribucion": [
+     1.4,
+     4.4,
+     11.4,
+     16.8,
+     19.0,
+     17.1,
+     12.9,
+     17.0
+    ],
+    "marcadores_top6": [
+     [
+      "3-0",
+      8.8
+     ],
+     [
+      "4-0",
+      8.0
+     ],
+     [
+      "3-1",
+      7.7
+     ],
+     [
+      "2-0",
+      7.2
+     ],
+     [
+      "4-1",
+      7.0
+     ],
+     [
+      "2-1",
+      6.4
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 2.33,
+    "visitante": 1.43
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 2,
+    "gf_pj": 6.0,
+    "gc_pj": 0.5,
+    "goles_pj": 6.5,
+    "indice_ataque": 2.58,
+    "indice_defensa": 0.35,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 2,
+    "gf_pj": 0.5,
+    "gc_pj": 2.5,
+    "goles_pj": 3.0,
+    "indice_ataque": 0.35,
+    "indice_defensa": 1.07,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Bayern Munich en casa: 6,00 goles a favor y 0,50 en contra por partido (2 PJ)",
+    "RB Leipzig fuera: 0,50 a favor y 2,50 en contra por partido (2 PJ)",
+    "Sus partidos promedian 6,5 y 3,0 goles",
+    "Goles esperados por el modelo: 4,5",
+    "Ambos marcan: 57 %"
+   ],
+   "fuentes": [
+    "https://www.sportsmole.co.uk/football/bundesliga/2026-27/ (Home/Away Table 2026-27, incluye el Eintracht Frankfurt–1. FC Köln del vie 16-oct; totales cotejados con https://www.footballwebpages.co.uk/bayern-munich/league-table actualizado 16-oct-2026 21:27) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-17"
+  },
+  {
+   "hora_ecuador": "09:30",
+   "liga": "Eredivisie",
+   "local": "ADO Den Haag",
+   "visitante": "PSV",
+   "over15": 94.1,
+   "over25": 82.2,
+   "marcador": "1-2",
+   "goles_esperados": 4.5,
+   "categoria": "GOL ÉLITE",
+   "senal_over25": "fuerte",
+   "destacado": false,
+   "lambda_local": 1.46,
+   "lambda_visita": 3.0,
+   "modelo_extra": {
+    "over05": 98.4,
+    "over35": 65.1,
+    "over45": 46.0,
+    "ambos_marcan": 73.4,
+    "gana_local": 15.6,
+    "empate": 16.2,
+    "gana_visit": 68.3,
+    "distribucion": [
+     1.6,
+     4.3,
+     11.9,
+     17.1,
+     19.1,
+     17.0,
+     12.6,
+     16.4
+    ],
+    "marcadores_top6": [
+     [
+      "1-2",
+      7.6
+     ],
+     [
+      "1-3",
+      7.6
+     ],
+     [
+      "1-4",
+      5.7
+     ],
+     [
+      "2-2",
+      5.5
+     ],
+     [
+      "2-3",
+      5.5
+     ],
+     [
+      "1-1",
+      5.5
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.74,
+    "visitante": 2.0
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 3,
+    "gf_pj": 1.33,
+    "gc_pj": 2.67,
+    "goles_pj": 4.0,
+    "indice_ataque": 0.77,
+    "indice_defensa": 1.33,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 4,
+    "gf_pj": 3.25,
+    "gc_pj": 1.5,
+    "goles_pj": 4.75,
+    "indice_ataque": 1.62,
+    "indice_defensa": 0.86,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "ADO Den Haag en casa: 1,33 goles a favor y 2,67 en contra por partido (3 PJ)",
+    "PSV fuera: 3,25 a favor y 1,50 en contra por partido (4 PJ)",
+    "Sus partidos promedian 4,0 y 4,8 goles",
+    "Goles esperados por el modelo: 4,5",
+    "Ambos marcan: 73 %"
+   ],
+   "fuentes": [
+    "https://www.sportsmole.co.uk/football/eredivisie/2026-27/ (Home/Away Table 2026-27, al 16-oct-2026, incluye Heerenveen–Excelsior del viernes) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-17"
+  },
+  {
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "Toluca",
+   "visitante": "A. San Luis",
+   "over15": 93.7,
+   "over25": 81.2,
+   "marcador": "2-1",
+   "goles_esperados": 4.4,
+   "categoria": "GOL ÉLITE",
+   "senal_over25": "fuerte",
+   "destacado": false,
+   "lambda_local": 2.75,
+   "lambda_visita": 1.63,
+   "modelo_extra": {
+    "over05": 98.3,
+    "over35": 63.7,
+    "over45": 44.5,
+    "ambos_marcan": 75.7,
+    "gana_local": 60.8,
+    "empate": 18.3,
+    "gana_visit": 20.9,
+    "distribucion": [
+     1.7,
+     4.6,
+     12.5,
+     17.5,
+     19.2,
+     16.8,
+     12.3,
+     15.4
+    ],
+    "marcadores_top6": [
+     [
+      "2-1",
+      7.7
+     ],
+     [
+      "3-1",
+      7.1
+     ],
+     [
+      "2-2",
+      6.3
+     ],
+     [
+      "1-1",
+      6.1
+     ],
+     [
+      "3-2",
+      5.8
+     ],
+     [
+      "4-1",
+      4.9
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.53,
+    "visitante": 1.4
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 5,
+    "gf_pj": 3.0,
+    "gc_pj": 1.6,
+    "goles_pj": 4.6,
+    "indice_ataque": 1.96,
+    "indice_defensa": 1.14,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 5,
+    "gf_pj": 1.6,
+    "gc_pj": 2.0,
+    "goles_pj": 3.6,
+    "indice_ataque": 1.14,
+    "indice_defensa": 1.31,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Toluca en casa: 3,00 goles a favor y 1,60 en contra por partido (5 PJ)",
+    "A, San Luis fuera: 1,60 a favor y 2,00 en contra por partido (5 PJ)",
+    "Sus partidos promedian 4,6 y 3,6 goles",
+    "Goles esperados por el modelo: 4,4",
+    "Ambos marcan: 76 %"
+   ],
+   "fuentes": [
+    "https://www.soccerstats.com/homeaway.asp?league=mexico (Liga MX Apertura 2026, consultada 17-oct-2026; incluye hasta J11, último partido lunes 12-oct) + 3 partidos del viernes 16-oct añadidos a mano (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-17"
+  },
+  {
+   "hora_ecuador": "08:30",
+   "liga": "Bundesliga",
+   "local": "Elversberg",
+   "visitante": "Augsburg",
+   "over15": 93.5,
+   "over25": 80.6,
+   "marcador": "2-2",
+   "goles_esperados": 4.3,
+   "categoria": "GOL ÉLITE",
+   "senal_over25": "fuerte",
+   "destacado": false,
+   "lambda_local": 2.11,
+   "lambda_visita": 2.21,
+   "modelo_extra": {
+    "over05": 98.2,
+    "over35": 62.6,
+    "over45": 43.3,
+    "ambos_marcan": 78.7,
+    "gana_local": 37.7,
+    "empate": 20.8,
+    "gana_visit": 41.4,
+    "distribucion": [
+     1.8,
+     4.8,
+     12.9,
+     17.9,
+     19.3,
+     16.7,
+     12.0,
+     14.7
+    ],
+    "marcadores_top6": [
+     [
+      "2-2",
+      7.2
+     ],
+     [
+      "1-2",
+      6.9
+     ],
+     [
+      "1-1",
+      6.7
+     ],
+     [
+      "2-1",
+      6.5
+     ],
+     [
+      "2-3",
+      5.3
+     ],
+     [
+      "3-2",
+      5.1
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 2.33,
+    "visitante": 1.43
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 2,
+    "gf_pj": 2.0,
+    "gc_pj": 2.0,
+    "goles_pj": 4.0,
+    "indice_ataque": 0.86,
+    "indice_defensa": 1.4,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 2,
+    "gf_pj": 3.0,
+    "gc_pj": 2.0,
+    "goles_pj": 5.0,
+    "indice_ataque": 2.1,
+    "indice_defensa": 0.86,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Elversberg en casa: 2,00 goles a favor y 2,00 en contra por partido (2 PJ)",
+    "Augsburg fuera: 3,00 a favor y 2,00 en contra por partido (2 PJ)",
+    "Sus partidos promedian 4,0 y 5,0 goles",
+    "Goles esperados por el modelo: 4,3",
+    "Ambos marcan: 79 %"
+   ],
+   "fuentes": [
+    "https://www.sportsmole.co.uk/football/bundesliga/2026-27/ (Home/Away Table 2026-27, incluye el Eintracht Frankfurt–1. FC Köln del vie 16-oct; totales cotejados con https://www.footballwebpages.co.uk/bayern-munich/league-table actualizado 16-oct-2026 21:27) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-17"
+  },
+  {
+   "hora_ecuador": "09:00",
+   "liga": "Premier League",
+   "local": "Manchester City",
+   "visitante": "Ipswich Town",
+   "over15": 92.2,
+   "over25": 77.9,
+   "marcador": "2-1",
+   "goles_esperados": 4.1,
+   "categoria": "GOL ÉLITE",
+   "senal_over25": "fuerte",
+   "destacado": false,
+   "lambda_local": 2.64,
+   "lambda_visita": 1.48,
+   "modelo_extra": {
+    "over05": 97.9,
+    "over35": 59.0,
+    "over45": 39.5,
+    "ambos_marcan": 72.2,
+    "gana_local": 61.8,
+    "empate": 18.7,
+    "gana_visit": 19.5,
+    "distribucion": [
+     2.1,
+     5.7,
+     14.3,
+     18.9,
+     19.5,
+     16.1,
+     11.0,
+     12.3
+    ],
+    "marcadores_top6": [
+     [
+      "2-1",
+      8.4
+     ],
+     [
+      "3-1",
+      7.4
+     ],
+     [
+      "1-1",
+      6.9
+     ],
+     [
+      "2-2",
+      6.2
+     ],
+     [
+      "2-0",
+      5.7
+     ],
+     [
+      "3-2",
+      5.5
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.62,
+    "visitante": 1.33
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 3,
+    "gf_pj": 2.67,
+    "gc_pj": 1.33,
+    "goles_pj": 4.0,
+    "indice_ataque": 1.65,
+    "indice_defensa": 1.0,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 3,
+    "gf_pj": 1.67,
+    "gc_pj": 2.67,
+    "goles_pj": 4.33,
+    "indice_ataque": 1.25,
+    "indice_defensa": 1.65,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Manchester City en casa: 2,67 goles a favor y 1,33 en contra por partido (3 PJ)",
+    "Ipswich Town fuera: 1,67 a favor y 2,67 en contra por partido (3 PJ)",
+    "Sus partidos promedian 4,0 y 4,3 goles",
+    "Goles esperados por el modelo: 4,1",
+    "Ambos marcan: 72 %"
+   ],
+   "fuentes": [
+    "https://www.sportsmole.co.uk/football/premier-league/results.html (60 resultados, jornadas 1-6, último partido 12-oct-2026) — totales y W/D/L casa/fuera verificados contra https://www.footballwebpages.co.uk/premier-league/league-table (actualizada lunes 12-oct-2026 21:52) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-17"
+  },
+  {
+   "hora_ecuador": "22:10",
+   "liga": "Liga MX",
+   "local": "Cruz Azul",
+   "visitante": "Juarez",
+   "over15": 91.2,
+   "over25": 75.9,
+   "marcador": "2-1",
+   "goles_esperados": 4.0,
+   "categoria": "GOL ÉLITE",
+   "senal_over25": "fuerte",
+   "destacado": false,
+   "lambda_local": 2.78,
+   "lambda_visita": 1.2,
+   "modelo_extra": {
+    "over05": 97.6,
+    "over35": 56.3,
+    "over45": 36.7,
+    "ambos_marcan": 66.0,
+    "gana_local": 69.9,
+    "empate": 16.7,
+    "gana_visit": 13.4,
+    "distribucion": [
+     2.4,
+     6.4,
+     15.3,
+     19.6,
+     19.5,
+     15.6,
+     10.3,
+     10.8
+    ],
+    "marcadores_top6": [
+     [
+      "2-1",
+      8.7
+     ],
+     [
+      "3-1",
+      8.0
+     ],
+     [
+      "2-0",
+      7.2
+     ],
+     [
+      "1-1",
+      6.7
+     ],
+     [
+      "3-0",
+      6.7
+     ],
+     [
+      "4-1",
+      5.6
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.53,
+    "visitante": 1.4
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 6,
+    "gf_pj": 2.0,
+    "gc_pj": 2.0,
+    "goles_pj": 4.0,
+    "indice_ataque": 1.31,
+    "indice_defensa": 1.43,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 5,
+    "gf_pj": 0.6,
+    "gc_pj": 3.0,
+    "goles_pj": 3.6,
+    "indice_ataque": 0.43,
+    "indice_defensa": 1.96,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Cruz Azul en casa: 2,00 goles a favor y 2,00 en contra por partido (6 PJ)",
+    "Juarez fuera: 0,60 a favor y 3,00 en contra por partido (5 PJ)",
+    "Sus partidos promedian 4,0 y 3,6 goles",
+    "Goles esperados por el modelo: 4,0",
+    "Ambos marcan: 66 %"
+   ],
+   "fuentes": [
+    "https://www.soccerstats.com/homeaway.asp?league=mexico (Liga MX Apertura 2026, consultada 17-oct-2026; incluye hasta J11, último partido lunes 12-oct) + 3 partidos del viernes 16-oct añadidos a mano (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-17"
+  },
+  {
+   "hora_ecuador": "14:00",
+   "liga": "Eredivisie",
+   "local": "Sparta Rotterdam",
+   "visitante": "Willem II",
+   "over15": 90.2,
+   "over25": 73.6,
+   "marcador": "1-1",
+   "goles_esperados": 3.8,
+   "categoria": "GOL ÉLITE",
+   "senal_over25": "moderada",
+   "destacado": false,
+   "lambda_local": 2.14,
+   "lambda_visita": 1.69,
+   "modelo_extra": {
+    "over05": 97.2,
+    "over35": 53.3,
+    "over45": 33.8,
+    "ambos_marcan": 72.6,
+    "gana_local": 47.8,
+    "empate": 22.0,
+    "gana_visit": 30.2,
+    "distribucion": [
+     2.8,
+     7.1,
+     16.6,
+     20.3,
+     19.5,
+     14.9,
+     9.5,
+     9.4
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      8.5
+     ],
+     [
+      "2-1",
+      8.4
+     ],
+     [
+      "2-2",
+      7.1
+     ],
+     [
+      "1-2",
+      6.6
+     ],
+     [
+      "3-1",
+      6.0
+     ],
+     [
+      "3-2",
+      5.1
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.74,
+    "visitante": 2.0
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 4,
+    "gf_pj": 1.25,
+    "gc_pj": 2.5,
+    "goles_pj": 3.75,
+    "indice_ataque": 0.72,
+    "indice_defensa": 1.25,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 4,
+    "gf_pj": 1.0,
+    "gc_pj": 3.25,
+    "goles_pj": 4.25,
+    "indice_ataque": 0.5,
+    "indice_defensa": 1.87,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Sparta Rotterdam en casa: 1,25 goles a favor y 2,50 en contra por partido (4 PJ)",
+    "Willem II fuera: 1,00 a favor y 3,25 en contra por partido (4 PJ)",
+    "Sus partidos promedian 3,8 y 4,2 goles",
+    "Goles esperados por el modelo: 3,8",
+    "Ambos marcan: 73 %"
+   ],
+   "fuentes": [
+    "https://www.sportsmole.co.uk/football/eredivisie/2026-27/ (Home/Away Table 2026-27, al 16-oct-2026, incluye Heerenveen–Excelsior del viernes) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-17"
+  },
+  {
+   "hora_ecuador": "18:30",
+   "liga": "MLS",
+   "local": "Atlanta United",
+   "visitante": "Inter Miami",
+   "over15": 90.2,
+   "over25": 73.7,
+   "marcador": "1-2",
+   "goles_esperados": 3.8,
+   "categoria": "GOL ÉLITE",
+   "senal_over25": "moderada",
+   "destacado": false,
+   "lambda_local": 1.43,
+   "lambda_visita": 2.41,
+   "modelo_extra": {
+    "over05": 97.3,
+    "over35": 53.5,
+    "over45": 34.0,
+    "ambos_marcan": 69.8,
+    "gana_local": 21.2,
+    "empate": 20.2,
+    "gana_visit": 58.6,
+    "distribucion": [
+     2.7,
+     7.1,
+     16.4,
+     20.3,
+     19.5,
+     15.0,
+     9.6,
+     9.5
+    ],
+    "marcadores_top6": [
+     [
+      "1-2",
+      8.9
+     ],
+     [
+      "1-1",
+      8.0
+     ],
+     [
+      "1-3",
+      7.2
+     ],
+     [
+      "2-2",
+      6.4
+     ],
+     [
+      "0-2",
+      6.2
+     ],
+     [
+      "2-1",
+      5.3
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.86,
+    "visitante": 1.4
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 14,
+    "gf_pj": 1.43,
+    "gc_pj": 1.86,
+    "goles_pj": 3.29,
+    "indice_ataque": 0.77,
+    "indice_defensa": 1.33,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 14,
+    "gf_pj": 2.07,
+    "gc_pj": 1.71,
+    "goles_pj": 3.79,
+    "indice_ataque": 1.48,
+    "indice_defensa": 0.92,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Atlanta United en casa: 1,43 goles a favor y 1,86 en contra por partido (14 PJ)",
+    "Inter Miami fuera: 2,07 a favor y 1,71 en contra por partido (14 PJ)",
+    "Sus partidos promedian 3,3 y 3,8 goles",
+    "Goles esperados por el modelo: 3,8",
+    "Ambos marcan: 70 %"
+   ],
+   "fuentes": [
+    "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-17"
+  }
+ ],
+ "sin_estadisticas": []
+}

@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-17",
- "actualizado": "2026-10-17 16:12 ECU (UTC-5)",
+ "actualizado": "2026-10-17 17:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-17/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 23,
+  "terminados": 27,
   "total": 60,
   "over15_70": [
-   14,
-   23
+   17,
+   27
   ],
   "over25_senal": [
-   5,
-   8
+   6,
+   9
   ],
-  "marcadores_exactos": 0
+  "marcadores_exactos": 1
  },
  "rango_80_90": [
   {
@@ -400,7 +400,7 @@
     "gc": 28
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -504,8 +504,13 @@
     "gc": 27
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.inquirer.com/soccer/philadelphia-union-charlotte-fc-score-bruno-damiani-20261017.html"
   },
   {
    "puesto": 27,
@@ -801,8 +806,13 @@
     "gc": 13
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-2",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://voetbalprimeur.nl/nieuws/2148090/sparta-doet-goede-zaken-en-verslaat-willem-ii.html"
   },
   {
    "puesto": 9,
@@ -1210,7 +1220,7 @@
     "gc": 28
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1314,8 +1324,13 @@
     "gc": 27
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.inquirer.com/soccer/philadelphia-union-charlotte-fc-score-bruno-damiani-20261017.html"
   },
   {
    "puesto": 27,
@@ -1454,8 +1469,13 @@
     "gc": 18
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://kchcomunicacion.com/2026/10/17/el-campeon-debera-esperar-macara-vencio-1-0-a-independiente-del-valle-en-ambato/"
   },
   {
    "puesto": 32,
@@ -1542,8 +1562,13 @@
     "gc": 5
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://futboltotal.futbol/partido/lille-vs-stade-brestois-29-ligue-1-2026-10-17"
   },
   {
    "puesto": 35,
@@ -2165,7 +2190,7 @@
     "gc": 13
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

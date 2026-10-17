@@ -7,8 +7,8 @@ FECHA=sys.argv[1]; SELLO=sys.argv[2] if len(sys.argv)>2 else ''
 P=[p for p in json.load(open('pron.json')) if not p.get('sin')]
 K=json.load(open('kit.json'))          # partido del día, textos, auditoría, fecha larga
 e=html.escape
-NOM={'ENG':'Premier League','ITA':'Serie A','FRA':'Ligue 1','ESP':'LaLiga','BRA':'Brasileirão Serie A','MEX':'Liga MX','ECU':'LigaPro Ecuador','GER':'Bundesliga','NED':'Eredivisie','POR':'Liga Portugal','USA':'MLS','ARG':'Liga Profesional'}
-ES={'Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasbourg':'Estrasburgo','Deportivo':'Deportivo La Coruña','AC Milan':'Milan','Real Betis':'Betis','Marseille':'Marsella','Racing':'Racing Santander','Atletico MG':'Atlético MG','A. San Luis':'Atlético San Luis','Pumas UNAM':'Pumas','Universidad Católica':'U. Católica','Coventry':'Coventry City','Newcastle':'Newcastle United','Lanus':'Lanús','Velez Sarsfield':'Vélez Sarsfield','Gimnasia Mendoza':'Gimnasia (Mendoza)','Newells Old Boys':"Newell's",'Bragantino':'RB Bragantino','Athletico-PR':'Athletico-PR'}
+NOM={'ENG':'Premier League','ITA':'Serie A','FRA':'Ligue 1','ESP':'LaLiga','BRA':'Brasileirão Serie A','MEX':'Liga MX','ECU':'LigaPro Ecuador','GER':'Bundesliga','NED':'Eredivisie','POR':'Liga Portugal','USA':'MLS','ARG':'Liga Profesional','COL':'Liga BetPlay','PER':'Liga 1 Perú','CHI':'Primera División de Chile'}
+ES={'Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasbourg':'Estrasburgo','Deportivo':'Deportivo La Coruña','AC Milan':'Milan','Real Betis':'Betis','Marseille':'Marsella','Racing':'Racing Santander','Atletico MG':'Atlético MG','A. San Luis':'Atlético San Luis','Pumas UNAM':'Pumas','Universidad Católica':'U. Católica','Coventry':'Coventry City','Newcastle':'Newcastle United','Lanus':'Lanús','Velez Sarsfield':'Vélez Sarsfield','Gimnasia Mendoza':'Gimnasia (Mendoza)','Newells Old Boys':"Newell's",'Bragantino':'RB Bragantino','Athletico-PR':'Athletico-PR','Bayern Munich':'Bayern Múnich','Atletico Madrid':'Atlético de Madrid','Paris Saint-Germain':'PSG','Leon':'León','America':'América','Juarez':'FC Juárez','Philadelphia':'Philadelphia Union','Seattle':'Seattle Sounders','Portland':'Portland Timbers','Guadalajara':'Chivas','Tigres UANL':'Tigres','New England':'New England Rev.','A. San Luis':'San Luis'}
 n=lambda x:ES.get(x,x)
 f1=lambda v:f"{v:.1f}".replace('.',',')
 pc=lambda v:str(int(v))  # en redes: entero hacia abajo (89,9 -> 89), nunca cruza de categoría
@@ -85,8 +85,8 @@ def carrusel():
  <div style="display:flex;gap:24px;align-items:center">{escudo(top['local'],150)}<span class="disp oro" style="font-size:70px">VS</span>{escudo(top['visita'],150)}</div>
  <div class="disp" style="font-size:72px;white-space:normal">{e(n(top['local']))} <span class="dor">vs</span> {e(n(top['visita']))}</div>
  <div class="caja" style="padding:24px;display:grid;grid-template-columns:repeat(3,1fr);text-align:center;gap:10px">
-  <div><div style="font-size:24px;color:#9fb2a6">2+ GOLES</div><div class="disp verde" style="font-size:72px">{pc(top['over15'])}%</div></div>
-  <div><div style="font-size:24px;color:#9fb2a6">3+ GOLES</div><div class="disp" style="font-size:72px">{pc(top['over25'])}%</div></div>
+  <div><div style="font-size:24px;color:#9fb2a6">OVER 1.5</div><div class="disp verde" style="font-size:72px">{pc(top['over15'])}%</div></div>
+  <div><div style="font-size:24px;color:#9fb2a6">OVER 2.5</div><div class="disp" style="font-size:72px">{pc(top['over25'])}%</div></div>
   <div><div style="font-size:24px;color:#9fb2a6">MARCADOR</div><div class="disp dor" style="font-size:72px">{top['marcador']}</div></div></div>
  <div style="font-size:30px;color:#cfe">Desliza para ver las estadísticas que lo justifican →</div></div>'''))
     # 2 estadísticas que lo justifican

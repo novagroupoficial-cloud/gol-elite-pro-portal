@@ -9,4 +9,10 @@
   "fallos":"U. Católica 0-1 Macará y Flamengo 1-0 Fluminense.",
   "aciertos_destacados":["Crystal Palace 3-1 Nottingham Forest","Atlético MG 2-1 Santos","Real Betis 5-2 Osasuna","Pachuca 3-3 Necaxa","Sassuolo 1-1 Milan (marcador exacto)"],
   "partidos":19}
+ ,
+ {"fecha":"2026-10-16","titulo":"Viernes 16 de octubre de 2026","imagen":"/historial/2026-10-16.jpg",
+  "resumen":[["0/0","GOL ÉLITE · Over 1.5"],["1/1","Over 1.5 de 70 % o más (100 %)"],["0/0","Over 2.5 con señal (sin señales)"],["0/2","Marcadores exactos"]],
+  "fallos":"Ninguno en Over 1.5 de 70 % o más. Informativo (menos de 70 %, no recomendado): Tijuana 0-0 Puebla (68,8 %).",
+  "aciertos_destacados":["Atlante 1-2 Pumas (partido del día · Over 1.5 al 79,3 % · hubo 3 goles)"],
+  "partidos":2}
 ]

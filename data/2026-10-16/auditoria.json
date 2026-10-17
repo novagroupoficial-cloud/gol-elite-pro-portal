@@ -1,0 +1,87 @@
+{
+ "fecha": "2026-10-16",
+ "auditado": "2026-10-17",
+ "partidos": 2,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "Rango 80": [
+   0,
+   0
+  ],
+  "Rango 70": [
+   1,
+   1
+  ],
+  "Total >=70": [
+   1,
+   1
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   0
+  ],
+  "Marcadores exactos": [
+   0,
+   2
+  ],
+  "Menos de 70 (informativo)": [
+   0,
+   1
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Atlante vs Pumas UNAM",
+  "over15": 79.3,
+  "sellado": "21:17 ECU",
+  "resultado": "1-2",
+  "goles": 3,
+  "acierto": true
+ },
+ "fallos_over15_70": [],
+ "informativo_menos_70": [
+  "Tijuana 0-0 Puebla (68.8 %, menos de 70: no recomendado; hubo 0 goles)"
+ ],
+ "nota": "Jornada reducida: la rutina del 16 se recuperó a las 21:15 ECU y solo se sellaron los 2 partidos de Liga MX de las 22:00. Over 2.5 sin señales (≥65 %) ese día. Resultados del refresco horario (data/2026-10-16/resultados-en-vivo.json), con fuente. Muestra de 1 partido ≥70 %: no permite conclusiones (Wilson 95 % para 1/1: 20,7 %–100 %).",
+ "resultados": [
+  {
+   "hora": "22:00",
+   "liga": "MEX",
+   "local": "Tijuana",
+   "visita": "Puebla",
+   "resultado": "0-0",
+   "estado": "terminado",
+   "over15": 68.8,
+   "over25": 41.4,
+   "marcador": "1-1",
+   "categoria": "Menos de 70",
+   "sellado": "2026-10-16 21:17 ECU (UTC-5)",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.vavel.com/en-us/soccer/2026/10/16/1275344-xolos-vs-puebla-live-score-liga-mx.html",
+   "fuente_extra": "https://www.mediotiempo.com/futbol/liga-mx/resumen-partido-tijuana-vs-puebla-jornada-12-apertura-2026"
+  },
+  {
+   "hora": "22:00",
+   "liga": "MEX",
+   "local": "Atlante",
+   "visita": "Pumas UNAM",
+   "resultado": "1-2",
+   "estado": "terminado",
+   "over15": 79.3,
+   "over25": 55.2,
+   "marcador": "1-1",
+   "categoria": "Rango 70",
+   "sellado": "2026-10-16 21:17 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.excelsior.com.mx/deportes/pumas-resurge-suena-con-liguilla-y-deja-atlante-borde-abismo"
+  }
+ ]
+}

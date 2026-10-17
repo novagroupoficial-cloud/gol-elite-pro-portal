@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-17",
- "actualizado": "2026-10-17 08:10 ECU (UTC-5)",
+ "actualizado": "2026-10-17 09:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-17/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 0,
+  "terminados": 1,
   "total": 60,
   "over15_70": [
-   0,
-   0
+   1,
+   1
   ],
   "over25_senal": [
    0,
@@ -43,7 +43,7 @@
     "gc": 7
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -69,7 +69,7 @@
     "gc": 6
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -95,7 +95,7 @@
     "gc": 2
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -199,7 +199,7 @@
     "gc": 4
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -303,7 +303,7 @@
     "gc": 3
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -485,8 +485,13 @@
     "gc": 7
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/everton-vs-chelsea-premier-league-2026-10-17"
   },
   {
    "puesto": 28,
@@ -643,7 +648,7 @@
     "gc": 4
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -669,7 +674,7 @@
     "gc": 8
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -773,7 +778,7 @@
     "gc": 7
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -799,7 +804,7 @@
     "gc": 6
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -825,7 +830,7 @@
     "gc": 2
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -929,7 +934,7 @@
     "gc": 4
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1033,7 +1038,7 @@
     "gc": 3
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1215,8 +1220,13 @@
     "gc": 7
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/everton-vs-chelsea-premier-league-2026-10-17"
   },
   {
    "puesto": 28,
@@ -1345,7 +1355,7 @@
     "gc": 3
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1813,7 +1823,7 @@
     "gc": 2
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

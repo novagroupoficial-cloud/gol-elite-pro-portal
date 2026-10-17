@@ -1,0 +1,17 @@
+[
+ {
+  "local": "Everton",
+  "visita": "Chelsea",
+  "hora": "06:30",
+  "resultado": "0-2",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 80.9,
+  "over25_dado": 57.6,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/everton-vs-chelsea-premier-league-2026-10-17",
+  "registrado": "09:15 ECU"
+ }
+]

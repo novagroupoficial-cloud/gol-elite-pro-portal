@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-16",
- "ultima_ejecucion": "2026-10-16 21:19 ECU",
- "ultima_ok": "2026-10-16 21:19 ECU",
+ "ultima_ejecucion": "2026-10-16 22:10 ECU",
+ "ultima_ok": "2026-10-16 22:10 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-16 21:15 ECU",
  "nota": "Rutina del día recuperada por el refresco a las 21:15 ECU: solo quedaban por empezar los partidos de Liga MX de las 22:00 (Tijuana–Puebla y Atlante–Pumas), sellados a las 21:17 con datos manuales de SoccerSTATS (/api/dia no disponible). Portal actualizado al 16-oct. Lectura tomada: rutina reducida (sin kit de redes) por la hora.",
@@ -11,6 +11,14 @@
   "Auditoría oficial de 2026-10-12 (auditoria.json + galería) nunca se hizo: la rutina del 13 quedó en_curso y no hubo rutinas el 13, 14 ni 15 (sin pronósticos esos días).",
   "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso sin respuesta."
  ],
- "deploy": {"ok": null, "fallos_seguidos": 0, "ultima_revision": "21:19 (sin lectura)"},
- "avisos_enviados": ["rutina_recuperada"]
+ "deploy": {
+  "ok": null,
+  "fallos_seguidos": 0,
+  "ultima_revision": "22:10 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
+ },
+ "avisos_enviados": [
+  "rutina_recuperada"
+ ],
+ "web_sin_lectura_seguidas": 2,
+ "nota_22_10": "Refresco 22:10: ranking regenerado (Atlante–Pumas 79,3 % y Tijuana–Puebla 68,8 % en juego). Resultados se buscan desde las 00:15 ECU."
 }

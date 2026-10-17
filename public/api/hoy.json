@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-17",
- "actualizado": "2026-10-17 17:11 ECU (UTC-5)",
+ "actualizado": "2026-10-17 18:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-17/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 27,
+  "terminados": 33,
   "total": 60,
   "over15_70": [
-   17,
-   27
+   19,
+   31
   ],
   "over25_senal": [
-   6,
-   9
+   7,
+   10
   ],
-  "marcadores_exactos": 1
+  "marcadores_exactos": 2
  },
  "rango_80_90": [
   {
@@ -162,8 +162,13 @@
     "gc": 9
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/independiente-rivadavia-y-tigre-empataron-2-2-por-el-torneo-clausura-2026-nid17102026/"
   },
   {
    "puesto": 15,
@@ -982,8 +987,13 @@
     "gc": 9
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/independiente-rivadavia-y-tigre-empataron-2-2-por-el-torneo-clausura-2026-nid17102026/"
   },
   {
    "puesto": 15,
@@ -1702,7 +1712,7 @@
     "gc": 10
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1785,8 +1795,13 @@
     "gc": 2
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/valencia-vs-athletic-club-la-liga-2026-10-17"
   },
   {
    "puesto": 43,
@@ -1868,8 +1883,13 @@
     "gc": 7
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-4",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.eluniversal.com.co/deportes/2026/10/17/atletico-nacional-se-afianza-en-lo-alto-de-la-liga-betplay-tras-goleada-a-boyaca-chico/"
   },
   {
    "puesto": 46,
@@ -1951,7 +1971,7 @@
     "gc": 9
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2034,8 +2054,13 @@
     "gc": 3
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/lanus-vencio-por-1-0-a-platense-por-el-torneo-clausura-2026-nid17102026/"
   },
   {
    "puesto": 52,
@@ -2086,8 +2111,13 @@
     "gc": 19
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-2",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://lanacion.com.ar/deportes/canchallena/minnesota-united-fc-vencio-3-2-a-st-louis-city-sc-por-la-mls-nid17102026"
   },
   {
    "puesto": 54,
@@ -2112,7 +2142,7 @@
     "gc": 12
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2138,8 +2168,13 @@
     "gc": 5
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.infobae.com/peru/deportes/2026/10/17/juan-pablo-ii-vencio-2-0-a-sport-boys-en-chongoyape-goles-y-resumen-del-triunfo-papal-por-torneo-clausura-2026/"
   },
   {
    "puesto": 56,
@@ -2164,7 +2199,7 @@
     "gc": 10
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2216,7 +2251,7 @@
     "gc": 5
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2242,7 +2277,7 @@
     "gc": 2
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2268,7 +2303,7 @@
     "gc": 2
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   }
  ],

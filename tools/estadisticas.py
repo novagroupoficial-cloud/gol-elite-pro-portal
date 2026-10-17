@@ -5,7 +5,7 @@ según tools/contrato-estadisticas.md. Lo no verificado queda en null."""
 import json, os, sys, datetime as dt
 from math import exp, factorial
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-from nova_gol_4 import RHO, MAXG, categoria_o15
+from nova_gol_4 import RHO, MAXG, categoria_o15, entero
 F=sys.argv[1]
 H=json.load(open('../public/api/hoy.json',encoding='utf-8'))
 S={(p['local'],p['visita']):p for p in json.load(open(f'../data/{F}/pronosticos.json',encoding='utf-8')) if not p.get('sin')}
@@ -24,7 +24,7 @@ def stats(t,cond,media_liga_gf,media_liga_gc):
                 indice_defensa=round(gc/pj/media_liga_gc,2) if pj else None,
                 ultimos5=None,temporada=None)
 out=[];
-elite=[p for p in H['todos'] if p['over15']>=90]
+elite=[p for p in H['todos'] if entero(p['over15'])>=90]
 for p in elite:
     s=S[(p['local'],p['visitante'])]
     a,b=s['lambda_local'],s['lambda_visita']; g=grid(a,b)

@@ -7,7 +7,10 @@ ES={'Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasb
 n=lambda x:ES.get(x,x)
 e=html.escape
 f1=lambda v:f"{v:.1f}".replace('.',',')
+from nova_gol_4 import entero
+pc=lambda v:str(entero(v))  # % públicos: redondeo de Marco (,5 sube)
 def cat(o):
+    o=entero(o)
     return ('elite','GOL ÉLITE') if o>=95 else ('plat','GOLES PLATINO') if o>=90 else ('r80','GOLES ESTÁNDAR') if o>=80 else ('r70','GOLES OPTIMISTAS')
 def key(p): return f"{p['local']}|{p['visita']}"
 
@@ -56,7 +59,7 @@ def card(k,big=False):
 <div class="nb"><div class="news-top">{chips(p)}<span class="live" hidden>En juego / jugado</span></div>
 <h3><a href="{url}" target="_blank" rel="noopener">{e(tit)}</a></h3>
 <div class="src">{e(medio)} · <a href="{url}" target="_blank" rel="noopener">Leer la noticia ↗</a></div>
-<div class="odds"><div class="odd"><span>Over 1.5</span><b>{f1(p['over15'])}%</b></div><div class="odd"><span>Over 2.5</span><b>{f1(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div></div></article>'''
+<div class="odds"><div class="odd"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div></div></article>'''
 top=max(P,key=lambda p:p['over15'])
 sec1=''.join(card(k) for k in PRED if k!=key(top))
 sec2=''.join(card(k) for k in DEST)
@@ -72,7 +75,7 @@ def llegan(k):
     return f'''<article class="ll"><div class="ll-h"><span class="lg">{NOM[p['liga']]} · {p['hora']} ECU</span>{chips(p)}</div>
 <h3>{e(n(p['local']))} <span>vs</span> {e(n(p['visita']))}</h3>
 <div class="ll-k"><div><b>{f1(gfL/pjL)}</b><span>GF casa {e(n(p['local']))}</span></div><div><b>{f1(gcL/pjL)}</b><span>GC casa</span></div><div><b>{f1(gfV/pjV)}</b><span>GF fuera {e(n(p['visita']))}</span></div><div><b>{f1(gcV/pjV)}</b><span>GC fuera</span></div></div>
-<ul>{li}</ul><div class="ll-p"><span>Over 1.5 <b>{f1(p['over15'])}%</b></span><span>Over 2.5 <b>{f1(p['over25'])}%</b></span><span>Marcador <b>{p['marcador']}</b></span></div><small class="src">{fu}</small></article>'''
+<ul>{li}</ul><div class="ll-p"><span>Over 1.5 <b>{pc(p['over15'])}%</b></span><span>Over 2.5 <b>{pc(p['over25'])}%</b></span><span>Marcador <b>{p['marcador']}</b></span></div><small class="src">{fu}</small></article>'''
 secll=''.join(llegan(k) for k in sorted(LLEGAN,key=lambda k:-idx[k]['over15'] if k in idx else 0))
 
 
@@ -86,7 +89,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
     rows+=f'''<details class="ev {c}" data-l="{p['liga']}" data-ko="{p['hora']}"><summary>
 <div class="ev-t"><span class="ko">{p['hora']}</span><span class="live" hidden>●</span></div>
 <div class="ev-m"><span class="lg">{NOM[p['liga']]}</span><span class="tm">{e(n(p['local']))}</span><span class="tm">{e(n(p['visita']))}</span></div>
-<div class="ev-o"><div class="odd {'hot' if p['over15']>=80 else ''}"><span>Over 1.5</span><b>{f1(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{f1(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
+<div class="ev-o"><div class="odd {'hot' if entero(p['over15'])>=80 else ''}"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
 SIN=[]  # sin tabla casa/fuera verificable
@@ -214,7 +217,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Sábado 17 de octubre de 2026 · sellado 05:55 ECU</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
-<div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{f1(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{f1(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
+<div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{pc(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{pc(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.0, calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK[key(top)][1])} · <a href="{LINK[key(top)][2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
 {RANK}
@@ -233,7 +236,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <section class="box" id="historial"><h3>Auditoría del viernes 16</h3>
 <div class="kpis"><div class="kpi g"><b>0/0</b><span>GOL ÉLITE · Over 1.5 (sin partidos de 90 %+)</span></div><div class="kpi"><b>1/1</b><span>Over 1.5 de 70 % o más (100 %)</span></div><div class="kpi"><b>0/0</b><span>Over 2.5 con señal (sin señales)</span></div><div class="kpi"><b>0/2</b><span>Marcadores exactos</span></div></div>
 <p class="legal">Jornada reducida (2 partidos de Liga MX sellados a las 21:17). Partido del día: Atlante 1-2 Pumas (Over 1.5 al 79,3 %; hubo 3 goles) ✔. Tijuana 0-0 Puebla tenía 68,8 % (menos de 70, no recomendado): no hubo goles. Acumulado de la galería: 6/6 GOL ÉLITE y 36/42 en Over 1.5 de 70 % o más (86 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
-<section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94,9 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89,9 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul></section>
+<section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul><p class="legal">Porcentajes redondeados: ,5 o más sube (94,8 → 95 %); menos de ,5 se queda (94,4 → 94 %).</p></section>
 <section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos revisados tienen datos verificados de local y visitante. Liga Portugal y la Primera de Chile no juegan hoy; NYCFC–LAFC (MLS) fue reprogramado y no se pronostica.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
 <p>Las noticias enlazan a sus medios de origen. Las imágenes de los partidos son ilustraciones propias de Gol Élite Pro.</p><p>Estadísticas de local y visitante: SoccerSTATS, Sports Mole, Valor Final y Fútbol Total (calculadas partido a partido donde no había tabla), verificadas con sumas cruzadas: goles a favor en casa = goles en contra fuera.</p></section>

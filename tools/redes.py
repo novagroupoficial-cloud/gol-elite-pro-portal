@@ -11,11 +11,14 @@ NOM={'ENG':'Premier League','ITA':'Serie A','FRA':'Ligue 1','ESP':'LaLiga','BRA'
 ES={'Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasbourg':'Estrasburgo','Deportivo':'Deportivo La Coruña','AC Milan':'Milan','Real Betis':'Betis','Marseille':'Marsella','Racing':'Racing Santander','Atletico MG':'Atlético MG','A. San Luis':'Atlético San Luis','Pumas UNAM':'Pumas','Universidad Católica':'U. Católica','Coventry':'Coventry City','Newcastle':'Newcastle United','Lanus':'Lanús','Velez Sarsfield':'Vélez Sarsfield','Gimnasia Mendoza':'Gimnasia (Mendoza)','Newells Old Boys':"Newell's",'Bragantino':'RB Bragantino','Athletico-PR':'Athletico-PR','Bayern Munich':'Bayern Múnich','Atletico Madrid':'Atlético de Madrid','Paris Saint-Germain':'PSG','Leon':'León','America':'América','Juarez':'FC Juárez','Philadelphia':'Philadelphia Union','Seattle':'Seattle Sounders','Portland':'Portland Timbers','Guadalajara':'Chivas','Tigres UANL':'Tigres','New England':'New England Rev.','A. San Luis':'San Luis'}
 n=lambda x:ES.get(x,x)
 f1=lambda v:f"{v:.1f}".replace('.',',')
-pc=lambda v:str(int(v))  # en redes: entero hacia abajo (89,9 -> 89), nunca cruza de categoría
+from nova_gol_4 import entero
+pc=lambda v:str(entero(v))  # regla de Marco: ,5 o más sube; menos de ,5 se queda
 f2=lambda v:f"{v:.2f}".replace('.',',')
 def ink(c):
     r,g,b=(int(c[i:i+2],16) for i in (1,3,5)); return '#111' if 0.299*r+0.587*g+0.114*b>150 else '#fff'
-def cat(o): return 'GOL ÉLITE' if o>=95 else 'GOLES PLATINO' if o>=90 else 'GOLES ESTÁNDAR' if o>=80 else 'GOLES OPTIMISTAS'
+def cat(o):
+    o=entero(o)
+    return 'GOL ÉLITE' if o>=95 else 'GOLES PLATINO' if o>=90 else 'GOLES ESTÁNDAR' if o>=80 else 'GOLES OPTIMISTAS'
 def escudo(t,size):
     c=COL.get(t,'#2a3a32'); ini=''.join(w[0] for w in n(t).replace('.','').split()[:2]).upper()
     return f'<div class="esc" style="width:{size}px;height:{size}px;background:{c};color:{ink(c)};font-size:{size*.36:.0f}px">{e(ini)}</div>'
@@ -102,7 +105,7 @@ def carrusel():
 <div class="caja" style="position:absolute;left:50px;right:50px;top:240px">{filas}</div>
 <ul style="position:absolute;left:70px;right:70px;top:1000px;font-size:28px;line-height:1.4;margin:0;padding-left:28px">{extra}</ul>'''))
     # 3 resto de rango 80
-    otros=[p for p in sorted(P,key=lambda p:-p['over15']) if p['over15']>=80 and p is not top and p['hora']>K.get('desde','00:00')]
+    otros=[p for p in sorted(P,key=lambda p:-p['over15']) if entero(p['over15'])>=80 and p is not top and p['hora']>K.get('desde','00:00')]
     s.append(slide(f'''<div class="disp oro" style="position:absolute;top:120px;left:0;right:0;text-align:center;font-size:90px">Más pronósticos del día</div>
 <div style="position:absolute;top:230px;left:0;right:0;text-align:center;font-size:30px;color:#9fb2a6">Over 1.5 de 80 % o más · <span class="verde">Over 1.5</span> · Over 2.5</div>
 <div class="caja" style="position:absolute;left:50px;right:50px;top:300px">{''.join(fila(p) for p in otros[:8])}</div>'''))

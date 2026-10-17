@@ -7,7 +7,7 @@ Uso:
                    visita=Equipo(pj=3, gf=7, gc=5))
 """
 from dataclasses import dataclass
-from math import exp, factorial
+from math import floor, exp, factorial
 
 RHO = -0.08          # corrección Dixon-Coles
 K = 4                # partidos "virtuales" de contracción hacia la media de liga
@@ -117,7 +117,13 @@ def pronostico(LHG, LAG, local: Equipo, visita: Equipo, cuota_over25=None, cuota
     }
 
 
+def entero(p):
+    """Regla de Marco (17-oct-2026): decimal 5 o más sube al entero siguiente; menos de 5 se queda (94,5 -> 95; 94,4 -> 94)."""
+    return int(floor(round(p, 1) + 0.5 + 1e-9))
+
+
 def categoria_o15(p):
+    p = entero(p)
     return "GOL ÉLITE" if p >= 95 else "GOLES PLATINO" if p >= 90 else "GOLES ESTÁNDAR" if p >= 80 else "GOLES OPTIMISTAS"  # escala de Marco, 17-oct-2026
 
 

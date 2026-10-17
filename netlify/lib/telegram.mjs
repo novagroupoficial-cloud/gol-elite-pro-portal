@@ -9,8 +9,10 @@ const DIAS = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "
 const MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
 
 export const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-export const categoria = (v) => (v >= 95 ? "💎 GOL ÉLITE" : v >= 90 ? "🥈 GOLES PLATINO" : v >= 80 ? "GOLES ESTÁNDAR" : "GOLES OPTIMISTAS");
-export const pct = (v) => (typeof v === "number" ? v.toFixed(1).replace(".", ",") + " %" : "—");
+// Regla de Marco (17-oct-2026): decimal 5 o más sube al entero siguiente (94,5 -> 95; 94,4 -> 94).
+export const entero = (v) => Math.floor(Math.round(v * 10) / 10 + 0.5 + 1e-9);
+export const categoria = (x) => { const v = entero(x); return v >= 95 ? "💎 GOL ÉLITE" : v >= 90 ? "🥈 GOLES PLATINO" : v >= 80 ? "GOLES ESTÁNDAR" : "GOLES OPTIMISTAS"; };
+export const pct = (v) => (typeof v === "number" ? entero(v) + " %" : "—");
 
 // Hora de Ecuador (UTC-5, sin horario de verano)
 export function ahoraEcuador(ms = Date.now()) {
@@ -30,7 +32,7 @@ const anulado = (p) => p.estado === "anulado";
 
 export function mensajeRanking(feed) {
   const filas = (feed.todos || []).slice(0, 20).map((p, i) => {
-    const bajo = p.over15 < 70 ? " <i>(menos de 70: no recomendado)</i>" : "";
+    const bajo = "";
     return `${i + 1}. <b>${esc(p.hora_ecuador)}</b> · ${esc(p.local)} vs ${esc(p.visitante)} <i>(${esc(p.liga)})</i>\n` +
       `    Over 1.5 <b>${pct(p.over15)}</b> · Over 2.5 ${pct(p.over25)} · Marcador ${esc(p.marcador)} · <b>${categoria(p.over15)}</b>${bajo}`;
   });

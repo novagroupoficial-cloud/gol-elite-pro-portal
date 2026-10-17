@@ -1,6 +1,6 @@
 {
  "fecha": "2026-10-17",
- "generado_ecuador": "2026-10-17 07:34 ECU (UTC-5)",
+ "generado_ecuador": "2026-10-17 07:37 ECU (UTC-5)",
  "fuente_pronosticos": "public/api/hoy.json",
  "modelo": "GOL ÉLITE PRO 4.0 (Nova Gol 4.0)",
  "generado_por": "Claude (provisional mientras el Dashboard Gol 4.0 no entregue)",
@@ -16,7 +16,7 @@
    "over25": 84.1,
    "marcador": "1-3",
    "goles_esperados": 4.6,
-   "categoria": "GOLES PLATINO",
+   "categoria": "GOL ÉLITE",
    "senal_over25": "fuerte",
    "destacado": true,
    "lambda_local": 1.07,
@@ -895,6 +895,105 @@
    ],
    "fuentes": [
     "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-17"
+  },
+  {
+   "hora_ecuador": "08:30",
+   "liga": "Bundesliga",
+   "local": "Hamburger SV",
+   "visitante": "VfB Stuttgart",
+   "over15": 89.8,
+   "over25": 72.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.8,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "moderada",
+   "destacado": false,
+   "lambda_local": 1.89,
+   "lambda_visita": 1.9,
+   "modelo_extra": {
+    "over05": 97.1,
+    "over35": 52.4,
+    "over45": 33.0,
+    "ambos_marcan": 72.8,
+    "gana_local": 38.5,
+    "empate": 22.6,
+    "gana_visit": 38.9,
+    "distribucion": [
+     2.9,
+     7.3,
+     16.9,
+     20.5,
+     19.4,
+     14.7,
+     9.3,
+     9.0
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      8.8
+     ],
+     [
+      "1-2",
+      7.7
+     ],
+     [
+      "2-1",
+      7.7
+     ],
+     [
+      "2-2",
+      7.3
+     ],
+     [
+      "1-3",
+      4.9
+     ],
+     [
+      "3-1",
+      4.8
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 2.33,
+    "visitante": 1.43
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 2,
+    "gf_pj": 1.0,
+    "gc_pj": 3.0,
+    "goles_pj": 4.0,
+    "indice_ataque": 0.43,
+    "indice_defensa": 2.1,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 3,
+    "gf_pj": 1.33,
+    "gc_pj": 2.33,
+    "goles_pj": 3.67,
+    "indice_ataque": 0.93,
+    "indice_defensa": 1.0,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Hamburger SV en casa: 1,00 goles a favor y 3,00 en contra por partido (2 PJ)",
+    "VfB Stuttgart fuera: 1,33 a favor y 2,33 en contra por partido (3 PJ)",
+    "Sus partidos promedian 4,0 y 3,7 goles",
+    "Goles esperados por el modelo: 3,8",
+    "Ambos marcan: 73 %"
+   ],
+   "fuentes": [
+    "https://www.sportsmole.co.uk/football/bundesliga/2026-27/ (Home/Away Table 2026-27, incluye el Eintracht Frankfurt–1. FC Köln del vie 16-oct; totales cotejados con https://www.footballwebpages.co.uk/bayern-munich/league-table actualizado 16-oct-2026 21:27) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
    ],
    "corte_datos": "2026-10-17"
   }

@@ -8,7 +8,7 @@ Escudos: escudo oficial de cada club junto a su nombre y en la camiseta de cada 
 
 ## 1. Telstar vs Feyenoord · Eredivisie · 13:00 ECU · PARTIDO DEL DÍA
 
-Datos sellados: Over 1.5 94,8 % · Over 2.5 84,1 % · marcador 1-3 · GOLES PLATINO. Previa: Sports Mole.
+Datos sellados: Over 1.5 94,8 % · Over 2.5 84,1 % · marcador 1-3 · GOL ÉLITE. Previa: Sports Mole.
 
 **PROMPT**
 
@@ -59,7 +59,7 @@ Datos sellados: Over 1.5 93,5 % · Over 2.5 80,6 % · marcador 2-2 · GOLES PLAT
 
 ## 4. Hamburger SV vs VfB Stuttgart · Bundesliga · 08:30 ECU
 
-Datos sellados: Over 1.5 89,8 % · Over 2.5 72,8 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Sportsgambler.
+Datos sellados: Over 1.5 89,8 % · Over 2.5 72,8 % · marcador 1-1 · GOLES PLATINO. Previa: Sportsgambler.
 
 **PROMPT**
 

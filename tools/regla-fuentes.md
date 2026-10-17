@@ -14,8 +14,14 @@ https://www.sportytrader.com/es/pronosticos/futbol/  (la web muestra la hora UTC
 # Escala de categorías (Marco, 17-oct-2026) — reemplaza GOL ÉLITE 95 / GOL ÉLITE / Rango 80 / Rango 70 / Menos de 70
 | Over 1.5 | Categoría |
 |---|---|
-| 95 % o más | **GOL ÉLITE** |
-| 90 % a 94,9 % | **GOLES PLATINO** |
-| 80 % a 89,9 % | **GOLES ESTÁNDAR** |
+| 95 % o más (tras redondear) | **GOL ÉLITE** |
+| 90 a 94 % | **GOLES PLATINO** |
+| 80 a 89 % | **GOLES ESTÁNDAR** |
 | menos de 80 % | **GOLES OPTIMISTAS** |
 Las entradas viejas de la Galería y las auditorías anteriores conservan la escala de su día.
+
+# Redondeo de porcentajes (Marco, 17-oct-2026)
+- Decimal ,5 o más → sube al entero siguiente; menos de ,5 → se queda (95,5 → 96 %; 95,4 → 95 %; 94,8 → 95 %; 89,5 → 90 %).
+- La categoría se decide con ese entero: 94,8 → 95 % → GOL ÉLITE; 89,8 → 90 % → GOLES PLATINO.
+- Se muestra el entero en el portal, Telegram y redes. El archivo sellado (`data/`) conserva el decimal original.
+- Funciones: `entero()` en `tools/nova_gol_4.py` y en `netlify/lib/telegram.mjs`.

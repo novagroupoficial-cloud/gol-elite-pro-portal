@@ -23,7 +23,7 @@ Se entrega como PROMPT para el generador de imágenes del equipo (Gemini/ChatGPT
 
 ## Regla de porcentajes (aprobada por Marco, 12-oct-2026)
 - Se usan los términos que conoce el público: "Over 1.5" y "Over 2.5", con UNA sola nota que explique: "Over 1.5 = 2 goles o más en el partido, sin importar quién gane · Over 2.5 = 3 goles o más".
-- En redes, número entero hacia abajo (89,9 → 89 %), así nunca cruza de categoría; el decimal sellado queda en el portal.
+- Porcentajes en número entero redondeado (regla de Marco, 17-oct-2026): ,5 o más sube al entero siguiente y menos de ,5 se queda (94,5 → 95 %; 94,4 → 94 %). La categoría (GOL ÉLITE ≥95, GOLES PLATINO 90–94, GOLES ESTÁNDAR 80–89, GOLES OPTIMISTAS <80) se decide con ese entero.
 - En los aciertos: "Dimos Over 1.5 al X % · Hubo N goles".
 
 ## Vocabulario de los prompts (acordado con Marco, 12-oct-2026)

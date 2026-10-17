@@ -21,7 +21,7 @@ Formato vertical 9:16 (1080x1920), duración 25–30 s, 30 fps. Subtítulos siem
 | 6 | 24–30 s | Presentadora señalando; logo y botón | "¿Cuál es tu pronóstico? 👇" + "+18 · No garantiza resultados" | Llamado a comentar y a la web | Cierre musical |
 
 ## Reglas
-- Porcentajes en entero hacia abajo. Se dice "Over 1.5" (término que el público conoce) y se explica UNA vez: "dos goles o más, sin importar quién gane"; en pantalla, la nota "Over 1.5 = 2 goles o más".
+- Porcentajes en entero redondeado (,5 o más sube; menos de ,5 se queda). Se dice "Over 1.5" (término que el público conoce) y se explica UNA vez: "dos goles o más, sin importar quién gane"; en pantalla, la nota "Over 1.5 = 2 goles o más".
 - Nunca decir "apuesta segura", "ganar dinero" ni prometer resultados; decir "probabilidad", "nuestro modelo estima".
 - Mencionar +18 en pantalla al final; la presentadora es avatar IA (va en la descripción).
 - Música: pista sin derechos de autor de la biblioteca de la red (Instagram/TikTok/CapCut), estilo épico-deportivo, 120–128 BPM, volumen bajo debajo de la voz.

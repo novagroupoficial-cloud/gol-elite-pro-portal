@@ -6,7 +6,8 @@ Después: python3 tools/portal.py && python3 tools/envolver.py"""
 import json, os, sys, html, datetime as dt
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0,'.')
-from nova_gol_4 import categoria_o15
+from nova_gol_4 import categoria_o15, entero
+pc=lambda v:str(entero(v))
 F=sys.argv[1]
 ahora=dt.datetime.now(dt.timezone.utc).replace(tzinfo=None)-dt.timedelta(hours=5)
 P=[p for p in json.load(open(f'../data/{F}/pronosticos.json',encoding='utf-8')) if not p.get('sin')]
@@ -55,7 +56,7 @@ def chip(x):
     if x['estado']=='sin confirmar': return '<span class="rk-st">Resultado por confirmar</span>'
     return f'<span class="rk-st">{x["hora_ecuador"]} ECU</span>'
 filas=''.join(f'''<div class="rk-row"><span class="rk-n">{x["puesto"]}</span><div class="rk-m"><b>{e(n(x["local"]))} vs {e(n(x["visitante"]))}</b><span>{e(x["liga"])} · {x["hora_ecuador"]} ECU</span></div>
-<div class="rk-o"><span>O1.5</span><b class="{"hot" if x["over15"]>=80 else ""}">{f1(x["over15"])}%</b></div><div class="rk-o"><span>O2.5</span><b>{f1(x["over25"])}%</b></div>{chip(x)}</div>''' for x in items)
+<div class="rk-o"><span>O1.5</span><b class="{"hot" if entero(x["over15"])>=80 else ""}">{pc(x["over15"])}%</b></div><div class="rk-o"><span>O2.5</span><b>{pc(x["over25"])}%</b></div>{chip(x)}</div>''' for x in items)
 a,b=resumen['over15_70']
 tally=f'Terminados: {len(term)} de {len(items)} · Over 1.5 de 70 % o más: {a}/{b}' if term else 'Aún no termina ningún partido'
 css='''<style>.rk{background:var(--panel);border:1px solid var(--line);border-radius:6px;overflow:hidden}

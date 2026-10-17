@@ -18,7 +18,9 @@
  },
  "avisos_enviados": [
   "rutina_recuperada",
-  "bloqueo"
+  "bloqueo",
+  "partido_del_dia",
+  "cierre_del_dia"
  ],
  "web_sin_lectura_seguidas": 3,
  "nota_22_10": "Refresco 22:10: ranking regenerado (Atlante–Pumas 79,3 % y Tijuana–Puebla 68,8 % en juego). Resultados se buscan desde las 00:15 ECU.",

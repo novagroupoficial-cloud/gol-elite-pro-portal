@@ -18,11 +18,16 @@
   "local": "Tijuana",
   "visita": "Puebla",
   "hora": "22:00",
-  "resultado": null,
-  "estado": "pendiente",
+  "resultado": "0-0",
+  "estado": "terminado",
   "over15_dado": 68.8,
   "over25_dado": 41.4,
-  "fuente": null,
-  "registrado": "00:20 ECU (17-oct)"
+  "fuente": "https://www.vavel.com/en-us/soccer/2026/10/16/1275344-xolos-vs-puebla-live-score-liga-mx.html",
+  "registrado": "01:15 ECU (17-oct)",
+  "goles": 0,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente_extra": "https://www.mediotiempo.com/futbol/liga-mx/resumen-partido-tijuana-vs-puebla-jornada-12-apertura-2026"
  }
 ]

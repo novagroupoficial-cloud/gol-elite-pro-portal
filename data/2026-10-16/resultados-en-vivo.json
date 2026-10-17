@@ -1,0 +1,28 @@
+[
+ {
+  "local": "Atlante",
+  "visita": "Pumas UNAM",
+  "hora": "22:00",
+  "resultado": "1-2",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 79.3,
+  "over25_dado": 55.2,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.excelsior.com.mx/deportes/pumas-resurge-suena-con-liguilla-y-deja-atlante-borde-abismo",
+  "registrado": "00:20 ECU (17-oct)"
+ },
+ {
+  "local": "Tijuana",
+  "visita": "Puebla",
+  "hora": "22:00",
+  "resultado": null,
+  "estado": "pendiente",
+  "over15_dado": 68.8,
+  "over25_dado": 41.4,
+  "fuente": null,
+  "registrado": "00:20 ECU (17-oct)"
+ }
+]

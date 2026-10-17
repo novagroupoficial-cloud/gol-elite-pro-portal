@@ -1,0 +1,21 @@
+{
+ "fecha": "2026-10-17",
+ "ultima_ejecucion": "2026-10-17 00:20 ECU",
+ "ultima_ok": "2026-10-17 00:20 ECU",
+ "rutina_diaria": "pendiente",
+ "rutina_diaria_inicio": null,
+ "pendientes": [
+  "Resultado de Tijuana–Puebla (16-oct, 22:00 ECU): aún sin informe final abierto a las 00:20; registrar en data/2026-10-16/resultados-en-vivo.json y luego enviar cierre_del_dia del 16 (Atlante 1-2 Pumas ✔ ya registrado).",
+  "Kit de redes del 16-oct no generado.",
+  "Auditoría oficial de 2026-10-12 nunca se hizo; la del 16 la hará la rutina diaria del 17.",
+  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso sin respuesta."
+ ],
+ "deploy": {
+  "ok": null,
+  "fallos_seguidos": 0,
+  "ultima_revision": "00:20 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
+ },
+ "avisos_enviados": [],
+ "web_sin_lectura_seguidas": 4,
+ "nota": "00:20: el ranking publicado sigue siendo el del 16-oct (aún no hay pronósticos del 17; la rutina diaria corre 05:24). Se corrigió tools/refresco.py: 'actualizado' usa la fecha real y los partidos de un día pasado sin resultado se muestran 'Resultado por confirmar' en vez de 'por jugar'. El aviso cierre_del_dia del 16 queda pendiente hasta tener Tijuana–Puebla."
+}

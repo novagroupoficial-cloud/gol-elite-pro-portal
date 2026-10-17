@@ -22,7 +22,9 @@ def estado(p):
                     marcador_exacto=r['resultado']==p['marcador'],fuente=r['fuente'])
     if r and r['estado']=='anulado': return dict(estado='anulado',resultado=None,fuente=r.get('fuente'))
     h,m=map(int,p['hora'].split(':')); ko=ahora.replace(hour=h,minute=m,second=0,microsecond=0)
-    return dict(estado='en juego / sin confirmar' if ahora>=ko and ahora.strftime('%Y-%m-%d')==F else 'por jugar',resultado=None)
+    hoy=ahora.strftime('%Y-%m-%d')
+    if hoy>F: return dict(estado='sin confirmar',resultado=None)
+    return dict(estado='en juego / sin confirmar' if ahora>=ko and hoy==F else 'por jugar',resultado=None)
 rank=sorted(P,key=lambda p:(-p['over15'],p['hora']))
 items=[]
 for i,p in enumerate(rank,1):
@@ -36,7 +38,7 @@ t70=[x for x in term if x['over15']>=70]; s65=[x for x in term if x['over25']>=6
 resumen=dict(terminados=len(term),total=len(items),over15_70=[sum(x['acierto_over15'] for x in t70),len(t70)],
              over25_senal=[sum(x['acierto_over25'] for x in s65),len(s65)],marcadores_exactos=sum(x['marcador_exacto'] for x in term))
 stamp=ahora.strftime('%H:%M')
-feed=dict(fecha=F,actualizado=f"{F} {stamp} ECU (UTC-5)",zona_horaria='America/Guayaquil (UTC-5)',modelo='Nova Gol 4.0 (Poisson + Dixon-Coles)',
+feed=dict(fecha=F,actualizado=f"{ahora.strftime('%Y-%m-%d')} {stamp} ECU (UTC-5)",zona_horaria='America/Guayaquil (UTC-5)',modelo='Nova Gol 4.0 (Poisson + Dixon-Coles)',
   fuente_sellada=f'data/{F}/pronosticos.json',aviso='+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.',
   orden='de mayor a menor Over 1.5',resumen_del_dia=resumen,
   rango_80_90=[x for x in items if 80<=x['over15']<=90],todos=items,sin_pronostico=[f"{p['local']} vs {p['visita']}" for p in SIN])
@@ -48,6 +50,7 @@ def chip(x):
         return f'<a class="rk-st {"ok" if ok else "ko"}" href="{e(x["fuente"])}" target="_blank" rel="noopener">Final {x["resultado"]} {"✔" if ok else "✘"}</a>'
     if x['estado']=='anulado': return '<span class="rk-st">Anulado</span>'
     if x['estado'].startswith('en juego'): return '<span class="rk-st live">En juego</span>'
+    if x['estado']=='sin confirmar': return '<span class="rk-st">Resultado por confirmar</span>'
     return f'<span class="rk-st">{x["hora_ecuador"]} ECU</span>'
 filas=''.join(f'''<div class="rk-row"><span class="rk-n">{x["puesto"]}</span><div class="rk-m"><b>{e(n(x["local"]))} vs {e(n(x["visitante"]))}</b><span>{e(x["liga"])} · {x["hora_ecuador"]} ECU</span></div>
 <div class="rk-o"><span>O1.5</span><b class="{"hot" if x["over15"]>=80 else ""}">{f1(x["over15"])}%</b></div><div class="rk-o"><span>O2.5</span><b>{f1(x["over25"])}%</b></div>{chip(x)}</div>''' for x in items)

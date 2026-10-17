@@ -8,7 +8,7 @@ n=lambda x:ES.get(x,x)
 e=html.escape
 f1=lambda v:f"{v:.1f}".replace('.',',')
 def cat(o):
-    return ('elite','GOL ÉLITE') if o>=90 else ('r80','Rango 80') if o>=80 else ('r70','Rango 70') if o>=70 else ('r00','Menos de 70')
+    return ('elite','GOL ÉLITE') if o>=95 else ('plat','GOLES PLATINO') if o>=90 else ('r80','GOLES ESTÁNDAR') if o>=80 else ('r70','GOLES OPTIMISTAS')
 def key(p): return f"{p['local']}|{p['visita']}"
 
 # ---- Noticias (hechos de fuentes citadas al pie; texto propio) ----
@@ -142,7 +142,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 .lg{{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}}
 .teams{{font-weight:600}} .teams span{{color:var(--muted);font-weight:400}}
 .badge{{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:2px 8px;border-radius:3px;background:var(--odd);color:var(--acc)}}
-.badge.elite{{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#1b1403}} .badge.r70{{color:var(--muted)}} .badge.r00{{color:var(--chip0);background:transparent;border:1px solid var(--line)}}
+.badge.elite{{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#1b1403}} .badge.plat{{background:linear-gradient(180deg,#f4f7f6,#aebbb6);color:#101815}} .badge.r70{{color:var(--muted)}} .badge.r00{{color:var(--chip0);background:transparent;border:1px solid var(--line)}}
 .live{{font-size:12px;font-weight:700;color:#c0392b}}
 .odds{{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:4px}}
 .odd{{background:var(--odd);border-radius:4px;padding:6px 8px;display:grid;text-align:center;gap:0}}
@@ -233,7 +233,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <section class="box" id="historial"><h3>Auditoría del viernes 16</h3>
 <div class="kpis"><div class="kpi g"><b>0/0</b><span>GOL ÉLITE · Over 1.5 (sin partidos de 90 %+)</span></div><div class="kpi"><b>1/1</b><span>Over 1.5 de 70 % o más (100 %)</span></div><div class="kpi"><b>0/0</b><span>Over 2.5 con señal (sin señales)</span></div><div class="kpi"><b>0/2</b><span>Marcadores exactos</span></div></div>
 <p class="legal">Jornada reducida (2 partidos de Liga MX sellados a las 21:17). Partido del día: Atlante 1-2 Pumas (Over 1.5 al 79,3 %; hubo 3 goles) ✔. Tijuana 0-0 Puebla tenía 68,8 % (menos de 70, no recomendado): no hubo goles. Acumulado de la galería: 6/6 GOL ÉLITE y 36/42 en Over 1.5 de 70 % o más (86 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
-<section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 90 % o más</li><li><span class="badge r80">Rango 80</span> de 80 % a 89,9 %</li><li><span class="badge r70">Rango 70</span> de 70 % a 79,9 %</li><li><span class="badge r00">Menos de 70</span> no recomendado</li></ul></section>
+<section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94,9 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89,9 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul></section>
 <section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos revisados tienen datos verificados de local y visitante. Liga Portugal y la Primera de Chile no juegan hoy; NYCFC–LAFC (MLS) fue reprogramado y no se pronostica.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
 <p>Las noticias enlazan a sus medios de origen. Las imágenes de los partidos son ilustraciones propias de Gol Élite Pro.</p><p>Estadísticas de local y visitante: SoccerSTATS, Sports Mole, Valor Final y Fútbol Total (calculadas partido a partido donde no había tabla), verificadas con sumas cruzadas: goles a favor en casa = goles en contra fuera.</p></section>

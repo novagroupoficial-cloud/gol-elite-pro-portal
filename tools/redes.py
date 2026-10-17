@@ -15,7 +15,7 @@ pc=lambda v:str(int(v))  # en redes: entero hacia abajo (89,9 -> 89), nunca cruz
 f2=lambda v:f"{v:.2f}".replace('.',',')
 def ink(c):
     r,g,b=(int(c[i:i+2],16) for i in (1,3,5)); return '#111' if 0.299*r+0.587*g+0.114*b>150 else '#fff'
-def cat(o): return 'GOL ÉLITE 95' if o>=95 else 'GOL ÉLITE' if o>=90 else 'RANGO 80' if o>=80 else 'RANGO 70' if o>=70 else 'MENOS DE 70'
+def cat(o): return 'GOL ÉLITE' if o>=95 else 'GOLES PLATINO' if o>=90 else 'GOLES ESTÁNDAR' if o>=80 else 'GOLES OPTIMISTAS'
 def escudo(t,size):
     c=COL.get(t,'#2a3a32'); ini=''.join(w[0] for w in n(t).replace('.','').split()[:2]).upper()
     return f'<div class="esc" style="width:{size}px;height:{size}px;background:{c};color:{ink(c)};font-size:{size*.36:.0f}px">{e(ini)}</div>'

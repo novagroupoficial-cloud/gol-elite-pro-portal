@@ -1,11 +1,11 @@
-"""Estadísticas de los partidos GOL ÉLITE (Over 1.5 >= 90) y GOL ÉLITE 95, mientras el Dashboard no entregue.
+"""Estadísticas de los partidos GOL ÉLITE (Over 1.5 >= 95) y GOLES PLATINO (90 a 94,9), mientras el Dashboard no entregue.
 Uso: python3 tools/estadisticas.py AAAA-MM-DD
 Lee lo sellado (no cambia ninguna probabilidad) y escribe data/<fecha>/estadisticas.json y public/api/estadisticas.json
 según tools/contrato-estadisticas.md. Lo no verificado queda en null."""
 import json, os, sys, datetime as dt
 from math import exp, factorial
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-from nova_gol_4 import RHO, MAXG
+from nova_gol_4 import RHO, MAXG, categoria_o15
 F=sys.argv[1]
 H=json.load(open('../public/api/hoy.json',encoding='utf-8'))
 S={(p['local'],p['visita']):p for p in json.load(open(f'../data/{F}/pronosticos.json',encoding='utf-8')) if not p.get('sin')}
@@ -39,7 +39,7 @@ for p in elite:
             f"Ambos marcan: {r1(tot(lambda i,j:i>0 and j>0)):.0f} %"]
     out.append(dict(hora_ecuador=p['hora_ecuador'],liga=p['liga'],local=p['local'],visitante=p['visitante'],
         over15=p['over15'],over25=p['over25'],marcador=p['marcador'],goles_esperados=s['goles_esperados'],
-        categoria='GOL ÉLITE 95' if p['over15']>=95 else 'GOL ÉLITE',senal_over25=p['senal_over25'],destacado=False,
+        categoria=categoria_o15(p['over15']),senal_over25=p['senal_over25'],destacado=False,
         lambda_local=a,lambda_visita=b,
         modelo_extra=dict(over05=r1(tot(lambda i,j:i+j>=1)),over35=r1(tot(lambda i,j:i+j>=4)),over45=r1(tot(lambda i,j:i+j>=5)),
             ambos_marcan=r1(tot(lambda i,j:i>0 and j>0)),gana_local=r1(tot(lambda i,j:i>j)),empate=r1(tot(lambda i,j:i==j)),
@@ -51,7 +51,7 @@ if out: max(out,key=lambda x:x['over15'])['destacado']=True
 ahora=(dt.datetime.now(dt.timezone.utc).replace(tzinfo=None)-dt.timedelta(hours=5)).strftime('%Y-%m-%d %H:%M')
 J=dict(fecha=F,generado_ecuador=f"{ahora} ECU (UTC-5)",fuente_pronosticos="public/api/hoy.json",modelo="GOL ÉLITE PRO 4.0 (Nova Gol 4.0)",
        generado_por="Claude (provisional mientras el Dashboard Gol 4.0 no entregue)",
-       criterio="GOL ÉLITE 95 (Over 1.5 >= 95) y GOL ÉLITE (Over 1.5 >= 90)",
+       criterio="GOL ÉLITE (Over 1.5 >= 95) y GOLES PLATINO (90 a 94,9)",
        aviso="+18 · Probabilidades estadísticas, no garantías.",partidos=out,sin_estadisticas=[])
 for f in (f'../data/{F}/estadisticas.json','../public/api/estadisticas.json'):
     json.dump(J,open(f,'w',encoding='utf-8'),ensure_ascii=False,indent=1)

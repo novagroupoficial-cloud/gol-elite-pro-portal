@@ -5,6 +5,8 @@ Escribe public/api/hoy.json (feed del Dashboard) y tools/ranking.html (bloque qu
 Después: python3 tools/portal.py && python3 tools/envolver.py"""
 import json, os, sys, html, datetime as dt
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0,'.')
+from nova_gol_4 import categoria_o15
 F=sys.argv[1]
 ahora=dt.datetime.now(dt.timezone.utc).replace(tzinfo=None)-dt.timedelta(hours=5)
 P=[p for p in json.load(open(f'../data/{F}/pronosticos.json',encoding='utf-8')) if not p.get('sin')]
@@ -30,7 +32,7 @@ items=[]
 for i,p in enumerate(rank,1):
     s=estado(p)
     items.append(dict(puesto=i,hora_ecuador=p['hora'],liga=NOM.get(p['liga'],p['liga']),local=p['local'],visitante=p['visita'],
-      over15=p['over15'],over25=p['over25'],marcador=p['marcador'],goles_esperados=p['goles_esperados'],categoria=p['categoria'],
+      over15=p['over15'],over25=p['over25'],marcador=p['marcador'],goles_esperados=p['goles_esperados'],categoria=categoria_o15(p['over15']),
       senal_over25=p['senal_o25'],casa_local=dict(zip(['pj','gf','gc'],p['casa'])),fuera_visitante=dict(zip(['pj','gf','gc'],p['fuera'])),
       sellado=p.get('sellado'),**s))
 term=[x for x in items if x['estado']=='terminado']

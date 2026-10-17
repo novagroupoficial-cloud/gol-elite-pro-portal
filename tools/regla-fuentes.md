@@ -10,3 +10,12 @@ https://www.sportytrader.com/es/pronosticos/futbol/  (la web muestra la hora UTC
 - Excepción: si el club o la liga anuncian OFICIALMENTE que el partido ya se jugó o se movió,
   se avisa a Marco antes de pronosticarlo (ej.: NYCFC–LAFC, movido al 6-may-2026).
 - Corregir la hora de un partido sellado no cambia el pronóstico: se deja `nota_hora`.
+
+# Escala de categorías (Marco, 17-oct-2026) — reemplaza GOL ÉLITE 95 / GOL ÉLITE / Rango 80 / Rango 70 / Menos de 70
+| Over 1.5 | Categoría |
+|---|---|
+| 95 % o más | **GOL ÉLITE** |
+| 90 % a 94,9 % | **GOLES PLATINO** |
+| 80 % a 89,9 % | **GOLES ESTÁNDAR** |
+| menos de 80 % | **GOLES OPTIMISTAS** |
+Las entradas viejas de la Galería y las auditorías anteriores conservan la escala de su día.

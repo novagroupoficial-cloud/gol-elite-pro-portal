@@ -118,7 +118,7 @@ def pronostico(LHG, LAG, local: Equipo, visita: Equipo, cuota_over25=None, cuota
 
 
 def categoria_o15(p):
-    return "GOL ÉLITE" if p >= 90 else "Rango 80" if p >= 80 else "Rango 70" if p >= 70 else "Menos de 70"
+    return "GOL ÉLITE" if p >= 95 else "GOLES PLATINO" if p >= 90 else "GOLES ESTÁNDAR" if p >= 80 else "GOLES OPTIMISTAS"  # escala de Marco, 17-oct-2026
 
 
 def senal_o25(p):

@@ -8,7 +8,7 @@ Escudos: escudo oficial de cada club junto a su nombre y en la camiseta de cada 
 
 ## 1. Telstar vs Feyenoord · Eredivisie · 13:00 ECU · PARTIDO DEL DÍA
 
-Datos sellados: Over 1.5 94,8 % · Over 2.5 84,1 % · marcador 1-3 · GOL ÉLITE. Previa: Sports Mole.
+Datos sellados: Over 1.5 94,8 % · Over 2.5 84,1 % · marcador 1-3 · GOLES PLATINO. Previa: Sports Mole.
 
 **PROMPT**
 
@@ -25,7 +25,7 @@ Datos sellados: Over 1.5 94,8 % · Over 2.5 84,1 % · marcador 1-3 · GOL ÉLITE
 
 ## 2. Venezia vs Napoli · Serie A · 08:00 ECU
 
-Datos sellados: Over 1.5 83,9 % · Over 2.5 62,5 % · marcador 1-1 · Rango 80. Previa: Eurosport Italia.
+Datos sellados: Over 1.5 83,9 % · Over 2.5 62,5 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Eurosport Italia.
 
 **PROMPT**
 
@@ -42,7 +42,7 @@ Datos sellados: Over 1.5 83,9 % · Over 2.5 62,5 % · marcador 1-1 · Rango 80. 
 
 ## 3. Elversberg vs Augsburg · Bundesliga · 08:30 ECU
 
-Datos sellados: Over 1.5 93,5 % · Over 2.5 80,6 % · marcador 2-2 · GOL ÉLITE. Previa: Sports Mole.
+Datos sellados: Over 1.5 93,5 % · Over 2.5 80,6 % · marcador 2-2 · GOLES PLATINO. Previa: Sports Mole.
 
 **PROMPT**
 
@@ -59,7 +59,7 @@ Datos sellados: Over 1.5 93,5 % · Over 2.5 80,6 % · marcador 2-2 · GOL ÉLITE
 
 ## 4. Hamburger SV vs VfB Stuttgart · Bundesliga · 08:30 ECU
 
-Datos sellados: Over 1.5 89,8 % · Over 2.5 72,8 % · marcador 1-1 · Rango 80. Previa: Sportsgambler.
+Datos sellados: Over 1.5 89,8 % · Over 2.5 72,8 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Sportsgambler.
 
 **PROMPT**
 
@@ -76,7 +76,7 @@ Datos sellados: Over 1.5 89,8 % · Over 2.5 72,8 % · marcador 1-1 · Rango 80. 
 
 ## 5. Union Berlin vs Borussia Dortmund · Bundesliga · 08:30 ECU
 
-Datos sellados: Over 1.5 87,7 % · Over 2.5 68,9 % · marcador 1-1 · Rango 80. Previa: Starting11.
+Datos sellados: Over 1.5 87,7 % · Over 2.5 68,9 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Starting11.
 
 **PROMPT**
 
@@ -93,7 +93,7 @@ Datos sellados: Over 1.5 87,7 % · Over 2.5 68,9 % · marcador 1-1 · Rango 80. 
 
 ## 6. Werder Bremen vs SC Paderborn · Bundesliga · 08:30 ECU
 
-Datos sellados: Over 1.5 83,8 % · Over 2.5 62,4 % · marcador 2-0 · Rango 80. Previa: Starting11.
+Datos sellados: Over 1.5 83,8 % · Over 2.5 62,4 % · marcador 2-0 · GOLES ESTÁNDAR. Previa: Starting11.
 
 **PROMPT**
 
@@ -110,7 +110,7 @@ Datos sellados: Over 1.5 83,8 % · Over 2.5 62,4 % · marcador 2-0 · Rango 80. 
 
 ## 7. Manchester City vs Ipswich Town · Premier League · 09:00 ECU
 
-Datos sellados: Over 1.5 92,2 % · Over 2.5 77,9 % · marcador 2-1 · GOL ÉLITE. Previa: Manchester City (web oficial).
+Datos sellados: Over 1.5 92,2 % · Over 2.5 77,9 % · marcador 2-1 · GOLES PLATINO. Previa: Manchester City (web oficial).
 
 **PROMPT**
 
@@ -127,7 +127,7 @@ Datos sellados: Over 1.5 92,2 % · Over 2.5 77,9 % · marcador 2-1 · GOL ÉLITE
 
 ## 8. Fulham vs Hull City · Premier League · 09:00 ECU
 
-Datos sellados: Over 1.5 84,7 % · Over 2.5 63,6 % · marcador 1-1 · Rango 80. Previa: Sports Mole.
+Datos sellados: Over 1.5 84,7 % · Over 2.5 63,6 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Sports Mole.
 
 **PROMPT**
 
@@ -144,7 +144,7 @@ Datos sellados: Over 1.5 84,7 % · Over 2.5 63,6 % · marcador 1-1 · Rango 80. 
 
 ## 9. Villarreal vs Elche · LaLiga · 09:15 ECU
 
-Datos sellados: Over 1.5 88,1 % · Over 2.5 69,7 % · marcador 1-1 · Rango 80. Previa: Infobae (EFE).
+Datos sellados: Over 1.5 88,1 % · Over 2.5 69,7 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Infobae (EFE).
 
 **PROMPT**
 
@@ -161,7 +161,7 @@ Datos sellados: Over 1.5 88,1 % · Over 2.5 69,7 % · marcador 1-1 · Rango 80. 
 
 ## 10. ADO Den Haag vs PSV · Eredivisie · 09:30 ECU
 
-Datos sellados: Over 1.5 94,1 % · Over 2.5 82,2 % · marcador 1-2 · GOL ÉLITE. Previa: Sports Mole.
+Datos sellados: Over 1.5 94,1 % · Over 2.5 82,2 % · marcador 1-2 · GOLES PLATINO. Previa: Sports Mole.
 
 **PROMPT**
 
@@ -178,7 +178,7 @@ Datos sellados: Over 1.5 94,1 % · Over 2.5 82,2 % · marcador 1-2 · GOL ÉLITE
 
 ## 11. Bayern Múnich vs RB Leipzig · Bundesliga · 11:30 ECU
 
-Datos sellados: Over 1.5 94,3 % · Over 2.5 82,8 % · marcador 3-0 · GOL ÉLITE. Previa: futboltotal.futbol.
+Datos sellados: Over 1.5 94,3 % · Over 2.5 82,8 % · marcador 3-0 · GOLES PLATINO. Previa: futboltotal.futbol.
 
 **PROMPT**
 
@@ -195,7 +195,7 @@ Datos sellados: Over 1.5 94,3 % · Over 2.5 82,8 % · marcador 3-0 · GOL ÉLITE
 
 ## 12. Newcastle United vs Aston Villa · Premier League · 11:30 ECU
 
-Datos sellados: Over 1.5 84,7 % · Over 2.5 63,7 % · marcador 1-1 · Rango 80. Previa: Khel Now.
+Datos sellados: Over 1.5 84,7 % · Over 2.5 63,7 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Khel Now.
 
 **PROMPT**
 
@@ -212,7 +212,7 @@ Datos sellados: Over 1.5 84,7 % · Over 2.5 63,7 % · marcador 1-1 · Rango 80. 
 
 ## 13. Philadelphia Union vs Charlotte FC · MLS · 13:30 ECU
 
-Datos sellados: Over 1.5 81,6 % · Over 2.5 58,7 % · marcador 1-1 · Rango 80. Previa: Futbol Total.
+Datos sellados: Over 1.5 81,6 % · Over 2.5 58,7 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Futbol Total.
 
 **PROMPT**
 
@@ -229,7 +229,7 @@ Datos sellados: Over 1.5 81,6 % · Over 2.5 58,7 % · marcador 1-1 · Rango 80. 
 
 ## 14. Troyes vs Lens · Ligue 1 · 13:45 ECU
 
-Datos sellados: Over 1.5 84,3 % · Over 2.5 62,9 % · marcador 1-1 · Rango 80. Previa: Playmakerstats vía Yahoo Sports.
+Datos sellados: Over 1.5 84,3 % · Over 2.5 62,9 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Playmakerstats vía Yahoo Sports.
 
 **PROMPT**
 
@@ -246,7 +246,7 @@ Datos sellados: Over 1.5 84,3 % · Over 2.5 62,9 % · marcador 1-1 · Rango 80. 
 
 ## 15. Roma vs Genoa · Serie A · 13:45 ECU
 
-Datos sellados: Over 1.5 80,2 % · Over 2.5 56,6 % · marcador 1-1 · Rango 80. Previa: Il Sussidiario.
+Datos sellados: Over 1.5 80,2 % · Over 2.5 56,6 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Il Sussidiario.
 
 **PROMPT**
 
@@ -263,7 +263,7 @@ Datos sellados: Over 1.5 80,2 % · Over 2.5 56,6 % · marcador 1-1 · Rango 80. 
 
 ## 16. Sparta Rotterdam vs Willem II · Eredivisie · 14:00 ECU
 
-Datos sellados: Over 1.5 90,2 % · Over 2.5 73,6 % · marcador 1-1 · GOL ÉLITE. Previa: Sports Mole.
+Datos sellados: Over 1.5 90,2 % · Over 2.5 73,6 % · marcador 1-1 · GOLES PLATINO. Previa: Sports Mole.
 
 **PROMPT**
 
@@ -280,7 +280,7 @@ Datos sellados: Over 1.5 90,2 % · Over 2.5 73,6 % · marcador 1-1 · GOL ÉLITE
 
 ## 17. Independiente Rivadavia vs Tigre · Liga Profesional · 15:30 ECU
 
-Datos sellados: Over 1.5 86,6 % · Over 2.5 67,0 % · marcador 1-1 · Rango 80. Previa: Todo Jujuy.
+Datos sellados: Over 1.5 86,6 % · Over 2.5 67,0 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Todo Jujuy.
 
 **PROMPT**
 
@@ -297,7 +297,7 @@ Datos sellados: Over 1.5 86,6 % · Over 2.5 67,0 % · marcador 1-1 · Rango 80. 
 
 ## 18. Atlético MG vs Coritiba · Brasileirão · 16:30 ECU
 
-Datos sellados: Over 1.5 83,2 % · Over 2.5 61,2 % · marcador 1-1 · Rango 80. Previa: sin previa enlazada (Brasil, límite de búsquedas).
+Datos sellados: Over 1.5 83,2 % · Over 2.5 61,2 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: sin previa enlazada (Brasil, límite de búsquedas).
 
 **PROMPT**
 
@@ -313,7 +313,7 @@ Datos sellados: Over 1.5 83,2 % · Over 2.5 61,2 % · marcador 1-1 · Rango 80. 
 
 ## 19. Atlanta United vs Inter Miami · MLS · 18:30 ECU
 
-Datos sellados: Over 1.5 90,2 % · Over 2.5 73,7 % · marcador 1-2 · GOL ÉLITE. Previa: Futbol Total.
+Datos sellados: Over 1.5 90,2 % · Over 2.5 73,7 % · marcador 1-2 · GOLES PLATINO. Previa: Futbol Total.
 
 **PROMPT**
 
@@ -330,7 +330,7 @@ Datos sellados: Over 1.5 90,2 % · Over 2.5 73,7 % · marcador 1-2 · GOL ÉLITE
 
 ## 20. New England Revolution vs Chicago Fire · MLS · 18:30 ECU
 
-Datos sellados: Over 1.5 83,1 % · Over 2.5 61,0 % · marcador 1-1 · Rango 80. Previa: Futbol Total.
+Datos sellados: Over 1.5 83,1 % · Over 2.5 61,0 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Futbol Total.
 
 **PROMPT**
 
@@ -347,7 +347,7 @@ Datos sellados: Over 1.5 83,1 % · Over 2.5 61,0 % · marcador 1-1 · Rango 80. 
 
 ## 21. Sporting KC vs Real Salt Lake · MLS · 19:30 ECU
 
-Datos sellados: Over 1.5 82,0 % · Over 2.5 59,3 % · marcador 1-1 · Rango 80. Previa: Futbol Total.
+Datos sellados: Over 1.5 82,0 % · Over 2.5 59,3 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Futbol Total.
 
 **PROMPT**
 
@@ -364,7 +364,7 @@ Datos sellados: Over 1.5 82,0 % · Over 2.5 59,3 % · marcador 1-1 · Rango 80. 
 
 ## 22. Toluca vs Atlético San Luis · Liga MX · 20:00 ECU
 
-Datos sellados: Over 1.5 93,7 % · Over 2.5 81,2 % · marcador 2-1 · GOL ÉLITE. Previa: Fox Sports México.
+Datos sellados: Over 1.5 93,7 % · Over 2.5 81,2 % · marcador 2-1 · GOLES PLATINO. Previa: Fox Sports México.
 
 **PROMPT**
 
@@ -381,7 +381,7 @@ Datos sellados: Over 1.5 93,7 % · Over 2.5 81,2 % · marcador 2-1 · GOL ÉLITE
 
 ## 23. León vs América · Liga MX · 20:00 ECU
 
-Datos sellados: Over 1.5 82,8 % · Over 2.5 60,5 % · marcador 1-1 · Rango 80. Previa: Claro Sports.
+Datos sellados: Over 1.5 82,8 % · Over 2.5 60,5 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Claro Sports.
 
 **PROMPT**
 
@@ -398,7 +398,7 @@ Datos sellados: Over 1.5 82,8 % · Over 2.5 60,5 % · marcador 1-1 · Rango 80. 
 
 ## 24. Seattle Sounders vs CF Montreal · MLS · 21:30 ECU
 
-Datos sellados: Over 1.5 87,2 % · Over 2.5 68,2 % · marcador 2-1 · Rango 80. Previa: Futbol Total.
+Datos sellados: Over 1.5 87,2 % · Over 2.5 68,2 % · marcador 2-1 · GOLES ESTÁNDAR. Previa: Futbol Total.
 
 **PROMPT**
 
@@ -415,7 +415,7 @@ Datos sellados: Over 1.5 87,2 % · Over 2.5 68,2 % · marcador 2-1 · Rango 80. 
 
 ## 25. Portland Timbers vs Colorado Rapids · MLS · 21:30 ECU
 
-Datos sellados: Over 1.5 85,9 % · Over 2.5 65,8 % · marcador 1-1 · Rango 80. Previa: Futbol Total.
+Datos sellados: Over 1.5 85,9 % · Over 2.5 65,8 % · marcador 1-1 · GOLES ESTÁNDAR. Previa: Futbol Total.
 
 **PROMPT**
 
@@ -432,7 +432,7 @@ Datos sellados: Over 1.5 85,9 % · Over 2.5 65,8 % · marcador 1-1 · Rango 80. 
 
 ## 26. Cruz Azul vs FC Juárez · Liga MX · 22:10 ECU
 
-Datos sellados: Over 1.5 91,2 % · Over 2.5 75,9 % · marcador 2-1 · GOL ÉLITE. Previa: Fox Sports México.
+Datos sellados: Over 1.5 91,2 % · Over 2.5 75,9 % · marcador 2-1 · GOLES PLATINO. Previa: Fox Sports México.
 
 **PROMPT**
 

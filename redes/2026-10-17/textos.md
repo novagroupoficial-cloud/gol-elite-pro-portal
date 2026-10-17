@@ -1,6 +1,6 @@
 # Textos de publicación · sábado 17 de octubre de 2026
 
-Pronósticos sellados a las 05:55 (hora de Ecuador) en `data/2026-10-17/pronosticos.json`: 60 partidos de 13 ligas. Partido del día: **Telstar vs Feyenoord** (Eredivisie, 13:00 ECU), el de mayor probabilidad de 2 goles o más de hoy que aún no empezó (94,8 % sellado, GOL ÉLITE; no llega a GOL ÉLITE 95).
+Pronósticos sellados a las 05:55 (hora de Ecuador) en `data/2026-10-17/pronosticos.json`: 60 partidos de 13 ligas. Partido del día: **Telstar vs Feyenoord** (Eredivisie, 13:00 ECU), el de mayor probabilidad de 2 goles o más de hoy que aún no empezó (94,8 % sellado, GOLES PLATINO; no llega a GOL ÉLITE, que empieza en 95 %).
 
 **Regla de redes:** usamos "Over 1.5" y "Over 2.5", los términos que el público ya conoce, con una sola nota que explica: "Over 1.5 = 2 goles o más en el partido, sin importar quién gane · Over 2.5 = 3 goles o más". Porcentaje en número entero hacia abajo (94,8 → 94 %). En los aciertos: "Dimos Over 1.5 al X % · Hubo N goles".
 

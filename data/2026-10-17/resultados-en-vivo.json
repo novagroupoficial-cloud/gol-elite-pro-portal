@@ -43,5 +43,35 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/venezia-vs-napoli-serie-a-2026-10-17",
   "registrado": "11:15 ECU"
+ },
+ {
+  "local": "Brentford",
+  "visita": "Liverpool",
+  "hora": "09:00",
+  "resultado": "1-2",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 71.0,
+  "over25_dado": 44.1,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/brentford-vs-liverpool-premier-league-2026-10-17",
+  "registrado": "12:10 ECU"
+ },
+ {
+  "local": "Villarreal",
+  "visita": "Elche",
+  "hora": "09:15",
+  "resultado": "0-0",
+  "goles": 0,
+  "estado": "terminado",
+  "over15_dado": 88.1,
+  "over25_dado": 69.7,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/villarreal-vs-elche-la-liga-2026-10-17",
+  "registrado": "12:10 ECU"
  }
 ]

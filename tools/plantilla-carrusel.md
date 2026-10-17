@@ -4,6 +4,8 @@ Una imagen por partido. Orden: por hora de inicio. Partidos: los de Over 1.5 de 
 Se entrega como PROMPT para el generador de imágenes del equipo (Gemini/ChatGPT), uno completo por partido, en redes/<fecha>/prompts-carrusel.md.
 
 ## Reglas
+- NUEVO (Marco, 17-oct-2026): cada lámina lleva el recuadro "LA NOTICIA DEL PARTIDO" entre las estadísticas y el pronóstico: un dato llamativo con fuente abierta (racha, expulsión, baja, récord, lo que está en juego). Las noticias del día se guardan en data/<fecha>/noticias.json; `tools/slides.py` arma las láminas listas y `tools/prompts_noticias.py` el resumen y los prompts.
+- Etiqueta de categoría bajo el logo: GOL ÉLITE (≥95), GOLES PLATINO (90–94) o GOLES ESTÁNDAR (80–89), con el porcentaje redondeado.
 - Orden del contenido: PRIMERO estadísticas clave de los equipos, AL FINAL probabilidad y marcador sugerido.
 - Solo datos verificados. Posición, puntos, forma, goleadores o noticias: solo si hay fuente; si no, omitirlos.
 - Uniformes: colores reales de la camiseta de la temporada actual, verificados en la web (fuente en el resumen). Sin logos de patrocinadores ni marcas de ropa. Los ESCUDOS de los equipos SÍ van (decisión de Marco, 12-oct-2026: es un canal deportivo y se presenta a los equipos): escudo oficial de cada club junto a su nombre y en la camiseta de cada chica. Si el generador deforma un escudo, se reemplaza pegando el escudo oficial en PNG en edición. Si ambos equipos visten igual, poner el nombre del equipo bajo cada chica.
@@ -17,6 +19,7 @@ Se entrega como PROMPT para el generador de imágenes del equipo (Gemini/ChatGPT
 > • {dato de promedio de goles en sus partidos de casa o de visita, el más llamativo}
 > • {VISITANTE} DE VISITA: marca {GF/PJ} y recibe {GC/PJ} goles por partido
 > • {posición/puntos/forma/goleadores — solo si están verificados}
+> Después, un recuadro destacado con fondo café oscuro, borde dorado brillante y un ícono de periódico, titulado "LA NOTICIA DEL PARTIDO", con un titular corto en mayúsculas ({TITULAR}) y una o dos frases con el dato que llama la atención ({racha, expulsión, baja, récord o lo que está en juego}), y en letra muy pequeña "Fuente: {MEDIO}".
 > Al final, un panel destacado más grande titulado "NUESTRO PRONÓSTICO": "PROBABILIDAD OVER 1.5: {xx}%" (número enorme en verde neón), "Over 2.5: {xx}%" (más pequeño) y "MARCADOR SUGERIDO: {m-m}" (grande, en dorado).
 > Abajo, un botón dorado "¡SÍGUENOS!" y en letra pequeña "Over 1.5 = 2 goles o más en el partido, sin importar quién gane · +18 · Probabilidades estadísticas, no garantías". Texto en español, legible y sin errores.
 

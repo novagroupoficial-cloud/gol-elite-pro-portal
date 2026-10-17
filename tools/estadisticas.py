@@ -24,7 +24,7 @@ def stats(t,cond,media_liga_gf,media_liga_gc):
                 indice_defensa=round(gc/pj/media_liga_gc,2) if pj else None,
                 ultimos5=None,temporada=None)
 out=[];
-elite=[p for p in H['todos'] if entero(p['over15'])>=90]
+elite=[p for p in H['todos'] if entero(p['over15'])>=80]
 for p in elite:
     s=S[(p['local'],p['visitante'])]
     a,b=s['lambda_local'],s['lambda_visita']; g=grid(a,b)
@@ -51,7 +51,7 @@ if out: max(out,key=lambda x:x['over15'])['destacado']=True
 ahora=(dt.datetime.now(dt.timezone.utc).replace(tzinfo=None)-dt.timedelta(hours=5)).strftime('%Y-%m-%d %H:%M')
 J=dict(fecha=F,generado_ecuador=f"{ahora} ECU (UTC-5)",fuente_pronosticos="public/api/hoy.json",modelo="GOL ÉLITE PRO 4.0 (Nova Gol 4.0)",
        generado_por="Claude (provisional mientras el Dashboard Gol 4.0 no entregue)",
-       criterio="GOL ÉLITE (Over 1.5 >= 95) y GOLES PLATINO (90 a 94,9)",
+       criterio="GOL ÉLITE (>= 95), GOLES PLATINO (90-94) y GOLES ESTÁNDAR (80-89), porcentaje redondeado",
        aviso="+18 · Probabilidades estadísticas, no garantías.",partidos=out,sin_estadisticas=[])
 for f in (f'../data/{F}/estadisticas.json','../public/api/estadisticas.json'):
     json.dump(J,open(f,'w',encoding='utf-8'),ensure_ascii=False,indent=1)

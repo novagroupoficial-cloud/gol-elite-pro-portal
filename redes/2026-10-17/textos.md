@@ -28,7 +28,7 @@ Encuesta opcional: "¿Lo viste venir?" Sí / No
 • Toluca–San Luis (20:00): 93 %
 • Elversberg–Augsburg (08:30): 93 %
 • Manchester City–Ipswich Town (09:00): 92 %
-• Cruz Azul–FC Juárez (22:00): 91 %
+• Cruz Azul–FC Juárez (22:10): 91 %
 Todos los partidos del día, en el portal.
 
 ✅ Así nos fue ayer (viernes 16, jornada corta de Liga MX):

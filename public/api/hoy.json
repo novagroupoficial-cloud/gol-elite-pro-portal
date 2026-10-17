@@ -1,6 +1,6 @@
 {
  "fecha": "2026-10-17",
- "actualizado": "2026-10-17 06:10 ECU (UTC-5)",
+ "actualizado": "2026-10-17 07:12 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-17/pronosticos.json",
@@ -329,7 +329,7 @@
     "gc": 5
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -485,7 +485,7 @@
     "gc": 7
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -674,7 +674,7 @@
   },
   {
    "puesto": 7,
-   "hora_ecuador": "22:00",
+   "hora_ecuador": "22:10",
    "liga": "Liga MX",
    "local": "Cruz Azul",
    "visitante": "Juarez",
@@ -1059,7 +1059,7 @@
     "gc": 5
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1215,7 +1215,7 @@
     "gc": 7
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

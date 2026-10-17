@@ -61,7 +61,7 @@ P=[ # hora (Ecuador), liga, local, visita — sábado 17-oct-2026
  ('21:30', 'USA', 'Portland', 'Colorado Rapids'),
  ('21:30', 'USA', 'SJ Earthquakes', 'Nashville SC'),
  ('21:30', 'USA', 'Seattle', 'CF Montreal'),
- ('22:00', 'MEX', 'Cruz Azul', 'Juarez'),
+ ('22:10', 'MEX', 'Cruz Azul', 'Juarez'),
 ]
 out=[]
 for h,lg,a,b in P:

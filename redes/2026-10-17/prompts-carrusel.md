@@ -430,13 +430,13 @@ Datos sellados: Over 1.5 85,9 % · Over 2.5 65,8 % · marcador 1-1 · Rango 80. 
 
 **ANTI-PROMPT: sin logos de patrocinadores, sin marcas de ropa deportiva, sin casas de apuestas; sin escudos deformados, inventados o de otros clubes; sin caras de futbolistas reales; sin poses provocativas; solo mujeres adultas; sin textos "apuesta segura", "dinero fácil", "gana seguro" ni promesas de ganancia; sin texto en inglés, sin letras deformadas ni números distintos a los indicados.**
 
-## 26. Cruz Azul vs FC Juárez · Liga MX · 22:00 ECU
+## 26. Cruz Azul vs FC Juárez · Liga MX · 22:10 ECU
 
 Datos sellados: Over 1.5 91,2 % · Over 2.5 75,9 % · marcador 2-1 · GOL ÉLITE. Previa: Fox Sports México.
 
 **PROMPT**
 
-> Póster deportivo vertical 4:5 (1080x1350), estilo infografía premium. Estadio de noche con reflectores verdes, césped brillante y partículas doradas; paleta negro, verde neón y dorado metálico. Arriba, el logo "GOL ÉLITE PRO" (ÉLITE en dorado) con corona. Título dorado: "CRUZ AZUL vs FC JUÁREZ". Subtítulo verde: "LIGA MX · SÁBADO 17 DE OCTUBRE · 22:00 HORA ECUADOR". A la izquierda, una mujer joven adulta (~27 años), sonriente, de medio cuerpo, pose de presentadora deportiva, con la camiseta local 2026/27 de Cruz Azul (Azul con detalles blancos, cuello polo y patrón de escudos en tono más oscuro), con el escudo del club; a la derecha, otra mujer joven adulta con la camiseta local 2026/27 de FC Juárez (Verde brillante con detalles negros en cuello y costados), con el escudo del club. Camisetas con el escudo del club, sin logos de patrocinadores ni marcas de ropa. Junto al título, el escudo oficial de cada equipo, fiel al real, sin deformar.
+> Póster deportivo vertical 4:5 (1080x1350), estilo infografía premium. Estadio de noche con reflectores verdes, césped brillante y partículas doradas; paleta negro, verde neón y dorado metálico. Arriba, el logo "GOL ÉLITE PRO" (ÉLITE en dorado) con corona. Título dorado: "CRUZ AZUL vs FC JUÁREZ". Subtítulo verde: "LIGA MX · SÁBADO 17 DE OCTUBRE · 22:10 HORA ECUADOR". A la izquierda, una mujer joven adulta (~27 años), sonriente, de medio cuerpo, pose de presentadora deportiva, con la camiseta local 2026/27 de Cruz Azul (Azul con detalles blancos, cuello polo y patrón de escudos en tono más oscuro), con el escudo del club; a la derecha, otra mujer joven adulta con la camiseta local 2026/27 de FC Juárez (Verde brillante con detalles negros en cuello y costados), con el escudo del club. Camisetas con el escudo del club, sin logos de patrocinadores ni marcas de ropa. Junto al título, el escudo oficial de cada equipo, fiel al real, sin deformar.
 > En el centro, un panel negro con borde dorado titulado "ESTADÍSTICAS CLAVE", con íconos dorados y estas líneas:
 > • CRUZ AZUL EN CASA: marca 2,00 y recibe 2,00 goles por partido (6 partidos)
 > • LOS PARTIDOS DE CRUZ AZUL EN CASA promedian 4,00 goles

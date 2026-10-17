@@ -1770,7 +1770,7 @@
   "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=usa (MLS 2026, consultada 17-oct-2026; 435 de 510 partidos, último jueves 15-oct) (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
  },
  {
-  "hora": "22:00",
+  "hora": "22:10",
   "liga": "MEX",
   "local": "Cruz Azul",
   "visita": "Juarez",
@@ -1797,6 +1797,7 @@
   "senal_o25": "fuerte",
   "aviso_mercado": null,
   "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=mexico (Liga MX Apertura 2026, consultada 17-oct-2026; incluye hasta J11, último partido lunes 12-oct) + 3 partidos del viernes 16-oct añadidos a mano (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+  "fuente_datos": "https://www.soccerstats.com/homeaway.asp?league=mexico (Liga MX Apertura 2026, consultada 17-oct-2026; incluye hasta J11, último partido lunes 12-oct) + 3 partidos del viernes 16-oct añadidos a mano (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)",
+  "nota_hora": "Hora corregida 22:00→22:10 según SportyTrader (fuente de referencia, regla de Marco 17-oct). El pronóstico no cambia."
  }
 ]

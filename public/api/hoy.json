@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-17",
- "actualizado": "2026-10-17 23:11 ECU (UTC-5)",
+ "actualizado": "2026-10-18 00:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-17/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 55,
+  "terminados": 59,
   "total": 60,
   "over15_70": [
-   29,
-   46
+   32,
+   50
   ],
   "over25_senal": [
    8,
-   12
+   14
   ],
-  "marcadores_exactos": 4
+  "marcadores_exactos": 5
  },
  "rango_80_90": [
   {
@@ -136,8 +136,13 @@
     "gc": 38
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/partido-seattle-sounders-vs-cf-montreal-major-league-soccer-2026-10-18"
   },
   {
    "puesto": 14,
@@ -193,8 +198,13 @@
     "gc": 26
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/portland-timbers-vs-colorado-rapids-mls-2026-10-18"
   },
   {
    "puesto": 16,
@@ -810,7 +820,7 @@
     "gc": 15
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
+   "estado": "sin confirmar",
    "resultado": null
   },
   {
@@ -991,8 +1001,13 @@
     "gc": 38
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/partido-seattle-sounders-vs-cf-montreal-major-league-soccer-2026-10-18"
   },
   {
    "puesto": 14,
@@ -1048,8 +1063,13 @@
     "gc": 26
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/portland-timbers-vs-colorado-rapids-mls-2026-10-18"
   },
   {
    "puesto": 16,
@@ -1942,8 +1962,13 @@
     "gc": 27
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/partido-los-angeles-galaxy-vs-san-diego-major-league-soccer-2026-10-18"
   },
   {
    "puesto": 45,
@@ -1999,8 +2024,13 @@
     "gc": 10
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://futboltotal.futbol/partido/san-jose-earthquakes-vs-nashville-sc-mls-2026-10-18"
   },
   {
    "puesto": 47,

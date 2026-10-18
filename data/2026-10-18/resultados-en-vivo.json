@@ -358,5 +358,50 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/lyon-vs-nice-ligue-1-2026-10-18",
   "registrado": "16:10 ECU"
+ },
+ {
+  "local": "Real Madrid",
+  "visita": "Sevilla",
+  "hora": "14:00",
+  "resultado": "4-1",
+  "goles": 5,
+  "estado": "terminado",
+  "over15_dado": 84.8,
+  "over25_dado": 64.0,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/real-madrid-vs-sevilla-la-liga-2026-10-18",
+  "registrado": "17:10 ECU"
+ },
+ {
+  "local": "Fluminense",
+  "visita": "Santos",
+  "hora": "14:00",
+  "resultado": "1-2",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 83.9,
+  "over25_dado": 62.4,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/fluminense-vs-santos-brasileirao-2026-10-18",
+  "registrado": "17:10 ECU"
+ },
+ {
+  "local": "Leones del Norte",
+  "visita": "Emelec",
+  "hora": "14:00",
+  "resultado": "1-3",
+  "goles": 4,
+  "estado": "terminado",
+  "over15_dado": 60.3,
+  "over25_dado": 32.2,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.fotmob.com/nl/matches/emelec-vs-leones-del-norte/c0m6mzqx",
+  "registrado": "17:10 ECU"
  }
 ]

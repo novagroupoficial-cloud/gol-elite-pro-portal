@@ -1,8 +1,9 @@
 // /api/telegram-estado — revisa la conexión con Telegram sin mostrar la clave del bot.
 //   GET /api/telegram-estado             → ¿hay clave?, ¿hay canal?, nombre del bot y canales donde lo agregaron
 //   GET /api/telegram-estado?prueba=1    → envía un mensaje de prueba al canal (máximo uno cada 10 minutos)
+//   GET /api/telegram-estado?resumen=AAAA-MM-DD → envía al canal el resumen de ese día (una sola vez por fecha)
 import { getStore } from "@netlify/blobs";
-import { enviar, ahoraEcuador, PORTAL } from "../lib/telegram.mjs";
+import { enviar, ahoraEcuador, PORTAL, mensajeCierre } from "../lib/telegram.mjs";
 
 const json = (o, status = 200) =>
   new Response(JSON.stringify(o, null, 1), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } });
@@ -29,6 +30,24 @@ export default async (req) => {
   const store = getStore({ name: "telegram", consistency: "strong" });
   out.envios_de_hoy = await store.get(`estado-${ahoraEcuador().fecha}`, { type: "json" });
 
+  const dia = new URL(req.url).searchParams.get("resumen");
+  if (dia) {
+    if (!canal) return json({ ...out, resumen: "Falta TELEGRAM_CANAL." }, 400);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(dia)) return json({ ...out, resumen: "Fecha inválida (AAAA-MM-DD)." }, 400);
+    const k = `resumen-manual-${dia}`;
+    if (await store.get(k)) return json({ ...out, resumen: `El resumen del ${dia} ya se envió.` }, 409);
+    const base = Netlify.env.get("URL") || PORTAL;
+    const r = await fetch(`${base}/api/dias/${dia}.json?t=${Date.now()}`);
+    if (!r.ok) return json({ ...out, resumen: `No hay datos publicados del ${dia}.` }, 404);
+    try {
+      await enviar(token, canal, mensajeCierre(await r.json()));
+      await store.set(k, String(Date.now()));
+      out.resumen = `Resumen del ${dia} enviado al canal.`;
+    } catch (e) {
+      out.resumen = `No se pudo enviar: ${e.message}`;
+    }
+    return json(out);
+  }
   if (new URL(req.url).searchParams.get("prueba") === "1") {
     if (!canal) return json({ ...out, prueba: "Falta TELEGRAM_CANAL." }, 400);
     const ultima = Number((await store.get("ultima-prueba")) || 0);

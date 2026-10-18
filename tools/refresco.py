@@ -47,6 +47,8 @@ feed=dict(fecha=F,actualizado=f"{ahora.strftime('%Y-%m-%d')} {stamp} ECU (UTC-5)
   rango_80_90=[x for x in items if 80<=x['over15']<=90],todos=items,sin_pronostico=[f"{p['local']} vs {p['visita']}" for p in SIN])
 os.makedirs('../public/api',exist_ok=True)
 json.dump(feed,open('../public/api/hoy.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
+os.makedirs('../public/api/dias',exist_ok=True)  # archivo por fecha: lo usa Telegram para reenviar el resumen de un día
+json.dump(feed,open(f'../public/api/dias/{F}.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
 def chip(x):
     if x['estado']=='terminado':
         ok=x['acierto_over15']

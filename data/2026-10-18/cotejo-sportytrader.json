@@ -1,0 +1,26 @@
+{
+ "fecha": "2026-10-18",
+ "cotejado": "2026-10-18 07:45 ECU",
+ "fuente": "Capturas de SportyTrader enviadas por Marco (hora de Ecuador)",
+ "coinciden_fecha_y_hora": 35,
+ "horas_distintas": [],
+ "sellados_no_mostrados_en_capturas_pero_confirmados_hoy": {
+  "Borussia Monchengladbach-Hoffenheim 10:30": "https://ontourfootball.com/fixtures/borussia-m-nchengladbach-vs-1899-hoffenheim-2026-10-18",
+  "Cambuur-AZ 07:30, FC Twente-FC Utrecht 13:00, NEC-Fortuna Sittard 13:00": "https://www.sportschau.de/live-und-ergebnisse/fussball/niederlande-eredivisie/ma12126052/twente-enschede_fc-utrecht/blitztabelle",
+  "Monterrey-Pachuca 20:00 (19:00 CDMX)": "https://www.foxsports.com.mx/2026/10/15/monterrey-vs-pachuca-en-vivo-donde-ver-en-tv-online-y-hora-jornada-12-liga-mx-apertura-2026/",
+  "Osasuna-Racing Santander 07:00": "https://ontourfootball.com/fixtures/osasuna-vs-racing-santander-2026-10-18",
+  "Le Havre-Auxerre 10:15, Paris FC-Rennes 10:15": "https://www.t-online.de/sport/live-ticker/fussball/french-ligue-1/sdc_fm-58195/le-havre-auxerre-french-ligue-1-im-liveticker.html",
+  "Remo-Bragantino 17:30 (19:30 Brasilia)": "https://valorfinal.com.br/brasileirao/2026/jogos/remo-x-bragantino.md",
+  "Delfin-Manta 11:30": "https://starting11.com/fixtures/delfin-sc-vs-manta-fc",
+  "AFC Bournemouth-Sunderland 08:00": "sellado por la tarea diaria; no se volvió a verificar"
+ },
+ "descartados_otra_fecha": ["Al Hilal-Al Hazm (19-oct)", "Nacional-Deportivo Maldonado (19-oct)", "Tottenham-Coventry City (19-oct)"],
+ "en_sportytrader_sin_pronostico": {
+  "Liverpool Montevideo-Penarol 16:30 (Uruguay)": "sin tabla local/visitante verificable (fuentes no accesibles)",
+  "Universidad Central-Portuguesa 14:30 (Venezuela)": "sin tabla local/visitante verificable",
+  "Estudiantes de Merida-Metropolitanos 14:30 (Venezuela)": "sin tabla local/visitante verificable",
+  "CS Cartagines-Deportivo Saprissa 12:00 (Costa Rica)": "sin tabla local/visitante verificable (fuentes no accesibles)",
+  "Universidad de Guadalajara-Alebrijes de Oaxaca 13:00 (Liga de Expansion MX)": "sin tabla local/visitante verificable",
+  "Club America Femenil-Pachuca Femenil 20:00": "liga femenina: sin datos verificables"
+ }
+}

@@ -1,14 +1,14 @@
 {
- "local": "Telstar",
- "fecha_larga": "Sábado 17 de octubre de 2026",
- "desde": "05:55",
+ "local": "Borussia Monchengladbach",
+ "fecha_larga": "Domingo 18 de octubre de 2026",
+ "desde": "06:13",
  "contexto": [
-  "Eredivisie, jornada 9 · 13:00 hora de Ecuador.",
-  "Feyenoord es líder invicto tras 8 jornadas con 27 goles; fuera marcó 16 y recibió 3 en 4 partidos (Sports Mole).",
-  "Telstar no ganó en sus 4 partidos de local: 5 goles a favor y 11 en contra (Sports Mole)."
+  "Bundesliga, jornada 6 · 10:30 hora de Ecuador, en el Borussia-Park.",
+  "Gladbach es último con 0 puntos tras 5 derrotas: 7 goles a favor y 18 en contra; en casa sus partidos promedian 7 goles (Sports Mole).",
+  "Hoffenheim (17.º, 3 puntos) perdió sus 4 últimos partidos y fuera recibe 3 goles por partido (Sports Mole)."
  ],
  "auditoria": {
-  "titulo": "Viernes 16 de octubre · 2 partidos de Liga MX auditados con resultados oficiales",
+  "titulo": "Sábado 17 de octubre · 60 partidos auditados con resultado final y fuente",
   "tiles": [
    [
     "1/1",
@@ -16,31 +16,31 @@
     "oro"
    ],
    [
-    "1/1",
-    "Over 1.5 de 70 % o más (100 %)",
+    "9/9",
+    "GOL ÉLITE · Over 1.5 (90 %+)",
     "verde"
    ],
    [
-    "0/2",
-    "Marcadores exactos",
-    "dor"
+    "33/51",
+    "Over 1.5 de 70 % o más (65 %)",
+    ""
    ],
    [
-    "36/42",
-    "Galería: Over 1.5 de 70 % o más (86 %)",
-    ""
+    "69/93",
+    "Galería: Over 1.5 de 70 % o más (74 %)",
+    "dor"
    ]
   ],
-  "nota": "Partido del día: Atlante 1-2 Pumas ✔ (dimos Over 1.5 al 79 %; hubo 3 goles). Tijuana 0-0 Puebla tenía 68 % (menos de 70, no recomendado) y no hubo goles. Publicamos aciertos y fallos: pronósticos sellados antes de cada partido."
+  "nota": "Partido del día: Telstar 3-4 Feyenoord ✔ (dimos Over 1.5 al 95 %; hubo 7 goles). Fallos: Hamburgo 1-0 Stuttgart (90 %; hubo 1 gol), Villarreal 0-0 Elche (88 %; 0 goles), Union Berlin 0-0 Dortmund (88 %; 0 goles) y 15 más de 70 % o más. Publicamos aciertos y fallos."
  },
  "acierto": {
-  "fecha": "viernes 16 de octubre",
-  "local": "Atlante",
-  "visita": "Pumas UNAM",
-  "liga": "Liga MX · Apertura 2026, jornada 12",
-  "resultado": "1-2",
-  "goles": "3",
-  "over15": "79,3",
-  "sellado": "21:17 ECU del 16-oct"
+  "fecha": "sábado 17 de octubre",
+  "local": "Telstar",
+  "visita": "Feyenoord",
+  "liga": "Eredivisie · jornada 9",
+  "resultado": "3-4",
+  "goles": "7",
+  "over15": "94,8",
+  "sellado": "05:55 ECU del 17-oct"
  }
 }

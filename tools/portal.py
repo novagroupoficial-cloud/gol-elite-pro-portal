@@ -3,7 +3,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 P=[p for p in json.load(open('pron.json')) if not p.get('sin')]
 NOM={'ENG':'Premier League','ITA':'Serie A','FRA':'Ligue 1','ESP':'LaLiga','BRA':'Brasileirão','MEX':'Liga MX','ECU':'LigaPro','ARG':'Liga Profesional','GER':'Bundesliga','NED':'Eredivisie','POR':'Liga Portugal','USA':'MLS','COL':'Liga BetPlay','PER':'Liga 1','CHI':'Primera División'}
 PAIS={'ENG':'Inglaterra','ITA':'Italia','FRA':'Francia','ESP':'España','BRA':'Brasil','MEX':'México','ECU':'Ecuador','ARG':'Argentina','GER':'Alemania','NED':'Países Bajos','POR':'Portugal','USA':'EE. UU.','COL':'Colombia','PER':'Perú','CHI':'Chile'}
-ES={'Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasbourg':'Estrasburgo','Deportivo':'Deportivo La Coruña','AC Milan':'Milan','Real Betis':'Betis','Marseille':'Marsella','Racing':'Racing Santander','Atletico MG':'Atlético MG','A. San Luis':'Atlético San Luis','Pumas UNAM':'Pumas','Coventry':'Coventry City','Newcastle':'Newcastle United','Lanus':'Lanús','Velez Sarsfield':'Vélez Sarsfield','Gimnasia Mendoza':'Gimnasia (Mendoza)','Newells Old Boys':"Newell's Old Boys",'Bragantino':'Red Bull Bragantino','Athletico-PR':'Athletico Paranaense','Bayern Munich':'Bayern Múnich','Atletico Madrid':'Atlético de Madrid','Paris Saint-Germain':'PSG','Leon':'León','America':'América','Queretaro':'Querétaro','Juarez':'FC Juárez','Atletico Tucuman':'Atlético Tucumán','Philadelphia':'Philadelphia Union','New England':'New England Revolution','Seattle':'Seattle Sounders','Portland':'Portland Timbers','Austin':'Austin FC','Dallas':'FC Dallas','Toronto':'Toronto FC','New York RB':'New York Red Bulls','SJ Earthquakes':'San José Earthquakes','San Diego':'San Diego FC','Charlotte':'Charlotte FC','Colorado Rapids':'Colorado Rapids','Houston Dynamo':'Houston Dynamo','Minnesota United':'Minnesota United','Real Betis':'Real Betis','Guadalajara':'Chivas','Tigres UANL':'Tigres'}
+ES={'Borussia Monchengladbach':"M'gladbach",'AFC Bournemouth':'Bournemouth','Brighton & Hove Albion':'Brighton','SC Freiburg':'Friburgo','Malaga':'Málaga','Alaves':'Alavés','Marseille':'Marsella','Monaco':'Mónaco','Estudiantes Rio Cuarto':'Est. Río Cuarto','Estudiantes LP':'Estudiantes','Comerciantes Unidos':'Comerciantes U.','Universidad Católica':'U. Católica','Columbus Crew':'Columbus Crew','Cincinnati':'FC Cincinnati','Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasbourg':'Estrasburgo','Deportivo':'Deportivo La Coruña','AC Milan':'Milan','Real Betis':'Betis','Marseille':'Marsella','Racing':'Racing Santander','Atletico MG':'Atlético MG','A. San Luis':'Atlético San Luis','Pumas UNAM':'Pumas','Coventry':'Coventry City','Newcastle':'Newcastle United','Lanus':'Lanús','Velez Sarsfield':'Vélez Sarsfield','Gimnasia Mendoza':'Gimnasia (Mendoza)','Newells Old Boys':"Newell's Old Boys",'Bragantino':'Red Bull Bragantino','Athletico-PR':'Athletico Paranaense','Bayern Munich':'Bayern Múnich','Atletico Madrid':'Atlético de Madrid','Paris Saint-Germain':'PSG','Leon':'León','America':'América','Queretaro':'Querétaro','Juarez':'FC Juárez','Atletico Tucuman':'Atlético Tucumán','Philadelphia':'Philadelphia Union','New England':'New England Revolution','Seattle':'Seattle Sounders','Portland':'Portland Timbers','Austin':'Austin FC','Dallas':'FC Dallas','Toronto':'Toronto FC','New York RB':'New York Red Bulls','SJ Earthquakes':'San José Earthquakes','San Diego':'San Diego FC','Charlotte':'Charlotte FC','Colorado Rapids':'Colorado Rapids','Houston Dynamo':'Houston Dynamo','Minnesota United':'Minnesota United','Real Betis':'Real Betis','Guadalajara':'Chivas','Tigres UANL':'Tigres'}
 n=lambda x:ES.get(x,x)
 e=html.escape
 f1=lambda v:f"{v:.1f}".replace('.',',')
@@ -18,14 +18,14 @@ def key(p): return f"{p['local']}|{p['visita']}"
 NEWS_PRED={}  # (sin uso en la portada actual)
 NEWS_DEST=[]
 FUENTES=[
- ("Sports Mole · resultados y tablas de local y visitante (Premier, Bundesliga, Eredivisie)","https://www.sportsmole.co.uk/football/premier-league/results.html"),
- ("Football Web Pages · clasificación de la Premier League","https://www.footballwebpages.co.uk/premier-league/league-table"),
+ ("Sports Mole · tablas de local y visitante (Premier, Bundesliga, Eredivisie)","https://www.sportsmole.co.uk/football/premier-league/2026-27/"),
+ ("Football Web Pages · resultados de LaLiga 2026-27","https://www.footballwebpages.co.uk/spanish-la-liga/fixtures-results/october"),
  ("SoccerSTATS · local y visitante Serie A","https://www.soccerstats.com/homeaway.asp?league=italy"),
  ("SoccerSTATS · local y visitante Ligue 1","https://www.soccerstats.com/homeaway.asp?league=france"),
- ("SoccerSTATS · local y visitante Liga MX","https://www.soccerstats.com/homeaway.asp?league=mexico"),
  ("SoccerSTATS · local y visitante MLS","https://www.soccerstats.com/homeaway.asp?league=usa"),
  ("Valor Final · Brasileirão por recorte (local y visitante)","https://valorfinal.com.br/brasileirao/tabelas-por-recorte"),
- ("Fútbol Total · resultados de LaLiga y de la Liga Profesional","https://futboltotal.futbol/league/liga-profesional-argentina/clasificacion"),
+ ("Fútbol Total · resultados de la Liga Profesional y Ligue 1","https://futboltotal.futbol/league/liga-profesional-argentina/clasificacion"),
+ ("SoccerSTATS · LigaPro Ecuador (fase regular) más la fase final partido a partido","https://www.soccerstats.com/homeaway.asp?league=ecuador"),
 ]
 idx={key(p):p for p in P}
 
@@ -212,32 +212,32 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del sábado 17 de octubre; se integrará al portal cuando llegue el código.</div>
+<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del domingo 18 de octubre; se integrará al portal cuando llegue el código.</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Sábado 17 de octubre de 2026 · sellado 05:55 ECU</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Domingo 18 de octubre de 2026 · sellado 06:13 ECU</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{pc(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{pc(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.0, calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK[key(top)][1])} · <a href="{LINK[key(top)][2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
 {RANK}
-<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>Viernes 16 de octubre · el partido del día se cumplió: hubo 3 goles · toca para ver el resultado en su medio</p></div>
+<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>Sábado 17 de octubre · el partido del día se cumplió: Telstar 3-4 Feyenoord, hubo 7 goles · toca para ver el resultado en su medio</p></div>
 <div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del sábado</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del domingo</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Sábado 17 de octubre de 2026 · pronósticos sellados a las 05:55 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Domingo 18 de octubre de 2026 · pronósticos sellados a las 06:13 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
-<section class="box" id="historial"><h3>Auditoría del viernes 16</h3>
-<div class="kpis"><div class="kpi g"><b>0/0</b><span>GOL ÉLITE · Over 1.5 (sin partidos de 90 %+)</span></div><div class="kpi"><b>1/1</b><span>Over 1.5 de 70 % o más (100 %)</span></div><div class="kpi"><b>0/0</b><span>Over 2.5 con señal (sin señales)</span></div><div class="kpi"><b>0/2</b><span>Marcadores exactos</span></div></div>
-<p class="legal">Jornada reducida (2 partidos de Liga MX sellados a las 21:17). Partido del día: Atlante 1-2 Pumas (Over 1.5 al 79,3 %; hubo 3 goles) ✔. Tijuana 0-0 Puebla tenía 68,8 % (menos de 70, no recomendado): no hubo goles. Acumulado de la galería: 6/6 GOL ÉLITE y 36/42 en Over 1.5 de 70 % o más (86 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
+<section class="box" id="historial"><h3>Auditoría del sábado 17</h3>
+<div class="kpis"><div class="kpi g"><b>9/9</b><span>GOL ÉLITE · Over 1.5 (90 %+ en la escala de ese día)</span></div><div class="kpi"><b>33/51</b><span>Over 1.5 de 70 % o más (65 %)</span></div><div class="kpi"><b>9/15</b><span>Over 2.5 con señal (60 %)</span></div><div class="kpi"><b>5/60</b><span>Marcadores exactos</span></div></div>
+<p class="legal">60 partidos auditados con resultado final y fuente. Partido del día: Telstar 3-4 Feyenoord (Over 1.5 al 94,8 %; hubo 7 goles) ✔. Rango 80: 9/19 y Rango 70: 15/23; fallaron, entre otros, Hamburgo 1-0 Stuttgart (89,8 %), Villarreal 0-0 Elche (88,1 %) y Union Berlin 0-0 Dortmund (87,7 %). Acumulado de la galería: 15/15 GOL ÉLITE y 69/93 en Over 1.5 de 70 % o más (74 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul><p class="legal">Porcentajes redondeados: ,5 o más sube (94,8 → 95 %); menos de ,5 se queda (94,4 → 94 %).</p></section>
-<section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos revisados tienen datos verificados de local y visitante. Liga Portugal y la Primera de Chile no juegan hoy; NYCFC–LAFC (MLS) fue reprogramado y no se pronostica.</p>'}</section>
+<section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos revisados tienen datos verificados de local y visitante. Liga Portugal (jornada de la Taça de Portugal) y la Primera de Chile no juegan hoy. Udinese–Lecce y PEC Zwolle–Go Ahead Eagles ya habían empezado al sellar y no se pronostican.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
 <p>Las noticias enlazan a sus medios de origen. Las imágenes de los partidos son ilustraciones propias de Gol Élite Pro.</p><p>Estadísticas de local y visitante: SoccerSTATS, Sports Mole, Valor Final y Fútbol Total (calculadas partido a partido donde no había tabla), verificadas con sumas cruzadas: goles a favor en casa = goles en contra fuera.</p></section>
 </aside></div>
@@ -246,7 +246,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-10-17"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-10-18"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

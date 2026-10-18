@@ -1,18 +1,127 @@
 [
- {"fecha":"2026-10-10","titulo":"Sábado 10 de octubre de 2026","imagen":"/historial/2026-10-10.jpg",
-  "resumen":[["5/5","GOL ÉLITE · Over 1.5"],["21/25","Over 1.5 de 70 % o más (84 %)"],["8/11","Over 2.5 con señal (73 %)"],["3/29","Marcadores exactos"]],
-  "fallos":"Real Madrid 1-0, Lorient 1-0, Vasco 0-0 y River 1-0.",
-  "aciertos_destacados":["Ajax 1-1 NEC","RB Leipzig 6-0 Frankfurt","Feyenoord 2-0 AZ","Inter 3-0 Parma","Atlanta 1-3 Cincinnati"],
-  "partidos":29},
- {"fecha":"2026-10-11","titulo":"Domingo 11 de octubre de 2026","imagen":"/historial/2026-10-11.jpg",
-  "resumen":[["1/1","GOL ÉLITE · Over 1.5"],["14/16","Over 1.5 de 70 % o más (88 %)"],["1/1","Over 2.5 con señal (100 %)"],["2/19","Marcadores exactos"]],
-  "fallos":"U. Católica 0-1 Macará y Flamengo 1-0 Fluminense.",
-  "aciertos_destacados":["Crystal Palace 3-1 Nottingham Forest","Atlético MG 2-1 Santos","Real Betis 5-2 Osasuna","Pachuca 3-3 Necaxa","Sassuolo 1-1 Milan (marcador exacto)"],
-  "partidos":19}
- ,
- {"fecha":"2026-10-16","titulo":"Viernes 16 de octubre de 2026","imagen":"/historial/2026-10-16.jpg",
-  "resumen":[["0/0","GOL ÉLITE · Over 1.5"],["1/1","Over 1.5 de 70 % o más (100 %)"],["0/0","Over 2.5 con señal (sin señales)"],["0/2","Marcadores exactos"]],
-  "fallos":"Ninguno en Over 1.5 de 70 % o más. Informativo (menos de 70 %, no recomendado): Tijuana 0-0 Puebla (68,8 %).",
-  "aciertos_destacados":["Atlante 1-2 Pumas (partido del día · Over 1.5 al 79,3 % · hubo 3 goles)"],
-  "partidos":2}
+ {
+  "fecha": "2026-10-10",
+  "titulo": "Sábado 10 de octubre de 2026",
+  "imagen": "/historial/2026-10-10.jpg",
+  "resumen": [
+   [
+    "5/5",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "21/25",
+    "Over 1.5 de 70 % o más (84 %)"
+   ],
+   [
+    "8/11",
+    "Over 2.5 con señal (73 %)"
+   ],
+   [
+    "3/29",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Real Madrid 1-0, Lorient 1-0, Vasco 0-0 y River 1-0.",
+  "aciertos_destacados": [
+   "Ajax 1-1 NEC",
+   "RB Leipzig 6-0 Frankfurt",
+   "Feyenoord 2-0 AZ",
+   "Inter 3-0 Parma",
+   "Atlanta 1-3 Cincinnati"
+  ],
+  "partidos": 29
+ },
+ {
+  "fecha": "2026-10-11",
+  "titulo": "Domingo 11 de octubre de 2026",
+  "imagen": "/historial/2026-10-11.jpg",
+  "resumen": [
+   [
+    "1/1",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "14/16",
+    "Over 1.5 de 70 % o más (88 %)"
+   ],
+   [
+    "1/1",
+    "Over 2.5 con señal (100 %)"
+   ],
+   [
+    "2/19",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "U. Católica 0-1 Macará y Flamengo 1-0 Fluminense.",
+  "aciertos_destacados": [
+   "Crystal Palace 3-1 Nottingham Forest",
+   "Atlético MG 2-1 Santos",
+   "Real Betis 5-2 Osasuna",
+   "Pachuca 3-3 Necaxa",
+   "Sassuolo 1-1 Milan (marcador exacto)"
+  ],
+  "partidos": 19
+ },
+ {
+  "fecha": "2026-10-16",
+  "titulo": "Viernes 16 de octubre de 2026",
+  "imagen": "/historial/2026-10-16.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "1/1",
+    "Over 1.5 de 70 % o más (100 %)"
+   ],
+   [
+    "0/0",
+    "Over 2.5 con señal (sin señales)"
+   ],
+   [
+    "0/2",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Ninguno en Over 1.5 de 70 % o más. Informativo (menos de 70 %, no recomendado): Tijuana 0-0 Puebla (68,8 %).",
+  "aciertos_destacados": [
+   "Atlante 1-2 Pumas (partido del día · Over 1.5 al 79,3 % · hubo 3 goles)"
+  ],
+  "partidos": 2
+ },
+ {
+  "fecha": "2026-10-17",
+  "titulo": "Sábado 17 de octubre de 2026",
+  "imagen": "/historial/2026-10-17.jpg",
+  "resumen": [
+   [
+    "9/9",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "33/51",
+    "Over 1.5 de 70 % o más (65 %)"
+   ],
+   [
+    "9/15",
+    "Over 2.5 con señal (60 %)"
+   ],
+   [
+    "5/60",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Over 1.5 de 70 % o más que fallaron (18): Hamburgo 1-0 Stuttgart (89,8 %), Villarreal 0-0 Elche (88,1 %), Union Berlin 0-0 Dortmund (87,7 %), Portland 0-0 Colorado (85,9 %), Fulham 1-0 Hull (84,7 %), Newcastle 0-1 Aston Villa (84,7 %), Venezia 1-0 Napoli (83,9 %), Espanyol 0-1 Atlético (83,2 %), Atlético MG 1-0 Coritiba (83,2 %), New England 1-0 Chicago (83,1 %), Botafogo 1-0 Chapecoense (79,7 %), Macará 1-0 IDV (79,5 %), Schalke 0-1 Mainz (79,4 %), São Paulo 1-0 Vasco (74,4 %), Valencia 0-0 Athletic (74,3 %), Banfield 0-1 Argentinos (71,7 %), Vélez 1-0 Gimnasia Mendoza (71,5 %) y Platense 0-1 Lanús (70,4 %).",
+  "aciertos_destacados": [
+   "Telstar 3-4 Feyenoord (partido del día · Over 1.5 al 94,8 % · hubo 7 goles)",
+   "Bayern Múnich 6-1 RB Leipzig (94,3 % · hubo 7 goles)",
+   "ADO Den Haag 2-1 PSV (94,1 % · hubo 3 goles)",
+   "Elversberg 4-3 Augsburg (93,5 % · hubo 7 goles)",
+   "Manchester City 3-2 Ipswich (92,2 % · hubo 5 goles)",
+   "Cruz Azul 5-0 FC Juárez (91,2 % · hubo 5 goles)"
+  ],
+  "partidos": 60
+ }
 ]

@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-17",
- "actualizado": "2026-10-18 00:11 ECU (UTC-5)",
+ "actualizado": "2026-10-18 01:15 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-17/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 59,
+  "terminados": 60,
   "total": 60,
   "over15_70": [
-   32,
-   50
+   33,
+   51
   ],
   "over25_senal": [
-   8,
-   14
+   9,
+   15
   ],
   "marcadores_exactos": 5
  },
@@ -820,8 +820,13 @@
     "gc": 15
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "5-0",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/cruz-azul-vs-fc-juarez-liga-mx-2026-10-18"
   },
   {
    "puesto": 8,

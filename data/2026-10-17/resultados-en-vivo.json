@@ -883,5 +883,20 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/partido-seattle-sounders-vs-cf-montreal-major-league-soccer-2026-10-18",
   "registrado": "00:12 ECU (18-oct)"
+ },
+ {
+  "local": "Cruz Azul",
+  "visita": "Juarez",
+  "hora": "22:10",
+  "resultado": "5-0",
+  "goles": 5,
+  "estado": "terminado",
+  "over15_dado": 91.2,
+  "over25_dado": 75.9,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/cruz-azul-vs-fc-juarez-liga-mx-2026-10-18",
+  "registrado": "01:14 ECU (18-oct)"
  }
 ]

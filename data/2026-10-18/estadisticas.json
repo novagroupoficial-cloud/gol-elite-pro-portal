@@ -1,0 +1,1794 @@
+{
+ "fecha": "2026-10-18",
+ "generado_ecuador": "2026-10-18 07:38 ECU (UTC-5)",
+ "fuente_pronosticos": "public/api/hoy.json",
+ "modelo": "GOL ÉLITE PRO 4.0 (Nova Gol 4.0)",
+ "generado_por": "Claude (provisional mientras el Dashboard Gol 4.0 no entregue)",
+ "criterio": "GOL ÉLITE (>= 95), GOLES PLATINO (90-94) y GOLES ESTÁNDAR (80-89), porcentaje redondeado",
+ "aviso": "+18 · Probabilidades estadísticas, no garantías.",
+ "partidos": [
+  {
+   "hora_ecuador": "10:30",
+   "liga": "Bundesliga",
+   "local": "Borussia Monchengladbach",
+   "visitante": "Hoffenheim",
+   "over15": 96.6,
+   "over25": 88.3,
+   "marcador": "2-2",
+   "goles_esperados": 5.1,
+   "categoria": "GOL ÉLITE",
+   "senal_over25": "fuerte",
+   "destacado": true,
+   "lambda_local": 2.79,
+   "lambda_visita": 2.3,
+   "modelo_extra": {
+    "over05": 99.1,
+    "over35": 74.7,
+    "over45": 57.5,
+    "ambos_marcan": 84.8,
+    "gana_local": 49.2,
+    "empate": 18.4,
+    "gana_visit": 32.4,
+    "distribucion": [
+     0.9,
+     2.5,
+     8.3,
+     13.5,
+     17.2,
+     17.5,
+     14.9,
+     25.1
+    ],
+    "marcadores_top6": [
+     [
+      "2-2",
+      6.3
+     ],
+     [
+      "3-2",
+      5.9
+     ],
+     [
+      "2-1",
+      5.5
+     ],
+     [
+      "3-1",
+      5.1
+     ],
+     [
+      "2-3",
+      4.9
+     ],
+     [
+      "1-2",
+      4.5
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 2.31,
+    "visitante": 1.4
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 2,
+    "gf_pj": 3.0,
+    "gc_pj": 4.0,
+    "goles_pj": 7.0,
+    "indice_ataque": 1.3,
+    "indice_defensa": 2.86,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 2,
+    "gf_pj": 1.5,
+    "gc_pj": 3.0,
+    "goles_pj": 4.5,
+    "indice_ataque": 1.07,
+    "indice_defensa": 1.3,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Borussia Monchengladbach en casa: 3,00 goles a favor y 4,00 en contra por partido (2 PJ)",
+    "Hoffenheim fuera: 1,50 a favor y 3,00 en contra por partido (2 PJ)",
+    "Sus partidos promedian 7,0 y 4,5 goles",
+    "Goles esperados por el modelo: 5,1",
+    "Ambos marcan: 85 %"
+   ],
+   "fuentes": [
+    "datos.py (46 PJ hasta vie 16-oct) + 6 partidos del sáb 17-oct, J6 (Bayern Munich 6-1 RB Leipzig, Union Berlin 0-0 Borussia Dortmund, Hamburger SV 1-0 VfB Stuttgart, Werder Bremen 2-2 SC Paderborn, Schalke 04 0-1 Mainz 05, Elversberg 4-3 Augsburg) según https://www.sportsmole.co.uk/football/bundesliga/2026-27/ (resultados + Home/Away Table 2026-27, que coincide equipo por equipo con la suma) y futboltotal.futbol (data/2026-10-17/resultados-en-vivo.json); restan de la J6 solo los 2 del dom 18-oct · corte: sáb 17-oct-2026 · 52 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "16:00",
+   "liga": "MLS",
+   "local": "Cincinnati",
+   "visitante": "Columbus Crew",
+   "over15": 96.2,
+   "over25": 87.2,
+   "marcador": "2-2",
+   "goles_esperados": 5.0,
+   "categoria": "GOL ÉLITE",
+   "senal_over25": "fuerte",
+   "destacado": false,
+   "lambda_local": 2.88,
+   "lambda_visita": 2.09,
+   "modelo_extra": {
+    "over05": 99.0,
+    "over35": 73.1,
+    "over45": 55.4,
+    "ambos_marcan": 83.0,
+    "gana_local": 54.5,
+    "empate": 18.1,
+    "gana_visit": 27.4,
+    "distribucion": [
+     1.0,
+     2.8,
+     8.9,
+     14.2,
+     17.7,
+     17.5,
+     14.5,
+     23.3
+    ],
+    "marcadores_top6": [
+     [
+      "2-2",
+      6.3
+     ],
+     [
+      "3-2",
+      6.0
+     ],
+     [
+      "2-1",
+      6.0
+     ],
+     [
+      "3-1",
+      5.8
+     ],
+     [
+      "1-1",
+      4.5
+     ],
+     [
+      "2-3",
+      4.4
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.84,
+    "visitante": 1.41
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 13,
+    "gf_pj": 2.77,
+    "gc_pj": 2.08,
+    "goles_pj": 4.85,
+    "indice_ataque": 1.51,
+    "indice_defensa": 1.47,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 14,
+    "gf_pj": 1.57,
+    "gc_pj": 2.14,
+    "goles_pj": 3.71,
+    "indice_ataque": 1.11,
+    "indice_defensa": 1.16,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Cincinnati en casa: 2,77 goles a favor y 2,08 en contra por partido (13 PJ)",
+    "Columbus Crew fuera: 1,57 a favor y 2,14 en contra por partido (14 PJ)",
+    "Sus partidos promedian 4,8 y 3,7 goles",
+    "Goles esperados por el modelo: 5,0",
+    "Ambos marcan: 83 %"
+   ],
+   "fuentes": [
+    "base L['USA'] de tools/datos.py (https://www.soccerstats.com/homeaway.asp?league=usa, 435 partidos hasta jue 15-oct) + 14 partidos del sáb 17-oct (sin partidos MLS el vie 16): Philadelphia 2-2 Charlotte (https://www.inquirer.com/soccer/philadelphia-union-charlotte-fc-score-bruno-damiani-20261017.html), Minnesota 3-2 St. Louis (https://lanacion.com.ar/deportes/canchallena/minnesota-united-fc-vencio-3-2-a-st-louis-city-sc-por-la-mls-nid17102026), y en https://futboltotal.futbol/2026-10-18 : Atlanta 1-3 Miami, NE 1-0 Chicago, NYRB 0-2 Toronto, Orlando 4-1 DC, NYCFC 1-1 LAFC (https://futboltotal.futbol/partido/new-york-city-fc-vs-los-angeles-fc-mls-2026-10-18), Austin 1-2 Vancouver, Houston 2-2 Dallas, SKC 1-3 RSL, LA Galaxy 2-2 San Diego, Portland 0-0 Colorado, SJ 1-1 Nashville, Seattle 1-1 Montreal. 28 de 30 equipos jugaron el sábado; falta Cincinnati-Columbus (dom 18). Corte: sáb 17-oct. 449 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "07:30",
+   "liga": "Eredivisie",
+   "local": "Cambuur",
+   "visitante": "AZ",
+   "over15": 92.6,
+   "over25": 78.7,
+   "marcador": "1-2",
+   "goles_esperados": 4.2,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "fuerte",
+   "destacado": false,
+   "lambda_local": 1.4,
+   "lambda_visita": 2.79,
+   "modelo_extra": {
+    "over05": 98.0,
+    "over35": 60.3,
+    "over45": 40.8,
+    "ambos_marcan": 71.2,
+    "gana_local": 16.6,
+    "empate": 17.4,
+    "gana_visit": 66.0,
+    "distribucion": [
+     2.0,
+     5.4,
+     13.8,
+     18.6,
+     19.5,
+     16.3,
+     11.4,
+     13.1
+    ],
+    "marcadores_top6": [
+     [
+      "1-2",
+      8.3
+     ],
+     [
+      "1-3",
+      7.7
+     ],
+     [
+      "1-1",
+      6.4
+     ],
+     [
+      "0-2",
+      5.9
+     ],
+     [
+      "2-2",
+      5.8
+     ],
+     [
+      "0-3",
+      5.5
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.78,
+    "visitante": 2.01
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 4,
+    "gf_pj": 1.5,
+    "gc_pj": 3.25,
+    "goles_pj": 4.75,
+    "indice_ataque": 0.84,
+    "indice_defensa": 1.62,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 4,
+    "gf_pj": 2.25,
+    "gc_pj": 1.25,
+    "goles_pj": 3.5,
+    "indice_ataque": 1.12,
+    "indice_defensa": 0.7,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Cambuur en casa: 1,50 goles a favor y 3,25 en contra por partido (4 PJ)",
+    "AZ fuera: 2,25 a favor y 1,25 en contra por partido (4 PJ)",
+    "Sus partidos promedian 4,8 y 3,5 goles",
+    "Goles esperados por el modelo: 4,2",
+    "Ambos marcan: 71 %"
+   ],
+   "fuentes": [
+    "base L['NED'] de tools/datos.py (https://www.sportsmole.co.uk/football/eredivisie/2026-27/, 73 partidos hasta vie 16-oct incl. Heerenveen-Excelsior) + 3 partidos del sáb 17-oct (programa: https://www.fcupdate.nl/voetbalcompetities/nederland/eredivisie/programma-uitslagen): ADO Den Haag 2-1 PSV (https://sporza.be/nl/sport/voetbal/~3338868/), Telstar 3-4 Feyenoord (https://www.voetbalzone.nl/nieuws/feyenoord-wint-knotsgekke-zevenklapper-op-bezoek-bij-telstar/blt50d85c1c2cc47b9a), Sparta 3-2 Willem II (https://voetbalprimeur.nl/nieuws/2148090/sparta-doet-goede-zaken-en-verslaat-willem-ii.html). Corte: sáb 17-oct. 76 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "13:00",
+   "liga": "Eredivisie",
+   "local": "FC Twente",
+   "visitante": "FC Utrecht",
+   "over15": 89.6,
+   "over25": 72.6,
+   "marcador": "2-1",
+   "goles_esperados": 3.8,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "moderada",
+   "destacado": false,
+   "lambda_local": 2.56,
+   "lambda_visita": 1.21,
+   "modelo_extra": {
+    "over05": 97.1,
+    "over35": 52.0,
+    "over45": 32.6,
+    "ambos_marcan": 65.3,
+    "gana_local": 66.0,
+    "empate": 18.4,
+    "gana_visit": 15.6,
+    "distribucion": [
+     2.9,
+     7.5,
+     17.0,
+     20.6,
+     19.4,
+     14.6,
+     9.2,
+     8.8
+    ],
+    "marcadores_top6": [
+     [
+      "2-1",
+      9.1
+     ],
+     [
+      "3-1",
+      7.8
+     ],
+     [
+      "1-1",
+      7.7
+     ],
+     [
+      "2-0",
+      7.6
+     ],
+     [
+      "3-0",
+      6.4
+     ],
+     [
+      "2-2",
+      5.5
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.78,
+    "visitante": 2.01
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 4,
+    "gf_pj": 2.25,
+    "gc_pj": 0.75,
+    "goles_pj": 3.0,
+    "indice_ataque": 1.26,
+    "indice_defensa": 0.37,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 4,
+    "gf_pj": 1.5,
+    "gc_pj": 2.75,
+    "goles_pj": 4.25,
+    "indice_ataque": 0.75,
+    "indice_defensa": 1.54,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "FC Twente en casa: 2,25 goles a favor y 0,75 en contra por partido (4 PJ)",
+    "FC Utrecht fuera: 1,50 a favor y 2,75 en contra por partido (4 PJ)",
+    "Sus partidos promedian 3,0 y 4,2 goles",
+    "Goles esperados por el modelo: 3,8",
+    "Ambos marcan: 65 %"
+   ],
+   "fuentes": [
+    "base L['NED'] de tools/datos.py (https://www.sportsmole.co.uk/football/eredivisie/2026-27/, 73 partidos hasta vie 16-oct incl. Heerenveen-Excelsior) + 3 partidos del sáb 17-oct (programa: https://www.fcupdate.nl/voetbalcompetities/nederland/eredivisie/programma-uitslagen): ADO Den Haag 2-1 PSV (https://sporza.be/nl/sport/voetbal/~3338868/), Telstar 3-4 Feyenoord (https://www.voetbalzone.nl/nieuws/feyenoord-wint-knotsgekke-zevenklapper-op-bezoek-bij-telstar/blt50d85c1c2cc47b9a), Sparta 3-2 Willem II (https://voetbalprimeur.nl/nieuws/2148090/sparta-doet-goede-zaken-en-verslaat-willem-ii.html). Corte: sáb 17-oct. 76 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "15:30",
+   "liga": "Liga 1",
+   "local": "Alianza Atlético",
+   "visitante": "Universitario",
+   "over15": 89.2,
+   "over25": 71.9,
+   "marcador": "2-1",
+   "goles_esperados": 3.7,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "destacado": false,
+   "lambda_local": 2.3,
+   "lambda_visita": 1.43,
+   "modelo_extra": {
+    "over05": 97.0,
+    "over35": 51.2,
+    "over45": 31.9,
+    "ambos_marcan": 69.1,
+    "gana_local": 56.4,
+    "empate": 21.0,
+    "gana_visit": 22.6,
+    "distribucion": [
+     3.0,
+     7.7,
+     17.3,
+     20.8,
+     19.4,
+     14.4,
+     9.0,
+     8.4
+    ],
+    "marcadores_top6": [
+     [
+      "2-1",
+      9.1
+     ],
+     [
+      "1-1",
+      8.5
+     ],
+     [
+      "3-1",
+      7.0
+     ],
+     [
+      "2-2",
+      6.5
+     ],
+     [
+      "2-0",
+      6.3
+     ],
+     [
+      "1-2",
+      5.6
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.73,
+    "visitante": 1.23
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 5,
+    "gf_pj": 2.4,
+    "gc_pj": 1.0,
+    "goles_pj": 3.4,
+    "indice_ataque": 1.39,
+    "indice_defensa": 0.81,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 6,
+    "gf_pj": 1.83,
+    "gc_pj": 2.0,
+    "goles_pj": 3.83,
+    "indice_ataque": 1.49,
+    "indice_defensa": 1.16,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Alianza Atlético en casa: 2,40 goles a favor y 1,00 en contra por partido (5 PJ)",
+    "Universitario fuera: 1,83 a favor y 2,00 en contra por partido (6 PJ)",
+    "Sus partidos promedian 3,4 y 3,8 goles",
+    "Goles esperados por el modelo: 3,7",
+    "Ambos marcan: 69 %"
+   ],
+   "fuentes": [
+    "base = tools/datos.py L['PER'] (101 partidos, corte vie 16-oct: soccerstats https://www.soccerstats.com/latest.asp?league=peru2 hasta 12-oct + Sport Huancayo 2-1 Cusco FC y Los Chankas 2-1 ADT del 16-oct) + 3 partidos del sáb 17-oct (fecha 12 Clausura) sumados a mano: Juan Pablo II 2-0 Sport Boys, Melgar 4-2 Deportivo Garcilaso, Alianza Lima 3-1 Atlético Grau (fuentes: https://depor.com/futbol-peruano/descentralizado/acumulado-liga-1-2026-peru-en-vivo-tabla-de-posiciones-en-directo-resultados-de-fecha-12-torneo-clausura-alianza-lima-universitario-sporting-cristal-noticia/ ; https://rpp.pe/futbol/descentralizado/alianza-lima-vs-atletico-grau-en-vivo-l1max-como-ver-desde-tu-celular-fecha-12-torneo-clausura-2026-partidos-de-hoy-noticia-1712979 ; https://www.infobae.com/peru/deportes/2026/10/17/juan-pablo-ii-vencio-2-0-a-sport-boys-en-chongoyape-goles-y-resumen-del-triunfo-papal-por-torneo-clausura-2026/ ; https://www.infobae.com/peru/deportes/2026/10/18/melgar-hace-respetar-arequipa-y-sigue-luchando-en-liga-1-2026-remonto-a-deportivo-garcilaso-para-vencerlo-4-2-por-el-torneo-clausura/). Corte: sáb 17-oct-2026 incluido = fechas 1-11 completas + 5/9 de la fecha 12; 104 partidos (faltan los 4 de hoy dom 18-oct). (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "09:45",
+   "liga": "Eredivisie",
+   "local": "FC Groningen",
+   "visitante": "Ajax",
+   "over15": 88.9,
+   "over25": 71.2,
+   "marcador": "1-2",
+   "goles_esperados": 3.7,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "destacado": false,
+   "lambda_local": 1.31,
+   "lambda_visita": 2.37,
+   "modelo_extra": {
+    "over05": 96.9,
+    "over35": 50.2,
+    "over45": 30.9,
+    "ambos_marcan": 66.8,
+    "gana_local": 19.4,
+    "empate": 20.2,
+    "gana_visit": 60.3,
+    "distribucion": [
+     3.1,
+     8.0,
+     17.7,
+     21.0,
+     19.3,
+     14.2,
+     8.7,
+     8.0
+    ],
+    "marcadores_top6": [
+     [
+      "1-2",
+      9.3
+     ],
+     [
+      "1-1",
+      8.5
+     ],
+     [
+      "1-3",
+      7.3
+     ],
+     [
+      "0-2",
+      7.1
+     ],
+     [
+      "2-2",
+      6.1
+     ],
+     [
+      "0-3",
+      5.6
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.78,
+    "visitante": 2.01
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 4,
+    "gf_pj": 2.25,
+    "gc_pj": 1.5,
+    "goles_pj": 3.75,
+    "indice_ataque": 1.26,
+    "indice_defensa": 0.75,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 3,
+    "gf_pj": 3.67,
+    "gc_pj": 0.33,
+    "goles_pj": 4.0,
+    "indice_ataque": 1.82,
+    "indice_defensa": 0.19,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "FC Groningen en casa: 2,25 goles a favor y 1,50 en contra por partido (4 PJ)",
+    "Ajax fuera: 3,67 a favor y 0,33 en contra por partido (3 PJ)",
+    "Sus partidos promedian 3,8 y 4,0 goles",
+    "Goles esperados por el modelo: 3,7",
+    "Ambos marcan: 67 %"
+   ],
+   "fuentes": [
+    "base L['NED'] de tools/datos.py (https://www.sportsmole.co.uk/football/eredivisie/2026-27/, 73 partidos hasta vie 16-oct incl. Heerenveen-Excelsior) + 3 partidos del sáb 17-oct (programa: https://www.fcupdate.nl/voetbalcompetities/nederland/eredivisie/programma-uitslagen): ADO Den Haag 2-1 PSV (https://sporza.be/nl/sport/voetbal/~3338868/), Telstar 3-4 Feyenoord (https://www.voetbalzone.nl/nieuws/feyenoord-wint-knotsgekke-zevenklapper-op-bezoek-bij-telstar/blt50d85c1c2cc47b9a), Sparta 3-2 Willem II (https://voetbalprimeur.nl/nieuws/2148090/sparta-doet-goede-zaken-en-verslaat-willem-ii.html). Corte: sáb 17-oct. 76 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "20:10",
+   "liga": "Liga BetPlay",
+   "local": "Deportivo Cali",
+   "visitante": "Junior",
+   "over15": 88.0,
+   "over25": 69.7,
+   "marcador": "2-1",
+   "goles_esperados": 3.6,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "destacado": false,
+   "lambda_local": 2.58,
+   "lambda_visita": 1.01,
+   "modelo_extra": {
+    "over05": 96.7,
+    "over35": 48.3,
+    "over45": 29.2,
+    "ambos_marcan": 59.3,
+    "gana_local": 70.6,
+    "empate": 17.4,
+    "gana_visit": 12.0,
+    "distribucion": [
+     3.3,
+     8.8,
+     18.4,
+     21.3,
+     19.1,
+     13.7,
+     8.2,
+     7.2
+    ],
+    "marcadores_top6": [
+     [
+      "2-1",
+      9.3
+     ],
+     [
+      "2-0",
+      9.2
+     ],
+     [
+      "3-1",
+      8.0
+     ],
+     [
+      "3-0",
+      7.9
+     ],
+     [
+      "1-1",
+      7.8
+     ],
+     [
+      "1-0",
+      6.5
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.43,
+    "visitante": 1.19
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 6,
+    "gf_pj": 2.17,
+    "gc_pj": 0.67,
+    "goles_pj": 2.83,
+    "indice_ataque": 1.52,
+    "indice_defensa": 0.56,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 6,
+    "gf_pj": 1.5,
+    "gc_pj": 2.33,
+    "goles_pj": 3.83,
+    "indice_ataque": 1.26,
+    "indice_defensa": 1.63,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Deportivo Cali en casa: 2,17 goles a favor y 0,67 en contra por partido (6 PJ)",
+    "Junior fuera: 1,50 a favor y 2,33 en contra por partido (6 PJ)",
+    "Sus partidos promedian 2,8 y 3,8 goles",
+    "Goles esperados por el modelo: 3,6",
+    "Ambos marcan: 59 %"
+   ],
+   "fuentes": [
+    "base = tools/datos.py L['COL'] (128 partidos; soccerstats https://www.soccerstats.com/homeaway.asp?league=colombia2 re-consultada 18-oct-2026: muestra Clausura 2026, 128/190 y cifras idénticas a la base; último resultado 14-oct Junior 1-1 Pereira y Bucaramanga 1-1 Águilas; Millonarios-Once Caldas 14-oct y Santa Fe-Jaguares 15-oct aplazados; nada el vie 16-oct) + 3 partidos del sáb 17-oct sumados a mano: Boyacá Chicó 1-4 Atlético Nacional (https://www.eluniversal.com.co/deportes/2026/10/17/atletico-nacional-se-afianza-en-lo-alto-de-la-liga-betplay-tras-goleada-a-boyaca-chico/ ; https://www.futbolperuano.com/futbol-internacional/colombia/resultados), Millonarios 4-1 Jaguares (https://www.futbolred.com/futbol-colombiano/liga-betplay/millonarios-golea-4-1-a-jaguares-con-doblete-de-estupinan-en-el-nemesio-camacho-274074 ; https://www.winsports.co/futbol-colombiano/noticias/millonarios-arrasa-con-jaguares-en-un-duelo-dominado-resumen-471534), Independiente Medellín 0-2 Once Caldas (https://www.futbolred.com/futbol-colombiano/liga-betplay/independiente-medellin-0-2-once-caldas-el-blanco-blanco-asalto-el-atanasio-girardot-con-goles-de-zapata-y-barrios-274083 ; https://www.winsports.co/futbol-colombiano/noticias/once-caldas-sorprende-y-vence-2-0-a-independiente-medellin-resumen-471567). Programación fecha 15 (sáb 17 a mar 20-oct): https://www.vanguardia.com/deportes/futbol/2026/10/17/liga-betplay-2026-ii-programacion-de-la-fecha-15-con-bucaramanga-america-como-uno-de-los-partidos-destacados/ . Corte: sáb 17-oct-2026 incluido; 131/190 partidos. (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "13:00",
+   "liga": "Eredivisie",
+   "local": "NEC",
+   "visitante": "Fortuna Sittard",
+   "over15": 87.3,
+   "over25": 68.3,
+   "marcador": "1-1",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "destacado": false,
+   "lambda_local": 1.4,
+   "lambda_visita": 2.12,
+   "modelo_extra": {
+    "over05": 96.3,
+    "over35": 46.8,
+    "over45": 27.8,
+    "ambos_marcan": 67.0,
+    "gana_local": 24.4,
+    "empate": 22.3,
+    "gana_visit": 53.3,
+    "distribucion": [
+     3.7,
+     9.0,
+     19.0,
+     21.5,
+     18.9,
+     13.3,
+     7.8,
+     6.7
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      9.5
+     ],
+     [
+      "1-2",
+      9.3
+     ],
+     [
+      "0-2",
+      6.7
+     ],
+     [
+      "1-3",
+      6.6
+     ],
+     [
+      "2-2",
+      6.5
+     ],
+     [
+      "2-1",
+      6.1
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.78,
+    "visitante": 2.01
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 4,
+    "gf_pj": 1.25,
+    "gc_pj": 2.0,
+    "goles_pj": 3.25,
+    "indice_ataque": 0.7,
+    "indice_defensa": 1.0,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 4,
+    "gf_pj": 2.25,
+    "gc_pj": 1.5,
+    "goles_pj": 3.75,
+    "indice_ataque": 1.12,
+    "indice_defensa": 0.84,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "NEC en casa: 1,25 goles a favor y 2,00 en contra por partido (4 PJ)",
+    "Fortuna Sittard fuera: 2,25 a favor y 1,50 en contra por partido (4 PJ)",
+    "Sus partidos promedian 3,2 y 3,8 goles",
+    "Goles esperados por el modelo: 3,5",
+    "Ambos marcan: 67 %"
+   ],
+   "fuentes": [
+    "base L['NED'] de tools/datos.py (https://www.sportsmole.co.uk/football/eredivisie/2026-27/, 73 partidos hasta vie 16-oct incl. Heerenveen-Excelsior) + 3 partidos del sáb 17-oct (programa: https://www.fcupdate.nl/voetbalcompetities/nederland/eredivisie/programma-uitslagen): ADO Den Haag 2-1 PSV (https://sporza.be/nl/sport/voetbal/~3338868/), Telstar 3-4 Feyenoord (https://www.voetbalzone.nl/nieuws/feyenoord-wint-knotsgekke-zevenklapper-op-bezoek-bij-telstar/blt50d85c1c2cc47b9a), Sparta 3-2 Willem II (https://voetbalprimeur.nl/nieuws/2148090/sparta-doet-goede-zaken-en-verslaat-willem-ii.html). Corte: sáb 17-oct. 76 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "11:00",
+   "liga": "Liga 1",
+   "local": "Sporting Cristal",
+   "visitante": "Comerciantes Unidos",
+   "over15": 86.5,
+   "over25": 67.1,
+   "marcador": "2-0",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "destacado": false,
+   "lambda_local": 2.52,
+   "lambda_visita": 0.93,
+   "modelo_extra": {
+    "over05": 96.2,
+    "over35": 45.3,
+    "over45": 26.5,
+    "ambos_marcan": 56.3,
+    "gana_local": 71.3,
+    "empate": 17.5,
+    "gana_visit": 11.2,
+    "distribucion": [
+     3.8,
+     9.8,
+     19.5,
+     21.7,
+     18.7,
+     12.9,
+     7.4,
+     6.1
+    ],
+    "marcadores_top6": [
+     [
+      "2-0",
+      10.1
+     ],
+     [
+      "2-1",
+      9.4
+     ],
+     [
+      "3-0",
+      8.5
+     ],
+     [
+      "1-1",
+      8.0
+     ],
+     [
+      "3-1",
+      7.9
+     ],
+     [
+      "1-0",
+      7.4
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.73,
+    "visitante": 1.23
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 5,
+    "gf_pj": 3.0,
+    "gc_pj": 0.4,
+    "goles_pj": 3.4,
+    "indice_ataque": 1.73,
+    "indice_defensa": 0.33,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 6,
+    "gf_pj": 1.67,
+    "gc_pj": 1.83,
+    "goles_pj": 3.5,
+    "indice_ataque": 1.36,
+    "indice_defensa": 1.06,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Sporting Cristal en casa: 3,00 goles a favor y 0,40 en contra por partido (5 PJ)",
+    "Comerciantes Unidos fuera: 1,67 a favor y 1,83 en contra por partido (6 PJ)",
+    "Sus partidos promedian 3,4 y 3,5 goles",
+    "Goles esperados por el modelo: 3,5",
+    "Ambos marcan: 56 %"
+   ],
+   "fuentes": [
+    "base = tools/datos.py L['PER'] (101 partidos, corte vie 16-oct: soccerstats https://www.soccerstats.com/latest.asp?league=peru2 hasta 12-oct + Sport Huancayo 2-1 Cusco FC y Los Chankas 2-1 ADT del 16-oct) + 3 partidos del sáb 17-oct (fecha 12 Clausura) sumados a mano: Juan Pablo II 2-0 Sport Boys, Melgar 4-2 Deportivo Garcilaso, Alianza Lima 3-1 Atlético Grau (fuentes: https://depor.com/futbol-peruano/descentralizado/acumulado-liga-1-2026-peru-en-vivo-tabla-de-posiciones-en-directo-resultados-de-fecha-12-torneo-clausura-alianza-lima-universitario-sporting-cristal-noticia/ ; https://rpp.pe/futbol/descentralizado/alianza-lima-vs-atletico-grau-en-vivo-l1max-como-ver-desde-tu-celular-fecha-12-torneo-clausura-2026-partidos-de-hoy-noticia-1712979 ; https://www.infobae.com/peru/deportes/2026/10/17/juan-pablo-ii-vencio-2-0-a-sport-boys-en-chongoyape-goles-y-resumen-del-triunfo-papal-por-torneo-clausura-2026/ ; https://www.infobae.com/peru/deportes/2026/10/18/melgar-hace-respetar-arequipa-y-sigue-luchando-en-liga-1-2026-remonto-a-deportivo-garcilaso-para-vencerlo-4-2-por-el-torneo-clausura/). Corte: sáb 17-oct-2026 incluido = fechas 1-11 completas + 5/9 de la fecha 12; 104 partidos (faltan los 4 de hoy dom 18-oct). (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "14:00",
+   "liga": "LaLiga",
+   "local": "Real Madrid",
+   "visitante": "Sevilla",
+   "over15": 84.8,
+   "over25": 64.0,
+   "marcador": "1-1",
+   "goles_esperados": 3.3,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "destacado": false,
+   "lambda_local": 2.15,
+   "lambda_visita": 1.15,
+   "modelo_extra": {
+    "over05": 95.6,
+    "over35": 42.0,
+    "over45": 23.7,
+    "ambos_marcan": 61.1,
+    "gana_local": 59.5,
+    "empate": 21.7,
+    "gana_visit": 18.8,
+    "distribucion": [
+     4.4,
+     10.7,
+     20.8,
+     22.1,
+     18.2,
+     12.0,
+     6.6,
+     5.1
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      9.8
+     ],
+     [
+      "2-1",
+      9.8
+     ],
+     [
+      "2-0",
+      8.5
+     ],
+     [
+      "1-0",
+      7.2
+     ],
+     [
+      "3-1",
+      7.0
+     ],
+     [
+      "3-0",
+      6.1
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.69,
+    "visitante": 1.34
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 4,
+    "gf_pj": 3.25,
+    "gc_pj": 0.5,
+    "goles_pj": 3.75,
+    "indice_ataque": 1.92,
+    "indice_defensa": 0.37,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 4,
+    "gf_pj": 2.0,
+    "gc_pj": 1.25,
+    "goles_pj": 3.25,
+    "indice_ataque": 1.49,
+    "indice_defensa": 0.74,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Real Madrid en casa: 3,25 goles a favor y 0,50 en contra por partido (4 PJ)",
+    "Sevilla fuera: 2,00 a favor y 1,25 en contra por partido (4 PJ)",
+    "Sus partidos promedian 3,8 y 3,2 goles",
+    "Goles esperados por el modelo: 3,3",
+    "Ambos marcan: 61 %"
+   ],
+   "fuentes": [
+    "base tools/datos.py (79 partidos, J1-J8 + Deportivo 1-1 Levante 16-oct) + 4 partidos del sáb 17-oct (J9) verificados en https://www.footballwebpages.co.uk/spanish-la-liga/fixtures-results/october (temporada 2026-2027): Espanyol 0-1 Atletico Madrid, Real Betis 2-5 Barcelona (también https://futboltotal.futbol/partido/real-betis-vs-barcelona-laliga-1570413), Valencia 0-0 Athletic Club, Villarreal 0-0 Elche (también https://futboltotal.futbol/partido/villarreal-vs-elche-la-liga-2026-10-17 y https://www.footballwebpages.co.uk/match/2026-2027/spanish-la-liga/villarreal/elche/593533). Corte: sáb 17-oct-2026 final; no hay más partidos entre el corte y hoy (Getafe-Rayo es lun 19-oct) = 83 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "14:00",
+   "liga": "Brasileirão",
+   "local": "Fluminense",
+   "visitante": "Santos",
+   "over15": 83.9,
+   "over25": 62.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "destacado": false,
+   "lambda_local": 1.92,
+   "lambda_visita": 1.3,
+   "modelo_extra": {
+    "over05": 95.2,
+    "over35": 40.2,
+    "over45": 22.3,
+    "ambos_marcan": 62.9,
+    "gana_local": 51.1,
+    "empate": 23.8,
+    "gana_visit": 25.1,
+    "distribucion": [
+     4.8,
+     11.3,
+     21.5,
+     22.2,
+     17.9,
+     11.5,
+     6.2,
+     4.6
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      10.8
+     ],
+     [
+      "2-1",
+      9.6
+     ],
+     [
+      "2-0",
+      7.4
+     ],
+     [
+      "1-0",
+      6.9
+     ],
+     [
+      "1-2",
+      6.5
+     ],
+     [
+      "2-2",
+      6.2
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.53,
+    "visitante": 1.12
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 15,
+    "gf_pj": 1.87,
+    "gc_pj": 0.93,
+    "goles_pj": 2.8,
+    "indice_ataque": 1.22,
+    "indice_defensa": 0.83,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 15,
+    "gf_pj": 1.6,
+    "gc_pj": 1.67,
+    "goles_pj": 3.27,
+    "indice_ataque": 1.43,
+    "indice_defensa": 1.09,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Fluminense en casa: 1,87 goles a favor y 0,93 en contra por partido (15 PJ)",
+    "Santos fuera: 1,60 a favor y 1,67 en contra por partido (15 PJ)",
+    "Sus partidos promedian 2,8 y 3,3 goles",
+    "Goles esperados por el modelo: 3,2",
+    "Ambos marcan: 63 %"
+   ],
+   "fuentes": [
+    "base tools/datos.py (valorfinal tabelas-por-recorte, tras 30ª rodada + Mirassol 2-0 Internacional 16/10) + 4 partidos del sábado 17/10 (31ª rodada): Botafogo 1-0 Chapecoense, Atletico MG 1-0 Coritiba, Athletico-PR 0-2 Palmeiras, São Paulo 1-0 Vasco da Gama. Fuentes: https://ptd.verdao.net/brasileirao-2026-resultados-de-sabado-pela-31a-rodada-classificacao-atualizada/ · https://www.supervasco.com/noticias/tabela-atualizada-da-serie-a-apos-os-jogos-deste-sabado-18-da-rodada-31-457982.html · https://365scores.com/pt-br/news/magazine/sao-paulo-vence-vasco-sobe-tabela-brasileirao · calendario https://valorfinal.com.br/brasileirao/2026/rodada-31 . Cotejada equipo por equipo (40/40 filas idénticas) con https://valorfinal.com.br/brasileirao/tabelas-por-recorte (lectura 18/10/2026 06:30). Corte: sábado 17/10/2026 incluido (pendientes 31ª: 4 de hoy + Corinthians–Vitória lun 19/10). 304 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "08:00",
+   "liga": "Premier League",
+   "local": "AFC Bournemouth",
+   "visitante": "Sunderland",
+   "over15": 83.7,
+   "over25": 62.0,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "destacado": false,
+   "lambda_local": 1.72,
+   "lambda_visita": 1.48,
+   "modelo_extra": {
+    "over05": 95.1,
+    "over35": 39.7,
+    "over45": 21.9,
+    "ambos_marcan": 64.2,
+    "gana_local": 42.7,
+    "empate": 24.9,
+    "gana_visit": 32.4,
+    "distribucion": [
+     4.9,
+     11.4,
+     21.7,
+     22.3,
+     17.8,
+     11.4,
+     6.1,
+     4.5
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      11.2
+     ],
+     [
+      "2-1",
+      8.9
+     ],
+     [
+      "1-2",
+      7.7
+     ],
+     [
+      "2-2",
+      6.6
+     ],
+     [
+      "1-0",
+      6.2
+     ],
+     [
+      "2-0",
+      6.0
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.57,
+    "visitante": 1.34
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 3,
+    "gf_pj": 1.0,
+    "gc_pj": 1.33,
+    "goles_pj": 2.33,
+    "indice_ataque": 0.64,
+    "indice_defensa": 1.0,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 3,
+    "gf_pj": 1.67,
+    "gc_pj": 2.67,
+    "goles_pj": 4.33,
+    "indice_ataque": 1.24,
+    "indice_defensa": 1.7,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "AFC Bournemouth en casa: 1,00 goles a favor y 1,33 en contra por partido (3 PJ)",
+    "Sunderland fuera: 1,67 a favor y 2,67 en contra por partido (3 PJ)",
+    "Sus partidos promedian 2,3 y 4,3 goles",
+    "Goles esperados por el modelo: 3,2",
+    "Ambos marcan: 64 %"
+   ],
+   "fuentes": [
+    "datos.py (J1-J6 hasta 12-oct-2026, 60 PJ) + 5 partidos de la J7 del sáb 17-oct (Everton 0-2 Chelsea, Brentford 1-2 Liverpool, Fulham 1-0 Hull City, Manchester City 3-2 Ipswich Town, Newcastle United 0-1 Aston Villa) según https://www.sportsmole.co.uk/football/premier-league/2026-27/ (resultados + Home/Away Table 2026-27, que coincide equipo por equipo con la suma) y futboltotal.futbol (data/2026-10-17/resultados-en-vivo.json); Tottenham–Coventry de la J7 es el lun 19-oct (https://www.footballwebpages.co.uk/premier-league/20261019, tabla actualizada sáb 17-oct 19:25 con 65 PJ) · corte: sáb 17-oct-2026 · 65 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "14:00",
+   "liga": "Brasileirão",
+   "local": "Grêmio",
+   "visitante": "Cruzeiro",
+   "over15": 82.3,
+   "over25": 59.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.1,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "destacado": false,
+   "lambda_local": 1.8,
+   "lambda_visita": 1.3,
+   "modelo_extra": {
+    "over05": 94.7,
+    "over35": 37.5,
+    "over45": 20.2,
+    "ambos_marcan": 61.6,
+    "gana_local": 48.4,
+    "empate": 24.8,
+    "gana_visit": 26.9,
+    "distribucion": [
+     5.3,
+     12.3,
+     22.5,
+     22.4,
+     17.3,
+     10.7,
+     5.6,
+     3.9
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      11.4
+     ],
+     [
+      "2-1",
+      9.5
+     ],
+     [
+      "2-0",
+      7.3
+     ],
+     [
+      "1-0",
+      7.3
+     ],
+     [
+      "1-2",
+      6.9
+     ],
+     [
+      "2-2",
+      6.2
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.53,
+    "visitante": 1.12
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 15,
+    "gf_pj": 1.53,
+    "gc_pj": 1.13,
+    "goles_pj": 2.67,
+    "indice_ataque": 1.0,
+    "indice_defensa": 1.01,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 15,
+    "gf_pj": 1.33,
+    "gc_pj": 1.87,
+    "goles_pj": 3.2,
+    "indice_ataque": 1.19,
+    "indice_defensa": 1.22,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Grêmio en casa: 1,53 goles a favor y 1,13 en contra por partido (15 PJ)",
+    "Cruzeiro fuera: 1,33 a favor y 1,87 en contra por partido (15 PJ)",
+    "Sus partidos promedian 2,7 y 3,2 goles",
+    "Goles esperados por el modelo: 3,1",
+    "Ambos marcan: 62 %"
+   ],
+   "fuentes": [
+    "base tools/datos.py (valorfinal tabelas-por-recorte, tras 30ª rodada + Mirassol 2-0 Internacional 16/10) + 4 partidos del sábado 17/10 (31ª rodada): Botafogo 1-0 Chapecoense, Atletico MG 1-0 Coritiba, Athletico-PR 0-2 Palmeiras, São Paulo 1-0 Vasco da Gama. Fuentes: https://ptd.verdao.net/brasileirao-2026-resultados-de-sabado-pela-31a-rodada-classificacao-atualizada/ · https://www.supervasco.com/noticias/tabela-atualizada-da-serie-a-apos-os-jogos-deste-sabado-18-da-rodada-31-457982.html · https://365scores.com/pt-br/news/magazine/sao-paulo-vence-vasco-sobe-tabela-brasileirao · calendario https://valorfinal.com.br/brasileirao/2026/rodada-31 . Cotejada equipo por equipo (40/40 filas idénticas) con https://valorfinal.com.br/brasileirao/tabelas-por-recorte (lectura 18/10/2026 06:30). Corte: sábado 17/10/2026 incluido (pendientes 31ª: 4 de hoy + Corinthians–Vitória lun 19/10). 304 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "08:30",
+   "liga": "Bundesliga",
+   "local": "Bayer Leverkusen",
+   "visitante": "SC Freiburg",
+   "over15": 81.1,
+   "over25": 58.0,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "destacado": false,
+   "lambda_local": 2.06,
+   "lambda_visita": 0.96,
+   "modelo_extra": {
+    "over05": 94.3,
+    "over35": 35.7,
+    "over45": 18.8,
+    "ambos_marcan": 54.6,
+    "gana_local": 62.0,
+    "empate": 22.0,
+    "gana_visit": 16.0,
+    "distribucion": [
+     5.7,
+     13.2,
+     23.0,
+     22.4,
+     16.9,
+     10.2,
+     5.1,
+     3.5
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      10.4
+     ],
+     [
+      "2-0",
+      10.4
+     ],
+     [
+      "2-1",
+      9.9
+     ],
+     [
+      "1-0",
+      9.3
+     ],
+     [
+      "3-0",
+      7.1
+     ],
+     [
+      "3-1",
+      6.8
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 2.31,
+    "visitante": 1.4
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 2,
+    "gf_pj": 3.0,
+    "gc_pj": 0.0,
+    "goles_pj": 3.0,
+    "indice_ataque": 1.3,
+    "indice_defensa": 0.0,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 2,
+    "gf_pj": 1.5,
+    "gc_pj": 1.0,
+    "goles_pj": 2.5,
+    "indice_ataque": 1.07,
+    "indice_defensa": 0.43,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Bayer Leverkusen en casa: 3,00 goles a favor y 0,00 en contra por partido (2 PJ)",
+    "SC Freiburg fuera: 1,50 a favor y 1,00 en contra por partido (2 PJ)",
+    "Sus partidos promedian 3,0 y 2,5 goles",
+    "Goles esperados por el modelo: 3,0",
+    "Ambos marcan: 55 %"
+   ],
+   "fuentes": [
+    "datos.py (46 PJ hasta vie 16-oct) + 6 partidos del sáb 17-oct, J6 (Bayern Munich 6-1 RB Leipzig, Union Berlin 0-0 Borussia Dortmund, Hamburger SV 1-0 VfB Stuttgart, Werder Bremen 2-2 SC Paderborn, Schalke 04 0-1 Mainz 05, Elversberg 4-3 Augsburg) según https://www.sportsmole.co.uk/football/bundesliga/2026-27/ (resultados + Home/Away Table 2026-27, que coincide equipo por equipo con la suma) y futboltotal.futbol (data/2026-10-17/resultados-en-vivo.json); restan de la J6 solo los 2 del dom 18-oct · corte: sáb 17-oct-2026 · 52 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "18:30",
+   "liga": "Liga 1",
+   "local": "Cienciano",
+   "visitante": "UTC",
+   "over15": 80.6,
+   "over25": 57.1,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "destacado": false,
+   "lambda_local": 1.78,
+   "lambda_visita": 1.2,
+   "modelo_extra": {
+    "over05": 94.1,
+    "over35": 34.8,
+    "over45": 18.1,
+    "ambos_marcan": 59.0,
+    "gana_local": 50.1,
+    "empate": 25.0,
+    "gana_visit": 24.9,
+    "distribucion": [
+     5.9,
+     13.4,
+     23.4,
+     22.4,
+     16.7,
+     9.9,
+     4.9,
+     3.3
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      11.7
+     ],
+     [
+      "2-1",
+      9.7
+     ],
+     [
+      "1-0",
+      8.2
+     ],
+     [
+      "2-0",
+      8.0
+     ],
+     [
+      "1-2",
+      6.5
+     ],
+     [
+      "0-0",
+      5.9
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.73,
+    "visitante": 1.23
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 5,
+    "gf_pj": 1.0,
+    "gc_pj": 1.2,
+    "goles_pj": 2.2,
+    "indice_ataque": 0.58,
+    "indice_defensa": 0.98,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 5,
+    "gf_pj": 1.2,
+    "gc_pj": 2.8,
+    "goles_pj": 4.0,
+    "indice_ataque": 0.98,
+    "indice_defensa": 1.62,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Cienciano en casa: 1,00 goles a favor y 1,20 en contra por partido (5 PJ)",
+    "UTC fuera: 1,20 a favor y 2,80 en contra por partido (5 PJ)",
+    "Sus partidos promedian 2,2 y 4,0 goles",
+    "Goles esperados por el modelo: 3,0",
+    "Ambos marcan: 59 %"
+   ],
+   "fuentes": [
+    "base = tools/datos.py L['PER'] (101 partidos, corte vie 16-oct: soccerstats https://www.soccerstats.com/latest.asp?league=peru2 hasta 12-oct + Sport Huancayo 2-1 Cusco FC y Los Chankas 2-1 ADT del 16-oct) + 3 partidos del sáb 17-oct (fecha 12 Clausura) sumados a mano: Juan Pablo II 2-0 Sport Boys, Melgar 4-2 Deportivo Garcilaso, Alianza Lima 3-1 Atlético Grau (fuentes: https://depor.com/futbol-peruano/descentralizado/acumulado-liga-1-2026-peru-en-vivo-tabla-de-posiciones-en-directo-resultados-de-fecha-12-torneo-clausura-alianza-lima-universitario-sporting-cristal-noticia/ ; https://rpp.pe/futbol/descentralizado/alianza-lima-vs-atletico-grau-en-vivo-l1max-como-ver-desde-tu-celular-fecha-12-torneo-clausura-2026-partidos-de-hoy-noticia-1712979 ; https://www.infobae.com/peru/deportes/2026/10/17/juan-pablo-ii-vencio-2-0-a-sport-boys-en-chongoyape-goles-y-resumen-del-triunfo-papal-por-torneo-clausura-2026/ ; https://www.infobae.com/peru/deportes/2026/10/18/melgar-hace-respetar-arequipa-y-sigue-luchando-en-liga-1-2026-remonto-a-deportivo-garcilaso-para-vencerlo-4-2-por-el-torneo-clausura/). Corte: sáb 17-oct-2026 incluido = fechas 1-11 completas + 5/9 de la fecha 12; 104 partidos (faltan los 4 de hoy dom 18-oct). (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "08:00",
+   "liga": "Serie A",
+   "local": "Fiorentina",
+   "visitante": "Como",
+   "over15": 80.0,
+   "over25": 56.3,
+   "marcador": "1-1",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "destacado": false,
+   "lambda_local": 1.06,
+   "lambda_visita": 1.88,
+   "modelo_extra": {
+    "over05": 93.9,
+    "over35": 33.9,
+    "over45": 17.5,
+    "ambos_marcan": 56.2,
+    "gana_local": 20.2,
+    "empate": 24.1,
+    "gana_visit": 55.7,
+    "distribucion": [
+     6.1,
+     13.9,
+     23.7,
+     22.4,
+     16.5,
+     9.7,
+     4.7,
+     3.1
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      11.4
+     ],
+     [
+      "1-2",
+      9.9
+     ],
+     [
+      "0-2",
+      9.3
+     ],
+     [
+      "0-1",
+      9.1
+     ],
+     [
+      "1-3",
+      6.2
+     ],
+     [
+      "0-0",
+      6.1
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.58,
+    "visitante": 1.31
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 3,
+    "gf_pj": 0.67,
+    "gc_pj": 2.0,
+    "goles_pj": 2.67,
+    "indice_ataque": 0.42,
+    "indice_defensa": 1.53,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 4,
+    "gf_pj": 1.75,
+    "gc_pj": 1.25,
+    "goles_pj": 3.0,
+    "indice_ataque": 1.34,
+    "indice_defensa": 0.79,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Fiorentina en casa: 0,67 goles a favor y 2,00 en contra por partido (3 PJ)",
+    "Como fuera: 1,75 a favor y 1,25 en contra por partido (4 PJ)",
+    "Sus partidos promedian 2,7 y 3,0 goles",
+    "Goles esperados por el modelo: 2,9",
+    "Ambos marcan: 56 %"
+   ],
+   "fuentes": [
+    "base tools/datos.py (61 partidos, J1-J6 + Frosinone 4-2 Sassuolo 16-oct, de https://www.soccerstats.com/homeaway.asp?league=italy) + 3 partidos del sáb 17-oct (J7, temporada 2026/27): Venezia 1-0 Napoli (https://futboltotal.futbol/partido/venezia-vs-napoli-serie-a-1550156), Bologna 1-3 Inter (https://futboltotal.futbol/partido/bologna-vs-inter-serie-a-1550149), Roma 2-0 Genoa (https://futboltotal.futbol/partido/as-roma-vs-genoa-serie-a-1550148 y https://www.sportytrader.com/en/results-live/roma-genoa-8522160/); cotejados con la jornada 7 en https://www.fantacalcio.it/serie-a/calendario/7/2026-27/monza-cagliari/18020. Corte: sáb 17-oct-2026 final (excluye Udinese-Lecce en juego hoy; Monza-Cagliari y Parma-Torino son lun 19-oct) = 64 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "11:30",
+   "liga": "LaLiga",
+   "local": "Malaga",
+   "visitante": "Real Sociedad",
+   "over15": 79.7,
+   "over25": 55.8,
+   "marcador": "1-1",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "destacado": false,
+   "lambda_local": 1.42,
+   "lambda_visita": 1.49,
+   "modelo_extra": {
+    "over05": 93.6,
+    "over35": 33.3,
+    "over45": 17.0,
+    "ambos_marcan": 59.7,
+    "gana_local": 35.2,
+    "empate": 26.6,
+    "gana_visit": 38.3,
+    "distribucion": [
+     6.4,
+     14.0,
+     24.0,
+     22.4,
+     16.3,
+     9.5,
+     4.6,
+     2.9
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      12.4
+     ],
+     [
+      "1-2",
+      8.6
+     ],
+     [
+      "2-1",
+      8.2
+     ],
+     [
+      "0-1",
+      7.2
+     ],
+     [
+      "1-0",
+      6.8
+     ],
+     [
+      "0-0",
+      6.4
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.69,
+    "visitante": 1.34
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 4,
+    "gf_pj": 0.75,
+    "gc_pj": 1.25,
+    "goles_pj": 2.0,
+    "indice_ataque": 0.44,
+    "indice_defensa": 0.93,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 4,
+    "gf_pj": 1.75,
+    "gc_pj": 2.25,
+    "goles_pj": 4.0,
+    "indice_ataque": 1.31,
+    "indice_defensa": 1.33,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Malaga en casa: 0,75 goles a favor y 1,25 en contra por partido (4 PJ)",
+    "Real Sociedad fuera: 1,75 a favor y 2,25 en contra por partido (4 PJ)",
+    "Sus partidos promedian 2,0 y 4,0 goles",
+    "Goles esperados por el modelo: 2,9",
+    "Ambos marcan: 60 %"
+   ],
+   "fuentes": [
+    "base tools/datos.py (79 partidos, J1-J8 + Deportivo 1-1 Levante 16-oct) + 4 partidos del sáb 17-oct (J9) verificados en https://www.footballwebpages.co.uk/spanish-la-liga/fixtures-results/october (temporada 2026-2027): Espanyol 0-1 Atletico Madrid, Real Betis 2-5 Barcelona (también https://futboltotal.futbol/partido/real-betis-vs-barcelona-laliga-1570413), Valencia 0-0 Athletic Club, Villarreal 0-0 Elche (también https://futboltotal.futbol/partido/villarreal-vs-elche-la-liga-2026-10-17 y https://www.footballwebpages.co.uk/match/2026-2027/spanish-la-liga/villarreal/elche/593533). Corte: sáb 17-oct-2026 final; no hay más partidos entre el corte y hoy (Getafe-Rayo es lun 19-oct) = 83 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  },
+  {
+   "hora_ecuador": "13:45",
+   "liga": "Ligue 1",
+   "local": "Lyon",
+   "visitante": "Nice",
+   "over15": 79.6,
+   "over25": 56.0,
+   "marcador": "2-0",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "destacado": false,
+   "lambda_local": 2.23,
+   "lambda_visita": 0.7,
+   "modelo_extra": {
+    "over05": 94.0,
+    "over35": 33.7,
+    "over45": 17.3,
+    "ambos_marcan": 45.6,
+    "gana_local": 71.6,
+    "empate": 18.9,
+    "gana_visit": 9.5,
+    "distribucion": [
+     6.0,
+     14.3,
+     23.6,
+     22.4,
+     16.4,
+     9.6,
+     4.7,
+     3.0
+    ],
+    "marcadores_top6": [
+     [
+      "2-0",
+      13.3
+     ],
+     [
+      "1-0",
+      11.2
+     ],
+     [
+      "3-0",
+      9.9
+     ],
+     [
+      "2-1",
+      9.3
+     ],
+     [
+      "1-1",
+      9.0
+     ],
+     [
+      "3-1",
+      6.9
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.6,
+    "visitante": 1.33
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 3,
+    "gf_pj": 2.67,
+    "gc_pj": 0.67,
+    "goles_pj": 3.33,
+    "indice_ataque": 1.67,
+    "indice_defensa": 0.5,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 2,
+    "gf_pj": 0.0,
+    "gc_pj": 2.0,
+    "goles_pj": 2.0,
+    "indice_ataque": 0.0,
+    "indice_defensa": 1.25,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Lyon en casa: 2,67 goles a favor y 0,67 en contra por partido (3 PJ)",
+    "Nice fuera: 0,00 a favor y 2,00 en contra por partido (2 PJ)",
+    "Sus partidos promedian 3,3 y 2,0 goles",
+    "Goles esperados por el modelo: 2,9",
+    "Ambos marcan: 46 %"
+   ],
+   "fuentes": [
+    "base tools/datos.py (soccerstats homeaway.asp?league=france, 2026/27, J1-J6 + Le Mans-Toulouse vie 16-oct = 55 partidos) + 3 partidos sab 17-oct (J7) sumados a mano: Strasbourg 1-3 Paris Saint-Germain (https://futboltotal.futbol/partido/strasbourg-vs-paris-saint-germain-ligue-1-2026-10-17), Troyes 1-3 Lens (https://futboltotal.futbol/partido/estac-troyes-vs-lens-ligue-1-2026-10-17 ; https://news.footeo.com/2026/10/17/troyes-lens-1-3-victoire-convaincante-mais-trois-blesses-pour-lens-avant-la-ligue-des-champions-15023), Lille 1-1 Brest (https://futboltotal.futbol/partido/lille-vs-stade-brestois-29-ligue-1-2026-10-17 ; https://www.flashscore.fr/actualites/lille-arrache-le-nul-a-domicile-contre-brest-et-continue-de-stagner/v1tFxrZQ/); solo 3 partidos L1 el sab 17-oct (https://www.sport-flash.com/sports/football/it/calendar/2026-10-17/ligue-1-2026-2027). Corte: sab 17-oct-2026 fin de jornada (antes de Angers-Marseille dom 18-oct 08:00 ECU) = 58 partidos (manual; /api/dia no disponible: el Dashboard Gol 4.0 aún no tiene esa función)"
+   ],
+   "corte_datos": "2026-10-18"
+  }
+ ],
+ "sin_estadisticas": []
+}

@@ -32,13 +32,28 @@ idx={key(p):p for p in P}
 def chips(p):
     c,t=cat(p['over15'])
     return f'<span class="badge {c}">{t}</span>'
+# Estadísticas extra (public/api/estadisticas.json) y noticia del partido (data/<fecha>/noticias.json), si son del mismo día
+try:
+    _EST=json.load(open('../public/api/estadisticas.json',encoding='utf-8'))
+    _EX={(x['local'],x['visitante']):x for x in _EST['partidos']}
+    _NOT=json.load(open(f"../data/{_EST['fecha']}/noticias.json",encoding='utf-8'))['partidos'] if os.path.exists(f"../data/{_EST['fecha']}/noticias.json") else {}
+except Exception: _EX,_NOT={},{}
+def extra(p):
+    x=_EX.get((p['local'],p['visita'])); nt=_NOT.get(f"{p['local']}|{p['visita']}"); h=''
+    if x and abs(x['over15']-p['over15'])<0.05:
+        m=x['modelo_extra']
+        h+=f'''<div class="nga-g" style="margin-top:12px"><div><b>Ambos marcan</b><span>{pc(m['ambos_marcan'])} %</span></div><div><b>Over 3.5</b><span>{pc(m['over35'])} %</span></div>
+<div><b>1X2</b><span>{e(n(p['local']))} {pc(m['gana_local'])} % · empate {pc(m['empate'])} % · {e(n(p['visita']))} {pc(m['gana_visit'])} %</span></div>
+<div><b>Marcadores más probables</b><span>{', '.join(f"{a} ({pc(v)} %)" for a,v in m['marcadores_top6'][:3])}</span></div></div>'''
+        if nt: h+=f'''<div class="noti"><b>📰 La noticia del partido · {e(nt['titular'])}</b><p>{e(nt['texto'])}</p><a href="{e(nt['url'])}" target="_blank" rel="noopener">Fuente: {e(nt['fuente'])} ↗</a></div>'''
+    return h
 def stats(p):
     pjL,gfL,gcL=p['casa']; pjV,gfV,gcV=p['fuera']
     return f'''<div class="nga"><div class="nga-h">Nova Gol Analytics · datos del partido</div>
 <div class="nga-g"><div><b>{e(n(p['local']))}</b> en casa<span>{f1(gfL/pjL)} GF · {f1(gcL/pjL)} GC por partido · {pjL} PJ</span></div>
 <div><b>{e(n(p['visita']))}</b> fuera<span>{f1(gfV/pjV)} GF · {f1(gcV/pjV)} GC por partido · {pjV} PJ</span></div>
 <div><b>Goles esperados</b><span>{f1(p['lambda_local'])} + {f1(p['lambda_visita'])} = {f1(p['goles_esperados'])}</span></div>
-<div><b>Media de la liga</b><span>{f1(p['HG'])} local · {f1(p['AG'])} visitante</span></div></div></div>'''
+<div><b>Media de la liga</b><span>{f1(p['HG'])} local · {f1(p['AG'])} visitante</span></div></div>{extra(p)}</div>'''
 
 from enlaces import LINK, PRED, DEST, COL, ACIERTOS, LLEGAN
 def ink(hexc):
@@ -145,7 +160,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 .lg{{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}}
 .teams{{font-weight:600}} .teams span{{color:var(--muted);font-weight:400}}
 .badge{{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:2px 8px;border-radius:3px;background:var(--odd);color:var(--acc)}}
-.badge.elite{{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#1b1403}} .badge.plat{{background:linear-gradient(180deg,#f4f7f6,#aebbb6);color:#101815}} .badge.r70{{color:var(--muted)}} .badge.r00{{color:var(--chip0);background:transparent;border:1px solid var(--line)}}
+.badge.elite{{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#1b1403}} .noti{{margin-top:10px;padding:10px 12px;border:1px solid var(--gold);border-radius:8px;background:var(--gold-bg)}} .noti b{{color:var(--gold2)}} .noti p{{margin:4px 0;color:var(--ink)}} .noti a{{font-size:12px;color:var(--gold)}} .badge.plat{{background:linear-gradient(180deg,#f4f7f6,#aebbb6);color:#101815}} .badge.r70{{color:var(--muted)}} .badge.r00{{color:var(--chip0);background:transparent;border:1px solid var(--line)}}
 .live{{font-size:12px;font-weight:700;color:#c0392b}}
 .odds{{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:4px}}
 .odd{{background:var(--odd);border-radius:4px;padding:6px 8px;display:grid;text-align:center;gap:0}}

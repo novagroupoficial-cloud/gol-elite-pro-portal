@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-18",
- "actualizado": "2026-10-18 17:11 ECU (UTC-5)",
+ "actualizado": "2026-10-18 18:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-18/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 27,
+  "terminados": 30,
   "total": 43,
   "over15_70": [
-   20,
-   21
+   22,
+   24
   ],
   "over25_senal": [
    6,
@@ -312,8 +312,13 @@
     "gc": 28
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-4",
+   "goles": 6,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/gremio-vs-cruzeiro-campeonato-brasileno-de-serie-a-2026-10-18"
   },
   {
    "puesto": 14,
@@ -785,8 +790,13 @@
     "gc": 28
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-4",
+   "goles": 6,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/gremio-vs-cruzeiro-campeonato-brasileno-de-serie-a-2026-10-18"
   },
   {
    "puesto": 14,
@@ -1085,8 +1095,13 @@
     "gc": 8
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://dechalaca.com/fichas/liga1-2026-clausura/fc-cajamarca-cd-moquegua"
   },
   {
    "puesto": 24,
@@ -1142,7 +1157,7 @@
     "gc": 5
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1194,8 +1209,13 @@
     "gc": 9
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.noticiascaracol.com/golcaracol/futbol-colombiano/asi-quedo-la-tabla-de-posiciones-de-la-liga-betplay-ii-2026-tras-aguilas-doradas-2-1-tolima-so35"
   },
   {
    "puesto": 28,
@@ -1422,7 +1442,7 @@
     "gc": 18
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

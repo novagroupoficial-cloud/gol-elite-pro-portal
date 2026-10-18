@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-18",
- "actualizado": "2026-10-18 12:16 ECU (UTC-5)",
+ "actualizado": "2026-10-18 13:12 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-18/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 9,
+  "terminados": 15,
   "total": 43,
   "over15_70": [
-   8,
-   8
+   12,
+   13
   ],
   "over25_senal": [
-   1,
-   1
+   3,
+   3
   ],
   "marcadores_exactos": 1
  },
@@ -43,7 +43,7 @@
     "gc": 11
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -95,8 +95,13 @@
     "gc": 1
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-5",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338823/"
   },
   {
    "puesto": 7,
@@ -147,7 +152,7 @@
     "gc": 6
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -398,8 +403,13 @@
     "gc": 6
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-2",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/borussia-monchengladbach-vs-1899-hoffenheim-bundesliga-2026-10-18"
   },
   {
    "puesto": 2,
@@ -481,7 +491,7 @@
     "gc": 11
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -533,8 +543,13 @@
     "gc": 1
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-5",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338823/"
   },
   {
    "puesto": 7,
@@ -585,7 +600,7 @@
     "gc": 6
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -886,8 +901,13 @@
     "gc": 12
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-3",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/le-havre-vs-auxerre-ligue-1-2026-10-18"
   },
   {
    "puesto": 20,
@@ -912,8 +932,13 @@
     "gc": 5
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-3",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/paris-fc-vs-rennes-ligue-1-2026-10-18"
   },
   {
    "puesto": 21,
@@ -1187,8 +1212,13 @@
     "gc": 2
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/lorient-vs-monaco-ligue-1-2026-10-18"
   },
   {
    "puesto": 31,
@@ -1244,7 +1274,7 @@
     "gc": 3
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1535,8 +1565,13 @@
     "gc": 3
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/nottingham-forest-vs-arsenal-premier-league-2026-10-18"
   }
  ],
  "sin_pronostico": []

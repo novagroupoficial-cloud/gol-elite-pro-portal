@@ -538,5 +538,20 @@
   "marcador_exacto": true,
   "fuente": "https://www.expreso.ec/deportes/aucas-vs-liga-quito-empate-1-1-superclasico-capitalino-ligapro-2026-299789.html",
   "registrado": "19:20 ECU"
+ },
+ {
+  "local": "Athletico-PR",
+  "visita": "Palmeiras",
+  "hora": "17:30",
+  "resultado": "0-2",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 68.1,
+  "over25_dado": 40.6,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://noataque.com.br/futebol/brasileirao-serie-a/time/palmeiras/noticia/2026/10/17/palmeiras-bate-athletico-com-um-a-menos-e-volta-a-ponta-do-brasileirao/",
+  "registrado": "20:15 ECU"
  }
 ]

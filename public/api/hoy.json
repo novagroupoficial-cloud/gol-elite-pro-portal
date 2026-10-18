@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-18",
- "actualizado": "2026-10-18 15:11 ECU (UTC-5)",
+ "actualizado": "2026-10-18 16:12 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-18/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 20,
+  "terminados": 24,
   "total": 43,
   "over15_70": [
-   15,
-   16
+   18,
+   19
   ],
   "over25_senal": [
-   4,
-   4
+   6,
+   6
   ],
   "marcadores_exactos": 1
  },
@@ -43,8 +43,13 @@
     "gc": 11
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-2",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://voetbal.headliner.nl/item/fc-twente-verzuimt-tweede-plek-over-te-nemen-na-nederlaag-tegen-fc-utrecht-voetbalprimeur-715087"
   },
   {
    "puesto": 5,
@@ -69,7 +74,7 @@
     "gc": 12
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -152,8 +157,13 @@
     "gc": 6
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/nec-nijmegen-vs-fortuna-sittard-eredivisie-2026-10-18"
   },
   {
    "puesto": 9,
@@ -439,7 +449,7 @@
     "gc": 30
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -496,8 +506,13 @@
     "gc": 11
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-2",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://voetbal.headliner.nl/item/fc-twente-verzuimt-tweede-plek-over-te-nemen-na-nederlaag-tegen-fc-utrecht-voetbalprimeur-715087"
   },
   {
    "puesto": 5,
@@ -522,7 +537,7 @@
     "gc": 12
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -605,8 +620,13 @@
     "gc": 6
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/nec-nijmegen-vs-fortuna-sittard-eredivisie-2026-10-18"
   },
   {
    "puesto": 9,
@@ -890,8 +910,13 @@
     "gc": 4
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/lyon-vs-nice-ligue-1-2026-10-18"
   },
   {
    "puesto": 19,
@@ -1351,7 +1376,7 @@
     "gc": 4
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1434,8 +1459,13 @@
     "gc": 1
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-3",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.vavel.com/en-us/soccer/2026/10/18/1275823-juventus-vs-lazio-live-score-serie-a-calcio.html"
   },
   {
    "puesto": 38,
@@ -1460,7 +1490,7 @@
     "gc": 7
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1512,7 +1542,7 @@
     "gc": 11
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

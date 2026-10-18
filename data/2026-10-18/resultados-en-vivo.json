@@ -118,5 +118,20 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/bayer-leverkusen-vs-sc-freiburg-bundesliga-2026-10-18",
   "registrado": "11:20 ECU"
+ },
+ {
+  "local": "Celta Vigo",
+  "visita": "Alaves",
+  "hora": "09:15",
+  "resultado": "2-1",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 70.9,
+  "over25_dado": 43.9,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/celta-vigo-vs-alaves-la-liga-2026-10-18",
+  "registrado": "12:10 ECU"
  }
 ]

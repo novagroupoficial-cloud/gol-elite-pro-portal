@@ -223,5 +223,35 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/borussia-monchengladbach-vs-1899-hoffenheim-bundesliga-2026-10-18",
   "registrado": "13:10 ECU"
+ },
+ {
+  "local": "AC Milan",
+  "visita": "Atalanta",
+  "hora": "11:00",
+  "resultado": "3-2",
+  "goles": 5,
+  "estado": "terminado",
+  "over15_dado": 76.7,
+  "over25_dado": 51.8,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/ac-milan-vs-atalanta-serie-a-1550147",
+  "registrado": "14:20 ECU"
+ },
+ {
+  "local": "Malaga",
+  "visita": "Real Sociedad",
+  "hora": "11:30",
+  "resultado": "2-5",
+  "goles": 7,
+  "estado": "terminado",
+  "over15_dado": 79.7,
+  "over25_dado": 55.8,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/malaga-vs-real-sociedad-la-liga-2026-10-18",
+  "registrado": "14:20 ECU"
  }
 ]

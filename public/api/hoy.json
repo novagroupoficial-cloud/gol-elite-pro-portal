@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-18",
- "actualizado": "2026-10-18 13:12 ECU (UTC-5)",
+ "actualizado": "2026-10-18 14:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-18/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 15,
+  "terminados": 17,
   "total": 43,
   "over15_70": [
-   12,
-   13
+   14,
+   15
   ],
   "over25_senal": [
    3,
@@ -204,7 +204,7 @@
     "gc": 5
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -230,7 +230,7 @@
     "gc": 25
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -287,7 +287,7 @@
     "gc": 28
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -652,7 +652,7 @@
     "gc": 5
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -678,7 +678,7 @@
     "gc": 25
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -735,7 +735,7 @@
     "gc": 28
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -849,8 +849,13 @@
     "gc": 9
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-5",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/malaga-vs-real-sociedad-la-liga-2026-10-18"
   },
   {
    "puesto": 18,
@@ -875,7 +880,7 @@
     "gc": 4
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -963,8 +968,13 @@
     "gc": 4
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-2",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/ac-milan-vs-atalanta-serie-a-1550147"
   },
   {
    "puesto": 22,
@@ -1020,7 +1030,7 @@
     "gc": 8
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1129,7 +1139,7 @@
     "gc": 9
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1409,7 +1419,7 @@
     "gc": 1
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1461,7 +1471,7 @@
     "gc": 24
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

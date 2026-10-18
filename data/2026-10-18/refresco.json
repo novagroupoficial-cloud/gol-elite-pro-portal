@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-18",
- "ultima_ejecucion": "2026-10-18 02:10 ECU",
- "ultima_ok": "2026-10-18 02:10 ECU",
+ "ultima_ejecucion": "2026-10-18 03:10 ECU",
+ "ultima_ok": "2026-10-18 03:10 ECU",
  "rutina_diaria": "pendiente",
  "rutina_diaria_inicio": null,
  "pendientes": [
@@ -13,12 +13,12 @@
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "02:10 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
+  "ultima_revision": "03:10 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
  },
  "avisos_enviados": [
   "cierre_del_dia_2026-10-17",
   "bloqueo"
  ],
- "web_sin_lectura_seguidas": 30,
- "nota": "01:15: Cruz Azul 5-0 Juárez registrado en data/2026-10-17 (futboltotal 'Resultado final'): Over 1.5 ✔, Over 2.5 ✔. Jornada del 17 cerrada 60/60: Over 1.5 70 %+ 33/51, Over 2.5 con señal 9/15, 5 marcadores exactos. Ranking del 17 publicado como final hasta que la rutina del 18 selle pronósticos. Portal en vivo sin verificar (permiso WebFetch). | 02:10: antes de 08:00 ECU, sin pronósticos del 18 aún (refresco.py no corre sin pronosticos.json); ranking final del 17 sigue publicado. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado."
+ "web_sin_lectura_seguidas": 31,
+ "nota": "01:15: Cruz Azul 5-0 Juárez registrado en data/2026-10-17 (futboltotal 'Resultado final'): Over 1.5 ✔, Over 2.5 ✔. Jornada del 17 cerrada 60/60: Over 1.5 70 %+ 33/51, Over 2.5 con señal 9/15, 5 marcadores exactos. Ranking del 17 publicado como final hasta que la rutina del 18 selle pronósticos. Portal en vivo sin verificar (permiso WebFetch). | 02:10: antes de 08:00 ECU, sin pronósticos del 18 aún (refresco.py no corre sin pronosticos.json); ranking final del 17 sigue publicado. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado. | 03:10: antes de 08:00 ECU, sin pronósticos del 18 aún (refresco.py no corre sin pronosticos.json); ranking final del 17 sigue publicado. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado."
 }

@@ -253,5 +253,50 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/malaga-vs-real-sociedad-la-liga-2026-10-18",
   "registrado": "14:20 ECU"
+ },
+ {
+  "local": "Sporting Cristal",
+  "visita": "Comerciantes Unidos",
+  "hora": "11:00",
+  "resultado": "4-2",
+  "goles": 6,
+  "estado": "terminado",
+  "over15_dado": 86.5,
+  "over25_dado": 67.1,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.eldiez.com.pe/sporting-cristal-2/sporting-cristal-vs-comerciantes-unidos-en-vivo-por-liga-1-a-que-hora-y-donde-ver-resumen-goles-noticia/",
+  "registrado": "15:20 ECU"
+ },
+ {
+  "local": "Delfín",
+  "visita": "Manta",
+  "hora": "11:30",
+  "resultado": "4-2",
+  "goles": 6,
+  "estado": "terminado",
+  "over15_dado": 55.0,
+  "over25_dado": 27.3,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.eldiario.ec/deportes/delfin-sc-vencio-4-2-a-manta-fc-en-el-clasico-mantense-y-toma-aire-en-el-hexagonal-por-la-permanencia-18102026",
+  "registrado": "15:20 ECU"
+ },
+ {
+  "local": "Racing Club",
+  "visita": "Independiente",
+  "hora": "12:45",
+  "resultado": "1-1",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 69.7,
+  "over25_dado": 42.6,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.losandes.com.ar/deportes/racing-e-independiente-empataron-1-1-un-apasionante-clasico-avellaneda-n6010706",
+  "registrado": "15:20 ECU"
  }
 ]

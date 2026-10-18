@@ -1,0 +1,32 @@
+[
+ {
+  "local": "Osasuna",
+  "visita": "Racing Santander",
+  "hora": "07:00",
+  "resultado": "2-0",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 75.3,
+  "over25_dado": 49.7,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.lanacion.com.ar/deportes/canchallena/osasuna-vencio-2-0-a-racing-de-santander-por-la-liga-de-espana-2026-nid18102026/",
+  "registrado": "10:15 ECU"
+ },
+ {
+  "local": "Cambuur",
+  "visita": "AZ",
+  "hora": "07:30",
+  "resultado": "2-2",
+  "goles": 4,
+  "estado": "terminado",
+  "over15_dado": 92.6,
+  "over25_dado": 78.7,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.livescore.com/en/football/netherlands/eredivisie/cambuur-vs-az-alkmaar/1790248/",
+  "registrado": "10:15 ECU"
+ }
+]

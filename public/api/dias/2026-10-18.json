@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-18",
- "actualizado": "2026-10-18 09:10 ECU (UTC-5)",
+ "actualizado": "2026-10-18 10:17 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-18/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 0,
+  "terminados": 2,
   "total": 43,
   "over15_70": [
-   0,
-   0
+   2,
+   2
   ],
   "over25_senal": [
-   0,
-   0
+   1,
+   1
   ],
   "marcadores_exactos": 0
  },
@@ -95,7 +95,7 @@
     "gc": 1
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -435,8 +435,13 @@
     "gc": 5
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.livescore.com/en/football/netherlands/eredivisie/cambuur-vs-az-alkmaar/1790248/"
   },
   {
    "puesto": 4,
@@ -513,7 +518,7 @@
     "gc": 1
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -851,7 +856,7 @@
     "gc": 12
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -877,7 +882,7 @@
     "gc": 5
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -981,8 +986,13 @@
     "gc": 16
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/osasuna-vencio-2-0-a-racing-de-santander-por-la-liga-de-espana-2026-nid18102026/"
   },
   {
    "puesto": 25,
@@ -1137,7 +1147,7 @@
     "gc": 2
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1163,7 +1173,7 @@
     "gc": 3
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

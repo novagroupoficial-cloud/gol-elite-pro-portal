@@ -493,5 +493,50 @@
   "marcador_exacto": false,
   "fuente": "https://lanacion.com.ar/deportes/canchallena/minnesota-united-fc-vencio-3-2-a-st-louis-city-sc-por-la-mls-nid17102026",
   "registrado": "18:20 ECU"
+ },
+ {
+  "local": "Botafogo",
+  "visita": "Chapecoense",
+  "hora": "16:00",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 79.7,
+  "over25_dado": 55.9,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.dgabc.com.br/Noticia/4353354/botafogo-bate-a-chapecoense-com-gol-de-tiquinho-soares-na-primeira-vitoria-de-tite",
+  "registrado": "19:20 ECU"
+ },
+ {
+  "local": "Atletico MG",
+  "visita": "Coritiba",
+  "hora": "16:30",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 83.2,
+  "over25_dado": 61.2,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.gazetaesportiva.com/times/atletico-mg/atletico-mg-x-coritiba-brasileirao-17-10-2026/",
+  "registrado": "19:20 ECU"
+ },
+ {
+  "local": "Aucas",
+  "visita": "LDU Quito",
+  "hora": "16:30",
+  "resultado": "1-1",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 65.2,
+  "over25_dado": 37.3,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": true,
+  "fuente": "https://www.expreso.ec/deportes/aucas-vs-liga-quito-empate-1-1-superclasico-capitalino-ligapro-2026-299789.html",
+  "registrado": "19:20 ECU"
  }
 ]

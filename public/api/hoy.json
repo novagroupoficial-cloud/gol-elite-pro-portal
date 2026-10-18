@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-17",
- "actualizado": "2026-10-17 18:11 ECU (UTC-5)",
+ "actualizado": "2026-10-17 19:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-17/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 33,
+  "terminados": 36,
   "total": 60,
   "over15_70": [
    19,
-   31
+   33
   ],
   "over25_senal": [
    7,
    10
   ],
-  "marcadores_exactos": 2
+  "marcadores_exactos": 3
  },
  "rango_80_90": [
   {
@@ -405,8 +405,13 @@
     "gc": 28
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.gazetaesportiva.com/times/atletico-mg/atletico-mg-x-coritiba-brasileirao-17-10-2026/"
   },
   {
    "puesto": 23,
@@ -431,7 +436,7 @@
     "gc": 24
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -842,7 +847,7 @@
     "gc": 24
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1230,8 +1235,13 @@
     "gc": 28
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.gazetaesportiva.com/times/atletico-mg/atletico-mg-x-coritiba-brasileirao-17-10-2026/"
   },
   {
    "puesto": 23,
@@ -1256,7 +1266,7 @@
     "gc": 24
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1427,8 +1437,13 @@
     "gc": 28
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.dgabc.com.br/Noticia/4353354/botafogo-bate-a-chapecoense-com-gol-de-tiquinho-soares-na-primeira-vitoria-de-tite"
   },
   {
    "puesto": 30,
@@ -1453,7 +1468,7 @@
     "gc": 21
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1660,7 +1675,7 @@
     "gc": 23
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1769,7 +1784,7 @@
     "gc": 24
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2225,8 +2240,13 @@
     "gc": 13
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.expreso.ec/deportes/aucas-vs-liga-quito-empate-1-1-superclasico-capitalino-ligapro-2026-299789.html"
   },
   {
    "puesto": 58,

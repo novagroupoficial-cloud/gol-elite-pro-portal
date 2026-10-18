@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-17",
- "actualizado": "2026-10-17 22:10 ECU (UTC-5)",
+ "actualizado": "2026-10-17 23:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-17/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 51,
+  "terminados": 55,
   "total": 60,
   "over15_70": [
-   26,
-   43
+   29,
+   46
   ],
   "over25_senal": [
    8,
-   11
+   12
   ],
   "marcadores_exactos": 4
  },
@@ -467,8 +467,13 @@
     "gc": 8
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-5",
+   "goles": 8,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.foxsports.com.mx/2026/10/17/leon-3-5-america-resumen-del-partido-y-goles-del-partido-de-la-jornada-12-apertura-2026-liga-mx/"
   },
   {
    "puesto": 25,
@@ -712,8 +717,13 @@
     "gc": 10
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://vavel.com/mx/futbol-mexicano/2026/10/17/1275492-toluca-vs-san-luis-en-vivo-y-en-directo-liga-mx.html"
   },
   {
    "puesto": 5,
@@ -1312,8 +1322,13 @@
     "gc": 8
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-5",
+   "goles": 8,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.foxsports.com.mx/2026/10/17/leon-3-5-america-resumen-del-partido-y-goles-del-partido-de-la-jornada-12-apertura-2026-liga-mx/"
   },
   {
    "puesto": 25,
@@ -1741,8 +1756,13 @@
     "gc": 10
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-1",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://dsn.pe/posiciones-de-alianza-lima-vs-atletico-grau-asi-quedo-la-tabla-del-clausura-tras-el-3-1-en-matute/"
   },
   {
    "puesto": 39,
@@ -2160,8 +2180,13 @@
     "gc": 9
    },
    "sellado": "2026-10-17 05:55 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.noticiasrcn.com/deportes/once-caldas-vencio-medellin-silbidos-atanasio-1072795"
   },
   {
    "puesto": 53,

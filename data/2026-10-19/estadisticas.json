@@ -1,0 +1,11 @@
+{
+ "fecha": "2026-10-19",
+ "generado_ecuador": "2026-10-19 06:31 ECU (UTC-5)",
+ "fuente_pronosticos": "public/api/hoy.json",
+ "modelo": "GOL ÉLITE PRO 4.0 (Nova Gol 4.0)",
+ "generado_por": "Claude (provisional mientras el Dashboard Gol 4.0 no entregue)",
+ "criterio": "GOL ÉLITE (>= 95), GOLES PLATINO (90-94) y GOLES ESTÁNDAR (80-89), porcentaje redondeado",
+ "aviso": "+18 · Probabilidades estadísticas, no garantías.",
+ "partidos": [],
+ "sin_estadisticas": []
+}

@@ -130,8 +130,16 @@
   "imagen": "/historial/2026-10-18.jpg",
   "resumen": [
    [
-    "3/3",
-    "GOL ÉLITE · Over 1.5"
+    "2/2",
+    "GOL ÉLITE · Over 1.5 (95 % o más)"
+   ],
+   [
+    "2/2",
+    "GOLES PLATINO (90 a 94 %)"
+   ],
+   [
+    "12/14",
+    "GOLES ESTÁNDAR (80 a 89 %)"
    ],
    [
     "26/31",
@@ -155,6 +163,7 @@
    "Alianza Atlético 1-4 Universitario (89,2 % · hubo 5 goles)",
    "Sporting Cristal 4-2 Comerciantes Unidos (86,5 % · hubo 6 goles)"
   ],
-  "partidos": 43
+  "partidos": 43,
+  "nota_escala": "Escala nueva (Marco, 17-oct-2026) con porcentaje redondeado; corregido el 19-oct porque la auditoría automática salió con la escala anterior."
  }
 ]

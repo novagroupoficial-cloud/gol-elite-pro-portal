@@ -928,5 +928,32 @@
    "marcador_exacto": false,
    "fuente": "https://futboltotal.futbol/partido/deportivo-cali-vs-junior-primera-a-2026-10-19"
   }
- ]
+ ],
+ "resumen_escala_nueva": {
+  "GOL ÉLITE (95+)": [
+   2,
+   2
+  ],
+  "GOLES PLATINO (90-94)": [
+   2,
+   2
+  ],
+  "GOLES ESTÁNDAR (80-89)": [
+   12,
+   14
+  ],
+  "GOLES OPTIMISTAS (<80)": [
+   21,
+   25
+  ],
+  "Over 2.5 con señal >=65": [
+   7,
+   9
+  ],
+  "Marcadores exactos": [
+   3,
+   43
+  ],
+  "nota": "porcentaje redondeado (,5 sube); agregado el 19-oct"
+ }
 }

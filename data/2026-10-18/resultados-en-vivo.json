@@ -598,5 +598,20 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/belgrano-cordoba-vs-river-plate-liga-profesional-argentina-2026-10-19",
   "registrado": "21:15 ECU"
+ },
+ {
+  "local": "Cienciano",
+  "visita": "UTC",
+  "hora": "18:30",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 80.6,
+  "over25_dado": 57.1,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://dsn.pe/posiciones-de-cienciano-contra-utc-asi-queda-la-tabla-del-clausura-tras-el-triunfo-por-1-0-en-cusco/",
+  "registrado": "22:15 ECU"
  }
 ]

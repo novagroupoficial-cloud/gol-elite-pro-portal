@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-18",
- "actualizado": "2026-10-18 21:11 ECU (UTC-5)",
+ "actualizado": "2026-10-18 22:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-18/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 40,
+  "terminados": 41,
   "total": 43,
   "over15_70": [
    25,
-   28
+   29
   ],
   "over25_senal": [
    7,
@@ -379,8 +379,13 @@
     "gc": 14
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://dsn.pe/posiciones-de-cienciano-contra-utc-asi-queda-la-tabla-del-clausura-tras-el-triunfo-por-1-0-en-cusco/"
   },
   {
    "puesto": 16,
@@ -867,8 +872,13 @@
     "gc": 14
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://dsn.pe/posiciones-de-cienciano-contra-utc-asi-queda-la-tabla-del-clausura-tras-el-triunfo-por-1-0-en-cusco/"
   },
   {
    "puesto": 16,

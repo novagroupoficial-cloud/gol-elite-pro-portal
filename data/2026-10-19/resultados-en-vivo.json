@@ -1,0 +1,17 @@
+[
+ {
+  "local": "Monza",
+  "visita": "Cagliari",
+  "hora": "11:30",
+  "resultado": "4-0",
+  "goles": 4,
+  "estado": "terminado",
+  "over15_dado": 76.0,
+  "over25_dado": 50.5,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://sport.quotidiano.net/calcio/monza/monza-cagliari-4-0-i-brianzoli-calano-il-poker-contro-i-sardi-d048db81",
+  "registrado": "14:20 ECU"
+ }
+]

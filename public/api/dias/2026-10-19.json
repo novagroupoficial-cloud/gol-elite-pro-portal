@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-19",
- "actualizado": "2026-10-19 13:10 ECU (UTC-5)",
+ "actualizado": "2026-10-19 14:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-19/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 0,
+  "terminados": 1,
   "total": 10,
   "over15_70": [
-   0,
-   0
+   1,
+   1
   ],
   "over25_senal": [
    0,
@@ -44,7 +44,7 @@
     "gc": 12
    },
    "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -70,8 +70,13 @@
     "gc": 1
    },
    "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-0",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sport.quotidiano.net/calcio/monza/monza-cagliari-4-0-i-brianzoli-calano-il-poker-contro-i-sardi-d048db81"
   },
   {
    "puesto": 3,
@@ -122,7 +127,7 @@
     "gc": 4
    },
    "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -226,7 +231,7 @@
     "gc": 4
    },
    "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

@@ -628,5 +628,20 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/deportivo-cali-vs-junior-primera-a-2026-10-19",
   "registrado": "23:15 ECU"
+ },
+ {
+  "local": "Monterrey",
+  "visita": "Pachuca",
+  "hora": "20:00",
+  "resultado": "2-1",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 72.4,
+  "over25_dado": 45.7,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.foxsports.com.mx/2026/10/18/monterrey-2-1-pachuca-resultado-del-partido-jornada-12-del-apertura-2026-liga-mx-goles/",
+  "registrado": "00:15 ECU (19-oct)"
  }
 ]

@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-18",
- "actualizado": "2026-10-18 23:11 ECU (UTC-5)",
+ "actualizado": "2026-10-19 00:17 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-18/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 42,
+  "terminados": 43,
   "total": 43,
   "over15_70": [
-   25,
-   30
+   26,
+   31
   ],
   "over25_senal": [
    7,
@@ -1316,8 +1316,13 @@
     "gc": 3
    },
    "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.foxsports.com.mx/2026/10/18/monterrey-2-1-pachuca-resultado-del-partido-jornada-12-del-apertura-2026-liga-mx-goles/"
   },
   {
    "puesto": 30,

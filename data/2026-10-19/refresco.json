@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-19",
- "ultima_ejecucion": "2026-10-19 10:13 ECU",
- "ultima_ok": "2026-10-19 10:13 ECU",
+ "ultima_ejecucion": "2026-10-19 11:11 ECU",
+ "ultima_ok": "2026-10-19 11:11 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-19 05:24 ECU",
  "pendientes": [
@@ -12,12 +12,12 @@
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "10:13 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
+  "ultima_revision": "11:11 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
  },
  "avisos_enviados": [
   "cierre_del_dia_2026-10-18",
   "bloqueo"
  ],
- "web_sin_lectura_seguidas": 61,
- "nota": "05:10: antes de 08:00 ECU, sin pronósticos del 19 (rutina diaria 05:24 aún no corre); sin partidos que registrar ni ranking que regenerar (refresco.py requiere pronosticos.json). Portal en vivo sin verificar (permiso WebFetch). Aviso de bloqueo ya enviado hoy. | 05:55: rutina diaria hecha: 10 pronósticos sellados 05:38, auditoría 18-oct (26/31 Over 1.5 ≥70), galería y kit de redes. | 06:20: ranking del día regenerado (10 partidos, ninguno iniciado; primero Monza-Cagliari 11:30). Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 07:12: ranking regenerado (10 partidos, ninguno iniciado; primero Monza-Cagliari 11:30). Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 08:20: ranking regenerado (10 partidos, ninguno iniciado; primero Monza-Cagliari 11:30). Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 09:16: ranking regenerado (10 partidos, ninguno iniciado; primero Monza-Cagliari 11:30). Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 10:13: ranking regenerado (10 partidos, ninguno iniciado; primero Monza-Cagliari 11:30). Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy."
+ "web_sin_lectura_seguidas": 62,
+ "nota": "05:10: antes de 08:00 ECU, sin pronósticos del 19 (rutina diaria 05:24 aún no corre); sin partidos que registrar ni ranking que regenerar (refresco.py requiere pronosticos.json). Portal en vivo sin verificar (permiso WebFetch). Aviso de bloqueo ya enviado hoy. | 05:55: rutina diaria hecha: 10 pronósticos sellados 05:38, auditoría 18-oct (26/31 Over 1.5 ≥70), galería y kit de redes. | 06:20: ranking del día regenerado (10 partidos, ninguno iniciado; primero Monza-Cagliari 11:30). Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 07:12: ranking regenerado (10 partidos, ninguno iniciado; primero Monza-Cagliari 11:30). Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 08:20: ranking regenerado (10 partidos, ninguno iniciado; primero Monza-Cagliari 11:30). Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 09:16: ranking regenerado (10 partidos, ninguno iniciado; primero Monza-Cagliari 11:30). Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 10:13: ranking regenerado (10 partidos, ninguno iniciado; primero Monza-Cagliari 11:30). Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 11:11: ranking regenerado (10 partidos, ninguno iniciado; primero Monza-Cagliari 11:30). Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy."
 }

@@ -13,5 +13,20 @@
   "marcador_exacto": false,
   "fuente": "https://sport.quotidiano.net/calcio/monza/monza-cagliari-4-0-i-brianzoli-calano-il-poker-contro-i-sardi-d048db81",
   "registrado": "14:20 ECU"
+ },
+ {
+  "local": "Parma",
+  "visita": "Torino",
+  "hora": "13:45",
+  "resultado": "0-3",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 71.0,
+  "over25_dado": 44.0,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/parma-vs-torino-serie-a-2026-10-19",
+  "registrado": "16:12 ECU"
  }
 ]

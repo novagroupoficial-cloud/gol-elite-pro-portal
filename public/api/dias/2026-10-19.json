@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-19",
- "actualizado": "2026-10-19 15:10 ECU (UTC-5)",
+ "actualizado": "2026-10-19 16:10 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-19/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 1,
+  "terminados": 2,
   "total": 10,
   "over15_70": [
-   1,
-   1
+   2,
+   2
   ],
   "over25_senal": [
    0,
@@ -127,8 +127,13 @@
     "gc": 4
    },
    "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-3",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/parma-vs-torino-serie-a-2026-10-19"
   },
   {
    "puesto": 5,
@@ -179,7 +184,7 @@
     "gc": 27
    },
    "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

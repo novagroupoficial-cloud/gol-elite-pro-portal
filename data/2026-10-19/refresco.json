@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-19",
- "ultima_ejecucion": "2026-10-19 00:17 ECU",
- "ultima_ok": "2026-10-19 00:17 ECU",
+ "ultima_ejecucion": "2026-10-19 01:18 ECU",
+ "ultima_ok": "2026-10-19 01:18 ECU",
  "rutina_diaria": "pendiente",
  "rutina_diaria_inicio": null,
  "pendientes": [
@@ -12,12 +12,12 @@
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "00:17 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
+  "ultima_revision": "01:18 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
  },
  "avisos_enviados": [
   "cierre_del_dia_2026-10-18",
   "bloqueo"
  ],
- "web_sin_lectura_seguidas": 52,
- "nota": "00:17: Monterrey 2-1 Pachuca registrado en data/2026-10-18 (foxsports, crónica final): Over 1.5 ✔, Over 2.5 ✔. Jornada del 18 cerrada 43/43: Over 1.5 70 %+ 26/31, Over 2.5 con señal 7/9, 3 marcadores exactos. Antes de 08:00 ECU, sin pronósticos del 19 aún (la rutina diaria de las 05:24 no ha corrido). Portal en vivo sin verificar (permiso WebFetch)."
+ "web_sin_lectura_seguidas": 53,
+ "nota": "01:18: antes de 08:00 ECU, sin pronósticos del 19 (rutina diaria 05:24 aún no corre); sin partidos que registrar ni ranking que regenerar. Portal en vivo sin verificar (permiso WebFetch). Aviso de bloqueo ya enviado hoy."
 }

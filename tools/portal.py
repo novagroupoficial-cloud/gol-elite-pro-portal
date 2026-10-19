@@ -44,7 +44,7 @@ def extra(p):
         h+=f'''<div class="nga-g" style="margin-top:12px"><div><b>Ambos marcan</b><span>{pc(m['ambos_marcan'])} %</span></div><div><b>Over 3.5</b><span>{pc(m['over35'])} %</span></div>
 <div><b>1X2</b><span>{e(n(p['local']))} {pc(m['gana_local'])} % · empate {pc(m['empate'])} % · {e(n(p['visita']))} {pc(m['gana_visit'])} %</span></div>
 <div><b>Marcadores más probables</b><span>{', '.join(f"{a} ({pc(v)} %)" for a,v in m['marcadores_top6'][:3])}</span></div></div>'''
-        if nt: h+=f'''<div class="noti"><b>📰 La noticia del partido · {e(nt['titular'])}</b><p>{e(nt['texto'])}</p><a href="{e(nt['url'])}" target="_blank" rel="noopener">Fuente: {e(nt['fuente'])} ↗</a></div>'''
+    if nt: h+=f'''<div class="noti"><b>📰 La noticia del partido · {e(nt['titular'])}</b><p>{e(nt['texto'])}</p><a href="{e(nt['url'])}" target="_blank" rel="noopener">Fuente: {e(nt['fuente'])} ↗</a></div>'''
     return h
 def stats(p):
     pjL,gfL,gcL=p['casa']; pjV,gfV,gcV=p['fuera']
@@ -67,11 +67,16 @@ def img(p):
 {nombre(a,50,ink(ca))}{nombre(b,124,ink(cb))}
 <circle cx="292" cy="75" r="18" fill="#0e1c16"/><text x="292" y="82" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="18" fill="#e0b34a">VS</text>
 <text x="18" y="18" font-family="IBM Plex Sans,sans-serif" font-weight="600" font-size="11" fill="{ink(ca)}" opacity=".85">{NOM[p['liga']].upper()} · {p['hora']} ECU</text></svg>"""
+def dato(k):
+    nt=_NOT.get(k)
+    if not nt: return ''
+    fu=f'<a href="{e(nt["url"])}" target="_blank" rel="noopener">{e(nt["fuente"])}</a>' if not nt['url'].startswith('https://gol-elite-pro') else e(nt['fuente'])
+    return f'<p class="dato"><b>📰 {e(nt["titular"].capitalize())}.</b> {e(nt["texto"])} <small>({fu})</small></p>'
 def card(k,big=False):
     p=idx[k]; tit,medio,url=LINK[k]
     return f'''<article class="news {'big' if big else ''}" data-ko="{p['hora']}"><a class="nl" href="{url}" target="_blank" rel="noopener">{img(p)}</a>
 <div class="nb"><div class="news-top">{chips(p)}<span class="live" hidden>En juego / jugado</span></div>
-<h3><a href="{url}" target="_blank" rel="noopener">{e(tit)}</a></h3>
+<h3><a href="{url}" target="_blank" rel="noopener">{e(tit)}</a></h3>{dato(k)}
 <div class="src">{e(medio)} · <a href="{url}" target="_blank" rel="noopener">Leer la noticia ↗</a></div>
 <div class="odds"><div class="odd"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div></div></article>'''
 top=max(P,key=lambda p:p['over15'])
@@ -159,7 +164,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 .lg{{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}}
 .teams{{font-weight:600}} .teams span{{color:var(--muted);font-weight:400}}
 .badge{{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:2px 8px;border-radius:3px;background:var(--odd);color:var(--acc)}}
-.badge.elite{{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#1b1403}} .noti{{margin-top:10px;padding:10px 12px;border:1px solid var(--gold);border-radius:8px;background:var(--gold-bg)}} .noti b{{color:var(--gold2)}} .noti p{{margin:4px 0;color:var(--ink)}} .noti a{{font-size:12px;color:var(--gold)}} .badge.plat{{background:linear-gradient(180deg,#f4f7f6,#aebbb6);color:#101815}} .badge.r70{{color:var(--muted)}} .badge.r00{{color:var(--chip0);background:transparent;border:1px solid var(--line)}}
+.badge.elite{{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#1b1403}} .dato{{margin:6px 0 8px;font-size:13px;line-height:1.4;color:var(--muted)}} .dato b{{color:var(--gold)}} .dato small a{{color:var(--muted)}} .noti{{margin-top:10px;padding:10px 12px;border:1px solid var(--gold);border-radius:8px;background:var(--gold-bg)}} .noti b{{color:var(--gold2)}} .noti p{{margin:4px 0;color:var(--ink)}} .noti a{{font-size:12px;color:var(--gold)}} .badge.plat{{background:linear-gradient(180deg,#f4f7f6,#aebbb6);color:#101815}} .badge.r70{{color:var(--muted)}} .badge.r00{{color:var(--chip0);background:transparent;border:1px solid var(--line)}}
 .live{{font-size:12px;font-weight:700;color:#c0392b}}
 .odds{{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:4px}}
 .odd{{background:var(--odd);border-radius:4px;padding:6px 8px;display:grid;text-align:center;gap:0}}

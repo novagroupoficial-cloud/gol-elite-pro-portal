@@ -1,0 +1,67 @@
+{
+ "fecha": "2026-10-19",
+ "generado_ecuador": "2026-10-19 06:45 ECU (UTC-5)",
+ "nota": "Noticia de referencia por partido (sección Noticias del portal).",
+ "partidos": {
+  "Getafe|Rayo Vallecano": {
+   "titular": "GETAFE NO LE GANA AL RAYO",
+   "texto": "Getafe no le gana al Rayo en los últimos 6 duelos (3 victorias del Rayo y 3 empates) y viene de caer 3-0 en Barcelona.",
+   "fuente": "Futbol Total",
+   "url": "https://futboltotal.futbol/partido/getafe-vs-rayo-vallecano-la-liga-2026-10-19"
+  },
+  "Tottenham Hotspur|Coventry City": {
+   "titular": "TOTTENHAM, COLISTA Y SIN BENTANCUR",
+   "texto": "Tottenham es último, no gana en 6 jornadas y solo marcó 3 goles; Bentancur está suspendido. Coventry viene de 2 victorias seguidas, incluido un 4-1 al Newcastle.",
+   "fuente": "The Stats Zone",
+   "url": "https://www.thestatszone.com/tottenham-vs-coventry-preview-team-news-prediction-2026-27-english-premier-league-230568"
+  },
+  "Monza|Cagliari": {
+   "titular": "CAGLIARI, 4 SIN PERDER",
+   "texto": "Cagliari suma 4 partidos de liga sin perder (3 victorias y un 1-1 con la Juventus). Monza viene de caer 3-1 en Roma ante la Lazio.",
+   "fuente": "Futbol Total",
+   "url": "https://futboltotal.futbol/partido/monza-vs-cagliari-serie-a-2026-10-19"
+  },
+  "Parma|Torino": {
+   "titular": "EL ÚLTIMO FUE 4-1",
+   "texto": "En el último duelo Torino goleó 4-1 al Parma. Parma viene de perder 0-3 con el Inter; Torino ganó 2-1 al Udinese.",
+   "fuente": "Futbol Total",
+   "url": "https://futboltotal.futbol/partido/parma-vs-torino-serie-a-2026-10-19"
+  },
+  "Corinthians|Vitória": {
+   "titular": "CORINTHIANS, 8 DERROTAS SEGUIDAS",
+   "texto": "Corinthians encadena 8 derrotas seguidas y es 16.º con 32 puntos, a 4 del Vitória (13.º). En la ida empataron 0-0.",
+   "fuente": "Valor Final",
+   "url": "https://valorfinal.com.br/brasileirao/2026/jogos/corinthians-x-vitoria"
+  },
+  "Deportivo Riestra|Union Santa Fe": {
+   "titular": "UNIÓN, 4 DERROTAS AL HILO",
+   "texto": "Unión perdió sus últimos 4 partidos (incluido un 3-0 ante Boca). Riestra no gana en sus últimos 5.",
+   "fuente": "Futbol Total",
+   "url": "https://futboltotal.futbol/partido/deportivo-riestra-vs-union-santa-fe-liga-profesional-argentina-2026-10-20"
+  },
+  "Newells Old Boys|Central Cordoba SdE": {
+   "titular": "CENTRAL CÓRDOBA, 3 EMPATES SEGUIDOS",
+   "texto": "Central Córdoba empató sus últimos 3 (2-2, 1-1 y 2-2). En la ida Newell's ganó 3-1 en Santiago del Estero.",
+   "fuente": "Futbol Total",
+   "url": "https://futboltotal.futbol/partido/newells-old-boys-vs-central-cordoba-de-santiago-liga-profesional-argentina-2026-10-20"
+  },
+  "Mushuc Runa|Orense": {
+   "titular": "ORENSE, MUY GOLEADO DE VISITA",
+   "texto": "Orense recibió 27 goles en 16 partidos de visitante (1,7 por partido).",
+   "fuente": "Tablas local y visitante, cálculo GOL ÉLITE PRO",
+   "url": "https://gol-elite-pro.netlify.app/"
+  },
+  "Sarmiento|Barracas Central": {
+   "titular": "PARTIDO DE POCOS GOLES",
+   "texto": "Barracas Central recibe 0,8 goles por partido de visita y Sarmiento marca 1,7 en casa: el modelo espera 2,2 goles.",
+   "fuente": "Tablas local y visitante, cálculo GOL ÉLITE PRO",
+   "url": "https://gol-elite-pro.netlify.app/"
+  },
+  "Pasto|Alianza (ex Alianza Petrolera)": {
+   "titular": "PASTO, POCO GOL EN CASA",
+   "texto": "Pasto marcó solo 3 goles en 6 partidos de local; Alianza recibe 1,8 por partido de visita.",
+   "fuente": "Tablas local y visitante, cálculo GOL ÉLITE PRO",
+   "url": "https://gol-elite-pro.netlify.app/"
+  }
+ }
+}

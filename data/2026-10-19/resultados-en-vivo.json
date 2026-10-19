@@ -28,5 +28,35 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/parma-vs-torino-serie-a-2026-10-19",
   "registrado": "16:12 ECU"
+ },
+ {
+  "local": "Tottenham Hotspur",
+  "visita": "Coventry City",
+  "hora": "14:00",
+  "resultado": "3-1",
+  "goles": 4,
+  "estado": "terminado",
+  "over15_dado": 63.2,
+  "over25_dado": 35.1,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/tottenham-vs-coventry-premier-league-2026-10-19",
+  "registrado": "17:10 ECU"
+ },
+ {
+  "local": "Getafe",
+  "visita": "Rayo Vallecano",
+  "hora": "14:00",
+  "resultado": "1-1",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 77.0,
+  "over25_dado": 52.0,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": true,
+  "fuente": "https://futboltotal.futbol/partido/getafe-vs-rayo-vallecano-la-liga-2026-10-19",
+  "registrado": "17:10 ECU"
  }
 ]

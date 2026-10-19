@@ -1,13 +1,13 @@
 {
  "fecha": "2026-10-19",
- "actualizado": "2026-10-19 17:10 ECU (UTC-5)",
+ "actualizado": "2026-10-19 18:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-19/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 4,
+  "terminados": 5,
   "total": 10,
   "over15_70": [
    3,
@@ -163,7 +163,7 @@
     "gc": 32
    },
    "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -189,8 +189,13 @@
     "gc": 27
    },
    "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.eldiario.ec/deportes/reparto-de-puntos-en-echaleche-mushuc-runa-igualo-con-orense-en-el-torneo-por-la-permanencia-en-la-a-19102026"
   },
   {
    "puesto": 7,

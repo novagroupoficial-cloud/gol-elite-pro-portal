@@ -58,5 +58,21 @@
   "marcador_exacto": true,
   "fuente": "https://futboltotal.futbol/partido/getafe-vs-rayo-vallecano-la-liga-2026-10-19",
   "registrado": "17:10 ECU"
+ },
+ {
+  "local": "Mushuc Runa",
+  "visita": "Orense",
+  "hora": "15:30",
+  "resultado": "1-1",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 66.3,
+  "over25_dado": 38.5,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.eldiario.ec/deportes/reparto-de-puntos-en-echaleche-mushuc-runa-igualo-con-orense-en-el-torneo-por-la-permanencia-en-la-a-19102026",
+  "fuente_2": "https://studiofutbol.com.ec/2026/10/19/mushuc-runa-y-orense-repartieron-puntos-asi-quedo-el-hexagonal-del-descenso/",
+  "registrado": "18:15 ECU"
  }
 ]

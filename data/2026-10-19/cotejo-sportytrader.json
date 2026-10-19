@@ -1,0 +1,20 @@
+{
+ "fecha": "2026-10-19",
+ "cotejado": "2026-10-19 06:55 ECU",
+ "fuente": "Capturas de SportyTrader enviadas por Marco (hora de Ecuador)",
+ "coinciden_fecha_y_hora": ["Tottenham-Coventry 14:00", "Sarmiento-Barracas Central 17:00", "Newells-Central Cordoba 17:00", "Deportivo Riestra-Union Santa Fe 19:15"],
+ "horas_distintas": [],
+ "sellados_no_mostrados_en_capturas_pero_confirmados_hoy": {
+  "Getafe-Rayo Vallecano 14:00": "https://futboltotal.futbol/partido/getafe-vs-rayo-vallecano-la-liga-2026-10-19",
+  "Monza-Cagliari 11:30": "https://futboltotal.futbol/partido/monza-vs-cagliari-serie-a-2026-10-19",
+  "Parma-Torino 13:45": "https://futboltotal.futbol/partido/parma-vs-torino-serie-a-2026-10-19",
+  "Corinthians-Vitoria 18:00 (20:00 Brasilia)": "https://valorfinal.com.br/brasileirao/2026/jogos/corinthians-x-vitoria",
+  "Mushuc Runa-Orense 15:30": "https://starting11.com/fixtures/mushuc-runa-sc-vs-orense-sc",
+  "Pasto-Alianza 20:05": "https://gainblers.com/co/apuestas/futbol/colombia/primera-a/pasto-alianza/ (21:05 en UTC-4)"
+ },
+ "en_sportytrader_sin_pronostico": {
+  "SC Braga-Gil Vicente 14:15 (Liga Portugal)": "sin tabla local/visitante verificable (solo tabla general al 12-oct)",
+  "Nacional-Deportivo Maldonado 18:00 (Uruguay)": "sin tabla local/visitante verificable",
+  "Antigua GFC-Xelaju MC 20:00 (Guatemala)": "sin tabla local/visitante verificable"
+ }
+}

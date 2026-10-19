@@ -553,5 +553,20 @@
   "marcador_exacto": false,
   "fuente": "https://studiofutbol.com.ec/2026/10/18/video-barcelona-sc-rescato-un-empate-en-un-final-de-infarto-ante-catolica/",
   "registrado": "19:10 ECU"
+ },
+ {
+  "local": "Remo",
+  "visita": "Bragantino",
+  "hora": "17:30",
+  "resultado": "1-1",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 65.9,
+  "over25_dado": 38.1,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": true,
+  "fuente": "https://futboltotal.futbol/partido/remo-vs-rb-bragantino-campeonato-brasileno-de-serie-a-2026-10-18",
+  "registrado": "20:13 ECU"
  }
 ]

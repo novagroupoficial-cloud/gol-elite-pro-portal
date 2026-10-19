@@ -568,5 +568,35 @@
   "marcador_exacto": true,
   "fuente": "https://futboltotal.futbol/partido/remo-vs-rb-bragantino-campeonato-brasileno-de-serie-a-2026-10-18",
   "registrado": "20:13 ECU"
+ },
+ {
+  "local": "Llaneros",
+  "visita": "Santa Fe",
+  "hora": "18:05",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 75.3,
+  "over25_dado": 49.5,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/llaneros-vs-santa-fe-primera-a-2026-10-18",
+  "registrado": "21:15 ECU"
+ },
+ {
+  "local": "Belgrano",
+  "visita": "River Plate",
+  "hora": "18:15",
+  "resultado": "0-3",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 69.7,
+  "over25_dado": 42.5,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/belgrano-cordoba-vs-river-plate-liga-profesional-argentina-2026-10-19",
+  "registrado": "21:15 ECU"
  }
 ]

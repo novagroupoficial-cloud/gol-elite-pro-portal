@@ -613,5 +613,20 @@
   "marcador_exacto": false,
   "fuente": "https://dsn.pe/posiciones-de-cienciano-contra-utc-asi-queda-la-tabla-del-clausura-tras-el-triunfo-por-1-0-en-cusco/",
   "registrado": "22:15 ECU"
+ },
+ {
+  "local": "Deportivo Cali",
+  "visita": "Junior",
+  "hora": "20:10",
+  "resultado": "0-0",
+  "goles": 0,
+  "estado": "terminado",
+  "over15_dado": 88.0,
+  "over25_dado": 69.7,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/deportivo-cali-vs-junior-primera-a-2026-10-19",
+  "registrado": "23:15 ECU"
  }
 ]

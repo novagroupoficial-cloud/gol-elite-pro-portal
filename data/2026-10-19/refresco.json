@@ -2,8 +2,8 @@
  "fecha": "2026-10-19",
  "ultima_ejecucion": "2026-10-19 05:10 ECU",
  "ultima_ok": "2026-10-19 05:10 ECU",
- "rutina_diaria": "pendiente",
- "rutina_diaria_inicio": null,
+ "rutina_diaria": "hecha",
+ "rutina_diaria_inicio": "2026-10-19 05:24 ECU",
  "pendientes": [
   "Kit de redes del 16-oct no generado.",
   "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso sin respuesta.",
@@ -19,5 +19,5 @@
   "bloqueo"
  ],
  "web_sin_lectura_seguidas": 56,
- "nota": "05:10: antes de 08:00 ECU, sin pronósticos del 19 (rutina diaria 05:24 aún no corre); sin partidos que registrar ni ranking que regenerar (refresco.py requiere pronosticos.json). Portal en vivo sin verificar (permiso WebFetch). Aviso de bloqueo ya enviado hoy."
+ "nota": "05:10: antes de 08:00 ECU, sin pronósticos del 19 (rutina diaria 05:24 aún no corre); sin partidos que registrar ni ranking que regenerar (refresco.py requiere pronosticos.json). Portal en vivo sin verificar (permiso WebFetch). Aviso de bloqueo ya enviado hoy. | 05:55: rutina diaria hecha: 10 pronósticos sellados 05:38, auditoría 18-oct (26/31 Over 1.5 ≥70), galería y kit de redes."
 }

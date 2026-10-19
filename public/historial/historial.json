@@ -123,5 +123,38 @@
    "Cruz Azul 5-0 FC Juárez (91,2 % · hubo 5 goles)"
   ],
   "partidos": 60
+ },
+ {
+  "fecha": "2026-10-18",
+  "titulo": "Domingo 18 de octubre de 2026",
+  "imagen": "/historial/2026-10-18.jpg",
+  "resumen": [
+   [
+    "3/3",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "26/31",
+    "Over 1.5 de 70 % o más (84 %)"
+   ],
+   [
+    "7/9",
+    "Over 2.5 con señal (78 %)"
+   ],
+   [
+    "3/43",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Over 1.5 de 70 % o más que fallaron (5): Deportivo Cali 0-0 Junior (88,0 %), Cienciano 1-0 UTC (80,6 %), FC Cajamarca 0-1 Moquegua (75,4 %), Llaneros 1-0 Santa Fe (75,3 %) y Lorient 1-0 Mónaco (71,2 %). Over 2.5 con señal que fallaron: FC Cincinnati 0-2 Columbus Crew (87,2 %; hubo 2 goles) y Deportivo Cali 0-0 Junior (69,7 %).",
+  "aciertos_destacados": [
+   "M'gladbach 1-2 Hoffenheim (partido del día · Over 1.5 al 96,6 % · hubo 3 goles)",
+   "FC Cincinnati 0-2 Columbus Crew (96,2 % · hubo 2 goles)",
+   "Cambuur 2-2 AZ (92,6 % · hubo 4 goles)",
+   "Groningen 2-5 Ajax (88,9 % · hubo 7 goles)",
+   "Alianza Atlético 1-4 Universitario (89,2 % · hubo 5 goles)",
+   "Sporting Cristal 4-2 Comerciantes Unidos (86,5 % · hubo 6 goles)"
+  ],
+  "partidos": 43
  }
 ]

@@ -1,14 +1,14 @@
 {
- "local": "Borussia Monchengladbach",
- "fecha_larga": "Domingo 18 de octubre de 2026",
- "desde": "06:13",
+ "local": "Getafe",
+ "fecha_larga": "Lunes 19 de octubre de 2026",
+ "desde": "05:38",
  "contexto": [
-  "Bundesliga, jornada 6 · 10:30 hora de Ecuador, en el Borussia-Park.",
-  "Gladbach es último con 0 puntos tras 5 derrotas: 7 goles a favor y 18 en contra; en casa sus partidos promedian 7 goles (Sports Mole).",
-  "Hoffenheim (17.º, 3 puntos) perdió sus 4 últimos partidos y fuera recibe 3 goles por partido (Sports Mole)."
+  "LaLiga, jornada 9 · 14:00 ECU en el Coliseum (Fútbol Total).",
+  "Rayo fuera: 12 goles en contra en 4 partidos.",
+  "Últimos 6 duelos: 3 triunfos de Rayo y 3 empates (Fútbol Total)."
  ],
  "auditoria": {
-  "titulo": "Sábado 17 de octubre · 60 partidos auditados con resultado final y fuente",
+  "titulo": "Domingo 18 de octubre · 43 partidos auditados con resultado final y fuente",
   "tiles": [
    [
     "1/1",
@@ -16,31 +16,31 @@
     "oro"
    ],
    [
-    "9/9",
+    "3/3",
     "GOL ÉLITE · Over 1.5 (90 %+)",
     "verde"
    ],
    [
-    "33/51",
-    "Over 1.5 de 70 % o más (65 %)",
+    "26/31",
+    "Over 1.5 de 70 % o más (84 %)",
     ""
    ],
    [
-    "69/93",
-    "Galería: Over 1.5 de 70 % o más (74 %)",
+    "95/124",
+    "Galería: Over 1.5 de 70 % o más (77 %)",
     "dor"
    ]
   ],
-  "nota": "Partido del día: Telstar 3-4 Feyenoord ✔ (dimos Over 1.5 al 95 %; hubo 7 goles). Fallos: Hamburgo 1-0 Stuttgart (90 %; hubo 1 gol), Villarreal 0-0 Elche (88 %; 0 goles), Union Berlin 0-0 Dortmund (88 %; 0 goles) y 15 más de 70 % o más. Publicamos aciertos y fallos."
+  "nota": "Partido del día: M'gladbach 1-2 Hoffenheim ✔ (dimos Over 1.5 al 97 %; hubo 3 goles). Fallos: Deportivo Cali 0-0 Junior (88 %; 0 goles), Cienciano 1-0 UTC (81 %; 1 gol) y 3 más de 70 % o más. Publicamos aciertos y fallos."
  },
  "acierto": {
-  "fecha": "sábado 17 de octubre",
-  "local": "Telstar",
-  "visita": "Feyenoord",
-  "liga": "Eredivisie · jornada 9",
-  "resultado": "3-4",
-  "goles": "7",
-  "over15": "94,8",
-  "sellado": "05:55 ECU del 17-oct"
+  "fecha": "domingo 18 de octubre",
+  "local": "Borussia Monchengladbach",
+  "visita": "Hoffenheim",
+  "liga": "Bundesliga · jornada 6",
+  "resultado": "1-2",
+  "goles": "3",
+  "over15": "96,6",
+  "sellado": "06:13 ECU del 18-oct"
  }
 }

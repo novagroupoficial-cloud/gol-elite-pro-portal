@@ -496,3 +496,47 @@ LLEGAN={
    "Twente solo perdió en la jornada 1 de esta Eredivisie.",
    "Fuentes: Sports Mole (tabla de local y visitante y previa)."],
 }
+
+# ---- Lunes 19-oct-2026 (rutina diaria, sellado 05:38 ECU) ----
+# LINK: una previa real publicada por partido (titular en español, medio y enlace a la nota original).
+LINK={
+ 'Monza|Cagliari':("Monza vs Cagliari: horario y TV de la jornada 7 de la Serie A","Fútbol Total","https://futboltotal.futbol/partido/monza-vs-cagliari-serie-a-1550153"),
+ 'Parma|Torino':("Parma-Torino, probables alineaciones: vuelve Bernabé y Kulenovic arranca en el banco","TuttoMercatoWeb","https://www.tuttomercatoweb.com/probabili-formazioni/parma-torino-probabili-formazioni-2283912"),
+ 'Tottenham Hotspur|Coventry City':("Tottenham vs Coventry: previa, novedades de los equipos y pronóstico de la jornada 7","The Stats Zone","https://www.thestatszone.com/tottenham-vs-coventry-preview-team-news-prediction-2026-27-english-premier-league-230568"),
+ 'Getafe|Rayo Vallecano':("Getafe vs Rayo Vallecano: horario, TV y alineaciones previstas de la jornada 9","Fútbol Total","https://futboltotal.futbol/partido/getafe-vs-rayo-vallecano-la-liga-2026-10-19"),
+ 'Mushuc Runa|Orense':("Mushuc Runa vs Orense: previa, horario y cómo llegan a la fecha 3","Anecdotarios","https://anecdotarios.com/2026/10/17/mushuc-runa-vs-orense-previa-horario-y-como-llegan-para-la-fecha-3-del-torneo-ecuatoriano/"),
+ 'Newells Old Boys|Central Cordoba SdE':("Partidos de hoy, lunes 19 de octubre: Newell's vs Central Córdoba, horario y TV","Noticias de Bariloche","https://www.noticiasdebariloche.com.ar/partidos-de-futbol-de-hoy-lunes-19-de-octubre-horario-y-como-ver-por-tv-y-online/"),
+ 'Sarmiento|Barracas Central':("Partidos de hoy, lunes 19 de octubre: Sarmiento vs Barracas Central, horario y TV","Noticias de Bariloche","https://www.noticiasdebariloche.com.ar/partidos-de-futbol-de-hoy-lunes-19-de-octubre-horario-y-como-ver-por-tv-y-online/"),
+ 'Corinthians|Vitória':("Corinthians vs Vitória: previa de la jornada 31 del Brasileirão","Fútbol Total","https://futboltotal.futbol/partido/corinthians-vs-vitoria-brasileirao-2026-10-20"),
+ 'Deportivo Riestra|Union Santa Fe':("Partidos de hoy, lunes 19 de octubre: Riestra vs Unión, horario y TV","Noticias de Bariloche","https://www.noticiasdebariloche.com.ar/partidos-de-futbol-de-hoy-lunes-19-de-octubre-horario-y-como-ver-por-tv-y-online/"),
+ 'Pasto|Alianza (ex Alianza Petrolera)':("Liga BetPlay 2026-II: programación completa de la fecha 15, horarios y dónde ver","Vanguardia","https://www.vanguardia.com/deportes/futbol/2026/10/17/liga-betplay-2026-ii-programacion-de-la-fecha-15-con-bucaramanga-america-como-uno-de-los-partidos-destacados/"),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Getafe|Rayo Vallecano','Tottenham Hotspur|Coventry City','Mushuc Runa|Orense','Corinthians|Vitória']
+COL.update({'Cagliari':'#9b1b30','Parma':'#ffd200','Torino':'#8b1a1a','Tottenham Hotspur':'#ffffff','Coventry City':'#6cc3ee','Getafe':'#005999','Rayo Vallecano':'#ffffff',
+ 'Central Cordoba SdE':'#1a1a1a','Sarmiento':'#00843d','Barracas Central':'#c8102e','Deportivo Riestra':'#1a1a1a','Union Santa Fe':'#c8102e','Vitória':'#c8102e','Pasto':'#c8102e'})
+# Aciertos de ayer (domingo 18): (partido, marcador real, nuestro Over 1.5, medio, url)
+ACIERTOS=[
+ ("M'gladbach vs Hoffenheim","1-2","96,6 % · partido del día","Fútbol Total","https://futboltotal.futbol/partido/borussia-monchengladbach-vs-1899-hoffenheim-bundesliga-2026-10-18"),
+ ("FC Cincinnati vs Columbus Crew","0-2","96,2 %","Fútbol Total","https://futboltotal.futbol/partido/partido-fc-cincinnati-vs-columbus-crew-major-league-soccer-2026-10-19"),
+ ("Cambuur vs AZ","2-2","92,6 %","Livescore","https://www.livescore.com/en/football/netherlands/eredivisie/cambuur-vs-az-alkmaar/1790248/"),
+ ("FC Twente vs FC Utrecht","1-2","89,6 %","Voetbalprimeur","https://voetbal.headliner.nl/item/fc-twente-verzuimt-tweede-plek-over-te-nemen-na-nederlaag-tegen-fc-utrecht-voetbalprimeur-715087"),
+ ("Alianza Atlético vs Universitario","1-4","89,2 %","El Comercio","https://elcomercio.pe/deporte-total/futbol-peruano/universitario-vs-alianza-atletico-en-vivo-online-gratis-por-torneo-clausura-de-la-liga-1-lbposting-noticia/"),
+ ("Groningen vs Ajax","2-5","88,9 %","Sporza","https://sporza.be/nl/sport/voetbal/~3338823/"),
+ ("NEC vs Fortuna Sittard","2-2","87,3 %","Fútbol Total","https://futboltotal.futbol/partido/nec-nijmegen-vs-fortuna-sittard-eredivisie-2026-10-18"),
+ ("Sporting Cristal vs Comerciantes Unidos","4-2","86,5 %","El Diez","https://www.eldiez.com.pe/sporting-cristal-2/sporting-cristal-vs-comerciantes-unidos-en-vivo-por-liga-1-a-que-hora-y-donde-ver-resumen-goles-noticia/"),
+]
+LLEGAN={
+ 'Getafe|Rayo Vallecano':["Rayo Vallecano recibe 3 goles por partido fuera de casa: 12 en contra (y 5 a favor) en 4 partidos.",
+   "Getafe en casa: 4 goles a favor y 2 en contra en 4 partidos.",
+   "En los últimos 6 enfrentamientos, Rayo ganó 3 y hubo 3 empates; Getafe no ganó ninguno.",
+   "Fuentes: tabla de LaLiga 2026-27 (Football Web Pages y Fútbol Total, partido a partido) y previa de Fútbol Total."],
+ 'Monza|Cagliari':["En casa, los partidos de Monza promedian 4 goles: 4 a favor y 4 en contra en 2 partidos.",
+   "Cagliari fuera: 4 goles a favor y 1 en contra en 3 partidos.",
+   "Cagliari llega con 3 victorias, 1 empate y 1 derrota en sus últimos 5 partidos.",
+   "Fuentes: tabla de la Serie A 2026-27 (SoccerSTATS más resultados partido a partido) y ficha de Fútbol Total."],
+ 'Deportivo Riestra|Union Santa Fe':["Unión recibe 1,8 goles por partido fuera: 11 en contra en 6 partidos.",
+   "Riestra en casa: 7 goles a favor y 6 en contra en 6 partidos.",
+   "Es el cierre de la fecha 13 del Clausura, el lunes a las 19:15 de Ecuador.",
+   "Fuentes: tabla del Clausura 2026 calculada partido a partido (AFP, Noticias de Bariloche) y agenda de Líbero y RPP."],
+}

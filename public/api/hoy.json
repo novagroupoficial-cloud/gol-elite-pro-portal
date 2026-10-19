@@ -1,1762 +1,285 @@
 {
- "fecha": "2026-10-18",
- "actualizado": "2026-10-19 00:17 ECU (UTC-5)",
+ "fecha": "2026-10-19",
+ "actualizado": "2026-10-19 05:42 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
- "fuente_sellada": "data/2026-10-18/pronosticos.json",
+ "fuente_sellada": "data/2026-10-19/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 43,
-  "total": 43,
+  "terminados": 0,
+  "total": 10,
   "over15_70": [
-   26,
-   31
+   0,
+   0
   ],
   "over25_senal": [
-   7,
-   9
+   0,
+   0
   ],
-  "marcadores_exactos": 3
+  "marcadores_exactos": 0
  },
- "rango_80_90": [
-  {
-   "puesto": 4,
-   "hora_ecuador": "13:00",
-   "liga": "Eredivisie",
-   "local": "FC Twente",
-   "visitante": "FC Utrecht",
-   "over15": 89.6,
-   "over25": 72.6,
-   "marcador": "2-1",
-   "goles_esperados": 3.8,
-   "categoria": "GOLES PLATINO",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 4,
-    "gf": 9,
-    "gc": 3
-   },
-   "fuera_visitante": {
-    "pj": 4,
-    "gf": 6,
-    "gc": 11
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-2",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://voetbal.headliner.nl/item/fc-twente-verzuimt-tweede-plek-over-te-nemen-na-nederlaag-tegen-fc-utrecht-voetbalprimeur-715087"
-  },
-  {
-   "puesto": 5,
-   "hora_ecuador": "15:30",
-   "liga": "Liga 1",
-   "local": "Alianza Atlético",
-   "visitante": "Universitario",
-   "over15": 89.2,
-   "over25": 71.9,
-   "marcador": "2-1",
-   "goles_esperados": 3.7,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 5,
-    "gf": 12,
-    "gc": 5
-   },
-   "fuera_visitante": {
-    "pj": 6,
-    "gf": 11,
-    "gc": 12
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-4",
-   "goles": 5,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://elcomercio.pe/deporte-total/futbol-peruano/universitario-vs-alianza-atletico-en-vivo-online-gratis-por-torneo-clausura-de-la-liga-1-lbposting-noticia/"
-  },
-  {
-   "puesto": 6,
-   "hora_ecuador": "09:45",
-   "liga": "Eredivisie",
-   "local": "FC Groningen",
-   "visitante": "Ajax",
-   "over15": 88.9,
-   "over25": 71.2,
-   "marcador": "1-2",
-   "goles_esperados": 3.7,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 4,
-    "gf": 9,
-    "gc": 6
-   },
-   "fuera_visitante": {
-    "pj": 3,
-    "gf": 11,
-    "gc": 1
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-5",
-   "goles": 7,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://sporza.be/nl/sport/voetbal/~3338823/"
-  },
-  {
-   "puesto": 7,
-   "hora_ecuador": "20:10",
-   "liga": "Liga BetPlay",
-   "local": "Deportivo Cali",
-   "visitante": "Junior",
-   "over15": 88.0,
-   "over25": 69.7,
-   "marcador": "2-1",
-   "goles_esperados": 3.6,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 6,
-    "gf": 13,
-    "gc": 4
-   },
-   "fuera_visitante": {
-    "pj": 6,
-    "gf": 9,
-    "gc": 14
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "0-0",
-   "goles": 0,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/deportivo-cali-vs-junior-primera-a-2026-10-19"
-  },
-  {
-   "puesto": 8,
-   "hora_ecuador": "13:00",
-   "liga": "Eredivisie",
-   "local": "NEC",
-   "visitante": "Fortuna Sittard",
-   "over15": 87.3,
-   "over25": 68.3,
-   "marcador": "1-1",
-   "goles_esperados": 3.5,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 4,
-    "gf": 5,
-    "gc": 8
-   },
-   "fuera_visitante": {
-    "pj": 4,
-    "gf": 9,
-    "gc": 6
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-2",
-   "goles": 4,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/nec-nijmegen-vs-fortuna-sittard-eredivisie-2026-10-18"
-  },
-  {
-   "puesto": 9,
-   "hora_ecuador": "11:00",
-   "liga": "Liga 1",
-   "local": "Sporting Cristal",
-   "visitante": "Comerciantes Unidos",
-   "over15": 86.5,
-   "over25": 67.1,
-   "marcador": "2-0",
-   "goles_esperados": 3.5,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 5,
-    "gf": 15,
-    "gc": 2
-   },
-   "fuera_visitante": {
-    "pj": 6,
-    "gf": 10,
-    "gc": 11
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "4-2",
-   "goles": 6,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.eldiez.com.pe/sporting-cristal-2/sporting-cristal-vs-comerciantes-unidos-en-vivo-por-liga-1-a-que-hora-y-donde-ver-resumen-goles-noticia/"
-  },
-  {
-   "puesto": 10,
-   "hora_ecuador": "14:00",
-   "liga": "LaLiga",
-   "local": "Real Madrid",
-   "visitante": "Sevilla",
-   "over15": 84.8,
-   "over25": 64.0,
-   "marcador": "1-1",
-   "goles_esperados": 3.3,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 4,
-    "gf": 13,
-    "gc": 2
-   },
-   "fuera_visitante": {
-    "pj": 4,
-    "gf": 8,
-    "gc": 5
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "4-1",
-   "goles": 5,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/real-madrid-vs-sevilla-la-liga-2026-10-18"
-  },
-  {
-   "puesto": 11,
-   "hora_ecuador": "14:00",
-   "liga": "Brasileirão",
-   "local": "Fluminense",
-   "visitante": "Santos",
-   "over15": 83.9,
-   "over25": 62.4,
-   "marcador": "1-1",
-   "goles_esperados": 3.2,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 15,
-    "gf": 28,
-    "gc": 14
-   },
-   "fuera_visitante": {
-    "pj": 15,
-    "gf": 24,
-    "gc": 25
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-2",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/fluminense-vs-santos-brasileirao-2026-10-18"
-  },
-  {
-   "puesto": 12,
-   "hora_ecuador": "08:00",
-   "liga": "Premier League",
-   "local": "AFC Bournemouth",
-   "visitante": "Sunderland",
-   "over15": 83.7,
-   "over25": 62.0,
-   "marcador": "1-1",
-   "goles_esperados": 3.2,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 3,
-    "gf": 3,
-    "gc": 4
-   },
-   "fuera_visitante": {
-    "pj": 3,
-    "gf": 5,
-    "gc": 8
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-0",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/bournemouth-vs-sunderland-premier-league-2026-10-18"
-  },
-  {
-   "puesto": 13,
-   "hora_ecuador": "14:00",
-   "liga": "Brasileirão",
-   "local": "Grêmio",
-   "visitante": "Cruzeiro",
-   "over15": 82.3,
-   "over25": 59.8,
-   "marcador": "1-1",
-   "goles_esperados": 3.1,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 15,
-    "gf": 23,
-    "gc": 17
-   },
-   "fuera_visitante": {
-    "pj": 15,
-    "gf": 20,
-    "gc": 28
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-4",
-   "goles": 6,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/gremio-vs-cruzeiro-campeonato-brasileno-de-serie-a-2026-10-18"
-  },
-  {
-   "puesto": 14,
-   "hora_ecuador": "08:30",
-   "liga": "Bundesliga",
-   "local": "Bayer Leverkusen",
-   "visitante": "SC Freiburg",
-   "over15": 81.1,
-   "over25": 58.0,
-   "marcador": "1-1",
-   "goles_esperados": 3.0,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 2,
-    "gf": 6,
-    "gc": 0
-   },
-   "fuera_visitante": {
-    "pj": 2,
-    "gf": 3,
-    "gc": 2
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-1",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/bayer-leverkusen-vs-sc-freiburg-bundesliga-2026-10-18"
-  },
-  {
-   "puesto": 15,
-   "hora_ecuador": "18:30",
-   "liga": "Liga 1",
-   "local": "Cienciano",
-   "visitante": "UTC",
-   "over15": 80.6,
-   "over25": 57.1,
-   "marcador": "1-1",
-   "goles_esperados": 3.0,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 5,
-    "gf": 5,
-    "gc": 6
-   },
-   "fuera_visitante": {
-    "pj": 5,
-    "gf": 6,
-    "gc": 14
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-0",
-   "goles": 1,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://dsn.pe/posiciones-de-cienciano-contra-utc-asi-queda-la-tabla-del-clausura-tras-el-triunfo-por-1-0-en-cusco/"
-  },
-  {
-   "puesto": 16,
-   "hora_ecuador": "08:00",
-   "liga": "Serie A",
-   "local": "Fiorentina",
-   "visitante": "Como",
-   "over15": 80.0,
-   "over25": 56.3,
-   "marcador": "1-1",
-   "goles_esperados": 2.9,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 3,
-    "gf": 2,
-    "gc": 6
-   },
-   "fuera_visitante": {
-    "pj": 4,
-    "gf": 7,
-    "gc": 5
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-3",
-   "goles": 4,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/fiorentina-vs-como-serie-a-2026-10-18"
-  }
- ],
+ "rango_80_90": [],
  "todos": [
   {
    "puesto": 1,
-   "hora_ecuador": "10:30",
-   "liga": "Bundesliga",
-   "local": "Borussia Monchengladbach",
-   "visitante": "Hoffenheim",
-   "over15": 96.6,
-   "over25": 88.3,
-   "marcador": "2-2",
-   "goles_esperados": 5.1,
-   "categoria": "GOL ÉLITE",
-   "senal_over25": "fuerte",
-   "casa_local": {
-    "pj": 2,
-    "gf": 6,
-    "gc": 8
-   },
-   "fuera_visitante": {
-    "pj": 2,
-    "gf": 3,
-    "gc": 6
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-2",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/borussia-monchengladbach-vs-1899-hoffenheim-bundesliga-2026-10-18"
-  },
-  {
-   "puesto": 2,
-   "hora_ecuador": "16:00",
-   "liga": "MLS",
-   "local": "Cincinnati",
-   "visitante": "Columbus Crew",
-   "over15": 96.2,
-   "over25": 87.2,
-   "marcador": "2-2",
-   "goles_esperados": 5.0,
-   "categoria": "GOL ÉLITE",
-   "senal_over25": "fuerte",
-   "casa_local": {
-    "pj": 13,
-    "gf": 36,
-    "gc": 27
-   },
-   "fuera_visitante": {
-    "pj": 14,
-    "gf": 22,
-    "gc": 30
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "0-2",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/partido-fc-cincinnati-vs-columbus-crew-major-league-soccer-2026-10-19"
-  },
-  {
-   "puesto": 3,
-   "hora_ecuador": "07:30",
-   "liga": "Eredivisie",
-   "local": "Cambuur",
-   "visitante": "AZ",
-   "over15": 92.6,
-   "over25": 78.7,
-   "marcador": "1-2",
-   "goles_esperados": 4.2,
-   "categoria": "GOLES PLATINO",
-   "senal_over25": "fuerte",
-   "casa_local": {
-    "pj": 4,
-    "gf": 6,
-    "gc": 13
-   },
-   "fuera_visitante": {
-    "pj": 4,
-    "gf": 9,
-    "gc": 5
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-2",
-   "goles": 4,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.livescore.com/en/football/netherlands/eredivisie/cambuur-vs-az-alkmaar/1790248/"
-  },
-  {
-   "puesto": 4,
-   "hora_ecuador": "13:00",
-   "liga": "Eredivisie",
-   "local": "FC Twente",
-   "visitante": "FC Utrecht",
-   "over15": 89.6,
-   "over25": 72.6,
-   "marcador": "2-1",
-   "goles_esperados": 3.8,
-   "categoria": "GOLES PLATINO",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 4,
-    "gf": 9,
-    "gc": 3
-   },
-   "fuera_visitante": {
-    "pj": 4,
-    "gf": 6,
-    "gc": 11
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-2",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://voetbal.headliner.nl/item/fc-twente-verzuimt-tweede-plek-over-te-nemen-na-nederlaag-tegen-fc-utrecht-voetbalprimeur-715087"
-  },
-  {
-   "puesto": 5,
-   "hora_ecuador": "15:30",
-   "liga": "Liga 1",
-   "local": "Alianza Atlético",
-   "visitante": "Universitario",
-   "over15": 89.2,
-   "over25": 71.9,
-   "marcador": "2-1",
-   "goles_esperados": 3.7,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 5,
-    "gf": 12,
-    "gc": 5
-   },
-   "fuera_visitante": {
-    "pj": 6,
-    "gf": 11,
-    "gc": 12
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-4",
-   "goles": 5,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://elcomercio.pe/deporte-total/futbol-peruano/universitario-vs-alianza-atletico-en-vivo-online-gratis-por-torneo-clausura-de-la-liga-1-lbposting-noticia/"
-  },
-  {
-   "puesto": 6,
-   "hora_ecuador": "09:45",
-   "liga": "Eredivisie",
-   "local": "FC Groningen",
-   "visitante": "Ajax",
-   "over15": 88.9,
-   "over25": 71.2,
-   "marcador": "1-2",
-   "goles_esperados": 3.7,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 4,
-    "gf": 9,
-    "gc": 6
-   },
-   "fuera_visitante": {
-    "pj": 3,
-    "gf": 11,
-    "gc": 1
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-5",
-   "goles": 7,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://sporza.be/nl/sport/voetbal/~3338823/"
-  },
-  {
-   "puesto": 7,
-   "hora_ecuador": "20:10",
-   "liga": "Liga BetPlay",
-   "local": "Deportivo Cali",
-   "visitante": "Junior",
-   "over15": 88.0,
-   "over25": 69.7,
-   "marcador": "2-1",
-   "goles_esperados": 3.6,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 6,
-    "gf": 13,
-    "gc": 4
-   },
-   "fuera_visitante": {
-    "pj": 6,
-    "gf": 9,
-    "gc": 14
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "0-0",
-   "goles": 0,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/deportivo-cali-vs-junior-primera-a-2026-10-19"
-  },
-  {
-   "puesto": 8,
-   "hora_ecuador": "13:00",
-   "liga": "Eredivisie",
-   "local": "NEC",
-   "visitante": "Fortuna Sittard",
-   "over15": 87.3,
-   "over25": 68.3,
-   "marcador": "1-1",
-   "goles_esperados": 3.5,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 4,
-    "gf": 5,
-    "gc": 8
-   },
-   "fuera_visitante": {
-    "pj": 4,
-    "gf": 9,
-    "gc": 6
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-2",
-   "goles": 4,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/nec-nijmegen-vs-fortuna-sittard-eredivisie-2026-10-18"
-  },
-  {
-   "puesto": 9,
-   "hora_ecuador": "11:00",
-   "liga": "Liga 1",
-   "local": "Sporting Cristal",
-   "visitante": "Comerciantes Unidos",
-   "over15": 86.5,
-   "over25": 67.1,
-   "marcador": "2-0",
-   "goles_esperados": 3.5,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "moderada",
-   "casa_local": {
-    "pj": 5,
-    "gf": 15,
-    "gc": 2
-   },
-   "fuera_visitante": {
-    "pj": 6,
-    "gf": 10,
-    "gc": 11
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "4-2",
-   "goles": 6,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.eldiez.com.pe/sporting-cristal-2/sporting-cristal-vs-comerciantes-unidos-en-vivo-por-liga-1-a-que-hora-y-donde-ver-resumen-goles-noticia/"
-  },
-  {
-   "puesto": 10,
    "hora_ecuador": "14:00",
    "liga": "LaLiga",
-   "local": "Real Madrid",
-   "visitante": "Sevilla",
-   "over15": 84.8,
-   "over25": 64.0,
-   "marcador": "1-1",
-   "goles_esperados": 3.3,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 4,
-    "gf": 13,
-    "gc": 2
-   },
-   "fuera_visitante": {
-    "pj": 4,
-    "gf": 8,
-    "gc": 5
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "4-1",
-   "goles": 5,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/real-madrid-vs-sevilla-la-liga-2026-10-18"
-  },
-  {
-   "puesto": 11,
-   "hora_ecuador": "14:00",
-   "liga": "Brasileirão",
-   "local": "Fluminense",
-   "visitante": "Santos",
-   "over15": 83.9,
-   "over25": 62.4,
-   "marcador": "1-1",
-   "goles_esperados": 3.2,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 15,
-    "gf": 28,
-    "gc": 14
-   },
-   "fuera_visitante": {
-    "pj": 15,
-    "gf": 24,
-    "gc": 25
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-2",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/fluminense-vs-santos-brasileirao-2026-10-18"
-  },
-  {
-   "puesto": 12,
-   "hora_ecuador": "08:00",
-   "liga": "Premier League",
-   "local": "AFC Bournemouth",
-   "visitante": "Sunderland",
-   "over15": 83.7,
-   "over25": 62.0,
-   "marcador": "1-1",
-   "goles_esperados": 3.2,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 3,
-    "gf": 3,
-    "gc": 4
-   },
-   "fuera_visitante": {
-    "pj": 3,
-    "gf": 5,
-    "gc": 8
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-0",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/bournemouth-vs-sunderland-premier-league-2026-10-18"
-  },
-  {
-   "puesto": 13,
-   "hora_ecuador": "14:00",
-   "liga": "Brasileirão",
-   "local": "Grêmio",
-   "visitante": "Cruzeiro",
-   "over15": 82.3,
-   "over25": 59.8,
-   "marcador": "1-1",
-   "goles_esperados": 3.1,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 15,
-    "gf": 23,
-    "gc": 17
-   },
-   "fuera_visitante": {
-    "pj": 15,
-    "gf": 20,
-    "gc": 28
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-4",
-   "goles": 6,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/gremio-vs-cruzeiro-campeonato-brasileno-de-serie-a-2026-10-18"
-  },
-  {
-   "puesto": 14,
-   "hora_ecuador": "08:30",
-   "liga": "Bundesliga",
-   "local": "Bayer Leverkusen",
-   "visitante": "SC Freiburg",
-   "over15": 81.1,
-   "over25": 58.0,
-   "marcador": "1-1",
-   "goles_esperados": 3.0,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 2,
-    "gf": 6,
-    "gc": 0
-   },
-   "fuera_visitante": {
-    "pj": 2,
-    "gf": 3,
-    "gc": 2
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-1",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/bayer-leverkusen-vs-sc-freiburg-bundesliga-2026-10-18"
-  },
-  {
-   "puesto": 15,
-   "hora_ecuador": "18:30",
-   "liga": "Liga 1",
-   "local": "Cienciano",
-   "visitante": "UTC",
-   "over15": 80.6,
-   "over25": 57.1,
-   "marcador": "1-1",
-   "goles_esperados": 3.0,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 5,
-    "gf": 5,
-    "gc": 6
-   },
-   "fuera_visitante": {
-    "pj": 5,
-    "gf": 6,
-    "gc": 14
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-0",
-   "goles": 1,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://dsn.pe/posiciones-de-cienciano-contra-utc-asi-queda-la-tabla-del-clausura-tras-el-triunfo-por-1-0-en-cusco/"
-  },
-  {
-   "puesto": 16,
-   "hora_ecuador": "08:00",
-   "liga": "Serie A",
-   "local": "Fiorentina",
-   "visitante": "Como",
-   "over15": 80.0,
-   "over25": 56.3,
-   "marcador": "1-1",
-   "goles_esperados": 2.9,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 3,
-    "gf": 2,
-    "gc": 6
-   },
-   "fuera_visitante": {
-    "pj": 4,
-    "gf": 7,
-    "gc": 5
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-3",
-   "goles": 4,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/fiorentina-vs-como-serie-a-2026-10-18"
-  },
-  {
-   "puesto": 17,
-   "hora_ecuador": "11:30",
-   "liga": "LaLiga",
-   "local": "Malaga",
-   "visitante": "Real Sociedad",
-   "over15": 79.7,
-   "over25": 55.8,
-   "marcador": "1-1",
-   "goles_esperados": 2.9,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 4,
-    "gf": 3,
-    "gc": 5
-   },
-   "fuera_visitante": {
-    "pj": 4,
-    "gf": 7,
-    "gc": 9
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-5",
-   "goles": 7,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/malaga-vs-real-sociedad-la-liga-2026-10-18"
-  },
-  {
-   "puesto": 18,
-   "hora_ecuador": "13:45",
-   "liga": "Ligue 1",
-   "local": "Lyon",
-   "visitante": "Nice",
-   "over15": 79.6,
-   "over25": 56.0,
-   "marcador": "2-0",
-   "goles_esperados": 2.9,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 3,
-    "gf": 8,
-    "gc": 2
-   },
-   "fuera_visitante": {
-    "pj": 2,
-    "gf": 0,
-    "gc": 4
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-1",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/lyon-vs-nice-ligue-1-2026-10-18"
-  },
-  {
-   "puesto": 19,
-   "hora_ecuador": "10:15",
-   "liga": "Ligue 1",
-   "local": "Le Havre",
-   "visitante": "Auxerre",
-   "over15": 79.2,
-   "over25": 55.0,
-   "marcador": "1-1",
-   "goles_esperados": 2.9,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "informativa",
-   "casa_local": {
-    "pj": 3,
-    "gf": 1,
-    "gc": 3
-   },
-   "fuera_visitante": {
-    "pj": 3,
-    "gf": 4,
-    "gc": 12
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-3",
-   "goles": 4,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/le-havre-vs-auxerre-ligue-1-2026-10-18"
-  },
-  {
-   "puesto": 20,
-   "hora_ecuador": "10:15",
-   "liga": "Ligue 1",
-   "local": "Paris FC",
-   "visitante": "Rennes",
+   "local": "Getafe",
+   "visitante": "Rayo Vallecano",
    "over15": 77.0,
-   "over25": 52.1,
-   "marcador": "2-0",
+   "over25": 52.0,
+   "marcador": "1-1",
    "goles_esperados": 2.8,
    "categoria": "GOLES OPTIMISTAS",
    "senal_over25": "sin señal",
    "casa_local": {
-    "pj": 3,
-    "gf": 5,
-    "gc": 1
-   },
-   "fuera_visitante": {
-    "pj": 2,
-    "gf": 2,
-    "gc": 5
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "4-3",
-   "goles": 7,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/paris-fc-vs-rennes-ligue-1-2026-10-18"
-  },
-  {
-   "puesto": 21,
-   "hora_ecuador": "11:00",
-   "liga": "Serie A",
-   "local": "AC Milan",
-   "visitante": "Atalanta",
-   "over15": 76.7,
-   "over25": 51.8,
-   "marcador": "2-0",
-   "goles_esperados": 2.7,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 2,
-    "gf": 5,
-    "gc": 0
-   },
-   "fuera_visitante": {
-    "pj": 2,
-    "gf": 1,
-    "gc": 4
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "3-2",
-   "goles": 5,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/ac-milan-vs-atalanta-serie-a-1550147"
-  },
-  {
-   "puesto": 22,
-   "hora_ecuador": "08:00",
-   "liga": "Premier League",
-   "local": "Brighton & Hove Albion",
-   "visitante": "Crystal Palace",
-   "over15": 76.3,
-   "over25": 51.1,
-   "marcador": "2-0",
-   "goles_esperados": 2.7,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 3,
-    "gf": 8,
-    "gc": 1
-   },
-   "fuera_visitante": {
-    "pj": 3,
-    "gf": 3,
-    "gc": 4
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "5-0",
-   "goles": 5,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/brighton-vs-crystal-palace-premier-league-2026-10-18"
-  },
-  {
-   "puesto": 23,
-   "hora_ecuador": "13:15",
-   "liga": "Liga 1",
-   "local": "FC Cajamarca",
-   "visitante": "CD Moquegua",
-   "over15": 75.4,
-   "over25": 49.7,
-   "marcador": "1-1",
-   "goles_esperados": 2.7,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 6,
-    "gf": 8,
-    "gc": 17
-   },
-   "fuera_visitante": {
-    "pj": 5,
-    "gf": 2,
-    "gc": 8
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "0-1",
-   "goles": 1,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://dechalaca.com/fichas/liga1-2026-clausura/fc-cajamarca-cd-moquegua"
-  },
-  {
-   "puesto": 24,
-   "hora_ecuador": "07:00",
-   "liga": "LaLiga",
-   "local": "Osasuna",
-   "visitante": "Racing Santander",
-   "over15": 75.3,
-   "over25": 49.7,
-   "marcador": "1-1",
-   "goles_esperados": 2.7,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 4,
-    "gf": 2,
-    "gc": 3
-   },
-   "fuera_visitante": {
     "pj": 4,
     "gf": 4,
-    "gc": 16
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-0",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/osasuna-vencio-2-0-a-racing-de-santander-por-la-liga-de-espana-2026-nid18102026/"
-  },
-  {
-   "puesto": 25,
-   "hora_ecuador": "18:05",
-   "liga": "Liga BetPlay",
-   "local": "Llaneros",
-   "visitante": "Santa Fe",
-   "over15": 75.3,
-   "over25": 49.5,
-   "marcador": "1-1",
-   "goles_esperados": 2.7,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 6,
-    "gf": 8,
-    "gc": 7
-   },
-   "fuera_visitante": {
-    "pj": 5,
-    "gf": 9,
-    "gc": 5
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-0",
-   "goles": 1,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/llaneros-vs-santa-fe-primera-a-2026-10-18"
-  },
-  {
-   "puesto": 26,
-   "hora_ecuador": "16:30",
-   "liga": "Brasileirão",
-   "local": "Bahia",
-   "visitante": "Flamengo",
-   "over15": 75.0,
-   "over25": 49.1,
-   "marcador": "1-1",
-   "goles_esperados": 2.6,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 15,
-    "gf": 23,
-    "gc": 14
-   },
-   "fuera_visitante": {
-    "pj": 15,
-    "gf": 29,
-    "gc": 15
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "0-3",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/partido-bahia-vs-flamengo-campeonato-brasileno-de-serie-a-2026-10-18"
-  },
-  {
-   "puesto": 27,
-   "hora_ecuador": "14:00",
-   "liga": "Liga BetPlay",
-   "local": "Águilas Doradas",
-   "visitante": "Tolima",
-   "over15": 74.6,
-   "over25": 48.6,
-   "marcador": "1-1",
-   "goles_esperados": 2.6,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 6,
-    "gf": 10,
-    "gc": 7
-   },
-   "fuera_visitante": {
-    "pj": 7,
-    "gf": 8,
-    "gc": 9
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-1",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.noticiascaracol.com/golcaracol/futbol-colombiano/asi-quedo-la-tabla-de-posiciones-de-la-liga-betplay-ii-2026-tras-aguilas-doradas-2-1-tolima-so35"
-  },
-  {
-   "puesto": 28,
-   "hora_ecuador": "08:00",
-   "liga": "Premier League",
-   "local": "Leeds United",
-   "visitante": "Manchester United",
-   "over15": 74.0,
-   "over25": 47.9,
-   "marcador": "1-1",
-   "goles_esperados": 2.6,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 3,
-    "gf": 5,
     "gc": 2
    },
    "fuera_visitante": {
-    "pj": 3,
-    "gf": 3,
-    "gc": 5
+    "pj": 4,
+    "gf": 5,
+    "gc": 12
    },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-1",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": true,
-   "fuente": "https://futboltotal.futbol/partido/leeds-vs-manchester-united-premier-league-2026-10-18"
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
-   "puesto": 29,
-   "hora_ecuador": "20:00",
-   "liga": "Liga MX",
-   "local": "Monterrey",
-   "visitante": "Pachuca",
-   "over15": 72.4,
-   "over25": 45.7,
+   "puesto": 2,
+   "hora_ecuador": "11:30",
+   "liga": "Serie A",
+   "local": "Monza",
+   "visitante": "Cagliari",
+   "over15": 76.0,
+   "over25": 50.5,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 2,
+    "gf": 4,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 1
+   },
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 3,
+   "hora_ecuador": "19:15",
+   "liga": "Liga Profesional",
+   "local": "Deportivo Riestra",
+   "visitante": "Union Santa Fe",
+   "over15": 72.9,
+   "over25": 46.4,
    "marcador": "1-1",
    "goles_esperados": 2.5,
    "categoria": "GOLES OPTIMISTAS",
    "senal_over25": "sin señal",
    "casa_local": {
-    "pj": 5,
-    "gf": 11,
+    "pj": 6,
+    "gf": 7,
     "gc": 6
    },
    "fuera_visitante": {
     "pj": 6,
-    "gf": 9,
-    "gc": 3
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-1",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.foxsports.com.mx/2026/10/18/monterrey-2-1-pachuca-resultado-del-partido-jornada-12-del-apertura-2026-liga-mx-goles/"
-  },
-  {
-   "puesto": 30,
-   "hora_ecuador": "10:15",
-   "liga": "Ligue 1",
-   "local": "Lorient",
-   "visitante": "Monaco",
-   "over15": 71.2,
-   "over25": 44.3,
-   "marcador": "1-1",
-   "goles_esperados": 2.4,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 3,
-    "gf": 4,
-    "gc": 4
-   },
-   "fuera_visitante": {
-    "pj": 3,
-    "gf": 4,
-    "gc": 2
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-0",
-   "goles": 1,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/lorient-vs-monaco-ligue-1-2026-10-18"
-  },
-  {
-   "puesto": 31,
-   "hora_ecuador": "09:15",
-   "liga": "LaLiga",
-   "local": "Celta Vigo",
-   "visitante": "Alaves",
-   "over15": 70.9,
-   "over25": 43.9,
-   "marcador": "1-1",
-   "goles_esperados": 2.4,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 4,
-    "gf": 7,
-    "gc": 5
-   },
-   "fuera_visitante": {
-    "pj": 3,
-    "gf": 2,
-    "gc": 3
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-1",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/celta-vigo-vs-alaves-la-liga-2026-10-18"
-  },
-  {
-   "puesto": 32,
-   "hora_ecuador": "12:45",
-   "liga": "Liga Profesional",
-   "local": "Racing Club",
-   "visitante": "Independiente",
-   "over15": 69.7,
-   "over25": 42.6,
-   "marcador": "0-1",
-   "goles_esperados": 2.4,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 7,
-    "gf": 8,
+    "gf": 6,
     "gc": 11
    },
-   "fuera_visitante": {
-    "pj": 6,
-    "gf": 8,
-    "gc": 3
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-1",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://www.losandes.com.ar/deportes/racing-e-independiente-empataron-1-1-un-apasionante-clasico-avellaneda-n6010706"
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
-   "puesto": 33,
-   "hora_ecuador": "18:15",
-   "liga": "Liga Profesional",
-   "local": "Belgrano",
-   "visitante": "River Plate",
-   "over15": 69.7,
-   "over25": 42.5,
-   "marcador": "1-1",
-   "goles_esperados": 2.4,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 6,
-    "gf": 8,
-    "gc": 6
-   },
-   "fuera_visitante": {
-    "pj": 5,
-    "gf": 6,
-    "gc": 6
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "0-3",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/belgrano-cordoba-vs-river-plate-liga-profesional-argentina-2026-10-19"
-  },
-  {
-   "puesto": 34,
-   "hora_ecuador": "16:00",
-   "liga": "Liga BetPlay",
-   "local": "Bucaramanga",
-   "visitante": "América de Cali",
-   "over15": 66.2,
-   "over25": 38.3,
-   "marcador": "1-1",
-   "goles_esperados": 2.2,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 6,
-    "gf": 10,
-    "gc": 6
-   },
-   "fuera_visitante": {
-    "pj": 6,
-    "gf": 8,
-    "gc": 4
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-1",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": true,
-   "fuente": "https://www.vanguardia.com/deportes/futbol/2026/10/18/atletico-bucaramanga-y-america-de-cali-empataron-en-el-montanini-en-el-clasico-de-la-fecha-15-de-la-liga-betplay/"
-  },
-  {
-   "puesto": 35,
-   "hora_ecuador": "17:30",
-   "liga": "Brasileirão",
-   "local": "Remo",
-   "visitante": "Bragantino",
-   "over15": 65.9,
-   "over25": 38.1,
-   "marcador": "1-1",
-   "goles_esperados": 2.2,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 15,
-    "gf": 19,
-    "gc": 20
-   },
-   "fuera_visitante": {
-    "pj": 15,
-    "gf": 14,
-    "gc": 18
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-1",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": true,
-   "fuente": "https://futboltotal.futbol/partido/remo-vs-rb-bragantino-campeonato-brasileno-de-serie-a-2026-10-18"
-  },
-  {
-   "puesto": 36,
-   "hora_ecuador": "08:00",
-   "liga": "Ligue 1",
-   "local": "Angers",
-   "visitante": "Marseille",
-   "over15": 65.0,
-   "over25": 37.0,
-   "marcador": "1-1",
-   "goles_esperados": 2.2,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 3,
-    "gf": 3,
-    "gc": 4
-   },
-   "fuera_visitante": {
-    "pj": 3,
-    "gf": 2,
-    "gc": 3
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-5",
-   "goles": 7,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/angers-vs-marseille-ligue-1-2026-10-18"
-  },
-  {
-   "puesto": 37,
+   "puesto": 4,
    "hora_ecuador": "13:45",
    "liga": "Serie A",
-   "local": "Juventus",
-   "visitante": "Lazio",
-   "over15": 62.2,
-   "over25": 34.1,
+   "local": "Parma",
+   "visitante": "Torino",
+   "over15": 71.0,
+   "over25": 44.0,
+   "marcador": "1-1",
+   "goles_esperados": 2.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 3,
+    "gf": 3,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 4
+   },
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 5,
+   "hora_ecuador": "18:00",
+   "liga": "Brasileirão",
+   "local": "Corinthians",
+   "visitante": "Vitória",
+   "over15": 66.4,
+   "over25": 38.7,
+   "marcador": "1-0",
+   "goles_esperados": 2.2,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 15,
+    "gc": 16
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 11,
+    "gc": 32
+   },
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 6,
+   "hora_ecuador": "15:30",
+   "liga": "LigaPro",
+   "local": "Mushuc Runa",
+   "visitante": "Orense",
+   "over15": 66.3,
+   "over25": 38.5,
+   "marcador": "1-0",
+   "goles_esperados": 2.2,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 16,
+    "gc": 14
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 14,
+    "gc": 27
+   },
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 7,
+   "hora_ecuador": "17:00",
+   "liga": "Liga Profesional",
+   "local": "Sarmiento",
+   "visitante": "Barracas Central",
+   "over15": 65.5,
+   "over25": 37.6,
+   "marcador": "1-1",
+   "goles_esperados": 2.2,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 10,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 6,
+    "gc": 5
+   },
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 8,
+   "hora_ecuador": "14:00",
+   "liga": "Premier League",
+   "local": "Tottenham Hotspur",
+   "visitante": "Coventry City",
+   "over15": 63.2,
+   "over25": 35.1,
    "marcador": "1-1",
    "goles_esperados": 2.1,
    "categoria": "GOLES OPTIMISTAS",
    "senal_over25": "sin señal",
    "casa_local": {
     "pj": 3,
-    "gf": 5,
-    "gc": 1
+    "gf": 2,
+    "gc": 5
    },
    "fuera_visitante": {
     "pj": 3,
-    "gf": 5,
-    "gc": 1
+    "gf": 1,
+    "gc": 4
    },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "0-3",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.vavel.com/en-us/soccer/2026/10/18/1275823-juventus-vs-lazio-live-score-serie-a-calcio.html"
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
-   "puesto": 38,
-   "hora_ecuador": "16:00",
+   "puesto": 9,
+   "hora_ecuador": "20:05",
+   "liga": "Liga BetPlay",
+   "local": "Pasto",
+   "visitante": "Alianza (ex Alianza Petrolera)",
+   "over15": 62.4,
+   "over25": 34.2,
+   "marcador": "1-1",
+   "goles_esperados": 2.1,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 3,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 5,
+    "gc": 9
+   },
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 10,
+   "hora_ecuador": "17:00",
    "liga": "Liga Profesional",
-   "local": "Estudiantes LP",
-   "visitante": "San Lorenzo",
-   "over15": 61.6,
-   "over25": 33.8,
+   "local": "Newells Old Boys",
+   "visitante": "Central Cordoba SdE",
+   "over15": 62.3,
+   "over25": 34.3,
    "marcador": "1-0",
    "goles_esperados": 2.1,
    "categoria": "GOLES OPTIMISTAS",
    "senal_over25": "sin señal",
    "casa_local": {
     "pj": 6,
-    "gf": 12,
-    "gc": 3
+    "gf": 8,
+    "gc": 4
    },
    "fuera_visitante": {
     "pj": 6,
-    "gf": 1,
-    "gc": 7
+    "gf": 5,
+    "gc": 8
    },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-2",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/partido-estudiantes-lp-vs-san-lorenzo-liga-profesional-argentina-2026-10-18"
-  },
-  {
-   "puesto": 39,
-   "hora_ecuador": "14:00",
-   "liga": "LigaPro",
-   "local": "Leones del Norte",
-   "visitante": "Emelec",
-   "over15": 60.3,
-   "over25": 32.2,
-   "marcador": "1-0",
-   "goles_esperados": 2.0,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 15,
-    "gf": 18,
-    "gc": 13
-   },
-   "fuera_visitante": {
-    "pj": 16,
-    "gf": 10,
-    "gc": 24
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-3",
-   "goles": 4,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.fotmob.com/nl/matches/emelec-vs-leones-del-norte/c0m6mzqx"
-  },
-  {
-   "puesto": 40,
-   "hora_ecuador": "16:00",
-   "liga": "Liga Profesional",
-   "local": "Estudiantes Rio Cuarto",
-   "visitante": "Aldosivi",
-   "over15": 56.5,
-   "over25": 28.5,
-   "marcador": "0-0",
-   "goles_esperados": 1.9,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 6,
-    "gf": 2,
-    "gc": 5
-   },
-   "fuera_visitante": {
-    "pj": 6,
-    "gf": 6,
-    "gc": 11
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-1",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/partido-estudiantes-de-rio-cuarto-vs-aldosivi-liga-profesional-argentina-2026-10-18"
-  },
-  {
-   "puesto": 41,
-   "hora_ecuador": "16:30",
-   "liga": "LigaPro",
-   "local": "Barcelona SC",
-   "visitante": "Universidad Católica",
-   "over15": 55.2,
-   "over25": 27.4,
-   "marcador": "0-0",
-   "goles_esperados": 1.8,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 15,
-    "gf": 22,
-    "gc": 10
-   },
-   "fuera_visitante": {
-    "pj": 16,
-    "gf": 15,
-    "gc": 15
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-1",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://studiofutbol.com.ec/2026/10/18/video-barcelona-sc-rescato-un-empate-en-un-final-de-infarto-ante-catolica/"
-  },
-  {
-   "puesto": 42,
-   "hora_ecuador": "11:30",
-   "liga": "LigaPro",
-   "local": "Delfín",
-   "visitante": "Manta",
-   "over15": 55.0,
-   "over25": 27.3,
-   "marcador": "1-0",
-   "goles_esperados": 1.8,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 16,
-    "gf": 13,
-    "gc": 12
-   },
-   "fuera_visitante": {
-    "pj": 15,
-    "gf": 10,
-    "gc": 28
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "4-2",
-   "goles": 6,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.eldiario.ec/deportes/delfin-sc-vencio-4-2-a-manta-fc-en-el-clasico-mantense-y-toma-aire-en-el-hexagonal-por-la-permanencia-18102026"
-  },
-  {
-   "puesto": 43,
-   "hora_ecuador": "10:30",
-   "liga": "Premier League",
-   "local": "Nottingham Forest",
-   "visitante": "Arsenal",
-   "over15": 52.7,
-   "over25": 25.1,
-   "marcador": "0-0",
-   "goles_esperados": 1.7,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 3,
-    "gf": 0,
-    "gc": 2
-   },
-   "fuera_visitante": {
-    "pj": 3,
-    "gf": 3,
-    "gc": 3
-   },
-   "sellado": "2026-10-18 06:13 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "0-1",
-   "goles": 1,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/nottingham-forest-vs-arsenal-premier-league-2026-10-18"
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   }
  ],
  "sin_pronostico": []

@@ -1,11 +1,408 @@
 {
  "fecha": "2026-10-19",
- "generado_ecuador": "2026-10-19 06:31 ECU (UTC-5)",
+ "generado_ecuador": "2026-10-19 06:41 ECU (UTC-5)",
  "fuente_pronosticos": "public/api/hoy.json",
  "modelo": "GOL ÉLITE PRO 4.0 (Nova Gol 4.0)",
  "generado_por": "Claude (provisional mientras el Dashboard Gol 4.0 no entregue)",
- "criterio": "GOL ÉLITE (>= 95), GOLES PLATINO (90-94) y GOLES ESTÁNDAR (80-89), porcentaje redondeado",
+ "criterio": "Over 1.5 redondeado de 70 % o más",
  "aviso": "+18 · Probabilidades estadísticas, no garantías.",
- "partidos": [],
+ "partidos": [
+  {
+   "hora_ecuador": "14:00",
+   "liga": "LaLiga",
+   "local": "Getafe",
+   "visitante": "Rayo Vallecano",
+   "over15": 77.0,
+   "over25": 52.0,
+   "marcador": "1-1",
+   "goles_esperados": 2.8,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "destacado": true,
+   "lambda_local": 1.87,
+   "lambda_visita": 0.89,
+   "modelo_extra": {
+    "over05": 92.8,
+    "over35": 29.9,
+    "over45": 14.6,
+    "ambos_marcan": 50.7,
+    "gana_local": 59.6,
+    "empate": 23.8,
+    "gana_visit": 16.6,
+    "distribucion": [
+     7.2,
+     15.8,
+     24.9,
+     22.2,
+     15.3,
+     8.4,
+     3.9,
+     2.3
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      11.4
+     ],
+     [
+      "2-0",
+      11.1
+     ],
+     [
+      "1-0",
+      11.0
+     ],
+     [
+      "2-1",
+      9.8
+     ],
+     [
+      "0-0",
+      7.2
+     ],
+     [
+      "3-0",
+      6.9
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.72,
+    "visitante": 1.36
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 4,
+    "gf_pj": 1.0,
+    "gc_pj": 0.5,
+    "goles_pj": 1.5,
+    "indice_ataque": 0.58,
+    "indice_defensa": 0.37,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 4,
+    "gf_pj": 1.25,
+    "gc_pj": 3.0,
+    "goles_pj": 4.25,
+    "indice_ataque": 0.92,
+    "indice_defensa": 1.74,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Getafe en casa: 1,00 goles a favor y 0,50 en contra por partido (4 PJ)",
+    "Rayo Vallecano fuera: 1,25 a favor y 3,00 en contra por partido (4 PJ)",
+    "Sus partidos promedian 1,5 y 4,2 goles",
+    "Goles esperados por el modelo: 2,8",
+    "Ambos marcan: 51 %"
+   ],
+   "fuentes": [
+    "tablas casa/fuera de tools/datos.py (LaLiga: base con corte sáb 17-oct verificada en sus fuentes + partidos del dom 18-oct del bloque DOM18, cada uno con su fuente; control GF casa = GC fuera y PJ casa = PJ fuera). Manual: el Dashboard Gol 4.0 no expone /api/dia."
+   ],
+   "corte_datos": "2026-10-19"
+  },
+  {
+   "hora_ecuador": "11:30",
+   "liga": "Serie A",
+   "local": "Monza",
+   "visitante": "Cagliari",
+   "over15": 76.0,
+   "over25": 50.5,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "destacado": false,
+   "lambda_local": 1.13,
+   "lambda_visita": 1.57,
+   "modelo_extra": {
+    "over05": 92.3,
+    "over35": 28.6,
+    "over45": 13.7,
+    "ambos_marcan": 54.6,
+    "gana_local": 26.4,
+    "empate": 27.0,
+    "gana_visit": 46.6,
+    "distribucion": [
+     7.7,
+     16.2,
+     25.5,
+     22.0,
+     14.9,
+     8.0,
+     3.6,
+     2.1
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      12.9
+     ],
+     [
+      "0-1",
+      9.6
+     ],
+     [
+      "1-2",
+      9.4
+     ],
+     [
+      "0-2",
+      8.3
+     ],
+     [
+      "0-0",
+      7.7
+     ],
+     [
+      "2-1",
+      6.7
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.54,
+    "visitante": 1.4
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 2,
+    "gf_pj": 2.0,
+    "gc_pj": 2.0,
+    "goles_pj": 4.0,
+    "indice_ataque": 1.3,
+    "indice_defensa": 1.43,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 3,
+    "gf_pj": 1.33,
+    "gc_pj": 0.33,
+    "goles_pj": 1.67,
+    "indice_ataque": 0.95,
+    "indice_defensa": 0.22,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Monza en casa: 2,00 goles a favor y 2,00 en contra por partido (2 PJ)",
+    "Cagliari fuera: 1,33 a favor y 0,33 en contra por partido (3 PJ)",
+    "Sus partidos promedian 4,0 y 1,7 goles",
+    "Goles esperados por el modelo: 2,7",
+    "Ambos marcan: 55 %"
+   ],
+   "fuentes": [
+    "tablas casa/fuera de tools/datos.py (Serie A: base con corte sáb 17-oct verificada en sus fuentes + partidos del dom 18-oct del bloque DOM18, cada uno con su fuente; control GF casa = GC fuera y PJ casa = PJ fuera). Manual: el Dashboard Gol 4.0 no expone /api/dia."
+   ],
+   "corte_datos": "2026-10-19"
+  },
+  {
+   "hora_ecuador": "19:15",
+   "liga": "Liga Profesional",
+   "local": "Deportivo Riestra",
+   "visitante": "Union Santa Fe",
+   "over15": 72.9,
+   "over25": 46.4,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "destacado": false,
+   "lambda_local": 1.54,
+   "lambda_visita": 0.99,
+   "modelo_extra": {
+    "over05": 91.1,
+    "over35": 24.9,
+    "over45": 11.3,
+    "ambos_marcan": 50.3,
+    "gana_local": 49.1,
+    "empate": 27.5,
+    "gana_visit": 23.4,
+    "distribucion": [
+     8.9,
+     18.2,
+     26.5,
+     21.5,
+     13.6,
+     6.9,
+     2.9,
+     1.5
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      13.1
+     ],
+     [
+      "1-0",
+      11.3
+     ],
+     [
+      "2-0",
+      9.4
+     ],
+     [
+      "2-1",
+      9.4
+     ],
+     [
+      "0-0",
+      8.9
+     ],
+     [
+      "0-1",
+      6.9
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.24,
+    "visitante": 1.03
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 6,
+    "gf_pj": 1.17,
+    "gc_pj": 1.0,
+    "goles_pj": 2.17,
+    "indice_ataque": 0.94,
+    "indice_defensa": 0.97,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 6,
+    "gf_pj": 1.0,
+    "gc_pj": 1.83,
+    "goles_pj": 2.83,
+    "indice_ataque": 0.97,
+    "indice_defensa": 1.48,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Deportivo Riestra en casa: 1,17 goles a favor y 1,00 en contra por partido (6 PJ)",
+    "Union Santa Fe fuera: 1,00 a favor y 1,83 en contra por partido (6 PJ)",
+    "Sus partidos promedian 2,2 y 2,8 goles",
+    "Goles esperados por el modelo: 2,5",
+    "Ambos marcan: 50 %"
+   ],
+   "fuentes": [
+    "tablas casa/fuera de tools/datos.py (Liga Profesional: base con corte sáb 17-oct verificada en sus fuentes + partidos del dom 18-oct del bloque DOM18, cada uno con su fuente; control GF casa = GC fuera y PJ casa = PJ fuera). Manual: el Dashboard Gol 4.0 no expone /api/dia."
+   ],
+   "corte_datos": "2026-10-19"
+  },
+  {
+   "hora_ecuador": "13:45",
+   "liga": "Serie A",
+   "local": "Parma",
+   "visitante": "Torino",
+   "over15": 71.0,
+   "over25": 44.0,
+   "marcador": "1-1",
+   "goles_esperados": 2.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "destacado": false,
+   "lambda_local": 1.23,
+   "lambda_visita": 1.2,
+   "modelo_extra": {
+    "over05": 90.2,
+    "over35": 22.8,
+    "over45": 10.0,
+    "ambos_marcan": 50.5,
+    "gana_local": 36.0,
+    "empate": 29.5,
+    "gana_visit": 34.5,
+    "distribucion": [
+     9.8,
+     19.3,
+     27.0,
+     21.1,
+     12.8,
+     6.2,
+     2.5,
+     1.2
+    ],
+    "marcadores_top6": [
+     [
+      "1-1",
+      14.0
+     ],
+     [
+      "0-0",
+      9.8
+     ],
+     [
+      "1-0",
+      9.8
+     ],
+     [
+      "0-1",
+      9.5
+     ],
+     [
+      "2-1",
+      8.0
+     ],
+     [
+      "1-2",
+      7.8
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.54,
+    "visitante": 1.4
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 3,
+    "gf_pj": 1.0,
+    "gc_pj": 1.0,
+    "goles_pj": 2.0,
+    "indice_ataque": 0.65,
+    "indice_defensa": 0.71,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 3,
+    "gf_pj": 1.33,
+    "gc_pj": 1.33,
+    "goles_pj": 2.67,
+    "indice_ataque": 0.95,
+    "indice_defensa": 0.87,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Parma en casa: 1,00 goles a favor y 1,00 en contra por partido (3 PJ)",
+    "Torino fuera: 1,33 a favor y 1,33 en contra por partido (3 PJ)",
+    "Sus partidos promedian 2,0 y 2,7 goles",
+    "Goles esperados por el modelo: 2,4",
+    "Ambos marcan: 50 %"
+   ],
+   "fuentes": [
+    "tablas casa/fuera de tools/datos.py (Serie A: base con corte sáb 17-oct verificada en sus fuentes + partidos del dom 18-oct del bloque DOM18, cada uno con su fuente; control GF casa = GC fuera y PJ casa = PJ fuera). Manual: el Dashboard Gol 4.0 no expone /api/dia."
+   ],
+   "corte_datos": "2026-10-19"
+  }
+ ],
  "sin_estadisticas": []
 }

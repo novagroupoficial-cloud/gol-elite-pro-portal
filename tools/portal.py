@@ -84,6 +84,32 @@ sec1=''.join(card(k) for k in PRED if k!=key(top))
 sec2=''.join(card(k) for k in DEST)
 def goles(r):
     m=re.match(r'\s*(\d+)-(\d+)',r); return int(m[1])+int(m[2]) if m else '?'
+# Éxito estrella y récords (tools/records.py -> public/api/records.json)
+import subprocess; subprocess.run([sys.executable,'records.py'],stdout=subprocess.DEVNULL)  # se recalcula en cada publicación
+try: _R=json.load(open('../public/api/records.json',encoding='utf-8'))
+except Exception: _R=None
+DIAS_ES=['lunes','martes','miércoles','jueves','viernes','sábado','domingo']
+def _fl(iso):
+    import datetime as _d; d=_d.date.fromisoformat(iso); return f"{DIAS_ES[d.weekday()]} {d.day}"
+estrella=recs=''
+if _R:
+    u=_R['partido_del_dia']['detalle'][-1] if _R['partido_del_dia']['detalle'] else None
+    if u and u.get('acierto'):
+        estrella=f'''<div class="estrella"><span class="es-t">⭐ ÉXITO ESTRELLA · {e(_fl(u['fecha']))}</span><b>{e(n(u['partido'].split(' vs ')[0]))} {e(u['resultado'])} {e(n(u['partido'].split(' vs ')[1]))}</b>
+<span>Dimos Over 1.5 al {pc(u['over15'])} % · Hubo {u['goles']} goles · {e(cat(u['over15'])[1])}</span>
+<span class="es-r">Partido del día cumplido {_R['partido_del_dia']['racha_actual']} días seguidos · {_R['over90']['racha_actual']} aciertos seguidos en partidos de 90 % o más</span></div>'''
+    C=_R['categorias']; q=lambda d:f"{d['aciertos']}/{d['partidos']}"; pq=lambda d:f"{round(d['aciertos']*100/d['partidos'])} %" if d['partidos'] else '—'
+    g=_R.get('mayor_goleada_acertada') or {}
+    recs=f'''<div class="recs"><h3>🏆 Nuestros récords</h3><div class="kpis">
+<div class="kpi g"><b>{q(_R['over90'])}</b><span>Over 1.5 de 90 % o más ({pq(_R['over90'])})</span></div>
+<div class="kpi g"><b>{_R['over90']['racha_max']}</b><span>aciertos seguidos de 90 % o más (récord)</span></div>
+<div class="kpi"><b>{q(_R['partido_del_dia'] | dict(partidos=_R['partido_del_dia']['dias']))}</b><span>partidos del día cumplidos</span></div>
+<div class="kpi"><b>{q(_R['over80'])}</b><span>Over 1.5 de 80 % o más ({pq(_R['over80'])})</span></div>
+<div class="kpi"><b>{q(C['GOL ÉLITE'])}</b><span>GOL ÉLITE (95 % o más)</span></div>
+<div class="kpi"><b>{q(C['GOLES PLATINO'])}</b><span>GOLES PLATINO (90 a 94 %)</span></div>
+<div class="kpi"><b>{q(C['GOLES ESTÁNDAR'])}</b><span>GOLES ESTÁNDAR (80 a 89 %)</span></div>
+<div class="kpi"><b>{g.get('goles','—')}</b><span>goles en la mayor goleada acertada: {e(g.get('partido',''))}</span></div></div>
+<p class="legal">{len(_R['dias'])} días auditados partido a partido ({_R['partidos']} partidos), recalculados con la escala actual. Se publican aciertos y fallos.</p></div>'''
 acier=''.join(f'''<a class="ac" href="{u}" target="_blank" rel="noopener"><span class="ac-ok">✔</span><div><b>{e(m)}</b><span class="ac-r">{e(r)}</span><small>Dimos Over 1.5 al {e(pc.split(' · ')[0])} · hubo {goles(r)} goles{(' · '+e(pc.split(' · ')[1])) if ' · ' in pc else ''} · {e(md)} ↗</small></div></a>''' for m,r,pc,md,u in ACIERTOS)
 def llegan(k):
     p=idx.get(k)
@@ -164,7 +190,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 .lg{{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}}
 .teams{{font-weight:600}} .teams span{{color:var(--muted);font-weight:400}}
 .badge{{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:2px 8px;border-radius:3px;background:var(--odd);color:var(--acc)}}
-.badge.elite{{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#1b1403}} .dato{{margin:6px 0 8px;font-size:13px;line-height:1.4;color:var(--muted)}} .dato b{{color:var(--gold)}} .dato small a{{color:var(--muted)}} .noti{{margin-top:10px;padding:10px 12px;border:1px solid var(--gold);border-radius:8px;background:var(--gold-bg)}} .noti b{{color:var(--gold2)}} .noti p{{margin:4px 0;color:var(--ink)}} .noti a{{font-size:12px;color:var(--gold)}} .badge.plat{{background:linear-gradient(180deg,#f4f7f6,#aebbb6);color:#101815}} .badge.r70{{color:var(--muted)}} .badge.r00{{color:var(--chip0);background:transparent;border:1px solid var(--line)}}
+.badge.elite{{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#1b1403}} .dato{{margin:6px 0 8px;font-size:13px;line-height:1.4;color:var(--muted)}} .dato b{{color:var(--gold)}} .dato small a{{color:var(--muted)}} .estrella{{display:grid;gap:4px;margin:0 0 14px;padding:16px 18px;border-radius:12px;border:2px solid var(--gold);background:linear-gradient(180deg,var(--gold-bg),var(--panel));box-shadow:0 0 30px -12px var(--gold)}} .estrella .es-t{{font-family:"Barlow Condensed",sans-serif;font-weight:800;letter-spacing:.08em;color:var(--gold)}} .estrella b{{font-family:"Barlow Condensed",sans-serif;font-size:30px;line-height:1.05}} .estrella .es-r{{color:var(--acc);font-weight:600}} .recs{{margin:0 0 14px}} .recs h3{{margin:0 0 8px}} .noti{{margin-top:10px;padding:10px 12px;border:1px solid var(--gold);border-radius:8px;background:var(--gold-bg)}} .noti b{{color:var(--gold2)}} .noti p{{margin:4px 0;color:var(--ink)}} .noti a{{font-size:12px;color:var(--gold)}} .badge.plat{{background:linear-gradient(180deg,#f4f7f6,#aebbb6);color:#101815}} .badge.r70{{color:var(--muted)}} .badge.r00{{color:var(--chip0);background:transparent;border:1px solid var(--line)}}
 .live{{font-size:12px;font-weight:700;color:#c0392b}}
 .odds{{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:4px}}
 .odd{{background:var(--odd);border-radius:4px;padding:6px 8px;display:grid;text-align:center;gap:0}}
@@ -241,7 +267,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
 {RANK}
 <section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>¡Acertamos ayer! Domingo 18 de octubre · el partido del día se cumplió: M'gladbach 1-2 Hoffenheim, hubo 3 goles · 26 de 31 en Over 1.5 de 70 % o más · toca para ver el resultado en su medio</p></div>
-<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
+{estrella}{recs}<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1 or '<p class="legal">Hoy ningún partido llega a 80 % en Over 1.5: es un lunes con pocos partidos y defensas sólidas. El más alto está arriba, como partido del día; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>'}</div></section>
 <section id="destacados"><div class="sh"><h2>Lo más importante del lunes</h2><p>Los partidos que más se miran hoy</p></div>

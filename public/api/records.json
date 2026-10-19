@@ -1,0 +1,95 @@
+{
+ "actualizado": "2026-10-19 06:42 ECU",
+ "dias": [
+  "2026-10-11",
+  "2026-10-12",
+  "2026-10-16",
+  "2026-10-17",
+  "2026-10-18"
+ ],
+ "partidos": 132,
+ "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
+ "categorias": {
+  "GOL ÉLITE": {
+   "aciertos": 3,
+   "partidos": 3
+  },
+  "GOLES PLATINO": {
+   "aciertos": 12,
+   "partidos": 13
+  },
+  "GOLES ESTÁNDAR": {
+   "aciertos": 33,
+   "partidos": 47
+  },
+  "GOLES OPTIMISTAS": {
+   "aciertos": 56,
+   "partidos": 69
+  }
+ },
+ "over90": {
+  "aciertos": 15,
+  "partidos": 16,
+  "racha_actual": 12,
+  "racha_max": 12
+ },
+ "over80": {
+  "aciertos": 48,
+  "partidos": 63
+ },
+ "over25_senal": {
+  "aciertos": 19,
+  "partidos": 27
+ },
+ "partido_del_dia": {
+  "aciertos": 4,
+  "dias": 4,
+  "racha_actual": 4,
+  "detalle": [
+   {
+    "fecha": "2026-10-11",
+    "partido": "Atlético MG vs Santos",
+    "resultado": "2-1",
+    "goles": null,
+    "acierto": true,
+    "over15": 85.0
+   },
+   {
+    "fecha": "2026-10-16",
+    "partido": "Atlante vs Pumas UNAM",
+    "resultado": "1-2",
+    "goles": 3,
+    "acierto": true,
+    "over15": 79.3
+   },
+   {
+    "fecha": "2026-10-17",
+    "partido": "Telstar vs Feyenoord",
+    "resultado": "3-4",
+    "goles": 7,
+    "acierto": true,
+    "over15": 94.8
+   },
+   {
+    "fecha": "2026-10-18",
+    "partido": "Borussia Monchengladbach vs Hoffenheim",
+    "resultado": "1-2",
+    "goles": 3,
+    "acierto": true,
+    "over15": 96.6
+   }
+  ]
+ },
+ "mejor_dia_80": {
+  "fecha": "2026-10-11",
+  "aciertos": 9,
+  "partidos": 10,
+  "pct": 0.9
+ },
+ "mayor_goleada_acertada": {
+  "fecha": "2026-10-17",
+  "partido": "Leon 3-5 America",
+  "goles": 8,
+  "over15": 83
+ }
+}

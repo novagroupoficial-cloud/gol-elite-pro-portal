@@ -517,14 +517,14 @@ COL.update({'Cagliari':'#9b1b30','Parma':'#ffd200','Torino':'#8b1a1a','Tottenham
  'Central Cordoba SdE':'#1a1a1a','Sarmiento':'#00843d','Barracas Central':'#c8102e','Deportivo Riestra':'#1a1a1a','Union Santa Fe':'#c8102e','Vitória':'#c8102e','Pasto':'#c8102e'})
 # Aciertos de ayer (domingo 18): (partido, marcador real, nuestro Over 1.5, medio, url)
 ACIERTOS=[
- ("M'gladbach vs Hoffenheim","1-2","96,6 % · partido del día","Fútbol Total","https://futboltotal.futbol/partido/borussia-monchengladbach-vs-1899-hoffenheim-bundesliga-2026-10-18"),
- ("FC Cincinnati vs Columbus Crew","0-2","96,2 %","Fútbol Total","https://futboltotal.futbol/partido/partido-fc-cincinnati-vs-columbus-crew-major-league-soccer-2026-10-19"),
- ("Cambuur vs AZ","2-2","92,6 %","Livescore","https://www.livescore.com/en/football/netherlands/eredivisie/cambuur-vs-az-alkmaar/1790248/"),
- ("FC Twente vs FC Utrecht","1-2","89,6 %","Voetbalprimeur","https://voetbal.headliner.nl/item/fc-twente-verzuimt-tweede-plek-over-te-nemen-na-nederlaag-tegen-fc-utrecht-voetbalprimeur-715087"),
- ("Alianza Atlético vs Universitario","1-4","89,2 %","El Comercio","https://elcomercio.pe/deporte-total/futbol-peruano/universitario-vs-alianza-atletico-en-vivo-online-gratis-por-torneo-clausura-de-la-liga-1-lbposting-noticia/"),
- ("Groningen vs Ajax","2-5","88,9 %","Sporza","https://sporza.be/nl/sport/voetbal/~3338823/"),
- ("NEC vs Fortuna Sittard","2-2","87,3 %","Fútbol Total","https://futboltotal.futbol/partido/nec-nijmegen-vs-fortuna-sittard-eredivisie-2026-10-18"),
- ("Sporting Cristal vs Comerciantes Unidos","4-2","86,5 %","El Diez","https://www.eldiez.com.pe/sporting-cristal-2/sporting-cristal-vs-comerciantes-unidos-en-vivo-por-liga-1-a-que-hora-y-donde-ver-resumen-goles-noticia/"),
+ ("M'gladbach vs Hoffenheim","1-2","97 % · partido del día · GOL ÉLITE","Fútbol Total","https://futboltotal.futbol/partido/borussia-monchengladbach-vs-1899-hoffenheim-bundesliga-2026-10-18"),
+ ("FC Cincinnati vs Columbus Crew","0-2","96 % · GOL ÉLITE","Fútbol Total","https://futboltotal.futbol/partido/partido-fc-cincinnati-vs-columbus-crew-major-league-soccer-2026-10-19"),
+ ("Cambuur vs AZ","2-2","93 % · GOLES PLATINO","Livescore","https://www.livescore.com/en/football/netherlands/eredivisie/cambuur-vs-az-alkmaar/1790248/"),
+ ("FC Twente vs FC Utrecht","1-2","90 % · GOLES PLATINO","Voetbalprimeur","https://voetbal.headliner.nl/item/fc-twente-verzuimt-tweede-plek-over-te-nemen-na-nederlaag-tegen-fc-utrecht-voetbalprimeur-715087"),
+ ("Alianza Atlético vs Universitario","1-4","89 % · GOLES ESTÁNDAR","El Comercio","https://elcomercio.pe/deporte-total/futbol-peruano/universitario-vs-alianza-atletico-en-vivo-online-gratis-por-torneo-clausura-de-la-liga-1-lbposting-noticia/"),
+ ("Groningen vs Ajax","2-5","89 % · GOLES ESTÁNDAR","Sporza","https://sporza.be/nl/sport/voetbal/~3338823/"),
+ ("NEC vs Fortuna Sittard","2-2","87 % · GOLES ESTÁNDAR","Fútbol Total","https://futboltotal.futbol/partido/nec-nijmegen-vs-fortuna-sittard-eredivisie-2026-10-18"),
+ ("Sporting Cristal vs Comerciantes Unidos","4-2","87 % · GOLES ESTÁNDAR","El Diez","https://www.eldiez.com.pe/sporting-cristal-2/sporting-cristal-vs-comerciantes-unidos-en-vivo-por-liga-1-a-que-hora-y-donde-ver-resumen-goles-noticia/"),
 ]
 LLEGAN={
  'Getafe|Rayo Vallecano':["Rayo Vallecano recibe 3 goles por partido fuera de casa: 12 en contra (y 5 a favor) en 4 partidos.",

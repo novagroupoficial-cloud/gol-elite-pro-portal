@@ -6,7 +6,7 @@ import json, os, sys, datetime as dt
 from math import exp, factorial
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 from nova_gol_4 import RHO, MAXG, categoria_o15, entero
-F=sys.argv[1]
+F=sys.argv[1]; MIN=int(sys.argv[2]) if len(sys.argv)>2 else 80  # umbral de Over 1.5 redondeado
 H=json.load(open('../public/api/hoy.json',encoding='utf-8'))
 S={(p['local'],p['visita']):p for p in json.load(open(f'../data/{F}/pronosticos.json',encoding='utf-8')) if not p.get('sin')}
 po=lambda k,l: exp(-l)*l**k/factorial(k)
@@ -24,7 +24,7 @@ def stats(t,cond,media_liga_gf,media_liga_gc):
                 indice_defensa=round(gc/pj/media_liga_gc,2) if pj else None,
                 ultimos5=None,temporada=None)
 out=[];
-elite=[p for p in H['todos'] if entero(p['over15'])>=80]
+elite=[p for p in H['todos'] if entero(p['over15'])>=MIN]
 for p in elite:
     s=S[(p['local'],p['visitante'])]
     a,b=s['lambda_local'],s['lambda_visita']; g=grid(a,b)
@@ -51,7 +51,7 @@ if out: max(out,key=lambda x:x['over15'])['destacado']=True
 ahora=(dt.datetime.now(dt.timezone.utc).replace(tzinfo=None)-dt.timedelta(hours=5)).strftime('%Y-%m-%d %H:%M')
 J=dict(fecha=F,generado_ecuador=f"{ahora} ECU (UTC-5)",fuente_pronosticos="public/api/hoy.json",modelo="GOL ÉLITE PRO 4.0 (Nova Gol 4.0)",
        generado_por="Claude (provisional mientras el Dashboard Gol 4.0 no entregue)",
-       criterio="GOL ÉLITE (>= 95), GOLES PLATINO (90-94) y GOLES ESTÁNDAR (80-89), porcentaje redondeado",
+       criterio=f"Over 1.5 redondeado de {MIN} % o más",
        aviso="+18 · Probabilidades estadísticas, no garantías.",partidos=out,sin_estadisticas=[])
 for f in (f'../data/{F}/estadisticas.json','../public/api/estadisticas.json'):
     json.dump(J,open(f,'w',encoding='utf-8'),ensure_ascii=False,indent=1)

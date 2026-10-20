@@ -4,16 +4,16 @@
  "nota": "Noticia de referencia por partido (sección Noticias del portal).",
  "partidos": {
   "Guadalajara|Necaxa": {
-   "titular": "NECAXA, 4 DERROTAS EN 5",
-   "texto": "Necaxa llega con 1 empate y 4 derrotas en sus últimos 5 partidos (0-2 con Atlas el viernes); Chivas viene de empatar 1-1 con Tigres en el Akron.",
-   "fuente": "Fútbol Total",
-   "url": "https://futboltotal.futbol/partido/guadalajara-chivas-vs-necaxa-liga-mx-2026-10-21"
+   "titular": "NECAXA, EN CRISIS Y SIN SU CAPITÁN",
+   "texto": "Necaxa es penúltimo (9 pts), suma 4 derrotas y 1 empate en sus últimos 5 y estrena técnico (Juan Reynoso); deja fuera al capitán Alexis Peña y al arquero Luis Jiménez. Chivas, 4.º con 20 pts, recupera a Kevin Castañeda y busca cortar 4 partidos sin ganar. Conclusión: Chivas favorito en el Akron ante la defensa visitante más débil del día (recibe 2,2 goles por partido).",
+   "fuente": "Sports Illustrated",
+   "url": "https://www.si.com/es-us/lesionados-y-sancionados-para-el-encuentro-de-chivas-vs-necaxa-20-10-2026"
   },
   "Cúcuta|Atlético Nacional": {
-   "titular": "NACIONAL SE AFIANZA ARRIBA",
-   "texto": "Atlético Nacional se afianzó en lo alto de la Liga BetPlay tras golear 4-1 a Boyacá Chicó el sábado; Cúcuta llega con 3 victorias seguidas.",
-   "fuente": "El Universal",
-   "url": "https://www.eluniversal.com.co/deportes/2026/10/17/atletico-nacional-se-afianza-en-lo-alto-de-la-liga-betplay-tras-goleada-a-boyaca-chico/"
+   "titular": "VUELVE JAMES; MORELOS Y ARMANI, FUERA",
+   "texto": "Nacional, que goleó 4-1 a Boyacá Chicó, recupera a James Rodríguez, pero no viajan Armani, Cardona ni Cabrera y Alfredo Morelos sigue lesionado. Cúcuta ganó 3 de sus últimos 5. Conclusión: los dos ataques más goleadores de la jornada; Nacional mete 2,4 goles por partido de visitante.",
+   "fuente": "Infobae",
+   "url": "https://www.infobae.com/colombia/deportes/2026/10/19/atletico-nacional-confirmo-el-regreso-de-james-rodriguez-para-enfrentar-a-cucuta-deportivo-tambien-anuncio-la-ausencia-de-tres-habituales-titulares/"
   },
   "Millonarios|Once Caldas": {
    "titular": "EL PARTIDO APLAZADO",
@@ -22,10 +22,29 @@
    "url": "https://www.publimetro.co/deportes/2026/10/14/millonarios-ya-tiene-nueva-fecha-para-jugar-ante-once-caldas-y-tambien-movio-el-partido-contra-jaguares/"
   },
   "Tigres UANL|Leon": {
-   "titular": "LEÓN VIENE DE RECIBIR 5",
-   "texto": "León perdió 3-5 con el América el sábado; Tigres empató 1-1 en Guadalajara. En los últimos 6 duelos: 2 victorias de cada uno y 2 empates.",
+   "titular": "TIGRES SIN BRUNETTA; LEÓN RECIBIÓ 5",
+   "texto": "León perdió 3-5 con América. Tigres pierde a Juan Brunetta por suspensión y tiene a Reyes y Angulo lesionados por largo tiempo, más Rômulo, Farfán y Osvaldo Rodríguez en duda. Conclusión: Tigres favorito en casa, pero sin su creativo; lo más probable es una victoria corta.",
+   "fuente": "FotMob",
+   "url": "https://www.fotmob.com/match/3888616/matchfacts/tigres-vs-leon"
+  },
+  "Internacional de Bogotá (ex La Equidad)|Fortaleza": {
+   "titular": "EL DUELO DE LOS EMPATES",
+   "texto": "Internacional (13.º) y Fortaleza (17.º) llevan 8 empates cada uno en 14 partidos; Fortaleza suma 4 empates en sus últimos 5. Conclusión: el partido más parejo de los seis; el 1-1 es el marcador más probable y es el de mayor riesgo.",
+   "fuente": "365Scores",
+   "url": "https://www.365scores.com/en-us/football/match/liga-betplay-620/internacional-bogota-fortaleza-fc-8542-9844-620"
+  },
+  "A. San Luis|Queretaro": {
+   "titular": "QUERÉTARO LLEGA TRAS RECIBIR 5",
+   "texto": "Querétaro venía de 3 victorias, pero cayó 0-5 en Torreón; San Luis no gana desde hace 2 partidos. En los últimos 6 duelos entre ellos: 3 victorias de cada uno y ningún empate. Conclusión: Querétaro favorito de visitante ante un San Luis que recibe 1,7 goles por partido en casa.",
    "fuente": "Fútbol Total",
-   "url": "https://futboltotal.futbol/partido/tigres-uanl-vs-leon-liga-mx-2026-10-21"
+   "url": "https://futboltotal.futbol/partido/atletico-san-luis-vs-club-queretaro-liga-mx-2026-10-21"
+  },
+  "Juarez|Atlante": {
+   "titular": "DOS EQUIPOS EN MALA RACHA",
+   "texto": "Juárez viene de recibir 0-5 con Cruz Azul y Atlante perdió sus 2 últimos partidos; los dos suman 3 derrotas en sus últimos 5. Conclusión: dos defensas que reciben mucho y dos ataques flojos; si hay goles, llegarán por errores.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/fc-juarez-vs-atlante-fc-liga-mx-2026-10-21"
   }
- }
+ },
+ "actualizado_ecuador": "2026-10-20 07:50 ECU (UTC-5)"
 }

@@ -4,6 +4,8 @@
 
 # Funciones: aviso a Telegram (netlify/functions/telegram.mjs, cada hora en el minuto 20)
 # y /api/telegram-estado para revisar la conexión. Se activan con TELEGRAM_BOT_TOKEN y TELEGRAM_CANAL.
+# Contador de visitas: /api/visitas (registro diario). Resumen PRIVADO a Marco a las 23:55 ECU
+# (netlify/functions/visitas-telegram.mjs): se activa con TELEGRAM_MARCO_CHAT (su chat personal, nunca el canal).
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"

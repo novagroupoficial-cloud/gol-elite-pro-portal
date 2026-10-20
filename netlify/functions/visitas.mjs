@@ -1,8 +1,10 @@
 // /api/visitas — contador de visitas del portal (Marco, 20-oct-2026).
 //   POST /api/visitas  {"nueva":true|false}  → suma 1 visita (y 1 visitante del día si "nueva") y devuelve los totales
 //   GET  /api/visitas                          → totales y registro de los últimos 60 días (hora de Ecuador)
+//   GET  /api/visitas?prueba=1                 → envía ya el resumen privado a Marco por Telegram (1 cada 10 min)
 // No guarda IP, nombre ni ningún dato personal: solo números por día. Ignora robots y buscadores.
 import { getStore } from "@netlify/blobs";
+import { avisarMarco } from "../lib/visitas.mjs";
 
 const json = (o, status = 200) =>
   new Response(JSON.stringify(o, null, 1), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } });
@@ -26,6 +28,16 @@ export default async (req) => {
       await store.setJSON(`dia-${hoy}`, d);
       await store.setJSON("total", t);
       return json({ hoy: d, total: t });
+    }
+  }
+
+  // GET /api/visitas?prueba=1 → manda ahora el resumen privado a Marco (máximo uno cada 10 minutos)
+  if (new URL(req.url).searchParams.get("prueba")) {
+    try {
+      const r = await avisarMarco(`prueba-${Math.floor(Date.now() / 6e5)}`);
+      return json({ prueba_telegram_marco: r.enviado ? "Enviado a tu chat privado." : r.motivo });
+    } catch (e) {
+      return json({ prueba_telegram_marco: `No se pudo enviar: ${e.message}` }, 502);
     }
   }
 

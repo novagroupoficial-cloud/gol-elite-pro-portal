@@ -121,5 +121,20 @@
   "marcador_exacto": false,
   "fuente": "https://www.cnnbrasil.com.br/esportes/brasileirao/corinthians-empata-com-vitoria-e-evita-nona-derrota-seguida-no-brasileirao/",
   "registrado": "21:14 ECU"
+ },
+ {
+  "local": "Deportivo Riestra",
+  "visita": "Union Santa Fe",
+  "hora": "19:15",
+  "resultado": "1-1",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 72.9,
+  "over25_dado": 46.4,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": true,
+  "fuente": "https://futboltotal.futbol/partido/deportivo-riestra-vs-union-santa-fe-liga-profesional-argentina-2026-10-20",
+  "registrado": "22:10 ECU"
  }
 ]

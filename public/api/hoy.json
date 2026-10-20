@@ -1,13 +1,13 @@
 {
  "fecha": "2026-10-19",
- "actualizado": "2026-10-19 19:16 ECU (UTC-5)",
+ "actualizado": "2026-10-19 20:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-19/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 5,
+  "terminados": 7,
   "total": 10,
   "over15_70": [
    3,
@@ -17,7 +17,7 @@
    0,
    0
   ],
-  "marcadores_exactos": 1
+  "marcadores_exactos": 2
  },
  "rango_80_90": [],
  "todos": [
@@ -220,8 +220,13 @@
     "gc": 5
    },
    "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/sarmiento-y-barracas-central-empataron-1-1-por-el-torneo-clausura-2026-nid19102026/"
   },
   {
    "puesto": 8,
@@ -277,7 +282,7 @@
     "gc": 9
    },
    "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -303,8 +308,13 @@
     "gc": 8
    },
    "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/newells-old-boys-vencio-por-2-1-a-central-cordoba-santiago-del-estero-por-el-torneo-clausura-2026-nid19102026/"
   }
  ],
  "sin_pronostico": []

@@ -74,5 +74,37 @@
   "fuente": "https://www.eldiario.ec/deportes/reparto-de-puntos-en-echaleche-mushuc-runa-igualo-con-orense-en-el-torneo-por-la-permanencia-en-la-a-19102026",
   "fuente_2": "https://studiofutbol.com.ec/2026/10/19/mushuc-runa-y-orense-repartieron-puntos-asi-quedo-el-hexagonal-del-descenso/",
   "registrado": "18:15 ECU"
+ },
+ {
+  "local": "Newells Old Boys",
+  "visita": "Central Cordoba SdE",
+  "hora": "17:00",
+  "resultado": "2-1",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 62.3,
+  "over25_dado": 34.3,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.lanacion.com.ar/deportes/canchallena/newells-old-boys-vencio-por-2-1-a-central-cordoba-santiago-del-estero-por-el-torneo-clausura-2026-nid19102026/",
+  "fuente_2": "https://www.cadena3.com/noticia/deportes-rosario/newells-gano-2-a-1-ante-central-cordoba-y-se-mete-de-lleno-en-zona-de-playoffs_604665",
+  "registrado": "20:11 ECU"
+ },
+ {
+  "local": "Sarmiento",
+  "visita": "Barracas Central",
+  "hora": "17:00",
+  "resultado": "1-1",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 65.5,
+  "over25_dado": 37.6,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": true,
+  "fuente": "https://www.lanacion.com.ar/deportes/canchallena/sarmiento-y-barracas-central-empataron-1-1-por-el-torneo-clausura-2026-nid19102026/",
+  "fuente_2": "https://www.futbolred.com/otras-ligas-de-futbol/sarmiento-y-barracas-central-igualan-1-1-en-junin-con-goles-de-renteria-e-insua-274166",
+  "registrado": "20:11 ECU"
  }
 ]

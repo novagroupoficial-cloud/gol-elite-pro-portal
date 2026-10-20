@@ -1,13 +1,13 @@
 {
  "fecha": "2026-10-19",
- "actualizado": "2026-10-19 20:11 ECU (UTC-5)",
+ "actualizado": "2026-10-19 21:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-19/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 7,
+  "terminados": 8,
   "total": 10,
   "over15_70": [
    3,
@@ -163,8 +163,13 @@
     "gc": 32
    },
    "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.cnnbrasil.com.br/esportes/brasileirao/corinthians-empata-com-vitoria-e-evita-nona-derrota-seguida-no-brasileirao/"
   },
   {
    "puesto": 6,

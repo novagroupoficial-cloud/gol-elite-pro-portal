@@ -136,5 +136,20 @@
   "marcador_exacto": true,
   "fuente": "https://futboltotal.futbol/partido/deportivo-riestra-vs-union-santa-fe-liga-profesional-argentina-2026-10-20",
   "registrado": "22:10 ECU"
+ },
+ {
+  "local": "Pasto",
+  "visita": "Alianza (ex Alianza Petrolera)",
+  "hora": "20:05",
+  "resultado": "0-1",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 62.4,
+  "over25_dado": 34.2,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/deportivo-pasto-vs-alianza-petrolera-primera-a-2026-10-20",
+  "registrado": "23:15 ECU"
  }
 ]

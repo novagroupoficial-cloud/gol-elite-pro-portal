@@ -1,13 +1,13 @@
 {
  "fecha": "2026-10-19",
- "actualizado": "2026-10-19 22:10 ECU (UTC-5)",
+ "actualizado": "2026-10-19 23:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-19/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 9,
+  "terminados": 10,
   "total": 10,
   "over15_70": [
    4,
@@ -292,8 +292,13 @@
     "gc": 9
    },
    "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/deportivo-pasto-vs-alianza-petrolera-primera-a-2026-10-20"
   },
   {
    "puesto": 10,

@@ -4,3 +4,5 @@
 .frm .chk{display:flex;gap:8px;align-items:flex-start;font-weight:400;font-size:13px;color:var(--muted)}
 .frm .cta{border:0;cursor:pointer;margin:0;justify-self:start;font:700 15px var(--body)}
 .pie{max-width:1240px;margin:0 auto;padding:20px 16px 40px;color:var(--muted);font-size:13px;display:grid;gap:6px;border-top:1px solid var(--line)}
+
+.visitas{font-variant-numeric:tabular-nums}.visitas b{color:var(--ink,inherit)}

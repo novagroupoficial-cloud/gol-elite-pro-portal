@@ -1,3 +1,20 @@
 <footer class="pie"><div>© 2026 Gol Élite Pro · Análisis estadístico informativo. +18. La probabilidad no garantiza resultados.</div>
 <nav><a href="/privacidad.html">Política de privacidad</a> · <a href="/terminos.html">Términos y condiciones</a></nav>
-<div>Nuestra presentadora es un avatar creado con inteligencia artificial.</div></footer>
+<div>Nuestra presentadora es un avatar creado con inteligencia artificial.</div><div class="visitas" id="visitas" hidden>👁 Visitas hoy: <b id="v-hoy">–</b> · Visitantes hoy: <b id="v-per">–</b> · Total desde el <span id="v-desde"></span>: <b id="v-tot">–</b></div></footer>
+<script>
+(function(){
+  try{
+    var hoy=new Date(Date.now()-5*3600e3).toISOString().slice(0,10), nueva=true;
+    try{ nueva = localStorage.getItem('ge-visita')!==hoy; localStorage.setItem('ge-visita',hoy); }catch(e){}
+    fetch('/api/visitas',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({nueva:nueva})})
+      .then(function(r){return r.ok?r.json():null}).then(function(d){
+        if(!d||!d.hoy)return; var f=function(n){return Number(n).toLocaleString('es-EC')};
+        document.getElementById('v-hoy').textContent=f(d.hoy.visitas);
+        document.getElementById('v-per').textContent=f(d.hoy.visitantes);
+        document.getElementById('v-tot').textContent=f(d.total.visitas);
+        var p=d.total.desde.split('-'); document.getElementById('v-desde').textContent=p[2]+'/'+p[1]+'/'+p[0];
+        document.getElementById('visitas').hidden=false;
+      }).catch(function(){});
+  }catch(e){}
+})();
+</script>

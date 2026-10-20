@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-20",
- "ultima_ejecucion": "2026-10-20 04:12 ECU",
- "ultima_ok": "2026-10-20 04:12 ECU",
+ "ultima_ejecucion": "2026-10-20 05:12 ECU",
+ "ultima_ok": "2026-10-20 05:12 ECU",
  "rutina_diaria": "pendiente",
  "rutina_diaria_inicio": null,
  "pendientes": [
@@ -12,11 +12,11 @@
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "04:12 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
+  "ultima_revision": "05:12 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
  },
  "avisos_enviados": [
   "bloqueo"
  ],
- "web_sin_lectura_seguidas": 79,
- "nota": "00:10: jornada del 19 ya cerrada (10/10 terminados, Over 1.5 9/10). Antes de 08:00 ECU, sin pronósticos del 20 aún (la rutina diaria de las 05:24 no ha corrido); sin partidos que registrar ni ranking que regenerar. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo del día enviado. | 01:13: antes de 08:00 ECU, sin pronósticos del 20 (rutina diaria 05:24 aún no corre); sin partidos ni ranking que regenerar. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 02:14: antes de 08:00 ECU, sin pronósticos del 20 (rutina diaria 05:24 aún no corre); sin partidos ni ranking que regenerar. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 03:14: antes de 08:00 ECU, sin pronósticos del 20 (rutina diaria 05:24 aún no corre); sin partidos ni ranking que regenerar. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 04:12: antes de 08:00 ECU, sin pronósticos del 20 (rutina diaria 05:24 aún no corre); sin partidos ni ranking que regenerar. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy."
+ "web_sin_lectura_seguidas": 80,
+ "nota": "00:10: jornada del 19 ya cerrada (10/10 terminados, Over 1.5 9/10). Antes de 08:00 ECU, sin pronósticos del 20 aún (la rutina diaria de las 05:24 no ha corrido); sin partidos que registrar ni ranking que regenerar. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo del día enviado. | 01:13: antes de 08:00 ECU, sin pronósticos del 20 (rutina diaria 05:24 aún no corre); sin partidos ni ranking que regenerar. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 02:14: antes de 08:00 ECU, sin pronósticos del 20 (rutina diaria 05:24 aún no corre); sin partidos ni ranking que regenerar. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 03:14: antes de 08:00 ECU, sin pronósticos del 20 (rutina diaria 05:24 aún no corre); sin partidos ni ranking que regenerar. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 04:12: antes de 08:00 ECU, sin pronósticos del 20 (rutina diaria 05:24 aún no corre); sin partidos ni ranking que regenerar. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy. | 05:12: antes de 08:00 ECU, sin pronósticos del 20 (rutina diaria 05:24 aún no corre); sin partidos ni ranking que regenerar. Auditoría del 19 la hará la rutina diaria. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo ya enviado hoy."
 }

@@ -1,0 +1,31 @@
+{
+ "fecha": "2026-10-20",
+ "generado_ecuador": "2026-10-20 05:55 ECU (UTC-5)",
+ "nota": "Noticia de referencia por partido (sección Noticias del portal).",
+ "partidos": {
+  "Guadalajara|Necaxa": {
+   "titular": "NECAXA, 4 DERROTAS EN 5",
+   "texto": "Necaxa llega con 1 empate y 4 derrotas en sus últimos 5 partidos (0-2 con Atlas el viernes); Chivas viene de empatar 1-1 con Tigres en el Akron.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/guadalajara-chivas-vs-necaxa-liga-mx-2026-10-21"
+  },
+  "Cúcuta|Atlético Nacional": {
+   "titular": "NACIONAL SE AFIANZA ARRIBA",
+   "texto": "Atlético Nacional se afianzó en lo alto de la Liga BetPlay tras golear 4-1 a Boyacá Chicó el sábado; Cúcuta llega con 3 victorias seguidas.",
+   "fuente": "El Universal",
+   "url": "https://www.eluniversal.com.co/deportes/2026/10/17/atletico-nacional-se-afianza-en-lo-alto-de-la-liga-betplay-tras-goleada-a-boyaca-chico/"
+  },
+  "Millonarios|Once Caldas": {
+   "titular": "EL PARTIDO APLAZADO",
+   "texto": "Millonarios y Once Caldas juegan el partido aplazado del 14 de octubre, reprogramado para este martes a las 8:30 p. m. en El Campín.",
+   "fuente": "Publimetro",
+   "url": "https://www.publimetro.co/deportes/2026/10/14/millonarios-ya-tiene-nueva-fecha-para-jugar-ante-once-caldas-y-tambien-movio-el-partido-contra-jaguares/"
+  },
+  "Tigres UANL|Leon": {
+   "titular": "LEÓN VIENE DE RECIBIR 5",
+   "texto": "León perdió 3-5 con el América el sábado; Tigres empató 1-1 en Guadalajara. En los últimos 6 duelos: 2 victorias de cada uno y 2 empates.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/tigres-uanl-vs-leon-liga-mx-2026-10-21"
+  }
+ }
+}

@@ -1,335 +1,286 @@
 {
- "fecha": "2026-10-19",
- "actualizado": "2026-10-19 23:16 ECU (UTC-5)",
+ "fecha": "2026-10-20",
+ "actualizado": "2026-10-20 05:43 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
- "fuente_sellada": "data/2026-10-19/pronosticos.json",
+ "fuente_sellada": "data/2026-10-20/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 10,
-  "total": 10,
+  "terminados": 0,
+  "total": 8,
   "over15_70": [
-   4,
-   4
+   0,
+   0
   ],
   "over25_senal": [
    0,
    0
   ],
-  "marcadores_exactos": 3
+  "marcadores_exactos": 0
  },
- "rango_80_90": [],
- "todos": [
+ "rango_80_90": [
   {
    "puesto": 1,
-   "hora_ecuador": "14:00",
-   "liga": "LaLiga",
-   "local": "Getafe",
-   "visitante": "Rayo Vallecano",
-   "over15": 77.0,
-   "over25": 52.0,
+   "hora_ecuador": "19:07",
+   "liga": "Liga MX",
+   "local": "Guadalajara",
+   "visitante": "Necaxa",
+   "over15": 84.2,
+   "over25": 62.9,
    "marcador": "1-1",
-   "goles_esperados": 2.8,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
    "casa_local": {
-    "pj": 4,
-    "gf": 4,
-    "gc": 2
+    "pj": 6,
+    "gf": 10,
+    "gc": 7
    },
    "fuera_visitante": {
-    "pj": 4,
-    "gf": 5,
-    "gc": 12
+    "pj": 5,
+    "gf": 7,
+    "gc": 11
    },
-   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-1",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": true,
-   "fuente": "https://futboltotal.futbol/partido/getafe-vs-rayo-vallecano-la-liga-2026-10-19"
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
    "puesto": 2,
-   "hora_ecuador": "11:30",
-   "liga": "Serie A",
-   "local": "Monza",
-   "visitante": "Cagliari",
-   "over15": 76.0,
-   "over25": 50.5,
+   "hora_ecuador": "18:30",
+   "liga": "Liga BetPlay",
+   "local": "Cúcuta",
+   "visitante": "Atlético Nacional",
+   "over15": 83.4,
+   "over25": 61.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 6,
+    "gf": 11,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 17,
+    "gc": 8
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "todos": [
+  {
+   "puesto": 1,
+   "hora_ecuador": "19:07",
+   "liga": "Liga MX",
+   "local": "Guadalajara",
+   "visitante": "Necaxa",
+   "over15": 84.2,
+   "over25": 62.9,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 6,
+    "gf": 10,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 7,
+    "gc": 11
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 2,
+   "hora_ecuador": "18:30",
+   "liga": "Liga BetPlay",
+   "local": "Cúcuta",
+   "visitante": "Atlético Nacional",
+   "over15": 83.4,
+   "over25": 61.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 6,
+    "gf": 11,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 17,
+    "gc": 8
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 3,
+   "hora_ecuador": "18:15",
+   "liga": "Liga BetPlay",
+   "local": "Internacional de Bogotá (ex La Equidad)",
+   "visitante": "Fortaleza",
+   "over15": 75.7,
+   "over25": 50.1,
    "marcador": "1-1",
    "goles_esperados": 2.7,
    "categoria": "GOLES OPTIMISTAS",
    "senal_over25": "sin señal",
    "casa_local": {
-    "pj": 2,
-    "gf": 4,
-    "gc": 4
+    "pj": 7,
+    "gf": 10,
+    "gc": 11
    },
    "fuera_visitante": {
-    "pj": 3,
-    "gf": 4,
-    "gc": 1
+    "pj": 6,
+    "gf": 6,
+    "gc": 8
    },
-   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "4-0",
-   "goles": 4,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://sport.quotidiano.net/calcio/monza/monza-cagliari-4-0-i-brianzoli-calano-il-poker-contro-i-sardi-d048db81"
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
-   "puesto": 3,
-   "hora_ecuador": "19:15",
-   "liga": "Liga Profesional",
-   "local": "Deportivo Riestra",
-   "visitante": "Union Santa Fe",
-   "over15": 72.9,
-   "over25": 46.4,
+   "puesto": 4,
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "A. San Luis",
+   "visitante": "Queretaro",
+   "over15": 75.0,
+   "over25": 49.1,
+   "marcador": "1-1",
+   "goles_esperados": 2.6,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 7,
+    "gc": 10
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 8,
+    "gc": 7
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 5,
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "Juarez",
+   "visitante": "Atlante",
+   "over15": 73.2,
+   "over25": 46.8,
    "marcador": "1-1",
    "goles_esperados": 2.5,
    "categoria": "GOLES OPTIMISTAS",
    "senal_over25": "sin señal",
    "casa_local": {
     "pj": 6,
-    "gf": 7,
-    "gc": 6
+    "gf": 5,
+    "gc": 11
    },
    "fuera_visitante": {
     "pj": 6,
     "gf": 6,
-    "gc": 11
+    "gc": 10
    },
-   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-1",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": true,
-   "fuente": "https://futboltotal.futbol/partido/deportivo-riestra-vs-union-santa-fe-liga-profesional-argentina-2026-10-20"
-  },
-  {
-   "puesto": 4,
-   "hora_ecuador": "13:45",
-   "liga": "Serie A",
-   "local": "Parma",
-   "visitante": "Torino",
-   "over15": 71.0,
-   "over25": 44.0,
-   "marcador": "1-1",
-   "goles_esperados": 2.4,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 3,
-    "gf": 3,
-    "gc": 3
-   },
-   "fuera_visitante": {
-    "pj": 3,
-    "gf": 4,
-    "gc": 4
-   },
-   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "0-3",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/parma-vs-torino-serie-a-2026-10-19"
-  },
-  {
-   "puesto": 5,
-   "hora_ecuador": "18:00",
-   "liga": "Brasileirão",
-   "local": "Corinthians",
-   "visitante": "Vitória",
-   "over15": 66.4,
-   "over25": 38.7,
-   "marcador": "1-0",
-   "goles_esperados": 2.2,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 15,
-    "gf": 15,
-    "gc": 16
-   },
-   "fuera_visitante": {
-    "pj": 15,
-    "gf": 11,
-    "gc": 32
-   },
-   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-1",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://www.cnnbrasil.com.br/esportes/brasileirao/corinthians-empata-com-vitoria-e-evita-nona-derrota-seguida-no-brasileirao/"
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
    "puesto": 6,
-   "hora_ecuador": "15:30",
-   "liga": "LigaPro",
-   "local": "Mushuc Runa",
-   "visitante": "Orense",
-   "over15": 66.3,
-   "over25": 38.5,
-   "marcador": "1-0",
-   "goles_esperados": 2.2,
+   "hora_ecuador": "22:00",
+   "liga": "Liga MX",
+   "local": "Tigres UANL",
+   "visitante": "Leon",
+   "over15": 72.6,
+   "over25": 46.0,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
    "categoria": "GOLES OPTIMISTAS",
    "senal_over25": "sin señal",
    "casa_local": {
-    "pj": 15,
-    "gf": 16,
-    "gc": 14
+    "pj": 5,
+    "gf": 9,
+    "gc": 5
    },
    "fuera_visitante": {
-    "pj": 16,
-    "gf": 14,
-    "gc": 27
+    "pj": 6,
+    "gf": 6,
+    "gc": 8
    },
-   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-1",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://www.eldiario.ec/deportes/reparto-de-puntos-en-echaleche-mushuc-runa-igualo-con-orense-en-el-torneo-por-la-permanencia-en-la-a-19102026"
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
    "puesto": 7,
-   "hora_ecuador": "17:00",
-   "liga": "Liga Profesional",
-   "local": "Sarmiento",
-   "visitante": "Barracas Central",
-   "over15": 65.5,
-   "over25": 37.6,
-   "marcador": "1-1",
-   "goles_esperados": 2.2,
+   "hora_ecuador": "20:30",
+   "liga": "Liga BetPlay",
+   "local": "Millonarios",
+   "visitante": "Once Caldas",
+   "over15": 63.1,
+   "over25": 35.1,
+   "marcador": "1-0",
+   "goles_esperados": 2.1,
    "categoria": "GOLES OPTIMISTAS",
    "senal_over25": "sin señal",
    "casa_local": {
     "pj": 6,
     "gf": 10,
-    "gc": 6
+    "gc": 3
    },
    "fuera_visitante": {
-    "pj": 6,
-    "gf": 6,
-    "gc": 5
+    "pj": 8,
+    "gf": 9,
+    "gc": 9
    },
-   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-1",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": true,
-   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/sarmiento-y-barracas-central-empataron-1-1-por-el-torneo-clausura-2026-nid19102026/"
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
    "puesto": 8,
-   "hora_ecuador": "14:00",
-   "liga": "Premier League",
-   "local": "Tottenham Hotspur",
-   "visitante": "Coventry City",
-   "over15": 63.2,
-   "over25": 35.1,
-   "marcador": "1-1",
-   "goles_esperados": 2.1,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 3,
-    "gf": 2,
-    "gc": 5
-   },
-   "fuera_visitante": {
-    "pj": 3,
-    "gf": 1,
-    "gc": 4
-   },
-   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "3-1",
-   "goles": 4,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/tottenham-vs-coventry-premier-league-2026-10-19"
-  },
-  {
-   "puesto": 9,
-   "hora_ecuador": "20:05",
+   "hora_ecuador": "16:30",
    "liga": "Liga BetPlay",
-   "local": "Pasto",
-   "visitante": "Alianza (ex Alianza Petrolera)",
-   "over15": 62.4,
-   "over25": 34.2,
-   "marcador": "1-1",
-   "goles_esperados": 2.1,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 6,
-    "gf": 3,
-    "gc": 7
-   },
-   "fuera_visitante": {
-    "pj": 5,
-    "gf": 5,
-    "gc": 9
-   },
-   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "0-1",
-   "goles": 1,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/deportivo-pasto-vs-alianza-petrolera-primera-a-2026-10-20"
-  },
-  {
-   "puesto": 10,
-   "hora_ecuador": "17:00",
-   "liga": "Liga Profesional",
-   "local": "Newells Old Boys",
-   "visitante": "Central Cordoba SdE",
-   "over15": 62.3,
-   "over25": 34.3,
+   "local": "Deportivo Pereira",
+   "visitante": "Boyacá Chicó",
+   "over15": 62.7,
+   "over25": 34.7,
    "marcador": "1-0",
    "goles_esperados": 2.1,
    "categoria": "GOLES OPTIMISTAS",
    "senal_over25": "sin señal",
    "casa_local": {
     "pj": 6,
-    "gf": 8,
-    "gc": 4
+    "gf": 3,
+    "gc": 9
    },
    "fuera_visitante": {
     "pj": 6,
-    "gf": 5,
-    "gc": 8
+    "gf": 2,
+    "gc": 15
    },
-   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-1",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/newells-old-boys-vencio-por-2-1-a-central-cordoba-santiago-del-estero-por-el-torneo-clausura-2026-nid19102026/"
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   }
  ],
  "sin_pronostico": []

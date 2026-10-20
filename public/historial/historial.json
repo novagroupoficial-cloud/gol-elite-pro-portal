@@ -165,5 +165,37 @@
   ],
   "partidos": 43,
   "nota_escala": "Escala nueva (Marco, 17-oct-2026) con porcentaje redondeado; corregido el 19-oct porque la auditoría automática salió con la escala anterior."
+ },
+ {
+  "fecha": "2026-10-19",
+  "titulo": "Lunes 19 de octubre de 2026",
+  "imagen": "/historial/2026-10-19.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "4/4",
+    "Over 1.5 de 70 % o más (100 %)"
+   ],
+   [
+    "0/0",
+    "Over 2.5 con señal (sin señales)"
+   ],
+   [
+    "3/10",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Ningún Over 1.5 de 70 % o más falló. Del total, 9 de 10 partidos tuvieron 2 goles o más; el único fallo fue Deportivo Pasto 0-1 Alianza FC (62,4 %, menos de 70 %: no recomendado; hubo 1 gol). Ningún partido llegó a 80 % ni hubo Over 2.5 con señal.",
+  "aciertos_destacados": [
+   "Getafe 1-1 Rayo Vallecano (partido del día · Over 1.5 al 77,0 % · hubo 2 goles · marcador exacto)",
+   "Monza 4-0 Cagliari (76,0 % · hubo 4 goles)",
+   "Riestra 1-1 Unión (72,9 % · hubo 2 goles · marcador exacto)",
+   "Parma 0-3 Torino (71,0 % · hubo 3 goles)",
+   "Sarmiento 1-1 Barracas Central (65,5 % · marcador exacto)"
+  ],
+  "partidos": 10
  }
 ]

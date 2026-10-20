@@ -1,0 +1,250 @@
+[
+ {
+  "hora": "16:30",
+  "liga": "COL",
+  "local": "Deportivo Pereira",
+  "visita": "Boyacá Chicó",
+  "casa": [
+   6,
+   3,
+   9
+  ],
+  "fuera": [
+   6,
+   2,
+   15
+  ],
+  "HG": 1.4,
+  "AG": 1.17,
+  "lambda_local": 1.27,
+  "lambda_visita": 0.82,
+  "goles_esperados": 2.1,
+  "over15": 62.7,
+  "over25": 34.7,
+  "under25": 65.3,
+  "marcador": "1-0",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+  "rango_clasico": "Menos de 70",
+  "fuente_datos": "tablas casa/fuera de tools/datos.py (Liga BetPlay: base verificada en sus fuentes + partidos del dom 18 y lun 19-oct de los bloques DOM18/LUN19, cada uno con su fuente; control GF casa = GC fuera y PJ casa = PJ fuera). Manual: el Dashboard Gol 4.0 no expone /api/dia."
+ },
+ {
+  "hora": "18:15",
+  "liga": "COL",
+  "local": "Internacional de Bogotá (ex La Equidad)",
+  "visita": "Fortaleza",
+  "casa": [
+   7,
+   10,
+   11
+  ],
+  "fuera": [
+   6,
+   6,
+   8
+  ],
+  "HG": 1.4,
+  "AG": 1.17,
+  "lambda_local": 1.38,
+  "lambda_visita": 1.3,
+  "goles_esperados": 2.7,
+  "over15": 75.7,
+  "over25": 50.1,
+  "under25": 49.9,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+  "rango_clasico": "Rango 70",
+  "fuente_datos": "tablas casa/fuera de tools/datos.py (Liga BetPlay: base verificada en sus fuentes + partidos del dom 18 y lun 19-oct de los bloques DOM18/LUN19, cada uno con su fuente; control GF casa = GC fuera y PJ casa = PJ fuera). Manual: el Dashboard Gol 4.0 no expone /api/dia."
+ },
+ {
+  "hora": "18:30",
+  "liga": "COL",
+  "local": "Cúcuta",
+  "visita": "Atlético Nacional",
+  "casa": [
+   6,
+   11,
+   6
+  ],
+  "fuera": [
+   7,
+   17,
+   8
+  ],
+  "HG": 1.4,
+  "AG": 1.17,
+  "lambda_local": 1.46,
+  "lambda_visita": 1.71,
+  "goles_esperados": 3.2,
+  "over15": 83.4,
+  "over25": 61.4,
+  "under25": 38.6,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+  "rango_clasico": "Rango 80",
+  "fuente_datos": "tablas casa/fuera de tools/datos.py (Liga BetPlay: base verificada en sus fuentes + partidos del dom 18 y lun 19-oct de los bloques DOM18/LUN19, cada uno con su fuente; control GF casa = GC fuera y PJ casa = PJ fuera). Manual: el Dashboard Gol 4.0 no expone /api/dia."
+ },
+ {
+  "hora": "19:07",
+  "liga": "MEX",
+  "local": "Guadalajara",
+  "visita": "Necaxa",
+  "casa": [
+   6,
+   10,
+   7
+  ],
+  "fuera": [
+   5,
+   7,
+   11
+  ],
+  "HG": 1.6,
+  "AG": 1.4,
+  "lambda_local": 1.98,
+  "lambda_visita": 1.26,
+  "goles_esperados": 3.2,
+  "over15": 84.2,
+  "over25": 62.9,
+  "under25": 37.1,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+  "rango_clasico": "Rango 80",
+  "fuente_datos": "tablas casa/fuera de tools/datos.py (Liga MX: base verificada en sus fuentes + partidos del dom 18 y lun 19-oct de los bloques DOM18/LUN19, cada uno con su fuente; control GF casa = GC fuera y PJ casa = PJ fuera). Manual: el Dashboard Gol 4.0 no expone /api/dia."
+ },
+ {
+  "hora": "20:00",
+  "liga": "MEX",
+  "local": "A. San Luis",
+  "visita": "Queretaro",
+  "casa": [
+   6,
+   7,
+   10
+  ],
+  "fuera": [
+   6,
+   8,
+   7
+  ],
+  "HG": 1.6,
+  "AG": 1.4,
+  "lambda_local": 1.12,
+  "lambda_visita": 1.52,
+  "goles_esperados": 2.6,
+  "over15": 75.0,
+  "over25": 49.1,
+  "under25": 50.9,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+  "rango_clasico": "Rango 70",
+  "fuente_datos": "tablas casa/fuera de tools/datos.py (Liga MX: base verificada en sus fuentes + partidos del dom 18 y lun 19-oct de los bloques DOM18/LUN19, cada uno con su fuente; control GF casa = GC fuera y PJ casa = PJ fuera). Manual: el Dashboard Gol 4.0 no expone /api/dia."
+ },
+ {
+  "hora": "20:00",
+  "liga": "MEX",
+  "local": "Juarez",
+  "visita": "Atlante",
+  "casa": [
+   6,
+   5,
+   11
+  ],
+  "fuera": [
+   6,
+   6,
+   10
+  ],
+  "HG": 1.6,
+  "AG": 1.4,
+  "lambda_local": 1.17,
+  "lambda_visita": 1.38,
+  "goles_esperados": 2.5,
+  "over15": 73.2,
+  "over25": 46.8,
+  "under25": 53.2,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+  "rango_clasico": "Rango 70",
+  "fuente_datos": "tablas casa/fuera de tools/datos.py (Liga MX: base verificada en sus fuentes + partidos del dom 18 y lun 19-oct de los bloques DOM18/LUN19, cada uno con su fuente; control GF casa = GC fuera y PJ casa = PJ fuera). Manual: el Dashboard Gol 4.0 no expone /api/dia."
+ },
+ {
+  "hora": "20:30",
+  "liga": "COL",
+  "local": "Millonarios",
+  "visita": "Once Caldas",
+  "casa": [
+   6,
+   10,
+   3
+  ],
+  "fuera": [
+   8,
+   9,
+   9
+  ],
+  "HG": 1.4,
+  "AG": 1.17,
+  "lambda_local": 1.35,
+  "lambda_visita": 0.75,
+  "goles_esperados": 2.1,
+  "over15": 63.1,
+  "over25": 35.1,
+  "under25": 64.9,
+  "marcador": "1-0",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+  "rango_clasico": "Menos de 70",
+  "fuente_datos": "tablas casa/fuera de tools/datos.py (Liga BetPlay: base verificada en sus fuentes + partidos del dom 18 y lun 19-oct de los bloques DOM18/LUN19, cada uno con su fuente; control GF casa = GC fuera y PJ casa = PJ fuera). Manual: el Dashboard Gol 4.0 no expone /api/dia."
+ },
+ {
+  "hora": "22:00",
+  "liga": "MEX",
+  "local": "Tigres UANL",
+  "visita": "Leon",
+  "casa": [
+   5,
+   9,
+   5
+  ],
+  "fuera": [
+   6,
+   6,
+   8
+  ],
+  "HG": 1.6,
+  "AG": 1.4,
+  "lambda_local": 1.54,
+  "lambda_visita": 0.98,
+  "goles_esperados": 2.5,
+  "over15": 72.6,
+  "over25": 46.0,
+  "under25": 54.0,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+  "rango_clasico": "Rango 70",
+  "fuente_datos": "tablas casa/fuera de tools/datos.py (Liga MX: base verificada en sus fuentes + partidos del dom 18 y lun 19-oct de los bloques DOM18/LUN19, cada uno con su fuente; control GF casa = GC fuera y PJ casa = PJ fuera). Manual: el Dashboard Gol 4.0 no expone /api/dia."
+ }
+]

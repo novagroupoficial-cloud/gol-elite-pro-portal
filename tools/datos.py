@@ -1,4 +1,4 @@
-# Tablas casa/fuera — lunes 19-oct-2026 (antes de los partidos del día, incluye todo hasta el domingo 18-oct; bloque DOM18 al final): equipo: (PJ, GF, GC)
+# Tablas casa/fuera — martes 20-oct-2026 (bloque LUN19 con el lunes 19 y Monterrey-Pachuca) · antes: lunes 19-oct-2026 (antes de los partidos del día, incluye todo hasta el domingo 18-oct; bloque DOM18 al final): equipo: (PJ, GF, GC)
 # Datos manuales (el Dashboard Gol 4.0 aún no expone /api/dia). Fuente de cada liga en su comentario.
 L={}
 # BRA: base tools/datos.py (valorfinal tabelas-por-recorte, tras 30ª rodada + Mirassol 2-0 Internacional 16/10) + 4 partidos del sábado 17/10 (31ª rodada): Botafogo 1-0 Chapecoense, Atletico MG 1-0 Coritiba, Athletico-PR 0-2 Palmeiras, São Paulo 1-0 Vasco da Gama. Fuentes: https://ptd.verdao.net/brasileirao-2026-resultados-de-sabado-pela-31a-rodada-classificacao-atualizada/ · https://www.supervasco.com/noticias/tabela-atualizada-da-serie-a-apos-os-jogos-deste-sabado-18-da-rodada-31-457982.html · https://365scores.com/pt-br/news/magazine/sao-paulo-vence-vasco-sobe-tabela-brasileirao · calendario https://valorfinal.com.br/brasileirao/2026/rodada-31 . Cotejada equipo por equipo (40/40 filas idénticas) con https://valorfinal.com.br/brasileirao/tabelas-por-recorte (lectura 18/10/2026 06:30). Corte: sábado 17/10/2026 incluido (pendientes 31ª: 4 de hoy + Corinthians–Vitória lun 19/10). 304 partidos · control: PJ 304=304, GF casa 465 = GC fuera 465, GC casa 342 = GF fuera 342
@@ -77,6 +77,25 @@ DOM18=[
  ('ITA','Udinese',0,3,'Lecce'),  # https://futboltotal.futbol/partido/udinese-vs-lecce-serie-a-2026-10-18
 ]
 for _lg,_a,_ga,_gb,_b in DOM18:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
+# ===== Actualización mar 20-oct-2026 (rutina diaria): partidos del LUNES 19-oct y Monterrey-Pachuca (dom 18, faltaba en MEX), local en casa, visitante fuera.
+# Lunes 19: resultados del refresco horario (data/2026-10-19/resultados-en-vivo.json), cada uno con su fuente. Corte nuevo: lun 19-oct-2026 final.
+LUN19=[
+ ('MEX','Monterrey',2,1,'Pachuca'),  # https://futboltotal.futbol/partido/monterrey-vs-pachuca-liga-mx-2026-10-19 · https://livesoccer.planetsport.com/live/soccer/match-detail/mexico-liga-mx-apertura-monterrey-vs-cf-pachuca/2026-10-19/3291764/teamhistory (dom 18, 19:00 CDMX)
+ ('ITA','Monza',4,0,'Cagliari'),  # https://sport.quotidiano.net/calcio/monza/monza-cagliari-4-0-i-brianzoli-calano-il-poker-contro-i-sardi-d048db81
+ ('ITA','Parma',0,3,'Torino'),  # https://futboltotal.futbol/partido/parma-vs-torino-serie-a-2026-10-19
+ ('ENG','Tottenham Hotspur',3,1,'Coventry City'),  # https://futboltotal.futbol/partido/tottenham-vs-coventry-premier-league-2026-10-19
+ ('ESP','Getafe',1,1,'Rayo Vallecano'),  # https://futboltotal.futbol/partido/getafe-vs-rayo-vallecano-la-liga-2026-10-19
+ ('ECU','Mushuc Runa',1,1,'Orense'),  # https://www.eldiario.ec/deportes/reparto-de-puntos-en-echaleche-mushuc-runa-igualo-con-orense-en-el-torneo-por-la-permanencia-en-la-a-19102026
+ ('ARG','Newells Old Boys',2,1,'Central Cordoba SdE'),  # https://www.lanacion.com.ar/deportes/canchallena/newells-old-boys-vencio-por-2-1-a-central-cordoba-santiago-del-estero-por-el-torneo-clausura-2026-nid19102026/
+ ('ARG','Sarmiento',1,1,'Barracas Central'),  # https://www.lanacion.com.ar/deportes/canchallena/sarmiento-y-barracas-central-empataron-1-1-por-el-torneo-clausura-2026-nid19102026/
+ ('BRA','Corinthians',1,1,'Vitória'),  # https://www.cnnbrasil.com.br/esportes/brasileirao/corinthians-empata-com-vitoria-e-evita-nona-derrota-seguida-no-brasileirao/
+ ('ARG','Deportivo Riestra',1,1,'Union Santa Fe'),  # https://futboltotal.futbol/partido/deportivo-riestra-vs-union-santa-fe-liga-profesional-argentina-2026-10-20
+ ('COL','Pasto',0,1,'Alianza (ex Alianza Petrolera)'),  # https://futboltotal.futbol/partido/deportivo-pasto-vs-alianza-petrolera-primera-a-2026-10-20
+]
+for _lg,_a,_ga,_gb,_b in LUN19:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 

@@ -1,0 +1,280 @@
+{
+ "fecha": "2026-10-19",
+ "auditado": "2026-10-20 05:45 ECU",
+ "partidos": 10,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "Rango 80": [
+   0,
+   0
+  ],
+  "Rango 70": [
+   4,
+   4
+  ],
+  "Total >=70": [
+   4,
+   4
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   0
+  ],
+  "Marcadores exactos": [
+   3,
+   10
+  ],
+  "Menos de 70 (informativo)": [
+   5,
+   6
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   0,
+   0
+  ],
+  "GOLES OPTIMISTAS": [
+   9,
+   10
+  ]
+ },
+ "intervalo_wilson_95": {
+  "Total >=70": [
+   51.0,
+   100.0
+  ],
+  "Menos de 70 (informativo)": [
+   43.6,
+   97.0
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Getafe vs Rayo Vallecano",
+  "over15": 77.0,
+  "sellado": "05:38 ECU",
+  "resultado": "1-1",
+  "goles": 2,
+  "acierto": true
+ },
+ "fallos_over15_70": [],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [
+  "Tottenham Hotspur 3-1 Coventry City (63,2 %, menos de 70: no recomendado; hubo 4 goles)",
+  "Mushuc Runa 1-1 Orense (66,3 %, menos de 70: no recomendado; hubo 2 goles)",
+  "Newells Old Boys 2-1 Central Cordoba SdE (62,3 %, menos de 70: no recomendado; hubo 3 goles)",
+  "Sarmiento 1-1 Barracas Central (65,5 %, menos de 70: no recomendado; hubo 2 goles)",
+  "Corinthians 1-1 Vitória (66,4 %, menos de 70: no recomendado; hubo 2 goles)",
+  "Pasto 0-1 Alianza (ex Alianza Petrolera) (62,4 %, menos de 70: no recomendado; hubo 1 gol)"
+ ],
+ "nota": "Escala clásica (GOL ÉLITE ≥90 · Rango 80 · Rango 70 · Menos de 70) y, aparte, la escala del 17-oct (GOL ÉLITE ≥95 · GOLES PLATINO · GOLES ESTÁNDAR · GOLES OPTIMISTAS, con el entero redondeado). Resultados finales del refresco horario (data/2026-10-19/resultados-en-vivo.json, 10/10 terminados, cada uno con su fuente: Quotidiano, Fútbol Total, El Diario, Studio Fútbol, La Nación, Cadena 3, Futbolred y CNN Brasil). El Dashboard Gol 4.0 no expone /api/dia: auditoría manual. Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. Ningún partido aplazado. Ningún partido llegó a 80 % ni hubo Over 2.5 con señal (≥65 %). Intervalos de Wilson 95 %.",
+ "resultados": [
+  {
+   "hora": "11:30",
+   "liga": "ITA",
+   "local": "Monza",
+   "visita": "Cagliari",
+   "resultado": "4-0",
+   "estado": "terminado",
+   "over15": 76.0,
+   "over25": 50.5,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sport.quotidiano.net/calcio/monza/monza-cagliari-4-0-i-brianzoli-calano-il-poker-contro-i-sardi-d048db81"
+  },
+  {
+   "hora": "13:45",
+   "liga": "ITA",
+   "local": "Parma",
+   "visita": "Torino",
+   "resultado": "0-3",
+   "estado": "terminado",
+   "over15": 71.0,
+   "over25": 44.0,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/parma-vs-torino-serie-a-2026-10-19"
+  },
+  {
+   "hora": "14:00",
+   "liga": "ENG",
+   "local": "Tottenham Hotspur",
+   "visita": "Coventry City",
+   "resultado": "3-1",
+   "estado": "terminado",
+   "over15": 63.2,
+   "over25": 35.1,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/tottenham-vs-coventry-premier-league-2026-10-19"
+  },
+  {
+   "hora": "14:00",
+   "liga": "ESP",
+   "local": "Getafe",
+   "visita": "Rayo Vallecano",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 77.0,
+   "over25": 52.0,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://futboltotal.futbol/partido/getafe-vs-rayo-vallecano-la-liga-2026-10-19"
+  },
+  {
+   "hora": "15:30",
+   "liga": "ECU",
+   "local": "Mushuc Runa",
+   "visita": "Orense",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 66.3,
+   "over25": 38.5,
+   "marcador": "1-0",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.eldiario.ec/deportes/reparto-de-puntos-en-echaleche-mushuc-runa-igualo-con-orense-en-el-torneo-por-la-permanencia-en-la-a-19102026",
+   "fuente_2": "https://studiofutbol.com.ec/2026/10/19/mushuc-runa-y-orense-repartieron-puntos-asi-quedo-el-hexagonal-del-descenso/"
+  },
+  {
+   "hora": "17:00",
+   "liga": "ARG",
+   "local": "Newells Old Boys",
+   "visita": "Central Cordoba SdE",
+   "resultado": "2-1",
+   "estado": "terminado",
+   "over15": 62.3,
+   "over25": 34.3,
+   "marcador": "1-0",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/newells-old-boys-vencio-por-2-1-a-central-cordoba-santiago-del-estero-por-el-torneo-clausura-2026-nid19102026/",
+   "fuente_2": "https://www.cadena3.com/noticia/deportes-rosario/newells-gano-2-a-1-ante-central-cordoba-y-se-mete-de-lleno-en-zona-de-playoffs_604665"
+  },
+  {
+   "hora": "17:00",
+   "liga": "ARG",
+   "local": "Sarmiento",
+   "visita": "Barracas Central",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 65.5,
+   "over25": 37.6,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/sarmiento-y-barracas-central-empataron-1-1-por-el-torneo-clausura-2026-nid19102026/",
+   "fuente_2": "https://www.futbolred.com/otras-ligas-de-futbol/sarmiento-y-barracas-central-igualan-1-1-en-junin-con-goles-de-renteria-e-insua-274166"
+  },
+  {
+   "hora": "18:00",
+   "liga": "BRA",
+   "local": "Corinthians",
+   "visita": "Vitória",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 66.4,
+   "over25": 38.7,
+   "marcador": "1-0",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.cnnbrasil.com.br/esportes/brasileirao/corinthians-empata-com-vitoria-e-evita-nona-derrota-seguida-no-brasileirao/"
+  },
+  {
+   "hora": "19:15",
+   "liga": "ARG",
+   "local": "Deportivo Riestra",
+   "visita": "Union Santa Fe",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 72.9,
+   "over25": 46.4,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://futboltotal.futbol/partido/deportivo-riestra-vs-union-santa-fe-liga-profesional-argentina-2026-10-20"
+  },
+  {
+   "hora": "20:05",
+   "liga": "COL",
+   "local": "Pasto",
+   "visita": "Alianza (ex Alianza Petrolera)",
+   "resultado": "0-1",
+   "estado": "terminado",
+   "over15": 62.4,
+   "over25": 34.2,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-10-19 05:38 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/deportivo-pasto-vs-alianza-petrolera-primera-a-2026-10-20"
+  }
+ ],
+ "fallos_over15_todos": [
+  "Pasto 0-1 Alianza FC (62,4 %, menos de 70; hubo 1 gol)"
+ ]
+}

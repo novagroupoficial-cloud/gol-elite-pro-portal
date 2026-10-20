@@ -1,0 +1,287 @@
+{
+ "fecha": "2026-10-20",
+ "actualizado": "2026-10-20 05:43 ECU (UTC-5)",
+ "zona_horaria": "America/Guayaquil (UTC-5)",
+ "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
+ "fuente_sellada": "data/2026-10-20/pronosticos.json",
+ "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
+ "orden": "de mayor a menor Over 1.5",
+ "resumen_del_dia": {
+  "terminados": 0,
+  "total": 8,
+  "over15_70": [
+   0,
+   0
+  ],
+  "over25_senal": [
+   0,
+   0
+  ],
+  "marcadores_exactos": 0
+ },
+ "rango_80_90": [
+  {
+   "puesto": 1,
+   "hora_ecuador": "19:07",
+   "liga": "Liga MX",
+   "local": "Guadalajara",
+   "visitante": "Necaxa",
+   "over15": 84.2,
+   "over25": 62.9,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 6,
+    "gf": 10,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 7,
+    "gc": 11
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 2,
+   "hora_ecuador": "18:30",
+   "liga": "Liga BetPlay",
+   "local": "Cúcuta",
+   "visitante": "Atlético Nacional",
+   "over15": 83.4,
+   "over25": 61.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 6,
+    "gf": 11,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 17,
+    "gc": 8
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "todos": [
+  {
+   "puesto": 1,
+   "hora_ecuador": "19:07",
+   "liga": "Liga MX",
+   "local": "Guadalajara",
+   "visitante": "Necaxa",
+   "over15": 84.2,
+   "over25": 62.9,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 6,
+    "gf": 10,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 7,
+    "gc": 11
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 2,
+   "hora_ecuador": "18:30",
+   "liga": "Liga BetPlay",
+   "local": "Cúcuta",
+   "visitante": "Atlético Nacional",
+   "over15": 83.4,
+   "over25": 61.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 6,
+    "gf": 11,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 17,
+    "gc": 8
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 3,
+   "hora_ecuador": "18:15",
+   "liga": "Liga BetPlay",
+   "local": "Internacional de Bogotá (ex La Equidad)",
+   "visitante": "Fortaleza",
+   "over15": 75.7,
+   "over25": 50.1,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 10,
+    "gc": 11
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 6,
+    "gc": 8
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 4,
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "A. San Luis",
+   "visitante": "Queretaro",
+   "over15": 75.0,
+   "over25": 49.1,
+   "marcador": "1-1",
+   "goles_esperados": 2.6,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 7,
+    "gc": 10
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 8,
+    "gc": 7
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 5,
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "Juarez",
+   "visitante": "Atlante",
+   "over15": 73.2,
+   "over25": 46.8,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 5,
+    "gc": 11
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 6,
+    "gc": 10
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 6,
+   "hora_ecuador": "22:00",
+   "liga": "Liga MX",
+   "local": "Tigres UANL",
+   "visitante": "Leon",
+   "over15": 72.6,
+   "over25": 46.0,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 5,
+    "gf": 9,
+    "gc": 5
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 6,
+    "gc": 8
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 7,
+   "hora_ecuador": "20:30",
+   "liga": "Liga BetPlay",
+   "local": "Millonarios",
+   "visitante": "Once Caldas",
+   "over15": 63.1,
+   "over25": 35.1,
+   "marcador": "1-0",
+   "goles_esperados": 2.1,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 10,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 8,
+    "gf": 9,
+    "gc": 9
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 8,
+   "hora_ecuador": "16:30",
+   "liga": "Liga BetPlay",
+   "local": "Deportivo Pereira",
+   "visitante": "Boyacá Chicó",
+   "over15": 62.7,
+   "over25": 34.7,
+   "marcador": "1-0",
+   "goles_esperados": 2.1,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 3,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 2,
+    "gc": 15
+   },
+   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "sin_pronostico": []
+}

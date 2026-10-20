@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-19 23:16 ECU",
+ "actualizado": "2026-10-20 05:43 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -43,9 +43,9 @@
   "partidos": 27
  },
  "partido_del_dia": {
-  "aciertos": 4,
-  "dias": 4,
-  "racha_actual": 4,
+  "aciertos": 5,
+  "dias": 5,
+  "racha_actual": 5,
   "detalle": [
    {
     "fecha": "2026-10-11",
@@ -78,6 +78,14 @@
     "goles": 3,
     "acierto": true,
     "over15": 96.6
+   },
+   {
+    "fecha": "2026-10-19",
+    "partido": "Getafe vs Rayo Vallecano",
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true,
+    "over15": 77.0
    }
   ]
  },

@@ -540,3 +540,43 @@ LLEGAN={
    "Es el cierre de la fecha 13 del Clausura, el lunes a las 19:15 de Ecuador.",
    "Fuentes: tabla del Clausura 2026 calculada partido a partido (AFP, Noticias de Bariloche) y agenda de Líbero y RPP."],
 }
+
+# ---- Martes 20-oct-2026 (rutina diaria, sellado 05:40 ECU) ----
+# LINK: una previa real publicada por partido (titular en español, medio y enlace a la nota original).
+LINK={
+ 'Deportivo Pereira|Boyacá Chicó':("Deportivo Pereira vs Chicó: ficha y previa de la fecha 15 de la Liga BetPlay","Fútbol Total","https://futboltotal.futbol/partido/deportivo-pereira-vs-chico-primera-a-2026-10-20"),
+ 'Internacional de Bogotá (ex La Equidad)|Fortaleza':("Partidos de hoy, martes 20 de octubre: Inter Bogotá vs Fortaleza y la agenda completa","Líbero","https://libero.pe/futbol-internacional/2026/10/19/partidos-de-hoy-martes-20-de-octubre-partidos-hay-de-champions-league-copa-sudamericana-1505123"),
+ 'Cúcuta|Atlético Nacional':("Cúcuta vs Atlético Nacional: ficha, forma y árbitro de la fecha 15","Fútbol Total","https://futboltotal.futbol/partido/cucuta-vs-atletico-nacional-primera-a-2026-10-21"),
+ 'Guadalajara|Necaxa':("Chivas vs Necaxa: previa, forma e historial de la jornada 13 del Apertura","Fútbol Total","https://futboltotal.futbol/partido/guadalajara-chivas-vs-necaxa-liga-mx-2026-10-21"),
+ 'A. San Luis|Queretaro':("Atlético San Luis vs Querétaro: previa y forma de la jornada 13","Fútbol Total","https://futboltotal.futbol/partido/atletico-san-luis-vs-club-queretaro-liga-mx-2026-10-21"),
+ 'Juarez|Atlante':("FC Juárez vs Atlante: previa de la jornada 13 del Apertura 2026","Fútbol Total","https://futboltotal.futbol/partido/fc-juarez-vs-atlante-fc-liga-mx-2026-10-21"),
+ 'Millonarios|Once Caldas':("Millonarios ya tiene nueva fecha para jugar ante Once Caldas: martes 20 a las 8:30 p. m.","Publimetro","https://www.publimetro.co/deportes/2026/10/14/millonarios-ya-tiene-nueva-fecha-para-jugar-ante-once-caldas-y-tambien-movio-el-partido-contra-jaguares/"),
+ 'Tigres UANL|Leon':("Tigres vs León: previa, forma e historial de la jornada 13","Fútbol Total","https://futboltotal.futbol/partido/tigres-uanl-vs-leon-liga-mx-2026-10-21"),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Millonarios|Once Caldas','Tigres UANL|Leon','Internacional de Bogotá (ex La Equidad)|Fortaleza','A. San Luis|Queretaro']
+COL.update({'Deportivo Pereira':'#f6d11b','Boyacá Chicó':'#1d3f8f','Internacional de Bogotá (ex La Equidad)':'#c8102e','Fortaleza':'#ffffff',
+ 'Cúcuta':'#c8102e','Once Caldas':'#ffffff','Necaxa':'#d6001c'})
+# Aciertos de ayer (lunes 19): (partido, marcador real, nuestro Over 1.5, medio, url)
+ACIERTOS=[
+ ("Getafe vs Rayo Vallecano","1-1 · marcador exacto","77 % · partido del día","Fútbol Total","https://futboltotal.futbol/partido/getafe-vs-rayo-vallecano-la-liga-2026-10-19"),
+ ("Monza vs Cagliari","4-0","76 %","Quotidiano Sport","https://sport.quotidiano.net/calcio/monza/monza-cagliari-4-0-i-brianzoli-calano-il-poker-contro-i-sardi-d048db81"),
+ ("Riestra vs Unión","1-1 · marcador exacto","73 %","Fútbol Total","https://futboltotal.futbol/partido/deportivo-riestra-vs-union-santa-fe-liga-profesional-argentina-2026-10-20"),
+ ("Parma vs Torino","0-3","71 %","Fútbol Total","https://futboltotal.futbol/partido/parma-vs-torino-serie-a-2026-10-19"),
+ ("Tottenham vs Coventry City","3-1","63 %","Fútbol Total","https://futboltotal.futbol/partido/tottenham-vs-coventry-premier-league-2026-10-19"),
+ ("Newell's vs Central Córdoba","2-1","62 %","La Nación","https://www.lanacion.com.ar/deportes/canchallena/newells-old-boys-vencio-por-2-1-a-central-cordoba-santiago-del-estero-por-el-torneo-clausura-2026-nid19102026/"),
+]
+LLEGAN={
+ 'Guadalajara|Necaxa':["Necaxa recibe 2,2 goles por partido fuera de casa: 11 en contra (y 7 a favor) en 5 partidos.",
+   "Chivas en casa: 10 goles a favor y 7 en contra en 6 partidos (2,8 goles por partido en su estadio).",
+   "Necaxa llega con 1 empate y 4 derrotas en sus últimos 5; en 4 de esos 5 partidos hubo 2 goles o más (0-2, 3-3, 2-4, 3-1, 0-1).",
+   "Fuentes: tabla del Apertura 2026 (SoccerSTATS más resultados partido a partido) y ficha de Fútbol Total."],
+ 'Cúcuta|Atlético Nacional':["Atlético Nacional fuera: 17 goles a favor y 8 en contra en 7 partidos (3,6 goles por partido).",
+   "Cúcuta en casa: 11 goles a favor y 6 en contra en 6 partidos.",
+   "Cúcuta ganó sus 3 últimos partidos; Nacional viene de golear 4-1 a Boyacá Chicó como visitante.",
+   "Fuentes: tabla de la Liga BetPlay 2026-II (SoccerSTATS más resultados partido a partido), ficha de Fútbol Total y El Universal."],
+ 'Internacional de Bogotá (ex La Equidad)|Fortaleza':["En casa, los partidos de Inter Bogotá promedian 3 goles: 10 a favor y 11 en contra en 7 partidos.",
+   "Fortaleza fuera: 6 goles a favor y 8 en contra en 6 partidos.",
+   "Es uno de los 4 partidos de la Liga BetPlay de este martes (18:15, hora de Ecuador).",
+   "Fuentes: tabla de la Liga BetPlay 2026-II (SoccerSTATS más resultados partido a partido) y agenda de Líbero."],
+}

@@ -15,7 +15,7 @@ SIN=[p for p in json.load(open(f'../data/{F}/pronosticos.json',encoding='utf-8')
 rp=f'../data/{F}/resultados-en-vivo.json'
 R={f"{r['local']}|{r['visita']}":r for r in (json.load(open(rp,encoding='utf-8')) if os.path.exists(rp) else [])}
 NOM={'ENG':'Premier League','ESP':'LaLiga','ITA':'Serie A','GER':'Bundesliga','FRA':'Ligue 1','NED':'Eredivisie','POR':'Liga Portugal','BRA':'Brasileirão','MEX':'Liga MX','USA':'MLS','ECU':'LigaPro','ARG':'Liga Profesional','COL':'Liga BetPlay','PER':'Liga 1','CHI':'Liga de Primera'}
-ES={'Coventry':'Coventry City','Newcastle':'Newcastle United','Lanus':'Lanús','Velez Sarsfield':'Vélez Sarsfield','Gimnasia Mendoza':'Gimnasia (Mendoza)','Newells Old Boys':"Newell's Old Boys",'Bragantino':'Red Bull Bragantino','Athletico-PR':'Athletico Paranaense','Atletico MG':'Atlético MG','Nottm Forest':'Nottingham Forest','AC Milan':'Milan'}
+ES={'Coventry':'Coventry City','Newcastle':'Newcastle United','Lanus':'Lanús','Velez Sarsfield':'Vélez Sarsfield','Gimnasia Mendoza':'Gimnasia (Mendoza)','Newells Old Boys':"Newell's Old Boys",'Bragantino':'Red Bull Bragantino','Athletico-PR':'Athletico Paranaense','Atletico MG':'Atlético MG','Nottm Forest':'Nottingham Forest','AC Milan':'Milan','Internacional de Bogotá (ex La Equidad)':'Inter Bogotá','Guadalajara':'Chivas','Tigres UANL':'Tigres','Leon':'León','Queretaro':'Querétaro','A. San Luis':'Atlético San Luis','Juarez':'FC Juárez'}
 n=lambda x:ES.get(x,x); e=html.escape; f1=lambda v:f"{v:.1f}".replace('.',',')
 def estado(p):
     r=R.get(f"{p['local']}|{p['visita']}")

@@ -1,14 +1,14 @@
 {
- "local": "Getafe",
- "fecha_larga": "Lunes 19 de octubre de 2026",
- "desde": "05:38",
+ "local": "Guadalajara",
+ "fecha_larga": "Martes 20 de octubre de 2026",
+ "desde": "05:40",
  "contexto": [
-  "LaLiga, jornada 9 · 14:00 ECU en el Coliseum (Fútbol Total).",
-  "Rayo fuera: 12 goles en contra en 4 partidos.",
-  "Últimos 6 duelos: 3 triunfos de Rayo y 3 empates (Fútbol Total)."
+  "Jornada 13 del Apertura · Estadio Akron (Fútbol Total).",
+  "Necaxa: 1 empate y 4 derrotas en sus últimos 5 (Fútbol Total).",
+  "Últimos 6 duelos: Chivas 3, Necaxa 2, 1 empate."
  ],
  "auditoria": {
-  "titulo": "Domingo 18 de octubre · 43 partidos auditados con resultado final y fuente",
+  "titulo": "Lunes 19 de octubre · 10 partidos auditados con resultado final y fuente",
   "tiles": [
    [
     "1/1",
@@ -16,31 +16,31 @@
     "oro"
    ],
    [
-    "3/3",
-    "GOL ÉLITE · Over 1.5 (90 %+)",
+    "4/4",
+    "Over 1.5 de 70 % o más (100 %)",
     "verde"
    ],
    [
-    "26/31",
-    "Over 1.5 de 70 % o más (84 %)",
+    "9/10",
+    "Over 1.5 en todos los partidos",
     ""
    ],
    [
-    "95/124",
+    "99/128",
     "Galería: Over 1.5 de 70 % o más (77 %)",
     "dor"
    ]
   ],
-  "nota": "Partido del día: M'gladbach 1-2 Hoffenheim ✔ (dimos Over 1.5 al 97 %; hubo 3 goles). Fallos: Deportivo Cali 0-0 Junior (88 %; 0 goles), Cienciano 1-0 UTC (81 %; 1 gol) y 3 más de 70 % o más. Publicamos aciertos y fallos."
+  "nota": "Partido del día: Getafe 1-1 Rayo ✔ (dimos Over 1.5 al 77 %; hubo 2 goles, marcador exacto). Único fallo: Deportivo Pasto 0-1 Alianza FC (62 %, menos de 70 %; hubo 1 gol). Ningún partido llegó a 80 %. Publicamos aciertos y fallos."
  },
  "acierto": {
-  "fecha": "domingo 18 de octubre",
-  "local": "Borussia Monchengladbach",
-  "visita": "Hoffenheim",
-  "liga": "Bundesliga · jornada 6",
-  "resultado": "1-2",
-  "goles": "3",
-  "over15": "96,6",
-  "sellado": "06:13 ECU del 18-oct"
+  "fecha": "lunes 19 de octubre",
+  "local": "Getafe",
+  "visita": "Rayo Vallecano",
+  "liga": "LaLiga · jornada 9",
+  "resultado": "1-1",
+  "goles": "2",
+  "over15": "77,0",
+  "sellado": "05:38 ECU del 19-oct"
  }
 }

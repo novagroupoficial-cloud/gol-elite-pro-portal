@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-20",
- "actualizado": "2026-10-20 20:11 ECU (UTC-5)",
+ "actualizado": "2026-10-20 21:17 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-20/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 1,
+  "terminados": 3,
   "total": 8,
   "over15_70": [
-   0,
-   0
+   1,
+   2
   ],
   "over25_senal": [
    0,
@@ -69,8 +69,13 @@
     "gc": 8
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.vavel.com/colombia/futbol-colombiano/2026/10/20/1276182-cucuta-vs-nacional-en-vivo-liga-betplay.html"
   }
  ],
  "todos": [
@@ -123,8 +128,13 @@
     "gc": 8
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.vavel.com/colombia/futbol-colombiano/2026/10/20/1276182-cucuta-vs-nacional-en-vivo-liga-betplay.html"
   },
   {
    "puesto": 3,
@@ -149,8 +159,13 @@
     "gc": 8
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://eldeportivo.com.co/futbol-colombiano/liga-betplay/internacional-impone-fortaleza-derbi-de-bogota/"
   },
   {
    "puesto": 4,
@@ -253,7 +268,7 @@
     "gc": 9
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

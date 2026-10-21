@@ -13,5 +13,35 @@
   "marcador_exacto": false,
   "fuente": "https://eldeportivo.com.co/futbol-colombiano/liga-betplay/deportivo-pereira-toma-respiro-vencer-boyaca-chico/",
   "registrado": "19:14 ECU"
+ },
+ {
+  "local": "Internacional de Bogotá (ex La Equidad)",
+  "visita": "Fortaleza",
+  "hora": "18:15",
+  "resultado": "2-1",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 75.7,
+  "over25_dado": 50.1,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://eldeportivo.com.co/futbol-colombiano/liga-betplay/internacional-impone-fortaleza-derbi-de-bogota/",
+  "registrado": "21:16 ECU"
+ },
+ {
+  "local": "Cúcuta",
+  "visita": "Atlético Nacional",
+  "hora": "18:30",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 83.4,
+  "over25_dado": 61.4,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.vavel.com/colombia/futbol-colombiano/2026/10/20/1276182-cucuta-vs-nacional-en-vivo-liga-betplay.html",
+  "registrado": "21:16 ECU"
  }
 ]

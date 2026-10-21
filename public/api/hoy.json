@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-20",
- "actualizado": "2026-10-20 23:16 ECU (UTC-5)",
+ "actualizado": "2026-10-21 00:17 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-20/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 5,
+  "terminados": 8,
   "total": 8,
   "over15_70": [
-   1,
-   3
+   3,
+   6
   ],
   "over25_senal": [
    0,
@@ -200,8 +200,13 @@
     "gc": 7
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://eltiempomx.com/noticia/2026/san-luis-vence-2-1-a-queretaro-en-el-clasico-de-la-57.html"
   },
   {
    "puesto": 5,
@@ -226,8 +231,13 @@
     "gc": 10
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.foxsports.com.mx/2026/10/20/juarez-vs-atlante-hoy-resumen-goles-y-resultado-0-1-de-liga-mx-en-la-jornada-13-apertura-2026/"
   },
   {
    "puesto": 6,
@@ -252,8 +262,13 @@
     "gc": 8
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.sdpnoticias.com/deportes/tigres-se-sigue-hundiendo-en-la-liga-mx-tras-perder-con-leon/"
   },
   {
    "puesto": 7,

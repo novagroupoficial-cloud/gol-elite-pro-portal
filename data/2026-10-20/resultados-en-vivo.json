@@ -73,5 +73,50 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/millonarios-vs-once-caldas-primera-a-2026-10-21",
   "registrado": "23:15 ECU"
+ },
+ {
+  "local": "A. San Luis",
+  "visita": "Queretaro",
+  "hora": "20:00",
+  "resultado": "2-1",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 75.0,
+  "over25_dado": 49.1,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://eltiempomx.com/noticia/2026/san-luis-vence-2-1-a-queretaro-en-el-clasico-de-la-57.html",
+  "registrado": "00:20 ECU (21-oct)"
+ },
+ {
+  "local": "Juarez",
+  "visita": "Atlante",
+  "hora": "20:00",
+  "resultado": "0-1",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 73.2,
+  "over25_dado": 46.8,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.foxsports.com.mx/2026/10/20/juarez-vs-atlante-hoy-resumen-goles-y-resultado-0-1-de-liga-mx-en-la-jornada-13-apertura-2026/",
+  "registrado": "00:20 ECU (21-oct)"
+ },
+ {
+  "local": "Tigres UANL",
+  "visita": "Leon",
+  "hora": "22:00",
+  "resultado": "0-2",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 72.6,
+  "over25_dado": 46.0,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.sdpnoticias.com/deportes/tigres-se-sigue-hundiendo-en-la-liga-mx-tras-perder-con-leon/",
+  "registrado": "00:20 ECU (21-oct)"
  }
 ]

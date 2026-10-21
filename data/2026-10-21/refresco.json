@@ -1,6 +1,6 @@
 {
  "fecha": "2026-10-21",
- "ultima_ejecucion": "2026-10-21 05:10 ECU",
+ "ultima_ejecucion": "2026-10-21 06:12 ECU",
  "ultima_ok": "2026-10-21 00:17 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-21 05:25 ECU",
@@ -12,11 +12,11 @@
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "05:10 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
+  "ultima_revision": "06:12 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
  },
  "avisos_enviados": [
   "bloqueo"
  ],
- "web_sin_lectura_seguidas": 101,
- "nota": "05:10: antes de 08:00 ECU, sin pronósticos del 21 ni partidos que cerrar; ranking sin cambios. Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo del día ya enviado."
+ "web_sin_lectura_seguidas": 102,
+ "nota": "06:12: rutina diaria hecha (9 pronósticos). Ranking regenerado: 9 partidos por jugar (primero 13:00 ECU). Portal en vivo sin verificar (permiso WebFetch); aviso de bloqueo del día ya enviado."
 }

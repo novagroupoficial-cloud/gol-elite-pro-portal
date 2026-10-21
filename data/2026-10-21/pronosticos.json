@@ -1,0 +1,281 @@
+[
+ {
+  "hora": "13:00",
+  "liga": "ESP",
+  "local": "Levante",
+  "visita": "Athletic Club",
+  "casa": [
+   3,
+   10,
+   9
+  ],
+  "fuera": [
+   3,
+   2,
+   2
+  ],
+  "HG": 1.72,
+  "AG": 1.35,
+  "lambda_local": 1.78,
+  "lambda_visita": 1.61,
+  "goles_esperados": 3.4,
+  "over15": 86.0,
+  "over25": 65.8,
+  "under25": 34.2,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+  "rango_clasico": "Rango 80",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MAR20 del 21-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ },
+ {
+  "hora": "18:00",
+  "liga": "USA",
+  "local": "Cincinnati",
+  "visita": "DC United",
+  "casa": [
+   14,
+   36,
+   29
+  ],
+  "fuera": [
+   14,
+   17,
+   25
+  ],
+  "HG": 1.84,
+  "AG": 1.41,
+  "lambda_local": 2.36,
+  "lambda_visita": 1.72,
+  "goles_esperados": 4.1,
+  "over15": 91.9,
+  "over25": 77.2,
+  "under25": 22.8,
+  "marcador": "2-1",
+  "categoria": "GOLES PLATINO",
+  "senal_o25": "fuerte",
+  "aviso_mercado": null,
+  "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+  "rango_clasico": "GOL ÉLITE",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MAR20 del 21-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ },
+ {
+  "hora": "18:15",
+  "liga": "COL",
+  "local": "Llaneros",
+  "visita": "Deportivo Cali",
+  "casa": [
+   7,
+   9,
+   7
+  ],
+  "fuera": [
+   7,
+   7,
+   5
+  ],
+  "HG": 1.41,
+  "AG": 1.15,
+  "lambda_local": 0.91,
+  "lambda_visita": 0.97,
+  "goles_esperados": 1.9,
+  "over15": 57.1,
+  "over25": 29.1,
+  "under25": 70.9,
+  "marcador": "0-0",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+  "rango_clasico": "Menos de 70",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MAR20 del 21-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ },
+ {
+  "hora": "20:00",
+  "liga": "MEX",
+  "local": "Toluca",
+  "visita": "Tijuana",
+  "casa": [
+   6,
+   16,
+   9
+  ],
+  "fuera": [
+   4,
+   5,
+   8
+  ],
+  "HG": 1.57,
+  "AG": 1.38,
+  "lambda_local": 2.53,
+  "lambda_visita": 1.38,
+  "goles_esperados": 3.9,
+  "over15": 90.8,
+  "over25": 74.9,
+  "under25": 25.1,
+  "marcador": "2-1",
+  "categoria": "GOLES PLATINO",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+  "rango_clasico": "GOL ÉLITE",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MAR20 del 21-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ },
+ {
+  "hora": "20:00",
+  "liga": "MEX",
+  "local": "Atlas",
+  "visita": "America",
+  "casa": [
+   6,
+   6,
+   9
+  ],
+  "fuera": [
+   6,
+   16,
+   11
+  ],
+  "HG": 1.57,
+  "AG": 1.38,
+  "lambda_local": 1.35,
+  "lambda_visita": 2.26,
+  "goles_esperados": 3.6,
+  "over15": 88.2,
+  "over25": 70.0,
+  "under25": 30.0,
+  "marcador": "1-2",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+  "rango_clasico": "Rango 80",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MAR20 del 21-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ },
+ {
+  "hora": "20:00",
+  "liga": "MEX",
+  "local": "Puebla",
+  "visita": "Monterrey",
+  "casa": [
+   5,
+   6,
+   6
+  ],
+  "fuera": [
+   5,
+   6,
+   9
+  ],
+  "HG": 1.57,
+  "AG": 1.38,
+  "lambda_local": 1.48,
+  "lambda_visita": 1.19,
+  "goles_esperados": 2.7,
+  "over15": 75.4,
+  "over25": 49.7,
+  "under25": 50.3,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+  "rango_clasico": "Rango 70",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MAR20 del 21-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ },
+ {
+  "hora": "20:20",
+  "liga": "COL",
+  "local": "Santa Fe",
+  "visita": "Jaguares de Córdoba",
+  "casa": [
+   7,
+   10,
+   7
+  ],
+  "fuera": [
+   6,
+   5,
+   14
+  ],
+  "HG": 1.41,
+  "AG": 1.15,
+  "lambda_local": 1.98,
+  "lambda_visita": 0.88,
+  "goles_esperados": 2.9,
+  "over15": 78.7,
+  "over25": 54.5,
+  "under25": 45.5,
+  "marcador": "2-0",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+  "rango_clasico": "Rango 70",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MAR20 del 21-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ },
+ {
+  "hora": "22:00",
+  "liga": "MEX",
+  "local": "Pachuca",
+  "visita": "Cruz Azul",
+  "casa": [
+   5,
+   9,
+   11
+  ],
+  "fuera": [
+   5,
+   10,
+   9
+  ],
+  "HG": 1.57,
+  "AG": 1.38,
+  "lambda_local": 1.84,
+  "lambda_visita": 2.29,
+  "goles_esperados": 4.1,
+  "over15": 92.3,
+  "over25": 78.0,
+  "under25": 22.0,
+  "marcador": "1-2",
+  "categoria": "GOLES PLATINO",
+  "senal_o25": "fuerte",
+  "aviso_mercado": null,
+  "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+  "rango_clasico": "GOL ÉLITE",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MAR20 del 21-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ },
+ {
+  "hora": "22:10",
+  "liga": "MEX",
+  "local": "Santos Laguna",
+  "visita": "Pumas UNAM",
+  "casa": [
+   6,
+   8,
+   3
+  ],
+  "fuera": [
+   6,
+   10,
+   9
+  ],
+  "HG": 1.57,
+  "AG": 1.38,
+  "lambda_local": 1.39,
+  "lambda_visita": 0.96,
+  "goles_esperados": 2.3,
+  "over15": 69.0,
+  "over25": 41.7,
+  "under25": 58.3,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+  "rango_clasico": "Menos de 70",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MAR20 del 21-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ }
+]

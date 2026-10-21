@@ -1,17 +1,17 @@
 {
- "fecha": "2026-10-20",
- "actualizado": "2026-10-21 00:17 ECU (UTC-5)",
+ "fecha": "2026-10-21",
+ "actualizado": "2026-10-21 05:37 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
- "fuente_sellada": "data/2026-10-20/pronosticos.json",
+ "fuente_sellada": "data/2026-10-21/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 8,
-  "total": 8,
+  "terminados": 0,
+  "total": 9,
   "over15_70": [
-   3,
-   6
+   0,
+   0
   ],
   "over25_senal": [
    0,
@@ -21,316 +21,292 @@
  },
  "rango_80_90": [
   {
-   "puesto": 1,
-   "hora_ecuador": "19:07",
+   "puesto": 4,
+   "hora_ecuador": "20:00",
    "liga": "Liga MX",
-   "local": "Guadalajara",
-   "visitante": "Necaxa",
-   "over15": 84.2,
-   "over25": 62.9,
-   "marcador": "1-1",
-   "goles_esperados": 3.2,
+   "local": "Atlas",
+   "visitante": "America",
+   "over15": 88.2,
+   "over25": 70.0,
+   "marcador": "1-2",
+   "goles_esperados": 3.6,
    "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
+   "senal_over25": "moderada",
    "casa_local": {
     "pj": 6,
-    "gf": 10,
-    "gc": 7
+    "gf": 6,
+    "gc": 9
    },
    "fuera_visitante": {
-    "pj": 5,
-    "gf": 7,
+    "pj": 6,
+    "gf": 16,
     "gc": 11
    },
-   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-0",
-   "goles": 1,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://www.clarosports.com/futbol/liga-mx/chivas-vence-a-necaxa-con-un-autogol-y-escala-al-segundo-lugar-del-apertura-2026/"
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
-   "puesto": 2,
-   "hora_ecuador": "18:30",
-   "liga": "Liga BetPlay",
-   "local": "Cúcuta",
-   "visitante": "Atlético Nacional",
-   "over15": 83.4,
-   "over25": 61.4,
+   "puesto": 5,
+   "hora_ecuador": "13:00",
+   "liga": "LaLiga",
+   "local": "Levante",
+   "visitante": "Athletic Club",
+   "over15": 86.0,
+   "over25": 65.8,
    "marcador": "1-1",
-   "goles_esperados": 3.2,
+   "goles_esperados": 3.4,
    "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
+   "senal_over25": "moderada",
    "casa_local": {
-    "pj": 6,
-    "gf": 11,
-    "gc": 6
+    "pj": 3,
+    "gf": 10,
+    "gc": 9
    },
    "fuera_visitante": {
-    "pj": 7,
-    "gf": 17,
-    "gc": 8
+    "pj": 3,
+    "gf": 2,
+    "gc": 2
    },
-   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-0",
-   "goles": 1,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://www.vavel.com/colombia/futbol-colombiano/2026/10/20/1276182-cucuta-vs-nacional-en-vivo-liga-betplay.html"
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   }
  ],
  "todos": [
   {
    "puesto": 1,
-   "hora_ecuador": "19:07",
+   "hora_ecuador": "22:00",
    "liga": "Liga MX",
-   "local": "Guadalajara",
-   "visitante": "Necaxa",
-   "over15": 84.2,
-   "over25": 62.9,
-   "marcador": "1-1",
-   "goles_esperados": 3.2,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
+   "local": "Pachuca",
+   "visitante": "Cruz Azul",
+   "over15": 92.3,
+   "over25": 78.0,
+   "marcador": "1-2",
+   "goles_esperados": 4.1,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "fuerte",
    "casa_local": {
-    "pj": 6,
-    "gf": 10,
-    "gc": 7
+    "pj": 5,
+    "gf": 9,
+    "gc": 11
    },
    "fuera_visitante": {
     "pj": 5,
-    "gf": 7,
-    "gc": 11
+    "gf": 10,
+    "gc": 9
    },
-   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-0",
-   "goles": 1,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://www.clarosports.com/futbol/liga-mx/chivas-vence-a-necaxa-con-un-autogol-y-escala-al-segundo-lugar-del-apertura-2026/"
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
    "puesto": 2,
-   "hora_ecuador": "18:30",
-   "liga": "Liga BetPlay",
-   "local": "Cúcuta",
-   "visitante": "Atlético Nacional",
-   "over15": 83.4,
-   "over25": 61.4,
-   "marcador": "1-1",
-   "goles_esperados": 3.2,
-   "categoria": "GOLES ESTÁNDAR",
-   "senal_over25": "informativa",
+   "hora_ecuador": "18:00",
+   "liga": "MLS",
+   "local": "Cincinnati",
+   "visitante": "DC United",
+   "over15": 91.9,
+   "over25": 77.2,
+   "marcador": "2-1",
+   "goles_esperados": 4.1,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "fuerte",
    "casa_local": {
-    "pj": 6,
-    "gf": 11,
-    "gc": 6
+    "pj": 14,
+    "gf": 36,
+    "gc": 29
    },
    "fuera_visitante": {
-    "pj": 7,
+    "pj": 14,
     "gf": 17,
-    "gc": 8
+    "gc": 25
    },
-   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-0",
-   "goles": 1,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://www.vavel.com/colombia/futbol-colombiano/2026/10/20/1276182-cucuta-vs-nacional-en-vivo-liga-betplay.html"
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
    "puesto": 3,
-   "hora_ecuador": "18:15",
-   "liga": "Liga BetPlay",
-   "local": "Internacional de Bogotá (ex La Equidad)",
-   "visitante": "Fortaleza",
-   "over15": 75.7,
-   "over25": 50.1,
-   "marcador": "1-1",
-   "goles_esperados": 2.7,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "Toluca",
+   "visitante": "Tijuana",
+   "over15": 90.8,
+   "over25": 74.9,
+   "marcador": "2-1",
+   "goles_esperados": 3.9,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "moderada",
    "casa_local": {
-    "pj": 7,
-    "gf": 10,
-    "gc": 11
+    "pj": 6,
+    "gf": 16,
+    "gc": 9
    },
    "fuera_visitante": {
-    "pj": 6,
-    "gf": 6,
+    "pj": 4,
+    "gf": 5,
     "gc": 8
    },
-   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-1",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://eldeportivo.com.co/futbol-colombiano/liga-betplay/internacional-impone-fortaleza-derbi-de-bogota/"
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
    "puesto": 4,
    "hora_ecuador": "20:00",
    "liga": "Liga MX",
-   "local": "A. San Luis",
-   "visitante": "Queretaro",
-   "over15": 75.0,
-   "over25": 49.1,
-   "marcador": "1-1",
-   "goles_esperados": 2.6,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
+   "local": "Atlas",
+   "visitante": "America",
+   "over15": 88.2,
+   "over25": 70.0,
+   "marcador": "1-2",
+   "goles_esperados": 3.6,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
    "casa_local": {
     "pj": 6,
-    "gf": 7,
-    "gc": 10
+    "gf": 6,
+    "gc": 9
    },
    "fuera_visitante": {
     "pj": 6,
-    "gf": 8,
-    "gc": 7
+    "gf": 16,
+    "gc": 11
    },
-   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-1",
-   "goles": 3,
-   "acierto_over15": true,
-   "acierto_over25": true,
-   "marcador_exacto": false,
-   "fuente": "https://eltiempomx.com/noticia/2026/san-luis-vence-2-1-a-queretaro-en-el-clasico-de-la-57.html"
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
    "puesto": 5,
-   "hora_ecuador": "20:00",
-   "liga": "Liga MX",
-   "local": "Juarez",
-   "visitante": "Atlante",
-   "over15": 73.2,
-   "over25": 46.8,
+   "hora_ecuador": "13:00",
+   "liga": "LaLiga",
+   "local": "Levante",
+   "visitante": "Athletic Club",
+   "over15": 86.0,
+   "over25": 65.8,
    "marcador": "1-1",
-   "goles_esperados": 2.5,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
    "casa_local": {
-    "pj": 6,
-    "gf": 5,
-    "gc": 11
+    "pj": 3,
+    "gf": 10,
+    "gc": 9
    },
    "fuera_visitante": {
-    "pj": 6,
-    "gf": 6,
-    "gc": 10
+    "pj": 3,
+    "gf": 2,
+    "gc": 2
    },
-   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "0-1",
-   "goles": 1,
-   "acierto_over15": false,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://www.foxsports.com.mx/2026/10/20/juarez-vs-atlante-hoy-resumen-goles-y-resultado-0-1-de-liga-mx-en-la-jornada-13-apertura-2026/"
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
    "puesto": 6,
-   "hora_ecuador": "22:00",
+   "hora_ecuador": "20:20",
+   "liga": "Liga BetPlay",
+   "local": "Santa Fe",
+   "visitante": "Jaguares de Córdoba",
+   "over15": 78.7,
+   "over25": 54.5,
+   "marcador": "2-0",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 10,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 5,
+    "gc": 14
+   },
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 7,
+   "hora_ecuador": "20:00",
    "liga": "Liga MX",
-   "local": "Tigres UANL",
-   "visitante": "Leon",
-   "over15": 72.6,
-   "over25": 46.0,
+   "local": "Puebla",
+   "visitante": "Monterrey",
+   "over15": 75.4,
+   "over25": 49.7,
    "marcador": "1-1",
-   "goles_esperados": 2.5,
+   "goles_esperados": 2.7,
    "categoria": "GOLES OPTIMISTAS",
    "senal_over25": "sin señal",
    "casa_local": {
     "pj": 5,
-    "gf": 9,
-    "gc": 5
-   },
-   "fuera_visitante": {
-    "pj": 6,
     "gf": 6,
-    "gc": 8
-   },
-   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "0-2",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://www.sdpnoticias.com/deportes/tigres-se-sigue-hundiendo-en-la-liga-mx-tras-perder-con-leon/"
-  },
-  {
-   "puesto": 7,
-   "hora_ecuador": "20:30",
-   "liga": "Liga BetPlay",
-   "local": "Millonarios",
-   "visitante": "Once Caldas",
-   "over15": 63.1,
-   "over25": 35.1,
-   "marcador": "1-0",
-   "goles_esperados": 2.1,
-   "categoria": "GOLES OPTIMISTAS",
-   "senal_over25": "sin señal",
-   "casa_local": {
-    "pj": 6,
-    "gf": 10,
-    "gc": 3
+    "gc": 6
    },
    "fuera_visitante": {
-    "pj": 8,
-    "gf": 9,
+    "pj": 5,
+    "gf": 6,
     "gc": 9
    },
-   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "1-1",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://futboltotal.futbol/partido/millonarios-vs-once-caldas-primera-a-2026-10-21"
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   },
   {
    "puesto": 8,
-   "hora_ecuador": "16:30",
-   "liga": "Liga BetPlay",
-   "local": "Deportivo Pereira",
-   "visitante": "Boyacá Chicó",
-   "over15": 62.7,
-   "over25": 34.7,
-   "marcador": "1-0",
-   "goles_esperados": 2.1,
+   "hora_ecuador": "22:10",
+   "liga": "Liga MX",
+   "local": "Santos Laguna",
+   "visitante": "Pumas UNAM",
+   "over15": 69.0,
+   "over25": 41.7,
+   "marcador": "1-1",
+   "goles_esperados": 2.3,
    "categoria": "GOLES OPTIMISTAS",
    "senal_over25": "sin señal",
    "casa_local": {
     "pj": 6,
-    "gf": 3,
-    "gc": 9
+    "gf": 8,
+    "gc": 3
    },
    "fuera_visitante": {
     "pj": 6,
-    "gf": 2,
-    "gc": 15
+    "gf": 10,
+    "gc": 9
    },
-   "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "terminado",
-   "resultado": "2-0",
-   "goles": 2,
-   "acierto_over15": true,
-   "acierto_over25": false,
-   "marcador_exacto": false,
-   "fuente": "https://eldeportivo.com.co/futbol-colombiano/liga-betplay/deportivo-pereira-toma-respiro-vencer-boyaca-chico/"
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 9,
+   "hora_ecuador": "18:15",
+   "liga": "Liga BetPlay",
+   "local": "Llaneros",
+   "visitante": "Deportivo Cali",
+   "over15": 57.1,
+   "over25": 29.1,
+   "marcador": "0-0",
+   "goles_esperados": 1.9,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 9,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 7,
+    "gc": 5
+   },
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
   }
  ],
  "sin_pronostico": []

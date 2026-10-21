@@ -1,46 +1,35 @@
 {
- "local": "Guadalajara",
- "fecha_larga": "Martes 20 de octubre de 2026",
- "desde": "05:40",
+ "local": "Pachuca",
+ "fecha_larga": "Miércoles 21 de octubre de 2026",
+ "desde": "05:33",
  "contexto": [
-  "Jornada 13 del Apertura · Estadio Akron (Fútbol Total).",
-  "Necaxa: 1 empate y 4 derrotas en sus últimos 5 (Fútbol Total).",
-  "Últimos 6 duelos: Chivas 3, Necaxa 2, 1 empate."
+  "Estadio Hidalgo · jornada 13 del Apertura (Fútbol Total).",
+  "Cruz Azul: 5-0 a Juárez y dos 3-3 en sus últimos 5; Pachuca: 3-3 con Necaxa y 2-2 con Tijuana (Fútbol Total)."
  ],
  "auditoria": {
-  "titulo": "Lunes 19 de octubre · 10 partidos auditados con resultado final y fuente",
+  "titulo": "Martes 20 de octubre · 8 partidos auditados con resultado final y fuente",
   "tiles": [
    [
-    "1/1",
+    "0/1",
     "Partido del día · Over 1.5",
-    "oro"
-   ],
-   [
-    "4/4",
-    "Over 1.5 de 70 % o más (100 %)",
-    "verde"
-   ],
-   [
-    "9/10",
-    "Over 1.5 en todos los partidos",
     ""
    ],
    [
-    "99/128",
-    "Galería: Over 1.5 de 70 % o más (77 %)",
+    "3/6",
+    "Over 1.5 de 70 % o más (50 %)",
+    ""
+   ],
+   [
+    "5/8",
+    "Over 1.5 en todos los partidos",
+    "verde"
+   ],
+   [
+    "102/134",
+    "Galería: Over 1.5 de 70 % o más (76 %)",
     "dor"
    ]
   ],
-  "nota": "Partido del día: Getafe 1-1 Rayo ✔ (dimos Over 1.5 al 77 %; hubo 2 goles, marcador exacto). Único fallo: Deportivo Pasto 0-1 Alianza FC (62 %, menos de 70 %; hubo 1 gol). Ningún partido llegó a 80 %. Publicamos aciertos y fallos."
- },
- "acierto": {
-  "fecha": "lunes 19 de octubre",
-  "local": "Getafe",
-  "visita": "Rayo Vallecano",
-  "liga": "LaLiga · jornada 9",
-  "resultado": "1-1",
-  "goles": "2",
-  "over15": "77,0",
-  "sellado": "05:38 ECU del 19-oct"
+  "nota": "Partido del día: Chivas 1-0 Necaxa ✘ (dimos Over 1.5 al 84 %; hubo 1 gol). También fallaron Cúcuta 1-0 Atlético Nacional (83 %; 1 gol) y FC Juárez 0-1 Atlante (73 %; 1 gol). Acertamos Inter Bogotá 2-1 Fortaleza (3 goles), San Luis 2-1 Querétaro (3 goles), Tigres 0-2 León, Millonarios 1-1 Once Caldas y Pereira 2-0 Chicó (2 goles). Publicamos aciertos y fallos."
  }
 }

@@ -1,4 +1,4 @@
-# Tablas casa/fuera — martes 20-oct-2026 (bloque LUN19 con el lunes 19 y Monterrey-Pachuca) · antes: lunes 19-oct-2026 (antes de los partidos del día, incluye todo hasta el domingo 18-oct; bloque DOM18 al final): equipo: (PJ, GF, GC)
+# Tablas casa/fuera — miércoles 21-oct-2026 (bloque MAR20 con el martes 20 y Cincinnati-Columbus) · antes: martes 20-oct-2026 (bloque LUN19 con el lunes 19 y Monterrey-Pachuca) · antes: lunes 19-oct-2026 (antes de los partidos del día, incluye todo hasta el domingo 18-oct; bloque DOM18 al final): equipo: (PJ, GF, GC)
 # Datos manuales (el Dashboard Gol 4.0 aún no expone /api/dia). Fuente de cada liga en su comentario.
 L={}
 # BRA: base tools/datos.py (valorfinal tabelas-por-recorte, tras 30ª rodada + Mirassol 2-0 Internacional 16/10) + 4 partidos del sábado 17/10 (31ª rodada): Botafogo 1-0 Chapecoense, Atletico MG 1-0 Coritiba, Athletico-PR 0-2 Palmeiras, São Paulo 1-0 Vasco da Gama. Fuentes: https://ptd.verdao.net/brasileirao-2026-resultados-de-sabado-pela-31a-rodada-classificacao-atualizada/ · https://www.supervasco.com/noticias/tabela-atualizada-da-serie-a-apos-os-jogos-deste-sabado-18-da-rodada-31-457982.html · https://365scores.com/pt-br/news/magazine/sao-paulo-vence-vasco-sobe-tabela-brasileirao · calendario https://valorfinal.com.br/brasileirao/2026/rodada-31 . Cotejada equipo por equipo (40/40 filas idénticas) con https://valorfinal.com.br/brasileirao/tabelas-por-recorte (lectura 18/10/2026 06:30). Corte: sábado 17/10/2026 incluido (pendientes 31ª: 4 de hoy + Corinthians–Vitória lun 19/10). 304 partidos · control: PJ 304=304, GF casa 465 = GC fuera 465, GC casa 342 = GF fuera 342
@@ -96,6 +96,23 @@ LUN19=[
  ('COL','Pasto',0,1,'Alianza (ex Alianza Petrolera)'),  # https://futboltotal.futbol/partido/deportivo-pasto-vs-alianza-petrolera-primera-a-2026-10-20
 ]
 for _lg,_a,_ga,_gb,_b in LUN19:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
+# ===== Actualización mié 21-oct-2026 (rutina diaria 05:2x ECU): partidos del MARTES 20-oct (resultados del refresco horario, data/2026-10-20/resultados-en-vivo.json, 8/8 terminados con fuente)
+# + Cincinnati 0-2 Columbus Crew (MLS, dom 18-oct, faltaba en USA). Corte nuevo: mar 20-oct-2026 final. Local en casa, visitante fuera.
+MAR20=[
+ ('COL','Deportivo Pereira',2,0,'Boyacá Chicó'),  # https://eldeportivo.com.co/futbol-colombiano/liga-betplay/deportivo-pereira-toma-respiro-vencer-boyaca-chico/
+ ('COL','Internacional de Bogotá (ex La Equidad)',2,1,'Fortaleza'),  # https://eldeportivo.com.co/futbol-colombiano/liga-betplay/internacional-impone-fortaleza-derbi-de-bogota/
+ ('COL','Cúcuta',1,0,'Atlético Nacional'),  # https://www.vavel.com/colombia/futbol-colombiano/2026/10/20/1276182-cucuta-vs-nacional-en-vivo-liga-betplay.html
+ ('COL','Millonarios',1,1,'Once Caldas'),  # https://futboltotal.futbol/partido/millonarios-vs-once-caldas-primera-a-2026-10-21
+ ('MEX','Guadalajara',1,0,'Necaxa'),  # https://www.clarosports.com/futbol/liga-mx/chivas-vence-a-necaxa-con-un-autogol-y-escala-al-segundo-lugar-del-apertura-2026/
+ ('MEX','A. San Luis',2,1,'Queretaro'),  # https://eltiempomx.com/noticia/2026/san-luis-vence-2-1-a-queretaro-en-el-clasico-de-la-57.html
+ ('MEX','Juarez',0,1,'Atlante'),  # https://www.foxsports.com.mx/2026/10/20/juarez-vs-atlante-hoy-resumen-goles-y-resultado-0-1-de-liga-mx-en-la-jornada-13-apertura-2026/
+ ('MEX','Tigres UANL',0,2,'Leon'),  # https://www.sdpnoticias.com/deportes/tigres-se-sigue-hundiendo-en-la-liga-mx-tras-perder-con-leon/
+ ('USA','Cincinnati',0,2,'Columbus Crew'),  # https://futboltotal.futbol/partido/fc-cincinnati-vs-columbus-crew-mls-2026-10-19 (dom 18-oct, 17:00 Nueva York, jornada 30)
+]
+for _lg,_a,_ga,_gb,_b in MAR20:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 

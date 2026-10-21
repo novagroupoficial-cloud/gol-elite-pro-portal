@@ -580,3 +580,47 @@ LLEGAN={
    "Es uno de los 4 partidos de la Liga BetPlay de este martes (18:15, hora de Ecuador).",
    "Fuentes: tabla de la Liga BetPlay 2026-II (SoccerSTATS más resultados partido a partido) y agenda de Líbero."],
 }
+
+# ---- Miércoles 21-oct-2026 (rutina diaria, sellado 05:33 ECU) ----
+# LINK: una previa real publicada por partido (titular en español, medio y enlace a la nota original).
+LINK={
+ 'Levante|Athletic Club':("El Levante-Athletic aplazado se juega hoy en el Ciutat de València","El Gol Digital","https://www.elgoldigital.com/futbol/athletic-club/levante-athletic-aplazado-nueva-fecha-21-octubre/"),
+ 'Cincinnati|DC United':("FC Cincinnati vs D.C. United: ficha, forma e historial del partido pendiente de la MLS","Fútbol Total","https://futboltotal.futbol/partido/fc-cincinnati-vs-dc-united-mls-2026-10-22"),
+ 'Llaneros|Deportivo Cali':("Llaneros vs Deportivo Cali: ficha y forma en el Bello Horizonte","Fútbol Total","https://futboltotal.futbol/partido/llaneros-vs-deportivo-cali-primera-a-2026-10-22"),
+ 'Toluca|Tijuana':("Toluca vs Tijuana: previa, forma e historial de la jornada 13","Fútbol Total","https://futboltotal.futbol/partido/toluca-vs-club-tijuana-liga-mx-2026-10-22"),
+ 'Atlas|America':("Atlas vs América: dónde ver el partido de la jornada 13 del Apertura 2026","Fox Sports México","https://www.foxsports.com.mx/2026/10/19/atlas-vs-america-donde-ver-el-partido-de-la-jornada-13-del-apertura-2026/"),
+ 'Puebla|Monterrey':("Puebla vs Monterrey: ficha y forma de la jornada 13 del Apertura","Fútbol Total","https://futboltotal.futbol/partido/puebla-vs-monterrey-liga-mx-2026-10-22"),
+ 'Santa Fe|Jaguares de Córdoba':("Santa Fe vs Jaguares: el partido aplazado se juega por fin en El Campín","Fútbol Total","https://futboltotal.futbol/partido/santa-fe-vs-jaguares-primera-a-2026-10-16"),
+ 'Pachuca|Cruz Azul':("Pachuca vs Cruz Azul: previa, forma e historial de la jornada 13","Fútbol Total","https://futboltotal.futbol/partido/pachuca-vs-cruz-azul-liga-mx-2026-10-22"),
+ 'Santos Laguna|Pumas UNAM':("Santos vs Pumas: horario, alineaciones y dónde ver la jornada 13","Claro Sports","https://www.clarosports.com/futbol/liga-mx/santos-vs-pumas-en-vivo-la-liga-mx-horario-alineaciones-y-donde-ver-el-partido-del-apertura-2026-jornada-13/"),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Santos Laguna|Pumas UNAM','Puebla|Monterrey','Santa Fe|Jaguares de Córdoba']
+COL.update({'Athletic Club':'#e30613','Cincinnati':'#f05323','DC United':'#141414','Llaneros':'#e8b400','Deportivo Cali':'#0b7a3a',
+ 'Toluca':'#d0021b','Atlas':'#b0101f','America':'#f6d11b','Monterrey':'#0b2a52','Santa Fe':'#c8102e','Jaguares de Córdoba':'#0a7a3c','Levante':'#1f2f6b'})
+# Aciertos de ayer (martes 20): (partido, marcador real, nuestro Over 1.5, medio, url)
+ACIERTOS=[
+ ("Inter Bogotá vs Fortaleza","2-1","76 %","El Deportivo","https://eldeportivo.com.co/futbol-colombiano/liga-betplay/internacional-impone-fortaleza-derbi-de-bogota/"),
+ ("Atlético San Luis vs Querétaro","2-1","75 %","El Tiempo MX","https://eltiempomx.com/noticia/2026/san-luis-vence-2-1-a-queretaro-en-el-clasico-de-la-57.html"),
+ ("Tigres vs León","0-2","73 %","SDP Noticias","https://www.sdpnoticias.com/deportes/tigres-se-sigue-hundiendo-en-la-liga-mx-tras-perder-con-leon/"),
+ ("Millonarios vs Once Caldas","1-1","63 %","Fútbol Total","https://futboltotal.futbol/partido/millonarios-vs-once-caldas-primera-a-2026-10-21"),
+ ("Deportivo Pereira vs Boyacá Chicó","2-0","63 %","El Deportivo","https://eldeportivo.com.co/futbol-colombiano/liga-betplay/deportivo-pereira-toma-respiro-vencer-boyaca-chico/"),
+]
+LLEGAN={
+ 'Pachuca|Cruz Azul':["En casa, los partidos de Pachuca promedian 4 goles: 9 a favor y 11 en contra en 5 partidos.",
+   "Cruz Azul fuera: 10 goles a favor y 9 en contra en 5 partidos (3,8 goles por partido).",
+   "Cruz Azul viene de golear 5-0 a FC Juárez y de empatar 3-3 con Pumas y con Toluca; Pachuca empató 3-3 con Necaxa y perdió 2-1 en Monterrey.",
+   "Fuentes: tabla del Apertura 2026 (SoccerSTATS más resultados partido a partido) y ficha de Fútbol Total."],
+ 'Cincinnati|DC United':["En casa, los partidos de Cincinnati promedian 4,6 goles: 36 a favor y 29 en contra en 14 partidos.",
+   "D.C. United fuera recibe 1,8 goles por partido: 25 en contra (y 17 a favor) en 14 partidos.",
+   "D.C. United viene de perder 4-1 en Orlando y 4-0 en Miami; Cincinnati perdió 3-2 con New England y 0-2 con Columbus en casa.",
+   "Fuentes: tabla de la MLS 2026 (SoccerSTATS más resultados partido a partido) y ficha de Fútbol Total."],
+ 'Toluca|Tijuana':["Toluca en casa: 16 goles a favor y 9 en contra en 6 partidos (4,2 goles por partido en su estadio).",
+   "Tijuana fuera: 5 goles a favor y 8 en contra en 4 partidos.",
+   "En los últimos 6 duelos hubo 3-3, 2-4 y 4-0; Toluca ganó 3, Tijuana 1 y hubo 2 empates.",
+   "Fuentes: tabla del Apertura 2026 (SoccerSTATS más resultados partido a partido) y ficha de Fútbol Total."],
+ 'Atlas|America':["América fuera: 16 goles a favor y 11 en contra en 6 partidos (4,5 goles por partido).",
+   "Atlas en casa: 6 goles a favor y 9 en contra en 6 partidos.",
+   "América es líder del Apertura y viene de ganar 3-5 en León; Atlas ganó 2-0 a Necaxa.",
+   "Fuentes: tabla del Apertura 2026 (SoccerSTATS más resultados partido a partido) y Fox Sports México."],
+}

@@ -1,0 +1,313 @@
+{
+ "fecha": "2026-10-21",
+ "actualizado": "2026-10-21 05:37 ECU (UTC-5)",
+ "zona_horaria": "America/Guayaquil (UTC-5)",
+ "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
+ "fuente_sellada": "data/2026-10-21/pronosticos.json",
+ "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
+ "orden": "de mayor a menor Over 1.5",
+ "resumen_del_dia": {
+  "terminados": 0,
+  "total": 9,
+  "over15_70": [
+   0,
+   0
+  ],
+  "over25_senal": [
+   0,
+   0
+  ],
+  "marcadores_exactos": 0
+ },
+ "rango_80_90": [
+  {
+   "puesto": 4,
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "Atlas",
+   "visitante": "America",
+   "over15": 88.2,
+   "over25": 70.0,
+   "marcador": "1-2",
+   "goles_esperados": 3.6,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 6,
+    "gf": 6,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 16,
+    "gc": 11
+   },
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 5,
+   "hora_ecuador": "13:00",
+   "liga": "LaLiga",
+   "local": "Levante",
+   "visitante": "Athletic Club",
+   "over15": 86.0,
+   "over25": 65.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 10,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 2,
+    "gc": 2
+   },
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "todos": [
+  {
+   "puesto": 1,
+   "hora_ecuador": "22:00",
+   "liga": "Liga MX",
+   "local": "Pachuca",
+   "visitante": "Cruz Azul",
+   "over15": 92.3,
+   "over25": 78.0,
+   "marcador": "1-2",
+   "goles_esperados": 4.1,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "fuerte",
+   "casa_local": {
+    "pj": 5,
+    "gf": 9,
+    "gc": 11
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 10,
+    "gc": 9
+   },
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 2,
+   "hora_ecuador": "18:00",
+   "liga": "MLS",
+   "local": "Cincinnati",
+   "visitante": "DC United",
+   "over15": 91.9,
+   "over25": 77.2,
+   "marcador": "2-1",
+   "goles_esperados": 4.1,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "fuerte",
+   "casa_local": {
+    "pj": 14,
+    "gf": 36,
+    "gc": 29
+   },
+   "fuera_visitante": {
+    "pj": 14,
+    "gf": 17,
+    "gc": 25
+   },
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 3,
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "Toluca",
+   "visitante": "Tijuana",
+   "over15": 90.8,
+   "over25": 74.9,
+   "marcador": "2-1",
+   "goles_esperados": 3.9,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 6,
+    "gf": 16,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 8
+   },
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 4,
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "Atlas",
+   "visitante": "America",
+   "over15": 88.2,
+   "over25": 70.0,
+   "marcador": "1-2",
+   "goles_esperados": 3.6,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 6,
+    "gf": 6,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 16,
+    "gc": 11
+   },
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 5,
+   "hora_ecuador": "13:00",
+   "liga": "LaLiga",
+   "local": "Levante",
+   "visitante": "Athletic Club",
+   "over15": 86.0,
+   "over25": 65.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 10,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 2,
+    "gc": 2
+   },
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 6,
+   "hora_ecuador": "20:20",
+   "liga": "Liga BetPlay",
+   "local": "Santa Fe",
+   "visitante": "Jaguares de Córdoba",
+   "over15": 78.7,
+   "over25": 54.5,
+   "marcador": "2-0",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 10,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 5,
+    "gc": 14
+   },
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 7,
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "Puebla",
+   "visitante": "Monterrey",
+   "over15": 75.4,
+   "over25": 49.7,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 5,
+    "gf": 6,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 6,
+    "gc": 9
+   },
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 8,
+   "hora_ecuador": "22:10",
+   "liga": "Liga MX",
+   "local": "Santos Laguna",
+   "visitante": "Pumas UNAM",
+   "over15": 69.0,
+   "over25": 41.7,
+   "marcador": "1-1",
+   "goles_esperados": 2.3,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 8,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 10,
+    "gc": 9
+   },
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 9,
+   "hora_ecuador": "18:15",
+   "liga": "Liga BetPlay",
+   "local": "Llaneros",
+   "visitante": "Deportivo Cali",
+   "over15": 57.1,
+   "over25": 29.1,
+   "marcador": "0-0",
+   "goles_esperados": 1.9,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 9,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 7,
+    "gc": 5
+   },
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "sin_pronostico": []
+}

@@ -1,0 +1,37 @@
+{
+ "fecha": "2026-10-21",
+ "generado_ecuador": "2026-10-21 05:50 ECU (UTC-5)",
+ "nota": "Noticia de referencia por partido (recuadro LA NOTICIA DEL PARTIDO del carrusel).",
+ "partidos": {
+  "Pachuca|Cruz Azul": {
+   "titular": "CRUZ AZUL LLEGA GOLEANDO",
+   "texto": "Cruz Azul viene de golear 5-0 a FC Juárez y de empatar 3-3 con Pumas y con Toluca; Pachuca empató 3-3 con Necaxa en casa y perdió 2-1 en Monterrey.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/pachuca-vs-cruz-azul-liga-mx-2026-10-22"
+  },
+  "Cincinnati|DC United": {
+   "titular": "D.C. UNITED, 8 GOLES EN CONTRA EN 2 SALIDAS",
+   "texto": "D.C. United perdió 4-0 en Miami y 4-1 en Orlando en sus dos últimos partidos de visita; Cincinnati viene de caer 0-2 con Columbus en casa.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/fc-cincinnati-vs-dc-united-mls-2026-10-22"
+  },
+  "Toluca|Tijuana": {
+   "titular": "DUELOS CON MUCHOS GOLES",
+   "texto": "En sus últimos 6 enfrentamientos hubo un 3-3, un 2-4 y un 4-0; Toluca ganó 3, Tijuana 1 y hubo 2 empates.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/toluca-vs-club-tijuana-liga-mx-2026-10-22"
+  },
+  "Atlas|America": {
+   "titular": "EL LÍDER VISITA EL JALISCO",
+   "texto": "América llega como líder del Apertura y viene de ganar 3-5 en León; Atlas ganó 2-0 a Necaxa en su último partido.",
+   "fuente": "Fox Sports México",
+   "url": "https://www.foxsports.com.mx/2026/10/19/atlas-vs-america-donde-ver-el-partido-de-la-jornada-13-del-apertura-2026/"
+  },
+  "Levante|Athletic Club": {
+   "titular": "SE JUEGA EL PARTIDO DE LA TORMENTA",
+   "texto": "El partido se suspendió el 16 de septiembre por lluvias torrenciales y un apagón en el estadio; hoy se juega en el Ciutat de València.",
+   "fuente": "El Gol Digital",
+   "url": "https://www.elgoldigital.com/futbol/athletic-club/levante-athletic-aplazado-nueva-fecha-21-octubre/"
+  }
+ }
+}

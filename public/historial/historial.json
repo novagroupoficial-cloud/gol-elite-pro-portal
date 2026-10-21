@@ -197,5 +197,37 @@
    "Sarmiento 1-1 Barracas Central (65,5 % · marcador exacto)"
   ],
   "partidos": 10
+ },
+ {
+  "fecha": "2026-10-20",
+  "titulo": "Martes 20 de octubre de 2026",
+  "imagen": "/historial/2026-10-20.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "3/6",
+    "Over 1.5 de 70 % o más (50 %)"
+   ],
+   [
+    "0/0",
+    "Over 2.5 con señal (sin señales)"
+   ],
+   [
+    "0/8",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Fallaron 3 Over 1.5 de 70 % o más, los tres con 1 gol: Chivas 1-0 Necaxa (partido del día, 84,2 %), Cúcuta 1-0 Atlético Nacional (83,4 %) y FC Juárez 0-1 Atlante (73,2 %). En total, 5 de 8 partidos tuvieron 2 goles o más. No hubo Over 2.5 con señal ni marcadores exactos.",
+  "aciertos_destacados": [
+   "Inter Bogotá 2-1 Fortaleza (Over 1.5 al 75,7 % · hubo 3 goles)",
+   "Atlético San Luis 2-1 Querétaro (75,0 % · hubo 3 goles)",
+   "Tigres 0-2 León (72,6 % · hubo 2 goles)",
+   "Millonarios 1-1 Once Caldas (63,1 % · hubo 2 goles)",
+   "Deportivo Pereira 2-0 Boyacá Chicó (62,7 % · hubo 2 goles)"
+  ],
+  "partidos": 8
  }
 ]

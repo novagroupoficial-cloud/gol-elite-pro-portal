@@ -1,15 +1,16 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — martes 20-oct-2026 (calendario: Líbero, RPP y Noticias de Bariloche; Liga MX también Sport-Flash; Millonarios–Once Caldas: Publimetro y Fútbol Total; SportyTrader no accesible en esta ejecución)
- ('16:30', 'COL', 'Deportivo Pereira', 'Boyacá Chicó'),
- ('18:15', 'COL', 'Internacional de Bogotá (ex La Equidad)', 'Fortaleza'),
- ('18:30', 'COL', 'Cúcuta', 'Atlético Nacional'),
- ('19:07', 'MEX', 'Guadalajara', 'Necaxa'),
- ('20:00', 'MEX', 'A. San Luis', 'Queretaro'),
- ('20:00', 'MEX', 'Juarez', 'Atlante'),
- ('20:30', 'COL', 'Millonarios', 'Once Caldas'),
- ('22:00', 'MEX', 'Tigres UANL', 'Leon'),
+P=[ # hora (Ecuador), liga, local, visita — miércoles 21-oct-2026 (calendario: RPP, Bolavip (Liga MX, hora centro de México +1 h), Fútbol Total (MLS, Levante–Athletic), El Gol Digital; SportyTrader no accesible en esta ejecución)
+ ('13:00', 'ESP', 'Levante', 'Athletic Club'),
+ ('18:00', 'USA', 'Cincinnati', 'DC United'),
+ ('18:15', 'COL', 'Llaneros', 'Deportivo Cali'),
+ ('20:00', 'MEX', 'Toluca', 'Tijuana'),
+ ('20:00', 'MEX', 'Atlas', 'America'),
+ ('20:00', 'MEX', 'Puebla', 'Monterrey'),
+ ('20:20', 'COL', 'Santa Fe', 'Jaguares de Córdoba'),
+ ('22:00', 'MEX', 'Pachuca', 'Cruz Azul'),
+ ('22:10', 'MEX', 'Santos Laguna', 'Pumas UNAM'),
 ]
 out=[]
 for h,lg,a,b in P:

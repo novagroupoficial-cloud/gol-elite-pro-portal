@@ -58,5 +58,20 @@
   "marcador_exacto": false,
   "fuente": "https://www.clarosports.com/futbol/liga-mx/chivas-vence-a-necaxa-con-un-autogol-y-escala-al-segundo-lugar-del-apertura-2026/",
   "registrado": "22:10 ECU"
+ },
+ {
+  "local": "Millonarios",
+  "visita": "Once Caldas",
+  "hora": "20:30",
+  "resultado": "1-1",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 63.1,
+  "over25_dado": 35.1,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/millonarios-vs-once-caldas-primera-a-2026-10-21",
+  "registrado": "23:15 ECU"
  }
 ]

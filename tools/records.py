@@ -66,6 +66,19 @@ out = dict(actualizado=(dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=5)
            over80=dict(aciertos=top80[0], partidos=top80[1]), over25_senal=dict(aciertos=o25[0], partidos=o25[1]),
            partido_del_dia=dict(aciertos=pdd_ok, dias=len(pdd), racha_actual=racha_pdd, detalle=pdd),
            mejor_dia_80=mejor_dia, mayor_goleada_acertada=goleada)
+
+# Cumplimiento por franja de probabilidad (Marco, 21-oct-2026): lo prometido vs lo que pasó en la cancha
+FR = [('95 % o más', 95, 101), ('90 a 94 %', 90, 95), ('80 a 89 %', 80, 90), ('70 a 79 %', 70, 80), ('menos de 70 %', 0, 70)]
+calib = []
+for nom, a, b in FR:
+    xs = [x for d in DIAS.values() for x in d if a <= entero(x['over15']) < b]
+    if xs:
+        calib.append(dict(franja=nom, partidos=len(xs), aciertos=sum(x['goles'] >= 2 for x in xs),
+                          prometido=round(sum(x['over15'] for x in xs) / len(xs), 1)))
+ult = max(DIAS) if DIAS else None
+ayer = dict(fecha=ult, partidos=[dict(hora=x['hora'], local=x['local'], visita=x['visita'], over15=x['over15'], resultado=x['resultado'],
+            goles=x['goles'], acierto=x['goles'] >= 2) for x in sorted(DIAS[ult], key=lambda x: -x['over15'])]) if ult else None
+out['calibracion'] = calib; out['ultima_jornada'] = ayer
 json.dump(out, open('../public/api/records.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(json.dumps({k: out[k] for k in ('dias', 'partidos', 'categorias', 'over90', 'over80', 'over25_senal', 'mejor_dia_80', 'mayor_goleada_acertada')}, ensure_ascii=False))
 print('pdd', pdd_ok, len(pdd), racha_pdd)

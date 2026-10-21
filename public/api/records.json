@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21 07:16 ECU",
+ "actualizado": "2026-10-21 07:29 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -109,5 +109,114 @@
   "partido": "Leon 3-5 America",
   "goles": 8,
   "over15": 83
+ },
+ "calibracion": [
+  {
+   "franja": "95 % o más",
+   "partidos": 3,
+   "aciertos": 3,
+   "prometido": 95.9
+  },
+  {
+   "franja": "90 a 94 %",
+   "partidos": 13,
+   "aciertos": 12,
+   "prometido": 91.7
+  },
+  {
+   "franja": "80 a 89 %",
+   "partidos": 49,
+   "aciertos": 33,
+   "prometido": 83.5
+  },
+  {
+   "franja": "70 a 79 %",
+   "partidos": 54,
+   "aciertos": 43,
+   "prometido": 74.6
+  },
+  {
+   "franja": "menos de 70 %",
+   "partidos": 31,
+   "aciertos": 27,
+   "prometido": 61.6
+  }
+ ],
+ "ultima_jornada": {
+  "fecha": "2026-10-20",
+  "partidos": [
+   {
+    "hora": "19:07",
+    "local": "Guadalajara",
+    "visita": "Necaxa",
+    "over15": 84.2,
+    "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
+   },
+   {
+    "hora": "18:30",
+    "local": "Cúcuta",
+    "visita": "Atlético Nacional",
+    "over15": 83.4,
+    "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
+   },
+   {
+    "hora": "18:15",
+    "local": "Internacional de Bogotá (ex La Equidad)",
+    "visita": "Fortaleza",
+    "over15": 75.7,
+    "resultado": "2-1",
+    "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "20:00",
+    "local": "A. San Luis",
+    "visita": "Queretaro",
+    "over15": 75.0,
+    "resultado": "2-1",
+    "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "20:00",
+    "local": "Juarez",
+    "visita": "Atlante",
+    "over15": 73.2,
+    "resultado": "0-1",
+    "goles": 1,
+    "acierto": false
+   },
+   {
+    "hora": "22:00",
+    "local": "Tigres UANL",
+    "visita": "Leon",
+    "over15": 72.6,
+    "resultado": "0-2",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "20:30",
+    "local": "Millonarios",
+    "visita": "Once Caldas",
+    "over15": 63.1,
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "16:30",
+    "local": "Deportivo Pereira",
+    "visita": "Boyacá Chicó",
+    "over15": 62.7,
+    "resultado": "2-0",
+    "goles": 2,
+    "acierto": true
+   }
+  ]
  }
 }

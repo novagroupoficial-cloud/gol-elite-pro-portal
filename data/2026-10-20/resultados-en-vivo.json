@@ -1,0 +1,17 @@
+[
+ {
+  "local": "Deportivo Pereira",
+  "visita": "Boyacá Chicó",
+  "hora": "16:30",
+  "resultado": "2-0",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 62.7,
+  "over25_dado": 34.7,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://eldeportivo.com.co/futbol-colombiano/liga-betplay/deportivo-pereira-toma-respiro-vencer-boyaca-chico/",
+  "registrado": "19:14 ECU"
+ }
+]

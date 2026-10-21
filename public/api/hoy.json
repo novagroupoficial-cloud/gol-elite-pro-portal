@@ -1,13 +1,13 @@
 {
  "fecha": "2026-10-20",
- "actualizado": "2026-10-20 18:11 ECU (UTC-5)",
+ "actualizado": "2026-10-20 19:17 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-20/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 0,
+  "terminados": 1,
   "total": 8,
   "over15_70": [
    0,
@@ -43,7 +43,7 @@
     "gc": 11
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -69,7 +69,7 @@
     "gc": 8
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   }
  ],
@@ -97,7 +97,7 @@
     "gc": 11
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -123,7 +123,7 @@
     "gc": 8
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -149,7 +149,7 @@
     "gc": 8
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -279,8 +279,13 @@
     "gc": 15
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://eldeportivo.com.co/futbol-colombiano/liga-betplay/deportivo-pereira-toma-respiro-vencer-boyaca-chico/"
   }
  ],
  "sin_pronostico": []

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20 21:17 ECU",
+ "actualizado": "2026-10-20 22:10 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -9,7 +9,7 @@
   "2026-10-19",
   "2026-10-20"
  ],
- "partidos": 145,
+ "partidos": 146,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -22,7 +22,7 @@
   },
   "GOLES ESTÁNDAR": {
    "aciertos": 33,
-   "partidos": 48
+   "partidos": 49
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 67,
@@ -37,7 +37,7 @@
  },
  "over80": {
   "aciertos": 48,
-  "partidos": 64
+  "partidos": 65
  },
  "over25_senal": {
   "aciertos": 19,

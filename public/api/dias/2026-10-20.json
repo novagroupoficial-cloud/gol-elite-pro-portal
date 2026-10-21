@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-20",
- "actualizado": "2026-10-20 21:17 ECU (UTC-5)",
+ "actualizado": "2026-10-20 22:10 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-20/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 3,
+  "terminados": 4,
   "total": 8,
   "over15_70": [
    1,
-   2
+   3
   ],
   "over25_senal": [
    0,
@@ -43,8 +43,13 @@
     "gc": 11
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.clarosports.com/futbol/liga-mx/chivas-vence-a-necaxa-con-un-autogol-y-escala-al-segundo-lugar-del-apertura-2026/"
   },
   {
    "puesto": 2,
@@ -102,8 +107,13 @@
     "gc": 11
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.clarosports.com/futbol/liga-mx/chivas-vence-a-necaxa-con-un-autogol-y-escala-al-segundo-lugar-del-apertura-2026/"
   },
   {
    "puesto": 2,
@@ -242,7 +252,7 @@
     "gc": 8
    },
    "sellado": "2026-10-20 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

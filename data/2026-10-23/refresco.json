@@ -1,0 +1,14 @@
+{
+ "fecha": "2026-10-23",
+ "ultima_ejecucion": "2026-10-23 16:11 ECU",
+ "ultima_ok": null,
+ "rutina_diaria": "en_curso",
+ "rutina_diaria_inicio": "2026-10-23 16:13 ECU",
+ "pendientes": [
+  "Sin actividad en main desde 2026-10-21 07:29 ECU: faltaron la rutina del 22 y la del 23 y los refrescos horarios del 21 (tarde) al 23.",
+  "Resultados y auditoría del 2026-10-21 sin registrar."
+ ],
+ "deploy": {"ok": null, "fallos_seguidos": 0, "ultima_revision": null},
+ "avisos_enviados": [],
+ "nota": "16:13: refresco encontró sin pronósticos de hoy; retoma la rutina diaria (solo partidos que aún no empiezan)."
+}

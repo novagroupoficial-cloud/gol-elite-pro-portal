@@ -21,9 +21,10 @@ FUENTES=[
  ("SoccerSTATS · local y visitante Liga MX (más resultados partido a partido)","https://www.soccerstats.com/homeaway.asp?league=mexico"),
  ("SoccerSTATS · local y visitante MLS (más resultados partido a partido)","https://www.soccerstats.com/homeaway.asp?league=usa"),
  ("SoccerSTATS · local y visitante Liga BetPlay (más resultados partido a partido)","https://www.soccerstats.com/homeaway.asp?league=colombia2"),
- ("Fútbol Total · fichas, forma e historial de los partidos de hoy","https://futboltotal.futbol/partido/pachuca-vs-cruz-azul-liga-mx-2026-10-22"),
- ("RPP · agenda de partidos del miércoles 21 de octubre","https://rpp.pe/futbol/futbol-mundial/partidos-de-hoy-miercoles-21-de-octubre-horarios-y-canales-de-tv-para-ver-en-vivo-la-champions-y-libertadores-noticia-1713656"),
- ("Bolavip · horarios de la jornada 13 de la Liga MX","https://bolavip.com/mx/ligamx/asi-se-jugara-la-jornada-13-del-apertura-2026-dias-horarios-y-tv-de-la-fecha-doble-de-liga-mx"),
+ ("Fútbol Total · fichas, forma e historial de los partidos de hoy","https://futboltotal.futbol/partido/necaxa-vs-fc-juarez-liga-mx-2026-10-24"),
+ ("RPP · agenda de partidos del viernes 23 de octubre","https://rpp.pe/futbol/futbol-mundial/partidos-de-hoy-peru-viernes-23-de-octubre-del-2026-horarios-y-canales-tv-ver-futbol-en-vivo-noticia-1713977"),
+ ("TUDN · partidos de hoy 23 de octubre (Liga MX)","https://www.tudn.com/futbol/liga-mx/partidos-de-hoy-23-de-octubre-liga-mx-serie-mundial-y-mexicanos-en-el-extranjero"),
+ ("Valor Final · 32.ª fecha del Brasileirão","https://valorfinal.com.br/brasileirao/2026/rodada-32"),
 ]
 idx={key(p):p for p in P}
 
@@ -147,7 +148,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if entero(p['over15'])>=80 else ''}"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=['11:45 y 14:00 · Champions League (9 partidos: Como–Manchester United, Lille–Galatasaray, Aston Villa–Viking, Bayern Múnich–Arsenal, Brujas–Lens, Inter–Shakhtar, Betis–Feyenoord, Real Madrid–RB Leipzig y Sporting–LASK): fase de liga con 1 o 2 partidos de local y de visitante por equipo; no hay tabla de local y visitante con muestra suficiente.','17:00 · Montevideo City Torque vs Atlético Mineiro y 19:30 · Palmeiras vs Fluminense (Copa Libertadores): copa por eliminación, sin tabla de local y visitante de la competición.','17:00 · Universidad de Chile vs Antofagasta (Copa Chile): copa por eliminación, sin tabla de local y visitante de la competición.']  # sin tabla casa/fuera verificable
+SIN=['Ya habían empezado cuando se selló hoy (16:18 ECU, rutina recuperada): Liga 1 de Perú (UTC–Melgar y Atlético Grau–ADT), Stuttgart–M’gladbach, Torino–Monza, Brest–Niza, Alavés–Málaga, Ipswich–Nottingham Forest y Gimnasia LP–Sarmiento. No pronosticamos partidos ya empezados.']  # sin pronóstico hoy
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 # Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
@@ -267,24 +268,24 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del miércoles 21 de octubre; se integrará al portal cuando llegue el código.</div>
+<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del viernes 23 de octubre; se integrará al portal cuando llegue el código.</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Miércoles 21 de octubre de 2026 · sellado 05:33 ECU</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Viernes 23 de octubre de 2026 · sellado 16:18 ECU</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{pc(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{pc(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.0, calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK[key(top)][1])} · <a href="{LINK[key(top)][2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
 {RANK}
-<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>¡Acertamos ayer! Martes 20 de octubre · 5 de 8 partidos con 2 goles o más (Over 1.5) · el partido del día falló: Chivas 1-0 Necaxa, hubo 1 gol, y lo publicamos igual · toca para ver el resultado en su medio</p></div>
+<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>Última jornada auditada: martes 20 de octubre · 5 de 8 partidos con 2 goles o más (Over 1.5) · el partido del día falló: Chivas 1-0 Necaxa, hubo 1 gol, y lo publicamos igual · toca para ver el resultado en su medio</p></div>
 {estrella}{recs}{ayer}{calib}<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1 or '<p class="legal">Hoy ningún partido llega a 80 % en Over 1.5. El más alto está arriba, como partido del día; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>'}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del miércoles</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del viernes</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Miércoles 21 de octubre de 2026 · pronósticos sellados a las 05:33 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Viernes 23 de octubre de 2026 · pronósticos sellados a las 16:18 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
@@ -301,7 +302,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-10-21"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-10-23"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

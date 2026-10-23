@@ -624,3 +624,20 @@ LLEGAN={
    "América es líder del Apertura y viene de ganar 3-5 en León; Atlas ganó 2-0 a Necaxa.",
    "Fuentes: tabla del Apertura 2026 (SoccerSTATS más resultados partido a partido) y Fox Sports México."],
 }
+
+# ---- Viernes 23-oct-2026 (rutina recuperada por el refresco horario, sellado 16:18 ECU) ----
+# LINK: una previa real publicada por partido (titular en español, medio y enlace a la nota original).
+LINK={
+ 'Gimnasia Mendoza|Platense':("Gimnasia Mendoza vs Platense, por el Torneo Clausura 2026: horario, formaciones y TV","Minuto Uno","https://www.minutouno.com/c6335491"),
+ 'Cruzeiro|Remo':("Cruzeiro vs Remo: probabilidades y análisis de la 32.ª fecha del Brasileirão","Valor Final","https://valorfinal.com.br/brasileirao/2026/jogos/cruzeiro-x-remo"),
+ 'Tigre|Atletico Tucuman':("Tigre vs Atlético Tucumán: ficha, forma e historial de la fecha 14","Fútbol Total","https://futboltotal.futbol/partido/tigre-vs-atletico-tucuman-liga-profesional-argentina-2026-10-24"),
+ 'Necaxa|Juarez':("Necaxa vs FC Juárez: ficha, forma e historial de la jornada 14","Fútbol Total","https://futboltotal.futbol/partido/necaxa-vs-fc-juarez-liga-mx-2026-10-24"),
+ 'Atlante|A. San Luis':("Atlante vs Atlético San Luis: ficha, forma e historial de la jornada 14","Fútbol Total","https://futboltotal.futbol/partido/atlante-fc-vs-atletico-san-luis-liga-mx-2026-10-24"),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Cruzeiro|Remo','Atlante|A. San Luis']
+COL.update({'Gimnasia Mendoza':'#141414','Platense':'#7a4a2a','Cruzeiro':'#1d3f8f','Remo':'#0b2a52','Tigre':'#1d3f8f','Atletico Tucuman':'#6cb4e4',
+ 'Necaxa':'#d6001c','Juarez':'#2c2c2c','Atlante':'#0b2a6b','A. San Luis':'#c8102e'})
+# Aciertos de ayer: el jueves 22 no hubo pronósticos (la rutina no corrió) y la auditoría del miércoles 21 está pendiente.
+ACIERTOS=[]
+LLEGAN={}

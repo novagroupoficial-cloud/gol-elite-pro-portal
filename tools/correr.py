@@ -1,16 +1,12 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — miércoles 21-oct-2026 (calendario: RPP, Bolavip (Liga MX, hora centro de México +1 h), Fútbol Total (MLS, Levante–Athletic), El Gol Digital; SportyTrader no accesible en esta ejecución)
- ('13:00', 'ESP', 'Levante', 'Athletic Club'),
- ('18:00', 'USA', 'Cincinnati', 'DC United'),
- ('18:15', 'COL', 'Llaneros', 'Deportivo Cali'),
- ('20:00', 'MEX', 'Toluca', 'Tijuana'),
- ('20:00', 'MEX', 'Atlas', 'America'),
- ('20:00', 'MEX', 'Puebla', 'Monterrey'),
- ('20:20', 'COL', 'Santa Fe', 'Jaguares de Córdoba'),
- ('22:00', 'MEX', 'Pachuca', 'Cruz Azul'),
- ('22:10', 'MEX', 'Santos Laguna', 'Pumas UNAM'),
+P=[ # hora (Ecuador), liga, local, visita — viernes 23-oct-2026 (rutina recuperada 16:1x ECU; calendario: RPP (hora Perú = Ecuador), TUDN (Liga MX, hora centro de México +1 h), Valor Final (Brasileirão, Brasília -2 h); SportyTrader no accesible en esta ejecución). Solo partidos que aún no empiezan.
+ ('16:30', 'ARG', 'Gimnasia Mendoza', 'Platense'),
+ ('18:00', 'BRA', 'Cruzeiro', 'Remo'),
+ ('19:15', 'ARG', 'Tigre', 'Atletico Tucuman'),
+ ('20:00', 'MEX', 'Necaxa', 'Juarez'),
+ ('22:00', 'MEX', 'Atlante', 'A. San Luis'),
 ]
 out=[]
 for h,lg,a,b in P:

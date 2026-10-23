@@ -116,6 +116,21 @@ for _lg,_a,_ga,_gb,_b in MAR20:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# ===== Actualización vie 23-oct-2026 (rutina diaria recuperada por el refresco de las 16:1x ECU; la de 05:24 del 22 y del 23 no corrió): partidos del MIÉRCOLES 21-oct, local en casa, visitante fuera.
+# MEX J13 (cierre de la fecha doble; no hubo Liga MX el jue 22): https://news.jointly.mx/tabla-general-jornada-13-apertura-2026-resultados-miercoles/ · Atlas 2-5 América también en https://heraldodemexico.com.mx/deportes/2026/10/22/america-goleo-atlas-2-5-en-la-jornada-13-de-la-liga-mx-913469.html · Pachuca 1-2 Cruz Azul también en https://heraldodemexico.com.mx/deportes/2026/10/22/cruz-azul-vencio-pachuca-1-2-en-la-jornada-13-de-la-liga-mx-913785.html y https://www.clarosports.com/futbol/liga-mx/la-maquina-pita-en-hidalgo-cruz-azul-vence-a-pachuca-y-asalta-el-tercer-lugar-de-la-tabla-general-del-apertura-2026/
+# BRA: 31ª rodada completa (309 PJ; queda 1 partido atrasado sin fecha); la 32ª empieza hoy con Cruzeiro x Remo (https://valorfinal.com.br/brasileirao/2026/rodada-32). ARG: fecha 13 completa (195 PJ); la 14 empieza hoy.
+# Partidos del mié 21 de ESP/USA/COL no se suman aquí (no hay pronósticos de esas ligas hoy); quedan para la rutina siguiente. Corte MEX: mié 21-oct final.
+MIE21=[
+ ('MEX','Atlas',2,5,'America'),
+ ('MEX','Toluca',2,2,'Tijuana'),
+ ('MEX','Puebla',1,4,'Monterrey'),
+ ('MEX','Pachuca',1,2,'Cruz Azul'),
+ ('MEX','Santos Laguna',2,0,'Pumas UNAM'),
+]
+for _lg,_a,_ga,_gb,_b in MIE21:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

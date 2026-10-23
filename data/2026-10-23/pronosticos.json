@@ -1,0 +1,157 @@
+[
+ {
+  "hora": "16:30",
+  "liga": "ARG",
+  "local": "Gimnasia Mendoza",
+  "visita": "Platense",
+  "casa": [
+   6,
+   9,
+   3
+  ],
+  "fuera": [
+   6,
+   7,
+   8
+  ],
+  "HG": 1.25,
+  "AG": 1.03,
+  "lambda_local": 1.46,
+  "lambda_visita": 0.77,
+  "goles_esperados": 2.2,
+  "over15": 66.1,
+  "over25": 38.4,
+  "under25": 61.6,
+  "marcador": "1-0",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+  "rango_clasico": "Menos de 70",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MIE21 del 23-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ },
+ {
+  "hora": "18:00",
+  "liga": "BRA",
+  "local": "Cruzeiro",
+  "visita": "Remo",
+  "casa": [
+   15,
+   26,
+   16
+  ],
+  "fuera": [
+   15,
+   14,
+   28
+  ],
+  "HG": 1.52,
+  "AG": 1.14,
+  "lambda_local": 1.99,
+  "lambda_visita": 0.93,
+  "goles_esperados": 2.9,
+  "over15": 79.6,
+  "over25": 55.8,
+  "under25": 44.2,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+  "rango_clasico": "Rango 70",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MIE21 del 23-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ },
+ {
+  "hora": "19:15",
+  "liga": "ARG",
+  "local": "Tigre",
+  "visita": "Atletico Tucuman",
+  "casa": [
+   6,
+   4,
+   4
+  ],
+  "fuera": [
+   6,
+   6,
+   3
+  ],
+  "HG": 1.25,
+  "AG": 1.03,
+  "lambda_local": 0.58,
+  "lambda_visita": 0.8,
+  "goles_esperados": 1.4,
+  "over15": 40.8,
+  "over25": 16.0,
+  "under25": 84.0,
+  "marcador": "0-0",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+  "rango_clasico": "Menos de 70",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MIE21 del 23-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ },
+ {
+  "hora": "20:00",
+  "liga": "MEX",
+  "local": "Necaxa",
+  "visita": "Juarez",
+  "casa": [
+   7,
+   8,
+   14
+  ],
+  "fuera": [
+   6,
+   3,
+   20
+  ],
+  "HG": 1.57,
+  "AG": 1.43,
+  "lambda_local": 2.08,
+  "lambda_visita": 1.09,
+  "goles_esperados": 3.2,
+  "over15": 83.3,
+  "over25": 61.4,
+  "under25": 38.6,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+  "rango_clasico": "Rango 80",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MIE21 del 23-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ },
+ {
+  "hora": "22:00",
+  "liga": "MEX",
+  "local": "Atlante",
+  "visita": "A. San Luis",
+  "casa": [
+   6,
+   7,
+   9
+  ],
+  "fuera": [
+   6,
+   9,
+   11
+  ],
+  "HG": 1.57,
+  "AG": 1.43,
+  "lambda_local": 1.46,
+  "lambda_visita": 1.51,
+  "goles_esperados": 3.0,
+  "over15": 80.6,
+  "over25": 57.1,
+  "under25": 42.9,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+  "rango_clasico": "Rango 80",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque MIE21 del 23-oct); Dashboard Gol 4.0 /api/dia no disponible"
+ }
+]

@@ -1,0 +1,209 @@
+{
+ "fecha": "2026-10-23",
+ "actualizado": "2026-10-23 16:18 ECU (UTC-5)",
+ "zona_horaria": "America/Guayaquil (UTC-5)",
+ "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
+ "fuente_sellada": "data/2026-10-23/pronosticos.json",
+ "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
+ "orden": "de mayor a menor Over 1.5",
+ "resumen_del_dia": {
+  "terminados": 0,
+  "total": 5,
+  "over15_70": [
+   0,
+   0
+  ],
+  "over25_senal": [
+   0,
+   0
+  ],
+  "marcadores_exactos": 0
+ },
+ "rango_80_90": [
+  {
+   "puesto": 1,
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "Necaxa",
+   "visitante": "Juarez",
+   "over15": 83.3,
+   "over25": 61.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 7,
+    "gf": 8,
+    "gc": 14
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 3,
+    "gc": 20
+   },
+   "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 2,
+   "hora_ecuador": "22:00",
+   "liga": "Liga MX",
+   "local": "Atlante",
+   "visitante": "A. San Luis",
+   "over15": 80.6,
+   "over25": 57.1,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 6,
+    "gf": 7,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 9,
+    "gc": 11
+   },
+   "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "todos": [
+  {
+   "puesto": 1,
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "Necaxa",
+   "visitante": "Juarez",
+   "over15": 83.3,
+   "over25": 61.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 7,
+    "gf": 8,
+    "gc": 14
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 3,
+    "gc": 20
+   },
+   "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 2,
+   "hora_ecuador": "22:00",
+   "liga": "Liga MX",
+   "local": "Atlante",
+   "visitante": "A. San Luis",
+   "over15": 80.6,
+   "over25": 57.1,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 6,
+    "gf": 7,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 9,
+    "gc": 11
+   },
+   "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 3,
+   "hora_ecuador": "18:00",
+   "liga": "Brasileirão",
+   "local": "Cruzeiro",
+   "visitante": "Remo",
+   "over15": 79.6,
+   "over25": 55.8,
+   "marcador": "1-1",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 15,
+    "gf": 26,
+    "gc": 16
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 14,
+    "gc": 28
+   },
+   "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 4,
+   "hora_ecuador": "16:30",
+   "liga": "Liga Profesional",
+   "local": "Gimnasia Mendoza",
+   "visitante": "Platense",
+   "over15": 66.1,
+   "over25": 38.4,
+   "marcador": "1-0",
+   "goles_esperados": 2.2,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 9,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 7,
+    "gc": 8
+   },
+   "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 5,
+   "hora_ecuador": "19:15",
+   "liga": "Liga Profesional",
+   "local": "Tigre",
+   "visitante": "Atletico Tucuman",
+   "over15": 40.8,
+   "over25": 16.0,
+   "marcador": "0-0",
+   "goles_esperados": 1.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 4,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 6,
+    "gc": 3
+   },
+   "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "sin_pronostico": []
+}

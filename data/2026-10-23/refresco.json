@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-23",
- "ultima_ejecucion": "2026-10-23 16:21 ECU",
- "ultima_ok": "2026-10-23 16:21 ECU",
+ "ultima_ejecucion": "2026-10-23 17:11 ECU",
+ "ultima_ok": "2026-10-23 17:11 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-23 16:13 ECU",
  "pendientes": [
@@ -17,10 +17,10 @@
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "16:23 (sin lectura: WebFetch de gol-elite-pro.netlify.app/index pidió permiso y no hubo respuesta)"
+  "ultima_revision": "17:12 (sin lectura: WebFetch de gol-elite-pro.netlify.app/index pidió permiso y no hubo respuesta)"
  },
  "avisos_enviados": [
   "rutina_recuperada"
  ],
- "nota": "16:21: rutina diaria recuperada; 5 pronósticos sellados 16:18 (solo partidos por jugar); ranking regenerado; portada actualizada."
+ "nota": "17:11: ranking regenerado; Gimnasia Mendoza-Platense en juego (16:30); ningún partido terminado aún; resultados a partir de 18:45 ECU."
 }

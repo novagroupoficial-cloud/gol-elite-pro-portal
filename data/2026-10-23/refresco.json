@@ -11,12 +11,13 @@
   "Kit de redes del 23-oct no generado (rutina recuperada por la tarde, sin tiempo).",
   "LLEGAN (Cómo llegan) del 23-oct vacío.",
   "SportyTrader no accesible (WebFetch pide permiso): calendario del 23 tomado de RPP, TUDN, Minuto Uno y Valor Final.",
-  "Kit de redes del 16-oct no generado; auditoría oficial de 2026-10-12 sigue sin hacerse."
+  "Kit de redes del 16-oct no generado; auditoría oficial de 2026-10-12 sigue sin hacerse.",
+  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso."
  ],
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": null
+  "ultima_revision": "16:23 (sin lectura: WebFetch de gol-elite-pro.netlify.app/index pidió permiso y no hubo respuesta)"
  },
  "avisos_enviados": [
   "rutina_recuperada"

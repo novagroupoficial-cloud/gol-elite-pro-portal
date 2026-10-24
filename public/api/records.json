@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23 23:10 ECU",
+ "actualizado": "2026-10-24 00:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -10,7 +10,7 @@
   "2026-10-20",
   "2026-10-23"
  ],
- "partidos": 154,
+ "partidos": 155,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -23,7 +23,7 @@
   },
   "GOLES ESTÁNDAR": {
    "aciertos": 34,
-   "partidos": 51
+   "partidos": 52
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 71,
@@ -38,7 +38,7 @@
  },
  "over80": {
   "aciertos": 49,
-  "partidos": 67
+  "partidos": 68
  },
  "over25_senal": {
   "aciertos": 19,
@@ -126,9 +126,9 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 51,
+   "partidos": 52,
    "aciertos": 34,
-   "prometido": 83.5
+   "prometido": 83.4
   },
   {
    "franja": "70 a 79 %",
@@ -154,6 +154,15 @@
     "resultado": "1-1",
     "goles": 2,
     "acierto": true
+   },
+   {
+    "hora": "22:00",
+    "local": "Atlante",
+    "visita": "A. San Luis",
+    "over15": 80.6,
+    "resultado": "0-1",
+    "goles": 1,
+    "acierto": false
    },
    {
     "hora": "18:00",

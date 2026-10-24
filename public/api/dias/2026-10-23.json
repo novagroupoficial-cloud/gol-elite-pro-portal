@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-23",
- "actualizado": "2026-10-23 23:10 ECU (UTC-5)",
+ "actualizado": "2026-10-24 00:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-23/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 4,
+  "terminados": 5,
   "total": 5,
   "over15_70": [
    1,
-   2
+   3
   ],
   "over25_senal": [
    0,
@@ -74,8 +74,13 @@
     "gc": 11
    },
    "sellado": "2026-10-23 16:18 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.sdpnoticias.com/deportes/san-luis-se-impone-al-atlante-y-mantiene-sus-posibilidades-de-clasificar-a-la-liguilla/"
   }
  ],
  "todos": [
@@ -133,8 +138,13 @@
     "gc": 11
    },
    "sellado": "2026-10-23 16:18 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.sdpnoticias.com/deportes/san-luis-se-impone-al-atlante-y-mantiene-sus-posibilidades-de-clasificar-a-la-liguilla/"
   },
   {
    "puesto": 3,

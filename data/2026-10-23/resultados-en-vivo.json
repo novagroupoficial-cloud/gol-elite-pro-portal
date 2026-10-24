@@ -58,5 +58,20 @@
   "marcador_exacto": true,
   "fuente": "https://www.foxsports.com.mx/2026/10/23/resumen-video-goles-empate-necaxa-fc-juarez-eliminado-liguilla-liga-mx-hoy/",
   "registrado": "22:11 ECU"
+ },
+ {
+  "local": "Atlante",
+  "visita": "A. San Luis",
+  "hora": "22:00",
+  "resultado": "0-1",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 80.6,
+  "over25_dado": 57.1,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.sdpnoticias.com/deportes/san-luis-se-impone-al-atlante-y-mantiene-sus-posibilidades-de-clasificar-a-la-liguilla/",
+  "registrado": "00:14 ECU (24-oct)"
  }
 ]

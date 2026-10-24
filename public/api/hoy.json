@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-24",
- "actualizado": "2026-10-24 10:15 ECU (UTC-5)",
+ "actualizado": "2026-10-24 11:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-24/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 2,
+  "terminados": 9,
   "total": 57,
   "over15_70": [
-   2,
-   2
+   6,
+   8
   ],
   "over25_senal": [
-   0,
-   0
+   2,
+   4
   ],
   "marcadores_exactos": 0
  },
@@ -43,8 +43,13 @@
     "gc": 7
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-3",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.colombia.com/futbol/alemania/bundesliga/resultados"
   },
   {
    "puesto": 8,
@@ -121,8 +126,13 @@
     "gc": 4
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-0",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.colombia.com/futbol/alemania/bundesliga/resultados"
   },
   {
    "puesto": 11,
@@ -199,8 +209,13 @@
     "gc": 6
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.colombia.com/futbol/alemania/bundesliga/resultados"
   },
   {
    "puesto": 14,
@@ -303,8 +318,13 @@
     "gc": 9
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.colombia.com/futbol/alemania/bundesliga/resultados"
   },
   {
    "puesto": 18,
@@ -570,8 +590,13 @@
     "gc": 11
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.colombia.com/futbol/alemania/bundesliga/resultados"
   },
   {
    "puesto": 2,
@@ -726,8 +751,13 @@
     "gc": 7
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-3",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.colombia.com/futbol/alemania/bundesliga/resultados"
   },
   {
    "puesto": 8,
@@ -804,8 +834,13 @@
     "gc": 4
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-0",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.colombia.com/futbol/alemania/bundesliga/resultados"
   },
   {
    "puesto": 11,
@@ -882,8 +917,13 @@
     "gc": 6
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.colombia.com/futbol/alemania/bundesliga/resultados"
   },
   {
    "puesto": 14,
@@ -986,8 +1026,13 @@
     "gc": 9
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.colombia.com/futbol/alemania/bundesliga/resultados"
   },
   {
    "puesto": 18,
@@ -1251,8 +1296,13 @@
     "gc": 10
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/como-vs-sassuolo-serie-a-2026-10-24"
   },
   {
    "puesto": 28,
@@ -1854,7 +1904,7 @@
     "gc": 0
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1984,8 +2034,13 @@
     "gc": 3
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/cagliari-vs-bologna-serie-a-2026-10-24"
   },
   {
    "puesto": 56,

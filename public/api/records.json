@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 11:16 ECU",
+ "actualizado": "2026-10-24 12:10 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 164,
+ "partidos": 168,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -19,31 +19,31 @@
    "partidos": 3
   },
   "GOLES PLATINO": {
-   "aciertos": 13,
-   "partidos": 14
+   "aciertos": 14,
+   "partidos": 15
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 39,
-   "partidos": 59
+   "aciertos": 40,
+   "partidos": 60
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 72,
-   "partidos": 88
+   "aciertos": 73,
+   "partidos": 90
   }
  },
  "over90": {
-  "aciertos": 16,
-  "partidos": 17,
-  "racha_actual": 13,
-  "racha_max": 13
+  "aciertos": 17,
+  "partidos": 18,
+  "racha_actual": 14,
+  "racha_max": 14
  },
  "over80": {
-  "aciertos": 55,
-  "partidos": 76
+  "aciertos": 57,
+  "partidos": 78
  },
  "over25_senal": {
   "aciertos": 21,
-  "partidos": 31
+  "partidos": 32
  },
  "partido_del_dia": {
   "aciertos": 6,
@@ -129,21 +129,21 @@
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 14,
-   "aciertos": 13,
-   "prometido": 91.8
+   "partidos": 15,
+   "aciertos": 14,
+   "prometido": 91.9
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 59,
-   "aciertos": 39,
+   "partidos": 60,
+   "aciertos": 40,
    "prometido": 83.4
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 54,
-   "aciertos": 43,
-   "prometido": 74.6
+   "partidos": 56,
+   "aciertos": 44,
+   "prometido": 74.5
   },
   {
    "franja": "menos de 70 %",
@@ -160,6 +160,15 @@
     "local": "Augsburg",
     "visita": "Union Berlin",
     "over15": 93.2,
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "09:30",
+    "local": "FC Utrecht",
+    "visita": "PEC Zwolle",
+    "over15": 93.0,
     "resultado": "1-1",
     "goles": 2,
     "acierto": true
@@ -190,6 +199,15 @@
     "resultado": "0-0",
     "goles": 0,
     "acierto": false
+   },
+   {
+    "hora": "09:15",
+    "local": "Racing Santander",
+    "visita": "Espanyol",
+    "over15": 83.8,
+    "resultado": "2-1",
+    "goles": 3,
+    "acierto": true
    },
    {
     "hora": "08:30",
@@ -226,6 +244,24 @@
     "resultado": "0-3",
     "goles": 3,
     "acierto": true
+   },
+   {
+    "hora": "09:00",
+    "local": "Arsenal",
+    "visita": "Everton",
+    "over15": 72.8,
+    "resultado": "2-0",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "09:00",
+    "local": "Coventry City",
+    "visita": "Fulham",
+    "over15": 70.9,
+    "resultado": "0-1",
+    "goles": 1,
+    "acierto": false
    },
    {
     "hora": "08:00",

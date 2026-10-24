@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-24",
- "ultima_ejecucion": "2026-10-24 11:10 ECU",
- "ultima_ok": "2026-10-24 11:10 ECU",
+ "ultima_ejecucion": "2026-10-24 12:10 ECU",
+ "ultima_ok": "2026-10-24 12:10 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-24 05:25 ECU",
  "pendientes": [
@@ -11,7 +11,7 @@
   "LLEGAN (Cómo llegan) del 23-oct vacío.",
   "SportyTrader no accesible (WebFetch pide permiso): calendario del 23 tomado de RPP, TUDN, Minuto Uno y Valor Final.",
   "Kit de redes del 16-oct no generado; auditoría oficial de 2026-10-12 sigue sin hacerse.",
-  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso (00:11, 01:10, 02:10, 03:10, 04:10 y 05:10, 06:10, 07:10, 08:10, 09:10, 10:10 y 11:10 del 24); no se cuenta como fallo de deploy porque no hubo lectura. Aviso 'bloqueo' ya enviado a las 03:10 (una vez por día).",
+  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso (00:11, 01:10, 02:10, 03:10, 04:10 y 05:10, 06:10, 07:10, 08:10, 09:10, 10:10, 11:10 y 12:10 del 24); no se cuenta como fallo de deploy porque no hubo lectura. Aviso 'bloqueo' ya enviado a las 03:10 (una vez por día).",
   "Auditoría oficial y Galería del 2026-10-21 siguen pendientes: falta el resultado verificado de Santa Fe–Jaguares (mié 21); el resto ya tiene fuente (MEX en jointly.mx, Levante 3-1 Athletic en Football Web Pages, Cincinnati 2-1 DC United y Llaneros 0-3 Cali en Fútbol Total).",
   "datos.py: sumar Santa Fe–Jaguares (COL, mié 21), IDV–Católica (ECU, vie 23) y los partidos de COL/PER sin cargar antes de pronosticar esas ligas; PER aún sin la fecha 12 completa.",
   "Liga Portugal sin tablas casa/fuera en datos.py."
@@ -19,11 +19,11 @@
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "11:10 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
+  "ultima_revision": "12:10 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
  },
  "avisos_enviados": [
   "bloqueo",
   "partido_del_dia"
  ],
- "nota": "06:08: rutina diaria del 24 hecha (05:25–06:08 ECU): 55 pronósticos sellados a las 05:59, auditoría y Galería del 23, kit de redes (partido del día Augsburg–Union Berlin). 06:10: ranking del día regenerado (55 partidos, ninguno terminado; primero a las 06:30). 07:10: ranking regenerado (55 partidos, ninguno terminado; Aston Villa–Man City en juego desde 06:30). 08:10: ranking regenerado (55 partidos, ninguno terminado; Aston Villa–Man City y Rayo–Elche en juego; primeros resultados desde las 08:45). 09:10: Aston Villa 2-1 Manchester City registrado (Over 1.5 ✔, Over 2.5 ✔; fuente Fútbol Total; theScore y SportyTrader aún sin resultado; Fútbol Total atribuye a N. Jackson los goles de Villa, revisar en la auditoría oficial). Ranking regenerado (1/55 terminados). 10:10: Rayo Vallecano 0-3 Elche registrado (Over 1.5 ✔, Over 2.5 ✔; fuente Fútbol Total). Ranking regenerado (2/57 terminados). Como–Sassuolo y Cagliari–Bologna (08:00) en juego. 11:10: registrados Como 2-0 Sassuolo y Cagliari 0-2 Bologna (Fútbol Total); Bundesliga (colombia.com, confirmado en futbolperuano.com): Augsburg 1-1 Union Berlin (partido del día: Over 1.5 ✔ por la mínima, Over 2.5 ✘), Mainz 2-3 Werder, Leipzig 4-0 Elversberg, Paderborn 1-0 HSV (✘), Köln 0-0 Schalke (✘). Ranking regenerado (9/57 terminados; Over 1.5 ≥70 %: 6/8). Aviso partido_del_dia enviado."
+ "nota": "06:08: rutina diaria del 24 hecha (05:25–06:08 ECU): 55 pronósticos sellados a las 05:59, auditoría y Galería del 23, kit de redes (partido del día Augsburg–Union Berlin). 06:10: ranking del día regenerado (55 partidos, ninguno terminado; primero a las 06:30). 07:10: ranking regenerado (55 partidos, ninguno terminado; Aston Villa–Man City en juego desde 06:30). 08:10: ranking regenerado (55 partidos, ninguno terminado; Aston Villa–Man City y Rayo–Elche en juego; primeros resultados desde las 08:45). 09:10: Aston Villa 2-1 Manchester City registrado (Over 1.5 ✔, Over 2.5 ✔; fuente Fútbol Total; theScore y SportyTrader aún sin resultado; Fútbol Total atribuye a N. Jackson los goles de Villa, revisar en la auditoría oficial). Ranking regenerado (1/55 terminados). 10:10: Rayo Vallecano 0-3 Elche registrado (Over 1.5 ✔, Over 2.5 ✔; fuente Fútbol Total). Ranking regenerado (2/57 terminados). Como–Sassuolo y Cagliari–Bologna (08:00) en juego. 11:10: registrados Como 2-0 Sassuolo y Cagliari 0-2 Bologna (Fútbol Total); Bundesliga (colombia.com, confirmado en futbolperuano.com): Augsburg 1-1 Union Berlin (partido del día: Over 1.5 ✔ por la mínima, Over 2.5 ✘), Mainz 2-3 Werder, Leipzig 4-0 Elversberg, Paderborn 1-0 HSV (✘), Köln 0-0 Schalke (✘). Ranking regenerado (9/57 terminados; Over 1.5 ≥70 %: 6/8). Aviso partido_del_dia enviado. 12:10: registrados Arsenal 2-0 Everton (Fútbol Total + Sporza; ambos atribuyen un gol a 'Ezri Konsa', revisar en la auditoría), Coventry 0-1 Fulham (✘), Racing 2-1 Espanyol (✔ O1.5 y O2.5) y Utrecht 1-1 PEC Zwolle (✔ O1.5, ✘ O2.5 'fuerte'). Ranking regenerado (13/57 terminados; Over 1.5 ≥70 %: 9/12)."
 }

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 16:11 ECU",
+ "actualizado": "2026-10-24 17:14 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 174,
+ "partidos": 181,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -23,12 +23,12 @@
    "partidos": 16
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 42,
-   "partidos": 62
+   "aciertos": 44,
+   "partidos": 65
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 76,
-   "partidos": 93
+   "aciertos": 80,
+   "partidos": 97
   }
  },
  "over90": {
@@ -38,12 +38,12 @@
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 59,
-  "partidos": 81
+  "aciertos": 61,
+  "partidos": 84
  },
  "over25_senal": {
-  "aciertos": 21,
-  "partidos": 34
+  "aciertos": 22,
+  "partidos": 36
  },
  "partido_del_dia": {
   "aciertos": 6,
@@ -135,21 +135,21 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 62,
-   "aciertos": 42,
-   "prometido": 83.4
+   "partidos": 65,
+   "aciertos": 44,
+   "prometido": 83.5
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 57,
-   "aciertos": 45,
+   "partidos": 59,
+   "aciertos": 47,
    "prometido": 74.5
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 36,
-   "aciertos": 31,
-   "prometido": 61.2
+   "partidos": 38,
+   "aciertos": 33,
+   "prometido": 61.5
   }
  ],
  "ultima_jornada": {
@@ -192,6 +192,15 @@
     "acierto": true
    },
    {
+    "hora": "14:00",
+    "local": "ADO Den Haag",
+    "visita": "Heerenveen",
+    "over15": 88.5,
+    "resultado": "2-3",
+    "goles": 5,
+    "acierto": true
+   },
+   {
     "hora": "08:30",
     "local": "RB Leipzig",
     "visita": "Elversberg",
@@ -219,6 +228,15 @@
     "acierto": true
    },
    {
+    "hora": "14:00",
+    "local": "Atletico Madrid",
+    "visita": "Deportivo La Coruna",
+    "over15": 85.3,
+    "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
+   },
+   {
     "hora": "09:15",
     "local": "Racing Santander",
     "visita": "Espanyol",
@@ -235,6 +253,15 @@
     "resultado": "1-0",
     "goles": 1,
     "acierto": false
+   },
+   {
+    "hora": "11:45",
+    "local": "Willem II",
+    "visita": "Cambuur",
+    "over15": 81.0,
+    "resultado": "1-6",
+    "goles": 7,
+    "acierto": true
    },
    {
     "hora": "06:30",
@@ -273,6 +300,15 @@
     "acierto": true
    },
    {
+    "hora": "13:45",
+    "local": "Lens",
+    "visita": "Paris FC",
+    "over15": 78.1,
+    "resultado": "2-1",
+    "goles": 3,
+    "acierto": true
+   },
+   {
     "hora": "11:30",
     "local": "Valencia",
     "visita": "Villarreal",
@@ -300,11 +336,38 @@
     "acierto": false
    },
    {
+    "hora": "12:45",
+    "local": "Banfield",
+    "visita": "Lanus",
+    "over15": 70.7,
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "14:30",
+    "local": "Mirassol",
+    "visita": "São Paulo",
+    "over15": 68.7,
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
+   },
+   {
     "hora": "11:00",
     "local": "Napoli",
     "visita": "Roma",
     "over15": 66.9,
     "resultado": "3-3",
+    "goles": 6,
+    "acierto": true
+   },
+   {
+    "hora": "14:30",
+    "local": "Columbus Crew",
+    "visita": "Toronto",
+    "over15": 66.6,
+    "resultado": "4-2",
     "goles": 6,
     "acierto": true
    },

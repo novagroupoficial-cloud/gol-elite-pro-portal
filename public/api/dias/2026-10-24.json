@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-24",
- "actualizado": "2026-10-24 16:11 ECU (UTC-5)",
+ "actualizado": "2026-10-24 17:14 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-24/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 19,
+  "terminados": 26,
   "total": 57,
   "over15_70": [
-   12,
-   16
+   16,
+   21
   ],
   "over25_senal": [
-   2,
-   7
+   3,
+   8
   ],
-  "marcadores_exactos": 0
+  "marcadores_exactos": 1
  },
  "rango_80_90": [
   {
@@ -74,8 +74,13 @@
     "gc": 6
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-3",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338922/"
   },
   {
    "puesto": 9,
@@ -271,8 +276,13 @@
     "gc": 7
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/atletico-madrid-vs-deportivo-la-coruna-laliga-1570425"
   },
   {
    "puesto": 16,
@@ -463,8 +473,13 @@
     "gc": 6
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-6",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338861/"
   },
   {
    "puesto": 23,
@@ -698,7 +713,7 @@
     "gc": 25
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -807,8 +822,13 @@
     "gc": 6
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-3",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338922/"
   },
   {
    "puesto": 9,
@@ -1004,8 +1024,13 @@
     "gc": 7
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/atletico-madrid-vs-deportivo-la-coruna-laliga-1570425"
   },
   {
    "puesto": 16,
@@ -1196,8 +1221,13 @@
     "gc": 6
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-6",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338861/"
   },
   {
    "puesto": 23,
@@ -1424,8 +1454,13 @@
     "gc": 3
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/lens-vs-paris-fc-ligue-1-2026-10-24"
   },
   {
    "puesto": 31,
@@ -1720,7 +1755,7 @@
     "gc": 22
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1803,8 +1838,13 @@
     "gc": 3
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.cadena3.com/noticia/deportes/banfield-y-lanus-igualaron-en-un-intenso-clasico-del-sur-por-el-torneo-clausura_606780"
   },
   {
    "puesto": 45,
@@ -1881,8 +1921,13 @@
     "gc": 22
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.lance.com.br/futebol-nacional/mirassol-x-sao-paulo-como-foi-o-jogo-pelo-brasileirao-2026.html"
   },
   {
    "puesto": 48,
@@ -1990,8 +2035,13 @@
     "gc": 23
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-2",
+   "goles": 6,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/columbus-crew-vs-toronto-fc-mls-2026-10-24"
   },
   {
    "puesto": 52,
@@ -2016,7 +2066,7 @@
     "gc": 19
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2073,7 +2123,7 @@
     "gc": 20
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

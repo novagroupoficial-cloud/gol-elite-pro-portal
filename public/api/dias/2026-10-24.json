@@ -1,6 +1,6 @@
 {
  "fecha": "2026-10-24",
- "actualizado": "2026-10-24 07:10 ECU (UTC-5)",
+ "actualizado": "2026-10-24 08:10 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-24/pronosticos.json",
@@ -1189,7 +1189,7 @@
     "gc": 10
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1891,7 +1891,7 @@
     "gc": 3
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

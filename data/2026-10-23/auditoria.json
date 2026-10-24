@@ -1,0 +1,191 @@
+{
+ "fecha": "2026-10-23",
+ "auditado": "2026-10-24 05:59 ECU",
+ "partidos": 5,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "Rango 80": [
+   1,
+   2
+  ],
+  "Rango 70": [
+   0,
+   1
+  ],
+  "Total >=70": [
+   1,
+   3
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   0
+  ],
+  "Marcadores exactos": [
+   1,
+   5
+  ],
+  "Menos de 70 (informativo)": [
+   1,
+   2
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   1,
+   3
+  ],
+  "GOLES OPTIMISTAS": [
+   1,
+   2
+  ]
+ },
+ "intervalo_wilson_95": {
+  "Rango 80": [
+   9.5,
+   90.5
+  ],
+  "Rango 70": [
+   0.0,
+   79.3
+  ],
+  "Total >=70": [
+   6.1,
+   79.2
+  ],
+  "Menos de 70 (informativo)": [
+   9.5,
+   90.5
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Necaxa vs Juarez",
+  "over15": 83.3,
+  "sellado": "16:18 ECU",
+  "resultado": "1-1",
+  "goles": 2,
+  "acierto": true
+ },
+ "fallos_over15_70": [
+  "Cruzeiro 1-0 Remo (79,6 %, Rango 70; hubo 1 gol)",
+  "Atlante 0-1 Atlético San Luis (80,6 %, Rango 80; hubo 1 gol)"
+ ],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [
+  "Gimnasia Mendoza 1-2 Platense (66,1 %, menos de 70: no recomendado; hubo 3 goles)",
+  "Tigre 0-1 Atlético Tucumán (40,8 %, menos de 70: no recomendado; hubo 1 gol)"
+ ],
+ "nota": "Escala clásica (GOL ÉLITE ≥90 · Rango 80 · Rango 70 · Menos de 70) y, aparte, la escala del 17-oct (GOL ÉLITE ≥95 · GOLES PLATINO · GOLES ESTÁNDAR · GOLES OPTIMISTAS, con el entero redondeado). Resultados finales del refresco horario (data/2026-10-23/resultados-en-vivo.json, 5/5 terminados, cada uno con su fuente: Diario Uno, Diario Celeste, El Litoral, Fox Sports MX y SDP Noticias). El Dashboard Gol 4.0 no expone /api/dia: auditoría manual. Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. Ningún partido aplazado. Ningún Over 2.5 con señal (≥65 %). El partido del día (Necaxa–Juárez, 83,3 %) acertó con 1-1, que además fue el marcador exacto sugerido. Intervalos de Wilson 95 %.",
+ "resultados": [
+  {
+   "hora": "16:30",
+   "liga": "ARG",
+   "local": "Gimnasia Mendoza",
+   "visita": "Platense",
+   "resultado": "1-2",
+   "estado": "terminado",
+   "over15": 66.1,
+   "over25": 38.4,
+   "marcador": "1-0",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.diariouno.com.ar/ovacion/futbol/gimnasia-y-esgrima-no-pudo-aguantarlo-y-platense-se-lo-dio-vuelta-el-final-n1609628"
+  },
+  {
+   "hora": "18:00",
+   "liga": "BRA",
+   "local": "Cruzeiro",
+   "visita": "Remo",
+   "resultado": "1-0",
+   "estado": "terminado",
+   "over15": 79.6,
+   "over25": 55.8,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.diarioceleste.com.br/noticias-do-cruzeiro/cruzeiro-vence-o-remo-em-casa-e-assume-o-terceiro-lugar-do-brasileirao/"
+  },
+  {
+   "hora": "19:15",
+   "liga": "ARG",
+   "local": "Tigre",
+   "visita": "Atletico Tucuman",
+   "resultado": "0-1",
+   "estado": "terminado",
+   "over15": 40.8,
+   "over25": 16.0,
+   "marcador": "0-0",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.ellitoral.com/deportes/tigre-atleticotucuman-futbol-afa-ligaprofesional_0_2fUwQBvy0w.html"
+  },
+  {
+   "hora": "20:00",
+   "liga": "MEX",
+   "local": "Necaxa",
+   "visita": "Juarez",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 83.3,
+   "over25": 61.4,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.foxsports.com.mx/2026/10/23/resumen-video-goles-empate-necaxa-fc-juarez-eliminado-liguilla-liga-mx-hoy/"
+  },
+  {
+   "hora": "22:00",
+   "liga": "MEX",
+   "local": "Atlante",
+   "visita": "A. San Luis",
+   "resultado": "0-1",
+   "estado": "terminado",
+   "over15": 80.6,
+   "over25": 57.1,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-10-23 16:18 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.sdpnoticias.com/deportes/san-luis-se-impone-al-atlante-y-mantiene-sus-posibilidades-de-clasificar-a-la-liguilla/"
+  }
+ ],
+ "fallos_over15_todos": [
+  "Cruzeiro 1-0 Remo (79,6 %; hubo 1 gol)",
+  "Tigre 0-1 Atlético Tucumán (40,8 %; hubo 1 gol)",
+  "Atlante 0-1 Atlético San Luis (80,6 %; hubo 1 gol)"
+ ]
+}

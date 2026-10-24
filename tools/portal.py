@@ -1,6 +1,7 @@
 import json, html, base64, os, sys, re
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 P=[p for p in json.load(open('pron.json')) if not p.get('sin')]
+FECHA_PRON=(P[0].get('sellado','')[:10] if P else '')
 NOM={'ENG':'Premier League','ITA':'Serie A','FRA':'Ligue 1','ESP':'LaLiga','BRA':'Brasileirão','MEX':'Liga MX','ECU':'LigaPro','ARG':'Liga Profesional','GER':'Bundesliga','NED':'Eredivisie','POR':'Liga Portugal','USA':'MLS','COL':'Liga BetPlay','PER':'Liga 1','CHI':'Primera División'}
 PAIS={'ENG':'Inglaterra','ITA':'Italia','FRA':'Francia','ESP':'España','BRA':'Brasil','MEX':'México','ECU':'Ecuador','ARG':'Argentina','GER':'Alemania','NED':'Países Bajos','POR':'Portugal','USA':'EE. UU.','COL':'Colombia','PER':'Perú','CHI':'Chile'}
 ES={'Borussia Monchengladbach':"M'gladbach",'AFC Bournemouth':'Bournemouth','Brighton & Hove Albion':'Brighton','SC Freiburg':'Friburgo','Malaga':'Málaga','Alaves':'Alavés','Marseille':'Marsella','Monaco':'Mónaco','Estudiantes Rio Cuarto':'Est. Río Cuarto','Estudiantes LP':'Estudiantes','Comerciantes Unidos':'Comerciantes U.','Universidad Católica':'U. Católica','Columbus Crew':'Columbus Crew','Cincinnati':'FC Cincinnati','Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasbourg':'Estrasburgo','Deportivo':'Deportivo La Coruña','AC Milan':'Milan','Real Betis':'Betis','Marseille':'Marsella','Racing':'Racing Santander','Atletico MG':'Atlético MG','A. San Luis':'Atlético San Luis','Pumas UNAM':'Pumas','Coventry':'Coventry City','Newcastle':'Newcastle United','Lanus':'Lanús','Velez Sarsfield':'Vélez Sarsfield','Gimnasia Mendoza':'Gimnasia (Mendoza)','Newells Old Boys':"Newell's Old Boys",'Bragantino':'Red Bull Bragantino','Athletico-PR':'Athletico Paranaense','Bayern Munich':'Bayern Múnich','Atletico Madrid':'Atlético de Madrid','Paris Saint-Germain':'PSG','Leon':'León','America':'América','Queretaro':'Querétaro','Juarez':'FC Juárez','Atletico Tucuman':'Atlético Tucumán','Philadelphia':'Philadelphia Union','New England':'New England Revolution','Seattle':'Seattle Sounders','Portland':'Portland Timbers','Austin':'Austin FC','Dallas':'FC Dallas','Toronto':'Toronto FC','New York RB':'New York Red Bulls','SJ Earthquakes':'San José Earthquakes','San Diego':'San Diego FC','Charlotte':'Charlotte FC','Colorado Rapids':'Colorado Rapids','Houston Dynamo':'Houston Dynamo','Minnesota United':'Minnesota United','Real Betis':'Real Betis','Guadalajara':'Chivas','Tigres UANL':'Tigres','Tottenham Hotspur':'Tottenham','Central Cordoba SdE':'Central Córdoba','Union Santa Fe':'Unión','Alianza (ex Alianza Petrolera)':'Alianza FC','Pasto':'Deportivo Pasto','Newells Old Boys':"Newell's",'Deportivo Riestra':'Riestra','Internacional de Bogotá (ex La Equidad)':'Inter Bogotá','Boyacá Chicó':'Boyacá Chicó'}
@@ -21,10 +22,13 @@ FUENTES=[
  ("SoccerSTATS · local y visitante Liga MX (más resultados partido a partido)","https://www.soccerstats.com/homeaway.asp?league=mexico"),
  ("SoccerSTATS · local y visitante MLS (más resultados partido a partido)","https://www.soccerstats.com/homeaway.asp?league=usa"),
  ("SoccerSTATS · local y visitante Liga BetPlay (más resultados partido a partido)","https://www.soccerstats.com/homeaway.asp?league=colombia2"),
- ("Fútbol Total · fichas, forma e historial de los partidos de hoy","https://futboltotal.futbol/partido/necaxa-vs-fc-juarez-liga-mx-2026-10-24"),
- ("RPP · agenda de partidos del viernes 23 de octubre","https://rpp.pe/futbol/futbol-mundial/partidos-de-hoy-peru-viernes-23-de-octubre-del-2026-horarios-y-canales-tv-ver-futbol-en-vivo-noticia-1713977"),
- ("TUDN · partidos de hoy 23 de octubre (Liga MX)","https://www.tudn.com/futbol/liga-mx/partidos-de-hoy-23-de-octubre-liga-mx-serie-mundial-y-mexicanos-en-el-extranjero"),
+ ("Fútbol Total · agenda del sábado 24 de octubre (hora de Ecuador) y fichas de los partidos","https://futboltotal.futbol/2026-10-24"),
+ ("Football Web Pages · LaLiga, Bundesliga y Eredivisie 2026-27 (resultados y calendario)","https://www.footballwebpages.co.uk/german-bundesliga/fixtures-results/october"),
+ ("VAVEL · resultados y calendario de la MLS 2026 y de la Ligue 1 2026-27","https://www.vavel.com/en-us/data/mls/results/"),
+ ("Ligue 1 · programación de la jornada 8","https://ligue1.com/en/articles/l1_article_5797-programmations-tv-j6-j7-et-j8-l1-2627"),
  ("Valor Final · 32.ª fecha del Brasileirão","https://valorfinal.com.br/brasileirao/2026/rodada-32"),
+ ("El Informador · jornada 14 de la Liga MX","https://www.informador.mx/deportes/liga-mx-calendario-de-partidos-de-la-jornada-14-del-apertura-2026-horarios-y-donde-verlos-en-vivo-20261022-0066.html"),
+ ("Primicias · fecha 4 de la fase final de la LigaPro","https://www.primicias.ec/deportes/donde-ver-fecha/teleamazonas-fechas-partidos-horarios-fecha4-hexagonal-cuadrangular-ver-tv-135546/"),
 ]
 idx={key(p):p for p in P}
 
@@ -79,7 +83,10 @@ def card(k,big=False):
 <h3><a href="{url}" target="_blank" rel="noopener">{e(tit)}</a></h3>{dato(k)}
 <div class="src">{e(medio)} · <a href="{url}" target="_blank" rel="noopener">Leer la noticia ↗</a></div>
 <div class="odds"><div class="odd"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div></div></article>'''
-top=max(P,key=lambda p:p['over15'])
+import datetime as _dt
+_ahora=(_dt.datetime.now(_dt.timezone.utc).replace(tzinfo=None)-_dt.timedelta(hours=5)).strftime('%H:%M') if (_dt.datetime.now(_dt.timezone.utc).replace(tzinfo=None)-_dt.timedelta(hours=5)).date().isoformat()==FECHA_PRON else '00:00'
+_pend=[p for p in P if p['hora']>_ahora]
+top=max(_pend or P,key=lambda p:p['over15'])
 sec1=''.join(card(k) for k in PRED if k!=key(top))
 sec2=''.join(card(k) for k in DEST)
 def goles(r):
@@ -148,14 +155,14 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if entero(p['over15'])>=80 else ''}"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=['Ya habían empezado cuando se selló hoy (16:18 ECU, rutina recuperada): Liga 1 de Perú (UTC–Melgar y Atlético Grau–ADT), Stuttgart–M’gladbach, Torino–Monza, Brest–Niza, Alavés–Málaga, Ipswich–Nottingham Forest y Gimnasia LP–Sarmiento. No pronosticamos partidos ya empezados.']  # sin pronóstico hoy
+SIN=['Liga Portugal (Estrela–Casa Pia, Alverca–Arouca y Gil Vicente–FC Porto): todavía no tenemos tablas de local y visitante verificadas de la temporada 2026-27.','Primera Nacional de Argentina (Almagro–Tristán Suárez, Quilmes–San Martín de Tucumán, Ferro–Chaco For Ever y Deportivo Madryn–San Telmo): sin tablas de local y visitante verificadas.']  # sin pronóstico hoy
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 # Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
 RANK=open('ranking.html',encoding='utf-8').read() if os.path.exists('ranking.html') else ''
 if RANK and RANK.split('\n',1)[0]!='<!--partidos:'+';'.join(sorted(key(p) for p in P))+'-->': RANK=''
 FOTO=base64.b64encode(open('../assets/presentadora.jpg','rb').read()).decode()
-top=max(P,key=lambda p:p['over15'])
+top=max(_pend or P,key=lambda p:p['over15'])
 out=f'''<title>Gol Élite Pro · Portada</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -268,41 +275,41 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del viernes 23 de octubre; se integrará al portal cuando llegue el código.</div>
+<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del sábado 24 de octubre; se integrará al portal cuando llegue el código.</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Viernes 23 de octubre de 2026 · sellado 16:18 ECU</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Sábado 24 de octubre de 2026 · sellado 05:59 ECU · el de mayor Over 1.5 que aún no empieza</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{pc(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{pc(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.0, calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK[key(top)][1])} · <a href="{LINK[key(top)][2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
 {RANK}
-<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>Última jornada auditada: martes 20 de octubre · 5 de 8 partidos con 2 goles o más (Over 1.5) · el partido del día falló: Chivas 1-0 Necaxa, hubo 1 gol, y lo publicamos igual · toca para ver el resultado en su medio</p></div>
+<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>Última jornada auditada: viernes 23 de octubre · 2 de 5 partidos con 2 goles o más (Over 1.5) · el partido del día acertó: Necaxa 1-1 FC Juárez, hubo 2 goles y fue el marcador exacto · también publicamos los fallos · toca para ver el resultado en su medio</p></div>
 {estrella}{recs}{ayer}{calib}<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1 or '<p class="legal">Hoy ningún partido llega a 80 % en Over 1.5. El más alto está arriba, como partido del día; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>'}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del viernes</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del sábado</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Viernes 23 de octubre de 2026 · pronósticos sellados a las 16:18 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Sábado 24 de octubre de 2026 · pronósticos sellados a las 05:59 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
-<section class="box" id="historial"><h3>Auditoría del martes 20</h3>
-<div class="kpis"><div class="kpi"><b>0/1</b><span>Partido del día · Over 1.5</span></div><div class="kpi"><b>3/6</b><span>Over 1.5 de 70 % o más (50 %)</span></div><div class="kpi g"><b>5/8</b><span>Over 1.5 en todos los partidos</span></div><div class="kpi"><b>0/8</b><span>Marcadores exactos</span></div></div>
-<p class="legal">8 partidos auditados con resultado final y fuente. Partido del día: Chivas 1-0 Necaxa (dimos Over 1.5 al 84 %; hubo 1 gol) ✘. Fallos: Chivas 1-0 Necaxa (84 %), Cúcuta 1-0 Atlético Nacional (83 %) y FC Juárez 0-1 Atlante (73 %), los tres con 1 gol. Aciertos: Inter Bogotá 2-1 Fortaleza, Atlético San Luis 2-1 Querétaro, Tigres 0-2 León, Millonarios 1-1 Once Caldas y Deportivo Pereira 2-0 Boyacá Chicó. Ningún Over 2.5 con señal. Acumulado de la galería: 17/17 GOL ÉLITE y 102/134 en Over 1.5 de 70 % o más (76 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
+<section class="box" id="historial"><h3>Auditoría del viernes 23</h3>
+<div class="kpis"><div class="kpi g"><b>1/1</b><span>Partido del día · Over 1.5</span></div><div class="kpi"><b>1/3</b><span>Over 1.5 de 70 % o más (33 %)</span></div><div class="kpi"><b>2/5</b><span>Over 1.5 en todos los partidos</span></div><div class="kpi"><b>1/5</b><span>Marcadores exactos</span></div></div>
+<p class="legal">5 partidos auditados con resultado final y fuente. Partido del día: Necaxa 1-1 FC Juárez (dimos Over 1.5 al 83 %; hubo 2 goles, marcador exacto) ✔. Fallos: Atlante 0-1 Atlético San Luis (81 %) y Cruzeiro 1-0 Remo (80 %), los dos con 1 gol; tampoco llegó a 2 goles Tigre 0-1 Atlético Tucumán (41 %). Acierto con menos de 70 %: Gimnasia Mendoza 1-2 Platense (66 %, 3 goles). Ningún Over 2.5 con señal. Acumulado de la galería: 17/17 GOL ÉLITE y 103/137 en Over 1.5 de 70 % o más (75 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul><p class="legal">Porcentajes redondeados: ,5 o más sube (94,8 → 95 %); menos de ,5 se queda (94,4 → 94 %).</p></section>
 <section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos revisados tienen datos verificados de local y visitante.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
-<p>Las noticias enlazan a sus medios de origen. Las imágenes de los partidos son ilustraciones propias de Gol Élite Pro.</p><p>Estadísticas de local y visitante: SoccerSTATS y Fútbol Total (resultados recientes sumados partido a partido), verificadas con sumas cruzadas: goles a favor en casa = goles en contra fuera.</p></section>
+<p>Las noticias enlazan a sus medios de origen. Las imágenes de los partidos son ilustraciones propias de Gol Élite Pro.</p><p>Estadísticas de local y visitante: SoccerSTATS, Sports Mole, Football Web Pages, VAVEL y Fútbol Total (resultados recientes sumados partido a partido), verificadas con sumas cruzadas: goles a favor en casa = goles en contra fuera.</p></section>
 </aside></div>
 <a class="fab" href="/" aria-label="Volver al inicio" title="Inicio"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z" fill="currentColor"/></svg></a>
 <script>
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-10-23"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-10-24"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

@@ -1,0 +1,1951 @@
+{
+ "fecha": "2026-10-24",
+ "actualizado": "2026-10-24 06:02 ECU (UTC-5)",
+ "zona_horaria": "America/Guayaquil (UTC-5)",
+ "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
+ "fuente_sellada": "data/2026-10-24/pronosticos.json",
+ "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
+ "orden": "de mayor a menor Over 1.5",
+ "resumen_del_dia": {
+  "terminados": 0,
+  "total": 55,
+  "over15_70": [
+   0,
+   0
+  ],
+  "over25_senal": [
+   0,
+   0
+  ],
+  "marcadores_exactos": 0
+ },
+ "rango_80_90": [
+  {
+   "puesto": 7,
+   "hora_ecuador": "08:30",
+   "liga": "Bundesliga",
+   "local": "Mainz 05",
+   "visitante": "Werder Bremen",
+   "over15": 88.7,
+   "over25": 70.7,
+   "marcador": "1-1",
+   "goles_esperados": 3.7,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 7
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 8,
+   "hora_ecuador": "14:00",
+   "liga": "Eredivisie",
+   "local": "ADO Den Haag",
+   "visitante": "Heerenveen",
+   "over15": 88.5,
+   "over25": 70.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.6,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 4,
+    "gf": 6,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 8,
+    "gc": 6
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 9,
+   "hora_ecuador": "19:30",
+   "liga": "MLS",
+   "local": "Sporting KC",
+   "visitante": "Austin",
+   "over15": 87.6,
+   "over25": 68.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 15,
+    "gf": 22,
+    "gc": 32
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 17,
+    "gc": 35
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 10,
+   "hora_ecuador": "08:30",
+   "liga": "Bundesliga",
+   "local": "RB Leipzig",
+   "visitante": "Elversberg",
+   "over15": 87.4,
+   "over25": 68.8,
+   "marcador": "2-0",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 14,
+    "gc": 0
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 4
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 11,
+   "hora_ecuador": "17:30",
+   "liga": "Brasileirão",
+   "local": "Chapecoense",
+   "visitante": "Fluminense",
+   "over15": 86.8,
+   "over25": 67.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 14,
+    "gf": 19,
+    "gc": 33
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 20,
+    "gc": 23
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 12,
+   "hora_ecuador": "18:30",
+   "liga": "MLS",
+   "local": "Atlanta United",
+   "visitante": "Chicago Fire",
+   "over15": 86.1,
+   "over25": 66.0,
+   "marcador": "1-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 15,
+    "gf": 21,
+    "gc": 29
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 24,
+    "gc": 25
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 13,
+   "hora_ecuador": "08:30",
+   "liga": "Bundesliga",
+   "local": "1. FC Koln",
+   "visitante": "Schalke 04",
+   "over15": 86.0,
+   "over25": 65.9,
+   "marcador": "1-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 6,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 6
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 14,
+   "hora_ecuador": "11:30",
+   "liga": "Premier League",
+   "local": "Chelsea",
+   "visitante": "Tottenham Hotspur",
+   "over15": 85.9,
+   "over25": 65.9,
+   "marcador": "2-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 11,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 1,
+    "gc": 4
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 15,
+   "hora_ecuador": "14:00",
+   "liga": "LaLiga",
+   "local": "Atletico Madrid",
+   "visitante": "Deportivo La Coruna",
+   "over15": 85.3,
+   "over25": 64.7,
+   "marcador": "1-1",
+   "goles_esperados": 3.3,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 10,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 7,
+    "gc": 7
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 16,
+   "hora_ecuador": "09:15",
+   "liga": "LaLiga",
+   "local": "Racing Santander",
+   "visitante": "Espanyol",
+   "over15": 83.8,
+   "over25": 62.1,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 9,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 5
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 17,
+   "hora_ecuador": "08:30",
+   "liga": "Bundesliga",
+   "local": "SC Paderborn",
+   "visitante": "Hamburger SV",
+   "over15": 83.3,
+   "over25": 61.5,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 3,
+    "gf": 3,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 3,
+    "gc": 9
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 18,
+   "hora_ecuador": "18:00",
+   "liga": "Liga MX",
+   "local": "Leon",
+   "visitante": "Toluca",
+   "over15": 83.3,
+   "over25": 61.3,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 6,
+    "gf": 12,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 10,
+    "gc": 7
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 19,
+   "hora_ecuador": "19:30",
+   "liga": "MLS",
+   "local": "Dallas",
+   "visitante": "SJ Earthquakes",
+   "over15": 82.1,
+   "over25": 59.5,
+   "marcador": "1-1",
+   "goles_esperados": 3.1,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 14,
+    "gf": 26,
+    "gc": 20
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 26,
+    "gc": 19
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 20,
+   "hora_ecuador": "19:30",
+   "liga": "MLS",
+   "local": "Real Salt Lake",
+   "visitante": "St. Louis City",
+   "over15": 81.1,
+   "over25": 57.9,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 15,
+    "gf": 28,
+    "gc": 21
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 22,
+    "gc": 22
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 21,
+   "hora_ecuador": "11:45",
+   "liga": "Eredivisie",
+   "local": "Willem II",
+   "visitante": "Cambuur",
+   "over15": 81.0,
+   "over25": 57.7,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 3,
+    "gc": 10
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 6
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 22,
+   "hora_ecuador": "06:30",
+   "liga": "Premier League",
+   "local": "Aston Villa",
+   "visitante": "Manchester City",
+   "over15": 80.9,
+   "over25": 57.8,
+   "marcador": "0-2",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 3,
+    "gf": 3,
+    "gc": 5
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 8,
+    "gc": 1
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 23,
+   "hora_ecuador": "19:30",
+   "liga": "MLS",
+   "local": "Houston Dynamo",
+   "visitante": "Minnesota United",
+   "over15": 80.7,
+   "over25": 57.2,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 15,
+    "gf": 19,
+    "gc": 14
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 28,
+    "gc": 35
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 24,
+   "hora_ecuador": "20:00",
+   "liga": "Brasileirão",
+   "local": "Santos",
+   "visitante": "Bahia",
+   "over15": 80.4,
+   "over25": 56.9,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 15,
+    "gf": 22,
+    "gc": 20
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 21,
+    "gc": 22
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 25,
+   "hora_ecuador": "13:45",
+   "liga": "Serie A",
+   "local": "Lazio",
+   "visitante": "Parma",
+   "over15": 80.1,
+   "over25": 56.5,
+   "marcador": "2-0",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 3,
+    "gf": 6,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 1,
+    "gc": 7
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "todos": [
+  {
+   "puesto": 1,
+   "hora_ecuador": "08:30",
+   "liga": "Bundesliga",
+   "local": "Augsburg",
+   "visitante": "Union Berlin",
+   "over15": 93.2,
+   "over25": 80.4,
+   "marcador": "3-0",
+   "goles_esperados": 4.3,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "fuerte",
+   "casa_local": {
+    "pj": 3,
+    "gf": 7,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 2,
+    "gf": 0,
+    "gc": 11
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 2,
+   "hora_ecuador": "09:30",
+   "liga": "Eredivisie",
+   "local": "FC Utrecht",
+   "visitante": "PEC Zwolle",
+   "over15": 93.0,
+   "over25": 79.5,
+   "marcador": "2-2",
+   "goles_esperados": 4.2,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "fuerte",
+   "casa_local": {
+    "pj": 4,
+    "gf": 8,
+    "gc": 14
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 8
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 3,
+   "hora_ecuador": "11:30",
+   "liga": "Bundesliga",
+   "local": "Borussia Dortmund",
+   "visitante": "Eintracht Frankfurt",
+   "over15": 91.7,
+   "over25": 76.9,
+   "marcador": "2-1",
+   "goles_esperados": 4.1,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "fuerte",
+   "casa_local": {
+    "pj": 3,
+    "gf": 7,
+    "gc": 2
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 6,
+    "gc": 10
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 4,
+   "hora_ecuador": "16:30",
+   "liga": "MLS",
+   "local": "New York RB",
+   "visitante": "Inter Miami",
+   "over15": 91.3,
+   "over25": 76.1,
+   "marcador": "1-2",
+   "goles_esperados": 4.0,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "fuerte",
+   "casa_local": {
+    "pj": 15,
+    "gf": 22,
+    "gc": 29
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 32,
+    "gc": 25
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 5,
+   "hora_ecuador": "21:30",
+   "liga": "MLS",
+   "local": "Portland",
+   "visitante": "Charlotte",
+   "over15": 90.6,
+   "over25": 74.5,
+   "marcador": "1-1",
+   "goles_esperados": 3.9,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 15,
+    "gf": 31,
+    "gc": 25
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 24,
+    "gc": 29
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 6,
+   "hora_ecuador": "18:30",
+   "liga": "MLS",
+   "local": "DC United",
+   "visitante": "Cincinnati",
+   "over15": 90.2,
+   "over25": 73.7,
+   "marcador": "1-1",
+   "goles_esperados": 3.8,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 15,
+    "gf": 20,
+    "gc": 26
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 24,
+    "gc": 41
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 7,
+   "hora_ecuador": "08:30",
+   "liga": "Bundesliga",
+   "local": "Mainz 05",
+   "visitante": "Werder Bremen",
+   "over15": 88.7,
+   "over25": 70.7,
+   "marcador": "1-1",
+   "goles_esperados": 3.7,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 7
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 8,
+   "hora_ecuador": "14:00",
+   "liga": "Eredivisie",
+   "local": "ADO Den Haag",
+   "visitante": "Heerenveen",
+   "over15": 88.5,
+   "over25": 70.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.6,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 4,
+    "gf": 6,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 8,
+    "gc": 6
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 9,
+   "hora_ecuador": "19:30",
+   "liga": "MLS",
+   "local": "Sporting KC",
+   "visitante": "Austin",
+   "over15": 87.6,
+   "over25": 68.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 15,
+    "gf": 22,
+    "gc": 32
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 17,
+    "gc": 35
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 10,
+   "hora_ecuador": "08:30",
+   "liga": "Bundesliga",
+   "local": "RB Leipzig",
+   "visitante": "Elversberg",
+   "over15": 87.4,
+   "over25": 68.8,
+   "marcador": "2-0",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 14,
+    "gc": 0
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 4
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 11,
+   "hora_ecuador": "17:30",
+   "liga": "Brasileirão",
+   "local": "Chapecoense",
+   "visitante": "Fluminense",
+   "over15": 86.8,
+   "over25": 67.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 14,
+    "gf": 19,
+    "gc": 33
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 20,
+    "gc": 23
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 12,
+   "hora_ecuador": "18:30",
+   "liga": "MLS",
+   "local": "Atlanta United",
+   "visitante": "Chicago Fire",
+   "over15": 86.1,
+   "over25": 66.0,
+   "marcador": "1-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 15,
+    "gf": 21,
+    "gc": 29
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 24,
+    "gc": 25
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 13,
+   "hora_ecuador": "08:30",
+   "liga": "Bundesliga",
+   "local": "1. FC Koln",
+   "visitante": "Schalke 04",
+   "over15": 86.0,
+   "over25": 65.9,
+   "marcador": "1-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 6,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 6
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 14,
+   "hora_ecuador": "11:30",
+   "liga": "Premier League",
+   "local": "Chelsea",
+   "visitante": "Tottenham Hotspur",
+   "over15": 85.9,
+   "over25": 65.9,
+   "marcador": "2-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 11,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 1,
+    "gc": 4
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 15,
+   "hora_ecuador": "14:00",
+   "liga": "LaLiga",
+   "local": "Atletico Madrid",
+   "visitante": "Deportivo La Coruna",
+   "over15": 85.3,
+   "over25": 64.7,
+   "marcador": "1-1",
+   "goles_esperados": 3.3,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 10,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 7,
+    "gc": 7
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 16,
+   "hora_ecuador": "09:15",
+   "liga": "LaLiga",
+   "local": "Racing Santander",
+   "visitante": "Espanyol",
+   "over15": 83.8,
+   "over25": 62.1,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 9,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 5
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 17,
+   "hora_ecuador": "08:30",
+   "liga": "Bundesliga",
+   "local": "SC Paderborn",
+   "visitante": "Hamburger SV",
+   "over15": 83.3,
+   "over25": 61.5,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 3,
+    "gf": 3,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 3,
+    "gc": 9
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 18,
+   "hora_ecuador": "18:00",
+   "liga": "Liga MX",
+   "local": "Leon",
+   "visitante": "Toluca",
+   "over15": 83.3,
+   "over25": 61.3,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 6,
+    "gf": 12,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 10,
+    "gc": 7
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 19,
+   "hora_ecuador": "19:30",
+   "liga": "MLS",
+   "local": "Dallas",
+   "visitante": "SJ Earthquakes",
+   "over15": 82.1,
+   "over25": 59.5,
+   "marcador": "1-1",
+   "goles_esperados": 3.1,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 14,
+    "gf": 26,
+    "gc": 20
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 26,
+    "gc": 19
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 20,
+   "hora_ecuador": "19:30",
+   "liga": "MLS",
+   "local": "Real Salt Lake",
+   "visitante": "St. Louis City",
+   "over15": 81.1,
+   "over25": 57.9,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 15,
+    "gf": 28,
+    "gc": 21
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 22,
+    "gc": 22
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 21,
+   "hora_ecuador": "11:45",
+   "liga": "Eredivisie",
+   "local": "Willem II",
+   "visitante": "Cambuur",
+   "over15": 81.0,
+   "over25": 57.7,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 3,
+    "gc": 10
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 6
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 22,
+   "hora_ecuador": "06:30",
+   "liga": "Premier League",
+   "local": "Aston Villa",
+   "visitante": "Manchester City",
+   "over15": 80.9,
+   "over25": 57.8,
+   "marcador": "0-2",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 3,
+    "gf": 3,
+    "gc": 5
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 8,
+    "gc": 1
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 23,
+   "hora_ecuador": "19:30",
+   "liga": "MLS",
+   "local": "Houston Dynamo",
+   "visitante": "Minnesota United",
+   "over15": 80.7,
+   "over25": 57.2,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 15,
+    "gf": 19,
+    "gc": 14
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 28,
+    "gc": 35
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 24,
+   "hora_ecuador": "20:00",
+   "liga": "Brasileirão",
+   "local": "Santos",
+   "visitante": "Bahia",
+   "over15": 80.4,
+   "over25": 56.9,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 15,
+    "gf": 22,
+    "gc": 20
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 21,
+    "gc": 22
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 25,
+   "hora_ecuador": "13:45",
+   "liga": "Serie A",
+   "local": "Lazio",
+   "visitante": "Parma",
+   "over15": 80.1,
+   "over25": 56.5,
+   "marcador": "2-0",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 3,
+    "gf": 6,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 1,
+    "gc": 7
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 26,
+   "hora_ecuador": "08:00",
+   "liga": "Serie A",
+   "local": "Como",
+   "visitante": "Sassuolo",
+   "over15": 79.9,
+   "over25": 56.1,
+   "marcador": "1-1",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 2,
+    "gf": 2,
+    "gc": 1
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 6,
+    "gc": 10
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 27,
+   "hora_ecuador": "07:00",
+   "liga": "LaLiga",
+   "local": "Rayo Vallecano",
+   "visitante": "Elche",
+   "over15": 79.5,
+   "over25": 55.4,
+   "marcador": "1-1",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 3,
+    "gf": 6,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 7,
+    "gc": 6
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 28,
+   "hora_ecuador": "18:30",
+   "liga": "MLS",
+   "local": "Philadelphia",
+   "visitante": "New England",
+   "over15": 78.6,
+   "over25": 54.2,
+   "marcador": "1-1",
+   "goles_esperados": 2.8,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 27,
+    "gc": 16
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 22,
+    "gc": 25
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 29,
+   "hora_ecuador": "13:45",
+   "liga": "Ligue 1",
+   "local": "Lens",
+   "visitante": "Paris FC",
+   "over15": 78.1,
+   "over25": 53.5,
+   "marcador": "1-1",
+   "goles_esperados": 2.8,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 3,
+    "gf": 7,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 3,
+    "gc": 3
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 30,
+   "hora_ecuador": "21:30",
+   "liga": "MLS",
+   "local": "San Diego",
+   "visitante": "Seattle",
+   "over15": 78.1,
+   "over25": 53.4,
+   "marcador": "1-1",
+   "goles_esperados": 2.8,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 35,
+    "gc": 27
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 15,
+    "gc": 16
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 31,
+   "hora_ecuador": "19:00",
+   "liga": "Liga MX",
+   "local": "Monterrey",
+   "visitante": "Guadalajara",
+   "over15": 76.1,
+   "over25": 50.6,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 13,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 9,
+    "gc": 5
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 32,
+   "hora_ecuador": "21:00",
+   "liga": "Liga MX",
+   "local": "Pumas UNAM",
+   "visitante": "Tigres UANL",
+   "over15": 75.6,
+   "over25": 49.9,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 9,
+    "gc": 11
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 5,
+    "gc": 11
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 33,
+   "hora_ecuador": "20:10",
+   "liga": "Liga BetPlay",
+   "local": "Junior",
+   "visitante": "Águilas Doradas",
+   "over15": 75.4,
+   "over25": 49.7,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 10,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 7,
+    "gc": 11
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 34,
+   "hora_ecuador": "20:30",
+   "liga": "MLS",
+   "local": "Colorado Rapids",
+   "visitante": "Vancouver",
+   "over15": 75.4,
+   "over25": 49.7,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 28,
+    "gc": 15
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 28,
+    "gc": 17
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 35,
+   "hora_ecuador": "14:30",
+   "liga": "Brasileirão",
+   "local": "Internacional",
+   "visitante": "Botafogo",
+   "over15": 74.1,
+   "over25": 47.9,
+   "marcador": "1-1",
+   "goles_esperados": 2.6,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 18,
+    "gc": 17
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 18,
+    "gc": 26
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 36,
+   "hora_ecuador": "18:30",
+   "liga": "MLS",
+   "local": "Orlando City",
+   "visitante": "New York City",
+   "over15": 73.7,
+   "over25": 47.5,
+   "marcador": "1-1",
+   "goles_esperados": 2.6,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 30,
+    "gc": 20
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 16,
+    "gc": 19
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 37,
+   "hora_ecuador": "11:30",
+   "liga": "LaLiga",
+   "local": "Valencia",
+   "visitante": "Villarreal",
+   "over15": 73.4,
+   "over25": 47.2,
+   "marcador": "1-1",
+   "goles_esperados": 2.6,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 5,
+    "gf": 2,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 7,
+    "gc": 7
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 38,
+   "hora_ecuador": "18:00",
+   "liga": "Liga BetPlay",
+   "local": "Boyacá Chicó",
+   "visitante": "Bucaramanga",
+   "over15": 73.3,
+   "over25": 47.0,
+   "marcador": "1-1",
+   "goles_esperados": 2.6,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 9,
+    "gc": 8
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 11,
+    "gc": 5
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 39,
+   "hora_ecuador": "09:00",
+   "liga": "Premier League",
+   "local": "Arsenal",
+   "visitante": "Everton",
+   "over15": 72.8,
+   "over25": 46.4,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 3,
+    "gf": 7,
+    "gc": 2
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 3,
+    "gc": 3
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 40,
+   "hora_ecuador": "16:30",
+   "liga": "Brasileirão",
+   "local": "Vasco da Gama",
+   "visitante": "Corinthians",
+   "over15": 72.6,
+   "over25": 46.0,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 21,
+    "gc": 18
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 16,
+    "gc": 22
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 41,
+   "hora_ecuador": "14:30",
+   "liga": "Brasileirão",
+   "local": "Vitória",
+   "visitante": "Athletico-PR",
+   "over15": 72.4,
+   "over25": 45.8,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 22,
+    "gc": 12
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 22,
+    "gc": 22
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 42,
+   "hora_ecuador": "09:00",
+   "liga": "Premier League",
+   "local": "Coventry City",
+   "visitante": "Fulham",
+   "over15": 70.9,
+   "over25": 43.8,
+   "marcador": "1-1",
+   "goles_esperados": 2.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 1,
+    "gc": 3
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 43,
+   "hora_ecuador": "12:45",
+   "liga": "Liga Profesional",
+   "local": "Banfield",
+   "visitante": "Lanus",
+   "over15": 70.7,
+   "over25": 43.8,
+   "marcador": "0-1",
+   "goles_esperados": 2.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 7,
+    "gc": 10
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 8,
+    "gc": 3
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 44,
+   "hora_ecuador": "14:00",
+   "liga": "LigaPro",
+   "local": "Orense",
+   "visitante": "Delfín",
+   "over15": 69.7,
+   "over25": 42.5,
+   "marcador": "1-1",
+   "goles_esperados": 2.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 16,
+    "gf": 23,
+    "gc": 22
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 10,
+    "gc": 22
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 45,
+   "hora_ecuador": "19:30",
+   "liga": "Liga Profesional",
+   "local": "Rosario Central",
+   "visitante": "Huracan",
+   "over15": 69.2,
+   "over25": 42.0,
+   "marcador": "1-0",
+   "goles_esperados": 2.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 10,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 6,
+    "gc": 8
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 46,
+   "hora_ecuador": "14:30",
+   "liga": "Brasileirão",
+   "local": "Mirassol",
+   "visitante": "São Paulo",
+   "over15": 68.7,
+   "over25": 41.3,
+   "marcador": "1-1",
+   "goles_esperados": 2.3,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 16,
+    "gf": 23,
+    "gc": 21
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 11,
+    "gc": 22
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 47,
+   "hora_ecuador": "15:00",
+   "liga": "Liga Profesional",
+   "local": "Talleres Cordoba",
+   "visitante": "Defensa y Justicia",
+   "over15": 68.7,
+   "over25": 41.2,
+   "marcador": "1-1",
+   "goles_esperados": 2.3,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 5,
+    "gc": 10
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 7,
+    "gc": 8
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 48,
+   "hora_ecuador": "11:00",
+   "liga": "Serie A",
+   "local": "Napoli",
+   "visitante": "Roma",
+   "over15": 66.9,
+   "over25": 39.2,
+   "marcador": "1-1",
+   "goles_esperados": 2.3,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 3,
+    "gf": 5,
+    "gc": 2
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 6,
+    "gc": 0
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 49,
+   "hora_ecuador": "14:30",
+   "liga": "MLS",
+   "local": "Columbus Crew",
+   "visitante": "Toronto",
+   "over15": 66.6,
+   "over25": 38.9,
+   "marcador": "1-0",
+   "goles_esperados": 2.2,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 22,
+    "gc": 17
+   },
+   "fuera_visitante": {
+    "pj": 14,
+    "gf": 12,
+    "gc": 23
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 50,
+   "hora_ecuador": "16:30",
+   "liga": "Brasileirão",
+   "local": "Palmeiras",
+   "visitante": "Bragantino",
+   "over15": 63.9,
+   "over25": 36.1,
+   "marcador": "1-0",
+   "goles_esperados": 2.1,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 28,
+    "gc": 10
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 15,
+    "gc": 19
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 51,
+   "hora_ecuador": "12:30",
+   "liga": "MLS",
+   "local": "CF Montreal",
+   "visitante": "Nashville SC",
+   "over15": 63.6,
+   "over25": 35.6,
+   "marcador": "0-1",
+   "goles_esperados": 2.1,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 19,
+    "gc": 21
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 19,
+    "gc": 11
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 52,
+   "hora_ecuador": "16:30",
+   "liga": "LigaPro",
+   "local": "LDU Quito",
+   "visitante": "Macará",
+   "over15": 58.9,
+   "over25": 30.7,
+   "marcador": "0-0",
+   "goles_esperados": 1.9,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 17,
+    "gf": 17,
+    "gc": 13
+   },
+   "fuera_visitante": {
+    "pj": 17,
+    "gf": 21,
+    "gc": 20
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 53,
+   "hora_ecuador": "08:00",
+   "liga": "Serie A",
+   "local": "Cagliari",
+   "visitante": "Bologna",
+   "over15": 56.1,
+   "over25": 28.2,
+   "marcador": "0-0",
+   "goles_esperados": 1.8,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 3,
+    "gf": 2,
+    "gc": 2
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 2,
+    "gc": 3
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 54,
+   "hora_ecuador": "11:30",
+   "liga": "LigaPro",
+   "local": "Manta",
+   "visitante": "Deportivo Cuenca",
+   "over15": 40.7,
+   "over25": 15.9,
+   "marcador": "0-0",
+   "goles_esperados": 1.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 17,
+    "gf": 10,
+    "gc": 15
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 10,
+    "gc": 19
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 55,
+   "hora_ecuador": "17:15",
+   "liga": "Liga Profesional",
+   "local": "San Lorenzo",
+   "visitante": "Newells Old Boys",
+   "over15": 37.5,
+   "over25": 13.9,
+   "marcador": "0-0",
+   "goles_esperados": 1.3,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 4,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 3,
+    "gc": 5
+   },
+   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "sin_pronostico": []
+}

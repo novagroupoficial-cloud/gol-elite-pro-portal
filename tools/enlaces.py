@@ -641,3 +641,52 @@ COL.update({'Gimnasia Mendoza':'#141414','Platense':'#7a4a2a','Cruzeiro':'#1d3f8
 # Aciertos de ayer: el jueves 22 no hubo pronósticos (la rutina no corrió) y la auditoría del miércoles 21 está pendiente.
 ACIERTOS=[]
 LLEGAN={}
+
+# ---- Sábado 24-oct-2026 (rutina diaria, sellado 05:59 ECU) ----
+# LINK: previa o ficha real de cada partido (titular en español, medio y enlace). Donde no se halló una previa individual verificada,
+# se enlaza la página real y abierta de la agenda/fecha de su liga (Fútbol Total, Football Web Pages, Ligue 1, Valor Final, Informador, VAVEL, Primicias).
+_FT=("Agenda del sábado 24 de octubre: horarios de todos los partidos","Fútbol Total","https://futboltotal.futbol/2026-10-24")
+_ESP=("LaLiga 2026-27: calendario y resultados de octubre (jornada 10)","Football Web Pages","https://www.footballwebpages.co.uk/spanish-la-liga/fixtures-results")
+_GER=("Bundesliga 2026-27: calendario y resultados de octubre (jornada 7)","Football Web Pages","https://www.footballwebpages.co.uk/german-bundesliga/fixtures-results/october")
+_NED=("Eredivisie 2026-27: calendario y resultados de octubre (jornada 10)","Football Web Pages","https://www.footballwebpages.co.uk/dutch-eredivisie/fixtures-results/october")
+_FRA=("Ligue 1: programación de la jornada 8","Ligue 1 (LFP)","https://ligue1.com/en/articles/l1_article_5797-programmations-tv-j6-j7-et-j8-l1-2627")
+_BRA=("Brasileirão 2026: los partidos de la 32.ª fecha","Valor Final","https://valorfinal.com.br/brasileirao/2026/rodada-32")
+_MEX=("Liga MX: calendario de la jornada 14 del Apertura 2026, horarios y dónde verla","El Informador","https://www.informador.mx/deportes/liga-mx-calendario-de-partidos-de-la-jornada-14-del-apertura-2026-horarios-y-donde-verlos-en-vivo-20261022-0066.html")
+_USA=("MLS 2026: calendario de la jornada del sábado 24 de octubre","VAVEL","https://www.vavel.com/en-us/data/mls/fixtures/")
+_ARG=("Liga Profesional: la fecha 14 del Clausura 2026, partido por partido","Fútbol Total","https://futboltotal.futbol/league/liga-profesional-argentina/round/clausura-14")
+_ECU=("LigaPro: horarios de la fecha 4 de la fase final","Primicias","https://www.primicias.ec/deportes/donde-ver-fecha/teleamazonas-fechas-partidos-horarios-fecha4-hexagonal-cuadrangular-ver-tv-135546/")
+_LIGA={'ENG':_FT,'ITA':_FT,'COL':_FT,'ESP':_ESP,'GER':_GER,'NED':_NED,'FRA':_FRA,'BRA':_BRA,'MEX':_MEX,'USA':_USA,'ARG':_ARG,'ECU':_ECU}
+LINK={f"{p['local']}|{p['visita']}":_LIGA[p['liga']] for p in _P if not p.get('sin')}
+LINK.update({
+ 'Borussia Dortmund|Eintracht Frankfurt':("Dortmund vs Eintracht Frankfurt: ficha, forma e historial de la jornada 7","Fútbol Total","https://futboltotal.futbol/partido/borussia-dortmund-vs-eintracht-frankfurt-bundesliga-2026-10-24"),
+ 'Chelsea|Tottenham Hotspur':("Chelsea vs Tottenham: el derbi de Londres de la jornada 8","Fútbol Total","https://futboltotal.futbol/partido/chelsea-vs-tottenham-premier-league-2026-10-24"),
+ 'Napoli|Roma':("Napoli vs Roma: ficha y previa de la jornada 8 de la Serie A","Fútbol Total","https://futboltotal.futbol/partido/napoli-vs-as-roma-serie-a-2026-10-24"),
+ 'New York RB|Inter Miami':("Red Bulls vs Inter Miami: ficha del partido del sábado en la MLS","Fútbol Total","https://futboltotal.futbol/partido/new-york-red-bulls-vs-inter-miami-mls-2026-10-24"),
+ 'LDU Quito|Macará':("Liga de Quito vs. Macará: precios de las entradas para la fecha 4 del hexagonal final","Primicias","https://www.primicias.ec/deportes/ligapro/liga-de-quito/ldu-macara-venta-entradas-precios-fecha4-hexagonal-final-135400/"),
+})
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Chelsea|Tottenham Hotspur','Napoli|Roma','LDU Quito|Macará','New York RB|Inter Miami']
+COL.update({'1. FC Koln':'#ed1c24','PEC Zwolle':'#1d4fa0','Eintracht Frankfurt':'#111111','Deportivo Cuenca':'#c8102e','Deportivo La Coruna':'#1d4fa0',
+ 'Heerenveen':'#1d4fa0','Orense':'#00843d','Internacional':'#d0021b','Mirassol':'#f6d11b','Toronto':'#b81137','Talleres Cordoba':'#0b2a52',
+ 'Defensa y Justicia':'#00843d','Orlando City':'#633492','New York City':'#6cace4','Huracan':'#ffffff','Houston Dynamo':'#f68712',
+ 'SJ Earthquakes':'#0d4c92','Austin':'#00b140','St. Louis City':'#d22630','Vancouver':'#00245e','San Diego':'#00205b',
+ 'Manta':'#1d3f8f','Delfín':'#f6d11b','Bucaramanga':'#f6d11b','Águilas Doradas':'#f6d11b','Junior':'#c8102e','Boyacá Chicó':'#1d3f8f'})
+# Aciertos de ayer (viernes 23): (partido, marcador real, nuestro Over 1.5, medio, url)
+ACIERTOS=[
+ ("Necaxa vs FC Juárez","1-1 · marcador exacto","83 % · partido del día","Fox Sports México","https://www.foxsports.com.mx/2026/10/23/resumen-video-goles-empate-necaxa-fc-juarez-eliminado-liguilla-liga-mx-hoy/"),
+ ("Gimnasia Mendoza vs Platense","1-2","66 %","Diario Uno","https://www.diariouno.com.ar/ovacion/futbol/gimnasia-y-esgrima-no-pudo-aguantarlo-y-platense-se-lo-dio-vuelta-el-final-n1609628"),
+]
+LLEGAN={
+ 'Borussia Dortmund|Eintracht Frankfurt':["Eintracht Frankfurt recibe 3,3 goles por partido fuera de casa: 10 en contra (y 6 a favor) en 3 partidos.",
+   "Dortmund en casa: 7 goles a favor y 2 en contra en 3 partidos.",
+   "Frankfurt perdió 6-0 en Leipzig el 10 de octubre; los dos últimos Dortmund–Frankfurt de Bundesliga terminaron 3-2 y 3-3.",
+   "Fuentes: tabla de la Bundesliga 2026-27 (Sports Mole y Football Web Pages, partido a partido) y ficha de Fútbol Total."],
+ 'Augsburg|Union Berlin':["Union Berlin recibe 5,5 goles por partido fuera: 11 en contra y ningún gol a favor en 2 partidos.",
+   "Augsburg en casa: 7 goles a favor y 4 en contra en 3 partidos (3,7 goles por partido en su estadio).",
+   "Augsburg viene de perder 4-3 en Elversberg; Union empató 0-0 con Dortmund en casa.",
+   "Fuentes: tabla de la Bundesliga 2026-27 (Sports Mole y Football Web Pages, partido a partido)."],
+ 'FC Utrecht|PEC Zwolle':["En casa, los partidos de Utrecht promedian 5,5 goles: 8 a favor y 14 en contra en 4 partidos.",
+   "PEC Zwolle fuera: 5 goles a favor y 8 en contra en 4 partidos.",
+   "Utrecht ganó 1-2 en Twente y PEC Zwolle goleó 4-1 a Go Ahead Eagles el domingo 18.",
+   "Fuentes: tabla de la Eredivisie 2026-27 (Sports Mole y Football Web Pages, partido a partido)."],
+}

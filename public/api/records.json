@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 00:11 ECU",
+ "actualizado": "2026-10-24 06:02 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -45,9 +45,9 @@
   "partidos": 27
  },
  "partido_del_dia": {
-  "aciertos": 5,
-  "dias": 6,
-  "racha_actual": 0,
+  "aciertos": 6,
+  "dias": 7,
+  "racha_actual": 1,
   "detalle": [
    {
     "fecha": "2026-10-11",
@@ -96,6 +96,14 @@
     "goles": 1,
     "acierto": false,
     "over15": 84.2
+   },
+   {
+    "fecha": "2026-10-23",
+    "partido": "Necaxa vs Juarez",
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true,
+    "over15": 83.3
    }
   ]
  },

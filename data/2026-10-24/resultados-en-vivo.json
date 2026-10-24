@@ -244,5 +244,21 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/borussia-dortmund-vs-eintracht-frankfurt-bundesliga-2026-10-24",
   "registrado": "14:10 ECU"
+ },
+ {
+  "local": "Chelsea",
+  "visita": "Tottenham Hotspur",
+  "hora": "11:30",
+  "resultado": "0-2",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 85.9,
+  "over25_dado": 65.9,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/chelsea-vs-tottenham-premier-1557439",
+  "registrado": "15:10 ECU",
+  "nota": "Fútbol Total (2 fichas): Final 0-2, Penders e.c. 77', Tel 87'; Palmer expulsado 80' (no gol). Confirmar en la auditoría oficial."
  }
 ]

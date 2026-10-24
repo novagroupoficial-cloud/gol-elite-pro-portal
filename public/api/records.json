@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 14:12 ECU",
+ "actualizado": "2026-10-24 15:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 171,
+ "partidos": 172,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -23,8 +23,8 @@
    "partidos": 16
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 40,
-   "partidos": 60
+   "aciertos": 41,
+   "partidos": 61
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 75,
@@ -38,12 +38,12 @@
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 57,
-  "partidos": 79
+  "aciertos": 58,
+  "partidos": 80
  },
  "over25_senal": {
   "aciertos": 21,
-  "partidos": 33
+  "partidos": 34
  },
  "partido_del_dia": {
   "aciertos": 6,
@@ -135,9 +135,9 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 60,
-   "aciertos": 40,
-   "prometido": 83.4
+   "partidos": 61,
+   "aciertos": 41,
+   "prometido": 83.5
   },
   {
    "franja": "70 a 79 %",
@@ -208,6 +208,15 @@
     "resultado": "0-0",
     "goles": 0,
     "acierto": false
+   },
+   {
+    "hora": "11:30",
+    "local": "Chelsea",
+    "visita": "Tottenham Hotspur",
+    "over15": 85.9,
+    "resultado": "0-2",
+    "goles": 2,
+    "acierto": true
    },
    {
     "hora": "09:15",

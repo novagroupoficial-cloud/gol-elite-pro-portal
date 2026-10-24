@@ -2,8 +2,8 @@
  "fecha": "2026-10-24",
  "ultima_ejecucion": "2026-10-24 05:10 ECU",
  "ultima_ok": "2026-10-24 05:10 ECU",
- "rutina_diaria": "pendiente",
- "rutina_diaria_inicio": null,
+ "rutina_diaria": "en_curso",
+ "rutina_diaria_inicio": "2026-10-24 05:25 ECU",
  "pendientes": [
   "Rutina diaria del 24-oct: corre a las 05:24 ECU; si a las 08:00 falta data/2026-10-24/pronosticos.json, la recupera el refresco horario (incluye auditoría oficial y Galería del 23).",
   "Sin actividad en main entre 2026-10-21 07:29 y 2026-10-23 16:13 ECU: no corrieron la rutina del 22 ni la de las 05:24 del 23 ni los refrescos horarios.",

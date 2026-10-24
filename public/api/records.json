@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 09:33 ECU",
+ "actualizado": "2026-10-24 10:15 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 156,
+ "partidos": 157,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -23,8 +23,8 @@
    "partidos": 13
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 35,
-   "partidos": 53
+   "aciertos": 36,
+   "partidos": 54
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 71,
@@ -38,8 +38,8 @@
   "racha_max": 12
  },
  "over80": {
-  "aciertos": 50,
-  "partidos": 69
+  "aciertos": 51,
+  "partidos": 70
  },
  "over25_senal": {
   "aciertos": 19,
@@ -135,9 +135,9 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 53,
-   "aciertos": 35,
-   "prometido": 83.4
+   "partidos": 54,
+   "aciertos": 36,
+   "prometido": 83.3
   },
   {
    "franja": "70 a 79 %",
@@ -161,6 +161,15 @@
     "visita": "Manchester City",
     "over15": 80.9,
     "resultado": "2-1",
+    "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "07:00",
+    "local": "Rayo Vallecano",
+    "visita": "Elche",
+    "over15": 79.5,
+    "resultado": "0-3",
     "goles": 3,
     "acierto": true
    }

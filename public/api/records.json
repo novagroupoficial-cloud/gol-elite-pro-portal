@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 15:11 ECU",
+ "actualizado": "2026-10-24 16:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 172,
+ "partidos": 174,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -23,12 +23,12 @@
    "partidos": 16
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 41,
-   "partidos": 61
+   "aciertos": 42,
+   "partidos": 62
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 75,
-   "partidos": 92
+   "aciertos": 76,
+   "partidos": 93
   }
  },
  "over90": {
@@ -38,8 +38,8 @@
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 58,
-  "partidos": 80
+  "aciertos": 59,
+  "partidos": 81
  },
  "over25_senal": {
   "aciertos": 21,
@@ -135,9 +135,9 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 61,
-   "aciertos": 41,
-   "prometido": 83.5
+   "partidos": 62,
+   "aciertos": 42,
+   "prometido": 83.4
   },
   {
    "franja": "70 a 79 %",
@@ -147,9 +147,9 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 35,
-   "aciertos": 30,
-   "prometido": 61.1
+   "partidos": 36,
+   "aciertos": 31,
+   "prometido": 61.2
   }
  ],
  "ultima_jornada": {
@@ -246,6 +246,15 @@
     "acierto": true
    },
    {
+    "hora": "13:45",
+    "local": "Lazio",
+    "visita": "Parma",
+    "over15": 80.1,
+    "resultado": "2-1",
+    "goles": 3,
+    "acierto": true
+   },
+   {
     "hora": "08:00",
     "local": "Como",
     "visita": "Sassuolo",
@@ -297,6 +306,15 @@
     "over15": 66.9,
     "resultado": "3-3",
     "goles": 6,
+    "acierto": true
+   },
+   {
+    "hora": "12:30",
+    "local": "CF Montreal",
+    "visita": "Nashville SC",
+    "over15": 63.6,
+    "resultado": "0-2",
+    "goles": 2,
     "acierto": true
    },
    {

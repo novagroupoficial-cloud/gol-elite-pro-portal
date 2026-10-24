@@ -260,5 +260,37 @@
   "fuente": "https://futboltotal.futbol/partido/chelsea-vs-tottenham-premier-1557439",
   "registrado": "15:10 ECU",
   "nota": "Fútbol Total (2 fichas): Final 0-2, Penders e.c. 77', Tel 87'; Palmer expulsado 80' (no gol). Confirmar en la auditoría oficial."
+ },
+ {
+  "local": "Lazio",
+  "visita": "Parma",
+  "hora": "13:45",
+  "resultado": "2-1",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 80.1,
+  "over25_dado": 56.5,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/lazio-vs-parma-serie-a-2026-10-24",
+  "registrado": "16:10 ECU",
+  "nota": "Fútbol Total: Final 2-1, Taylor 50', Diego Carlos e.c. 58' (a favor de Lazio), Lontani 90+5'."
+ },
+ {
+  "local": "CF Montreal",
+  "visita": "Nashville SC",
+  "hora": "12:30",
+  "resultado": "0-2",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 63.6,
+  "over25_dado": 35.6,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/cf-montreal-vs-nashville-sc-mls-2026-10-24",
+  "registrado": "16:10 ECU",
+  "nota": "Fútbol Total: Resultado final 0-2, Surridge 51', Keita e.c. 76'."
  }
 ]

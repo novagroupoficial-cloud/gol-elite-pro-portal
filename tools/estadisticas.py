@@ -25,6 +25,8 @@ def stats(t,cond,media_liga_gf,media_liga_gc):
                 ultimos5=None,temporada=None)
 out=[];
 elite=[p for p in H['todos'] if entero(p['over15'])>=MIN]
+# Opcional (Marco, 24-oct): 3.er argumento = lista 'Local|Visita,...' (p. ej. los partidos de SportyTrader elegidos)
+if len(sys.argv)>3: _K=sys.argv[3].split(','); elite=[p for p in H['todos'] if f"{p['local']}|{p['visitante']}" in _K]
 for p in elite:
     s=S[(p['local'],p['visitante'])]
     a,b=s['lambda_local'],s['lambda_visita']; g=grid(a,b)

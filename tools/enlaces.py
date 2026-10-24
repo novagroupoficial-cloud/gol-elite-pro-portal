@@ -693,3 +693,43 @@ LLEGAN={
 LINK['Augsburg|Union Berlin']=("Augsburg vs Union Berlin: ficha, forma e historial de la jornada 7","Fútbol Total","https://futboltotal.futbol/partido/fc-augsburg-vs-union-berlin-bundesliga-2026-10-24")
 LLEGAN['Augsburg|Union Berlin'][2]="Union perdió 7-0 en Múnich y 4-0 en Leverkusen; los 4 últimos partidos de Bundesliga de Augsburg tuvieron 4 goles o más (4-3, 2-2, 3-2 y 2-2)."
 LLEGAN['Augsburg|Union Berlin'][3]="Fuentes: tabla de la Bundesliga 2026-27 (Sports Mole y Football Web Pages, partido a partido) y ficha de Fútbol Total."
+
+# ---- Sábado 24-oct, 09:45 ECU: Marco pidió tomar como referencia los partidos de SportyTrader (sus capturas) ----
+_ST=['Banfield|Lanus','Talleres Cordoba|Defensa y Justicia','San Lorenzo|Newells Old Boys','Rosario Central|Huracan','Racing Santander|Espanyol',
+ 'Valencia|Villarreal','Atletico Madrid|Deportivo La Coruna','América de Cali|Cúcuta','Once Caldas|Deportivo Pereira','Borussia Dortmund|Eintracht Frankfurt',
+ 'CF Montreal|Nashville SC','Columbus Crew|Toronto','New York RB|Inter Miami','Orlando City|New York City','DC United|Cincinnati','Dallas|SJ Earthquakes',
+ 'Portland|Charlotte','San Diego|Seattle','Lens|Paris FC','Mirassol|São Paulo','Internacional|Botafogo','Palmeiras|Bragantino','Chapecoense|Fluminense',
+ 'Monterrey|Guadalajara','Pumas UNAM|Tigres UANL','Napoli|Roma','Lazio|Parma']
+_PI={f"{p['local']}|{p['visita']}":p for p in _P if not p.get('sin')}
+PRED=[k for k in sorted(_ST,key=lambda k:-_PI[k]['over15']) if k in _PI and round(_PI[k]['over15'],1)>=79.5]
+DEST=['Borussia Dortmund|Eintracht Frankfurt','New York RB|Inter Miami','Portland|Charlotte','DC United|Cincinnati','Chapecoense|Fluminense']
+COL.update({'America de Cali':'#c8102e','América de Cali':'#c8102e','Cúcuta':'#c8102e','Once Caldas':'#ffffff','Deportivo Pereira':'#f6d11b',
+ 'Portland':'#004812','Charlotte':'#1a85c8','DC United':'#111111','Cincinnati':'#f05323','Chapecoense':'#00843d','Fluminense':'#7a1230'})
+LINK.update({
+ 'New York RB|Inter Miami':("Red Bulls vs Inter Miami: previa, bajas y alineaciones","Sports Mole","https://www.sportsmole.co.uk/football/red-bulls/preview/ny-red-bulls-vs-inter-miami-prediction-team-news-lineups_607389.html"),
+ 'Portland|Charlotte':("Portland vs Charlotte: ficha, forma e historial de la jornada 31","Fútbol Total","https://futboltotal.futbol/partido/portland-timbers-vs-charlotte-mls-2026-10-25"),
+ 'DC United|Cincinnati':("D.C. United vs Cincinnati: previa y números de la temporada","Doc's Sports","https://www.docsports.com/free-picks/soccer/2026/d-c-united-vs-fc-cincinnati-prediction-10-24-2026-soccer-pick-tips-and-odds.html"),
+ 'Chapecoense|Fluminense':("Chapecoense vs Fluminense: tabla, forma y probabilidades de la fecha 32","Valor Final","https://valorfinal.com.br/brasileirao/2026/jogos/chapecoense-x-fluminense"),
+})
+LLEGAN={
+ 'Borussia Dortmund|Eintracht Frankfurt':["Eintracht Frankfurt recibe 3,3 goles por partido fuera de casa: 10 en contra (y 6 a favor) en 3 partidos.",
+   "Dortmund en casa: 7 goles a favor y 2 en contra en 3 partidos; es 2.º con 14 puntos y Frankfurt 11.º con 8.",
+   "Dortmund ganó 2-1 en Champions el martes con doblete de Guirassy; el último Dortmund–Frankfurt terminó 3-2.",
+   "Fuentes: tabla de la Bundesliga 2026-27 (Sports Mole y Football Web Pages, partido a partido) y On Tour Football."],
+ 'New York RB|Inter Miami':["Inter Miami fuera: 2,1 goles a favor por partido (32 en 15); es el ataque más goleador de la MLS (2,4 por partido).",
+   "Red Bulls en casa recibe 1,9 goles por partido (29 en 15) y perdió 3 de sus últimos 4.",
+   "Miami llega con 3 victorias seguidas y Messi viene de un doblete ante Atlanta.",
+   "Fuentes: tablas de local y visitante de la MLS (SoccerSTATS) y previa de Sports Mole."],
+ 'Portland|Charlotte':["Portland en casa: 31 goles a favor y 25 en contra en 15 partidos (3,7 goles por partido).",
+   "Charlotte fuera: 24 a favor y 29 en contra en 15 partidos.",
+   "Ojo: Portland suma 4 partidos sin ganar y no marcó en 2 de los últimos 3; Charlotte ganó los 2 duelos previos.",
+   "Fuentes: tablas de local y visitante de la MLS (SoccerSTATS) y ficha de Fútbol Total."],
+ 'DC United|Cincinnati':["Cincinnati fuera: 24 a favor y 41 en contra en 15 partidos (2,7 goles recibidos por partido).",
+   "Cincinnati suma 59 goles a favor y 70 en contra en la temporada; D.C. United recibió 51.",
+   "Las casas de apuestas ponen la línea de goles en 3.",
+   "Fuentes: tablas de local y visitante de la MLS (SoccerSTATS) y Doc's Sports."],
+ 'Chapecoense|Fluminense':["Chapecoense en casa recibe 2,4 goles por partido (33 en 14).",
+   "Chapecoense es 20.ª con 18 puntos y 3 derrotas seguidas; Fluminense 5.º con 51 puntos, en pelea por la Libertadores.",
+   "Fluminense fuera: 1,3 goles a favor y 1,5 en contra por partido (15 partidos).",
+   "Fuentes: tabla del Brasileirão 2026 (local y visitante) y Valor Final."],
+}

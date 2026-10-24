@@ -2,18 +2,19 @@
  "fecha": "2026-10-24",
  "ultima_ejecucion": "2026-10-24 05:10 ECU",
  "ultima_ok": "2026-10-24 05:10 ECU",
- "rutina_diaria": "en_curso",
+ "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-24 05:25 ECU",
  "pendientes": [
-  "Rutina diaria del 24-oct: corre a las 05:24 ECU; si a las 08:00 falta data/2026-10-24/pronosticos.json, la recupera el refresco horario (incluye auditoría oficial y Galería del 23).",
   "Sin actividad en main entre 2026-10-21 07:29 y 2026-10-23 16:13 ECU: no corrieron la rutina del 22 ni la de las 05:24 del 23 ni los refrescos horarios.",
   "Resultados y auditoría oficial del 2026-10-21 (9 partidos) sin hacer; Galería sin la entrada del 21. MEX del 21 ya conocidos (fuente jointly.mx): Toluca 2-2 Tijuana, Atlas 2-5 América, Puebla 1-4 Monterrey, Pachuca 1-2 Cruz Azul, Santos 2-0 Pumas; faltan Levante-Athletic, Cincinnati-DC United, Llaneros-Cali y Santa Fe-Jaguares.",
   "datos.py: sumar los partidos del mié 21 de ESP/USA/COL (Levante-Athletic, Cincinnati-DC, Llaneros-Cali, Santa Fe-Jaguares) antes de pronosticar esas ligas.",
-  "Kit de redes del 23-oct no generado (rutina recuperada por la tarde, sin tiempo).",
   "LLEGAN (Cómo llegan) del 23-oct vacío.",
   "SportyTrader no accesible (WebFetch pide permiso): calendario del 23 tomado de RPP, TUDN, Minuto Uno y Valor Final.",
   "Kit de redes del 16-oct no generado; auditoría oficial de 2026-10-12 sigue sin hacerse.",
-  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso (00:11, 01:10, 02:10, 03:10, 04:10 y 05:10 del 24); no se cuenta como fallo de deploy porque no hubo lectura. Aviso 'bloqueo' ya enviado a las 03:10 (una vez por día)."
+  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso (00:11, 01:10, 02:10, 03:10, 04:10 y 05:10 del 24); no se cuenta como fallo de deploy porque no hubo lectura. Aviso 'bloqueo' ya enviado a las 03:10 (una vez por día).",
+  "Auditoría oficial y Galería del 2026-10-21 siguen pendientes: falta el resultado verificado de Santa Fe–Jaguares (mié 21); el resto ya tiene fuente (MEX en jointly.mx, Levante 3-1 Athletic en Football Web Pages, Cincinnati 2-1 DC United y Llaneros 0-3 Cali en Fútbol Total).",
+  "datos.py: sumar Santa Fe–Jaguares (COL, mié 21), IDV–Católica (ECU, vie 23) y los partidos de COL/PER sin cargar antes de pronosticar esas ligas; PER aún sin la fecha 12 completa.",
+  "Liga Portugal sin tablas casa/fuera en datos.py."
  ],
  "deploy": {
   "ok": null,
@@ -23,5 +24,5 @@
  "avisos_enviados": [
   "bloqueo"
  ],
- "nota": "05:10: aún sin pronósticos del 24 (antes de las 08:00 ECU; la rutina diaria corre a las 05:24); refresco.py no corre sin pronosticos.json. Jornada del 23 cerrada a las 00:11."
+ "nota": "06:08: rutina diaria del 24 hecha (05:25–06:08 ECU): 55 pronósticos sellados a las 05:59, auditoría y Galería del 23, kit de redes (partido del día Augsburg–Union Berlin)."
 }

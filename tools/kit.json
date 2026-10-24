@@ -1,35 +1,45 @@
 {
- "local": "Pachuca",
- "fecha_larga": "Miércoles 21 de octubre de 2026",
- "desde": "05:33",
+ "local": "Augsburg",
+ "fecha_larga": "Sábado 24 de octubre de 2026",
+ "desde": "05:59",
  "contexto": [
-  "Estadio Hidalgo · jornada 13 del Apertura (Fútbol Total).",
-  "Cruz Azul: 5-0 a Juárez y dos 3-3 en sus últimos 5; Pachuca: 3-3 con Necaxa y 2-2 con Tijuana (Fútbol Total)."
+  "Union Berlin perdió 7-0 en Múnich y 4-0 en Leverkusen fuera de casa (Fútbol Total).",
+  "Los 4 últimos partidos de Bundesliga de Augsburg: 4-3, 2-2, 3-2 y 2-2 (Fútbol Total)."
  ],
  "auditoria": {
-  "titulo": "Martes 20 de octubre · 8 partidos auditados con resultado final y fuente",
+  "titulo": "Viernes 23 de octubre · 5 partidos auditados con resultado final y fuente",
   "tiles": [
    [
-    "0/1",
+    "1/1",
     "Partido del día · Over 1.5",
-    ""
-   ],
-   [
-    "3/6",
-    "Over 1.5 de 70 % o más (50 %)",
-    ""
-   ],
-   [
-    "5/8",
-    "Over 1.5 en todos los partidos",
     "verde"
    ],
    [
-    "102/134",
-    "Galería: Over 1.5 de 70 % o más (76 %)",
+    "1/3",
+    "Over 1.5 de 70 % o más (33 %)",
+    ""
+   ],
+   [
+    "1/5",
+    "Marcadores exactos (Necaxa 1-1)",
+    "dor"
+   ],
+   [
+    "103/137",
+    "Galería: Over 1.5 de 70 % o más (75 %)",
     "dor"
    ]
   ],
-  "nota": "Partido del día: Chivas 1-0 Necaxa ✘ (dimos Over 1.5 al 84 %; hubo 1 gol). También fallaron Cúcuta 1-0 Atlético Nacional (83 %; 1 gol) y FC Juárez 0-1 Atlante (73 %; 1 gol). Acertamos Inter Bogotá 2-1 Fortaleza (3 goles), San Luis 2-1 Querétaro (3 goles), Tigres 0-2 León, Millonarios 1-1 Once Caldas y Pereira 2-0 Chicó (2 goles). Publicamos aciertos y fallos."
+  "nota": "Partido del día: Necaxa 1-1 FC Juárez ✔ (dimos Over 1.5 al 83 %; hubo 2 goles y fue el marcador exacto). Fallaron Atlante 0-1 Atlético San Luis (81 %; 1 gol) y Cruzeiro 1-0 Remo (80 %; 1 gol). Acertamos también Gimnasia Mendoza 1-2 Platense (66 %; 3 goles). Publicamos aciertos y fallos."
+ },
+ "acierto": {
+  "fecha": "viernes 23 de octubre",
+  "local": "Necaxa",
+  "visita": "Juarez",
+  "liga": "Liga MX · jornada 14 del Apertura 2026",
+  "resultado": "1-1",
+  "over15": 83.3,
+  "goles": "2",
+  "sellado": "16:18 ECU del 23-oct"
  }
 }

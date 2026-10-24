@@ -690,3 +690,6 @@ LLEGAN={
    "Utrecht ganó 1-2 en Twente y PEC Zwolle goleó 4-1 a Go Ahead Eagles el domingo 18.",
    "Fuentes: tabla de la Eredivisie 2026-27 (Sports Mole y Football Web Pages, partido a partido)."],
 }
+LINK['Augsburg|Union Berlin']=("Augsburg vs Union Berlin: ficha, forma e historial de la jornada 7","Fútbol Total","https://futboltotal.futbol/partido/fc-augsburg-vs-union-berlin-bundesliga-2026-10-24")
+LLEGAN['Augsburg|Union Berlin'][2]="Union perdió 7-0 en Múnich y 4-0 en Leverkusen; los 4 últimos partidos de Bundesliga de Augsburg tuvieron 4 goles o más (4-3, 2-2, 3-2 y 2-2)."
+LLEGAN['Augsburg|Union Berlin'][3]="Fuentes: tabla de la Bundesliga 2026-27 (Sports Mole y Football Web Pages, partido a partido) y ficha de Fútbol Total."

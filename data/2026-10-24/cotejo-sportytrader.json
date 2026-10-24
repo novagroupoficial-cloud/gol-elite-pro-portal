@@ -1,0 +1,20 @@
+{
+ "fecha": "2026-10-24",
+ "cotejado": "2026-10-24 09:25 ECU",
+ "fuente": "capturas de SportyTrader enviadas por Marco (partidos principales del día)",
+ "coinciden": 29,
+ "hora_corregida": [
+  "Monterrey vs Guadalajara: 19:00 -> 20:00",
+  "Pumas UNAM vs Tigres UANL: 21:00 -> 22:10"
+ ],
+ "agregados": [
+  "América de Cali vs Cúcuta 18:05 (82,7 %)",
+  "Once Caldas vs Deportivo Pereira 20:15 (67,1 %)"
+ ],
+ "sin_pronostico": [
+  "Sport Huancayo vs Alianza Atlético 12:45",
+  "Cusco FC vs Sporting Cristal 15:15",
+  "Universitario vs Juan Pablo II 20:30 (Liga 1 Perú: tabla de local y visitante con corte 17-oct, sin verificar la fecha más reciente)"
+ ],
+ "solo_nuestros": "Boyacá Chicó vs Bucaramanga y Junior vs Águilas Doradas no aparecen en las capturas (Marco envió solo los principales): no es discrepancia."
+}

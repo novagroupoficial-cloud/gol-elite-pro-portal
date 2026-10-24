@@ -1,6 +1,6 @@
 {
  "fecha": "2026-10-24",
- "actualizado": "2026-10-24 09:11 ECU (UTC-5)",
+ "actualizado": "2026-10-24 09:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-24/pronosticos.json",
@@ -8,7 +8,7 @@
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
   "terminados": 1,
-  "total": 55,
+  "total": 57,
   "over15_70": [
    1,
    1
@@ -277,7 +277,7 @@
     "gc": 5
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -334,6 +334,32 @@
   },
   {
    "puesto": 19,
+   "hora_ecuador": "18:05",
+   "liga": "Liga BetPlay",
+   "local": "América de Cali",
+   "visitante": "Cúcuta",
+   "over15": 82.7,
+   "over25": 60.9,
+   "marcador": "2-0",
+   "goles_esperados": 3.1,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 7,
+    "gf": 17,
+    "gc": 5
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 5,
+    "gc": 13
+   },
+   "sellado": "2026-10-24 09:16 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 20,
    "hora_ecuador": "19:30",
    "liga": "MLS",
    "local": "Dallas",
@@ -359,7 +385,7 @@
    "resultado": null
   },
   {
-   "puesto": 20,
+   "puesto": 21,
    "hora_ecuador": "19:30",
    "liga": "MLS",
    "local": "Real Salt Lake",
@@ -385,7 +411,7 @@
    "resultado": null
   },
   {
-   "puesto": 21,
+   "puesto": 22,
    "hora_ecuador": "11:45",
    "liga": "Eredivisie",
    "local": "Willem II",
@@ -411,7 +437,7 @@
    "resultado": null
   },
   {
-   "puesto": 22,
+   "puesto": 23,
    "hora_ecuador": "06:30",
    "liga": "Premier League",
    "local": "Aston Villa",
@@ -442,7 +468,7 @@
    "fuente": "https://futboltotal.futbol/partido/aston-villa-vs-manchester-city-premier-league-2026-10-24"
   },
   {
-   "puesto": 23,
+   "puesto": 24,
    "hora_ecuador": "19:30",
    "liga": "MLS",
    "local": "Houston Dynamo",
@@ -468,7 +494,7 @@
    "resultado": null
   },
   {
-   "puesto": 24,
+   "puesto": 25,
    "hora_ecuador": "20:00",
    "liga": "Brasileirão",
    "local": "Santos",
@@ -494,7 +520,7 @@
    "resultado": null
   },
   {
-   "puesto": 25,
+   "puesto": 26,
    "hora_ecuador": "13:45",
    "liga": "Serie A",
    "local": "Lazio",
@@ -934,7 +960,7 @@
     "gc": 5
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -991,6 +1017,32 @@
   },
   {
    "puesto": 19,
+   "hora_ecuador": "18:05",
+   "liga": "Liga BetPlay",
+   "local": "América de Cali",
+   "visitante": "Cúcuta",
+   "over15": 82.7,
+   "over25": 60.9,
+   "marcador": "2-0",
+   "goles_esperados": 3.1,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 7,
+    "gf": 17,
+    "gc": 5
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 5,
+    "gc": 13
+   },
+   "sellado": "2026-10-24 09:16 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 20,
    "hora_ecuador": "19:30",
    "liga": "MLS",
    "local": "Dallas",
@@ -1016,7 +1068,7 @@
    "resultado": null
   },
   {
-   "puesto": 20,
+   "puesto": 21,
    "hora_ecuador": "19:30",
    "liga": "MLS",
    "local": "Real Salt Lake",
@@ -1042,7 +1094,7 @@
    "resultado": null
   },
   {
-   "puesto": 21,
+   "puesto": 22,
    "hora_ecuador": "11:45",
    "liga": "Eredivisie",
    "local": "Willem II",
@@ -1068,7 +1120,7 @@
    "resultado": null
   },
   {
-   "puesto": 22,
+   "puesto": 23,
    "hora_ecuador": "06:30",
    "liga": "Premier League",
    "local": "Aston Villa",
@@ -1099,7 +1151,7 @@
    "fuente": "https://futboltotal.futbol/partido/aston-villa-vs-manchester-city-premier-league-2026-10-24"
   },
   {
-   "puesto": 23,
+   "puesto": 24,
    "hora_ecuador": "19:30",
    "liga": "MLS",
    "local": "Houston Dynamo",
@@ -1125,7 +1177,7 @@
    "resultado": null
   },
   {
-   "puesto": 24,
+   "puesto": 25,
    "hora_ecuador": "20:00",
    "liga": "Brasileirão",
    "local": "Santos",
@@ -1151,7 +1203,7 @@
    "resultado": null
   },
   {
-   "puesto": 25,
+   "puesto": 26,
    "hora_ecuador": "13:45",
    "liga": "Serie A",
    "local": "Lazio",
@@ -1177,7 +1229,7 @@
    "resultado": null
   },
   {
-   "puesto": 26,
+   "puesto": 27,
    "hora_ecuador": "08:00",
    "liga": "Serie A",
    "local": "Como",
@@ -1203,7 +1255,7 @@
    "resultado": null
   },
   {
-   "puesto": 27,
+   "puesto": 28,
    "hora_ecuador": "07:00",
    "liga": "LaLiga",
    "local": "Rayo Vallecano",
@@ -1229,7 +1281,7 @@
    "resultado": null
   },
   {
-   "puesto": 28,
+   "puesto": 29,
    "hora_ecuador": "18:30",
    "liga": "MLS",
    "local": "Philadelphia",
@@ -1255,7 +1307,7 @@
    "resultado": null
   },
   {
-   "puesto": 29,
+   "puesto": 30,
    "hora_ecuador": "13:45",
    "liga": "Ligue 1",
    "local": "Lens",
@@ -1281,7 +1333,7 @@
    "resultado": null
   },
   {
-   "puesto": 30,
+   "puesto": 31,
    "hora_ecuador": "21:30",
    "liga": "MLS",
    "local": "San Diego",
@@ -1307,8 +1359,8 @@
    "resultado": null
   },
   {
-   "puesto": 31,
-   "hora_ecuador": "19:00",
+   "puesto": 32,
+   "hora_ecuador": "20:00",
    "liga": "Liga MX",
    "local": "Monterrey",
    "visitante": "Guadalajara",
@@ -1333,8 +1385,8 @@
    "resultado": null
   },
   {
-   "puesto": 32,
-   "hora_ecuador": "21:00",
+   "puesto": 33,
+   "hora_ecuador": "22:10",
    "liga": "Liga MX",
    "local": "Pumas UNAM",
    "visitante": "Tigres UANL",
@@ -1359,7 +1411,7 @@
    "resultado": null
   },
   {
-   "puesto": 33,
+   "puesto": 34,
    "hora_ecuador": "20:10",
    "liga": "Liga BetPlay",
    "local": "Junior",
@@ -1385,7 +1437,7 @@
    "resultado": null
   },
   {
-   "puesto": 34,
+   "puesto": 35,
    "hora_ecuador": "20:30",
    "liga": "MLS",
    "local": "Colorado Rapids",
@@ -1411,7 +1463,7 @@
    "resultado": null
   },
   {
-   "puesto": 35,
+   "puesto": 36,
    "hora_ecuador": "14:30",
    "liga": "Brasileirão",
    "local": "Internacional",
@@ -1437,7 +1489,7 @@
    "resultado": null
   },
   {
-   "puesto": 36,
+   "puesto": 37,
    "hora_ecuador": "18:30",
    "liga": "MLS",
    "local": "Orlando City",
@@ -1463,7 +1515,7 @@
    "resultado": null
   },
   {
-   "puesto": 37,
+   "puesto": 38,
    "hora_ecuador": "11:30",
    "liga": "LaLiga",
    "local": "Valencia",
@@ -1489,7 +1541,7 @@
    "resultado": null
   },
   {
-   "puesto": 38,
+   "puesto": 39,
    "hora_ecuador": "18:00",
    "liga": "Liga BetPlay",
    "local": "Boyacá Chicó",
@@ -1515,7 +1567,7 @@
    "resultado": null
   },
   {
-   "puesto": 39,
+   "puesto": 40,
    "hora_ecuador": "09:00",
    "liga": "Premier League",
    "local": "Arsenal",
@@ -1541,7 +1593,7 @@
    "resultado": null
   },
   {
-   "puesto": 40,
+   "puesto": 41,
    "hora_ecuador": "16:30",
    "liga": "Brasileirão",
    "local": "Vasco da Gama",
@@ -1567,7 +1619,7 @@
    "resultado": null
   },
   {
-   "puesto": 41,
+   "puesto": 42,
    "hora_ecuador": "14:30",
    "liga": "Brasileirão",
    "local": "Vitória",
@@ -1593,7 +1645,7 @@
    "resultado": null
   },
   {
-   "puesto": 42,
+   "puesto": 43,
    "hora_ecuador": "09:00",
    "liga": "Premier League",
    "local": "Coventry City",
@@ -1619,7 +1671,7 @@
    "resultado": null
   },
   {
-   "puesto": 43,
+   "puesto": 44,
    "hora_ecuador": "12:45",
    "liga": "Liga Profesional",
    "local": "Banfield",
@@ -1645,7 +1697,7 @@
    "resultado": null
   },
   {
-   "puesto": 44,
+   "puesto": 45,
    "hora_ecuador": "14:00",
    "liga": "LigaPro",
    "local": "Orense",
@@ -1671,7 +1723,7 @@
    "resultado": null
   },
   {
-   "puesto": 45,
+   "puesto": 46,
    "hora_ecuador": "19:30",
    "liga": "Liga Profesional",
    "local": "Rosario Central",
@@ -1697,7 +1749,7 @@
    "resultado": null
   },
   {
-   "puesto": 46,
+   "puesto": 47,
    "hora_ecuador": "14:30",
    "liga": "Brasileirão",
    "local": "Mirassol",
@@ -1723,7 +1775,7 @@
    "resultado": null
   },
   {
-   "puesto": 47,
+   "puesto": 48,
    "hora_ecuador": "15:00",
    "liga": "Liga Profesional",
    "local": "Talleres Cordoba",
@@ -1749,7 +1801,33 @@
    "resultado": null
   },
   {
-   "puesto": 48,
+   "puesto": 49,
+   "hora_ecuador": "20:15",
+   "liga": "Liga BetPlay",
+   "local": "Once Caldas",
+   "visitante": "Deportivo Pereira",
+   "over15": 67.1,
+   "over25": 39.4,
+   "marcador": "1-1",
+   "goles_esperados": 2.3,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 9,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 5,
+    "gc": 9
+   },
+   "sellado": "2026-10-24 09:16 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 50,
    "hora_ecuador": "11:00",
    "liga": "Serie A",
    "local": "Napoli",
@@ -1775,7 +1853,7 @@
    "resultado": null
   },
   {
-   "puesto": 49,
+   "puesto": 51,
    "hora_ecuador": "14:30",
    "liga": "MLS",
    "local": "Columbus Crew",
@@ -1801,7 +1879,7 @@
    "resultado": null
   },
   {
-   "puesto": 50,
+   "puesto": 52,
    "hora_ecuador": "16:30",
    "liga": "Brasileirão",
    "local": "Palmeiras",
@@ -1827,7 +1905,7 @@
    "resultado": null
   },
   {
-   "puesto": 51,
+   "puesto": 53,
    "hora_ecuador": "12:30",
    "liga": "MLS",
    "local": "CF Montreal",
@@ -1853,7 +1931,7 @@
    "resultado": null
   },
   {
-   "puesto": 52,
+   "puesto": 54,
    "hora_ecuador": "16:30",
    "liga": "LigaPro",
    "local": "LDU Quito",
@@ -1879,7 +1957,7 @@
    "resultado": null
   },
   {
-   "puesto": 53,
+   "puesto": 55,
    "hora_ecuador": "08:00",
    "liga": "Serie A",
    "local": "Cagliari",
@@ -1905,7 +1983,7 @@
    "resultado": null
   },
   {
-   "puesto": 54,
+   "puesto": 56,
    "hora_ecuador": "11:30",
    "liga": "LigaPro",
    "local": "Manta",
@@ -1931,7 +2009,7 @@
    "resultado": null
   },
   {
-   "puesto": 55,
+   "puesto": 57,
    "hora_ecuador": "17:15",
    "liga": "Liga Profesional",
    "local": "San Lorenzo",

@@ -1209,6 +1209,37 @@
   "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24 del 24-oct); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)"
  },
  {
+  "hora": "18:05",
+  "liga": "COL",
+  "local": "América de Cali",
+  "visita": "Cúcuta",
+  "casa": [
+   7,
+   17,
+   5
+  ],
+  "fuera": [
+   7,
+   5,
+   13
+  ],
+  "HG": 1.4,
+  "AG": 1.16,
+  "lambda_local": 2.48,
+  "lambda_visita": 0.66,
+  "goles_esperados": 3.1,
+  "over15": 82.7,
+  "over25": 60.9,
+  "under25": 39.1,
+  "marcador": "2-0",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "sellado": "2026-10-24 09:16 ECU (UTC-5)",
+  "rango_clasico": "Rango 80",
+  "fuente_datos": "tablas casa/fuera de tools/datos.py, las mismas usadas en la rutina del 24-oct (bloque SAB24). Partido agregado a las 09:16 ECU por cotejo con las capturas de SportyTrader que envió Marco (no estaba en el calendario de la rutina); sellado antes del inicio."
+ },
+ {
   "hora": "18:30",
   "liga": "USA",
   "local": "Orlando City",
@@ -1330,37 +1361,6 @@
   "aviso_mercado": null,
   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
   "rango_clasico": "Rango 80",
-  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24 del 24-oct); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)"
- },
- {
-  "hora": "19:00",
-  "liga": "MEX",
-  "local": "Monterrey",
-  "visita": "Guadalajara",
-  "casa": [
-   6,
-   13,
-   7
-  ],
-  "fuera": [
-   6,
-   9,
-   5
-  ],
-  "HG": 1.56,
-  "AG": 1.43,
-  "lambda_local": 1.39,
-  "lambda_visita": 1.31,
-  "goles_esperados": 2.7,
-  "over15": 76.1,
-  "over25": 50.6,
-  "under25": 49.4,
-  "marcador": "1-1",
-  "categoria": "GOLES OPTIMISTAS",
-  "senal_o25": "sin señal",
-  "aviso_mercado": null,
-  "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-  "rango_clasico": "Rango 70",
   "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24 del 24-oct); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)"
  },
  {
@@ -1520,6 +1520,38 @@
  },
  {
   "hora": "20:00",
+  "liga": "MEX",
+  "local": "Monterrey",
+  "visita": "Guadalajara",
+  "casa": [
+   6,
+   13,
+   7
+  ],
+  "fuera": [
+   6,
+   9,
+   5
+  ],
+  "HG": 1.56,
+  "AG": 1.43,
+  "lambda_local": 1.39,
+  "lambda_visita": 1.31,
+  "goles_esperados": 2.7,
+  "over15": 76.1,
+  "over25": 50.6,
+  "under25": 49.4,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+  "rango_clasico": "Rango 70",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24 del 24-oct); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)",
+  "nota_hora": "Hora corregida de 19:00 a 20:00 ECU según SportyTrader (cotejo de Marco, 24-oct 09:15). Probabilidades sin cambios."
+ },
+ {
+  "hora": "20:00",
   "liga": "BRA",
   "local": "Santos",
   "visita": "Bahia",
@@ -1581,6 +1613,37 @@
   "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24 del 24-oct); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)"
  },
  {
+  "hora": "20:15",
+  "liga": "COL",
+  "local": "Once Caldas",
+  "visita": "Deportivo Pereira",
+  "casa": [
+   6,
+   9,
+   7
+  ],
+  "fuera": [
+   7,
+   5,
+   9
+  ],
+  "HG": 1.4,
+  "AG": 1.16,
+  "lambda_local": 1.38,
+  "lambda_visita": 0.88,
+  "goles_esperados": 2.3,
+  "over15": 67.1,
+  "over25": 39.4,
+  "under25": 60.6,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-24 09:16 ECU (UTC-5)",
+  "rango_clasico": "Menos de 70",
+  "fuente_datos": "tablas casa/fuera de tools/datos.py, las mismas usadas en la rutina del 24-oct (bloque SAB24). Partido agregado a las 09:16 ECU por cotejo con las capturas de SportyTrader que envió Marco (no estaba en el calendario de la rutina); sellado antes del inicio."
+ },
+ {
   "hora": "20:30",
   "liga": "USA",
   "local": "Colorado Rapids",
@@ -1603,37 +1666,6 @@
   "over15": 75.4,
   "over25": 49.7,
   "under25": 50.3,
-  "marcador": "1-1",
-  "categoria": "GOLES OPTIMISTAS",
-  "senal_o25": "sin señal",
-  "aviso_mercado": null,
-  "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-  "rango_clasico": "Rango 70",
-  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24 del 24-oct); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)"
- },
- {
-  "hora": "21:00",
-  "liga": "MEX",
-  "local": "Pumas UNAM",
-  "visita": "Tigres UANL",
-  "casa": [
-   6,
-   9,
-   11
-  ],
-  "fuera": [
-   7,
-   5,
-   11
-  ],
-  "HG": 1.56,
-  "AG": 1.43,
-  "lambda_local": 1.53,
-  "lambda_visita": 1.14,
-  "goles_esperados": 2.7,
-  "over15": 75.6,
-  "over25": 49.9,
-  "under25": 50.1,
   "marcador": "1-1",
   "categoria": "GOLES OPTIMISTAS",
   "senal_o25": "sin señal",
@@ -1703,5 +1735,37 @@
   "sellado": "2026-10-24 05:59 ECU (UTC-5)",
   "rango_clasico": "GOL ÉLITE",
   "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24 del 24-oct); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)"
+ },
+ {
+  "hora": "22:10",
+  "liga": "MEX",
+  "local": "Pumas UNAM",
+  "visita": "Tigres UANL",
+  "casa": [
+   6,
+   9,
+   11
+  ],
+  "fuera": [
+   7,
+   5,
+   11
+  ],
+  "HG": 1.56,
+  "AG": 1.43,
+  "lambda_local": 1.53,
+  "lambda_visita": 1.14,
+  "goles_esperados": 2.7,
+  "over15": 75.6,
+  "over25": 49.9,
+  "under25": 50.1,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-24 05:59 ECU (UTC-5)",
+  "rango_clasico": "Rango 70",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24 del 24-oct); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)",
+  "nota_hora": "Hora corregida de 21:00 a 22:10 ECU según SportyTrader (cotejo de Marco, 24-oct 09:15). Probabilidades sin cambios."
  }
 ]

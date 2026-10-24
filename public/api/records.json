@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 13:15 ECU",
+ "actualizado": "2026-10-24 14:12 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 169,
+ "partidos": 171,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -20,30 +20,30 @@
   },
   "GOLES PLATINO": {
    "aciertos": 14,
-   "partidos": 15
+   "partidos": 16
   },
   "GOLES ESTÁNDAR": {
    "aciertos": 40,
    "partidos": 60
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 74,
-   "partidos": 91
+   "aciertos": 75,
+   "partidos": 92
   }
  },
  "over90": {
   "aciertos": 17,
-  "partidos": 18,
-  "racha_actual": 14,
+  "partidos": 19,
+  "racha_actual": 0,
   "racha_max": 14
  },
  "over80": {
   "aciertos": 57,
-  "partidos": 78
+  "partidos": 79
  },
  "over25_senal": {
   "aciertos": 21,
-  "partidos": 32
+  "partidos": 33
  },
  "partido_del_dia": {
   "aciertos": 6,
@@ -129,7 +129,7 @@
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 15,
+   "partidos": 16,
    "aciertos": 14,
    "prometido": 91.9
   },
@@ -141,8 +141,8 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 56,
-   "aciertos": 44,
+   "partidos": 57,
+   "aciertos": 45,
    "prometido": 74.5
   },
   {
@@ -172,6 +172,15 @@
     "resultado": "1-1",
     "goles": 2,
     "acierto": true
+   },
+   {
+    "hora": "11:30",
+    "local": "Borussia Dortmund",
+    "visita": "Eintracht Frankfurt",
+    "over15": 91.7,
+    "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
    },
    {
     "hora": "08:30",
@@ -242,6 +251,15 @@
     "visita": "Elche",
     "over15": 79.5,
     "resultado": "0-3",
+    "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "11:30",
+    "local": "Valencia",
+    "visita": "Villarreal",
+    "over15": 73.4,
+    "resultado": "1-2",
     "goles": 3,
     "acierto": true
    },

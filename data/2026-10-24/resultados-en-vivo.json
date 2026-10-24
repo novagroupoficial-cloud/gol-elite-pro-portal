@@ -214,5 +214,35 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/napoli-vs-as-roma-serie-a-2026-10-24",
   "registrado": "13:15 ECU"
+ },
+ {
+  "local": "Valencia",
+  "visita": "Villarreal",
+  "hora": "11:30",
+  "resultado": "1-2",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 73.4,
+  "over25_dado": 47.2,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.footballwebpages.co.uk/match/2026-2027/spanish-la-liga/valencia/villarreal/593788",
+  "registrado": "14:10 ECU"
+ },
+ {
+  "local": "Borussia Dortmund",
+  "visita": "Eintracht Frankfurt",
+  "hora": "11:30",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 91.7,
+  "over25_dado": 76.9,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/borussia-dortmund-vs-eintracht-frankfurt-bundesliga-2026-10-24",
+  "registrado": "14:10 ECU"
  }
 ]

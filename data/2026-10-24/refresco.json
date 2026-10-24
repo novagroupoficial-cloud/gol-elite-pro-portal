@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-24",
- "ultima_ejecucion": "2026-10-24 03:10 ECU",
- "ultima_ok": "2026-10-24 03:10 ECU",
+ "ultima_ejecucion": "2026-10-24 04:10 ECU",
+ "ultima_ok": "2026-10-24 04:10 ECU",
  "rutina_diaria": "pendiente",
  "rutina_diaria_inicio": null,
  "pendientes": [
@@ -13,15 +13,15 @@
   "LLEGAN (Cómo llegan) del 23-oct vacío.",
   "SportyTrader no accesible (WebFetch pide permiso): calendario del 23 tomado de RPP, TUDN, Minuto Uno y Valor Final.",
   "Kit de redes del 16-oct no generado; auditoría oficial de 2026-10-12 sigue sin hacerse.",
-  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso (00:11, 01:10, 02:10 y 03:10 del 24); no se cuenta como fallo de deploy porque no hubo lectura. Aviso 'bloqueo' enviado a las 03:10."
+  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso (00:11, 01:10, 02:10, 03:10 y 04:10 del 24); no se cuenta como fallo de deploy porque no hubo lectura. Aviso 'bloqueo' ya enviado a las 03:10 (una vez por día)."
  ],
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "03:10 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
+  "ultima_revision": "04:10 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
  },
  "avisos_enviados": [
   "bloqueo"
  ],
- "nota": "03:10: aún sin pronósticos del 24 (antes de las 08:00 ECU); ranking del día se genera cuando exista pronosticos.json. Jornada del 23 cerrada a las 00:11."
+ "nota": "04:10: aún sin pronósticos del 24 (antes de las 08:00 ECU); refresco.py no corre sin pronosticos.json. Jornada del 23 cerrada a las 00:11."
 }

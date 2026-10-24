@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 17:14 ECU",
+ "actualizado": "2026-10-24 18:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 181,
+ "partidos": 185,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -27,8 +27,8 @@
    "partidos": 65
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 80,
-   "partidos": 97
+   "aciertos": 84,
+   "partidos": 101
   }
  },
  "over90": {
@@ -141,15 +141,15 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 59,
-   "aciertos": 47,
-   "prometido": 74.5
+   "partidos": 62,
+   "aciertos": 50,
+   "prometido": 74.3
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 38,
-   "aciertos": 33,
-   "prometido": 61.5
+   "partidos": 39,
+   "aciertos": 34,
+   "prometido": 61.0
   }
  ],
  "ultima_jornada": {
@@ -309,6 +309,15 @@
     "acierto": true
    },
    {
+    "hora": "14:30",
+    "local": "Internacional",
+    "visita": "Botafogo",
+    "over15": 74.1,
+    "resultado": "3-0",
+    "goles": 3,
+    "acierto": true
+   },
+   {
     "hora": "11:30",
     "local": "Valencia",
     "visita": "Villarreal",
@@ -323,6 +332,15 @@
     "visita": "Everton",
     "over15": 72.8,
     "resultado": "2-0",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "14:30",
+    "local": "Vitória",
+    "visita": "Athletico-PR",
+    "over15": 72.4,
+    "resultado": "1-1",
     "goles": 2,
     "acierto": true
    },
@@ -342,6 +360,15 @@
     "over15": 70.7,
     "resultado": "1-1",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "14:00",
+    "local": "Orense",
+    "visita": "Delfín",
+    "over15": 69.7,
+    "resultado": "4-0",
+    "goles": 4,
     "acierto": true
    },
    {
@@ -385,6 +412,15 @@
     "local": "Cagliari",
     "visita": "Bologna",
     "over15": 56.1,
+    "resultado": "0-2",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "11:30",
+    "local": "Manta",
+    "visita": "Deportivo Cuenca",
+    "over15": 40.7,
     "resultado": "0-2",
     "goles": 2,
     "acierto": true

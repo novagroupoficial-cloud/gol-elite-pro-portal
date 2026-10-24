@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-24",
- "actualizado": "2026-10-24 17:14 ECU (UTC-5)",
+ "actualizado": "2026-10-24 18:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-24/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 26,
+  "terminados": 30,
   "total": 57,
   "over15_70": [
-   16,
-   21
+   18,
+   23
   ],
   "over25_senal": [
    3,
    8
   ],
-  "marcadores_exactos": 1
+  "marcadores_exactos": 2
  },
  "rango_80_90": [
   {
@@ -162,7 +162,7 @@
     "gc": 23
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -369,7 +369,7 @@
     "gc": 7
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -395,7 +395,7 @@
     "gc": 13
    },
    "sellado": "2026-10-24 09:16 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -910,7 +910,7 @@
     "gc": 23
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1117,7 +1117,7 @@
     "gc": 7
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1143,7 +1143,7 @@
     "gc": 13
    },
    "sellado": "2026-10-24 09:16 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1615,8 +1615,13 @@
     "gc": 26
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-0",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.terra.com.br/esportes/futebol/internacional-vence-o-botafogo-e-deixa-o-z4-do-brasileirao,4e8b044f12ff708025a0746fcaf42ec09kjalil8.html"
   },
   {
    "puesto": 37,
@@ -1698,7 +1703,7 @@
     "gc": 5
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1781,8 +1786,13 @@
     "gc": 22
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://aratuon.com.br/futebol/com-gols-no-primeiro-tempo-vitoria-e-athletico-pr-empatam-em-1-a-1-no-barradao/"
   },
   {
    "puesto": 43,
@@ -1869,8 +1879,13 @@
     "gc": 22
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-0",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.eluniverso.com/deportes/campeonato-ecuatoriano/orense-golea-4-0-a-delfin-y-lo-supera-en-la-tabla-de-descenso-de-la-liga-ecuabet-2026-nota/"
   },
   {
    "puesto": 46,
@@ -2180,8 +2195,13 @@
     "gc": 19
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.eluniverso.com/deportes/campeonato-ecuatoriano/deportivo-cuenca-vence-2-0-al-manta-fc-que-sigue-ultimo-en-el-hexagonal-por-la-permanencia-de-la-liga-ecuabet-2026-nota/"
   },
   {
    "puesto": 57,
@@ -2206,7 +2226,7 @@
     "gc": 5
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   }
  ],

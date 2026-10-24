@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 08:10 ECU",
+ "actualizado": "2026-10-24 09:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -8,9 +8,10 @@
   "2026-10-18",
   "2026-10-19",
   "2026-10-20",
-  "2026-10-23"
+  "2026-10-23",
+  "2026-10-24"
  ],
- "partidos": 155,
+ "partidos": 156,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -22,8 +23,8 @@
    "partidos": 13
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 34,
-   "partidos": 52
+   "aciertos": 35,
+   "partidos": 53
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 71,
@@ -37,8 +38,8 @@
   "racha_max": 12
  },
  "over80": {
-  "aciertos": 49,
-  "partidos": 68
+  "aciertos": 50,
+  "partidos": 69
  },
  "over25_senal": {
   "aciertos": 19,
@@ -134,8 +135,8 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 52,
-   "aciertos": 34,
+   "partidos": 53,
+   "aciertos": 35,
    "prometido": 83.4
   },
   {
@@ -152,52 +153,16 @@
   }
  ],
  "ultima_jornada": {
-  "fecha": "2026-10-23",
+  "fecha": "2026-10-24",
   "partidos": [
    {
-    "hora": "20:00",
-    "local": "Necaxa",
-    "visita": "Juarez",
-    "over15": 83.3,
-    "resultado": "1-1",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "22:00",
-    "local": "Atlante",
-    "visita": "A. San Luis",
-    "over15": 80.6,
-    "resultado": "0-1",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "18:00",
-    "local": "Cruzeiro",
-    "visita": "Remo",
-    "over15": 79.6,
-    "resultado": "1-0",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "16:30",
-    "local": "Gimnasia Mendoza",
-    "visita": "Platense",
-    "over15": 66.1,
-    "resultado": "1-2",
+    "hora": "06:30",
+    "local": "Aston Villa",
+    "visita": "Manchester City",
+    "over15": 80.9,
+    "resultado": "2-1",
     "goles": 3,
     "acierto": true
-   },
-   {
-    "hora": "19:15",
-    "local": "Tigre",
-    "visita": "Atletico Tucuman",
-    "over15": 40.8,
-    "resultado": "0-1",
-    "goles": 1,
-    "acierto": false
    }
   ]
  }

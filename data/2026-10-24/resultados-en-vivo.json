@@ -1,0 +1,17 @@
+[
+ {
+  "local": "Aston Villa",
+  "visita": "Manchester City",
+  "hora": "06:30",
+  "resultado": "2-1",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 80.9,
+  "over25_dado": 57.8,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/aston-villa-vs-manchester-city-premier-league-2026-10-24",
+  "registrado": "09:10 ECU"
+ }
+]

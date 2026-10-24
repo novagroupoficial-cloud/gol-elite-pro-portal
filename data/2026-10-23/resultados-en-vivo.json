@@ -13,5 +13,20 @@
   "marcador_exacto": false,
   "fuente": "https://www.diariouno.com.ar/ovacion/futbol/gimnasia-y-esgrima-no-pudo-aguantarlo-y-platense-se-lo-dio-vuelta-el-final-n1609628",
   "registrado": "19:16 ECU"
+ },
+ {
+  "local": "Cruzeiro",
+  "visita": "Remo",
+  "hora": "18:00",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 79.6,
+  "over25_dado": 55.8,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.diarioceleste.com.br/noticias-do-cruzeiro/cruzeiro-vence-o-remo-em-casa-e-assume-o-terceiro-lugar-do-brasileirao/",
+  "registrado": "20:14 ECU"
  }
 ]

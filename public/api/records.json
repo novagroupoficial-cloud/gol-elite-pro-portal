@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23 19:16 ECU",
+ "actualizado": "2026-10-23 20:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -10,7 +10,7 @@
   "2026-10-20",
   "2026-10-23"
  ],
- "partidos": 151,
+ "partidos": 152,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -23,7 +23,7 @@
   },
   "GOLES ESTÁNDAR": {
    "aciertos": 33,
-   "partidos": 49
+   "partidos": 50
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 71,
@@ -38,7 +38,7 @@
  },
  "over80": {
   "aciertos": 48,
-  "partidos": 65
+  "partidos": 66
  },
  "over25_senal": {
   "aciertos": 19,
@@ -126,7 +126,7 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 49,
+   "partidos": 50,
    "aciertos": 33,
    "prometido": 83.5
   },
@@ -146,6 +146,15 @@
  "ultima_jornada": {
   "fecha": "2026-10-23",
   "partidos": [
+   {
+    "hora": "18:00",
+    "local": "Cruzeiro",
+    "visita": "Remo",
+    "over15": 79.6,
+    "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
+   },
    {
     "hora": "16:30",
     "local": "Gimnasia Mendoza",

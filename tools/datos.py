@@ -131,6 +131,42 @@ for _lg,_a,_ga,_gb,_b in MIE21:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# ===== Actualización sáb 24-oct-2026 (rutina diaria 05:2x ECU): partidos pendientes del dom 18 (GER/FRA/NED), del mié 21 (ESP/USA/COL) y del vie 23 (todas), local en casa, visitante fuera.
+# Fuentes por liga: GER, ESP, NED, POR -> footballwebpages.co.uk (temporada 2026-2027, fixtures-results/october); FRA -> https://www.vavel.com/en-us/data/ligue-1/results/ ; USA -> https://www.vavel.com/en-us/data/mls/results/ (451 partidos, cuadra con 450+1);
+# viernes 23 de MEX/BRA/ARG -> data/2026-10-23/resultados-en-vivo.json (cada uno con fuente). Pendiente sin sumar: COL Santa Fe–Jaguares (mié 21, sin informe final hallado) e IDV–Católica (ECU, vie 23): no juegan hoy, solo afectan levemente las medias de liga.
+SAB24=[
+ ('MEX','Necaxa',1,1,'Juarez'),  # https://www.foxsports.com.mx/2026/10/23/resumen-video-goles-empate-necaxa-fc-juarez-eliminado-liguilla-liga-mx-hoy/
+ ('MEX','Atlante',0,1,'A. San Luis'),  # https://www.sdpnoticias.com/deportes/san-luis-se-impone-al-atlante-y-mantiene-sus-posibilidades-de-clasificar-a-la-liguilla/
+ ('BRA','Cruzeiro',1,0,'Remo'),  # https://www.diarioceleste.com.br/noticias-do-cruzeiro/cruzeiro-vence-o-remo-em-casa-e-assume-o-terceiro-lugar-do-brasileirao/
+ ('ARG','Gimnasia Mendoza',1,2,'Platense'),  # https://www.diariouno.com.ar/ovacion/futbol/gimnasia-y-esgrima-no-pudo-aguantarlo-y-platense-se-lo-dio-vuelta-el-final-n1609628
+ ('ARG','Tigre',0,1,'Atletico Tucuman'),  # https://www.ellitoral.com/deportes/tigre-atleticotucuman-futbol-afa-ligaprofesional_0_2fUwQBvy0w.html
+ ('ARG','Gimnasia LP',2,0,'Sarmiento'),  # https://futboltotal.futbol/partido/gimnasia-lp-vs-sarmiento-junin-liga-profesional-argentina-2026-10-24
+ ('ENG','Ipswich Town',1,1,'Nottingham Forest'),  # https://futboltotal.futbol/partido/ipswich-vs-nottingham-forest-premier-1557443
+ ('GER','Bayer Leverkusen',2,1,'SC Freiburg'),  # dom 18 · https://www.footballwebpages.co.uk/german-bundesliga/fixtures-results/october
+ ('GER','Borussia Monchengladbach',1,2,'Hoffenheim'),  # dom 18 · idem
+ ('GER','VfB Stuttgart',2,3,'Borussia Monchengladbach'),  # vie 23 · idem
+ ('ESP','Levante',3,1,'Athletic Club'),  # mié 21 · https://www.footballwebpages.co.uk/spanish-la-liga/fixtures-results
+ ('ESP','Alaves',1,1,'Malaga'),  # vie 23 · idem
+ ('ITA','Torino',3,2,'Monza'),  # vie 23 · https://futboltotal.futbol/partido/torino-vs-monza-serie-a-2026-10-23
+ ('FRA','Lyon',2,1,'Nice'),  # dom 18 · https://www.vavel.com/en-us/data/ligue-1/results/
+ ('FRA','Le Havre',1,3,'Auxerre'),  # dom 18 · idem
+ ('FRA','Lorient',1,0,'Monaco'),  # dom 18 · idem
+ ('FRA','Paris FC',4,3,'Rennes'),  # dom 18 · idem
+ ('FRA','Angers',2,5,'Marseille'),  # dom 18 · idem
+ ('FRA','Brest',1,2,'Nice'),  # vie 23 · https://futboltotal.futbol/partido/stade-brestois-29-vs-nice-ligue-1-2026-10-23
+ ('NED','FC Groningen',2,5,'Ajax'),  # dom 18 · https://www.footballwebpages.co.uk/dutch-eredivisie/fixtures-results/october
+ ('NED','FC Twente',1,2,'FC Utrecht'),  # dom 18 · idem
+ ('NED','NEC',2,2,'Fortuna Sittard'),  # dom 18 · idem
+ ('NED','PEC Zwolle',4,1,'Go Ahead Eagles'),  # dom 18 · idem
+ ('NED','Cambuur',2,2,'AZ'),  # dom 18 · idem
+ ('NED','Go Ahead Eagles',3,2,'Telstar'),  # vie 23 · idem
+ ('USA','Cincinnati',2,1,'DC United'),  # mié 21 · https://futboltotal.futbol/partido/fc-cincinnati-vs-dc-united-mls-2026-10-22
+ ('COL','Llaneros',0,3,'Deportivo Cali'),  # mié 21 · https://futboltotal.futbol/partido/llaneros-vs-deportivo-cali-primera-a-2026-10-22
+]
+for _lg,_a,_ga,_gb,_b in SAB24:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

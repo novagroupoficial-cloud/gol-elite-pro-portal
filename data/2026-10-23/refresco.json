@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-23",
- "ultima_ejecucion": "2026-10-23 18:10 ECU",
- "ultima_ok": "2026-10-23 18:10 ECU",
+ "ultima_ejecucion": "2026-10-23 19:16 ECU",
+ "ultima_ok": "2026-10-23 19:16 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-23 16:13 ECU",
  "pendientes": [
@@ -17,10 +17,10 @@
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "18:11 (sin lectura: WebFetch de gol-elite-pro.netlify.app/index pidió permiso y no hubo respuesta)"
+  "ultima_revision": "19:12 (sin lectura: WebFetch de gol-elite-pro.netlify.app/index pidió permiso y no hubo respuesta)"
  },
  "avisos_enviados": [
   "rutina_recuperada"
  ],
- "nota": "18:10: ranking regenerado; Gimnasia Mendoza-Platense (16:30) y Cruzeiro-Remo (18:00) en juego; ningún partido terminado aún; primer resultado a buscar desde 18:45 ECU."
+ "nota": "19:16: Gimnasia Mendoza 1-2 Platense registrado (fuente Diario Uno; Over 1.5 y Over 2.5 ocurrieron). Cruzeiro-Remo (18:00) en juego; resultado a buscar desde 20:15 ECU. Tigre-Atl. Tucumán 19:15 en juego."
 }

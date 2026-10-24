@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23 18:10 ECU",
+ "actualizado": "2026-10-23 19:16 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -7,9 +7,10 @@
   "2026-10-17",
   "2026-10-18",
   "2026-10-19",
-  "2026-10-20"
+  "2026-10-20",
+  "2026-10-23"
  ],
- "partidos": 150,
+ "partidos": 151,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -25,8 +26,8 @@
    "partidos": 49
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 70,
-   "partidos": 85
+   "aciertos": 71,
+   "partidos": 86
   }
  },
  "over90": {
@@ -137,84 +138,21 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 31,
-   "aciertos": 27,
-   "prometido": 61.6
+   "partidos": 32,
+   "aciertos": 28,
+   "prometido": 61.7
   }
  ],
  "ultima_jornada": {
-  "fecha": "2026-10-20",
+  "fecha": "2026-10-23",
   "partidos": [
    {
-    "hora": "19:07",
-    "local": "Guadalajara",
-    "visita": "Necaxa",
-    "over15": 84.2,
-    "resultado": "1-0",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "18:30",
-    "local": "Cúcuta",
-    "visita": "Atlético Nacional",
-    "over15": 83.4,
-    "resultado": "1-0",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "18:15",
-    "local": "Internacional de Bogotá (ex La Equidad)",
-    "visita": "Fortaleza",
-    "over15": 75.7,
-    "resultado": "2-1",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "20:00",
-    "local": "A. San Luis",
-    "visita": "Queretaro",
-    "over15": 75.0,
-    "resultado": "2-1",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "20:00",
-    "local": "Juarez",
-    "visita": "Atlante",
-    "over15": 73.2,
-    "resultado": "0-1",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "22:00",
-    "local": "Tigres UANL",
-    "visita": "Leon",
-    "over15": 72.6,
-    "resultado": "0-2",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "20:30",
-    "local": "Millonarios",
-    "visita": "Once Caldas",
-    "over15": 63.1,
-    "resultado": "1-1",
-    "goles": 2,
-    "acierto": true
-   },
-   {
     "hora": "16:30",
-    "local": "Deportivo Pereira",
-    "visita": "Boyacá Chicó",
-    "over15": 62.7,
-    "resultado": "2-0",
-    "goles": 2,
+    "local": "Gimnasia Mendoza",
+    "visita": "Platense",
+    "over15": 66.1,
+    "resultado": "1-2",
+    "goles": 3,
     "acierto": true
    }
   ]

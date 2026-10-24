@@ -1,13 +1,13 @@
 {
  "fecha": "2026-10-23",
- "actualizado": "2026-10-23 18:10 ECU (UTC-5)",
+ "actualizado": "2026-10-23 19:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-23/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 0,
+  "terminados": 1,
   "total": 5,
   "over15_70": [
    0,
@@ -175,8 +175,13 @@
     "gc": 8
    },
    "sellado": "2026-10-23 16:18 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-2",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.diariouno.com.ar/ovacion/futbol/gimnasia-y-esgrima-no-pudo-aguantarlo-y-platense-se-lo-dio-vuelta-el-final-n1609628"
   },
   {
    "puesto": 5,
@@ -201,7 +206,7 @@
     "gc": 3
    },
    "sellado": "2026-10-23 16:18 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   }
  ],

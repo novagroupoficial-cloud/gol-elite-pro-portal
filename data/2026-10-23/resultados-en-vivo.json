@@ -1,0 +1,17 @@
+[
+ {
+  "local": "Gimnasia Mendoza",
+  "visita": "Platense",
+  "hora": "16:30",
+  "resultado": "1-2",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 66.1,
+  "over25_dado": 38.4,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.diariouno.com.ar/ovacion/futbol/gimnasia-y-esgrima-no-pudo-aguantarlo-y-platense-se-lo-dio-vuelta-el-final-n1609628",
+  "registrado": "19:16 ECU"
+ }
+]

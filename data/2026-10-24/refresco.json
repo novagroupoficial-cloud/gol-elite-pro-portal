@@ -1,0 +1,25 @@
+{
+ "fecha": "2026-10-24",
+ "ultima_ejecucion": "2026-10-24 01:10 ECU",
+ "ultima_ok": "2026-10-24 01:10 ECU",
+ "rutina_diaria": "pendiente",
+ "rutina_diaria_inicio": null,
+ "pendientes": [
+  "Rutina diaria del 24-oct: corre a las 05:24 ECU; si a las 08:00 falta data/2026-10-24/pronosticos.json, la recupera el refresco horario (incluye auditoría oficial y Galería del 23).",
+  "Sin actividad en main entre 2026-10-21 07:29 y 2026-10-23 16:13 ECU: no corrieron la rutina del 22 ni la de las 05:24 del 23 ni los refrescos horarios.",
+  "Resultados y auditoría oficial del 2026-10-21 (9 partidos) sin hacer; Galería sin la entrada del 21. MEX del 21 ya conocidos (fuente jointly.mx): Toluca 2-2 Tijuana, Atlas 2-5 América, Puebla 1-4 Monterrey, Pachuca 1-2 Cruz Azul, Santos 2-0 Pumas; faltan Levante-Athletic, Cincinnati-DC United, Llaneros-Cali y Santa Fe-Jaguares.",
+  "datos.py: sumar los partidos del mié 21 de ESP/USA/COL (Levante-Athletic, Cincinnati-DC, Llaneros-Cali, Santa Fe-Jaguares) antes de pronosticar esas ligas.",
+  "Kit de redes del 23-oct no generado (rutina recuperada por la tarde, sin tiempo).",
+  "LLEGAN (Cómo llegan) del 23-oct vacío.",
+  "SportyTrader no accesible (WebFetch pide permiso): calendario del 23 tomado de RPP, TUDN, Minuto Uno y Valor Final.",
+  "Kit de redes del 16-oct no generado; auditoría oficial de 2026-10-12 sigue sin hacerse.",
+  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso (01:10 del 24)."
+ ],
+ "deploy": {
+  "ok": null,
+  "fallos_seguidos": 0,
+  "ultima_revision": "01:10 (sin lectura: WebFetch pidió permiso y no hubo respuesta)"
+ },
+ "avisos_enviados": [],
+ "nota": "01:10: aún sin pronósticos del 24 (antes de las 08:00 ECU); ranking del día se genera cuando exista pronosticos.json. Jornada del 23 cerrada a las 00:11."
+}

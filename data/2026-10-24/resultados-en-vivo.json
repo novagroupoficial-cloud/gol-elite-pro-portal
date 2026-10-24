@@ -199,5 +199,20 @@
   "marcador_exacto": false,
   "fuente": "https://sporza.be/nl/sport/voetbal/~3338962/",
   "registrado": "12:10 ECU"
+ },
+ {
+  "local": "Napoli",
+  "visita": "Roma",
+  "hora": "11:00",
+  "resultado": "3-3",
+  "goles": 6,
+  "estado": "terminado",
+  "over15_dado": 66.9,
+  "over25_dado": 39.2,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/napoli-vs-as-roma-serie-a-2026-10-24",
+  "registrado": "13:15 ECU"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 12:10 ECU",
+ "actualizado": "2026-10-24 13:15 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 168,
+ "partidos": 169,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -27,8 +27,8 @@
    "partidos": 60
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 73,
-   "partidos": 90
+   "aciertos": 74,
+   "partidos": 91
   }
  },
  "over90": {
@@ -147,9 +147,9 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 34,
-   "aciertos": 29,
-   "prometido": 60.9
+   "partidos": 35,
+   "aciertos": 30,
+   "prometido": 61.1
   }
  ],
  "ultima_jornada": {
@@ -262,6 +262,15 @@
     "resultado": "0-1",
     "goles": 1,
     "acierto": false
+   },
+   {
+    "hora": "11:00",
+    "local": "Napoli",
+    "visita": "Roma",
+    "over15": 66.9,
+    "resultado": "3-3",
+    "goles": 6,
+    "acierto": true
    },
    {
     "hora": "08:00",

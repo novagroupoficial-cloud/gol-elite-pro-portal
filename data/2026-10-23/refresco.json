@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-23",
- "ultima_ejecucion": "2026-10-23 21:10 ECU",
- "ultima_ok": "2026-10-23 21:10 ECU",
+ "ultima_ejecucion": "2026-10-23 22:16 ECU",
+ "ultima_ok": "2026-10-23 22:16 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-23 16:13 ECU",
  "pendientes": [
@@ -17,10 +17,11 @@
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "21:10 (sin lectura: WebFetch de gol-elite-pro.netlify.app/index pidió permiso y no hubo respuesta)"
+  "ultima_revision": "22:16 (sin lectura: WebFetch de gol-elite-pro.netlify.app/index pidió permiso y no hubo respuesta)"
  },
  "avisos_enviados": [
-  "rutina_recuperada"
+  "rutina_recuperada",
+  "partido_del_dia"
  ],
- "nota": "21:10: ranking del día actualizado (2 de 5 terminados). Aún sin resultados nuevos por registrar: Tigre-Atl. Tucumán (19:15) desde 21:30 ECU; Necaxa-Juárez (20:00, partido del día) desde 22:15; Atlante-San Luis (22:00) desde 00:15."
+ "nota": "22:16: registrados Tigre 0-1 Atl. Tucumán y Necaxa 1-1 Juárez (partido del día: Over 1.5 ✔ y marcador exacto). 4 de 5 terminados; falta Atlante-San Luis (22:00) desde 00:15 ECU."
 }

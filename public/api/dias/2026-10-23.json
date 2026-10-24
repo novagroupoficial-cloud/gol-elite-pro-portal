@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-23",
- "actualizado": "2026-10-23 21:10 ECU (UTC-5)",
+ "actualizado": "2026-10-23 22:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-23/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 2,
+  "terminados": 4,
   "total": 5,
   "over15_70": [
-   0,
-   1
+   1,
+   2
   ],
   "over25_senal": [
    0,
    0
   ],
-  "marcadores_exactos": 0
+  "marcadores_exactos": 1
  },
  "rango_80_90": [
   {
@@ -43,8 +43,13 @@
     "gc": 20
    },
    "sellado": "2026-10-23 16:18 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.foxsports.com.mx/2026/10/23/resumen-video-goles-empate-necaxa-fc-juarez-eliminado-liguilla-liga-mx-hoy/"
   },
   {
    "puesto": 2,
@@ -69,7 +74,7 @@
     "gc": 11
    },
    "sellado": "2026-10-23 16:18 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   }
  ],
@@ -97,8 +102,13 @@
     "gc": 20
    },
    "sellado": "2026-10-23 16:18 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.foxsports.com.mx/2026/10/23/resumen-video-goles-empate-necaxa-fc-juarez-eliminado-liguilla-liga-mx-hoy/"
   },
   {
    "puesto": 2,
@@ -123,7 +133,7 @@
     "gc": 11
    },
    "sellado": "2026-10-23 16:18 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -211,8 +221,13 @@
     "gc": 3
    },
    "sellado": "2026-10-23 16:18 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.ellitoral.com/deportes/tigre-atleticotucuman-futbol-afa-ligaprofesional_0_2fUwQBvy0w.html"
   }
  ],
  "sin_pronostico": []

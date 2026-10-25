@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 20:11 ECU",
+ "actualizado": "2026-10-24 21:12 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 192,
+ "partidos": 194,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -19,12 +19,12 @@
    "partidos": 3
   },
   "GOLES PLATINO": {
-   "aciertos": 15,
-   "partidos": 17
+   "aciertos": 16,
+   "partidos": 18
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 45,
-   "partidos": 66
+   "aciertos": 46,
+   "partidos": 67
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 88,
@@ -32,18 +32,18 @@
   }
  },
  "over90": {
-  "aciertos": 18,
-  "partidos": 20,
-  "racha_actual": 1,
+  "aciertos": 19,
+  "partidos": 21,
+  "racha_actual": 2,
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 63,
-  "partidos": 86
+  "aciertos": 65,
+  "partidos": 88
  },
  "over25_senal": {
-  "aciertos": 23,
-  "partidos": 38
+  "aciertos": 24,
+  "partidos": 40
  },
  "partido_del_dia": {
   "aciertos": 6,
@@ -129,15 +129,15 @@
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 17,
-   "aciertos": 15,
-   "prometido": 91.8
+   "partidos": 18,
+   "aciertos": 16,
+   "prometido": 91.7
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 66,
-   "aciertos": 45,
-   "prometido": 83.5
+   "partidos": 67,
+   "aciertos": 46,
+   "prometido": 83.6
   },
   {
    "franja": "70 a 79 %",
@@ -192,6 +192,15 @@
     "acierto": true
    },
    {
+    "hora": "18:30",
+    "local": "DC United",
+    "visita": "Cincinnati",
+    "over15": 90.2,
+    "resultado": "0-2",
+    "goles": 2,
+    "acierto": true
+   },
+   {
     "hora": "08:30",
     "local": "Mainz 05",
     "visita": "Werder Bremen",
@@ -225,6 +234,15 @@
     "over15": 86.8,
     "resultado": "2-1",
     "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "18:30",
+    "local": "Atlanta United",
+    "visita": "Chicago Fire",
+    "over15": 86.1,
+    "resultado": "2-3",
+    "goles": 5,
     "acierto": true
    },
    {

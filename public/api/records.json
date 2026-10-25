@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 15:12 ECU",
+ "actualizado": "2026-10-25 16:18 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 236,
+ "partidos": 238,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -24,12 +24,12 @@
    "partidos": 25
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 57,
-   "partidos": 82
+   "aciertos": 58,
+   "partidos": 83
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 100,
-   "partidos": 124
+   "partidos": 125
   }
  },
  "over90": {
@@ -39,8 +39,8 @@
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 85,
-  "partidos": 112
+  "aciertos": 86,
+  "partidos": 113
  },
  "over25_senal": {
   "aciertos": 32,
@@ -144,15 +144,15 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 82,
-   "aciertos": 57,
+   "partidos": 83,
+   "aciertos": 58,
    "prometido": 83.6
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 74,
+   "partidos": 75,
    "aciertos": 58,
-   "prometido": 74.5
+   "prometido": 74.4
   },
   {
    "franja": "menos de 70 %",
@@ -309,6 +309,15 @@
     "acierto": false
    },
    {
+    "hora": "14:00",
+    "local": "AZ",
+    "visita": "FC Twente",
+    "over15": 81.2,
+    "resultado": "0-2",
+    "goles": 2,
+    "acierto": true
+   },
+   {
     "hora": "09:00",
     "local": "Atalanta",
     "visita": "Frosinone",
@@ -351,6 +360,15 @@
     "over15": 72.1,
     "resultado": "0-0",
     "goles": 0,
+    "acierto": false
+   },
+   {
+    "hora": "14:00",
+    "local": "Emelec",
+    "visita": "Guayaquil City",
+    "over15": 70.7,
+    "resultado": "0-1",
+    "goles": 1,
     "acierto": false
    },
    {

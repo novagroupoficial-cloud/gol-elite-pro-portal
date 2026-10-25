@@ -388,5 +388,35 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/partido-aldosivi-vs-belgrano-cordoba-liga-profesional-argentina-2026-10-25",
   "registrado": "15:20 ECU"
+ },
+ {
+  "local": "AZ",
+  "visita": "FC Twente",
+  "hora": "14:00",
+  "resultado": "0-2",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 81.2,
+  "over25_dado": 58.1,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.fcupdate.nl/voetbalnieuws/2026/10/az-verliest-en-verspeelt-voor-derde-keer-op-rij-punten-in-de-eredivisie",
+  "registrado": "16:18 ECU"
+ },
+ {
+  "local": "Emelec",
+  "visita": "Guayaquil City",
+  "hora": "14:00",
+  "resultado": "0-1",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 70.7,
+  "over25_dado": 43.7,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://studiofutbol.com.ec/2026/10/25/video-golpe-ciudadano-guayaquil-city-gano-al-emelec-en-el-capwell/",
+  "registrado": "16:18 ECU"
  }
 ]

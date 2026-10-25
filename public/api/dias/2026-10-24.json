@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-24",
- "actualizado": "2026-10-25 00:12 ECU (UTC-5)",
+ "actualizado": "2026-10-25 02:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-24/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 54,
+  "terminados": 55,
   "total": 57,
   "over15_70": [
-   33,
-   41
+   34,
+   42
   ],
   "over25_senal": [
    7,
    14
   ],
-  "marcadores_exactos": 6
+  "marcadores_exactos": 7
  },
  "rango_80_90": [
   {
@@ -1657,8 +1657,13 @@
     "gc": 11
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.infobae.com/mexico/deportes/2026/10/25/pumas-empata-con-tigres-y-amarga-el-homenaje-a-hugo-sanchez-en-cu/"
   },
   {
    "puesto": 34,

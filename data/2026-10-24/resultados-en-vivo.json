@@ -884,5 +884,21 @@
     "fuente": "https://futboltotal.futbol/partido/portland-timbers-vs-charlotte-mls-2026-10-25",
     "registrado": "2026-10-25 00:20 ECU",
     "nota": "Final (Biel 3', Lassiter 11' y 40', Toklomati 69', Bassett 90+6')."
+  },
+  {
+    "local": "Pumas UNAM",
+    "visita": "Tigres UANL",
+    "hora": "22:10",
+    "resultado": "1-1",
+    "goles": 2,
+    "estado": "terminado",
+    "over15_dado": 75.6,
+    "over25_dado": 49.9,
+    "acierto_over15": true,
+    "acierto_over25": false,
+    "marcador_exacto": true,
+    "fuente": "https://www.infobae.com/mexico/deportes/2026/10/25/pumas-empata-con-tigres-y-amarga-el-homenaje-a-hugo-sanchez-en-cu/",
+    "registrado": "2026-10-25 02:10 ECU",
+    "nota": "Final (R. Morales 56', J. Brunetta 76'); confirmado en VAVEL México: https://vavel.com/mx/futbol-mexicano/2026/10/24/1276638-pumas-vs-tigres-en-vivo-liga-mx.html"
   }
 ]

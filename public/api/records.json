@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 00:17 ECU",
+ "actualizado": "2026-10-25 02:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 209,
+ "partidos": 210,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -27,8 +27,8 @@
    "partidos": 74
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 93,
-   "partidos": 113
+   "aciertos": 94,
+   "partidos": 114
   }
  },
  "over90": {
@@ -141,8 +141,8 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 68,
-   "aciertos": 54,
+   "partidos": 69,
+   "aciertos": 55,
    "prometido": 74.5
   },
   {
@@ -442,6 +442,15 @@
     "resultado": "0-1",
     "goles": 1,
     "acierto": false
+   },
+   {
+    "hora": "22:10",
+    "local": "Pumas UNAM",
+    "visita": "Tigres UANL",
+    "over15": 75.6,
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
    },
    {
     "hora": "20:30",

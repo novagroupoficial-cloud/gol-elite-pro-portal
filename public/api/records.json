@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 13:16 ECU",
+ "actualizado": "2026-10-25 14:22 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 225,
+ "partidos": 229,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -20,31 +20,31 @@
    "partidos": 5
   },
   "GOLES PLATINO": {
-   "aciertos": 22,
-   "partidos": 24
+   "aciertos": 23,
+   "partidos": 25
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 53,
-   "partidos": 78
+   "aciertos": 55,
+   "partidos": 80
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 98,
-   "partidos": 118
+   "partidos": 119
   }
  },
  "over90": {
-  "aciertos": 27,
-  "partidos": 29,
-  "racha_actual": 10,
+  "aciertos": 28,
+  "partidos": 30,
+  "racha_actual": 11,
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 80,
-  "partidos": 107
+  "aciertos": 83,
+  "partidos": 110
  },
  "over25_senal": {
-  "aciertos": 31,
-  "partidos": 51
+  "aciertos": 32,
+  "partidos": 52
  },
  "partido_del_dia": {
   "aciertos": 7,
@@ -138,14 +138,14 @@
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 24,
-   "aciertos": 22,
-   "prometido": 91.8
+   "partidos": 25,
+   "aciertos": 23,
+   "prometido": 91.9
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 78,
-   "aciertos": 53,
+   "partidos": 80,
+   "aciertos": 55,
    "prometido": 83.6
   },
   {
@@ -156,7 +156,7 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 46,
+   "partidos": 47,
    "aciertos": 40,
    "prometido": 61.1
   }
@@ -198,6 +198,15 @@
     "over15": 93.8,
     "resultado": "1-1",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "11:15",
+    "local": "Rennes",
+    "visita": "Strasbourg",
+    "over15": 92.8,
+    "resultado": "3-0",
+    "goles": 3,
     "acierto": true
    },
    {
@@ -246,6 +255,15 @@
     "acierto": true
    },
    {
+    "hora": "11:30",
+    "local": "SC Freiburg",
+    "visita": "Bayern Munich",
+    "over15": 83.9,
+    "resultado": "1-3",
+    "goles": 4,
+    "acierto": true
+   },
+   {
     "hora": "09:00",
     "local": "Genoa",
     "visita": "Venezia",
@@ -253,6 +271,15 @@
     "resultado": "1-0",
     "goles": 1,
     "acierto": false
+   },
+   {
+    "hora": "11:15",
+    "local": "Auxerre",
+    "visita": "Le Mans",
+    "over15": 82.7,
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
    },
    {
     "hora": "10:15",
@@ -298,6 +325,15 @@
     "resultado": "4-0",
     "goles": 4,
     "acierto": true
+   },
+   {
+    "hora": "11:30",
+    "local": "Sunderland",
+    "visita": "Leeds United",
+    "over15": 62.0,
+    "resultado": "0-0",
+    "goles": 0,
+    "acierto": false
    }
   ]
  }

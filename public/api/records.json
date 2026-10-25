@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 22:12 ECU",
+ "actualizado": "2026-10-24 23:12 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 199,
+ "partidos": 204,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -23,12 +23,12 @@
    "partidos": 18
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 49,
-   "partidos": 70
+   "aciertos": 51,
+   "partidos": 73
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 90,
-   "partidos": 108
+   "aciertos": 91,
+   "partidos": 110
   }
  },
  "over90": {
@@ -38,8 +38,8 @@
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 68,
-  "partidos": 91
+  "aciertos": 70,
+  "partidos": 94
  },
  "over25_senal": {
   "aciertos": 25,
@@ -135,14 +135,14 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 70,
-   "aciertos": 49,
-   "prometido": 83.6
+   "partidos": 73,
+   "aciertos": 51,
+   "prometido": 83.5
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 64,
-   "aciertos": 52,
+   "partidos": 66,
+   "aciertos": 53,
    "prometido": 74.4
   },
   {
@@ -318,6 +318,15 @@
     "acierto": true
    },
    {
+    "hora": "19:30",
+    "local": "Dallas",
+    "visita": "SJ Earthquakes",
+    "over15": 82.1,
+    "resultado": "3-0",
+    "goles": 3,
+    "acierto": true
+   },
+   {
     "hora": "11:45",
     "local": "Willem II",
     "visita": "Cambuur",
@@ -333,6 +342,24 @@
     "over15": 80.9,
     "resultado": "2-1",
     "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "19:30",
+    "local": "Houston Dynamo",
+    "visita": "Minnesota United",
+    "over15": 80.7,
+    "resultado": "0-0",
+    "goles": 0,
+    "acierto": false
+   },
+   {
+    "hora": "20:00",
+    "local": "Santos",
+    "visita": "Bahia",
+    "over15": 80.4,
+    "resultado": "1-1",
+    "goles": 2,
     "acierto": true
    },
    {
@@ -381,12 +408,30 @@
     "acierto": true
    },
    {
+    "hora": "20:00",
+    "local": "Monterrey",
+    "visita": "Guadalajara",
+    "over15": 76.1,
+    "resultado": "0-1",
+    "goles": 1,
+    "acierto": false
+   },
+   {
     "hora": "14:30",
     "local": "Internacional",
     "visita": "Botafogo",
     "over15": 74.1,
     "resultado": "3-0",
     "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "18:30",
+    "local": "Orlando City",
+    "visita": "New York City",
+    "over15": 73.7,
+    "resultado": "2-2",
+    "goles": 4,
     "acierto": true
    },
    {

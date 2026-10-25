@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-24",
- "actualizado": "2026-10-24 22:12 ECU (UTC-5)",
+ "actualizado": "2026-10-24 23:12 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-24/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 44,
+  "terminados": 49,
   "total": 57,
   "over15_70": [
-   27,
-   32
+   30,
+   37
   ],
   "over25_senal": [
    6,
    13
   ],
-  "marcadores_exactos": 4
+  "marcadores_exactos": 5
  },
  "rango_80_90": [
   {
@@ -446,8 +446,13 @@
     "gc": 19
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-0",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.sportytrader.com/en/results-live/fc-dallas-san-jose-earthquakes-7934591/"
   },
   {
    "puesto": 21,
@@ -560,8 +565,13 @@
     "gc": 35
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://fieldlevelmedia.com/mls/houston-pulls-out-scoreless-draw-vs-desperate-minnesota-united/"
   },
   {
    "puesto": 25,
@@ -586,8 +596,13 @@
     "gc": 22
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://placar.com.br/brasileirao/santos-empata-em-1-a-1-com-o-bahia-no-fim-pelo-brasileirao/"
   },
   {
    "puesto": 26,
@@ -1229,8 +1244,13 @@
     "gc": 19
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-0",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.sportytrader.com/en/results-live/fc-dallas-san-jose-earthquakes-7934591/"
   },
   {
    "puesto": 21,
@@ -1343,8 +1363,13 @@
     "gc": 35
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://fieldlevelmedia.com/mls/houston-pulls-out-scoreless-draw-vs-desperate-minnesota-united/"
   },
   {
    "puesto": 25,
@@ -1369,8 +1394,13 @@
     "gc": 22
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://placar.com.br/brasileirao/santos-empata-em-1-a-1-com-o-bahia-no-fim-pelo-brasileirao/"
   },
   {
    "puesto": 26,
@@ -1576,8 +1606,13 @@
     "gc": 5
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.clarosports.com/futbol/liga-mx/monterrey-vs-chivas-en-vivo-el-partido-de-la-jornada-14-de-la-liga-mx-resultado-y-goles-hoy-apertura-2026/"
   },
   {
    "puesto": 33,
@@ -1712,8 +1747,13 @@
     "gc": 19
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://themaneland.com/2026/10/24/orlando-city-vs-new-york-city-fc-final-score-2-2-as-lions-throw-away-two-points-on-games-last-kick/"
   },
   {
    "puesto": 38,

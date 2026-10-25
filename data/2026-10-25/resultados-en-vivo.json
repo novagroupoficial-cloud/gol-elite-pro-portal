@@ -43,5 +43,35 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/athletic-club-vs-getafe-la-liga-2026-10-25",
   "registrado": "10:16 ECU"
+ },
+ {
+  "local": "PSV",
+  "visita": "Feyenoord",
+  "hora": "08:30",
+  "resultado": "1-1",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 93.8,
+  "over25_dado": 81.3,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://nltimes.nl/2026/10/25/game-title-candidates-psv-feyenoord-finishes-1-1-eindhoven",
+  "registrado": "11:10 ECU"
+ },
+ {
+  "local": "NEC",
+  "visita": "FC Groningen",
+  "hora": "08:30",
+  "resultado": "2-2",
+  "goles": 4,
+  "estado": "terminado",
+  "over15_dado": 91.6,
+  "over25_dado": 76.6,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://sporza.be/nl/sport/voetbal/~3338893/",
+  "registrado": "11:10 ECU"
  }
 ]

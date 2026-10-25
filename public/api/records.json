@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 10:16 ECU",
+ "actualizado": "2026-10-25 11:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 213,
+ "partidos": 215,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -20,8 +20,8 @@
    "partidos": 4
   },
   "GOLES PLATINO": {
-   "aciertos": 17,
-   "partidos": 19
+   "aciertos": 19,
+   "partidos": 21
   },
   "GOLES ESTÁNDAR": {
    "aciertos": 52,
@@ -33,18 +33,18 @@
   }
  },
  "over90": {
-  "aciertos": 21,
-  "partidos": 23,
-  "racha_actual": 4,
+  "aciertos": 23,
+  "partidos": 25,
+  "racha_actual": 6,
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 73,
-  "partidos": 98
+  "aciertos": 75,
+  "partidos": 100
  },
  "over25_senal": {
-  "aciertos": 27,
-  "partidos": 44
+  "aciertos": 28,
+  "partidos": 46
  },
  "partido_del_dia": {
   "aciertos": 7,
@@ -138,9 +138,9 @@
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 19,
-   "aciertos": 17,
-   "prometido": 91.7
+   "partidos": 21,
+   "aciertos": 19,
+   "prometido": 91.8
   },
   {
    "franja": "80 a 89 %",
@@ -171,6 +171,24 @@
     "over15": 95.7,
     "resultado": "2-1",
     "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "08:30",
+    "local": "PSV",
+    "visita": "Feyenoord",
+    "over15": 93.8,
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "08:30",
+    "local": "NEC",
+    "visita": "FC Groningen",
+    "over15": 91.6,
+    "resultado": "2-2",
+    "goles": 4,
     "acierto": true
    },
    {

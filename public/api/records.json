@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 19:12 ECU",
+ "actualizado": "2026-10-24 20:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 188,
+ "partidos": 192,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -23,12 +23,12 @@
    "partidos": 17
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 44,
-   "partidos": 65
+   "aciertos": 45,
+   "partidos": 66
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 86,
-   "partidos": 103
+   "aciertos": 88,
+   "partidos": 106
   }
  },
  "over90": {
@@ -38,12 +38,12 @@
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 62,
-  "partidos": 85
+  "aciertos": 63,
+  "partidos": 86
  },
  "over25_senal": {
-  "aciertos": 22,
-  "partidos": 37
+  "aciertos": 23,
+  "partidos": 38
  },
  "partido_del_dia": {
   "aciertos": 6,
@@ -135,8 +135,8 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 65,
-   "aciertos": 44,
+   "partidos": 66,
+   "aciertos": 45,
    "prometido": 83.5
   },
   {
@@ -147,9 +147,9 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 40,
-   "aciertos": 35,
-   "prometido": 61.0
+   "partidos": 43,
+   "aciertos": 37,
+   "prometido": 60.6
   }
  ],
  "ultima_jornada": {
@@ -216,6 +216,15 @@
     "over15": 87.4,
     "resultado": "4-0",
     "goles": 4,
+    "acierto": true
+   },
+   {
+    "hora": "17:30",
+    "local": "Chapecoense",
+    "visita": "Fluminense",
+    "over15": 86.8,
+    "resultado": "2-1",
+    "goles": 3,
     "acierto": true
    },
    {
@@ -399,6 +408,15 @@
     "acierto": true
    },
    {
+    "hora": "15:00",
+    "local": "Talleres Cordoba",
+    "visita": "Defensa y Justicia",
+    "over15": 68.7,
+    "resultado": "1-2",
+    "goles": 3,
+    "acierto": true
+   },
+   {
     "hora": "11:00",
     "local": "Napoli",
     "visita": "Roma",
@@ -435,6 +453,15 @@
     "acierto": true
    },
    {
+    "hora": "16:30",
+    "local": "LDU Quito",
+    "visita": "Macará",
+    "over15": 58.9,
+    "resultado": "1-2",
+    "goles": 3,
+    "acierto": true
+   },
+   {
     "hora": "08:00",
     "local": "Cagliari",
     "visita": "Bologna",
@@ -451,6 +478,15 @@
     "resultado": "0-2",
     "goles": 2,
     "acierto": true
+   },
+   {
+    "hora": "17:15",
+    "local": "San Lorenzo",
+    "visita": "Newells Old Boys",
+    "over15": 37.5,
+    "resultado": "0-0",
+    "goles": 0,
+    "acierto": false
    }
   ]
  }

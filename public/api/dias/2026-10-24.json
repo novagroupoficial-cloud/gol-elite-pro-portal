@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-24",
- "actualizado": "2026-10-24 19:12 ECU (UTC-5)",
+ "actualizado": "2026-10-24 20:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-24/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 33,
+  "terminados": 37,
   "total": 57,
   "over15_70": [
-   20,
-   25
+   21,
+   26
   ],
   "over25_senal": [
-   3,
-   9
+   4,
+   10
   ],
-  "marcadores_exactos": 2
+  "marcadores_exactos": 3
  },
  "rango_80_90": [
   {
@@ -105,7 +105,7 @@
     "gc": 35
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -162,8 +162,13 @@
     "gc": 23
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.correiobraziliense.com.br/esportes/2026/10/7527223-fluminense-perde-para-a-chapecoense-e-segue-fora-do-g4.html"
   },
   {
    "puesto": 12,
@@ -421,7 +426,7 @@
     "gc": 19
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -447,7 +452,7 @@
     "gc": 22
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -535,7 +540,7 @@
     "gc": 35
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -561,7 +566,7 @@
     "gc": 22
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -858,7 +863,7 @@
     "gc": 35
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -915,8 +920,13 @@
     "gc": 23
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.correiobraziliense.com.br/esportes/2026/10/7527223-fluminense-perde-para-a-chapecoense-e-segue-fora-do-g4.html"
   },
   {
    "puesto": 12,
@@ -1174,7 +1184,7 @@
     "gc": 19
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1200,7 +1210,7 @@
     "gc": 22
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1288,7 +1298,7 @@
     "gc": 35
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1314,7 +1324,7 @@
     "gc": 22
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1516,7 +1526,7 @@
     "gc": 5
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1568,7 +1578,7 @@
     "gc": 11
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1920,7 +1930,7 @@
     "gc": 8
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1977,8 +1987,13 @@
     "gc": 8
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-2",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://losandes.com.ar/deportes/defensa-y-justicia-vencio-talleres-cordoba-clasifico-los-playoffs-y-suena-la-sudamericana-2027-n6011594"
   },
   {
    "puesto": 49,
@@ -2153,8 +2168,13 @@
     "gc": 20
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-2",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.extra.ec/noticia/deportes/asi-quedo-tabla-posiciones-ligapro-triunfo-macara-2-1-liga-quito-165915.html"
   },
   {
    "puesto": 55,
@@ -2241,8 +2261,13 @@
     "gc": 5
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.mejorinformado.com/deportes/san-lorenzo-empato-newell-s-quedo-complicado-pelea-playoffs_1792850078"
   }
  ],
  "sin_pronostico": []

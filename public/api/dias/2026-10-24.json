@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-24",
- "actualizado": "2026-10-24 21:12 ECU (UTC-5)",
+ "actualizado": "2026-10-24 22:12 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-24/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 39,
+  "terminados": 44,
   "total": 57,
   "over15_70": [
-   23,
-   28
+   27,
+   32
   ],
   "over25_senal": [
-   5,
-   12
+   6,
+   13
   ],
-  "marcadores_exactos": 3
+  "marcadores_exactos": 4
  },
  "rango_80_90": [
   {
@@ -105,8 +105,13 @@
     "gc": 35
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-2",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://kcsoccerjournal.com/10/24/2026/miscues-doom-sporting-kansas-city-in-loss-to-austin-fc/"
   },
   {
    "puesto": 10,
@@ -379,8 +384,13 @@
     "gc": 7
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.vavel.com/mx/futbol-mexicano/2026/10/24/1276461-leon-vs-toluca-en-vivo-liga-mx.html"
   },
   {
    "puesto": 19,
@@ -405,8 +415,13 @@
     "gc": 13
    },
    "sellado": "2026-10-24 09:16 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-1",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.elpais.com.co/deportes/america-de-cali-asumio-el-liderato-de-la-liga-betplay-tras-su-triunfo-en-el-pascual-guerrero-asi-quedo-la-tabla-de-posiciones-2431.html"
   },
   {
    "puesto": 20,
@@ -754,7 +769,7 @@
     "gc": 29
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -873,8 +888,13 @@
     "gc": 35
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-2",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://kcsoccerjournal.com/10/24/2026/miscues-doom-sporting-kansas-city-in-loss-to-austin-fc/"
   },
   {
    "puesto": 10,
@@ -1147,8 +1167,13 @@
     "gc": 7
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.vavel.com/mx/futbol-mexicano/2026/10/24/1276461-leon-vs-toluca-en-vivo-liga-mx.html"
   },
   {
    "puesto": 19,
@@ -1173,8 +1198,13 @@
     "gc": 13
    },
    "sellado": "2026-10-24 09:16 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-1",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.elpais.com.co/deportes/america-de-cali-asumio-el-liderato-de-la-liga-betplay-tras-su-triunfo-en-el-pascual-guerrero-asi-quedo-la-tabla-de-posiciones-2431.html"
   },
   {
    "puesto": 20,
@@ -1458,8 +1488,13 @@
     "gc": 25
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-2",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.bostonglobe.com/2026/10/24/sports/mls-revolution-philadelphia-union-score/"
   },
   {
    "puesto": 30,
@@ -1515,7 +1550,7 @@
     "gc": 16
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1567,7 +1602,7 @@
     "gc": 11
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1593,8 +1628,9 @@
     "gc": 11
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "anulado",
+   "resultado": null,
+   "fuente": "https://www.semana.com/deportes/articulo/la-tabla-de-la-liga-betplay-tras-derrota-del-bucaramanga-ante-el-chico-y-victoria-del-junior/202622/"
   },
   {
    "puesto": 35,
@@ -1733,8 +1769,9 @@
     "gc": 5
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "anulado",
+   "resultado": null,
+   "fuente": "https://www.semana.com/deportes/articulo/la-tabla-de-la-liga-betplay-tras-derrota-del-bucaramanga-ante-el-chico-y-victoria-del-junior/202622/"
   },
   {
    "puesto": 40,
@@ -1945,8 +1982,13 @@
     "gc": 8
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://portalciudad.com.ar/rosario-central-vencio-2-0-a-huracan-por-el-torneo-clausura-2026-y-alcanzo-la-cima-de-la-tabla-anual/"
   },
   {
    "puesto": 47,

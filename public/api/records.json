@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 21:12 ECU",
+ "actualizado": "2026-10-24 22:12 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 194,
+ "partidos": 199,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -23,12 +23,12 @@
    "partidos": 18
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 46,
-   "partidos": 67
+   "aciertos": 49,
+   "partidos": 70
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 88,
-   "partidos": 106
+   "aciertos": 90,
+   "partidos": 108
   }
  },
  "over90": {
@@ -38,12 +38,12 @@
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 65,
-  "partidos": 88
+  "aciertos": 68,
+  "partidos": 91
  },
  "over25_senal": {
-  "aciertos": 24,
-  "partidos": 40
+  "aciertos": 25,
+  "partidos": 41
  },
  "partido_del_dia": {
   "aciertos": 6,
@@ -135,21 +135,21 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 67,
-   "aciertos": 46,
+   "partidos": 70,
+   "aciertos": 49,
    "prometido": 83.6
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 63,
-   "aciertos": 51,
-   "prometido": 74.3
+   "partidos": 64,
+   "aciertos": 52,
+   "prometido": 74.4
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 43,
-   "aciertos": 37,
-   "prometido": 60.6
+   "partidos": 44,
+   "aciertos": 38,
+   "prometido": 60.8
   }
  ],
  "ultima_jornada": {
@@ -216,6 +216,15 @@
     "over15": 88.5,
     "resultado": "2-3",
     "goles": 5,
+    "acierto": true
+   },
+   {
+    "hora": "19:30",
+    "local": "Sporting KC",
+    "visita": "Austin",
+    "over15": 87.6,
+    "resultado": "1-2",
+    "goles": 3,
     "acierto": true
    },
    {
@@ -291,6 +300,24 @@
     "acierto": false
    },
    {
+    "hora": "18:00",
+    "local": "Leon",
+    "visita": "Toluca",
+    "over15": 83.3,
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "18:05",
+    "local": "América de Cali",
+    "visita": "Cúcuta",
+    "over15": 82.7,
+    "resultado": "3-1",
+    "goles": 4,
+    "acierto": true
+   },
+   {
     "hora": "11:45",
     "local": "Willem II",
     "visita": "Cambuur",
@@ -332,6 +359,15 @@
     "visita": "Elche",
     "over15": 79.5,
     "resultado": "0-3",
+    "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "18:30",
+    "local": "Philadelphia",
+    "visita": "New England",
+    "over15": 78.6,
+    "resultado": "1-2",
     "goles": 3,
     "acierto": true
    },
@@ -414,6 +450,15 @@
     "over15": 69.7,
     "resultado": "4-0",
     "goles": 4,
+    "acierto": true
+   },
+   {
+    "hora": "19:30",
+    "local": "Rosario Central",
+    "visita": "Huracan",
+    "over15": 69.2,
+    "resultado": "2-0",
+    "goles": 2,
     "acierto": true
    },
    {

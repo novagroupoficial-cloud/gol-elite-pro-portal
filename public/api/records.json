@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 12:12 ECU",
+ "actualizado": "2026-10-25 13:16 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 223,
+ "partidos": 225,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -20,12 +20,12 @@
    "partidos": 5
   },
   "GOLES PLATINO": {
-   "aciertos": 21,
-   "partidos": 23
+   "aciertos": 22,
+   "partidos": 24
   },
   "GOLES ESTÁNDAR": {
    "aciertos": 53,
-   "partidos": 77
+   "partidos": 78
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 98,
@@ -33,18 +33,18 @@
   }
  },
  "over90": {
-  "aciertos": 26,
-  "partidos": 28,
-  "racha_actual": 9,
+  "aciertos": 27,
+  "partidos": 29,
+  "racha_actual": 10,
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 79,
-  "partidos": 105
+  "aciertos": 80,
+  "partidos": 107
  },
  "over25_senal": {
-  "aciertos": 30,
-  "partidos": 50
+  "aciertos": 31,
+  "partidos": 51
  },
  "partido_del_dia": {
   "aciertos": 7,
@@ -138,13 +138,13 @@
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 23,
-   "aciertos": 21,
-   "prometido": 91.7
+   "partidos": 24,
+   "aciertos": 22,
+   "prometido": 91.8
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 77,
+   "partidos": 78,
    "aciertos": 53,
    "prometido": 83.6
   },
@@ -179,6 +179,15 @@
     "visita": "Bayer Leverkusen",
     "over15": 95.7,
     "resultado": "3-0",
+    "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "10:45",
+    "local": "Sparta Rotterdam",
+    "visita": "Ajax",
+    "over15": 94.2,
+    "resultado": "1-2",
     "goles": 3,
     "acierto": true
    },
@@ -243,6 +252,15 @@
     "over15": 83.2,
     "resultado": "1-0",
     "goles": 1,
+    "acierto": false
+   },
+   {
+    "hora": "10:15",
+    "local": "Celta Vigo",
+    "visita": "Real Betis",
+    "over15": 82.6,
+    "resultado": "0-0",
+    "goles": 0,
     "acierto": false
    },
    {

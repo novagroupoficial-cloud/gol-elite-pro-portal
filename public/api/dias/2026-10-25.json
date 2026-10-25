@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-25",
- "actualizado": "2026-10-25 12:12 ECU (UTC-5)",
+ "actualizado": "2026-10-25 13:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-25/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 13,
+  "terminados": 15,
   "total": 44,
   "over15_70": [
-   10,
-   12
+   11,
+   14
   ],
   "over25_senal": [
-   4,
-   8
+   5,
+   9
   ],
   "marcadores_exactos": 2
  },
@@ -349,8 +349,13 @@
     "gc": 7
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/celta-vigo-vs-real-betis-laliga-1570427"
   },
   {
    "puesto": 20,
@@ -465,8 +470,13 @@
     "gc": 3
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-2",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338935/"
   },
   {
    "puesto": 4,
@@ -916,8 +926,13 @@
     "gc": 7
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/celta-vigo-vs-real-betis-laliga-1570427"
   },
   {
    "puesto": 20,
@@ -1456,7 +1471,7 @@
     "gc": 7
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1534,7 +1549,7 @@
     "gc": 1
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

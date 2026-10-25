@@ -193,5 +193,35 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/1899-hoffenheim-vs-bayer-leverkusen-bundesliga-2026-10-25",
   "registrado": "12:20 ECU"
+ },
+ {
+  "local": "Celta Vigo",
+  "visita": "Real Betis",
+  "hora": "10:15",
+  "resultado": "0-0",
+  "goles": 0,
+  "estado": "terminado",
+  "over15_dado": 82.6,
+  "over25_dado": 60.3,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/celta-vigo-vs-real-betis-laliga-1570427",
+  "registrado": "13:15 ECU"
+ },
+ {
+  "local": "Sparta Rotterdam",
+  "visita": "Ajax",
+  "hora": "10:45",
+  "resultado": "1-2",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 94.2,
+  "over25_dado": 82.6,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://sporza.be/nl/sport/voetbal/~3338935/",
+  "registrado": "13:15 ECU"
  }
 ]

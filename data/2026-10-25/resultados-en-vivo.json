@@ -448,5 +448,35 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/udinese-vs-ac-milan-serie-a-2026-10-25",
   "registrado": "17:10 ECU"
+ },
+ {
+  "local": "Barcelona",
+  "visita": "Real Madrid",
+  "hora": "15:00",
+  "resultado": "1-2",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 89.8,
+  "over25_dado": 73.0,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://libero.pe/futbol-internacional/liga-espanola/2026/10/25/partido-de-barcelona-vs-real-madrid-link-gratis-en-vivo-en-directo-online-mirar-clasico-espanol-1714125",
+  "registrado": "18:15 ECU"
+ },
+ {
+  "local": "Independiente",
+  "visita": "Boca Juniors",
+  "hora": "15:00",
+  "resultado": "0-1",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 73.6,
+  "over25_dado": 47.4,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.ellitoral.com/deportes/boca-independiente-facundoherrera-torneoclausura2026_0_i8SmOAqXAg.html",
+  "registrado": "18:15 ECU"
  }
 ]

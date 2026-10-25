@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-25",
- "actualizado": "2026-10-25 17:11 ECU (UTC-5)",
+ "actualizado": "2026-10-25 18:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-25/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 30,
+  "terminados": 32,
   "total": 44,
   "over15_70": [
-   18,
-   24
+   19,
+   26
   ],
   "over25_senal": [
-   6,
-   10
+   7,
+   11
   ],
   "marcadores_exactos": 3
  },
@@ -43,8 +43,13 @@
     "gc": 6
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-2",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://libero.pe/futbol-internacional/liga-espanola/2026/10/25/partido-de-barcelona-vs-real-madrid-link-gratis-en-vivo-en-directo-online-mirar-clasico-espanol-1714125"
   },
   {
    "puesto": 9,
@@ -650,8 +655,13 @@
     "gc": 6
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-2",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://libero.pe/futbol-internacional/liga-espanola/2026/10/25/partido-de-barcelona-vs-real-madrid-link-gratis-en-vivo-en-directo-online-mirar-clasico-espanol-1714125"
   },
   {
    "puesto": 9,
@@ -1095,7 +1105,7 @@
     "gc": 9
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1178,8 +1188,13 @@
     "gc": 11
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.ellitoral.com/deportes/boca-independiente-facundoherrera-torneoclausura2026_0_i8SmOAqXAg.html"
   },
   {
    "puesto": 27,
@@ -1354,7 +1369,7 @@
     "gc": 8
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1437,7 +1452,7 @@
     "gc": 7
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

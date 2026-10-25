@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 17:11 ECU",
+ "actualizado": "2026-10-25 18:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 240,
+ "partidos": 242,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -20,8 +20,8 @@
    "partidos": 5
   },
   "GOLES PLATINO": {
-   "aciertos": 23,
-   "partidos": 25
+   "aciertos": 24,
+   "partidos": 26
   },
   "GOLES ESTÁNDAR": {
    "aciertos": 58,
@@ -29,22 +29,22 @@
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 102,
-   "partidos": 127
+   "partidos": 128
   }
  },
  "over90": {
-  "aciertos": 28,
-  "partidos": 30,
-  "racha_actual": 11,
+  "aciertos": 29,
+  "partidos": 31,
+  "racha_actual": 12,
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 86,
-  "partidos": 113
+  "aciertos": 87,
+  "partidos": 114
  },
  "over25_senal": {
-  "aciertos": 32,
-  "partidos": 52
+  "aciertos": 33,
+  "partidos": 53
  },
  "partido_del_dia": {
   "aciertos": 7,
@@ -138,9 +138,9 @@
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 25,
-   "aciertos": 23,
-   "prometido": 91.9
+   "partidos": 26,
+   "aciertos": 24,
+   "prometido": 91.8
   },
   {
    "franja": "80 a 89 %",
@@ -150,7 +150,7 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 76,
+   "partidos": 77,
    "aciertos": 59,
    "prometido": 74.4
   },
@@ -225,6 +225,15 @@
     "over15": 91.6,
     "resultado": "2-2",
     "goles": 4,
+    "acierto": true
+   },
+   {
+    "hora": "15:00",
+    "local": "Barcelona",
+    "visita": "Real Madrid",
+    "over15": 89.8,
+    "resultado": "1-2",
+    "goles": 3,
     "acierto": true
    },
    {
@@ -334,6 +343,15 @@
     "resultado": "1-1",
     "goles": 2,
     "acierto": true
+   },
+   {
+    "hora": "15:00",
+    "local": "Independiente",
+    "visita": "Boca Juniors",
+    "over15": 73.6,
+    "resultado": "0-1",
+    "goles": 1,
+    "acierto": false
    },
    {
     "hora": "14:45",

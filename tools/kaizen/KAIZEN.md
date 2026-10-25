@@ -42,6 +42,16 @@ Autorizado por Marco Rivera el 25-oct-2026: "te autorizo desde este momento… d
   - Over 2.5 fuerte más exigente.
 - **Rige** desde los pronósticos del 26-oct-2026. Los del 25-oct ya estaban sellados con la versión 4.0.
 
+## Base estadística propia: semana por semana y mes por mes (pedido de Marco, 25-oct-2026)
+- `tools/kaizen/seguimiento.json` guarda, para lo SELLADO:
+  - `por_semana` (lunes a domingo) y `por_mes`, con partidos, aciertos de Over 1.5, GOLES PLATINO/GOL ÉLITE, señales de Over 2.5 fuertes y moderadas, goles reales vs esperados, aciertos por liga, Brier, skill y AUC;
+  - `comparacion_versiones` (lo sellado con la versión nueva vs lo que habría dado la 4.0 en los mismos partidos);
+  - `avisos` (ALERTA KAIZEN y BUENA NOTICIA KAIZEN, también por liga).
+- `tools/kaizen/historial_partidos.csv` es la base partido a partido: probabilidad, resultado, goles, noticia y etiquetas, lista de SportyTrader, últimos 5 y cuotas.
+- **Cada lunes** la rutina escribe `tools/kaizen/semanas/<año>-S<semana>.md`, el informe de la semana anterior comparado con la previa.
+- **El primer día de cada mes** escribe `tools/kaizen/meses/<año>-<mes>.md`.
+- **Primer aviso (25-oct):** Alemania se cumple mucho menos de lo prometido (57 % real vs 88 % prometido, 14 partidos). Muestra corta de la Bundesliga; candidata a la próxima mejora.
+
 ## Over 2.5: prioridad de Marco (25-oct-2026)
 - **Situación:** es el punto más flojo.
   - Con la versión 4.0: AUC 0,555 y skill −0,028. Con señal fuerte se cumplió 8 de 14; el sábado 24, 1 de 5.

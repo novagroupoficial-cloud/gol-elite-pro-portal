@@ -1,0 +1,32 @@
+[
+ {
+  "local": "Fortuna Sittard",
+  "visita": "Excelsior",
+  "hora": "06:15",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 88.7,
+  "over25_dado": 70.9,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://sporza.be/nl/sport/voetbal/~3338994/",
+  "registrado": "09:10 ECU"
+ },
+ {
+  "local": "Inter",
+  "visita": "Fiorentina",
+  "hora": "06:30",
+  "resultado": "2-1",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 95.7,
+  "over25_dado": 86.2,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/inter-vs-fiorentina-serie-a-2026-10-25",
+  "registrado": "09:10 ECU"
+ }
+]

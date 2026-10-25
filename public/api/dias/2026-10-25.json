@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-25",
- "actualizado": "2026-10-25 08:11 ECU (UTC-5)",
+ "actualizado": "2026-10-25 09:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-25/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 0,
+  "terminados": 2,
   "total": 44,
   "over15_70": [
-   0,
-   0
+   1,
+   2
   ],
   "over25_senal": [
-   0,
-   0
+   1,
+   2
   ],
   "marcadores_exactos": 0
  },
@@ -69,7 +69,7 @@
     "gc": 9
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -95,8 +95,13 @@
     "gc": 8
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338994/"
   },
   {
    "puesto": 11,
@@ -121,7 +126,7 @@
     "gc": 4
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -225,7 +230,7 @@
     "gc": 8
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -383,8 +388,13 @@
     "gc": 8
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/inter-vs-fiorentina-serie-a-2026-10-25"
   },
   {
    "puesto": 2,
@@ -461,7 +471,7 @@
     "gc": 6
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -513,7 +523,7 @@
     "gc": 8
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -539,7 +549,7 @@
     "gc": 8
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -591,7 +601,7 @@
     "gc": 9
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -617,8 +627,13 @@
     "gc": 8
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338994/"
   },
   {
    "puesto": 11,
@@ -643,7 +658,7 @@
     "gc": 4
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -747,7 +762,7 @@
     "gc": 8
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -929,7 +944,7 @@
     "gc": 4
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1007,7 +1022,7 @@
     "gc": 5
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1137,7 +1152,7 @@
     "gc": 2
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

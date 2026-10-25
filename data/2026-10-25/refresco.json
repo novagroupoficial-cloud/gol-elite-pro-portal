@@ -1,20 +1,20 @@
 {
   "fecha": "2026-10-25",
-  "ultima_ejecucion": "2026-10-25 02:10 ECU",
+  "ultima_ejecucion": "2026-10-25 03:10 ECU",
   "ultima_ok": "2026-10-25 02:10 ECU",
   "rutina_diaria": "pendiente",
   "rutina_diaria_inicio": null,
   "pendientes": [
     "Antes de las 08:00 ECU: la rutina diaria del 25 (05:24) aún no corre; el portal sigue mostrando el ranking final del 24.",
-    "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso (02:10); sin lectura no se cuenta como fallo de deploy. Aviso 'bloqueo' del 25 enviado a las 02:10."
+    "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso (02:10, 03:10); sin lectura no se cuenta como fallo de deploy. Aviso 'bloqueo' del 25 enviado a las 02:10."
   ],
   "deploy": {
     "ok": null,
     "fallos_seguidos": 0,
-    "ultima_revision": "02:10 (sin lectura: WebFetch pidió permiso)"
+    "ultima_revision": "03:10 (sin lectura: WebFetch pidió permiso)"
   },
   "avisos_enviados": [
     "bloqueo"
   ],
-  "nota": "00:20: primera ejecución del día; trabajo sobre la jornada del 24 (ver data/2026-10-24/refresco.json). 02:10: Pumas–Tigres registrado en la jornada del 24 (cerrada); ranking final del 24 regenerado. Aviso bloqueo enviado junto con el cierre del 24."
+  "nota": "00:20: primera ejecución del día; trabajo sobre la jornada del 24 (ver data/2026-10-24/refresco.json). 02:10: Pumas–Tigres registrado en la jornada del 24 (cerrada); ranking final del 24 regenerado. Aviso bloqueo enviado junto con el cierre del 24. 03:10: sin cambios de datos (antes de las 08:00); portal en vivo sin lectura."
 }

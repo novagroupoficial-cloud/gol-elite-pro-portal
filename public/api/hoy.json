@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-24",
- "actualizado": "2026-10-24 18:11 ECU (UTC-5)",
+ "actualizado": "2026-10-24 19:12 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-24/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 30,
+  "terminados": 33,
   "total": 57,
   "over15_70": [
-   18,
-   23
+   20,
+   25
   ],
   "over25_senal": [
    3,
-   8
+   9
   ],
   "marcadores_exactos": 2
  },
@@ -188,7 +188,7 @@
     "gc": 25
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -713,8 +713,13 @@
     "gc": 25
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/new-york-red-bulls-vs-inter-miami-mls-2026-10-24"
   },
   {
    "puesto": 5,
@@ -765,7 +770,7 @@
     "gc": 41
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -936,7 +941,7 @@
     "gc": 25
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1428,7 +1433,7 @@
     "gc": 25
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1646,7 +1651,7 @@
     "gc": 19
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1760,8 +1765,13 @@
     "gc": 22
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-2",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/vasco-da-gama-vs-corinthians-brasileirao-2026-10-24"
   },
   {
    "puesto": 42,
@@ -2081,8 +2091,13 @@
     "gc": 19
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/palmeiras-vs-rb-bragantino-brasileirao-2026-10-24"
   },
   {
    "puesto": 53,

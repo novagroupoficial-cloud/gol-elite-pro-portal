@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 18:11 ECU",
+ "actualizado": "2026-10-24 19:12 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 185,
+ "partidos": 188,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -19,31 +19,31 @@
    "partidos": 3
   },
   "GOLES PLATINO": {
-   "aciertos": 14,
-   "partidos": 16
+   "aciertos": 15,
+   "partidos": 17
   },
   "GOLES ESTÁNDAR": {
    "aciertos": 44,
    "partidos": 65
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 84,
-   "partidos": 101
+   "aciertos": 86,
+   "partidos": 103
   }
  },
  "over90": {
-  "aciertos": 17,
-  "partidos": 19,
-  "racha_actual": 0,
+  "aciertos": 18,
+  "partidos": 20,
+  "racha_actual": 1,
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 61,
-  "partidos": 84
+  "aciertos": 62,
+  "partidos": 85
  },
  "over25_senal": {
   "aciertos": 22,
-  "partidos": 36
+  "partidos": 37
  },
  "partido_del_dia": {
   "aciertos": 6,
@@ -129,9 +129,9 @@
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 16,
-   "aciertos": 14,
-   "prometido": 91.9
+   "partidos": 17,
+   "aciertos": 15,
+   "prometido": 91.8
   },
   {
    "franja": "80 a 89 %",
@@ -141,14 +141,14 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 62,
-   "aciertos": 50,
+   "partidos": 63,
+   "aciertos": 51,
    "prometido": 74.3
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 39,
-   "aciertos": 34,
+   "partidos": 40,
+   "aciertos": 35,
    "prometido": 61.0
   }
  ],
@@ -181,6 +181,15 @@
     "resultado": "1-0",
     "goles": 1,
     "acierto": false
+   },
+   {
+    "hora": "16:30",
+    "local": "New York RB",
+    "visita": "Inter Miami",
+    "over15": 91.3,
+    "resultado": "2-0",
+    "goles": 2,
+    "acierto": true
    },
    {
     "hora": "08:30",
@@ -336,6 +345,15 @@
     "acierto": true
    },
    {
+    "hora": "16:30",
+    "local": "Vasco da Gama",
+    "visita": "Corinthians",
+    "over15": 72.6,
+    "resultado": "3-2",
+    "goles": 5,
+    "acierto": true
+   },
+   {
     "hora": "14:30",
     "local": "Vitória",
     "visita": "Athletico-PR",
@@ -396,6 +414,15 @@
     "over15": 66.6,
     "resultado": "4-2",
     "goles": 6,
+    "acierto": true
+   },
+   {
+    "hora": "16:30",
+    "local": "Palmeiras",
+    "visita": "Bragantino",
+    "over15": 63.9,
+    "resultado": "2-0",
+    "goles": 2,
     "acierto": true
    },
    {

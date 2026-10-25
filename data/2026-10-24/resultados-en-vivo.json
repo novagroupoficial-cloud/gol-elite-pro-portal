@@ -468,5 +468,53 @@
   "fuente": "https://aratuon.com.br/futebol/com-gols-no-primeiro-tempo-vitoria-e-athletico-pr-empatam-em-1-a-1-no-barradao/",
   "registrado": "18:10 ECU",
   "nota": "Aratu On (18:45, 'apito final'): Vitória 1-1 Athletico-PR (Jamerson a.g. 24', Renato Kayzer 29'); Placar y Terra con el mismo marcador."
+ },
+ {
+  "local": "Palmeiras",
+  "visita": "Bragantino",
+  "hora": "16:30",
+  "resultado": "2-0",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 63.9,
+  "over25_dado": 36.1,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/palmeiras-vs-rb-bragantino-brasileirao-2026-10-24",
+  "registrado": "19:10 ECU",
+  "nota": "Fútbol Total (Final): Palmeiras 2-0 Bragantino (Maurício 45+11' pen., Giay 77')."
+ },
+ {
+  "local": "Vasco da Gama",
+  "visita": "Corinthians",
+  "hora": "16:30",
+  "resultado": "3-2",
+  "goles": 5,
+  "estado": "terminado",
+  "over15_dado": 72.6,
+  "over25_dado": 46.0,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/vasco-da-gama-vs-corinthians-brasileirao-2026-10-24",
+  "registrado": "19:10 ECU",
+  "nota": "Fútbol Total (Final): Vasco 3-2 Corinthians (J. L. Rodríguez 35', Gustavo Henrique 50', Matheus Bidu 57', Hinestroza 88' y 90')."
+ },
+ {
+  "local": "New York RB",
+  "visita": "Inter Miami",
+  "hora": "16:30",
+  "resultado": "2-0",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 91.3,
+  "over25_dado": 76.1,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/new-york-red-bulls-vs-inter-miami-mls-2026-10-24",
+  "registrado": "19:10 ECU",
+  "nota": "Fútbol Total en 2 fichas (Final): NY Red Bulls 2-0 Inter Miami (Casimiro a.g. 7', Forsberg 90+1'). Over 2.5 'fuerte' fallado."
  }
 ]

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 07:19 ECU",
+ "actualizado": "2026-10-25 07:39 ECU",
  "nota": "Brier: menor es mejor. skill > 0: aporta frente a decir siempre la media. AUC: 0,5 = azar, 1 = perfecto. Metas Kaizen: skill > 0 y AUC Over 1.5 >= 0,60.",
  "total": {
   "over15": {

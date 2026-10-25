@@ -1,0 +1,209 @@
+{
+ "actualizado": "2026-10-25 07:19 ECU",
+ "nota": "Brier: menor es mejor. skill > 0: aporta frente a decir siempre la media. AUC: 0,5 = azar, 1 = perfecto. Metas Kaizen: skill > 0 y AUC Over 1.5 >= 0,60.",
+ "total": {
+  "over15": {
+   "n": 202,
+   "brier": 0.1823,
+   "skill": -0.088,
+   "auc": 0.447,
+   "logloss": 0.555,
+   "media_pred": 0.766,
+   "real": 0.787
+  },
+  "over25": {
+   "n": 202,
+   "brier": 0.2557,
+   "skill": -0.028,
+   "auc": 0.555,
+   "logloss": 0.7081,
+   "media_pred": 0.531,
+   "real": 0.535
+  }
+ },
+ "ultimos_7_dias": {
+  "over15": {
+   "n": 183,
+   "brier": 0.1879,
+   "skill": -0.081,
+   "auc": 0.447,
+   "logloss": 0.5688,
+   "media_pred": 0.765,
+   "real": 0.776
+  },
+  "over25": {
+   "n": 183,
+   "brier": 0.2565,
+   "skill": -0.027,
+   "auc": 0.554,
+   "logloss": 0.7091,
+   "media_pred": 0.53,
+   "real": 0.514
+  }
+ },
+ "por_version": {
+  "4.0": {
+   "over15": {
+    "n": 202,
+    "brier": 0.1823,
+    "skill": -0.088,
+    "auc": 0.447,
+    "logloss": 0.555,
+    "media_pred": 0.766,
+    "real": 0.787
+   },
+   "over25": {
+    "n": 202,
+    "brier": 0.2557,
+    "skill": -0.028,
+    "auc": 0.555,
+    "logloss": 0.7081,
+    "media_pred": 0.531,
+    "real": 0.535
+   }
+  }
+ },
+ "por_dia": {
+  "2026-10-11": {
+   "over15": {
+    "n": 19,
+    "brier": 0.128,
+    "skill": -0.359,
+    "auc": 0.441,
+    "logloss": 0.4225,
+    "media_pred": 0.772,
+    "real": 0.895
+   },
+   "over25": {
+    "n": 19,
+    "brier": 0.2479,
+    "skill": -0.279,
+    "auc": 0.557,
+    "logloss": 0.6989,
+    "media_pred": 0.537,
+    "real": 0.737
+   }
+  },
+  "2026-10-16": null,
+  "2026-10-17": {
+   "over15": {
+    "n": 60,
+    "brier": 0.2386,
+    "skill": -0.136,
+    "auc": 0.418,
+    "logloss": 0.6897,
+    "media_pred": 0.79,
+    "real": 0.7
+   },
+   "over25": {
+    "n": 60,
+    "brier": 0.2674,
+    "skill": -0.07,
+    "auc": 0.519,
+    "logloss": 0.7295,
+    "media_pred": 0.563,
+    "real": 0.5
+   }
+  },
+  "2026-10-18": {
+   "over15": {
+    "n": 43,
+    "brier": 0.1369,
+    "skill": -0.14,
+    "auc": 0.547,
+    "logloss": 0.4419,
+    "media_pred": 0.759,
+    "real": 0.86
+   },
+   "over25": {
+    "n": 43,
+    "brier": 0.2456,
+    "skill": -0.119,
+    "auc": 0.606,
+    "logloss": 0.6895,
+    "media_pred": 0.524,
+    "real": 0.674
+   }
+  },
+  "2026-10-19": {
+   "over15": {
+    "n": 10,
+    "brier": 0.128,
+    "skill": -0.423,
+    "auc": 0.889,
+    "logloss": 0.4348,
+    "media_pred": 0.683,
+    "real": 0.9
+   },
+   "over25": {
+    "n": 10,
+    "brier": 0.2454,
+    "skill": -0.022,
+    "auc": 0.458,
+    "logloss": 0.6844,
+    "media_pred": 0.411,
+    "real": 0.4
+   }
+  },
+  "2026-10-20": {
+   "over15": {
+    "n": 8,
+    "brier": 0.3015,
+    "skill": -0.287,
+    "auc": 0.133,
+    "logloss": 0.8464,
+    "media_pred": 0.737,
+    "real": 0.625
+   },
+   "over25": {
+    "n": 8,
+    "brier": 0.2444,
+    "skill": -0.303,
+    "auc": 0.667,
+    "logloss": 0.6815,
+    "media_pred": 0.483,
+    "real": 0.25
+   }
+  },
+  "2026-10-23": {
+   "over15": {
+    "n": 5,
+    "brier": 0.3185,
+    "skill": -0.327,
+    "auc": 0.667,
+    "logloss": 0.8701,
+    "media_pred": 0.701,
+    "real": 0.4
+   },
+   "over25": {
+    "n": 5,
+    "brier": 0.2839,
+    "skill": -0.774,
+    "auc": 0.25,
+    "logloss": 0.7492,
+    "media_pred": 0.457,
+    "real": 0.2
+   }
+  },
+  "2026-10-24": {
+   "over15": {
+    "n": 55,
+    "brier": 0.1525,
+    "skill": -0.114,
+    "auc": 0.458,
+    "logloss": 0.4879,
+    "media_pred": 0.769,
+    "real": 0.836
+   },
+   "over25": {
+    "n": 55,
+    "brier": 0.2571,
+    "skill": -0.029,
+    "auc": 0.558,
+    "logloss": 0.7123,
+    "media_pred": 0.537,
+    "real": 0.491
+   }
+  }
+ }
+}

@@ -9,6 +9,8 @@ Uso:
 from dataclasses import dataclass
 from math import floor, exp, factorial
 
+VERSION = "4.1"      # Kaizen 25-oct-2026 (ver tools/kaizen/KAIZEN.md); 4.0 = ALFA 1.0
+ALFA = 0.5           # 4.1: encoge los factores de ataque/defensa hacia 1 (factor**ALFA). Con 1.0 es exactamente 4.0.
 RHO = -0.08          # corrección Dixon-Coles
 K = 4                # partidos "virtuales" de contracción hacia la media de liga
 MAXG = 10            # tabla de marcadores 0..10
@@ -78,8 +80,8 @@ def pronostico(LHG, LAG, local: Equipo, visita: Equipo, cuota_over25=None, cuota
     gfV = _metrica(visita.gf, visita.pj, visita.u5_gf, visita.u5_pj, visita.xg, LAG)
     gcV = _metrica(visita.gc, visita.pj, visita.u5_gc, visita.u5_pj, visita.xga, LHG)
 
-    ataL, defV = _lim(gfL / LHG, .6, 1.6), _lim(gcV / LHG, .6, 1.6)
-    ataV, defL = _lim(gfV / LAG, .6, 1.6), _lim(gcL / LAG, .6, 1.6)
+    ataL, defV = _lim(gfL / LHG, .6, 1.6) ** ALFA, _lim(gcV / LHG, .6, 1.6) ** ALFA
+    ataV, defL = _lim(gfV / LAG, .6, 1.6) ** ALFA, _lim(gcL / LAG, .6, 1.6) ** ALFA
     ll = LHG * ataL * defV * _lim(local.ajuste, .9, 1.1)
     lv = LAG * ataV * defL * _lim(visita.ajuste, .9, 1.1)
 
@@ -113,7 +115,7 @@ def pronostico(LHG, LAG, local: Equipo, visita: Equipo, cuota_over25=None, cuota
         "over15": o15p, "over25": o25p, "under25": round(100 - o25p, 1),
         "marcador": f"{marcador[0]}-{marcador[1]}",
         "categoria": categoria_o15(o15p), "senal_o25": senal_o25(o25p),
-        "aviso_mercado": aviso,
+        "aviso_mercado": aviso, "modelo_version": VERSION,
     }
 
 

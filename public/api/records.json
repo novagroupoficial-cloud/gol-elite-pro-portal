@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 11:11 ECU",
+ "actualizado": "2026-10-25 12:12 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,39 +12,39 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 215,
+ "partidos": 223,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
-   "aciertos": 4,
-   "partidos": 4
+   "aciertos": 5,
+   "partidos": 5
   },
   "GOLES PLATINO": {
-   "aciertos": 19,
-   "partidos": 21
+   "aciertos": 21,
+   "partidos": 23
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 52,
-   "partidos": 75
+   "aciertos": 53,
+   "partidos": 77
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 95,
-   "partidos": 115
+   "aciertos": 98,
+   "partidos": 118
   }
  },
  "over90": {
-  "aciertos": 23,
-  "partidos": 25,
-  "racha_actual": 6,
+  "aciertos": 26,
+  "partidos": 28,
+  "racha_actual": 9,
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 75,
-  "partidos": 100
+  "aciertos": 79,
+  "partidos": 105
  },
  "over25_senal": {
-  "aciertos": 28,
-  "partidos": 46
+  "aciertos": 30,
+  "partidos": 50
  },
  "partido_del_dia": {
   "aciertos": 7,
@@ -132,26 +132,26 @@
  "calibracion": [
   {
    "franja": "95 % o más",
-   "partidos": 4,
-   "aciertos": 4,
+   "partidos": 5,
+   "aciertos": 5,
    "prometido": 95.8
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 21,
-   "aciertos": 19,
-   "prometido": 91.8
+   "partidos": 23,
+   "aciertos": 21,
+   "prometido": 91.7
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 75,
-   "aciertos": 52,
+   "partidos": 77,
+   "aciertos": 53,
    "prometido": 83.6
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 69,
-   "aciertos": 55,
+   "partidos": 72,
+   "aciertos": 58,
    "prometido": 74.5
   },
   {
@@ -174,11 +174,29 @@
     "acierto": true
    },
    {
+    "hora": "09:30",
+    "local": "Hoffenheim",
+    "visita": "Bayer Leverkusen",
+    "over15": 95.7,
+    "resultado": "3-0",
+    "goles": 3,
+    "acierto": true
+   },
+   {
     "hora": "08:30",
     "local": "PSV",
     "visita": "Feyenoord",
     "over15": 93.8,
     "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "09:00",
+    "local": "Crystal Palace",
+    "visita": "Newcastle United",
+    "over15": 92.7,
+    "resultado": "0-2",
     "goles": 2,
     "acierto": true
    },
@@ -192,6 +210,15 @@
     "acierto": true
    },
    {
+    "hora": "09:00",
+    "local": "Manchester United",
+    "visita": "AFC Bournemouth",
+    "over15": 89.5,
+    "resultado": "0-3",
+    "goles": 3,
+    "acierto": true
+   },
+   {
     "hora": "06:15",
     "local": "Fortuna Sittard",
     "visita": "Excelsior",
@@ -199,6 +226,51 @@
     "resultado": "1-0",
     "goles": 1,
     "acierto": false
+   },
+   {
+    "hora": "09:00",
+    "local": "Liverpool",
+    "visita": "Brighton & Hove Albion",
+    "over15": 86.1,
+    "resultado": "2-0",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "09:00",
+    "local": "Genoa",
+    "visita": "Venezia",
+    "over15": 83.2,
+    "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
+   },
+   {
+    "hora": "09:00",
+    "local": "Atalanta",
+    "visita": "Frosinone",
+    "over15": 76.7,
+    "resultado": "4-4",
+    "goles": 8,
+    "acierto": true
+   },
+   {
+    "hora": "09:00",
+    "local": "Hull City",
+    "visita": "Brentford",
+    "over15": 75.3,
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "09:00",
+    "local": "Monaco",
+    "visita": "Lille",
+    "over15": 73.1,
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
    },
    {
     "hora": "08:00",

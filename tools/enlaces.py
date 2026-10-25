@@ -701,7 +701,7 @@ _ST=['Banfield|Lanus','Talleres Cordoba|Defensa y Justicia','San Lorenzo|Newells
  'Portland|Charlotte','San Diego|Seattle','Lens|Paris FC','Mirassol|São Paulo','Internacional|Botafogo','Palmeiras|Bragantino','Chapecoense|Fluminense',
  'Monterrey|Guadalajara','Pumas UNAM|Tigres UANL','Napoli|Roma','Lazio|Parma']
 _PI={f"{p['local']}|{p['visita']}":p for p in _P if not p.get('sin')}
-PRED=[k for k in sorted(_ST,key=lambda k:-_PI[k]['over15']) if k in _PI and round(_PI[k]['over15'],1)>=79.5]
+PRED=[k for k in sorted(_ST,key=lambda k:-_PI.get(k,{'over15':0})['over15']) if k in _PI and round(_PI[k]['over15'],1)>=79.5]
 DEST=['Borussia Dortmund|Eintracht Frankfurt','New York RB|Inter Miami','Portland|Charlotte','DC United|Cincinnati','Chapecoense|Fluminense']
 COL.update({'America de Cali':'#c8102e','América de Cali':'#c8102e','Cúcuta':'#c8102e','Once Caldas':'#ffffff','Deportivo Pereira':'#f6d11b',
  'Portland':'#004812','Charlotte':'#1a85c8','DC United':'#111111','Cincinnati':'#f05323','Chapecoense':'#00843d','Fluminense':'#7a1230'})
@@ -732,4 +732,64 @@ LLEGAN={
    "Chapecoense es 20.ª con 18 puntos y 3 derrotas seguidas; Fluminense 5.º con 51 puntos, en pelea por la Libertadores.",
    "Fluminense fuera: 1,3 goles a favor y 1,5 en contra por partido (15 partidos).",
    "Fuentes: tabla del Brasileirão 2026 (local y visitante) y Valor Final."],
+}
+
+# ---- Domingo 25-oct-2026 (rutina diaria, sellado 05:40 ECU) ----
+# LINK: previa o ficha real de cada partido (titular en español, medio y enlace). Donde no se halló una previa individual verificada,
+# se enlaza la página real y abierta de la agenda/fecha de su liga (Fútbol Total, Football Web Pages, Ligue 1, sport-flash, VAVEL, Primicias).
+_FT=("Agenda del domingo 25 de octubre: horarios de todos los partidos","Fútbol Total","https://futboltotal.futbol/2026-10-25")
+_ESP=("LaLiga 2026-27: calendario y resultados de octubre (jornada 10)","Football Web Pages","https://www.footballwebpages.co.uk/spanish-la-liga/fixtures-results")
+_GER=("Bundesliga 2026-27: calendario y resultados de octubre (jornada 7)","Football Web Pages","https://www.footballwebpages.co.uk/german-bundesliga/fixtures-results/october")
+_NED=("Eredivisie 2026-27: calendario y resultados de octubre (jornada 10)","Football Web Pages","https://www.footballwebpages.co.uk/dutch-eredivisie/fixtures-results/october")
+_FRA=("Ligue 1: programación de la jornada 8","Ligue 1 (LFP)","https://ligue1.com/en/articles/l1_article_5797-programmations-tv-j6-j7-et-j8-l1-2627")
+_MEX=("Liga MX: los partidos del domingo 25 de octubre (jornada 14 del Apertura 2026)","sport-flash","https://www.sport-flash.com/sports/football/mx/calendar/2026-10-25/liga-mx-apertura-2026")
+_USA=("MLS 2026: calendario del domingo 25 de octubre","VAVEL","https://www.vavel.com/en-us/data/mls/fixtures/")
+_ECU=("LigaPro: horarios de la fecha 4 de la fase final","Primicias","https://www.primicias.ec/deportes/donde-ver-fecha/teleamazonas-fechas-partidos-horarios-fecha4-hexagonal-cuadrangular-ver-tv-135546/")
+_LIGA={'ENG':_FT,'ITA':_FT,'COL':_FT,'ARG':_FT,'ESP':_ESP,'GER':_GER,'NED':_NED,'FRA':_FRA,'MEX':_MEX,'USA':_USA,'ECU':_ECU}
+LINK={f"{p['local']}|{p['visita']}":_LIGA[p['liga']] for p in _P if not p.get('sin')}
+LINK.update({
+ 'Hoffenheim|Bayer Leverkusen':("Hoffenheim vs Bayer Leverkusen: forma, tabla e historial de la jornada 7","On Tour Football","https://ontourfootball.com/fixtures/1899-hoffenheim-vs-bayer-leverkusen-2026-10-25"),
+ 'Barcelona|Real Madrid':("Confirman la hora y dónde ver el Clásico Barcelona-Real Madrid","Excélsior","https://www.excelsior.com.mx/deportes/confirman-hora-y-donde-ver-clasico-barcelona-real-madrid"),
+ 'Sparta Rotterdam|Ajax':("Sparta Rotterdam vs Ajax: ficha del partido de la jornada 10","Fútbol Total","https://futboltotal.futbol/partido/sparta-rotterdam-vs-ajax-eredivisie-2026-10-25"),
+ 'Aucas|Barcelona SC':("Duelo de necesitados: Aucas recibe a Barcelona SC en la fecha 4 del hexagonal por el título","El Universo","https://www.eluniverso.com/deportes/campeonato-ecuatoriano/duelo-de-necesitados-aucas-recibe-a-barcelona-sc-en-la-fecha-4-del-hexagonal-por-el-titulo-de-la-liga-pro-nota/"),
+})
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Barcelona|Real Madrid','Aucas|Barcelona SC','Crystal Palace|Newcastle United','Independiente|Boca Juniors']
+COL.update({'Fortuna Sittard':'#f6d11b','Excelsior':'#d0021b','Inter':'#0b3d91','Fiorentina':'#5b2a86','Athletic Club':'#d0021b','Getafe':'#1d4fa0',
+ 'PSV':'#d0021b','Feyenoord':'#c8102e','NEC':'#c8102e','FC Groningen':'#00843d','Liverpool':'#c8102e','Brighton & Hove Albion':'#0057b8',
+ 'Manchester United':'#da291c','AFC Bournemouth':'#b50e12','Hull City':'#f5a12d','Brentford':'#e30613','Newcastle United':'#1a1f3a',
+ 'Genoa':'#a6192e','Venezia':'#111111','Frosinone':'#f6d11b','Monaco':'#e30613','Lille':'#c8102e','Hoffenheim':'#1961b5','Bayer Leverkusen':'#e32221',
+ 'Celta Vigo':'#8ac3ee','Real Betis':'#00954c','Sparta Rotterdam':'#d0021b','Ajax':'#d2122e','Auxerre':'#ffffff','Le Mans':'#c8102e',
+ 'Toulouse':'#5b2a86','Troyes':'#1d4fa0','Rennes':'#d0021b','Angers':'#111111','Lorient':'#f58220','Marseille':'#2faee0','Le Havre':'#5aa0d6',
+ 'Sunderland':'#eb172b','Leeds United':'#ffffff','SC Freiburg':'#d0021b','Bayern Munich':'#dc052d','Leones del Norte':'#0b2a52','Libertad':'#f6d11b',
+ 'Lecce':'#f6d11b','Juventus':'#111111','Real Sociedad':'#0067b1','Aldosivi':'#00843d','Belgrano':'#6cc4ec','AZ':'#d0021b','FC Twente':'#e30613',
+ 'Fortaleza':'#c8102e','Deportivo Cali':'#00843d','Emelec':'#1d4fa0','Guayaquil City':'#6cc4ec','Udinese':'#111111','Barcelona':'#a50044',
+ 'Real Madrid':'#f4f4f4','Independiente':'#d0021b','Boca Juniors':'#0b3d91','Alianza (ex Alianza Petrolera)':'#f6d11b',
+ 'Internacional de Bogotá (ex La Equidad)':'#c8102e','Aucas':'#d0021b','Barcelona SC':'#f7c600','River Plate':'#ffffff','Racing Club':'#6cc4ec',
+ 'Atlas':'#c8102e','Puebla':'#1d4fa0','Atlético Nacional':'#00843d','Independiente Medellín':'#c8102e','Central Cordoba SdE':'#111111',
+ 'Velez Sarsfield':'#1d4fa0','Barracas Central':'#d0021b','Estudiantes Rio Cuarto':'#ffffff','America':'#f6d11b','Pachuca':'#1c3e72',
+ 'Queretaro':'#1d4fa0','Cruz Azul':'#1d5fb8','Los Angeles FC':'#111111','LA Galaxy':'#00245d','Tijuana':'#c8102e','Santos Laguna':'#00704a'})
+# Aciertos de ayer (sábado 24): (partido, marcador real, nuestro Over 1.5, medio, url)
+ACIERTOS=[
+ ("Augsburg vs Union Berlin","1-1","93,2 % · partido del día","colombia.com","https://www.colombia.com/futbol/alemania/bundesliga/resultados"),
+ ("Portland vs Charlotte","3-2","90,6 %","Fútbol Total","https://futboltotal.futbol/partido/portland-timbers-vs-charlotte-mls-2026-10-25"),
+ ("Mainz vs Werder Bremen","2-3","88,7 %","colombia.com","https://www.colombia.com/futbol/alemania/bundesliga/resultados"),
+ ("ADO Den Haag vs Heerenveen","2-3","88,5 %","Sporza","https://sporza.be/nl/sport/voetbal/~3338922/"),
+ ("RB Leipzig vs Elversberg","4-0","87,4 %","colombia.com","https://www.colombia.com/futbol/alemania/bundesliga/resultados"),
+ ("Willem II vs Cambuur","1-6","81,0 %","Sporza","https://sporza.be/nl/sport/voetbal/~3338861/"),
+ ("Napoli vs Roma","3-3","66,9 %","Fútbol Total","https://futboltotal.futbol/partido/napoli-vs-as-roma-serie-a-2026-10-24"),
+ ("Orense vs Delfín","4-0","69,7 %","El Universo","https://www.eluniverso.com/deportes/campeonato-ecuatoriano/orense-golea-4-0-a-delfin-y-lo-supera-en-la-tabla-de-descenso-de-la-liga-ecuabet-2026-nota/"),
+]
+LLEGAN={
+ 'Hoffenheim|Bayer Leverkusen':["Bayer Leverkusen ganó sus últimos 5 partidos (2-0 en Grecia ante OFI el jueves, 2-1 a Friburgo el domingo 18) y es 4.º con 13 puntos.",
+   "Leverkusen fuera de casa: 8 goles a favor y 8 en contra en 3 partidos (5,3 goles por partido en sus visitas).",
+   "Hoffenheim en casa: 6 a favor y 7 en contra en 3 partidos; viene de golear 3-0 a Lyon el jueves.",
+   "Fuentes: tabla de la Bundesliga 2026-27 (Sports Mole y Football Web Pages, partido a partido) y On Tour Football."],
+ 'Sparta Rotterdam|Ajax':["Ajax fuera de casa: 16 goles a favor y solo 3 en contra en 4 partidos.",
+   "Sparta en casa recibe 2,4 goles por partido (12 en 5).",
+   "Fuentes: tabla de la Eredivisie 2026-27 (Sports Mole y Football Web Pages, partido a partido) y ficha de Fútbol Total."],
+ 'Barcelona|Real Madrid':["Barcelona en casa: 17 goles a favor y 4 en contra en 4 partidos de LaLiga.",
+   "Real Madrid fuera: 6 a favor y 6 en contra en 4 partidos.",
+   "Primer Clásico de la temporada 2026-27, jornada 10, en el Spotify Camp Nou.",
+   "Fuentes: tabla de LaLiga 2026-27 (Football Web Pages, partido a partido) y Excélsior."],
 }

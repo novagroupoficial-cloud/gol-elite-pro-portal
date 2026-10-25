@@ -258,5 +258,40 @@
    "Gimnasia Mendoza 1-2 Platense (66,1 % · hubo 3 goles)"
   ],
   "partidos": 5
+ },
+ {
+  "fecha": "2026-10-24",
+  "titulo": "Sábado 24 de octubre de 2026",
+  "imagen": "/historial/2026-10-24.jpg",
+  "resumen": [
+   [
+    "5/6",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "34/42",
+    "Over 1.5 de 70 % o más (81 %)"
+   ],
+   [
+    "7/14",
+    "Over 2.5 con señal (50 %)"
+   ],
+   [
+    "7/55",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Fallaron 8 Over 1.5 de 70 % o más: Borussia Dortmund 1-0 Eintracht Frankfurt (91,7 %), Köln 0-0 Schalke (86,0 %), Atlético de Madrid 1-0 Deportivo La Coruña (85,3 %), Paderborn 1-0 Hamburgo (83,3 %), Houston 0-0 Minnesota (80,7 %), Monterrey 0-1 Chivas (76,1 %), Colorado 1-0 Vancouver (75,4 %) y Coventry 0-1 Fulham (70,9 %). En Over 2.5 con señal fallaron 7 de 14 (entre ellos Augsburg 1-1 Union Berlin, Utrecht 1-1 PEC Zwolle y NY Red Bulls 2-0 Inter Miami). Boyacá Chicó–Bucaramanga y Junior–Águilas Doradas se anularon: se jugaron el viernes 23, antes del sellado. En total, 46 de 55 partidos tuvieron 2 goles o más.",
+  "aciertos_destacados": [
+   "Augsburg 1-1 Union Berlin (partido del día · Over 1.5 al 93,2 % · hubo 2 goles)",
+   "Portland 3-2 Charlotte (Over 1.5 al 90,6 % · hubo 5 goles)",
+   "Willem II 1-6 Cambuur (Over 1.5 al 81,0 % · hubo 7 goles)",
+   "RB Leipzig 4-0 Elversberg (Over 1.5 al 87,4 % · hubo 4 goles)",
+   "Mainz 2-3 Werder Bremen (Over 1.5 al 88,7 % · hubo 5 goles)",
+   "ADO Den Haag 2-3 Heerenveen (Over 1.5 al 88,5 % · hubo 5 goles)",
+   "Columbus Crew 4-2 Toronto (66,6 % · hubo 6 goles)",
+   "Napoli 3-3 Roma (66,9 % · hubo 6 goles)"
+  ],
+  "partidos": 57
  }
 ]

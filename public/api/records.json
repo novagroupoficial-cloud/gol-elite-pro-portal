@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 02:11 ECU",
+ "actualizado": "2026-10-25 05:46 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -46,9 +46,9 @@
   "partidos": 42
  },
  "partido_del_dia": {
-  "aciertos": 6,
-  "dias": 7,
-  "racha_actual": 1,
+  "aciertos": 7,
+  "dias": 8,
+  "racha_actual": 2,
   "detalle": [
    {
     "fecha": "2026-10-11",
@@ -105,6 +105,14 @@
     "goles": 2,
     "acierto": true,
     "over15": 83.3
+   },
+   {
+    "fecha": "2026-10-24",
+    "partido": "Augsburg vs Union Berlin",
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true,
+    "over15": 93.2
    }
   ]
  },

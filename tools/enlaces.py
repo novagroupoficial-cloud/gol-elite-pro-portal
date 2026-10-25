@@ -793,3 +793,40 @@ LLEGAN={
    "Primer Clásico de la temporada 2026-27, jornada 10, en el Spotify Camp Nou.",
    "Fuentes: tabla de LaLiga 2026-27 (Football Web Pages, partido a partido) y Excélsior."],
 }
+
+# ---- Domingo 25-oct, 07:40 ECU: referencia = partidos de SportyTrader (data/2026-10-25/sportytrader.json) ----
+_ST=_j.load(open(_o.path.join(_o.path.dirname(_o.path.abspath(__file__)),'../data/2026-10-25/sportytrader.json'),encoding='utf-8'))['partidos'] if _o.path.exists(_o.path.join(_o.path.dirname(_o.path.abspath(__file__)),'../data/2026-10-25/sportytrader.json')) else []
+_PI={f"{p['local']}|{p['visita']}":p for p in _P if not p.get('sin')}
+if _ST:
+    PRED=[k for k in sorted(_ST,key=lambda k:-_PI[k]['over15']) if k in _PI and round(_PI[k]['over15'],1)>=79.5]
+    DEST=['Hoffenheim|Bayer Leverkusen','Sparta Rotterdam|Ajax','PSV|Feyenoord','Barcelona|Real Madrid','Manchester United|AFC Bournemouth']
+    COL.update({'Tolima':'#7a1230','Pasto':'#c8102e'})
+    LINK.setdefault('Tolima|Pasto',("Liga BetPlay: agenda del domingo 25 de octubre","Fútbol Total","https://futboltotal.futbol/2026-10-25"))
+    LINK.update({
+     'Hoffenheim|Bayer Leverkusen':("Hoffenheim vs Leverkusen: tabla, forma e historial","On Tour Football","https://ontourfootball.com/fixtures/1899-hoffenheim-vs-bayer-leverkusen-2026-10-25"),
+     'Sparta Rotterdam|Ajax':("Sparta vs Ajax: ficha y forma de la jornada 10","Fútbol Total","https://futboltotal.futbol/partido/sparta-rotterdam-vs-ajax-eredivisie-2026-10-25"),
+     'PSV|Feyenoord':("PSV vs Feyenoord: ficha y forma del clásico neerlandés","Fútbol Total","https://futboltotal.futbol/partido/psv-eindhoven-vs-feyenoord-eredivisie-2026-10-25"),
+     'Manchester United|AFC Bournemouth':("Manchester United vs Bournemouth: bajas y previa de la jornada 8","Football Dream","https://www.footballdream.in/blog/manchester-united-vs-afc-bournemouth-gw8-premier-league-2026-27"),
+    })
+    LLEGAN={
+     'Hoffenheim|Bayer Leverkusen':["Leverkusen fuera: 8 goles a favor y 8 en contra en 3 partidos (5,3 goles por partido en sus visitas).",
+       "Hoffenheim en casa: 6 a favor y 7 en contra en 3 partidos; viene de golear 3-0 al Lyon.",
+       "Leverkusen ganó sus últimos 5 partidos y es 4.º con 13 puntos; Hoffenheim es 14.º con 6.",
+       "Fuentes: tabla de la Bundesliga 2026-27 (local y visitante, partido a partido) y On Tour Football."],
+     'Sparta Rotterdam|Ajax':["Ajax fuera: 16 goles a favor y 3 en contra en 4 partidos (4 por partido).",
+       "Sparta en casa: 8 a favor y 12 en contra en 5 partidos.",
+       "Ajax ganó 2-5 en Groningen y 2-0 al Atalanta; Sparta viene de 3-2 y 3-3.",
+       "Fuentes: tabla de la Eredivisie 2026-27 (local y visitante) y Fútbol Total."],
+     'PSV|Feyenoord':["PSV en casa: 13 a favor y 4 en contra en 4 partidos.",
+       "Feyenoord fuera: 20 a favor y 6 en contra en 5 partidos; ganó 4 de sus últimos 5.",
+       "PSV perdió 2 de sus últimos 3 (1-2 en ADO Den Haag y 0-1 con Leipzig).",
+       "Fuentes: tabla de la Eredivisie 2026-27 (local y visitante) y Fútbol Total."],
+     'Barcelona|Real Madrid':["Barcelona en casa: 17 goles a favor y 4 en contra en 4 partidos.",
+       "Real Madrid fuera: 6 a favor y 6 en contra en 4 partidos.",
+       "El clásico fue declarado de alto riesgo; el modelo no incluye bajas ni contexto.",
+       "Fuentes: tabla de LaLiga 2026-27 (local y visitante) y Emisoras Unidas."],
+     'Manchester United|AFC Bournemouth':["United en casa: 6 a favor y 4 en contra en 3 partidos; Bournemouth fuera: 4 a favor y 9 en contra en 3.",
+       "Bajas de United: Šeško y Mainoo; Rashford y Lisandro Martínez en duda (lista oficial del 23-oct).",
+       "United lleva 4 empates en sus últimos 5; Bournemouth ganó 2-0 al Sunderland.",
+       "Fuentes: tabla de la Premier League 2026-27 (local y visitante) y Football Dream."],
+    }

@@ -1,0 +1,35 @@
+{
+ "fecha": "2026-10-25",
+ "partidos": {
+  "Hoffenheim|Bayer Leverkusen": {
+   "titular": "LEVERKUSEN, 5 VICTORIAS SEGUIDAS",
+   "texto": "Leverkusen es 4.º con 13 puntos y ganó sus últimos 5 partidos (2-0 en Grecia el jueves); Hoffenheim es 14.º con 6, pero viene de golear 3-0 al Lyon. Hay 3 goles por partido o más en ambos lados: Leverkusen fuera 8 a favor y 8 en contra en 3 partidos. Conclusión: partido abierto, nuestro único GOL ÉLITE del día; ojo, la muestra de la Bundesliga es corta (3 partidos por condición).",
+   "fuente": "On Tour Football",
+   "url": "https://ontourfootball.com/fixtures/1899-hoffenheim-vs-bayer-leverkusen-2026-10-25"
+  },
+  "Sparta Rotterdam|Ajax": {
+   "titular": "AJAX LLEGA GOLEANDO",
+   "texto": "Ajax ganó 2-5 en Groningen y 2-0 al Atalanta en la Conference; fuera mete 4 goles por partido (16 en 4). Sparta recibe 2,4 por partido en casa y sus últimos partidos terminaron 3-2 y 3-3. Conclusión: Ajax favorito y con mucho gol; Sparta también marca en casa.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/sparta-rotterdam-vs-ajax-eredivisie-2026-10-25"
+  },
+  "PSV|Feyenoord": {
+   "titular": "CLÁSICO DE PAÍSES BAJOS: PSV VS FEYENOORD",
+   "texto": "Feyenoord ganó 4 de sus últimos 5 (4-3 en Telstar, 5-0 al Utrecht) y mete 4 goles por partido de visitante; PSV mete 3,3 en casa, aunque perdió 2 de sus últimos 3. Conclusión: los dos ataques más fuertes de la liga frente a frente; el 2-2 es el marcador más probable.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/psv-eindhoven-vs-feyenoord-eredivisie-2026-10-25"
+  },
+  "Barcelona|Real Madrid": {
+   "titular": "EL CLÁSICO, DECLARADO DE ALTO RIESGO",
+   "texto": "Barcelona mete 4,3 goles por partido en el Camp Nou (17 en 4) y recibe 1; Real Madrid de visitante mete y recibe 1,5. Conclusión: Barcelona favorito en casa (2-1 el marcador más probable); en los clásicos pesa la tensión, y el modelo no ve bajas ni contexto.",
+   "fuente": "Emisoras Unidas",
+   "url": "https://emisorasunidas.com/deportes/2026/10/14/el-proximo-barca-madrid-es-declarado-de-alto-riesgo/?amp=1"
+  },
+  "Manchester United|AFC Bournemouth": {
+   "titular": "UNITED, CON BAJAS EN ATAQUE",
+   "texto": "Manchester United es 13.º con 7 puntos y lleva 4 empates en 5; no estarán Šeško ni Mainoo, y Rashford y Lisandro Martínez llegan en duda. Bournemouth (15.º) ganó 2-0 al Sunderland. Conclusión: el modelo da 90 % con solo 3 partidos por condición; con las bajas en ataque de United, el partido es de más riesgo de lo que dice el número.",
+   "fuente": "Football Dream",
+   "url": "https://www.footballdream.in/blog/manchester-united-vs-afc-bournemouth-gw8-premier-league-2026-27"
+  }
+ }
+}

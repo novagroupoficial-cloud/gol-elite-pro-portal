@@ -1211,37 +1211,6 @@
  {
   "hora": "20:00",
   "liga": "MEX",
-  "local": "America",
-  "visita": "Pachuca",
-  "casa": [
-   5,
-   11,
-   3
-  ],
-  "fuera": [
-   7,
-   10,
-   5
-  ],
-  "HG": 1.53,
-  "AG": 1.42,
-  "lambda_local": 1.26,
-  "lambda_visita": 0.97,
-  "goles_esperados": 2.2,
-  "over15": 66.2,
-  "over25": 38.4,
-  "under25": 61.6,
-  "marcador": "1-1",
-  "categoria": "GOLES OPTIMISTAS",
-  "senal_o25": "sin señal",
-  "aviso_mercado": null,
-  "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-  "rango_clasico": "Menos de 70",
-  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24F del 25-oct con los resultados del sáb 24); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)"
- },
- {
-  "hora": "20:00",
-  "liga": "MEX",
   "local": "Queretaro",
   "visita": "Cruz Azul",
   "casa": [
@@ -1300,6 +1269,70 @@
   "sellado": "2026-10-25 05:40 ECU (UTC-5)",
   "rango_clasico": "Rango 80",
   "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24F del 25-oct con los resultados del sáb 24); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)"
+ },
+ {
+  "hora": "20:05",
+  "liga": "MEX",
+  "local": "America",
+  "visita": "Pachuca",
+  "casa": [
+   5,
+   11,
+   3
+  ],
+  "fuera": [
+   7,
+   10,
+   5
+  ],
+  "HG": 1.53,
+  "AG": 1.42,
+  "lambda_local": 1.26,
+  "lambda_visita": 0.97,
+  "goles_esperados": 2.2,
+  "over15": 66.2,
+  "over25": 38.4,
+  "under25": 61.6,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "sellado": "2026-10-25 05:40 ECU (UTC-5)",
+  "rango_clasico": "Menos de 70",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24F del 25-oct con los resultados del sáb 24); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)",
+  "nota_hora": "Hora corregida de 20:00 a 20:05 ECU según SportyTrader (cotejo de Marco, 25-oct 07:26). Probabilidades sin cambios."
+ },
+ {
+  "hora": "20:15",
+  "liga": "COL",
+  "local": "Tolima",
+  "visita": "Pasto",
+  "casa": [
+   7,
+   9,
+   7
+  ],
+  "fuera": [
+   6,
+   6,
+   11
+  ],
+  "HG": 1.4,
+  "AG": 1.14,
+  "lambda_local": 1.57,
+  "lambda_visita": 0.97,
+  "goles_esperados": 2.5,
+  "over15": 73.2,
+  "over25": 46.8,
+  "under25": 53.2,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.0",
+  "sellado": "2026-10-25 07:26 ECU (UTC-5)",
+  "rango_clasico": "Rango 70",
+  "fuente_datos": "tablas casa/fuera de tools/datos.py (las mismas de la rutina del 25-oct). Agregado a las 07:26 ECU por cotejo con SportyTrader (capturas de Marco); sellado antes del inicio; versión 4.0 como el resto del día."
  },
  {
   "hora": "22:10",

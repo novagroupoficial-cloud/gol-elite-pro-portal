@@ -1,0 +1,61 @@
+{
+ "fecha": "2026-10-25",
+ "fuente": "capturas de SportyTrader enviadas por Marco (07:26 ECU)",
+ "partidos": [
+  "Queretaro|Cruz Azul",
+  "America|Pachuca",
+  "Atlas|Puebla",
+  "Tijuana|Santos Laguna",
+  "Liverpool|Brighton & Hove Albion",
+  "Manchester United|AFC Bournemouth",
+  "Atalanta|Frosinone",
+  "Genoa|Venezia",
+  "Lecce|Juventus",
+  "Udinese|AC Milan",
+  "Aldosivi|Belgrano",
+  "Independiente|Boca Juniors",
+  "River Plate|Racing Club",
+  "Central Cordoba SdE|Velez Sarsfield",
+  "Barracas Central|Estudiantes Rio Cuarto",
+  "Barcelona|Real Madrid",
+  "Athletic Club|Getafe",
+  "Celta Vigo|Real Betis",
+  "Real Sociedad|Levante",
+  "Fortaleza|Deportivo Cali",
+  "Atlético Nacional|Independiente Medellín",
+  "Tolima|Pasto",
+  "SC Freiburg|Bayern Munich",
+  "Hoffenheim|Bayer Leverkusen",
+  "Los Angeles FC|LA Galaxy",
+  "Monaco|Lille",
+  "Marseille|Le Havre",
+  "PSV|Feyenoord",
+  "Sparta Rotterdam|Ajax",
+  "Emelec|Guayaquil City",
+  "Aucas|Barcelona SC"
+ ],
+ "sin_pronostico": [
+  "Comerciantes Unidos vs Cienciano 11:00",
+  "UCV Moquegua vs Alianza Lima 13:15",
+  "Sport Boys vs FC Cajamarca 15:30 (Perú: tabla con corte 17-oct)",
+  "La Calera vs Universidad Católica 13:00",
+  "Palestino vs Colo Colo 15:30 (Chile: sin tabla de local y visitante)",
+  "AD San Carlos vs Saprissa 17:00",
+  "Alajuelense vs Pérez Zeledón 19:00 (Costa Rica: sin tabla)",
+  "Nacional vs Braga 13:00",
+  "Sporting CP vs Académico de Viseu 15:30 (Portugal: sin tabla)"
+ ],
+ "descartados_otra_fecha": [
+  "Unión vs Estudiantes LP (26-oct)",
+  "Instituto vs Riestra (26-oct)",
+  "Sevilla vs Osasuna (26-oct)",
+  "PSG vs Lyon (26-oct)",
+  "Santa Clara vs Benfica (26-oct)"
+ ],
+ "hora_corregida": [
+  "América vs Pachuca: 20:00 -> 20:05"
+ ],
+ "agregados": [
+  "Tolima vs Pasto 20:15"
+ ]
+}

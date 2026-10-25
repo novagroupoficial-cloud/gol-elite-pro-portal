@@ -1,6 +1,6 @@
 {
  "fecha": "2026-10-25",
- "actualizado": "2026-10-25 07:18 ECU (UTC-5)",
+ "actualizado": "2026-10-25 07:27 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-25/pronosticos.json",
@@ -8,7 +8,7 @@
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
   "terminados": 0,
-  "total": 43,
+  "total": 44,
   "over15_70": [
    0,
    0
@@ -1090,6 +1090,32 @@
   },
   {
    "puesto": 29,
+   "hora_ecuador": "20:15",
+   "liga": "Liga BetPlay",
+   "local": "Tolima",
+   "visitante": "Pasto",
+   "over15": 73.2,
+   "over25": 46.8,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 9,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 6,
+    "gc": 11
+   },
+   "sellado": "2026-10-25 07:26 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 30,
    "hora_ecuador": "09:00",
    "liga": "Ligue 1",
    "local": "Monaco",
@@ -1115,7 +1141,7 @@
    "resultado": null
   },
   {
-   "puesto": 30,
+   "puesto": 31,
    "hora_ecuador": "11:15",
    "liga": "Ligue 1",
    "local": "Angers",
@@ -1141,7 +1167,7 @@
    "resultado": null
   },
   {
-   "puesto": 31,
+   "puesto": 32,
    "hora_ecuador": "17:15",
    "liga": "Liga Profesional",
    "local": "River Plate",
@@ -1167,7 +1193,7 @@
    "resultado": null
   },
   {
-   "puesto": 32,
+   "puesto": 33,
    "hora_ecuador": "19:30",
    "liga": "Liga Profesional",
    "local": "Central Cordoba SdE",
@@ -1193,7 +1219,7 @@
    "resultado": null
   },
   {
-   "puesto": 33,
+   "puesto": 34,
    "hora_ecuador": "14:00",
    "liga": "LigaPro",
    "local": "Emelec",
@@ -1219,7 +1245,7 @@
    "resultado": null
   },
   {
-   "puesto": 34,
+   "puesto": 35,
    "hora_ecuador": "18:00",
    "liga": "Liga MX",
    "local": "Atlas",
@@ -1245,7 +1271,7 @@
    "resultado": null
   },
   {
-   "puesto": 35,
+   "puesto": 36,
    "hora_ecuador": "08:00",
    "liga": "LaLiga",
    "local": "Athletic Club",
@@ -1271,7 +1297,7 @@
    "resultado": null
   },
   {
-   "puesto": 36,
+   "puesto": 37,
    "hora_ecuador": "14:00",
    "liga": "Liga BetPlay",
    "local": "Fortaleza",
@@ -1297,8 +1323,8 @@
    "resultado": null
   },
   {
-   "puesto": 37,
-   "hora_ecuador": "20:00",
+   "puesto": 38,
+   "hora_ecuador": "20:05",
    "liga": "Liga MX",
    "local": "America",
    "visitante": "Pachuca",
@@ -1323,7 +1349,7 @@
    "resultado": null
   },
   {
-   "puesto": 38,
+   "puesto": 39,
    "hora_ecuador": "12:30",
    "liga": "LaLiga",
    "local": "Real Sociedad",
@@ -1349,7 +1375,7 @@
    "resultado": null
   },
   {
-   "puesto": 39,
+   "puesto": 40,
    "hora_ecuador": "11:30",
    "liga": "LigaPro",
    "local": "Leones del Norte",
@@ -1375,7 +1401,7 @@
    "resultado": null
   },
   {
-   "puesto": 40,
+   "puesto": 41,
    "hora_ecuador": "11:30",
    "liga": "Premier League",
    "local": "Sunderland",
@@ -1401,7 +1427,7 @@
    "resultado": null
   },
   {
-   "puesto": 41,
+   "puesto": 42,
    "hora_ecuador": "12:45",
    "liga": "Liga Profesional",
    "local": "Aldosivi",
@@ -1427,7 +1453,7 @@
    "resultado": null
   },
   {
-   "puesto": 42,
+   "puesto": 43,
    "hora_ecuador": "16:30",
    "liga": "LigaPro",
    "local": "Aucas",
@@ -1453,7 +1479,7 @@
    "resultado": null
   },
   {
-   "puesto": 43,
+   "puesto": 44,
    "hora_ecuador": "19:30",
    "liga": "Liga Profesional",
    "local": "Barracas Central",

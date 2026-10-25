@@ -1,0 +1,507 @@
+{
+ "fecha": "2026-10-25",
+ "generado_ecuador": "2026-10-25 07:27 ECU (UTC-5)",
+ "fuente_pronosticos": "public/api/hoy.json",
+ "modelo": "GOL ÉLITE PRO 4.0 (Nova Gol 4.0)",
+ "generado_por": "Claude (provisional mientras el Dashboard Gol 4.0 no entregue)",
+ "criterio": "Over 1.5 redondeado de 0 % o más",
+ "aviso": "+18 · Probabilidades estadísticas, no garantías.",
+ "partidos": [
+  {
+   "hora_ecuador": "09:30",
+   "liga": "Bundesliga",
+   "local": "Hoffenheim",
+   "visitante": "Bayer Leverkusen",
+   "over15": 95.7,
+   "over25": 85.9,
+   "marcador": "2-2",
+   "goles_esperados": 4.8,
+   "categoria": "GOL ÉLITE",
+   "senal_over25": "fuerte",
+   "destacado": true,
+   "lambda_local": 2.31,
+   "lambda_visita": 2.51,
+   "modelo_extra": {
+    "over05": 98.8,
+    "over35": 70.9,
+    "over45": 52.7,
+    "ambos_marcan": 83.1,
+    "gana_local": 36.8,
+    "empate": 19.4,
+    "gana_visit": 43.8,
+    "distribucion": [
+     1.2,
+     3.1,
+     9.7,
+     15.1,
+     18.1,
+     17.5,
+     14.1,
+     21.2
+    ],
+    "marcadores_top6": [
+     [
+      "2-2",
+      6.8
+     ],
+     [
+      "1-2",
+      5.9
+     ],
+     [
+      "2-3",
+      5.7
+     ],
+     [
+      "2-1",
+      5.4
+     ],
+     [
+      "3-2",
+      5.2
+     ],
+     [
+      "1-1",
+      5.1
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 2.2,
+    "visitante": 1.36
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 3,
+    "gf_pj": 2.0,
+    "gc_pj": 2.33,
+    "goles_pj": 4.33,
+    "indice_ataque": 0.91,
+    "indice_defensa": 1.72,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 3,
+    "gf_pj": 2.67,
+    "gc_pj": 2.67,
+    "goles_pj": 5.33,
+    "indice_ataque": 1.96,
+    "indice_defensa": 1.21,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Hoffenheim en casa: 2,00 goles a favor y 2,33 en contra por partido (3 PJ)",
+    "Bayer Leverkusen fuera: 2,67 a favor y 2,67 en contra por partido (3 PJ)",
+    "Sus partidos promedian 4,3 y 5,3 goles",
+    "Goles esperados por el modelo: 4,8",
+    "Ambos marcan: 83 %"
+   ],
+   "fuentes": [
+    "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24F del 25-oct con los resultados del sáb 24); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)"
+   ],
+   "corte_datos": "2026-10-25"
+  },
+  {
+   "hora_ecuador": "10:45",
+   "liga": "Eredivisie",
+   "local": "Sparta Rotterdam",
+   "visitante": "Ajax",
+   "over15": 94.2,
+   "over25": 82.6,
+   "marcador": "1-3",
+   "goles_esperados": 4.5,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "fuerte",
+   "destacado": false,
+   "lambda_local": 1.2,
+   "lambda_visita": 3.3,
+   "modelo_extra": {
+    "over05": 98.5,
+    "over35": 65.7,
+    "over45": 46.8,
+    "ambos_marcan": 67.7,
+    "gana_local": 9.7,
+    "empate": 13.1,
+    "gana_visit": 77.3,
+    "distribucion": [
+     1.5,
+     4.3,
+     11.6,
+     16.9,
+     19.0,
+     17.1,
+     12.8,
+     16.8
+    ],
+    "marcadores_top6": [
+     [
+      "1-3",
+      8.0
+     ],
+     [
+      "1-2",
+      7.3
+     ],
+     [
+      "0-3",
+      6.7
+     ],
+     [
+      "1-4",
+      6.6
+     ],
+     [
+      "0-2",
+      6.1
+     ],
+     [
+      "0-4",
+      5.5
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.8,
+    "visitante": 2.08
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 5,
+    "gf_pj": 1.6,
+    "gc_pj": 2.4,
+    "goles_pj": 4.0,
+    "indice_ataque": 0.89,
+    "indice_defensa": 1.15,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 4,
+    "gf_pj": 4.0,
+    "gc_pj": 0.75,
+    "goles_pj": 4.75,
+    "indice_ataque": 1.92,
+    "indice_defensa": 0.42,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Sparta Rotterdam en casa: 1,60 goles a favor y 2,40 en contra por partido (5 PJ)",
+    "Ajax fuera: 4,00 a favor y 0,75 en contra por partido (4 PJ)",
+    "Sus partidos promedian 4,0 y 4,8 goles",
+    "Goles esperados por el modelo: 4,5",
+    "Ambos marcan: 68 %"
+   ],
+   "fuentes": [
+    "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24F del 25-oct con los resultados del sáb 24); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)"
+   ],
+   "corte_datos": "2026-10-25"
+  },
+  {
+   "hora_ecuador": "08:30",
+   "liga": "Eredivisie",
+   "local": "PSV",
+   "visitante": "Feyenoord",
+   "over15": 93.8,
+   "over25": 81.3,
+   "marcador": "2-2",
+   "goles_esperados": 4.4,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "fuerte",
+   "destacado": false,
+   "lambda_local": 2.06,
+   "lambda_visita": 2.33,
+   "modelo_extra": {
+    "over05": 98.3,
+    "over35": 63.9,
+    "over45": 44.7,
+    "ambos_marcan": 79.2,
+    "gana_local": 34.8,
+    "empate": 20.5,
+    "gana_visit": 44.7,
+    "distribucion": [
+     1.7,
+     4.5,
+     12.4,
+     17.5,
+     19.2,
+     16.9,
+     12.3,
+     15.5
+    ],
+    "marcadores_top6": [
+     [
+      "2-2",
+      7.1
+     ],
+     [
+      "1-2",
+      6.9
+     ],
+     [
+      "1-1",
+      6.4
+     ],
+     [
+      "2-1",
+      6.1
+     ],
+     [
+      "2-3",
+      5.5
+     ],
+     [
+      "1-3",
+      5.4
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.8,
+    "visitante": 2.08
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 4,
+    "gf_pj": 3.25,
+    "gc_pj": 1.0,
+    "goles_pj": 4.25,
+    "indice_ataque": 1.81,
+    "indice_defensa": 0.48,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 5,
+    "gf_pj": 4.0,
+    "gc_pj": 1.2,
+    "goles_pj": 5.2,
+    "indice_ataque": 1.92,
+    "indice_defensa": 0.67,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "PSV en casa: 3,25 goles a favor y 1,00 en contra por partido (4 PJ)",
+    "Feyenoord fuera: 4,00 a favor y 1,20 en contra por partido (5 PJ)",
+    "Sus partidos promedian 4,2 y 5,2 goles",
+    "Goles esperados por el modelo: 4,4",
+    "Ambos marcan: 79 %"
+   ],
+   "fuentes": [
+    "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24F del 25-oct con los resultados del sáb 24); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)"
+   ],
+   "corte_datos": "2026-10-25"
+  },
+  {
+   "hora_ecuador": "15:00",
+   "liga": "LaLiga",
+   "local": "Barcelona",
+   "visitante": "Real Madrid",
+   "over15": 89.8,
+   "over25": 73.0,
+   "marcador": "2-1",
+   "goles_esperados": 3.8,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "moderada",
+   "destacado": false,
+   "lambda_local": 2.55,
+   "lambda_visita": 1.24,
+   "modelo_extra": {
+    "over05": 97.2,
+    "over35": 52.4,
+    "over45": 33.0,
+    "ambos_marcan": 66.1,
+    "gana_local": 65.2,
+    "empate": 18.6,
+    "gana_visit": 16.2,
+    "distribucion": [
+     2.8,
+     7.4,
+     16.8,
+     20.5,
+     19.4,
+     14.7,
+     9.3,
+     9.0
+    ],
+    "marcadores_top6": [
+     [
+      "2-1",
+      9.1
+     ],
+     [
+      "3-1",
+      7.7
+     ],
+     [
+      "1-1",
+      7.7
+     ],
+     [
+      "2-0",
+      7.3
+     ],
+     [
+      "3-0",
+      6.2
+     ],
+     [
+      "2-2",
+      5.6
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.69,
+    "visitante": 1.35
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 4,
+    "gf_pj": 4.25,
+    "gc_pj": 1.0,
+    "goles_pj": 5.25,
+    "indice_ataque": 2.51,
+    "indice_defensa": 0.74,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 4,
+    "gf_pj": 1.5,
+    "gc_pj": 1.5,
+    "goles_pj": 3.0,
+    "indice_ataque": 1.11,
+    "indice_defensa": 0.89,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Barcelona en casa: 4,25 goles a favor y 1,00 en contra por partido (4 PJ)",
+    "Real Madrid fuera: 1,50 a favor y 1,50 en contra por partido (4 PJ)",
+    "Sus partidos promedian 5,2 y 3,0 goles",
+    "Goles esperados por el modelo: 3,8",
+    "Ambos marcan: 66 %"
+   ],
+   "fuentes": [
+    "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24F del 25-oct con los resultados del sáb 24); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)"
+   ],
+   "corte_datos": "2026-10-25"
+  },
+  {
+   "hora_ecuador": "09:00",
+   "liga": "Premier League",
+   "local": "Manchester United",
+   "visitante": "AFC Bournemouth",
+   "over15": 89.5,
+   "over25": 72.5,
+   "marcador": "2-1",
+   "goles_esperados": 3.8,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "moderada",
+   "destacado": false,
+   "lambda_local": 2.44,
+   "lambda_visita": 1.32,
+   "modelo_extra": {
+    "over05": 97.1,
+    "over35": 51.8,
+    "over45": 32.4,
+    "ambos_marcan": 67.5,
+    "gana_local": 61.5,
+    "empate": 19.7,
+    "gana_visit": 18.8,
+    "distribucion": [
+     2.9,
+     7.6,
+     17.1,
+     20.6,
+     19.4,
+     14.6,
+     9.1,
+     8.7
+    ],
+    "marcadores_top6": [
+     [
+      "2-1",
+      9.1
+     ],
+     [
+      "1-1",
+      8.1
+     ],
+     [
+      "3-1",
+      7.4
+     ],
+     [
+      "2-0",
+      6.9
+     ],
+     [
+      "2-2",
+      6.0
+     ],
+     [
+      "3-0",
+      5.6
+     ]
+    ]
+   },
+   "media_liga": {
+    "local": 1.57,
+    "visitante": 1.27
+   },
+   "local_stats": {
+    "condicion": "en casa",
+    "pj": 3,
+    "gf_pj": 2.0,
+    "gc_pj": 1.33,
+    "goles_pj": 3.33,
+    "indice_ataque": 1.27,
+    "indice_defensa": 1.05,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "visitante_stats": {
+    "condicion": "fuera",
+    "pj": 3,
+    "gf_pj": 1.33,
+    "gc_pj": 3.0,
+    "goles_pj": 4.33,
+    "indice_ataque": 1.05,
+    "indice_defensa": 1.91,
+    "ultimos5": null,
+    "temporada": null
+   },
+   "referencia_1x2": null,
+   "h2h": [],
+   "datos_clave": [
+    "Manchester United en casa: 2,00 goles a favor y 1,33 en contra por partido (3 PJ)",
+    "AFC Bournemouth fuera: 1,33 a favor y 3,00 en contra por partido (3 PJ)",
+    "Sus partidos promedian 3,3 y 4,3 goles",
+    "Goles esperados por el modelo: 3,8",
+    "Ambos marcan: 68 %"
+   ],
+   "fuentes": [
+    "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque SAB24F del 25-oct con los resultados del sáb 24); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics)"
+   ],
+   "corte_datos": "2026-10-25"
+  }
+ ],
+ "sin_estadisticas": []
+}

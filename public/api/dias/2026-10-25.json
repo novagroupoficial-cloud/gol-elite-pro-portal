@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-25",
- "actualizado": "2026-10-25 14:22 ECU (UTC-5)",
+ "actualizado": "2026-10-25 15:12 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-25/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 19,
+  "terminados": 26,
   "total": 44,
   "over15_70": [
-   14,
-   17
+   16,
+   21
   ],
   "over25_senal": [
    6,
@@ -43,7 +43,7 @@
     "gc": 6
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -162,8 +162,13 @@
     "gc": 5
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-3",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/marseille-vs-le-havre-ligue-1-2026-10-25"
   },
   {
    "puesto": 13,
@@ -188,8 +193,13 @@
     "gc": 4
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/lecce-vs-juventus-serie-a-2026-10-25"
   },
   {
    "puesto": 14,
@@ -635,7 +645,7 @@
     "gc": 6
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -754,8 +764,13 @@
     "gc": 5
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-3",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/marseille-vs-le-havre-ligue-1-2026-10-25"
   },
   {
    "puesto": 13,
@@ -780,8 +795,13 @@
     "gc": 4
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/lecce-vs-juventus-serie-a-2026-10-25"
   },
   {
    "puesto": 14,
@@ -1148,7 +1168,7 @@
     "gc": 11
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1174,7 +1194,7 @@
     "gc": 5
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1200,8 +1220,13 @@
     "gc": 5
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/toulouse-vs-estac-troyes-ligue-1-2026-10-24"
   },
   {
    "puesto": 29,
@@ -1283,8 +1308,13 @@
     "gc": 2
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/angers-vs-lorient-ligue-1-2026-10-25"
   },
   {
    "puesto": 32,
@@ -1496,8 +1526,13 @@
     "gc": 7
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/real-sociedad-vs-levante-la-liga-2026-10-25"
   },
   {
    "puesto": 40,
@@ -1522,8 +1557,13 @@
     "gc": 20
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-1",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://kchcomunicacion.com/2026/10/25/meten-presion-al-cuadrangular-leones-fc-goleo-a-libertad-en-el-olimpico-de-ibarra/"
   },
   {
    "puesto": 41,
@@ -1579,8 +1619,13 @@
     "gc": 1
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/partido-aldosivi-vs-belgrano-cordoba-liga-profesional-argentina-2026-10-25"
   },
   {
    "puesto": 43,

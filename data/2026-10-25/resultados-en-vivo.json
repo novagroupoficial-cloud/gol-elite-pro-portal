@@ -28,5 +28,20 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/inter-vs-fiorentina-serie-a-2026-10-25",
   "registrado": "09:10 ECU"
+ },
+ {
+  "local": "Athletic Club",
+  "visita": "Getafe",
+  "hora": "08:00",
+  "resultado": "4-0",
+  "goles": 4,
+  "estado": "terminado",
+  "over15_dado": 68.0,
+  "over25_dado": 40.7,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/athletic-club-vs-getafe-la-liga-2026-10-25",
+  "registrado": "10:16 ECU"
  }
 ]

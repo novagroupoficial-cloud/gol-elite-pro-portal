@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 09:16 ECU",
+ "actualizado": "2026-10-25 10:16 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 212,
+ "partidos": 213,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -28,8 +28,8 @@
    "partidos": 75
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 94,
-   "partidos": 114
+   "aciertos": 95,
+   "partidos": 115
   }
  },
  "over90": {
@@ -156,9 +156,9 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 45,
-   "aciertos": 39,
-   "prometido": 61.0
+   "partidos": 46,
+   "aciertos": 40,
+   "prometido": 61.1
   }
  ],
  "ultima_jornada": {
@@ -181,6 +181,15 @@
     "resultado": "1-0",
     "goles": 1,
     "acierto": false
+   },
+   {
+    "hora": "08:00",
+    "local": "Athletic Club",
+    "visita": "Getafe",
+    "over15": 68.0,
+    "resultado": "4-0",
+    "goles": 4,
+    "acierto": true
    }
   ]
  }

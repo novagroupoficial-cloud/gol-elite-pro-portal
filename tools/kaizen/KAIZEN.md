@@ -42,6 +42,17 @@ Autorizado por Marco Rivera el 25-oct-2026: "te autorizo desde este momento… d
   - Over 2.5 fuerte más exigente.
 - **Rige** desde los pronósticos del 26-oct-2026. Los del 25-oct ya estaban sellados con la versión 4.0.
 
+## Over 2.5: prioridad de Marco (25-oct-2026)
+- **Situación:** es el punto más flojo.
+  - Con la versión 4.0: AUC 0,555 y skill −0,028. Con señal fuerte se cumplió 8 de 14; el sábado 24, 1 de 5.
+  - Con la 4.1, el skill sube a +0,005: apenas aporta.
+- **Plan para darle más datos,** en orden de impacto esperado:
+  1. **Cuotas de mercado Over/Under 2.5.** Son el mejor predictor conocido y el modelo ya las acepta (`cuota_over25` y `cuota_under25`). Desde el 26-oct la rutina las registra cuando la fuente abierta las muestra.
+  2. **Últimos 5 partidos:** forma reciente y goles. Desde el 26-oct se registran.
+  3. **xG por equipo** cuando haya una fuente abierta.
+  4. **Revisar los umbrales de señal fuerte y moderada** con 300 o más partidos.
+- **Seguimiento:** la rutina informa cada día el Brier, skill y AUC de Over 2.5 y cuántas señales fuertes y moderadas se cumplieron en los últimos 7 días, con ALERTA KAIZEN si empeora.
+
 ## Próximas mejoras (en cola)
 1. **Últimos 5 partidos (fase de medición):** la rutina registra en `data/<fecha>/ultimos5.json` los últimos 5 resultados de cada equipo de los partidos de 80 % o más, con su fuente. Cuando haya 100 o más partidos con ese dato, se prueba en el modelo (`Equipo.u5_gf/u5_gc/u5_pj` ya existe).
 2. **Fuente automática:** football-data.org (ya contratada por el Dashboard) para las ligas grandes, para no gastar lecturas web.

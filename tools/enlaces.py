@@ -772,6 +772,7 @@ COL.update({'Fortuna Sittard':'#f6d11b','Excelsior':'#d0021b','Inter':'#0b3d91',
 # Aciertos de ayer (sábado 24): (partido, marcador real, nuestro Over 1.5, medio, url)
 ACIERTOS=[
  ("Augsburg vs Union Berlin","1-1","93,2 % · partido del día","colombia.com","https://www.colombia.com/futbol/alemania/bundesliga/resultados"),
+ ("FC Utrecht vs PEC Zwolle","1-1","93,0 %","Sporza","https://sporza.be/nl/sport/voetbal/~3338962/"),
  ("Portland vs Charlotte","3-2","90,6 %","Fútbol Total","https://futboltotal.futbol/partido/portland-timbers-vs-charlotte-mls-2026-10-25"),
  ("Mainz vs Werder Bremen","2-3","88,7 %","colombia.com","https://www.colombia.com/futbol/alemania/bundesliga/resultados"),
  ("ADO Den Haag vs Heerenveen","2-3","88,5 %","Sporza","https://sporza.be/nl/sport/voetbal/~3338922/"),

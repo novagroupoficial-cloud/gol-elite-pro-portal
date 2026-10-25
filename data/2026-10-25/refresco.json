@@ -1,11 +1,11 @@
 {
  "fecha": "2026-10-25",
- "ultima_ejecucion": "2026-10-25 06:11 ECU",
- "ultima_ok": "2026-10-25 06:11 ECU",
+ "ultima_ejecucion": "2026-10-25 07:12 ECU",
+ "ultima_ok": "2026-10-25 07:12 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-25 05:25 ECU",
  "pendientes": [
-  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso (02:10, 03:10, 05:10, 06:11); sin lectura no se cuenta como fallo de deploy. Aviso 'bloqueo' del 25 enviado a las 02:10.",
+  "Verificar portal en vivo: WebFetch de gol-elite-pro.netlify.app/index sigue pidiendo permiso (02:10, 03:10, 05:10, 06:11, 07:12); sin lectura no se cuenta como fallo de deploy. Aviso 'bloqueo' del 25 enviado a las 02:10.",
   "Auditoría del 24 hecha (data/2026-10-24/auditoria.json) y Galería con la jornada del 24.",
   "Partido del día del kit: Hoffenheim–Leverkusen (95,7 %, 09:30). Inter–Fiorentina tiene el mismo 95,7 % a las 06:30: la portada lo muestra como 'mayor probabilidad' hasta que empiece; desde las 06:30 pasa a Hoffenheim–Leverkusen.",
   "Sin sumar a datos.py (no juegan hoy): COL Santa Fe–Jaguares (mié 21), ECU IDV–Católica (vie 23)."
@@ -13,10 +13,10 @@
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "06:11 (sin lectura: WebFetch pidió permiso)"
+  "ultima_revision": "07:12 (sin lectura: WebFetch pidió permiso)"
  },
  "avisos_enviados": [
   "bloqueo"
  ],
- "nota": "00:20: primera ejecución del día; trabajo sobre la jornada del 24 (ver data/2026-10-24/refresco.json). 02:10: Pumas–Tigres registrado en la jornada del 24 (cerrada); ranking final del 24 regenerado. Aviso bloqueo enviado junto con el cierre del 24. 03:10: sin cambios de datos (antes de las 08:00); portal en vivo sin lectura. 05:10: sin cambios de datos (antes de las 08:00); portal en vivo sin lectura. 05:47: rutina diaria del 25 hecha (05:25–05:47 ECU): 43 pronósticos sellados a las 05:40, auditoría y Galería del 24, kit de redes (partido del día Hoffenheim–Leverkusen). 06:11: ranking regenerado (43 partidos, ninguno terminado aún); portal en vivo sin lectura."
+ "nota": "00:20: primera ejecución del día; trabajo sobre la jornada del 24 (ver data/2026-10-24/refresco.json). 02:10: Pumas–Tigres registrado en la jornada del 24 (cerrada); ranking final del 24 regenerado. Aviso bloqueo enviado junto con el cierre del 24. 03:10: sin cambios de datos (antes de las 08:00); portal en vivo sin lectura. 05:10: sin cambios de datos (antes de las 08:00); portal en vivo sin lectura. 05:47: rutina diaria del 25 hecha (05:25–05:47 ECU): 43 pronósticos sellados a las 05:40, auditoría y Galería del 24, kit de redes (partido del día Hoffenheim–Leverkusen). 06:11: ranking regenerado (43 partidos, ninguno terminado aún); portal en vivo sin lectura. 07:12: ranking regenerado (43 partidos; ninguno con inicio + 2 h 15 cumplido, el primero a las 08:30); portal en vivo sin lectura."
 }

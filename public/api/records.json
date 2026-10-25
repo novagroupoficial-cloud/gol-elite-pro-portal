@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 16:18 ECU",
+ "actualizado": "2026-10-25 17:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 238,
+ "partidos": 240,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -28,8 +28,8 @@
    "partidos": 83
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 100,
-   "partidos": 125
+   "aciertos": 102,
+   "partidos": 127
   }
  },
  "over90": {
@@ -150,15 +150,15 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 75,
-   "aciertos": 58,
+   "partidos": 76,
+   "aciertos": 59,
    "prometido": 74.4
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 50,
-   "aciertos": 42,
-   "prometido": 61.3
+   "partidos": 51,
+   "aciertos": 43,
+   "prometido": 61.4
   }
  ],
  "ultima_jornada": {
@@ -336,6 +336,15 @@
     "acierto": true
    },
    {
+    "hora": "14:45",
+    "local": "Udinese",
+    "visita": "AC Milan",
+    "over15": 73.5,
+    "resultado": "0-2",
+    "goles": 2,
+    "acierto": true
+   },
+   {
     "hora": "11:15",
     "local": "Toulouse",
     "visita": "Troyes",
@@ -378,6 +387,15 @@
     "over15": 68.0,
     "resultado": "4-0",
     "goles": 4,
+    "acierto": true
+   },
+   {
+    "hora": "14:00",
+    "local": "Fortaleza",
+    "visita": "Deportivo Cali",
+    "over15": 67.5,
+    "resultado": "1-1",
+    "goles": 2,
     "acierto": true
    },
    {

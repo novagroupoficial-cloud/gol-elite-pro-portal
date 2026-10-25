@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 23:12 ECU",
+ "actualizado": "2026-10-25 00:17 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -11,7 +11,7 @@
   "2026-10-23",
   "2026-10-24"
  ],
- "partidos": 204,
+ "partidos": 209,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -19,31 +19,31 @@
    "partidos": 3
   },
   "GOLES PLATINO": {
-   "aciertos": 16,
-   "partidos": 18
+   "aciertos": 17,
+   "partidos": 19
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 51,
-   "partidos": 73
+   "aciertos": 52,
+   "partidos": 74
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 91,
-   "partidos": 110
+   "aciertos": 93,
+   "partidos": 113
   }
  },
  "over90": {
-  "aciertos": 19,
-  "partidos": 21,
-  "racha_actual": 2,
+  "aciertos": 20,
+  "partidos": 22,
+  "racha_actual": 3,
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 70,
-  "partidos": 94
+  "aciertos": 72,
+  "partidos": 96
  },
  "over25_senal": {
-  "aciertos": 25,
-  "partidos": 41
+  "aciertos": 26,
+  "partidos": 42
  },
  "partido_del_dia": {
   "aciertos": 6,
@@ -129,27 +129,27 @@
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 18,
-   "aciertos": 16,
+   "partidos": 19,
+   "aciertos": 17,
    "prometido": 91.7
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 73,
-   "aciertos": 51,
+   "partidos": 74,
+   "aciertos": 52,
    "prometido": 83.5
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 66,
-   "aciertos": 53,
-   "prometido": 74.4
+   "partidos": 68,
+   "aciertos": 54,
+   "prometido": 74.5
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 44,
-   "aciertos": 38,
-   "prometido": 60.8
+   "partidos": 45,
+   "aciertos": 39,
+   "prometido": 61.0
   }
  ],
  "ultima_jornada": {
@@ -189,6 +189,15 @@
     "over15": 91.3,
     "resultado": "2-0",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "21:30",
+    "local": "Portland",
+    "visita": "Charlotte",
+    "over15": 90.6,
+    "resultado": "3-2",
+    "goles": 5,
     "acierto": true
    },
    {
@@ -327,6 +336,15 @@
     "acierto": true
    },
    {
+    "hora": "19:30",
+    "local": "Real Salt Lake",
+    "visita": "St. Louis City",
+    "over15": 81.1,
+    "resultado": "3-0",
+    "goles": 3,
+    "acierto": true
+   },
+   {
     "hora": "11:45",
     "local": "Willem II",
     "visita": "Cambuur",
@@ -408,11 +426,29 @@
     "acierto": true
    },
    {
+    "hora": "21:30",
+    "local": "San Diego",
+    "visita": "Seattle",
+    "over15": 78.1,
+    "resultado": "2-2",
+    "goles": 4,
+    "acierto": true
+   },
+   {
     "hora": "20:00",
     "local": "Monterrey",
     "visita": "Guadalajara",
     "over15": 76.1,
     "resultado": "0-1",
+    "goles": 1,
+    "acierto": false
+   },
+   {
+    "hora": "20:30",
+    "local": "Colorado Rapids",
+    "visita": "Vancouver",
+    "over15": 75.4,
+    "resultado": "1-0",
     "goles": 1,
     "acierto": false
    },
@@ -522,6 +558,15 @@
     "over15": 68.7,
     "resultado": "1-2",
     "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "20:15",
+    "local": "Once Caldas",
+    "visita": "Deportivo Pereira",
+    "over15": 67.1,
+    "resultado": "1-1",
+    "goles": 2,
     "acierto": true
    },
    {

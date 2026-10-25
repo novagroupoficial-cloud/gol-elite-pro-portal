@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-24",
- "actualizado": "2026-10-24 23:12 ECU (UTC-5)",
+ "actualizado": "2026-10-25 00:12 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-24/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 49,
+  "terminados": 54,
   "total": 57,
   "over15_70": [
-   30,
-   37
+   33,
+   41
   ],
   "over25_senal": [
-   6,
-   13
+   7,
+   14
   ],
-  "marcadores_exactos": 5
+  "marcadores_exactos": 6
  },
  "rango_80_90": [
   {
@@ -477,8 +477,13 @@
     "gc": 22
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-0",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://fieldlevelmedia.com/mls/real-salt-lake-pick-up-crucial-win-blank-st-louis-city/"
   },
   {
    "puesto": 22,
@@ -784,8 +789,13 @@
     "gc": 29
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-2",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/portland-timbers-vs-charlotte-mls-2026-10-25"
   },
   {
    "puesto": 6,
@@ -1275,8 +1285,13 @@
     "gc": 22
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-0",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://fieldlevelmedia.com/mls/real-salt-lake-pick-up-crucial-win-blank-st-louis-city/"
   },
   {
    "puesto": 22,
@@ -1580,8 +1595,13 @@
     "gc": 16
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/san-diego-vs-seattle-sounders-mls-2026-10-25"
   },
   {
    "puesto": 32,
@@ -1637,7 +1657,7 @@
     "gc": 11
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
+   "estado": "sin confirmar",
    "resultado": null
   },
   {
@@ -1690,8 +1710,13 @@
     "gc": 17
    },
    "sellado": "2026-10-24 05:59 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/colorado-rapids-vs-vancouver-whitecaps-mls-2026-10-25"
   },
   {
    "puesto": 36,
@@ -2115,8 +2140,13 @@
     "gc": 9
    },
    "sellado": "2026-10-24 09:16 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.eldiario.com.co/deportes/once-caldas-y-deportivo-pereira-empataron-1-1-en-el-clasico-del-eje-cafetero/"
   },
   {
    "puesto": 50,

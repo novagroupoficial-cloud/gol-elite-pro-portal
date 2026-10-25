@@ -167,6 +167,72 @@ for _lg,_a,_ga,_gb,_b in SAB24:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# ===== Actualización dom 25-oct-2026 (rutina diaria 05:4x ECU): partidos del SÁBADO 24-oct (data/2026-10-24/resultados-en-vivo.json, 55/57 terminados, cada uno con su fuente)
+# + Boyacá Chicó 1-0 Bucaramanga y Junior 1-0 Águilas Doradas (COL, vie 23-oct, Semana). Local en casa, visitante fuera. Corte nuevo: sáb 24-oct-2026 final.
+# Pendientes sin sumar (no juegan hoy; solo afectan levemente las medias): COL Santa Fe–Jaguares (mié 21), ECU IDV–Católica (vie 23), FRA posible partido PSG/Lyon del fin de semana.
+SAB24F=[
+ ('ENG','Aston Villa',2,1,'Manchester City'),  # https://futboltotal.futbol/partido/aston-villa-vs-manchester-city-premier-league-2026-10-24
+ ('ESP','Rayo Vallecano',0,3,'Elche'),  # https://futboltotal.futbol/partido/rayo-vallecano-vs-elche-cf-laliga-1570429
+ ('ITA','Como',2,0,'Sassuolo'),  # https://futboltotal.futbol/partido/como-vs-sassuolo-serie-a-2026-10-24
+ ('ITA','Cagliari',0,2,'Bologna'),  # https://futboltotal.futbol/partido/cagliari-vs-bologna-serie-a-2026-10-24
+ ('GER','Mainz 05',2,3,'Werder Bremen'),  # https://www.colombia.com/futbol/alemania/bundesliga/resultados
+ ('GER','SC Paderborn',1,0,'Hamburger SV'),  # https://www.colombia.com/futbol/alemania/bundesliga/resultados
+ ('GER','RB Leipzig',4,0,'Elversberg'),  # https://www.colombia.com/futbol/alemania/bundesliga/resultados
+ ('GER','1. FC Koln',0,0,'Schalke 04'),  # https://www.colombia.com/futbol/alemania/bundesliga/resultados
+ ('GER','Augsburg',1,1,'Union Berlin'),  # https://www.colombia.com/futbol/alemania/bundesliga/resultados
+ ('ENG','Arsenal',2,0,'Everton'),  # https://futboltotal.futbol/partido/arsenal-vs-everton-premier-league-2026-10-24
+ ('ENG','Coventry City',0,1,'Fulham'),  # https://futboltotal.futbol/partido/coventry-vs-fulham-premier-1557440
+ ('ESP','Racing Santander',2,1,'Espanyol'),  # https://futboltotal.futbol/partido/racing-santander-vs-espanyol-laliga-1570428
+ ('NED','FC Utrecht',1,1,'PEC Zwolle'),  # https://sporza.be/nl/sport/voetbal/~3338962/
+ ('ITA','Napoli',3,3,'Roma'),  # https://futboltotal.futbol/partido/napoli-vs-as-roma-serie-a-2026-10-24
+ ('ESP','Valencia',1,2,'Villarreal'),  # https://www.footballwebpages.co.uk/match/2026-2027/spanish-la-liga/valencia/villarreal/593788
+ ('GER','Borussia Dortmund',1,0,'Eintracht Frankfurt'),  # https://futboltotal.futbol/partido/borussia-dortmund-vs-eintracht-frankfurt-bundesliga-2026-10-24
+ ('ENG','Chelsea',0,2,'Tottenham Hotspur'),  # https://futboltotal.futbol/partido/chelsea-vs-tottenham-premier-1557439
+ ('ITA','Lazio',2,1,'Parma'),  # https://futboltotal.futbol/partido/lazio-vs-parma-serie-a-2026-10-24
+ ('USA','CF Montreal',0,2,'Nashville SC'),  # https://futboltotal.futbol/partido/cf-montreal-vs-nashville-sc-mls-2026-10-24
+ ('NED','Willem II',1,6,'Cambuur'),  # https://sporza.be/nl/sport/voetbal/~3338861/
+ ('ARG','Banfield',1,1,'Lanus'),  # https://www.cadena3.com/noticia/deportes/banfield-y-lanus-igualaron-en-un-intenso-clasico-del-sur-por-el-torneo-clausura_606780
+ ('FRA','Lens',2,1,'Paris FC'),  # https://futboltotal.futbol/partido/lens-vs-paris-fc-ligue-1-2026-10-24
+ ('ESP','Atletico Madrid',1,0,'Deportivo La Coruna'),  # https://futboltotal.futbol/partido/atletico-madrid-vs-deportivo-la-coruna-laliga-1570425
+ ('NED','ADO Den Haag',2,3,'Heerenveen'),  # https://sporza.be/nl/sport/voetbal/~3338922/
+ ('BRA','Mirassol',1,1,'São Paulo'),  # https://www.lance.com.br/futebol-nacional/mirassol-x-sao-paulo-como-foi-o-jogo-pelo-brasileirao-2026.html
+ ('USA','Columbus Crew',4,2,'Toronto'),  # https://futboltotal.futbol/partido/columbus-crew-vs-toronto-fc-mls-2026-10-24
+ ('ECU','Manta',0,2,'Deportivo Cuenca'),  # https://www.eluniverso.com/deportes/campeonato-ecuatoriano/deportivo-cuenca-vence-2-0-al-manta-fc-que-sigue-ultimo-en-el-hexagonal-por-la-permanencia-de-la-liga-ecuabet-2026-nota/
+ ('ECU','Orense',4,0,'Delfín'),  # https://www.eluniverso.com/deportes/campeonato-ecuatoriano/orense-golea-4-0-a-delfin-y-lo-supera-en-la-tabla-de-descenso-de-la-liga-ecuabet-2026-nota/
+ ('BRA','Internacional',3,0,'Botafogo'),  # https://www.terra.com.br/esportes/futebol/internacional-vence-o-botafogo-e-deixa-o-z4-do-brasileirao,4e8b044f12ff708025a0746fcaf42ec09kjalil8.html
+ ('BRA','Vitória',1,1,'Athletico-PR'),  # https://aratuon.com.br/futebol/com-gols-no-primeiro-tempo-vitoria-e-athletico-pr-empatam-em-1-a-1-no-barradao/
+ ('BRA','Palmeiras',2,0,'Bragantino'),  # https://futboltotal.futbol/partido/palmeiras-vs-rb-bragantino-brasileirao-2026-10-24
+ ('BRA','Vasco da Gama',3,2,'Corinthians'),  # https://futboltotal.futbol/partido/vasco-da-gama-vs-corinthians-brasileirao-2026-10-24
+ ('USA','New York RB',2,0,'Inter Miami'),  # https://futboltotal.futbol/partido/new-york-red-bulls-vs-inter-miami-mls-2026-10-24
+ ('ARG','Talleres Cordoba',1,2,'Defensa y Justicia'),  # https://losandes.com.ar/deportes/defensa-y-justicia-vencio-talleres-cordoba-clasifico-los-playoffs-y-suena-la-sudamericana-2027-n6011594
+ ('ECU','LDU Quito',1,2,'Macará'),  # https://www.extra.ec/noticia/deportes/asi-quedo-tabla-posiciones-ligapro-triunfo-macara-2-1-liga-quito-165915.html
+ ('ARG','San Lorenzo',0,0,'Newells Old Boys'),  # https://www.mejorinformado.com/deportes/san-lorenzo-empato-newell-s-quedo-complicado-pelea-playoffs_1792850078
+ ('BRA','Chapecoense',2,1,'Fluminense'),  # https://www.correiobraziliense.com.br/esportes/2026/10/7527223-fluminense-perde-para-a-chapecoense-e-segue-fora-do-g4.html
+ ('USA','DC United',0,2,'Cincinnati'),  # https://futboltotal.futbol/partido/dc-united-vs-fc-cincinnati-major-league-soccer-2026-10-25
+ ('USA','Atlanta United',2,3,'Chicago Fire'),  # https://futboltotal.futbol/partido/atlanta-united-fc-vs-chicago-fire-major-league-soccer-2026-10-25
+ ('MEX','Leon',1,1,'Toluca'),  # https://www.vavel.com/mx/futbol-mexicano/2026/10/24/1276461-leon-vs-toluca-en-vivo-liga-mx.html
+ ('COL','América de Cali',3,1,'Cúcuta'),  # https://www.elpais.com.co/deportes/america-de-cali-asumio-el-liderato-de-la-liga-betplay-tras-su-triunfo-en-el-pascual-guerrero-asi-quedo-la-tabla-de-posiciones-2431.html
+ ('USA','Philadelphia',1,2,'New England'),  # https://www.bostonglobe.com/2026/10/24/sports/mls-revolution-philadelphia-union-score/
+ ('USA','Sporting KC',1,2,'Austin'),  # https://kcsoccerjournal.com/10/24/2026/miscues-doom-sporting-kansas-city-in-loss-to-austin-fc/
+ ('ARG','Rosario Central',2,0,'Huracan'),  # https://portalciudad.com.ar/rosario-central-vencio-2-0-a-huracan-por-el-torneo-clausura-2026-y-alcanzo-la-cima-de-la-tabla-anual/
+ ('USA','Orlando City',2,2,'New York City'),  # https://themaneland.com/2026/10/24/orlando-city-vs-new-york-city-fc-final-score-2-2-as-lions-throw-away-two-points-on-games-last-kick/
+ ('USA','Houston Dynamo',0,0,'Minnesota United'),  # https://fieldlevelmedia.com/mls/houston-pulls-out-scoreless-draw-vs-desperate-minnesota-united/
+ ('USA','Dallas',3,0,'SJ Earthquakes'),  # https://www.sportytrader.com/en/results-live/fc-dallas-san-jose-earthquakes-7934591/
+ ('MEX','Monterrey',0,1,'Guadalajara'),  # https://www.clarosports.com/futbol/liga-mx/monterrey-vs-chivas-en-vivo-el-partido-de-la-jornada-14-de-la-liga-mx-resultado-y-goles-hoy-apertura-2026/
+ ('BRA','Santos',1,1,'Bahia'),  # https://placar.com.br/brasileirao/santos-empata-em-1-a-1-com-o-bahia-no-fim-pelo-brasileirao/
+ ('USA','Real Salt Lake',3,0,'St. Louis City'),  # https://fieldlevelmedia.com/mls/real-salt-lake-pick-up-crucial-win-blank-st-louis-city/
+ ('COL','Once Caldas',1,1,'Deportivo Pereira'),  # https://www.eldiario.com.co/deportes/once-caldas-y-deportivo-pereira-empataron-1-1-en-el-clasico-del-eje-cafetero/
+ ('USA','Colorado Rapids',1,0,'Vancouver'),  # https://futboltotal.futbol/partido/colorado-rapids-vs-vancouver-whitecaps-mls-2026-10-25
+ ('USA','San Diego',2,2,'Seattle'),  # https://futboltotal.futbol/partido/san-diego-vs-seattle-sounders-mls-2026-10-25
+ ('USA','Portland',3,2,'Charlotte'),  # https://futboltotal.futbol/partido/portland-timbers-vs-charlotte-mls-2026-10-25
+ ('MEX','Pumas UNAM',1,1,'Tigres UANL'),  # https://www.infobae.com/mexico/deportes/2026/10/25/pumas-empata-con-tigres-y-amarga-el-homenaje-a-hugo-sanchez-en-cu/
+ ('COL','Boyacá Chicó',1,0,'Bucaramanga'),  # vie 23 · https://www.semana.com/deportes/articulo/la-tabla-de-la-liga-betplay-tras-derrota-del-bucaramanga-ante-el-chico-y-victoria-del-junior/202622/
+ ('COL','Junior',1,0,'Águilas Doradas'),  # vie 23 · idem (Semana)
+]
+for _lg,_a,_ga,_gb,_b in SAB24F:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

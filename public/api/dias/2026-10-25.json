@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-25",
- "actualizado": "2026-10-25 21:11 ECU (UTC-5)",
+ "actualizado": "2026-10-25 22:12 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-25/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 36,
+  "terminados": 39,
   "total": 44,
   "over15_70": [
-   19,
-   28
+   21,
+   30
   ],
   "over25_senal": [
    7,
@@ -1048,7 +1048,7 @@
     "gc": 13
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1105,8 +1105,13 @@
     "gc": 9
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/atletico-nacional-vs-independiente-medellin-primera-a-2026-10-26"
   },
   {
    "puesto": 24,
@@ -1405,8 +1410,13 @@
     "gc": 8
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-5",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.dobleamarilla.com.ar/liga-/velez-aplasto-a-central-cordoba-en-santiago-del-estero-y-se-prende-en-la-lucha-por-la-tabla-anual_a6adeb3b394c8ca83be266779"
   },
   {
    "puesto": 34,
@@ -1736,8 +1746,13 @@
     "gc": 11
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.puntal.com.ar/estudiantes-rio-cuarto/estudiantes-no-pudo-aguantar-la-ventaja-y-perdio-visitante-frente-barracas-central-n267123"
   }
  ],
  "sin_pronostico": []

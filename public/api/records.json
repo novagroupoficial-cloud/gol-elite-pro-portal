@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 21:11 ECU",
+ "actualizado": "2026-10-25 22:12 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 246,
+ "partidos": 249,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -28,8 +28,8 @@
    "partidos": 83
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 104,
-   "partidos": 132
+   "aciertos": 107,
+   "partidos": 135
   }
  },
  "over90": {
@@ -150,15 +150,15 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 79,
-   "aciertos": 59,
+   "partidos": 81,
+   "aciertos": 61,
    "prometido": 74.4
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 53,
-   "aciertos": 45,
-   "prometido": 61.4
+   "partidos": 54,
+   "aciertos": 46,
+   "prometido": 61.3
   }
  ],
  "ultima_jornada": {
@@ -336,6 +336,15 @@
     "acierto": true
    },
    {
+    "hora": "18:10",
+    "local": "Atlético Nacional",
+    "visita": "Independiente Medellín",
+    "over15": 76.5,
+    "resultado": "2-1",
+    "goles": 3,
+    "acierto": true
+   },
+   {
     "hora": "16:05",
     "local": "Alianza (ex Alianza Petrolera)",
     "visita": "Internacional de Bogotá (ex La Equidad)",
@@ -406,6 +415,15 @@
     "resultado": "1-0",
     "goles": 1,
     "acierto": false
+   },
+   {
+    "hora": "19:30",
+    "local": "Central Cordoba SdE",
+    "visita": "Velez Sarsfield",
+    "over15": 71.6,
+    "resultado": "0-5",
+    "goles": 5,
+    "acierto": true
    },
    {
     "hora": "14:00",
@@ -486,6 +504,15 @@
     "over15": 57.2,
     "resultado": "0-4",
     "goles": 4,
+    "acierto": true
+   },
+   {
+    "hora": "19:30",
+    "local": "Barracas Central",
+    "visita": "Estudiantes Rio Cuarto",
+    "over15": 54.5,
+    "resultado": "2-1",
+    "goles": 3,
     "acierto": true
    }
   ]

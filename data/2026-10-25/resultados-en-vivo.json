@@ -538,5 +538,50 @@
   "marcador_exacto": false,
   "fuente": "https://www.foxsports.com.mx/2026/10/25/atlas-vs-puebla-hoy-resumen-goles-en-video-y-resultado-4-3-jornada-14-liga-mx-apertura-2026/",
   "registrado": "21:15 ECU"
+ },
+ {
+  "local": "Atlético Nacional",
+  "visita": "Independiente Medellín",
+  "hora": "18:10",
+  "resultado": "2-1",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 76.5,
+  "over25_dado": 51.2,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/atletico-nacional-vs-independiente-medellin-primera-a-2026-10-26",
+  "registrado": "22:20 ECU"
+ },
+ {
+  "local": "Central Cordoba SdE",
+  "visita": "Velez Sarsfield",
+  "hora": "19:30",
+  "resultado": "0-5",
+  "goles": 5,
+  "estado": "terminado",
+  "over15_dado": 71.6,
+  "over25_dado": 44.8,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.dobleamarilla.com.ar/liga-/velez-aplasto-a-central-cordoba-en-santiago-del-estero-y-se-prende-en-la-lucha-por-la-tabla-anual_a6adeb3b394c8ca83be266779",
+  "registrado": "22:20 ECU"
+ },
+ {
+  "local": "Barracas Central",
+  "visita": "Estudiantes Rio Cuarto",
+  "hora": "19:30",
+  "resultado": "2-1",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 54.5,
+  "over25_dado": 26.8,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.puntal.com.ar/estudiantes-rio-cuarto/estudiantes-no-pudo-aguantar-la-ventaja-y-perdio-visitante-frente-barracas-central-n267123",
+  "registrado": "22:20 ECU"
  }
 ]

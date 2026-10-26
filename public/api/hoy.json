@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-25",
- "actualizado": "2026-10-25 18:11 ECU (UTC-5)",
+ "actualizado": "2026-10-25 19:18 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-25/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 32,
+  "terminados": 34,
   "total": 44,
   "over15_70": [
    19,
-   26
+   27
   ],
   "over25_senal": [
    7,
@@ -1131,8 +1131,13 @@
     "gc": 9
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.espn.com/soccer/match/_/gameId/401878036/internacional-de-bogota-alianza-fc"
   },
   {
    "puesto": 25,
@@ -1690,8 +1695,13 @@
     "gc": 17
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-4",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.extra.ec/noticia/deportes/barcelona-sc-bailo-aucas-quito-asi-golazos-duelo-ligapro-video-165975.html"
   },
   {
    "puesto": 44,

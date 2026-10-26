@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 18:11 ECU",
+ "actualizado": "2026-10-25 19:18 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 242,
+ "partidos": 244,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -28,8 +28,8 @@
    "partidos": 83
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 102,
-   "partidos": 128
+   "aciertos": 103,
+   "partidos": 130
   }
  },
  "over90": {
@@ -150,15 +150,15 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 77,
+   "partidos": 78,
    "aciertos": 59,
    "prometido": 74.4
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 51,
-   "aciertos": 43,
-   "prometido": 61.4
+   "partidos": 52,
+   "aciertos": 44,
+   "prometido": 61.3
   }
  ],
  "ultima_jornada": {
@@ -336,6 +336,15 @@
     "acierto": true
    },
    {
+    "hora": "16:05",
+    "local": "Alianza (ex Alianza Petrolera)",
+    "visita": "Internacional de Bogotá (ex La Equidad)",
+    "over15": 75.4,
+    "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
+   },
+   {
     "hora": "09:00",
     "local": "Hull City",
     "visita": "Brentford",
@@ -451,6 +460,15 @@
     "resultado": "1-0",
     "goles": 1,
     "acierto": false
+   },
+   {
+    "hora": "16:30",
+    "local": "Aucas",
+    "visita": "Barcelona SC",
+    "over15": 57.2,
+    "resultado": "0-4",
+    "goles": 4,
+    "acierto": true
    }
   ]
  }

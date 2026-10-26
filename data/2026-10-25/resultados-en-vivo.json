@@ -478,5 +478,35 @@
   "marcador_exacto": false,
   "fuente": "https://www.ellitoral.com/deportes/boca-independiente-facundoherrera-torneoclausura2026_0_i8SmOAqXAg.html",
   "registrado": "18:15 ECU"
+ },
+ {
+  "local": "Alianza (ex Alianza Petrolera)",
+  "visita": "Internacional de Bogotá (ex La Equidad)",
+  "hora": "16:05",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 75.4,
+  "over25_dado": 49.8,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.espn.com/soccer/match/_/gameId/401878036/internacional-de-bogota-alianza-fc",
+  "registrado": "19:15 ECU"
+ },
+ {
+  "local": "Aucas",
+  "visita": "Barcelona SC",
+  "hora": "16:30",
+  "resultado": "0-4",
+  "goles": 4,
+  "estado": "terminado",
+  "over15_dado": 57.2,
+  "over25_dado": 29.1,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.extra.ec/noticia/deportes/barcelona-sc-bailo-aucas-quito-asi-golazos-duelo-ligapro-video-165975.html",
+  "registrado": "19:15 ECU"
  }
 ]

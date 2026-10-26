@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-25",
- "actualizado": "2026-10-25 19:18 ECU (UTC-5)",
+ "actualizado": "2026-10-25 20:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-25/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 34,
+  "terminados": 35,
   "total": 44,
   "over15_70": [
    19,
-   27
+   28
   ],
   "over25_senal": [
    7,
@@ -291,7 +291,7 @@
     "gc": 10
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -348,7 +348,7 @@
     "gc": 32
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -903,7 +903,7 @@
     "gc": 10
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -960,7 +960,7 @@
     "gc": 32
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1374,8 +1374,13 @@
     "gc": 8
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/river-plate-vs-racing-club-liga-profesional-argentina-2026-10-25"
   },
   {
    "puesto": 33,
@@ -1400,7 +1405,7 @@
     "gc": 8
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1545,7 +1550,7 @@
     "gc": 5
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1726,7 +1731,7 @@
     "gc": 11
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   }
  ],

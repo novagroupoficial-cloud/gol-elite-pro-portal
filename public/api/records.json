@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 19:18 ECU",
+ "actualizado": "2026-10-25 20:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 244,
+ "partidos": 245,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -29,7 +29,7 @@
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 103,
-   "partidos": 130
+   "partidos": 131
   }
  },
  "over90": {
@@ -150,7 +150,7 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 78,
+   "partidos": 79,
    "aciertos": 59,
    "prometido": 74.4
   },
@@ -396,6 +396,15 @@
     "over15": 72.1,
     "resultado": "0-0",
     "goles": 0,
+    "acierto": false
+   },
+   {
+    "hora": "17:15",
+    "local": "River Plate",
+    "visita": "Racing Club",
+    "over15": 71.6,
+    "resultado": "1-0",
+    "goles": 1,
     "acierto": false
    },
    {

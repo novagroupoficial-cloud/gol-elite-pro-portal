@@ -508,5 +508,20 @@
   "marcador_exacto": false,
   "fuente": "https://www.extra.ec/noticia/deportes/barcelona-sc-bailo-aucas-quito-asi-golazos-duelo-ligapro-video-165975.html",
   "registrado": "19:15 ECU"
+ },
+ {
+  "local": "River Plate",
+  "visita": "Racing Club",
+  "hora": "17:15",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 71.6,
+  "over25_dado": 44.8,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/river-plate-vs-racing-club-liga-profesional-argentina-2026-10-25",
+  "registrado": "20:12 ECU"
  }
 ]

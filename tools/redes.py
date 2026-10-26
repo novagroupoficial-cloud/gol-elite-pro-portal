@@ -11,7 +11,7 @@ NOM={'ENG':'Premier League','ITA':'Serie A','FRA':'Ligue 1','ESP':'LaLiga','BRA'
 ES={'Borussia Monchengladbach':"M'gladbach",'AFC Bournemouth':'Bournemouth','Brighton & Hove Albion':'Brighton','SC Freiburg':'Friburgo','Malaga':'Málaga','Alaves':'Alavés','Marseille':'Marsella','Monaco':'Mónaco','Estudiantes Rio Cuarto':'Est. Río Cuarto','Estudiantes LP':'Estudiantes','Comerciantes Unidos':'Comerciantes U.','Universidad Católica':'U. Católica','Columbus Crew':'Columbus Crew','Cincinnati':'FC Cincinnati','Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasbourg':'Estrasburgo','Deportivo':'Deportivo La Coruña','AC Milan':'Milan','Real Betis':'Betis','Marseille':'Marsella','Racing':'Racing Santander','Atletico MG':'Atlético MG','A. San Luis':'Atlético San Luis','Pumas UNAM':'Pumas','Universidad Católica':'U. Católica','Coventry':'Coventry City','Newcastle':'Newcastle United','Lanus':'Lanús','Velez Sarsfield':'Vélez Sarsfield','Gimnasia Mendoza':'Gimnasia (Mendoza)','Newells Old Boys':"Newell's",'Bragantino':'RB Bragantino','Athletico-PR':'Athletico-PR','Bayern Munich':'Bayern Múnich','Atletico Madrid':'Atlético de Madrid','Paris Saint-Germain':'PSG','Leon':'León','America':'América','Juarez':'FC Juárez','Philadelphia':'Philadelphia Union','Seattle':'Seattle Sounders','Portland':'Portland Timbers','Guadalajara':'Chivas','Tigres UANL':'Tigres','New England':'New England Rev.','A. San Luis':'San Luis','Tottenham Hotspur':'Tottenham','Central Cordoba SdE':'Central Córdoba','Union Santa Fe':'Unión','Alianza (ex Alianza Petrolera)':'Alianza FC','Pasto':'Deportivo Pasto','Deportivo Riestra':'Riestra','Internacional de Bogotá (ex La Equidad)':'Inter Bogotá','Queretaro':'Querétaro'}
 n=lambda x:ES.get(x,x)
 f1=lambda v:f"{v:.1f}".replace('.',',')
-from nova_gol_4 import entero
+from nova_gol_4 import entero, VERSION
 pc=lambda v:str(entero(v))  # regla de Marco: ,5 o más sube; menos de ,5 se queda
 f2=lambda v:f"{v:.2f}".replace('.',',')
 def ink(c):
@@ -64,14 +64,14 @@ def historia():
  </div>
 </div>
 <div style="position:absolute;left:0;right:0;bottom:78px;padding:12px 40px;background:rgba(3,10,7,.88);text-align:center;font-size:23px;color:#cfe">Over 1.5 = 2 goles o más en el partido, sin importar quién gane · Over 2.5 = 3 goles o más</div>
-<div class="pie"><span>Modelo Nova Gol 4.0 · {e(SELLO)}</span><span class="legal">+18 · No garantiza resultados</span></div>
+<div class="pie"><span>Modelo Nova Gol {VERSION} · {e(SELLO)}</span><span class="legal">+18 · No garantiza resultados</span></div>
 </div>'''
 
 def slide(contenido):
     return CSS+f'''<div class="lienzo" style="width:1080px;height:1350px"><div class="luces"></div>
 <div class="marca" style="position:absolute;top:40px;left:0;right:0;font-size:64px">GOL <b>ÉLITE</b> PRO</div>{contenido}
 <div style="position:absolute;left:0;right:0;bottom:78px;padding:12px 40px;background:rgba(3,10,7,.88);text-align:center;font-size:23px;color:#cfe">Over 1.5 = 2 goles o más en el partido, sin importar quién gane · Over 2.5 = 3 goles o más</div>
-<div class="pie"><span>Nova Gol 4.0 · {e(K['fecha_larga'])}</span><span class="legal">+18 · No garantiza resultados</span></div></div>'''
+<div class="pie"><span>Nova Gol {VERSION} · {e(K['fecha_larga'])}</span><span class="legal">+18 · No garantiza resultados</span></div></div>'''
 
 def fila(p,big=False):
     return f'''<div style="display:grid;grid-template-columns:110px 1fr 160px 150px;gap:16px;align-items:center;padding:16px 22px;border-bottom:1px solid #1f3a2b">

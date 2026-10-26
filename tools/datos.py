@@ -233,6 +233,68 @@ for _lg,_a,_ga,_gb,_b in SAB24F:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# ===== Actualización lun 26-oct-2026 (rutina diaria 05:2x ECU): partidos del DOMINGO 25-oct (data/2026-10-25/resultados-en-vivo.json, 44/44 terminados, cada uno con su fuente)
+# + Santa Fe 2-1 Jaguares de Córdoba (COL, mié 21, pendiente; fotmob + futbol24). Local en casa, visitante fuera. Corte nuevo: dom 25-oct-2026 final.
+# BRA: la 32ª rodada no tuvo partidos el domingo (8 jugados vie/sáb; Coritiba–Grêmio y Flamengo–Atlético MG son hoy).
+DOM25=[
+ ('NED','Fortuna Sittard',1,0,'Excelsior'),  # https://sporza.be/nl/sport/voetbal/~3338994/
+ ('ITA','Inter',2,1,'Fiorentina'),  # https://futboltotal.futbol/partido/inter-vs-fiorentina-serie-a-2026-10-25
+ ('ESP','Athletic Club',4,0,'Getafe'),  # https://futboltotal.futbol/partido/athletic-club-vs-getafe-la-liga-2026-10-25
+ ('NED','PSV',1,1,'Feyenoord'),  # https://nltimes.nl/2026/10/25/game-title-candidates-psv-feyenoord-finishes-1-1-eindhoven
+ ('NED','NEC',2,2,'FC Groningen'),  # https://sporza.be/nl/sport/voetbal/~3338893/
+ ('ENG','Liverpool',2,0,'Brighton & Hove Albion'),  # https://futboltotal.futbol/partido/liverpool-vs-brighton-premier-league-2026-10-25
+ ('ENG','Manchester United',0,3,'AFC Bournemouth'),  # https://futboltotal.futbol/partido/manchester-united-vs-bournemouth-premier-league-2026-10-25
+ ('ENG','Hull City',1,1,'Brentford'),  # https://futboltotal.futbol/partido/hull-city-vs-brentford-premier-1557442
+ ('ENG','Crystal Palace',0,2,'Newcastle United'),  # https://futboltotal.futbol/partido/crystal-palace-vs-newcastle-premier-league-2026-10-25
+ ('ITA','Genoa',1,0,'Venezia'),  # https://futboltotal.futbol/partido/genoa-vs-venezia-serie-a-2026-10-25
+ ('ITA','Atalanta',4,4,'Frosinone'),  # https://futboltotal.futbol/partido/atalanta-vs-frosinone-serie-a-2026-10-25
+ ('FRA','Monaco',1,1,'Lille'),  # https://futboltotal.futbol/partido/monaco-vs-lille-ligue-1-2026-10-25
+ ('GER','Hoffenheim',3,0,'Bayer Leverkusen'),  # https://futboltotal.futbol/partido/1899-hoffenheim-vs-bayer-leverkusen-bundesliga-2026-10-25
+ ('ESP','Celta Vigo',0,0,'Real Betis'),  # https://futboltotal.futbol/partido/celta-vigo-vs-real-betis-laliga-1570427
+ ('NED','Sparta Rotterdam',1,2,'Ajax'),  # https://sporza.be/nl/sport/voetbal/~3338935/
+ ('FRA','Rennes',3,0,'Strasbourg'),  # https://futboltotal.futbol/partido/rennes-vs-strasbourg-ligue-1-2026-10-25
+ ('FRA','Auxerre',1,1,'Le Mans'),  # https://futboltotal.futbol/partido/rennes-vs-strasbourg-ligue-1-2026-10-25
+ ('GER','SC Freiburg',1,3,'Bayern Munich'),  # https://futboltotal.futbol/partido/sc-freiburg-vs-bayern-munchen-bundesliga-2026-10-25
+ ('ENG','Sunderland',0,0,'Leeds United'),  # https://futboltotal.futbol/partido/sunderland-vs-leeds-premier-league-2026-10-25
+ ('FRA','Toulouse',0,0,'Troyes'),  # https://futboltotal.futbol/partido/toulouse-vs-estac-troyes-ligue-1-2026-10-24
+ ('FRA','Angers',0,0,'Lorient'),  # https://futboltotal.futbol/partido/angers-vs-lorient-ligue-1-2026-10-25
+ ('FRA','Marseille',4,3,'Le Havre'),  # https://futboltotal.futbol/partido/marseille-vs-le-havre-ligue-1-2026-10-25
+ ('ECU','Leones del Norte',4,1,'Libertad'),  # https://kchcomunicacion.com/2026/10/25/meten-presion-al-cuadrangular-leones-fc-goleo-a-libertad-en-el-olimpico-de-ibarra/
+ ('ITA','Lecce',0,2,'Juventus'),  # https://futboltotal.futbol/partido/lecce-vs-juventus-serie-a-2026-10-25
+ ('ESP','Real Sociedad',2,1,'Levante'),  # https://futboltotal.futbol/partido/real-sociedad-vs-levante-la-liga-2026-10-25
+ ('ARG','Aldosivi',1,0,'Belgrano'),  # https://futboltotal.futbol/partido/partido-aldosivi-vs-belgrano-cordoba-liga-profesional-argentina-2026-10-25
+ ('NED','AZ',0,2,'FC Twente'),  # https://www.fcupdate.nl/voetbalnieuws/2026/10/az-verliest-en-verspeelt-voor-derde-keer-op-rij-punten-in-de-eredivisie
+ ('ECU','Emelec',0,1,'Guayaquil City'),  # https://studiofutbol.com.ec/2026/10/25/video-golpe-ciudadano-guayaquil-city-gano-al-emelec-en-el-capwell/
+ ('COL','Fortaleza',1,1,'Deportivo Cali'),  # https://www.espn.com/soccer/match/_/gameId/401877906/deportivo-cali-fortaleza-ceif
+ ('ITA','Udinese',0,2,'AC Milan'),  # https://futboltotal.futbol/partido/udinese-vs-ac-milan-serie-a-2026-10-25
+ ('ESP','Barcelona',1,2,'Real Madrid'),  # https://libero.pe/futbol-internacional/liga-espanola/2026/10/25/partido-de-barcelona-vs-real-madrid-link-gratis-en-vivo-en-directo-online-mirar-clasico-espanol-1714125
+ ('ARG','Independiente',0,1,'Boca Juniors'),  # https://www.ellitoral.com/deportes/boca-independiente-facundoherrera-torneoclausura2026_0_i8SmOAqXAg.html
+ ('COL','Alianza (ex Alianza Petrolera)',1,0,'Internacional de Bogotá (ex La Equidad)'),  # https://www.espn.com/soccer/match/_/gameId/401878036/internacional-de-bogota-alianza-fc
+ ('ECU','Aucas',0,4,'Barcelona SC'),  # https://www.extra.ec/noticia/deportes/barcelona-sc-bailo-aucas-quito-asi-golazos-duelo-ligapro-video-165975.html
+ ('ARG','River Plate',1,0,'Racing Club'),  # https://futboltotal.futbol/partido/river-plate-vs-racing-club-liga-profesional-argentina-2026-10-25
+ ('MEX','Atlas',4,3,'Puebla'),  # https://www.foxsports.com.mx/2026/10/25/atlas-vs-puebla-hoy-resumen-goles-en-video-y-resultado-4-3-jornada-14-liga-mx-apertura-2026/
+ ('COL','Atlético Nacional',2,1,'Independiente Medellín'),  # https://futboltotal.futbol/partido/atletico-nacional-vs-independiente-medellin-primera-a-2026-10-26
+ ('ARG','Central Cordoba SdE',0,5,'Velez Sarsfield'),  # https://www.dobleamarilla.com.ar/liga-/velez-aplasto-a-central-cordoba-en-santiago-del-estero-y-se-prende-en-la-lucha-por-la-tabla-anual_a6adeb3b394c8ca83be266779
+ ('ARG','Barracas Central',2,1,'Estudiantes Rio Cuarto'),  # https://www.puntal.com.ar/estudiantes-rio-cuarto/estudiantes-no-pudo-aguantar-la-ventaja-y-perdio-visitante-frente-barracas-central-n267123
+ ('COL','Tolima',0,1,'Pasto'),  # https://futboltotal.futbol/partido/deportes-tolima-vs-deportivo-pasto-primera-a-2026-10-25
+ ('MEX','Queretaro',1,3,'Cruz Azul'),  # https://www.elimparcial.com/deporte/2026/10/25/cruz-azul-vence-a-queretaro-con-tres-goles-en-el-primer-tiempo-y-se-coloca-a-un-punto-del-america-en-la-pelea-por-el-liderato/
+ ('USA','Los Angeles FC',2,2,'LA Galaxy'),  # https://www.foxsports.com/articles/soccer/leo-waltas-goal-erases-galaxys-lead-lafc-clinches-playoff-spot-in-22-el-trafico-draw
+ ('MEX','America',1,2,'Pachuca'),  # https://www.mediotiempo.com/futbol/liga-mx/resumen-partido-america-vs-pachuca-jornada-14-apertura-2026
+ ('MEX','Tijuana',4,1,'Santos Laguna'),  # https://www.foxsports.com.mx/2026/10/25/xolos-4-1-santos-resumen-del-partido-y-goles-de-la-jornada-14-del-apertura-2026-liga-mx/
+ ('COL','Santa Fe',2,1,'Jaguares de Córdoba'),  # mié 21 (pendiente) · https://www.fotmob.com/match/3652834/matchfacts/santa-fe-vs-cd-jaguares · https://www.futbol24.com/match/2026/08/26/national/Colombia/Primera-A/2026/Finalizacion/Santa-Fe/vs/Jaguares-COL
+]
+for _lg,_a,_ga,_gb,_b in DOM25:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
+# ===== POR y CHI (lun 26-oct-2026, rutina diaria): ligas nuevas en datos.py, tablas casa/fuera de SoccerSTATS (página verificada: muestra la liga pedida y la temporada).
+# POR: https://www.soccerstats.com/homeaway.asp?league=portugal — 'Portugal - Liga Portugal 2026/27', 76 partidos; Santa Clara y Benfica con 8 PJ (J1–J8 completas; se enfrentan hoy por la J9). Control GF casa=GC fuera=99, GC casa=GF fuera=108.
+L['POR']=dict(casa={'FC Porto': (4, 9, 2), 'Sporting CP': (4, 10, 5), 'Benfica': (4, 9, 4), 'Arouca': (4, 8, 3), 'Guimaraes': (5, 7, 2), 'Santa Clara': (4, 7, 2), 'Gil Vicente': (5, 4, 3), 'Sporting Braga': (4, 4, 5), 'Academico Viseu': (4, 4, 6), 'Alverca': (5, 5, 6), 'Estrela Amadora': (5, 6, 9), 'Moreirense': (4, 5, 8), 'Maritimo': (4, 4, 7), 'Rio Ave': (4, 6, 11), 'Nacional': (4, 5, 10), 'Estoril': (4, 2, 5), 'Famalicao': (4, 3, 7), 'Casa Pia': (4, 1, 13)},
+ fuera={'FC Porto': (5, 12, 2), 'Santa Clara': (4, 5, 2), 'Benfica': (4, 15, 3), 'Sporting CP': (4, 10, 4), 'Academico Viseu': (4, 7, 4), 'Arouca': (5, 4, 4), 'Casa Pia': (5, 4, 4), 'Gil Vicente': (4, 4, 4), 'Alverca': (4, 8, 7), 'Famalicao': (4, 7, 4), 'Estrela Amadora': (4, 8, 8), 'Sporting Braga': (4, 5, 5), 'Moreirense': (4, 3, 7), 'Maritimo': (5, 5, 12), 'Rio Ave': (4, 2, 6), 'Nacional': (4, 4, 8), 'Guimaraes': (4, 3, 8), 'Estoril': (4, 2, 7)})
+# CHI: https://www.soccerstats.com/homeaway.asp?league=chile — 'Chile - Liga de Primera 2026', 196 partidos; U. de Chile y Everton con 24 PJ (fecha 25 en curso; se enfrentan hoy). Control GF casa=GC fuera=328, GC casa=GF fuera=239.
+L['CHI']=dict(casa={'U. de Chile': (12, 27, 9), 'Colo-Colo': (12, 28, 10), 'Palestino': (13, 27, 14), 'D. Limache': (12, 25, 15), 'U. Catolica': (11, 29, 16), 'Audax Italiano': (13, 20, 14), 'Huachipato': (12, 23, 22), 'La Serena': (13, 22, 19), 'Everton': (13, 19, 16), 'Concepcion': (13, 17, 14), 'Cobresal': (12, 19, 17), 'Nublense': (13, 17, 17), 'Coquimbo Unido': (11, 18, 11), 'OHiggins': (12, 12, 15), 'U. Concepcion': (11, 8, 12), 'Union La Calera': (13, 17, 18)},
+ fuera={'Colo-Colo': (13, 23, 18), 'U. Catolica': (13, 22, 20), 'Everton': (11, 21, 11), 'U. de Chile': (12, 14, 10), 'Nublense': (12, 13, 21), 'Coquimbo Unido': (13, 19, 24), 'La Serena': (12, 17, 23), 'Concepcion': (12, 10, 16), 'Palestino': (12, 12, 22), 'D. Limache': (12, 20, 22), 'OHiggins': (13, 17, 24), 'Huachipato': (12, 11, 18), 'Audax Italiano': (11, 7, 18), 'Cobresal': (13, 17, 29), 'U. Concepcion': (13, 10, 28), 'Union La Calera': (12, 6, 24)})
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

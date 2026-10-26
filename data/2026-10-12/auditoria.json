@@ -1,0 +1,276 @@
+{
+ "fecha": "2026-10-12",
+ "auditado": "2026-10-26 05:45 ECU (auditoría de hueco, regla de Marco del 25-oct)",
+ "partidos": 8,
+ "terminados": 8,
+ "anulados": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "Rango 80": [
+   4,
+   4
+  ],
+  "Rango 70": [
+   3,
+   3
+  ],
+  "Total >=70": [
+   7,
+   7
+  ],
+  "Over 2.5 con señal >=65": [
+   2,
+   2
+  ],
+  "Marcadores exactos": [
+   2,
+   8
+  ],
+  "Menos de 70 (informativo)": [
+   0,
+   1
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   1,
+   1
+  ],
+  "GOLES ESTÁNDAR": [
+   3,
+   3
+  ],
+  "GOLES OPTIMISTAS": [
+   3,
+   4
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   0,
+   0
+  ],
+  "moderada": [
+   2,
+   2
+  ]
+ },
+ "intervalo_wilson_95": {
+  "Rango 80": [
+   51.0,
+   100.0
+  ],
+  "Rango 70": [
+   43.8,
+   100.0
+  ],
+  "Total >=70": [
+   64.6,
+   100.0
+  ],
+  "Over 2.5 con señal >=65": [
+   34.2,
+   100.0
+  ],
+  "Menos de 70 (informativo)": [
+   0.0,
+   79.3
+  ],
+  "GOLES PLATINO": [
+   20.7,
+   100.0
+  ],
+  "GOLES ESTÁNDAR": [
+   43.8,
+   100.0
+  ],
+  "GOLES OPTIMISTAS": [
+   30.1,
+   95.4
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Levante vs Sevilla",
+  "over15": 89.9,
+  "sellado": "06:12 ECU",
+  "resultado": "3-3",
+  "goles": 6,
+  "acierto": true
+ },
+ "fallos_over15_70": [],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [
+  "Gimnasia Mendoza 1-0 Newells Old Boys (53,5 %, menos de 70: no recomendado; hubo 1 gol)"
+ ],
+ "anulados_lista": [],
+ "nota": "Jornada sin auditoría previa (la rutina no la auditó): se audita hoy por la regla 'histórico sin huecos'. Resultados del refresco horario (data/2026-10-12/resultados-en-vivo.json, 8/8 terminados, cada uno con su fuente). Pronósticos del 12-oct con la escala clásica de su día (GOL ÉLITE ≥90 · Rango 80 · Rango 70 · Menos de 70); la escala del 17-oct va aparte solo como referencia. Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. El Dashboard Gol 4.0 no expone /api/dia: auditoría manual. Intervalos de Wilson 95 %.",
+ "resultados": [
+  {
+   "hora": "14:00",
+   "liga": "ENG",
+   "local": "Coventry",
+   "visita": "Newcastle",
+   "resultado": "4-1",
+   "estado": "terminado",
+   "over15": 82.5,
+   "over25": 60.2,
+   "marcador": "1-1",
+   "categoria": "Rango 80",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.flashscore.com/match/football/coventry-GOvB22xg/newcastle-utd-p6ahwuwJ/summary/stats/",
+   "categoria_escala_17oct": "GOLES ESTÁNDAR"
+  },
+  {
+   "hora": "14:00",
+   "liga": "ESP",
+   "local": "Levante",
+   "visita": "Sevilla",
+   "resultado": "3-3",
+   "estado": "terminado",
+   "over15": 89.9,
+   "over25": 73.2,
+   "marcador": "1-1",
+   "categoria": "Rango 80",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
+   "goles": 6,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.elperiodicodeceuta.es/resultados-laliga-2026-10-12/",
+   "categoria_escala_17oct": "GOLES PLATINO"
+  },
+  {
+   "hora": "14:00",
+   "liga": "BRA",
+   "local": "Coritiba",
+   "visita": "Botafogo",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 80.3,
+   "over25": 56.7,
+   "marcador": "1-1",
+   "categoria": "Rango 80",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.lance.com.br/botafogo/botafogo-empata-com-o-coritiba-no-couto-pereira-e-mantem-alerta-de-rebaixamento-ligado.html",
+   "categoria_escala_17oct": "GOLES ESTÁNDAR"
+  },
+  {
+   "hora": "14:00",
+   "liga": "ARG",
+   "local": "Lanus",
+   "visita": "Velez Sarsfield",
+   "resultado": "2-0",
+   "estado": "terminado",
+   "over15": 70.3,
+   "over25": 43.1,
+   "marcador": "1-1",
+   "categoria": "Rango 70",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/lanus-vencio-por-2-0-a-velez-sarsfield-por-el-torneo-clausura-2026-nid12102026/",
+   "categoria_escala_17oct": "GOLES OPTIMISTAS"
+  },
+  {
+   "hora": "16:30",
+   "liga": "ARG",
+   "local": "Gimnasia Mendoza",
+   "visita": "Newells Old Boys",
+   "resultado": "1-0",
+   "estado": "terminado",
+   "over15": 53.5,
+   "over25": 25.9,
+   "marcador": "1-0",
+   "categoria": "Menos de 70",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/gimnasia-mendoza-vencio-por-1-0-a-newells-old-boys-por-el-torneo-clausura-2026-nid12102026/",
+   "categoria_escala_17oct": "GOLES OPTIMISTAS"
+  },
+  {
+   "hora": "17:30",
+   "liga": "BRA",
+   "local": "Chapecoense",
+   "visita": "Athletico-PR",
+   "resultado": "1-4",
+   "estado": "terminado",
+   "over15": 86.1,
+   "over25": 66.0,
+   "marcador": "1-1",
+   "categoria": "Rango 80",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.cnnbrasil.com.br/esportes/brasileirao/athletico-amassa-a-chapecoense-e-retoma-a-terceira-posicao-do-brasileirao/",
+   "categoria_escala_17oct": "GOLES ESTÁNDAR"
+  },
+  {
+   "hora": "19:00",
+   "liga": "BRA",
+   "local": "Bragantino",
+   "visita": "Cruzeiro",
+   "resultado": "4-2",
+   "estado": "terminado",
+   "over15": 77.6,
+   "over25": 52.7,
+   "marcador": "1-1",
+   "categoria": "Rango 70",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-12 06:12 ECU (UTC-5)",
+   "goles": 6,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.metropoles.com/esportes/em-jogo-de-seis-gols-bragantino-domina-e-vence-o-cruzeiro-no-brasileirao",
+   "categoria_escala_17oct": "GOLES OPTIMISTAS"
+  },
+  {
+   "hora": "11:30",
+   "liga": "ITA",
+   "local": "Atalanta",
+   "visita": "Venezia",
+   "resultado": "3-1",
+   "estado": "terminado",
+   "over15": 78.5,
+   "over25": 54.1,
+   "marcador": "1-1",
+   "categoria": "Rango 70",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-12 06:25 ECU",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/12/serie-a-atalanta-venezia-3-1_20d4a04d-bc3f-41f2-a0be-cbbe054bed4d.html",
+   "categoria_escala_17oct": "GOLES OPTIMISTAS"
+  }
+ ]
+}

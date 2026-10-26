@@ -1,14 +1,14 @@
 {
- "local": "Hoffenheim",
- "fecha_larga": "Domingo 25 de octubre de 2026",
- "desde": "07:30",
+ "local": "Sevilla",
+ "fecha_larga": "Lunes 26 de octubre de 2026",
+ "desde": "05:41",
  "contexto": [
-  "Bayer Leverkusen ganó sus últimos 5 partidos y es 4.º con 13 puntos (On Tour Football).",
-  "En sus 3 visitas de Bundesliga, los partidos de Leverkusen promedian 5,3 goles (8 a favor y 8 en contra).",
-  "Hoffenheim viene de golear 3-0 a Lyon el jueves (On Tour Football)."
+  "Osasuna recibe 3,75 goles por partido fuera (15 en 4 visitas).",
+  "Sevilla sumó 1 punto de los últimos 9 (1-3 Barcelona, 4-1 en el Bernabéu, 3-3 en Levante).",
+  "Osasuna ganó 2-0 al Racing con Arrasate; bajas de Aimar Oroz, Del Castillo y Herrando."
  ],
  "auditoria": {
-  "titulo": "Sábado 24 de octubre · 55 partidos con resultado y fuente",
+  "titulo": "Domingo 25 de octubre · 44 partidos con resultado y fuente",
   "tiles": [
    [
     "1/1",
@@ -16,31 +16,31 @@
     "verde"
    ],
    [
-    "34/42",
-    "Over 1.5 de 70 % o más (81 %)",
-    ""
+    "7/7",
+    "Over 1.5 de 90 % o más",
+    "verde"
    ],
    [
-    "7/14",
-    "Over 2.5 con señal (50 %)",
+    "24/34",
+    "Over 1.5 de 70 % o más (71 %)",
     "dor"
    ],
    [
-    "137/179",
+    "175/227",
     "Galería: Over 1.5 de 70 % o más (77 %)",
     "dor"
    ]
   ],
-  "nota": "Partido del día: Augsburg 1-1 Union Berlin ✔ (dimos Over 1.5 al 93 %; hubo 2 goles). Fallaron Dortmund 1-0 Frankfurt (92 %), Köln 0-0 Schalke (86 %), Atlético 1-0 Deportivo (85 %), Paderborn 1-0 Hamburgo (83 %), Houston 0-0 Minnesota (81 %) y 3 más de 70–79 %. Publicamos aciertos y fallos."
+  "nota": "Partido del día: Hoffenheim 3-0 Leverkusen ✔ (dimos Over 1.5 al 96 %; hubo 3 goles). Fallaron Fortuna Sittard 1-0 Excelsior (89 %), Genoa 1-0 Venezia (83 %), Celta 0-0 Betis (83 %) y 7 de 70–79 %. Over 2.5 con señal: 7 de 11. Publicamos aciertos y fallos."
  },
  "acierto": {
-  "fecha": "sábado 24 de octubre",
-  "local": "Augsburg",
-  "visita": "Union Berlin",
+  "fecha": "domingo 25 de octubre",
+  "local": "Hoffenheim",
+  "visita": "Bayer Leverkusen",
   "liga": "Bundesliga · jornada 7",
-  "resultado": "1-1",
-  "over15": 93.2,
-  "goles": "2",
-  "sellado": "05:59 ECU del 24-oct"
+  "resultado": "3-0",
+  "over15": 95.7,
+  "goles": "3",
+  "sellado": "05:40 ECU del 25-oct"
  }
 }

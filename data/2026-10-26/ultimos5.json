@@ -1,0 +1,75 @@
+{
+ "nota": "Fase de medición Kaizen: no entra al modelo. Solo partidos oficiales; un amistoso de la lista de la fuente se excluye. Si faltan, se anota 'sin dato'.",
+ "Sevilla|Osasuna": {
+  "local": {
+   "equipo": "Sevilla",
+   "fuente": "https://futboltotal.futbol/partido/sevilla-vs-osasuna-laliga-1570431",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-18",
+     "rival": "Real Madrid",
+     "condicion": "fuera",
+     "marcador": "Real Madrid 4-1 Sevilla"
+    },
+    {
+     "fecha": "2026-10-12",
+     "rival": "Levante",
+     "condicion": "fuera",
+     "marcador": "Levante 3-3 Sevilla"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Barcelona",
+     "condicion": "casa",
+     "marcador": "Sevilla 1-3 Barcelona"
+    },
+    {
+     "fecha": "2026-09-16",
+     "rival": "Deportivo La Coruña",
+     "condicion": "fuera",
+     "marcador": "Deportivo La Coruña 0-1 Sevilla"
+    },
+    "sin dato (la ficha muestra un amistoso con Aston Villa del 02-oct, excluido)"
+   ]
+  },
+  "visita": {
+   "equipo": "Osasuna",
+   "fuente": "https://futboltotal.futbol/partido/sevilla-vs-osasuna-laliga-1570431",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-18",
+     "rival": "Racing Santander",
+     "condicion": "casa",
+     "marcador": "Osasuna 2-0 Racing Santander"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "Real Betis",
+     "condicion": "fuera",
+     "marcador": "Real Betis 5-2 Osasuna"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Rayo Vallecano",
+     "condicion": "casa",
+     "marcador": "Osasuna 1-1 Rayo Vallecano"
+    },
+    {
+     "fecha": "2026-09-16",
+     "rival": "Atlético de Madrid",
+     "condicion": "fuera",
+     "marcador": "Atlético de Madrid 4-0 Osasuna"
+    },
+    {
+     "fecha": "2026-09-12",
+     "rival": "Espanyol",
+     "condicion": "casa",
+     "marcador": "Osasuna 0-2 Espanyol"
+    }
+   ]
+  },
+  "cuota_over25": "sin dato",
+  "cuota_under25": "sin dato",
+  "cuotas_nota": "la ficha de Fútbol Total y las previas abiertas consultadas no muestran Over/Under 2.5"
+ }
+}

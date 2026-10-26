@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26 01:15 ECU",
+ "actualizado": "2026-10-26 05:56 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -8,11 +8,12 @@
   "2026-10-18",
   "2026-10-19",
   "2026-10-20",
+  "2026-10-21",
   "2026-10-23",
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 254,
+ "partidos": 263,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -20,36 +21,36 @@
    "partidos": 5
   },
   "GOLES PLATINO": {
-   "aciertos": 24,
-   "partidos": 26
+   "aciertos": 27,
+   "partidos": 29
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 61,
-   "partidos": 86
+   "aciertos": 63,
+   "partidos": 88
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 108,
-   "partidos": 137
+   "aciertos": 112,
+   "partidos": 141
   }
  },
  "over90": {
-  "aciertos": 29,
-  "partidos": 31,
+  "aciertos": 32,
+  "partidos": 34,
   "racha_actual": 12,
-  "racha_max": 14
+  "racha_max": 17
  },
  "over80": {
-  "aciertos": 90,
-  "partidos": 117
+  "aciertos": 95,
+  "partidos": 122
  },
  "over25_senal": {
-  "aciertos": 33,
-  "partidos": 53
+  "aciertos": 38,
+  "partidos": 58
  },
  "partido_del_dia": {
-  "aciertos": 7,
-  "dias": 8,
-  "racha_actual": 2,
+  "aciertos": 10,
+  "dias": 11,
+  "racha_actual": 4,
   "detalle": [
    {
     "fecha": "2026-10-11",
@@ -58,6 +59,14 @@
     "goles": null,
     "acierto": true,
     "over15": 85.0
+   },
+   {
+    "fecha": "2026-10-12",
+    "partido": "Levante vs Sevilla",
+    "resultado": "3-3",
+    "goles": 6,
+    "acierto": true,
+    "over15": 89.9
    },
    {
     "fecha": "2026-10-16",
@@ -100,6 +109,14 @@
     "over15": 84.2
    },
    {
+    "fecha": "2026-10-21",
+    "partido": "Pachuca vs Cruz Azul",
+    "resultado": "1-2",
+    "goles": 3,
+    "acierto": true,
+    "over15": 92.3
+   },
+   {
     "fecha": "2026-10-23",
     "partido": "Necaxa vs Juarez",
     "resultado": "1-1",
@@ -114,14 +131,22 @@
     "goles": 2,
     "acierto": true,
     "over15": 93.2
+   },
+   {
+    "fecha": "2026-10-25",
+    "partido": "Hoffenheim vs Bayer Leverkusen",
+    "resultado": "3-0",
+    "goles": 3,
+    "acierto": true,
+    "over15": 95.7
    }
   ]
  },
  "mejor_dia_80": {
-  "fecha": "2026-10-11",
-  "aciertos": 9,
-  "partidos": 10,
-  "pct": 0.9
+  "fecha": "2026-10-21",
+  "aciertos": 5,
+  "partidos": 5,
+  "pct": 1.0
  },
  "mayor_goleada_acertada": {
   "fecha": "2026-10-17",
@@ -138,27 +163,27 @@
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 26,
-   "aciertos": 24,
+   "partidos": 29,
+   "aciertos": 27,
    "prometido": 91.8
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 86,
-   "aciertos": 61,
-   "prometido": 83.5
+   "partidos": 88,
+   "aciertos": 63,
+   "prometido": 83.6
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 82,
-   "aciertos": 61,
-   "prometido": 74.3
+   "partidos": 84,
+   "aciertos": 63,
+   "prometido": 74.4
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 55,
-   "aciertos": 47,
-   "prometido": 61.4
+   "partidos": 57,
+   "aciertos": 49,
+   "prometido": 61.5
   }
  ],
  "ultima_jornada": {

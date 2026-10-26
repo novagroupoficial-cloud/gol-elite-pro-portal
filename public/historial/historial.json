@@ -293,5 +293,101 @@
    "Napoli 3-3 Roma (66,9 % · hubo 6 goles)"
   ],
   "partidos": 57
+ },
+ {
+  "fecha": "2026-10-12",
+  "titulo": "Lunes 12 de octubre de 2026",
+  "imagen": "/historial/2026-10-12.jpg",
+  "resumen": [
+   [
+    "7/7",
+    "Over 1.5 de 70 % o más (100 %)"
+   ],
+   [
+    "2/2",
+    "Over 2.5 con señal (100 %)"
+   ],
+   [
+    "2/8",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Ningún Over 1.5 de 70 % o más falló (7 de 7). El único partido sin 2 goles fue Gimnasia Mendoza 1-0 Newell's (53,5 %, menos de 70: no recomendado). Jornada auditada el 26-oct por la regla de histórico sin huecos (escala clásica de su día).",
+  "aciertos_destacados": [
+   "Levante 3-3 Sevilla (partido del día · Over 1.5 al 89,9 % · hubo 6 goles)",
+   "Chapecoense 1-4 Athletico-PR (Over 1.5 al 86,1 % · hubo 5 goles)",
+   "Coventry 4-1 Newcastle (Over 1.5 al 82,5 % · hubo 5 goles)",
+   "Bragantino 4-2 Cruzeiro (Over 1.5 al 77,6 % · hubo 6 goles)",
+   "Atalanta 3-1 Venezia (Over 1.5 al 78,5 % · hubo 4 goles)"
+  ],
+  "partidos": 8
+ },
+ {
+  "fecha": "2026-10-21",
+  "titulo": "Miércoles 21 de octubre de 2026",
+  "imagen": "/historial/2026-10-21.jpg",
+  "resumen": [
+   [
+    "3/3",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "7/7",
+    "Over 1.5 de 70 % o más (100 %)"
+   ],
+   [
+    "5/5",
+    "Over 2.5 con señal (100 %)"
+   ],
+   [
+    "2/9",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Sin fallos: los 9 partidos tuvieron 2 goles o más, incluidos Llaneros 0-3 Deportivo Cali (57,1 %) y Santos 2-0 Pumas (69,0 %), que estaban por debajo de 70 %. Jornada auditada el 26-oct por la regla de histórico sin huecos.",
+  "aciertos_destacados": [
+   "Pachuca 1-2 Cruz Azul (partido del día · Over 1.5 al 92,3 % · hubo 3 goles)",
+   "Atlas 2-5 América (Over 1.5 al 88,2 % · hubo 7 goles)",
+   "Toluca 2-2 Tijuana (Over 1.5 al 90,8 % · hubo 4 goles)",
+   "Puebla 1-4 Monterrey (Over 1.5 al 75,4 % · hubo 5 goles)",
+   "Levante 3-1 Athletic Club (Over 1.5 al 86,0 % · hubo 4 goles)",
+   "Cincinnati 2-1 DC United (Over 1.5 al 91,9 % · hubo 3 goles)"
+  ],
+  "partidos": 9
+ },
+ {
+  "fecha": "2026-10-25",
+  "titulo": "Domingo 25 de octubre de 2026",
+  "imagen": "/historial/2026-10-25.jpg",
+  "resumen": [
+   [
+    "7/7",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "24/34",
+    "Over 1.5 de 70 % o más (71 %)"
+   ],
+   [
+    "7/11",
+    "Over 2.5 con señal (64 %)"
+   ],
+   [
+    "3/44",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Fallaron 10 Over 1.5 de 70 % o más: Fortuna Sittard 1-0 Excelsior (88,7 %), Genoa 1-0 Venezia (83,2 %), Celta 0-0 Betis (82,6 %), Alianza 1-0 Internacional de Bogotá (75,4 %), Independiente 0-1 Boca (73,6 %), Toulouse 0-0 Troyes (73,3 %), Tolima 0-1 Pasto (73,2 %), Angers 0-0 Lorient (72,1 %), River 1-0 Racing (71,6 %) y Emelec 0-1 Guayaquil City (70,7 %). En Over 2.5 con señal fallaron 4 de 11 (PSV 1-1 Feyenoord, Crystal Palace 0-2 Newcastle, Fortuna Sittard 1-0 Excelsior y Liverpool 2-0 Brighton). Los 7 de 90 % o más acertaron. En total, 32 de 44 partidos tuvieron 2 goles o más.",
+  "aciertos_destacados": [
+   "Hoffenheim 3-0 Bayer Leverkusen (partido del día · Over 1.5 al 95,7 % · hubo 3 goles)",
+   "Inter 2-1 Fiorentina (Over 1.5 al 95,7 % · hubo 3 goles)",
+   "Sparta Rotterdam 1-2 Ajax (Over 1.5 al 94,2 % · hubo 3 goles)",
+   "Rennes 3-0 Strasbourg (Over 1.5 al 92,8 % · hubo 3 goles)",
+   "NEC 2-2 FC Groningen (Over 1.5 al 91,6 % · hubo 4 goles)",
+   "Barcelona 1-2 Real Madrid (Over 1.5 al 89,8 % · hubo 3 goles)",
+   "Marseille 4-3 Le Havre (Over 1.5 al 84,7 % · hubo 7 goles)",
+   "Atalanta 4-4 Frosinone (76,7 % · hubo 8 goles)"
+  ],
+  "partidos": 44
  }
 ]

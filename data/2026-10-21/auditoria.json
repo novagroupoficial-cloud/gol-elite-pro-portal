@@ -1,0 +1,292 @@
+{
+ "fecha": "2026-10-21",
+ "auditado": "2026-10-26 05:45 ECU (auditoría de hueco, regla de Marco del 25-oct)",
+ "partidos": 9,
+ "terminados": 9,
+ "anulados": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   3,
+   3
+  ],
+  "Rango 80": [
+   2,
+   2
+  ],
+  "Rango 70": [
+   2,
+   2
+  ],
+  "Total >=70": [
+   7,
+   7
+  ],
+  "Over 2.5 con señal >=65": [
+   5,
+   5
+  ],
+  "Marcadores exactos": [
+   2,
+   9
+  ],
+  "Menos de 70 (informativo)": [
+   2,
+   2
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   3,
+   3
+  ],
+  "GOLES ESTÁNDAR": [
+   2,
+   2
+  ],
+  "GOLES OPTIMISTAS": [
+   4,
+   4
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   2,
+   2
+  ],
+  "moderada": [
+   3,
+   3
+  ]
+ },
+ "intervalo_wilson_95": {
+  "GOL ÉLITE": [
+   43.8,
+   100.0
+  ],
+  "Rango 80": [
+   34.2,
+   100.0
+  ],
+  "Rango 70": [
+   34.2,
+   100.0
+  ],
+  "Total >=70": [
+   64.6,
+   100.0
+  ],
+  "Over 2.5 con señal >=65": [
+   56.6,
+   100.0
+  ],
+  "Menos de 70 (informativo)": [
+   34.2,
+   100.0
+  ],
+  "GOLES PLATINO": [
+   43.8,
+   100.0
+  ],
+  "GOLES ESTÁNDAR": [
+   34.2,
+   100.0
+  ],
+  "GOLES OPTIMISTAS": [
+   51.0,
+   100.0
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Pachuca vs Cruz Azul",
+  "over15": 92.3,
+  "sellado": "05:33 ECU",
+  "resultado": "1-2",
+  "goles": 3,
+  "acierto": true
+ },
+ "fallos_over15_70": [],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [
+  "Llaneros 0-3 Deportivo Cali (57,1 %, menos de 70: no recomendado; hubo 3 goles)",
+  "Santos Laguna 2-0 Pumas UNAM (69,0 %, menos de 70: no recomendado; hubo 2 goles)"
+ ],
+ "anulados_lista": [],
+ "nota": "Jornada sin auditoría previa (la rutina del 22 y 23 no corrió): se audita hoy por la regla 'histórico sin huecos'. Resultados de fuente abierta (los mismos que ya se sumaron a tools/datos.py en los bloques MIE21 y SAB24, más Santa Fe 2-1 Jaguares de fotmob y futbol24). Escala de Marco del 17-oct sobre el entero redondeado y, aparte, la clásica. Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. El Dashboard Gol 4.0 no expone /api/dia: auditoría manual. Intervalos de Wilson 95 %.",
+ "resultados": [
+  {
+   "hora": "13:00",
+   "liga": "ESP",
+   "local": "Levante",
+   "visita": "Athletic Club",
+   "resultado": "3-1",
+   "estado": "terminado",
+   "over15": 86.0,
+   "over25": 65.8,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.footballwebpages.co.uk/spanish-la-liga/fixtures-results"
+  },
+  {
+   "hora": "18:00",
+   "liga": "USA",
+   "local": "Cincinnati",
+   "visita": "DC United",
+   "resultado": "2-1",
+   "estado": "terminado",
+   "over15": 91.9,
+   "over25": 77.2,
+   "marcador": "2-1",
+   "categoria": "GOLES PLATINO",
+   "rango_clasico": "GOL ÉLITE",
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": true,
+   "fuente": "https://futboltotal.futbol/partido/fc-cincinnati-vs-dc-united-mls-2026-10-22"
+  },
+  {
+   "hora": "18:15",
+   "liga": "COL",
+   "local": "Llaneros",
+   "visita": "Deportivo Cali",
+   "resultado": "0-3",
+   "estado": "terminado",
+   "over15": 57.1,
+   "over25": 29.1,
+   "marcador": "0-0",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/llaneros-vs-deportivo-cali-primera-a-2026-10-22"
+  },
+  {
+   "hora": "20:00",
+   "liga": "MEX",
+   "local": "Toluca",
+   "visita": "Tijuana",
+   "resultado": "2-2",
+   "estado": "terminado",
+   "over15": 90.8,
+   "over25": 74.9,
+   "marcador": "2-1",
+   "categoria": "GOLES PLATINO",
+   "rango_clasico": "GOL ÉLITE",
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://news.jointly.mx/tabla-general-jornada-13-apertura-2026-resultados-miercoles/"
+  },
+  {
+   "hora": "20:00",
+   "liga": "MEX",
+   "local": "Atlas",
+   "visita": "America",
+   "resultado": "2-5",
+   "estado": "terminado",
+   "over15": 88.2,
+   "over25": 70.0,
+   "marcador": "1-2",
+   "categoria": "GOLES ESTÁNDAR",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://heraldodemexico.com.mx/deportes/2026/10/22/america-goleo-atlas-2-5-en-la-jornada-13-de-la-liga-mx-913469.html"
+  },
+  {
+   "hora": "20:00",
+   "liga": "MEX",
+   "local": "Puebla",
+   "visita": "Monterrey",
+   "resultado": "1-4",
+   "estado": "terminado",
+   "over15": 75.4,
+   "over25": 49.7,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://news.jointly.mx/tabla-general-jornada-13-apertura-2026-resultados-miercoles/"
+  },
+  {
+   "hora": "20:20",
+   "liga": "COL",
+   "local": "Santa Fe",
+   "visita": "Jaguares de Córdoba",
+   "resultado": "2-1",
+   "estado": "terminado",
+   "over15": 78.7,
+   "over25": 54.5,
+   "marcador": "2-0",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.fotmob.com/match/3652834/matchfacts/santa-fe-vs-cd-jaguares"
+  },
+  {
+   "hora": "22:00",
+   "liga": "MEX",
+   "local": "Pachuca",
+   "visita": "Cruz Azul",
+   "resultado": "1-2",
+   "estado": "terminado",
+   "over15": 92.3,
+   "over25": 78.0,
+   "marcador": "1-2",
+   "categoria": "GOLES PLATINO",
+   "rango_clasico": "GOL ÉLITE",
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": true,
+   "fuente": "https://heraldodemexico.com.mx/deportes/2026/10/22/cruz-azul-vencio-pachuca-1-2-en-la-jornada-13-de-la-liga-mx-913785.html"
+  },
+  {
+   "hora": "22:10",
+   "liga": "MEX",
+   "local": "Santos Laguna",
+   "visita": "Pumas UNAM",
+   "resultado": "2-0",
+   "estado": "terminado",
+   "over15": 69.0,
+   "over25": 41.7,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-10-21 05:33 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://news.jointly.mx/tabla-general-jornada-13-apertura-2026-resultados-miercoles/"
+  }
+ ]
+}

@@ -32,7 +32,8 @@ def metricas(ps, ys):
     n = len(ys); base = sum(ys) / n
     b = sum((p - y) ** 2 for p, y in zip(ps, ys)) / n; b0 = sum((base - y) ** 2 for y in ys) / n
     ll = -sum(math.log(max(1e-6, p if y else 1 - p)) for p, y in zip(ps, ys)) / n
-    return dict(n=n, brier=round(b, 4), skill=round(1 - b / b0, 3), auc=round(auc(ps, ys), 3), logloss=round(ll, 4),
+    return dict(n=n, brier=round(b, 4), skill=(round(1 - b / b0, 3) if b0 else None), auc=(None if math.isnan(auc(ps, ys)) else round(auc(ps, ys), 3)),  # día con todos aciertos (o todos fallos): skill y AUC no se definen
+                logloss=round(ll, 4),
                 media_pred=round(sum(ps) / n, 3), real=round(base, 3))
 
 def correr(variante, X):

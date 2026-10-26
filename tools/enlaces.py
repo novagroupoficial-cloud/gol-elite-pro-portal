@@ -656,7 +656,7 @@ _USA=("MLS 2026: calendario de la jornada del sábado 24 de octubre","VAVEL","ht
 _ARG=("Liga Profesional: la fecha 14 del Clausura 2026, partido por partido","Fútbol Total","https://futboltotal.futbol/league/liga-profesional-argentina/round/clausura-14")
 _ECU=("LigaPro: horarios de la fecha 4 de la fase final","Primicias","https://www.primicias.ec/deportes/donde-ver-fecha/teleamazonas-fechas-partidos-horarios-fecha4-hexagonal-cuadrangular-ver-tv-135546/")
 _LIGA={'ENG':_FT,'ITA':_FT,'COL':_FT,'ESP':_ESP,'GER':_GER,'NED':_NED,'FRA':_FRA,'BRA':_BRA,'MEX':_MEX,'USA':_USA,'ARG':_ARG,'ECU':_ECU}
-LINK={f"{p['local']}|{p['visita']}":_LIGA[p['liga']] for p in _P if not p.get('sin')}
+LINK={f"{p['local']}|{p['visita']}":_LIGA.get(p['liga'],_FT) for p in _P if not p.get('sin')}
 LINK.update({
  'Borussia Dortmund|Eintracht Frankfurt':("Dortmund vs Eintracht Frankfurt: ficha, forma e historial de la jornada 7","Fútbol Total","https://futboltotal.futbol/partido/borussia-dortmund-vs-eintracht-frankfurt-bundesliga-2026-10-24"),
  'Chelsea|Tottenham Hotspur':("Chelsea vs Tottenham: el derbi de Londres de la jornada 8","Fútbol Total","https://futboltotal.futbol/partido/chelsea-vs-tottenham-premier-league-2026-10-24"),
@@ -746,7 +746,7 @@ _MEX=("Liga MX: los partidos del domingo 25 de octubre (jornada 14 del Apertura 
 _USA=("MLS 2026: calendario del domingo 25 de octubre","VAVEL","https://www.vavel.com/en-us/data/mls/fixtures/")
 _ECU=("LigaPro: horarios de la fecha 4 de la fase final","Primicias","https://www.primicias.ec/deportes/donde-ver-fecha/teleamazonas-fechas-partidos-horarios-fecha4-hexagonal-cuadrangular-ver-tv-135546/")
 _LIGA={'ENG':_FT,'ITA':_FT,'COL':_FT,'ARG':_FT,'ESP':_ESP,'GER':_GER,'NED':_NED,'FRA':_FRA,'MEX':_MEX,'USA':_USA,'ECU':_ECU}
-LINK={f"{p['local']}|{p['visita']}":_LIGA[p['liga']] for p in _P if not p.get('sin')}
+LINK={f"{p['local']}|{p['visita']}":_LIGA.get(p['liga'],_FT) for p in _P if not p.get('sin')}
 LINK.update({
  'Hoffenheim|Bayer Leverkusen':("Hoffenheim vs Bayer Leverkusen: forma, tabla e historial de la jornada 7","On Tour Football","https://ontourfootball.com/fixtures/1899-hoffenheim-vs-bayer-leverkusen-2026-10-25"),
  'Barcelona|Real Madrid':("Confirman la hora y dónde ver el Clásico Barcelona-Real Madrid","Excélsior","https://www.excelsior.com.mx/deportes/confirman-hora-y-donde-ver-clasico-barcelona-real-madrid"),
@@ -798,7 +798,7 @@ LLEGAN={
 # ---- Domingo 25-oct, 07:40 ECU: referencia = partidos de SportyTrader (data/2026-10-25/sportytrader.json) ----
 _ST=_j.load(open(_o.path.join(_o.path.dirname(_o.path.abspath(__file__)),'../data/2026-10-25/sportytrader.json'),encoding='utf-8'))['partidos'] if _o.path.exists(_o.path.join(_o.path.dirname(_o.path.abspath(__file__)),'../data/2026-10-25/sportytrader.json')) else []
 _PI={f"{p['local']}|{p['visita']}":p for p in _P if not p.get('sin')}
-if _ST:
+if _ST and all(k in _PI for k in _ST):  # solo el día de esa lista (25-oct)
     PRED=[k for k in sorted(_ST,key=lambda k:-_PI[k]['over15']) if k in _PI and round(_PI[k]['over15'],1)>=79.5]
     DEST=['Hoffenheim|Bayer Leverkusen','Sparta Rotterdam|Ajax','PSV|Feyenoord','Barcelona|Real Madrid','Manchester United|AFC Bournemouth']
     COL.update({'Tolima':'#7a1230','Pasto':'#c8102e'})
@@ -831,3 +831,40 @@ if _ST:
        "United lleva 4 empates en sus últimos 5; Bournemouth ganó 2-0 al Sunderland.",
        "Fuentes: tabla de la Premier League 2026-27 (local y visitante) y Football Dream."],
     }
+
+# ---- Lunes 26-oct-2026 (rutina diaria, sellado 05:41 ECU) ----
+# LINK: previa o ficha real de cada partido (titular en español, medio y enlace). Donde no se halló una previa individual verificada,
+# se enlaza la programación real del lunes 26 (Fútbol Peruano / Líbero, hora de Perú = Ecuador).
+_FP=("Partidos que serán transmitidos en vivo por TV el lunes 26 de octubre","Fútbol Peruano","https://www.futbolperuano.com/partidos-por-tv/noticias/programacion-de-partidos-por-tv-del-lunes-26-de-octubre-608796")
+_LB=("Partidos de hoy, lunes 26 de octubre: programación, horarios y dónde ver fútbol","Líbero","https://libero.pe/futbol-internacional/2026/10/25/partidos-de-hoy-lunes-26-de-octubre-en-vivo-horarios-donde-ver-futbol-1752300")
+LINK={f"{p['local']}|{p['visita']}":(_LB if p['liga'] in ('ARG','COL') else _FP) for p in _P if not p.get('sin')}
+LINK.update({
+ 'Sevilla|Osasuna':("Posibles alineaciones y previa fantasy del Sevilla - Osasuna","FútbolFantasy","https://www.futbolfantasy.com/laliga/noticias/153274-posibles-alineaciones-y-previa-fantasy-del-sevilla-osasuna"),
+ 'U. de Chile|Everton':("Universidad de Chile vs Everton: ficha de la fecha 25 de la Liga de Primera","Campeonato Chileno (ANFP)","https://www.campeonatochileno.cl/match/universidad-de-chile-everton-2026-10-26/"),
+ 'Coritiba|Grêmio':("Coritiba x Grêmio: dónde ver el partido de la 32.ª fecha del Brasileirão","Máquina do Esporte","https://maquinadoesporte.com.br/onde-assistir/coritiba-x-gremio-onde-assistir-ao-jogo-da-32a-rodada-do-brasileirao/"),
+ 'Flamengo|Atletico MG':("Flamengo x Atlético-MG: probabilidades y análisis del partido","Valor Final","https://valorfinal.com.br/brasileirao/2026/jogos/flamengo-x-atletico-mg"),
+ 'Jaguares de Córdoba|Llaneros':("Jaguares de Córdoba vs Llaneros: ficha de la fecha 16 del Clausura","Win Sports","https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-16-jaguares-de-cordoba-vs-llaneros"),
+})
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Paris Saint-Germain|Lyon','Flamengo|Atletico MG','Santa Clara|Benfica','U. de Chile|Everton']
+COL.update({'Santa Clara':'#d0021b','Benfica':'#e30613','Paris Saint-Germain':'#004170','Lyon':'#ffffff','Sevilla':'#f4f4f4','Osasuna':'#d91a21',
+ 'U. de Chile':'#0033a0','Everton':'#1d3f8f','Union Santa Fe':'#d0021b','Estudiantes LP':'#d0021b','Coritiba':'#0b5d34','Grêmio':'#0d80bf',
+ 'Flamengo':'#c8102e','Atletico MG':'#111111','Jaguares de Córdoba':'#00843d','Llaneros':'#e8b400','Instituto Cordoba':'#d0021b',
+ 'Deportivo Riestra':'#111111','Santa Fe':'#c8102e','Bucaramanga':'#f6d11b'})
+# Aciertos de ayer (domingo 25): (partido, marcador real, nuestro Over 1.5, medio, url)
+ACIERTOS=[
+ ("Hoffenheim vs Bayer Leverkusen","3-0","96 % · partido del día","Fútbol Total","https://futboltotal.futbol/partido/1899-hoffenheim-vs-bayer-leverkusen-bundesliga-2026-10-25"),
+ ("Inter vs Fiorentina","2-1","96 %","Fútbol Total","https://futboltotal.futbol/partido/inter-vs-fiorentina-serie-a-2026-10-25"),
+ ("Sparta Rotterdam vs Ajax","1-2","94 %","Sporza","https://sporza.be/nl/sport/voetbal/~3338935/"),
+ ("Rennes vs Strasbourg","3-0","93 %","Fútbol Total","https://futboltotal.futbol/partido/rennes-vs-strasbourg-ligue-1-2026-10-25"),
+ ("NEC vs FC Groningen","2-2","92 %","Sporza","https://sporza.be/nl/sport/voetbal/~3338893/"),
+ ("Barcelona vs Real Madrid","1-2","90 %","Líbero","https://libero.pe/futbol-internacional/liga-espanola/2026/10/25/partido-de-barcelona-vs-real-madrid-link-gratis-en-vivo-en-directo-online-mirar-clasico-espanol-1714125"),
+ ("Marseille vs Le Havre","4-3","85 %","Fútbol Total","https://futboltotal.futbol/partido/marseille-vs-le-havre-ligue-1-2026-10-25"),
+ ("Atalanta vs Frosinone","4-4","77 %","Fútbol Total","https://futboltotal.futbol/partido/atalanta-vs-frosinone-serie-a-2026-10-25"),
+]
+LLEGAN={
+ 'Sevilla|Osasuna':["Osasuna fuera de casa: 6 goles a favor y 15 en contra en 4 partidos de LaLiga (5,3 goles por partido en sus visitas).",
+   "Sevilla en casa: 5 a favor y 7 en contra en 4 partidos; sumó 1 punto de los últimos 9 (derrotas con Barcelona y 4-1 en el Bernabéu, 3-3 en Levante).",
+   "Osasuna debutó con Jagoba Arrasate ganando 2-0 al Racing; bajas de Del Castillo, Herrando y Aimar Oroz. En el Sevilla no están Sierra, Guridi ni Marcao.",
+   "Fuentes: tabla de LaLiga 2026-27 (local y visitante, partido a partido), Fútbol Total y FútbolFantasy."],
+}

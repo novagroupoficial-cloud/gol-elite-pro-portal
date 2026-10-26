@@ -1,0 +1,32 @@
+[
+ {
+  "local": "Santa Clara",
+  "visita": "Benfica",
+  "hora": "13:45",
+  "resultado": "1-2",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 76.6,
+  "over25_dado": 51.4,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://executivedigest.sapo.pt/i-liga-benfica-da-a-volta-ao-resultado-e-vence-na-visita-ao-santa-clara/",
+  "registrado": "17:15 ECU"
+ },
+ {
+  "local": "Paris Saint-Germain",
+  "visita": "Lyon",
+  "hora": "14:30",
+  "resultado": "2-0",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 77.2,
+  "over25_dado": 52.1,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.footmercato.net/live/7347100937878128418-paris-saint-germain-vs-lyon",
+  "registrado": "17:15 ECU"
+ }
+]

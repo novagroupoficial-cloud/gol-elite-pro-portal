@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-25",
- "actualizado": "2026-10-25 23:11 ECU (UTC-5)",
+ "actualizado": "2026-10-26 00:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-25/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 40,
+  "terminados": 43,
   "total": 44,
   "over15_70": [
-   21,
-   31
+   23,
+   33
   ],
   "over25_senal": [
    7,
@@ -291,8 +291,13 @@
     "gc": 10
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-3",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.elimparcial.com/deporte/2026/10/25/cruz-azul-vence-a-queretaro-con-tres-goles-en-el-primer-tiempo-y-se-coloca-a-un-punto-del-america-en-la-pelea-por-el-liderato/"
   },
   {
    "puesto": 17,
@@ -348,8 +353,13 @@
     "gc": 32
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.foxsports.com/articles/soccer/leo-waltas-goal-erases-galaxys-lead-lafc-clinches-playoff-spot-in-22-el-trafico-draw"
   },
   {
    "puesto": 19,
@@ -903,8 +913,13 @@
     "gc": 10
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-3",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.elimparcial.com/deporte/2026/10/25/cruz-azul-vence-a-queretaro-con-tres-goles-en-el-primer-tiempo-y-se-coloca-a-un-punto-del-america-en-la-pelea-por-el-liderato/"
   },
   {
    "puesto": 17,
@@ -960,8 +975,13 @@
     "gc": 32
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.foxsports.com/articles/soccer/leo-waltas-goal-erases-galaxys-lead-lafc-clinches-playoff-spot-in-22-el-trafico-draw"
   },
   {
    "puesto": 19,
@@ -1048,7 +1068,7 @@
     "gc": 13
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
+   "estado": "sin confirmar",
    "resultado": null
   },
   {
@@ -1570,8 +1590,13 @@
     "gc": 5
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-2",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.mediotiempo.com/futbol/liga-mx/resumen-partido-america-vs-pachuca-jornada-14-apertura-2026"
   },
   {
    "puesto": 39,

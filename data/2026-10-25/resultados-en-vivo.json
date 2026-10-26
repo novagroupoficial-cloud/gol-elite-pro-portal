@@ -598,5 +598,50 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/deportes-tolima-vs-deportivo-pasto-primera-a-2026-10-25",
   "registrado": "23:15 ECU"
+ },
+ {
+  "local": "Queretaro",
+  "visita": "Cruz Azul",
+  "hora": "20:00",
+  "resultado": "1-3",
+  "goles": 4,
+  "estado": "terminado",
+  "over15_dado": 83.1,
+  "over25_dado": 61.0,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.elimparcial.com/deporte/2026/10/25/cruz-azul-vence-a-queretaro-con-tres-goles-en-el-primer-tiempo-y-se-coloca-a-un-punto-del-america-en-la-pelea-por-el-liderato/",
+  "registrado": "00:20 ECU"
+ },
+ {
+  "local": "Los Angeles FC",
+  "visita": "LA Galaxy",
+  "hora": "20:00",
+  "resultado": "2-2",
+  "goles": 4,
+  "estado": "terminado",
+  "over15_dado": 82.7,
+  "over25_dado": 60.6,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.foxsports.com/articles/soccer/leo-waltas-goal-erases-galaxys-lead-lafc-clinches-playoff-spot-in-22-el-trafico-draw",
+  "registrado": "00:20 ECU"
+ },
+ {
+  "local": "America",
+  "visita": "Pachuca",
+  "hora": "20:05",
+  "resultado": "1-2",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 66.2,
+  "over25_dado": 38.4,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.mediotiempo.com/futbol/liga-mx/resumen-partido-america-vs-pachuca-jornada-14-apertura-2026",
+  "registrado": "00:20 ECU"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 23:11 ECU",
+ "actualizado": "2026-10-26 00:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 250,
+ "partidos": 253,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -24,12 +24,12 @@
    "partidos": 26
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 58,
-   "partidos": 83
+   "aciertos": 60,
+   "partidos": 85
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 107,
-   "partidos": 136
+   "aciertos": 108,
+   "partidos": 137
   }
  },
  "over90": {
@@ -39,8 +39,8 @@
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 87,
-  "partidos": 114
+  "aciertos": 89,
+  "partidos": 116
  },
  "over25_senal": {
   "aciertos": 33,
@@ -144,9 +144,9 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 83,
-   "aciertos": 58,
-   "prometido": 83.6
+   "partidos": 85,
+   "aciertos": 60,
+   "prometido": 83.5
   },
   {
    "franja": "70 a 79 %",
@@ -156,9 +156,9 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 54,
-   "aciertos": 46,
-   "prometido": 61.3
+   "partidos": 55,
+   "aciertos": 47,
+   "prometido": 61.4
   }
  ],
  "ultima_jornada": {
@@ -300,12 +300,30 @@
     "acierto": false
    },
    {
+    "hora": "20:00",
+    "local": "Queretaro",
+    "visita": "Cruz Azul",
+    "over15": 83.1,
+    "resultado": "1-3",
+    "goles": 4,
+    "acierto": true
+   },
+   {
     "hora": "11:15",
     "local": "Auxerre",
     "visita": "Le Mans",
     "over15": 82.7,
     "resultado": "1-1",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "20:00",
+    "local": "Los Angeles FC",
+    "visita": "LA Galaxy",
+    "over15": 82.7,
+    "resultado": "2-2",
+    "goles": 4,
     "acierto": true
    },
    {
@@ -468,6 +486,15 @@
     "over15": 67.5,
     "resultado": "1-1",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "20:05",
+    "local": "America",
+    "visita": "Pachuca",
+    "over15": 66.2,
+    "resultado": "1-2",
+    "goles": 3,
     "acierto": true
    },
    {

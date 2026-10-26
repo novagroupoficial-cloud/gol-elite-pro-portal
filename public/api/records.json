@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26 17:12 ECU",
+ "actualizado": "2026-10-26 18:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -14,7 +14,7 @@
   "2026-10-25",
   "2026-10-26"
  ],
- "partidos": 265,
+ "partidos": 266,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -26,8 +26,8 @@
    "partidos": 29
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 63,
-   "partidos": 88
+   "aciertos": 64,
+   "partidos": 89
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 114,
@@ -41,12 +41,12 @@
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 95,
-  "partidos": 122
+  "aciertos": 96,
+  "partidos": 123
  },
  "over25_senal": {
   "aciertos": 38,
-  "partidos": 58
+  "partidos": 59
  },
  "partido_del_dia": {
   "aciertos": 10,
@@ -170,8 +170,8 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 88,
-   "aciertos": 63,
+   "partidos": 89,
+   "aciertos": 64,
    "prometido": 83.6
   },
   {
@@ -190,6 +190,15 @@
  "ultima_jornada": {
   "fecha": "2026-10-26",
   "partidos": [
+   {
+    "hora": "15:00",
+    "local": "Sevilla",
+    "visita": "Osasuna",
+    "over15": 86.8,
+    "resultado": "2-0",
+    "goles": 2,
+    "acierto": true
+   },
    {
     "hora": "14:30",
     "local": "Paris Saint-Germain",

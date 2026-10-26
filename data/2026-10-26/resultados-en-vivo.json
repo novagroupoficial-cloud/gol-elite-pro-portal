@@ -28,5 +28,20 @@
   "marcador_exacto": false,
   "fuente": "https://www.footmercato.net/live/7347100937878128418-paris-saint-germain-vs-lyon",
   "registrado": "17:15 ECU"
+ },
+ {
+  "local": "Sevilla",
+  "visita": "Osasuna",
+  "hora": "15:00",
+  "resultado": "2-0",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 86.8,
+  "over25_dado": 67.4,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/sevilla-vs-osasuna-laliga-1570431",
+  "registrado": "18:10 ECU"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 20:11 ECU",
+ "actualizado": "2026-10-25 21:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 245,
+ "partidos": 246,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -28,8 +28,8 @@
    "partidos": 83
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 103,
-   "partidos": 131
+   "aciertos": 104,
+   "partidos": 132
   }
  },
  "over90": {
@@ -156,9 +156,9 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 52,
-   "aciertos": 44,
-   "prometido": 61.3
+   "partidos": 53,
+   "aciertos": 45,
+   "prometido": 61.4
   }
  ],
  "ultima_jornada": {
@@ -415,6 +415,15 @@
     "resultado": "0-1",
     "goles": 1,
     "acierto": false
+   },
+   {
+    "hora": "18:00",
+    "local": "Atlas",
+    "visita": "Puebla",
+    "over15": 68.8,
+    "resultado": "4-3",
+    "goles": 7,
+    "acierto": true
    },
    {
     "hora": "08:00",

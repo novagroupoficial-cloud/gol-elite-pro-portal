@@ -523,5 +523,20 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/river-plate-vs-racing-club-liga-profesional-argentina-2026-10-25",
   "registrado": "20:12 ECU"
+ },
+ {
+  "local": "Atlas",
+  "visita": "Puebla",
+  "hora": "18:00",
+  "resultado": "4-3",
+  "goles": 7,
+  "estado": "terminado",
+  "over15_dado": 68.8,
+  "over25_dado": 41.4,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.foxsports.com.mx/2026/10/25/atlas-vs-puebla-hoy-resumen-goles-en-video-y-resultado-4-3-jornada-14-liga-mx-apertura-2026/",
+  "registrado": "21:15 ECU"
  }
 ]

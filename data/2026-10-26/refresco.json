@@ -1,20 +1,20 @@
 {
  "fecha": "2026-10-26",
- "ultima_ejecucion": "2026-10-26 01:15 ECU",
+ "ultima_ejecucion": "2026-10-26 02:19 ECU",
  "ultima_ok": "2026-10-26 01:15 ECU",
  "rutina_diaria": "pendiente",
  "rutina_diaria_inicio": null,
  "pendientes": [
-  "Portal en vivo sin lectura (WebFetch de gol-elite-pro.netlify.app/index: permiso no respondido, 00:20 y 01:15). Aviso 'bloqueo' del 26 incluido en el cierre del 25.",
+  "Portal en vivo sin lectura (WebFetch de gol-elite-pro.netlify.app/index: permiso no respondido, 00:20, 01:15 y 02:19). Aviso 'bloqueo' del 26 incluido en el cierre del 25.",
   "Rutina diaria del 26: corre a las 05:24 ECU; si a las 08:00 falta pronosticos.json, la retoma el refresco."
  ],
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "01:15 (sin lectura: permiso no respondido)"
+  "ultima_revision": "02:19 (sin lectura: permiso no respondido)"
  },
  "avisos_enviados": [
   "bloqueo"
  ],
- "nota": "00:20: primera ejecución del día; trabajo sobre la jornada del 25 (ver data/2026-10-25/refresco.json): 3 resultados registrados, ranking del 25 regenerado (43/44). 01:15: Tijuana 4-1 Santos registrado; jornada del 25 cerrada (44/44); ranking del 25 regenerado."
+ "nota": "00:20: primera ejecución del día; trabajo sobre la jornada del 25 (ver data/2026-10-25/refresco.json): 3 resultados registrados, ranking del 25 regenerado (43/44). 01:15: Tijuana 4-1 Santos registrado; jornada del 25 cerrada (44/44); ranking del 25 regenerado. 02:19: sin pronósticos del 26 aún (rutina 05:24); nada que registrar; portal en vivo sin lectura."
 }

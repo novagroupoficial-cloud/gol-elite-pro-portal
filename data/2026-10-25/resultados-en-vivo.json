@@ -583,5 +583,20 @@
   "marcador_exacto": false,
   "fuente": "https://www.puntal.com.ar/estudiantes-rio-cuarto/estudiantes-no-pudo-aguantar-la-ventaja-y-perdio-visitante-frente-barracas-central-n267123",
   "registrado": "22:20 ECU"
+ },
+ {
+  "local": "Tolima",
+  "visita": "Pasto",
+  "hora": "20:15",
+  "resultado": "0-1",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 73.2,
+  "over25_dado": 46.8,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/deportes-tolima-vs-deportivo-pasto-primera-a-2026-10-25",
+  "registrado": "23:15 ECU"
  }
 ]

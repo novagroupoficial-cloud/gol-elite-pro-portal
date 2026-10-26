@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25 22:12 ECU",
+ "actualizado": "2026-10-25 23:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 249,
+ "partidos": 250,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -29,7 +29,7 @@
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 107,
-   "partidos": 135
+   "partidos": 136
   }
  },
  "over90": {
@@ -150,9 +150,9 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 81,
+   "partidos": 82,
    "aciertos": 61,
-   "prometido": 74.4
+   "prometido": 74.3
   },
   {
    "franja": "menos de 70 %",
@@ -387,6 +387,15 @@
     "over15": 73.3,
     "resultado": "0-0",
     "goles": 0,
+    "acierto": false
+   },
+   {
+    "hora": "20:15",
+    "local": "Tolima",
+    "visita": "Pasto",
+    "over15": 73.2,
+    "resultado": "0-1",
+    "goles": 1,
     "acierto": false
    },
    {

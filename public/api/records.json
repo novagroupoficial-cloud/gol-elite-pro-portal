@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26 00:11 ECU",
+ "actualizado": "2026-10-26 01:15 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,7 +12,7 @@
   "2026-10-24",
   "2026-10-25"
  ],
- "partidos": 253,
+ "partidos": 254,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -24,8 +24,8 @@
    "partidos": 26
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 60,
-   "partidos": 85
+   "aciertos": 61,
+   "partidos": 86
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 108,
@@ -39,8 +39,8 @@
   "racha_max": 14
  },
  "over80": {
-  "aciertos": 89,
-  "partidos": 116
+  "aciertos": 90,
+  "partidos": 117
  },
  "over25_senal": {
   "aciertos": 33,
@@ -144,8 +144,8 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 85,
-   "aciertos": 60,
+   "partidos": 86,
+   "aciertos": 61,
    "prometido": 83.5
   },
   {
@@ -342,6 +342,15 @@
     "over15": 81.2,
     "resultado": "0-2",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "22:10",
+    "local": "Tijuana",
+    "visita": "Santos Laguna",
+    "over15": 79.8,
+    "resultado": "4-1",
+    "goles": 5,
     "acierto": true
    },
    {

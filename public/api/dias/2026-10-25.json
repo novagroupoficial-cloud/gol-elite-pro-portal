@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-25",
- "actualizado": "2026-10-26 00:11 ECU (UTC-5)",
+ "actualizado": "2026-10-26 01:15 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-25/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 43,
+  "terminados": 44,
   "total": 44,
   "over15_70": [
-   23,
-   33
+   24,
+   34
   ],
   "over25_senal": [
    7,
@@ -1068,8 +1068,13 @@
     "gc": 13
    },
    "sellado": "2026-10-25 05:40 ECU (UTC-5)",
-   "estado": "sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-1",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.foxsports.com.mx/2026/10/25/xolos-4-1-santos-resumen-del-partido-y-goles-de-la-jornada-14-del-apertura-2026-liga-mx/"
   },
   {
    "puesto": 22,

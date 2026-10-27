@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27 17:18 ECU",
+ "actualizado": "2026-10-27 18:12 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -15,7 +15,7 @@
   "2026-10-26",
   "2026-10-27"
  ],
- "partidos": 275,
+ "partidos": 276,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -27,8 +27,8 @@
    "partidos": 29
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 64,
-   "partidos": 89
+   "aciertos": 65,
+   "partidos": 90
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 120,
@@ -42,8 +42,8 @@
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 96,
-  "partidos": 123
+  "aciertos": 97,
+  "partidos": 124
  },
  "over25_senal": {
   "aciertos": 38,
@@ -179,8 +179,8 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 89,
-   "aciertos": 64,
+   "partidos": 90,
+   "aciertos": 65,
    "prometido": 83.6
   },
   {
@@ -199,6 +199,15 @@
  "ultima_jornada": {
   "fecha": "2026-10-27",
   "partidos": [
+   {
+    "hora": "14:45",
+    "local": "Torino",
+    "visita": "Como",
+    "over15": 82.7,
+    "resultado": "1-3",
+    "goles": 4,
+    "acierto": true
+   },
    {
     "hora": "14:45",
     "local": "Roma",

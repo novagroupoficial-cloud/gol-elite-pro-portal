@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26 21:15 ECU",
+ "actualizado": "2026-10-26 22:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -14,7 +14,7 @@
   "2026-10-25",
   "2026-10-26"
  ],
- "partidos": 271,
+ "partidos": 272,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -31,7 +31,7 @@
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 117,
-   "partidos": 148
+   "partidos": 149
   }
  },
  "over90": {
@@ -182,7 +182,7 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 57,
+   "partidos": 58,
    "aciertos": 49,
    "prometido": 61.5
   }
@@ -259,6 +259,15 @@
     "visita": "Grêmio",
     "over15": 70.4,
     "resultado": "0-1",
+    "goles": 1,
+    "acierto": false
+   },
+   {
+    "hora": "19:15",
+    "local": "Instituto Cordoba",
+    "visita": "Deportivo Riestra",
+    "over15": 62.3,
+    "resultado": "1-0",
     "goles": 1,
     "acierto": false
    }

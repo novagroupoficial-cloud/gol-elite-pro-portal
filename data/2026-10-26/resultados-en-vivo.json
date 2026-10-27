@@ -118,5 +118,20 @@
   "marcador_exacto": false,
   "fuente": "https://www.noticiascaracol.com/golcaracol/futbol-colombiano/asi-quedo-la-tabla-de-posiciones-de-liga-betplay-ii-2026-tras-jaguares-1-0-llaneros-so35",
   "registrado": "21:15 ECU"
+ },
+ {
+  "local": "Instituto Cordoba",
+  "visita": "Deportivo Riestra",
+  "hora": "19:15",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 62.3,
+  "over25_dado": 34.2,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": true,
+  "fuente": "https://portalciudad.com.ar/instituto-de-cordoba-vencio-1-0-a-deportivo-riestra-y-se-consolido-en-la-cima-de-la-zona-a-del-torneo-clausura-2026/",
+  "registrado": "22:15 ECU"
  }
 ]

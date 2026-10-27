@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-26",
- "actualizado": "2026-10-26 22:11 ECU (UTC-5)",
+ "actualizado": "2026-10-26 23:15 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-26/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 9,
+  "terminados": 10,
   "total": 10,
   "over15_70": [
-   6,
-   8
+   7,
+   9
   ],
   "over25_senal": [
    0,
@@ -262,8 +262,13 @@
     "gc": 6
    },
    "sellado": "2026-10-26 05:41 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.elespectador.com/deportes/futbol-colombiano/santa-fe/santa-fe-vencio-2-1-a-bucaramanga/"
   },
   {
    "puesto": 8,

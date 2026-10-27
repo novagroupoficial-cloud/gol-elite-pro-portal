@@ -133,5 +133,20 @@
   "marcador_exacto": true,
   "fuente": "https://portalciudad.com.ar/instituto-de-cordoba-vencio-1-0-a-deportivo-riestra-y-se-consolido-en-la-cima-de-la-zona-a-del-torneo-clausura-2026/",
   "registrado": "22:15 ECU"
+ },
+ {
+  "local": "Santa Fe",
+  "visita": "Bucaramanga",
+  "hora": "20:05",
+  "resultado": "2-1",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 71.4,
+  "over25_dado": 44.5,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.elespectador.com/deportes/futbol-colombiano/santa-fe/santa-fe-vencio-2-1-a-bucaramanga/",
+  "registrado": "23:15 ECU"
  }
 ]

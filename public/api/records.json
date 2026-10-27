@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26 22:11 ECU",
+ "actualizado": "2026-10-26 23:15 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -14,7 +14,7 @@
   "2026-10-25",
   "2026-10-26"
  ],
- "partidos": 272,
+ "partidos": 273,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -30,8 +30,8 @@
    "partidos": 89
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 117,
-   "partidos": 149
+   "aciertos": 118,
+   "partidos": 150
   }
  },
  "over90": {
@@ -176,8 +176,8 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 91,
-   "aciertos": 68,
+   "partidos": 92,
+   "aciertos": 69,
    "prometido": 74.4
   },
   {
@@ -242,6 +242,15 @@
     "over15": 73.1,
     "resultado": "3-1",
     "goles": 4,
+    "acierto": true
+   },
+   {
+    "hora": "20:05",
+    "local": "Santa Fe",
+    "visita": "Bucaramanga",
+    "over15": 71.4,
+    "resultado": "2-1",
+    "goles": 3,
     "acierto": true
    },
    {

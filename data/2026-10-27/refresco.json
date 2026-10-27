@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-27",
- "ultima_ejecucion": "2026-10-27 03:14 ECU",
- "ultima_ok": "2026-10-27 03:14 ECU",
+ "ultima_ejecucion": "2026-10-27 04:13 ECU",
+ "ultima_ok": "2026-10-27 04:13 ECU",
  "rutina_diaria": "pendiente",
  "rutina_diaria_inicio": null,
  "pendientes": [
   "Pronósticos del 27 aún no existen (rutina diaria 05:24 ECU; este refresco la retoma desde las 08:00 si falta).",
-  "Portal en vivo sin lectura (WebFetch de gol-elite-pro.netlify.app/index: permiso no respondido a las 00:12, 01:10, 02:13 y 03:14)."
+  "Portal en vivo sin lectura (WebFetch de gol-elite-pro.netlify.app/index: permiso no respondido a las 00:12, 01:10, 02:13 y 03:14; a las 04:13 el verificador de permisos no dio veredicto)."
  ],
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "03:14 (sin lectura: permiso no respondido)"
+  "ultima_revision": "04:13 (sin lectura: verificador sin veredicto)"
  },
- "web_sin_lectura_seguidas_hoy": 4,
+ "web_sin_lectura_seguidas_hoy": 5,
  "avisos_enviados": [
   "bloqueo"
  ],
- "nota": "00:12: primera ejecución del día; jornada del 26 ya cerrada (10/10) a las 23:15; sin pronósticos del 27 aún; nada que registrar; ranking no regenerado (no hay pronósticos de hoy); portal en vivo sin lectura. Lectura asumida: el aviso 'bloqueo' por la web se cuenta desde cero cada día (ya se envió el 26). 01:10: sin pronósticos del 27 aún; nada que registrar; portal en vivo sin lectura (2.ª seguida hoy). 02:13: sin pronósticos del 27 aún; nada que registrar; portal en vivo sin lectura (3.ª seguida hoy); aviso 'bloqueo' del 27 enviado. 03:14: sin pronósticos del 27 aún (antes de las 08:00 no se recupera la rutina); nada que registrar; portal en vivo sin lectura (4.ª seguida hoy); aviso 'bloqueo' ya enviado hoy, no se repite."
+ "nota": "00:12: primera ejecución del día; jornada del 26 ya cerrada (10/10) a las 23:15; sin pronósticos del 27 aún; nada que registrar; ranking no regenerado (no hay pronósticos de hoy); portal en vivo sin lectura. Lectura asumida: el aviso 'bloqueo' por la web se cuenta desde cero cada día (ya se envió el 26). 01:10: sin pronósticos del 27 aún; nada que registrar; portal en vivo sin lectura (2.ª seguida hoy). 02:13: sin pronósticos del 27 aún; nada que registrar; portal en vivo sin lectura (3.ª seguida hoy); aviso 'bloqueo' del 27 enviado. 03:14: sin pronósticos del 27 aún (antes de las 08:00 no se recupera la rutina); nada que registrar; portal en vivo sin lectura (4.ª seguida hoy); aviso 'bloqueo' ya enviado hoy, no se repite. 04:13: sin pronósticos del 27 aún (antes de las 08:00 no se recupera la rutina); nada que registrar; ranking no regenerado; portal en vivo sin lectura (5.ª seguida hoy); aviso 'bloqueo' ya enviado hoy, no se repite."
 }

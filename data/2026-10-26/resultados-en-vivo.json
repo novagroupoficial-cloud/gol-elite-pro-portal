@@ -58,5 +58,35 @@
   "marcador_exacto": false,
   "fuente": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-de-primera/la-u-goleo-a-everton-para-acortar-distancia-con-el-lider-y-llegar/2026-10-26/200238.html",
   "registrado": "19:17 ECU"
+ },
+ {
+  "local": "Union Santa Fe",
+  "visita": "Estudiantes LP",
+  "hora": "17:00",
+  "resultado": "3-1",
+  "goles": 4,
+  "estado": "terminado",
+  "over15_dado": 73.1,
+  "over25_dado": 46.7,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.ellitoral.com/actualidad-tatengue/union-estudiantes-plata-victoria-tabla-posiciones-liga-profesional-fecha-14_0_tXCdklXTpN.html",
+  "registrado": "20:10 ECU"
+ },
+ {
+  "local": "Coritiba",
+  "visita": "Grêmio",
+  "hora": "17:30",
+  "resultado": "0-1",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 70.4,
+  "over25_dado": 43.3,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://placar.com.br/brasileirao/gremio-vence-coritiba-por-1-a-0-nos-acrescimos-pelo-brasileirao/",
+  "registrado": "20:10 ECU"
  }
 ]

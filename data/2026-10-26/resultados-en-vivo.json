@@ -88,5 +88,35 @@
   "marcador_exacto": false,
   "fuente": "https://placar.com.br/brasileirao/gremio-vence-coritiba-por-1-a-0-nos-acrescimos-pelo-brasileirao/",
   "registrado": "20:10 ECU"
+ },
+ {
+  "local": "Flamengo",
+  "visita": "Atletico MG",
+  "hora": "18:00",
+  "resultado": "3-2",
+  "goles": 5,
+  "estado": "terminado",
+  "over15_dado": 70.5,
+  "over25_dado": 43.5,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.metropoles.com/esportes/brasileirao-flamengo-vence-atletico-mg-e-retoma-a-lideranca-no-maracana",
+  "registrado": "21:15 ECU"
+ },
+ {
+  "local": "Jaguares de Córdoba",
+  "visita": "Llaneros",
+  "hora": "18:00",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 75.6,
+  "over25_dado": 49.9,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.noticiascaracol.com/golcaracol/futbol-colombiano/asi-quedo-la-tabla-de-posiciones-de-liga-betplay-ii-2026-tras-jaguares-1-0-llaneros-so35",
+  "registrado": "21:15 ECU"
  }
 ]

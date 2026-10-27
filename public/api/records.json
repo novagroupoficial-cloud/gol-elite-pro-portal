@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26 20:12 ECU",
+ "actualizado": "2026-10-26 21:15 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -14,7 +14,7 @@
   "2026-10-25",
   "2026-10-26"
  ],
- "partidos": 269,
+ "partidos": 271,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -30,8 +30,8 @@
    "partidos": 89
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 116,
-   "partidos": 146
+   "aciertos": 117,
+   "partidos": 148
   }
  },
  "over90": {
@@ -176,8 +176,8 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 89,
-   "aciertos": 67,
+   "partidos": 91,
+   "aciertos": 68,
    "prometido": 74.4
   },
   {
@@ -227,12 +227,30 @@
     "acierto": true
    },
    {
+    "hora": "18:00",
+    "local": "Jaguares de Córdoba",
+    "visita": "Llaneros",
+    "over15": 75.6,
+    "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
+   },
+   {
     "hora": "17:00",
     "local": "Union Santa Fe",
     "visita": "Estudiantes LP",
     "over15": 73.1,
     "resultado": "3-1",
     "goles": 4,
+    "acierto": true
+   },
+   {
+    "hora": "18:00",
+    "local": "Flamengo",
+    "visita": "Atletico MG",
+    "over15": 70.5,
+    "resultado": "3-2",
+    "goles": 5,
     "acierto": true
    },
    {

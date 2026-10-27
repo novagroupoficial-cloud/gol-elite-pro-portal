@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-26",
- "actualizado": "2026-10-26 20:12 ECU (UTC-5)",
+ "actualizado": "2026-10-26 21:15 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-26/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 6,
+  "terminados": 8,
   "total": 10,
   "over15_70": [
-   5,
-   6
+   6,
+   8
   ],
   "over25_senal": [
    0,
@@ -200,8 +200,13 @@
     "gc": 10
    },
    "sellado": "2026-10-26 05:41 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.noticiascaracol.com/golcaracol/futbol-colombiano/asi-quedo-la-tabla-de-posiciones-de-liga-betplay-ii-2026-tras-jaguares-1-0-llaneros-so35"
   },
   {
    "puesto": 6,
@@ -283,8 +288,13 @@
     "gc": 18
    },
    "sellado": "2026-10-26 05:41 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-2",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.metropoles.com/esportes/brasileirao-flamengo-vence-atletico-mg-e-retoma-a-lideranca-no-maracana"
   },
   {
    "puesto": 9,

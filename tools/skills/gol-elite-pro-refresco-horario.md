@@ -62,6 +62,9 @@ Se crea en la primera ejecución del día. Se actualiza y se sube en el mismo co
 6. **Verificar publicación.** WebFetch `https://gol-elite-pro.netlify.app/index` (sin .html, para evitar caché) y comprobar que muestra la fecha de HOY (o la de ayer si aún no corre la rutina diaria). Si no coincide con lo que hay en `main`, sumar `deploy.fallos_seguidos`; si coincide, ponerlo en 0.
 7. **Publicar:** si hubo cambios (el ranking cambia de hora cada vez que hay partidos por jugar o en juego, así que normalmente habrá commit mientras dure la jornada), commit "Refresco HH:MM ECU <HOY>: <qué cambió>" y push. Si el push es rechazado, `git pull --rebase` y reintentar una vez; si vuelve a fallar, dejarlo en `pendientes`.
 
+### Día interno (`data/<HOY>/interno.json`)
+Si existe, Marco decidió NO publicar los pronósticos de ese día (27-oct-2026: "no vale publicarlos, están muy bajos; solo queda para nosotros y evaluar los resultados"). Los pasos no cambian: se buscan y registran resultados igual y se corren `refresco.py`, `portal.py` y `envolver.py`. Los scripts ya hacen lo demás: el ranking completo va a `data/<HOY>/ranking-interno.json`, `public/api/hoy.json` queda sin partidos y la portada muestra "Hoy no publicamos pronósticos". En el paso 5, comprobar ese aviso en vez del ranking. Los avisos a Marco (fin de partido, cierre del día) se envían igual, porque son internos. No se usa el kit de redes de ese día.
+
 ## 4. Cuándo avisar a Marco (PushNotification con `<routine_summary>`)
 Solo una vez por motivo y por día (registrar en `avisos_enviados`). El resto de las horas, silencio.
 - **partido_del_dia:** cuando termina el partido del día: "Acertamos/Fallamos: <partido> <resultado> · dimos Over 1.5 al X % · hubo N goles".

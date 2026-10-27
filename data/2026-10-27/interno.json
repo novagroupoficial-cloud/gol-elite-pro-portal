@@ -1,0 +1,8 @@
+{
+ "fecha": "2026-10-27",
+ "interno": true,
+ "decidido_por": "Marco Rivera",
+ "registrado": "2026-10-27 08:40 ECU (UTC-5)",
+ "motivo": "Probabilidades muy bajas (Over 1.5 máximo 82,7 %; ninguno en GOL ÉLITE ni GOLES PLATINO; ningún Over 2.5 con señal). No se publican: quedan solo para nosotros y para evaluar los resultados.",
+ "efecto": "tools/refresco.py guarda el ranking completo en data/2026-10-27/ranking-interno.json y deja public/api/hoy.json sin partidos; tools/portal.py quita de la portada el partido del día, el ranking, las predicciones, los destacados, los favoritos y los partidos del día. El kit de redes de hoy no se usa. Los pronósticos sellados (pronosticos.json) no se tocan y los resultados se siguen registrando y auditando."
+}

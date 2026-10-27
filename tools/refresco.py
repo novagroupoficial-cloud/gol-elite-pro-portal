@@ -45,6 +45,13 @@ feed=dict(fecha=F,actualizado=f"{ahora.strftime('%Y-%m-%d')} {stamp} ECU (UTC-5)
   fuente_sellada=f'data/{F}/pronosticos.json',aviso='+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.',
   orden='de mayor a menor Over 1.5',resumen_del_dia=resumen,
   rango_80_90=[x for x in items if 80<=x['over15']<=90],todos=items,sin_pronostico=[f"{p['local']} vs {p['visita']}" for p in SIN])
+# Día interno (data/<fecha>/interno.json, decisión de Marco): el ranking completo queda solo en data/ para evaluar; lo público dice que hoy no hay publicación.
+INTERNO=os.path.exists(f'../data/{F}/interno.json')
+if INTERNO:
+    json.dump(feed,open(f'../data/{F}/ranking-interno.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
+    feed=dict(fecha=F,actualizado=feed['actualizado'],zona_horaria=feed['zona_horaria'],publicado=False,
+      mensaje='Hoy no publicamos pronósticos: ningún partido alcanzó la probabilidad mínima que exigimos para publicar.',
+      aviso='+18 · Probabilidades estadísticas, no garantías.',todos=[],rango_80_90=[],sin_pronostico=[])
 os.makedirs('../public/api',exist_ok=True)
 json.dump(feed,open('../public/api/hoy.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
 os.makedirs('../public/api/dias',exist_ok=True)  # archivo por fecha: lo usa Telegram para reenviar el resumen de un día
@@ -72,5 +79,5 @@ css='''<style>.rk{background:var(--panel);border:1px solid var(--line);border-ra
 frag=f'''{css}<section id="ranking"><div class="sh"><h2>Ranking del día</h2><p>Todos los pronósticos de hoy, de mayor a menor Over 1.5 · actualizado {stamp} ECU · {tally}</p></div>
 <div class="rk">{filas}</div><p class="legal" style="margin-top:8px">Over 1.5 = 2 goles o más en el partido · Over 2.5 = 3 goles o más. Probabilidades selladas en la mañana (nunca se cambian); el resultado se agrega cada hora con enlace a su fuente y es provisional hasta la auditoría oficial. +18 · Probabilidades estadísticas, no garantías.</p></section>'''
 marca='<!--partidos:'+';'.join(sorted(f"{p['local']}|{p['visita']}" for p in P))+'-->'
-open('ranking.html','w',encoding='utf-8').write(marca+'\n'+frag)
-print('ranking', stamp, tally)
+open('ranking.html','w',encoding='utf-8').write(marca+'\n'+('' if INTERNO else frag))
+print('ranking', stamp, tally, '(interno: no se publica)' if INTERNO else '')

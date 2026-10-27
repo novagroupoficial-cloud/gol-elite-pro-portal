@@ -325,5 +325,18 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
     document.getElementById('partidos').scrollIntoView({{behavior:'smooth',block:'start'}});}})}});
 }})();
 </script>'''
+# Día interno (data/<fecha>/interno.json, decisión de Marco): se quitan de la portada los pronósticos del día; quedan sellados en data/ solo para evaluar.
+if FECHA_PRON and os.path.exists(f'../data/{FECHA_PRON}/interno.json'):
+    _av=f'''<section class="hero" aria-label="Hoy sin pronósticos publicados"><div class="hero-b"><div class="hero-k">Hoy no publicamos pronósticos</div>
+<div class="src">{e(DIAS_ES[_dt.date.fromisoformat(FECHA_PRON).weekday()].capitalize())} {_dt.date.fromisoformat(FECHA_PRON).day} · revisión del modelo</div>
+<h2>Ningún partido de hoy alcanzó la probabilidad que exigimos para publicar</h2>
+<p>Preferimos no publicar a publicar pronósticos flojos. Mientras tanto, revisa nuestros aciertos auditados y la galería. +18 · Probabilidades estadísticas, no garantías.</p></div></section>'''
+    out=re.sub(r'<section class="hero".*?</section>',lambda m:_av,out,count=1,flags=re.S)
+    for _sid in ('ranking','predicciones','destacados','llegan','partidos'):
+        out=re.sub(rf'<section id="{_sid}">.*?</section>','',out,count=1,flags=re.S)
+    out=re.sub(r'(<div class="tabs-in" role="tablist"><a class="tabl"[^>]*>[^<]*</a>).*?</div>',r'\1</div>',out,count=1,flags=re.S)
+    out=out.replace("document.getElementById('partidos').scrollIntoView","(document.getElementById('partidos')||document.body).scrollIntoView")
+    out=re.sub(r'<!--partidos:.*?-->\n?','',out)
+    P=[]
 open('_portada.html','w',encoding='utf-8').write(out)
 print('ok',len(P))

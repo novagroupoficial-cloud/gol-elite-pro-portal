@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26 23:15 ECU",
+ "actualizado": "2026-10-27 05:41 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -49,9 +49,9 @@
   "partidos": 59
  },
  "partido_del_dia": {
-  "aciertos": 10,
-  "dias": 11,
-  "racha_actual": 4,
+  "aciertos": 11,
+  "dias": 12,
+  "racha_actual": 5,
   "detalle": [
    {
     "fecha": "2026-10-11",
@@ -140,6 +140,14 @@
     "goles": 3,
     "acierto": true,
     "over15": 95.7
+   },
+   {
+    "fecha": "2026-10-26",
+    "partido": "Sevilla vs Osasuna",
+    "resultado": "2-0",
+    "goles": 2,
+    "acierto": true,
+    "over15": 86.8
    }
   ]
  },

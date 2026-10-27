@@ -868,3 +868,31 @@ LLEGAN={
    "Osasuna debutó con Jagoba Arrasate ganando 2-0 al Racing; bajas de Del Castillo, Herrando y Aimar Oroz. En el Sevilla no están Sierra, Guridi ni Marcao.",
    "Fuentes: tabla de LaLiga 2026-27 (local y visitante, partido a partido), Fútbol Total y FútbolFantasy."],
 }
+
+# ---- Martes 27-oct-2026 (rutina diaria, sellado 05:39 ECU) ----
+# LINK: ficha/previa real de cada partido (Fútbol Total) y, para Sassuolo–Lazio y Colombia, la agenda real del martes 27 de Líbero (hora de Perú = Ecuador).
+_LB=("Partidos de hoy, martes 27 de octubre: quiénes juegan por Liga 1, Serie A, EFL Cup y más","Líbero","https://libero.pe/futbol-internacional/2026/10/26/partidos-de-hoy-martes-27-de-octubre-quienes-juegan-liga-1-serie-efl-cup-2512848")
+LINK={f"{p['local']}|{p['visita']}":_LB for p in _P if not p.get('sin')}
+LINK.update({
+ 'Torino|Como':("Torino vs Como: ficha, forma y antecedentes de la jornada 9 de la Serie A","Fútbol Total","https://futboltotal.futbol/partido/torino-vs-como-serie-a-2026-10-27"),
+ 'Roma|Cagliari':("Roma vs Cagliari: ficha y forma de ambos en la jornada 9 de la Serie A","Fútbol Total","https://futboltotal.futbol/partido/as-roma-vs-cagliari-serie-a-2026-10-27"),
+ 'Argentinos Juniors|Independiente Rivadavia':("Argentinos vs Independiente Rivadavia: ficha de la fecha 14 del Clausura","Fútbol Total","https://futboltotal.futbol/partido/argentinos-jrs-vs-independ-rivadavia-liga-profesional-argentina-2026-10-27"),
+})
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Roma|Cagliari','Sassuolo|Lazio','Argentinos Juniors|Independiente Rivadavia','Boyacá Chicó|Junior']
+# Aciertos de ayer (lunes 26): (partido, marcador real, nuestro Over 1.5, medio, url)
+ACIERTOS=[
+ ("Sevilla vs Osasuna","2-0","87 % · partido del día","Fútbol Total","https://futboltotal.futbol/partido/sevilla-vs-osasuna-laliga-1570431"),
+ ("U. de Chile vs Everton","4-1","78 %","Cooperativa","https://www.cooperativa.cl/noticias/deportes/futbol/liga-de-primera/la-u-goleo-a-everton-para-acortar-distancia-con-el-lider-y-llegar/2026-10-26/200238.html"),
+ ("Paris Saint-Germain vs Lyon","2-0","77 %","Foot Mercato","https://www.footmercato.net/live/7347100937878128418-paris-saint-germain-vs-lyon"),
+ ("Santa Clara vs Benfica","1-2","77 %","Executive Digest","https://executivedigest.sapo.pt/i-liga-benfica-da-a-volta-ao-resultado-e-vence-na-visita-ao-santa-clara/"),
+ ("Union Santa Fe vs Estudiantes LP","3-1","73 %","El Litoral","https://www.ellitoral.com/actualidad-tatengue/union-estudiantes-plata-victoria-tabla-posiciones-liga-profesional-fecha-14_0_tXCdklXTpN.html"),
+ ("Santa Fe vs Bucaramanga","2-1","71 %","El Espectador","https://www.elespectador.com/deportes/futbol-colombiano/santa-fe/santa-fe-vencio-2-1-a-bucaramanga/"),
+ ("Flamengo vs Atletico MG","3-2","71 %","Metrópoles","https://www.metropoles.com/esportes/brasileirao-flamengo-vence-atletico-mg-e-retoma-a-lideranca-no-maracana"),
+]
+LLEGAN={
+ 'Torino|Como':["Como de visita: 10 goles a favor y 6 en contra en 5 partidos de Serie A (3,2 goles por partido en sus salidas).",
+   "Torino en casa: 6 a favor y 7 en contra en 4 partidos (3,25 goles por partido); ganó sus últimos 3 de liga (2-1 Udinese, 3-0 en Parma, 3-2 Monza).",
+   "Los dos últimos Torino–Como de liga tuvieron goleada: 1-5 en Turín (nov-2025) y 6-0 en Como (ene-2026).",
+   "Fuentes: tabla de la Serie A 2026-27 (local y visitante, partido a partido) y Fútbol Total."],
+}

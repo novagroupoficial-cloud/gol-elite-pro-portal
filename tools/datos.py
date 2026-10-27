@@ -295,6 +295,24 @@ L['POR']=dict(casa={'FC Porto': (4, 9, 2), 'Sporting CP': (4, 10, 5), 'Benfica':
 L['CHI']=dict(casa={'U. de Chile': (12, 27, 9), 'Colo-Colo': (12, 28, 10), 'Palestino': (13, 27, 14), 'D. Limache': (12, 25, 15), 'U. Catolica': (11, 29, 16), 'Audax Italiano': (13, 20, 14), 'Huachipato': (12, 23, 22), 'La Serena': (13, 22, 19), 'Everton': (13, 19, 16), 'Concepcion': (13, 17, 14), 'Cobresal': (12, 19, 17), 'Nublense': (13, 17, 17), 'Coquimbo Unido': (11, 18, 11), 'OHiggins': (12, 12, 15), 'U. Concepcion': (11, 8, 12), 'Union La Calera': (13, 17, 18)},
  fuera={'Colo-Colo': (13, 23, 18), 'U. Catolica': (13, 22, 20), 'Everton': (11, 21, 11), 'U. de Chile': (12, 14, 10), 'Nublense': (12, 13, 21), 'Coquimbo Unido': (13, 19, 24), 'La Serena': (12, 17, 23), 'Concepcion': (12, 10, 16), 'Palestino': (12, 12, 22), 'D. Limache': (12, 20, 22), 'OHiggins': (13, 17, 24), 'Huachipato': (12, 11, 18), 'Audax Italiano': (11, 7, 18), 'Cobresal': (13, 17, 29), 'U. Concepcion': (13, 10, 28), 'Union La Calera': (12, 6, 24)})
 
+# ===== Actualización mar 27-oct-2026 (rutina diaria 05:2x ECU): partidos del LUNES 26-oct (data/2026-10-26/resultados-en-vivo.json, 10/10 terminados, cada uno con su fuente). Local en casa, visitante fuera. Corte nuevo: lun 26-oct-2026 final.
+# ITA: J8 completa (80 PJ, 10 por jornada); hoy empieza la J9 (Sassuolo–Lazio, Roma–Cagliari, Torino–Como). ARG: fecha 14 con 14/15 jugados (falta Argentinos–Ind. Rivadavia, hoy). PER: sin actualizar desde el 17-oct (ver lista SIN de portal.py).
+LUN26=[
+ ('POR','Santa Clara',1,2,'Benfica'),  # https://executivedigest.sapo.pt/i-liga-benfica-da-a-volta-ao-resultado-e-vence-na-visita-ao-santa-clara/
+ ('FRA','Paris Saint-Germain',2,0,'Lyon'),  # https://www.footmercato.net/live/7347100937878128418-paris-saint-germain-vs-lyon
+ ('ESP','Sevilla',2,0,'Osasuna'),  # https://futboltotal.futbol/partido/sevilla-vs-osasuna-laliga-1570431
+ ('CHI','U. de Chile',4,1,'Everton'),  # https://www.cooperativa.cl/noticias/deportes/futbol/liga-de-primera/la-u-goleo-a-everton-para-acortar-distancia-con-el-lider-y-llegar/2026-10-26/200238.html
+ ('ARG','Union Santa Fe',3,1,'Estudiantes LP'),  # https://www.ellitoral.com/actualidad-tatengue/union-estudiantes-plata-victoria-tabla-posiciones-liga-profesional-fecha-14_0_tXCdklXTpN.html
+ ('BRA','Coritiba',0,1,'Grêmio'),  # https://placar.com.br/brasileirao/gremio-vence-coritiba-por-1-a-0-nos-acrescimos-pelo-brasileirao/
+ ('BRA','Flamengo',3,2,'Atletico MG'),  # https://www.metropoles.com/esportes/brasileirao-flamengo-vence-atletico-mg-e-retoma-a-lideranca-no-maracana
+ ('COL','Jaguares de Córdoba',1,0,'Llaneros'),  # https://www.noticiascaracol.com/golcaracol/futbol-colombiano/asi-quedo-la-tabla-de-posiciones-de-liga-betplay-ii-2026-tras-jaguares-1-0-llaneros-so35
+ ('ARG','Instituto Cordoba',1,0,'Deportivo Riestra'),  # https://portalciudad.com.ar/instituto-de-cordoba-vencio-1-0-a-deportivo-riestra-y-se-consolido-en-la-cima-de-la-zona-a-del-torneo-clausura-2026/
+ ('COL','Santa Fe',2,1,'Bucaramanga'),  # https://www.elespectador.com/deportes/futbol-colombiano/santa-fe/santa-fe-vencio-2-1-a-bucaramanga/
+]
+for _lg,_a,_ga,_gb,_b in LUN26:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

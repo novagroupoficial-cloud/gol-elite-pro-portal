@@ -1,0 +1,194 @@
+[
+ {
+  "hora": "12:30",
+  "liga": "ITA",
+  "local": "Sassuolo",
+  "visita": "Lazio",
+  "casa": [
+   3,
+   6,
+   4
+  ],
+  "fuera": [
+   4,
+   8,
+   1
+  ],
+  "HG": 1.57,
+  "AG": 1.44,
+  "lambda_local": 1.29,
+  "lambda_visita": 1.55,
+  "goles_esperados": 2.8,
+  "over15": 78.4,
+  "over25": 53.9,
+  "under25": 46.1,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-10-27 05:39 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque LUN26 del 27-oct con los resultados del lun 26); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics/netlify/functions)",
+  "rango_clasico": "Rango 70"
+ },
+ {
+  "hora": "14:45",
+  "liga": "ITA",
+  "local": "Roma",
+  "visita": "Cagliari",
+  "casa": [
+   4,
+   10,
+   3
+  ],
+  "fuera": [
+   4,
+   4,
+   5
+  ],
+  "HG": 1.57,
+  "AG": 1.44,
+  "lambda_local": 1.7,
+  "lambda_visita": 1.15,
+  "goles_esperados": 2.9,
+  "over15": 78.7,
+  "over25": 54.3,
+  "under25": 45.7,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-10-27 05:39 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque LUN26 del 27-oct con los resultados del lun 26); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics/netlify/functions)",
+  "rango_clasico": "Rango 70"
+ },
+ {
+  "hora": "14:45",
+  "liga": "ITA",
+  "local": "Torino",
+  "visita": "Como",
+  "casa": [
+   4,
+   6,
+   7
+  ],
+  "fuera": [
+   5,
+   10,
+   6
+  ],
+  "HG": 1.57,
+  "AG": 1.44,
+  "lambda_local": 1.45,
+  "lambda_visita": 1.67,
+  "goles_esperados": 3.1,
+  "over15": 82.7,
+  "over25": 60.3,
+  "under25": 39.7,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-10-27 05:39 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque LUN26 del 27-oct con los resultados del lun 26); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics/netlify/functions)",
+  "rango_clasico": "Rango 80"
+ },
+ {
+  "hora": "17:00",
+  "liga": "ARG",
+  "local": "Argentinos Juniors",
+  "visita": "Independiente Rivadavia",
+  "casa": [
+   5,
+   10,
+   4
+  ],
+  "fuera": [
+   7,
+   3,
+   12
+  ],
+  "HG": 1.23,
+  "AG": 1.03,
+  "lambda_local": 1.6,
+  "lambda_visita": 0.76,
+  "goles_esperados": 2.4,
+  "over15": 69.2,
+  "over25": 42.0,
+  "under25": 58.0,
+  "marcador": "1-0",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-10-27 05:39 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque LUN26 del 27-oct con los resultados del lun 26); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics/netlify/functions)",
+  "rango_clasico": "Menos de 70"
+ },
+ {
+  "hora": "18:00",
+  "liga": "COL",
+  "local": "Cúcuta",
+  "visita": "Águilas Doradas",
+  "casa": [
+   7,
+   12,
+   6
+  ],
+  "fuera": [
+   8,
+   7,
+   12
+  ],
+  "HG": 1.39,
+  "AG": 1.12,
+  "lambda_local": 1.53,
+  "lambda_visita": 0.96,
+  "goles_esperados": 2.5,
+  "over15": 72.0,
+  "over25": 45.3,
+  "under25": 54.7,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-10-27 05:39 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque LUN26 del 27-oct con los resultados del lun 26); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics/netlify/functions)",
+  "rango_clasico": "Rango 70"
+ },
+ {
+  "hora": "20:05",
+  "liga": "COL",
+  "local": "Boyacá Chicó",
+  "visita": "Junior",
+  "casa": [
+   8,
+   10,
+   8
+  ],
+  "fuera": [
+   7,
+   9,
+   14
+  ],
+  "HG": 1.39,
+  "AG": 1.12,
+  "lambda_local": 1.52,
+  "lambda_visita": 1.13,
+  "goles_esperados": 2.7,
+  "over15": 75.2,
+  "over25": 49.4,
+  "under25": 50.6,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-10-27 05:39 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (fuentes por liga en sus comentarios; bloque LUN26 del 27-oct con los resultados del lun 26); Dashboard Gol 4.0 /api/dia no disponible (la función no existe en nova-gol-analytics/netlify/functions)",
+  "rango_clasico": "Rango 70"
+ }
+]

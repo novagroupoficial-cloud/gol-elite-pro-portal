@@ -1,0 +1,307 @@
+{
+ "fecha": "2026-10-26",
+ "auditado": "2026-10-27 05:26 ECU",
+ "partidos": 10,
+ "terminados": 10,
+ "anulados": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "Rango 80": [
+   1,
+   1
+  ],
+  "Rango 70": [
+   6,
+   8
+  ],
+  "Total >=70": [
+   7,
+   9
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   1
+  ],
+  "Marcadores exactos": [
+   1,
+   10
+  ],
+  "Menos de 70 (informativo)": [
+   0,
+   1
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   1,
+   1
+  ],
+  "GOLES OPTIMISTAS": [
+   6,
+   9
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   0,
+   0
+  ],
+  "moderada": [
+   0,
+   1
+  ]
+ },
+ "intervalo_wilson_95": {
+  "Rango 80": [
+   20.7,
+   100.0
+  ],
+  "Rango 70": [
+   40.9,
+   92.9
+  ],
+  "Total >=70": [
+   45.3,
+   93.7
+  ],
+  "Over 2.5 con señal >=65": [
+   0.0,
+   79.3
+  ],
+  "Menos de 70 (informativo)": [
+   0.0,
+   79.3
+  ],
+  "GOLES ESTÁNDAR": [
+   20.7,
+   100.0
+  ],
+  "GOLES OPTIMISTAS": [
+   35.4,
+   87.9
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Sevilla vs Osasuna",
+  "over15": 86.8,
+  "sellado": "05:41 ECU",
+  "resultado": "2-0",
+  "goles": 2,
+  "acierto": true
+ },
+ "fallos_over15_70": [
+  "Coritiba 0-1 Grêmio (70,4 %, GOLES OPTIMISTAS; hubo 1 gol)",
+  "Jaguares de Córdoba 1-0 Llaneros (75,6 %, GOLES OPTIMISTAS; hubo 1 gol)"
+ ],
+ "fallos_over25_senal": [
+  "Sevilla 2-0 Osasuna (Over 2.5 67,4 %; hubo 2 goles)"
+ ],
+ "informativo_menos_70": [
+  "Instituto Cordoba 1-0 Deportivo Riestra (62,3 %, menos de 70: no recomendado; hubo 1 gol)"
+ ],
+ "anulados_lista": [],
+ "nota": "Resultados finales del refresco horario (data/2026-10-26/resultados-en-vivo.json, 10/10 terminados, cada uno con su fuente). Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. El Dashboard Gol 4.0 no expone /api/dia: auditoría manual. Escala de Marco del 17-oct (GOL ÉLITE ≥95 · GOLES PLATINO 90–94 · GOLES ESTÁNDAR 80–89 · GOLES OPTIMISTAS <80, sobre el entero redondeado) y, aparte, la escala clásica. Intervalos de Wilson 95 %.",
+ "resultados": [
+  {
+   "hora": "13:45",
+   "liga": "POR",
+   "local": "Santa Clara",
+   "visita": "Benfica",
+   "resultado": "1-2",
+   "estado": "terminado",
+   "over15": 76.6,
+   "over25": 51.4,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-26 05:41 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://executivedigest.sapo.pt/i-liga-benfica-da-a-volta-ao-resultado-e-vence-na-visita-ao-santa-clara/"
+  },
+  {
+   "hora": "14:30",
+   "liga": "FRA",
+   "local": "Paris Saint-Germain",
+   "visita": "Lyon",
+   "resultado": "2-0",
+   "estado": "terminado",
+   "over15": 77.2,
+   "over25": 52.1,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-26 05:41 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.footmercato.net/live/7347100937878128418-paris-saint-germain-vs-lyon"
+  },
+  {
+   "hora": "15:00",
+   "liga": "ESP",
+   "local": "Sevilla",
+   "visita": "Osasuna",
+   "resultado": "2-0",
+   "estado": "terminado",
+   "over15": 86.8,
+   "over25": 67.4,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-10-26 05:41 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/sevilla-vs-osasuna-laliga-1570431"
+  },
+  {
+   "hora": "16:00",
+   "liga": "CHI",
+   "local": "U. de Chile",
+   "visita": "Everton",
+   "resultado": "4-1",
+   "estado": "terminado",
+   "over15": 77.8,
+   "over25": 53.0,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-26 05:41 ECU (UTC-5)",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-de-primera/la-u-goleo-a-everton-para-acortar-distancia-con-el-lider-y-llegar/2026-10-26/200238.html"
+  },
+  {
+   "hora": "17:00",
+   "liga": "ARG",
+   "local": "Union Santa Fe",
+   "visita": "Estudiantes LP",
+   "resultado": "3-1",
+   "estado": "terminado",
+   "over15": 73.1,
+   "over25": 46.7,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-26 05:41 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.ellitoral.com/actualidad-tatengue/union-estudiantes-plata-victoria-tabla-posiciones-liga-profesional-fecha-14_0_tXCdklXTpN.html"
+  },
+  {
+   "hora": "17:30",
+   "liga": "BRA",
+   "local": "Coritiba",
+   "visita": "Grêmio",
+   "resultado": "0-1",
+   "estado": "terminado",
+   "over15": 70.4,
+   "over25": 43.3,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-26 05:41 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://placar.com.br/brasileirao/gremio-vence-coritiba-por-1-a-0-nos-acrescimos-pelo-brasileirao/"
+  },
+  {
+   "hora": "18:00",
+   "liga": "BRA",
+   "local": "Flamengo",
+   "visita": "Atletico MG",
+   "resultado": "3-2",
+   "estado": "terminado",
+   "over15": 70.5,
+   "over25": 43.5,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-26 05:41 ECU (UTC-5)",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.metropoles.com/esportes/brasileirao-flamengo-vence-atletico-mg-e-retoma-a-lideranca-no-maracana"
+  },
+  {
+   "hora": "18:00",
+   "liga": "COL",
+   "local": "Jaguares de Córdoba",
+   "visita": "Llaneros",
+   "resultado": "1-0",
+   "estado": "terminado",
+   "over15": 75.6,
+   "over25": 49.9,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-26 05:41 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.noticiascaracol.com/golcaracol/futbol-colombiano/asi-quedo-la-tabla-de-posiciones-de-liga-betplay-ii-2026-tras-jaguares-1-0-llaneros-so35"
+  },
+  {
+   "hora": "19:15",
+   "liga": "ARG",
+   "local": "Instituto Cordoba",
+   "visita": "Deportivo Riestra",
+   "resultado": "1-0",
+   "estado": "terminado",
+   "over15": 62.3,
+   "over25": 34.2,
+   "marcador": "1-0",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70 (informativo)",
+   "sellado": "2026-10-26 05:41 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://portalciudad.com.ar/instituto-de-cordoba-vencio-1-0-a-deportivo-riestra-y-se-consolido-en-la-cima-de-la-zona-a-del-torneo-clausura-2026/"
+  },
+  {
+   "hora": "20:05",
+   "liga": "COL",
+   "local": "Santa Fe",
+   "visita": "Bucaramanga",
+   "resultado": "2-1",
+   "estado": "terminado",
+   "over15": 71.4,
+   "over25": 44.5,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-26 05:41 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.elespectador.com/deportes/futbol-colombiano/santa-fe/santa-fe-vencio-2-1-a-bucaramanga/"
+  }
+ ]
+}

@@ -2,30 +2,30 @@
  "nota": "Con menos de 30 partidos por etiqueta es solo indicio, no conclusión.",
  "etiquetas": {
   "bajas": {
-   "partidos": 9,
-   "over15_real": 55.6,
-   "over15_prometido": 81.8,
-   "over25_real": 44.4,
-   "over25_prometido": 60.2,
-   "goles_reales": 2.22,
-   "goles_esperados": 3.17
-  },
-  "regreso_figura": {
-   "partidos": 2,
-   "over15_real": 0.0,
-   "over15_prometido": 83.8,
-   "over25_real": 0.0,
-   "over25_prometido": 62.1,
-   "goles_reales": 1.0,
+   "partidos": 10,
+   "over15_real": 60.0,
+   "over15_prometido": 82.3,
+   "over25_real": 40.0,
+   "over25_prometido": 60.9,
+   "goles_reales": 2.2,
    "goles_esperados": 3.2
   },
-  "racha_mala": {
-   "partidos": 21,
-   "over15_real": 81.0,
-   "over15_prometido": 83.8,
-   "over25_real": 52.4,
+  "regreso_figura": {
+   "partidos": 3,
+   "over15_real": 33.3,
+   "over15_prometido": 84.8,
+   "over25_real": 0.0,
    "over25_prometido": 63.9,
-   "goles_reales": 3.1,
+   "goles_reales": 1.33,
+   "goles_esperados": 3.3
+  },
+  "racha_mala": {
+   "partidos": 22,
+   "over15_real": 81.8,
+   "over15_prometido": 83.9,
+   "over25_real": 50.0,
+   "over25_prometido": 64.1,
+   "goles_reales": 3.05,
    "goles_esperados": 3.4
   },
   "racha_buena": {
@@ -38,13 +38,13 @@
    "goles_esperados": 3.7
   },
   "defensa_debil": {
-   "partidos": 28,
-   "over15_real": 75.0,
-   "over15_prometido": 83.8,
-   "over25_real": 53.6,
-   "over25_prometido": 63.9,
-   "goles_reales": 2.71,
-   "goles_esperados": 3.4
+   "partidos": 29,
+   "over15_real": 75.9,
+   "over15_prometido": 83.9,
+   "over25_real": 51.7,
+   "over25_prometido": 64.0,
+   "goles_reales": 2.69,
+   "goles_esperados": 3.41
   },
   "goleada_reciente": {
    "partidos": 20,
@@ -83,22 +83,22 @@
    "goles_esperados": 3.6
   },
   "(con noticia)": {
-   "partidos": 65,
-   "over15_real": 80.0,
+   "partidos": 66,
+   "over15_real": 80.3,
    "over15_prometido": 83.3,
-   "over25_real": 58.5,
-   "over25_prometido": 63.0,
-   "goles_reales": 3.11,
+   "over25_real": 57.6,
+   "over25_prometido": 63.1,
+   "goles_reales": 3.09,
    "goles_esperados": 3.35
   },
   "(sin noticia)": {
-   "partidos": 198,
-   "over15_real": 78.3,
-   "over15_prometido": 74.9,
-   "over25_real": 53.0,
-   "over25_prometido": 50.7,
-   "goles_reales": 2.92,
-   "goles_esperados": 2.75
+   "partidos": 207,
+   "over15_real": 77.8,
+   "over15_prometido": 74.8,
+   "over25_real": 53.1,
+   "over25_prometido": 50.5,
+   "goles_reales": 2.91,
+   "goles_esperados": 2.74
   }
  }
 }

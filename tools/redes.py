@@ -154,7 +154,7 @@ def historia_acierto(A):
  <div class="caja" style="padding:22px 26px;font-size:30px;line-height:1.35;text-align:center">Pronóstico sellado a las <b class="dor">{e(A['sellado'])}</b>, antes del partido, y nunca modificado. Aciertos y fallos en <b>gol-elite-pro.netlify.app/galeria.html</b></div>
 </div>
 <div style="position:absolute;left:0;right:0;bottom:78px;padding:12px 40px;background:rgba(3,10,7,.88);text-align:center;font-size:23px;color:#cfe">Over 1.5 = 2 goles o más en el partido, sin importar quién gane · Over 2.5 = 3 goles o más</div>
-<div class="pie"><span>Modelo Nova Gol 4.0 · auditoría pública</span><span class="legal">+18 · No garantiza resultados</span></div>
+<div class="pie"><span>Modelo Nova Gol {VERSION} · auditoría pública</span><span class="legal">+18 · No garantiza resultados</span></div>
 </div>'''
 
 os.makedirs(f'../redes/{FECHA}',exist_ok=True)

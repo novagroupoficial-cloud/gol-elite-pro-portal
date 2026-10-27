@@ -1,17 +1,13 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — lunes 26-oct-2026 (rutina diaria 05:2x ECU). Calendario: futbolperuano.com (programación del lunes 26, hora de Perú = Ecuador) y libero.pe; horas cotejadas con Fútbol Total (Sevilla–Osasuna 21:00 Madrid = 15:00 ECU) y campeonatochileno.cl (U. de Chile–Everton 18:00 Chile = 16:00 ECU). SportyTrader no accesible (WebFetch pide permiso). El Informador (hora CDMX) daba 1 h menos: descartado. Solo partidos que aún no empiezan.
- ('13:45','POR','Santa Clara','Benfica'),
- ('14:30','FRA','Paris Saint-Germain','Lyon'),
- ('15:00','ESP','Sevilla','Osasuna'),
- ('16:00','CHI','U. de Chile','Everton'),
- ('17:00','ARG','Union Santa Fe','Estudiantes LP'),
- ('17:30','BRA','Coritiba','Grêmio'),
- ('18:00','BRA','Flamengo','Atletico MG'),
- ('18:00','COL','Jaguares de Córdoba','Llaneros'),
- ('19:15','ARG','Instituto Cordoba','Deportivo Riestra'),
- ('20:05','COL','Santa Fe','Bucaramanga'),
+P=[ # hora (Ecuador), liga, local, visita — martes 27-oct-2026 (rutina diaria 05:2x ECU). Calendario: libero.pe y rpp.pe (agenda del martes 27, hora de Perú = Ecuador); Serie A cotejada con sport-flash.com (18:30 y 20:45 hora de Italia, UTC+1 tras el cambio de hora del 25-oct = 12:30 y 14:45 ECU). SportyTrader no accesible en esta ejecución. Perú (Juan Pablo II–Sport Huancayo, 15:00) sin pronóstico: tabla sin actualizar desde el 17-oct.
+ ('12:30','ITA','Sassuolo','Lazio'),
+ ('14:45','ITA','Roma','Cagliari'),
+ ('14:45','ITA','Torino','Como'),
+ ('17:00','ARG','Argentinos Juniors','Independiente Rivadavia'),
+ ('18:00','COL','Cúcuta','Águilas Doradas'),
+ ('20:05','COL','Boyacá Chicó','Junior'),
 ]
 out=[]
 for h,lg,a,b in P:

@@ -19,19 +19,14 @@ def key(p): return f"{p['local']}|{p['visita']}"
 NEWS_PRED={}  # (sin uso en la portada actual)
 NEWS_DEST=[]
 FUENTES=[
- ("SoccerSTATS · local y visitante Liga MX (más resultados partido a partido)","https://www.soccerstats.com/homeaway.asp?league=mexico"),
- ("SoccerSTATS · local y visitante MLS (más resultados partido a partido)","https://www.soccerstats.com/homeaway.asp?league=usa"),
+ ("SoccerSTATS · local y visitante Serie A (más resultados partido a partido)","https://www.soccerstats.com/homeaway.asp?league=italy"),
  ("SoccerSTATS · local y visitante Liga BetPlay (más resultados partido a partido)","https://www.soccerstats.com/homeaway.asp?league=colombia2"),
- ("Fútbol Peruano · programación del lunes 26 de octubre (hora de Perú = Ecuador)","https://www.futbolperuano.com/partidos-por-tv/noticias/programacion-de-partidos-por-tv-del-lunes-26-de-octubre-608796"),
- ("Fútbol Total · ficha de Sevilla vs Osasuna (hora, forma y tabla)","https://futboltotal.futbol/partido/sevilla-vs-osasuna-laliga-1570431"),
- ("SoccerSTATS · local y visitante Liga Portugal 2026-27","https://www.soccerstats.com/homeaway.asp?league=portugal"),
- ("SoccerSTATS · local y visitante Liga de Primera de Chile 2026","https://www.soccerstats.com/homeaway.asp?league=chile"),
- ("Campeonato Chileno (ANFP) · U. de Chile vs Everton, fecha 25","https://www.campeonatochileno.cl/match/universidad-de-chile-everton-2026-10-26/"),
- ("Football Web Pages · LaLiga, Bundesliga y Eredivisie 2026-27 (resultados y calendario)","https://www.footballwebpages.co.uk/german-bundesliga/fixtures-results/october"),
- ("Ligue 1 · programación de la jornada 8","https://ligue1.com/en/articles/l1_article_5797-programmations-tv-j6-j7-et-j8-l1-2627"),
- ("VAVEL · calendario de la MLS 2026","https://www.vavel.com/en-us/data/mls/fixtures/"),
- ("Primicias · fecha 4 de la fase final de la LigaPro","https://www.primicias.ec/deportes/donde-ver-fecha/teleamazonas-fechas-partidos-horarios-fecha4-hexagonal-cuadrangular-ver-tv-135546/"),
- ("FútbolFantasy · previa del Sevilla - Osasuna","https://www.futbolfantasy.com/laliga/noticias/153274-posibles-alineaciones-y-previa-fantasy-del-sevilla-osasuna"),
+ ("Líbero · partidos del martes 27 de octubre (hora de Perú = Ecuador)","https://libero.pe/futbol-internacional/2026/10/26/partidos-de-hoy-martes-27-de-octubre-quienes-juegan-liga-1-serie-efl-cup-2512848"),
+ ("RPP · partidos del martes 27 de octubre","https://rpp.pe/futbol/futbol-mundial/partidos-del-martes-27-de-octubre-horarios-y-canales-de-tv-para-ver-en-vivo-la-liga-1-y-serie-a-noticia-1714603"),
+ ("sport-flash · programa de la Serie A del 27 de octubre (hora de Italia)","https://www.sport-flash.com/sports/football/it/calendar/2026-10-27"),
+ ("Fútbol Total · ficha de Torino vs Como (hora, forma, tabla y antecedentes)","https://futboltotal.futbol/partido/torino-vs-como-serie-a-2026-10-27"),
+ ("Fútbol Total · ficha de Roma vs Cagliari","https://futboltotal.futbol/partido/as-roma-vs-cagliari-serie-a-2026-10-27"),
+ ("Fútbol Total · ficha de Argentinos vs Independiente Rivadavia","https://futboltotal.futbol/partido/argentinos-jrs-vs-independ-rivadavia-liga-profesional-argentina-2026-10-27"),
 ]
 ES.update({'Celta Vigo':'Celta de Vigo','Los Angeles FC':'LAFC','Bayer Leverkusen':'Leverkusen','Leones del Norte':'Leones del Norte','Paris Saint-Germain':'PSG','Atletico MG':'Atlético-MG','Union Santa Fe':'Unión','Instituto Cordoba':'Instituto','Deportivo Riestra':'Riestra','Jaguares de Córdoba':'Jaguares','Santa Fe':'Santa Fe'})
 idx={key(p):p for p in P}
@@ -169,7 +164,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if entero(p['over15'])>=80 else ''}"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=['Primera Nacional de Argentina (Nueva Chicago–San Martín de San Juan y Defensores de Belgrano–San Miguel): sin tablas de local y visitante verificadas.','LaLiga Hypermotion (Andorra–Burgos): sin tablas de local y visitante verificadas.','Liga 2 de Perú (Pirata FC–Unión Comercio): sin tablas de local y visitante verificadas.','Superliga de Turquía (Galatasaray–Fenerbahçe, Beşiktaş–Başakşehir y Rizespor–Trabzonspor): liga fuera de nuestras tablas verificadas.']
+SIN=['Liga 1 de Perú (Juan Pablo II–Sport Huancayo, 15:00): nuestra tabla de local y visitante no está al día desde el 17-oct y hoy no pudimos verificar las fechas 13–14 con una fuente abierta.','Copas (EFL Cup, Copa de Alemania, Copa del Rey, Copa de la Liga de Portugal): mezclan divisiones; nuestro modelo usa tablas de liga y no las pronostica.']
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 # Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
@@ -289,30 +284,30 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del lunes 26 de octubre; se integrará al portal cuando llegue el código.</div>
+<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del martes 27 de octubre; se integrará al portal cuando llegue el código.</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Lunes 26 de octubre de 2026 · sellado 05:41 ECU · el de mayor Over 1.5 que aún no empieza</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Martes 27 de octubre de 2026 · sellado 05:39 ECU · el de mayor Over 1.5 que aún no empieza</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{pc(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{pc(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.1 (mejora Kaizen del 26-oct), calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK[key(top)][1])} · <a href="{LINK[key(top)][2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
 {RANK}
-<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>Última jornada auditada: domingo 25 de octubre · 32 de 44 partidos con 2 goles o más (Over 1.5) · el partido del día acertó: Hoffenheim 3-0 Leverkusen, dimos Over 1.5 al 96 % y hubo 3 goles · los 7 de 90 % o más acertaron · también publicamos los fallos · toca para ver el resultado en su medio</p></div>
+<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>Última jornada auditada: lunes 26 de octubre · 7 de 10 partidos con 2 goles o más (Over 1.5) · el partido del día acertó: Sevilla 2-0 Osasuna, dimos Over 1.5 al 87 % y hubo 2 goles · también publicamos los fallos · toca para ver el resultado en su medio</p></div>
 {resumen}{estrella}{recs}{ayer}{calib}<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1 or ('<p class="legal">Hoy solo el partido del día (arriba) llega a 80 % en Over 1.5; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>' if entero(top['over15'])>=80 else '<p class="legal">Hoy ningún partido llega a 80 % en Over 1.5. El más alto está arriba, como partido del día; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>')}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del lunes</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del martes</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Lunes 26 de octubre de 2026 · pronósticos sellados a las 05:41 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Martes 27 de octubre de 2026 · pronósticos sellados a las 05:39 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
-<section class="box" id="historial"><h3>Auditoría del domingo 25</h3>
-<div class="kpis"><div class="kpi g"><b>1/1</b><span>Partido del día · Over 1.5</span></div><div class="kpi g"><b>7/7</b><span>Over 1.5 de 90 % o más</span></div><div class="kpi"><b>24/34</b><span>Over 1.5 de 70 % o más (71 %)</span></div><div class="kpi"><b>7/11</b><span>Over 2.5 con señal (65 % o más)</span></div></div>
-<p class="legal">44 partidos auditados con resultado final y fuente. Partido del día: Hoffenheim 3-0 Leverkusen (dimos Over 1.5 al 95,7 %; hubo 3 goles) ✔. Escala del día: GOL ÉLITE 2/2, GOLES PLATINO 7/7, GOLES ESTÁNDAR 9/12. Fallaron 10 Over 1.5 de 70 % o más: Fortuna Sittard 1-0 Excelsior (88,7 %), Genoa 1-0 Venezia (83,2 %), Celta 0-0 Betis (82,6 %) y 7 de 70–79 % (Alianza–Inter Bogotá, Independiente–Boca, Toulouse–Troyes, Tolima–Pasto, Angers–Lorient, River–Racing y Emelec–Guayaquil City). Over 2.5: fuerte 5/7, moderada 2/4. 3 marcadores exactos de 44. También auditamos las jornadas que faltaban: lunes 12 (7/7 en 70 % o más) y miércoles 21 (9/9 con 2 goles o más). Acumulado de la galería (12 jornadas): 32/33 GOL ÉLITE y 175/227 en Over 1.5 de 70 % o más (77,1 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
+<section class="box" id="historial"><h3>Auditoría del lunes 26</h3>
+<div class="kpis"><div class="kpi g"><b>1/1</b><span>Partido del día · Over 1.5</span></div><div class="kpi g"><b>7/10</b><span>Partidos con 2 goles o más</span></div><div class="kpi"><b>7/9</b><span>Over 1.5 de 70 % o más (78 %)</span></div><div class="kpi"><b>0/1</b><span>Over 2.5 con señal (65 % o más)</span></div></div>
+<p class="legal">10 partidos auditados con resultado final y fuente. Partido del día: Sevilla 2-0 Osasuna (dimos Over 1.5 al 86,8 %; hubo 2 goles) ✔. Escala del día: GOLES ESTÁNDAR 1/1, GOLES OPTIMISTAS 6/9; no hubo partidos de 90 % o más. Fallaron 2 Over 1.5 de 70 % o más: Coritiba 0-1 Grêmio (70,4 %) y Jaguares de Córdoba 1-0 Llaneros (75,6 %). Over 2.5: moderada 0/1 (Sevilla–Osasuna, 67,4 %; hubo 2 goles). 1 marcador exacto de 10 (Instituto 1-0 Riestra). Acumulado de la galería (13 jornadas): 32/33 GOL ÉLITE y 182/236 en Over 1.5 de 70 % o más (77,1 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul><p class="legal">Porcentajes redondeados: ,5 o más sube (94,8 → 95 %); menos de ,5 se queda (94,4 → 94 %).</p></section>
 <section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos revisados tienen datos verificados de local y visitante.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
@@ -323,7 +318,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-10-26"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-10-27"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

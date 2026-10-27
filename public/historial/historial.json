@@ -389,5 +389,40 @@
    "Atalanta 4-4 Frosinone (76,7 % · hubo 8 goles)"
   ],
   "partidos": 44
+ },
+ {
+  "fecha": "2026-10-26",
+  "titulo": "Lunes 26 de octubre de 2026",
+  "imagen": "/historial/2026-10-26.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "7/9",
+    "Over 1.5 de 70 % o más (78 %)"
+   ],
+   [
+    "0/1",
+    "Over 2.5 con señal (0 %)"
+   ],
+   [
+    "1/10",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Fallaron 2 Over 1.5 de 70 % o más: Coritiba 0-1 Grêmio (70,4 %) y Jaguares de Córdoba 1-0 Llaneros (75,6 %). En Over 2.5 con señal falló 1 de 1 (Sevilla 2-0 Osasuna, 67,4 %; hubo 2 goles). No hubo partidos de 90 % o más. En total, 7 de 10 partidos tuvieron 2 goles o más.",
+  "aciertos_destacados": [
+   "Sevilla 2-0 Osasuna (partido del día · Over 1.5 al 86,8 % · hubo 2 goles)",
+   "U. de Chile 4-1 Everton (Over 1.5 al 77,8 % · hubo 5 goles)",
+   "Paris Saint-Germain 2-0 Lyon (Over 1.5 al 77,2 % · hubo 2 goles)",
+   "Santa Clara 1-2 Benfica (Over 1.5 al 76,6 % · hubo 3 goles)",
+   "Union Santa Fe 3-1 Estudiantes LP (Over 1.5 al 73,1 % · hubo 4 goles)",
+   "Santa Fe 2-1 Bucaramanga (Over 1.5 al 71,4 % · hubo 3 goles)",
+   "Flamengo 3-2 Atletico MG (Over 1.5 al 70,5 % · hubo 5 goles)",
+   "Instituto 1-0 Deportivo Riestra (marcador exacto acertado: dimos 1-0)"
+  ],
+  "partidos": 10
  }
 ]

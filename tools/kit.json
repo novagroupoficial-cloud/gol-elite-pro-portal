@@ -1,14 +1,14 @@
 {
- "local": "Sevilla",
- "fecha_larga": "Lunes 26 de octubre de 2026",
- "desde": "05:41",
+ "local": "Torino",
+ "fecha_larga": "Martes 27 de octubre de 2026",
+ "desde": "05:39",
  "contexto": [
-  "Osasuna recibe 3,75 goles por partido fuera (15 en 4 visitas).",
-  "Sevilla sumó 1 punto de los últimos 9 (1-3 Barcelona, 4-1 en el Bernabéu, 3-3 en Levante).",
-  "Osasuna ganó 2-0 al Racing con Arrasate; bajas de Aimar Oroz, Del Castillo y Herrando."
+  "Como de visita: 10 goles a favor y 6 en contra en 5 salidas (3,2 goles por partido).",
+  "Torino ganó sus últimos 3 de Serie A (2-1 Udinese, 3-0 en Parma, 3-2 Monza) y en casa recibe 1,75 por partido.",
+  "Los dos últimos Torino–Como de liga: 1-5 en Turín y 6-0 en Como."
  ],
  "auditoria": {
-  "titulo": "Domingo 25 de octubre · 44 partidos con resultado y fuente",
+  "titulo": "Lunes 26 de octubre · 10 partidos con resultado y fuente",
   "tiles": [
    [
     "1/1",
@@ -16,31 +16,31 @@
     "verde"
    ],
    [
-    "7/7",
-    "Over 1.5 de 90 % o más",
+    "7/10",
+    "Partidos con 2 goles o más",
     "verde"
    ],
    [
-    "24/34",
-    "Over 1.5 de 70 % o más (71 %)",
+    "7/9",
+    "Over 1.5 de 70 % o más (78 %)",
     "dor"
    ],
    [
-    "175/227",
+    "182/236",
     "Galería: Over 1.5 de 70 % o más (77 %)",
     "dor"
    ]
   ],
-  "nota": "Partido del día: Hoffenheim 3-0 Leverkusen ✔ (dimos Over 1.5 al 96 %; hubo 3 goles). Fallaron Fortuna Sittard 1-0 Excelsior (89 %), Genoa 1-0 Venezia (83 %), Celta 0-0 Betis (83 %) y 7 de 70–79 %. Over 2.5 con señal: 7 de 11. Publicamos aciertos y fallos."
+  "nota": "Partido del día: Sevilla 2-0 Osasuna ✔ (dimos Over 1.5 al 87 %; hubo 2 goles). Fallaron Coritiba 0-1 Grêmio (70 %; hubo 1 gol) y Jaguares 1-0 Llaneros (76 %; hubo 1 gol). Over 2.5 con señal: 0 de 1. Publicamos aciertos y fallos."
  },
  "acierto": {
-  "fecha": "domingo 25 de octubre",
-  "local": "Hoffenheim",
-  "visita": "Bayer Leverkusen",
-  "liga": "Bundesliga · jornada 7",
-  "resultado": "3-0",
-  "over15": 95.7,
-  "goles": "3",
-  "sellado": "05:40 ECU del 25-oct"
+  "fecha": "lunes 26 de octubre",
+  "local": "Sevilla",
+  "visita": "Osasuna",
+  "liga": "LaLiga · jornada 10",
+  "resultado": "2-0",
+  "over15": 86.8,
+  "goles": "2",
+  "sellado": "05:41 ECU del 26-oct"
  }
 }

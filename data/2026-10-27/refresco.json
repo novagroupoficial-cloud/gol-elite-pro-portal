@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-27",
- "ultima_ejecucion": "2026-10-27 05:11 ECU",
- "ultima_ok": "2026-10-27 05:11 ECU",
- "rutina_diaria": "pendiente",
+ "ultima_ejecucion": "2026-10-27 06:16 ECU",
+ "ultima_ok": "2026-10-27 06:16 ECU",
+ "rutina_diaria": "hecha",
  "rutina_diaria_inicio": null,
  "pendientes": [
-  "Pronósticos del 27 aún no existen (rutina diaria 05:24 ECU; este refresco la retoma desde las 08:00 si falta).",
-  "Portal en vivo sin lectura (WebFetch de gol-elite-pro.netlify.app/index: permiso no respondido a las 00:12, 01:10, 02:13, 03:14 y 05:11; a las 04:13 el verificador de permisos no dio veredicto)."
+  "Resultados de hoy: el primero (Sassuolo-Lazio 12:30) se busca desde las 14:45 ECU.",
+  "Portal en vivo sin lectura (WebFetch de gol-elite-pro.netlify.app/index: permiso no respondido de 00:12 a 06:16, salvo 04:13 sin veredicto)."
  ],
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "05:11 (sin lectura: permiso no respondido)"
+  "ultima_revision": "06:16 (sin lectura: permiso no respondido)"
  },
- "web_sin_lectura_seguidas_hoy": 6,
+ "web_sin_lectura_seguidas_hoy": 7,
  "avisos_enviados": [
   "bloqueo"
  ],
- "nota": "00:12: primera ejecución del día; jornada del 26 ya cerrada (10/10) a las 23:15; sin pronósticos del 27 aún; nada que registrar; ranking no regenerado (no hay pronósticos de hoy); portal en vivo sin lectura. Lectura asumida: el aviso 'bloqueo' por la web se cuenta desde cero cada día (ya se envió el 26). 01:10: sin pronósticos del 27 aún; nada que registrar; portal en vivo sin lectura (2.ª seguida hoy). 02:13: sin pronósticos del 27 aún; nada que registrar; portal en vivo sin lectura (3.ª seguida hoy); aviso 'bloqueo' del 27 enviado. 03:14: sin pronósticos del 27 aún (antes de las 08:00 no se recupera la rutina); nada que registrar; portal en vivo sin lectura (4.ª seguida hoy); aviso 'bloqueo' ya enviado hoy, no se repite. 04:13: sin pronósticos del 27 aún (antes de las 08:00 no se recupera la rutina); nada que registrar; ranking no regenerado; portal en vivo sin lectura (5.ª seguida hoy); aviso 'bloqueo' ya enviado hoy, no se repite. 05:11: sin pronósticos del 27 aún (antes de las 08:00 no se recupera la rutina); nada que registrar; ranking no regenerado; portal en vivo sin lectura (6.ª seguida hoy); aviso 'bloqueo' ya enviado hoy, no se repite."
+ "nota": "00:12: primera ejecución del día; jornada del 26 ya cerrada (10/10) a las 23:15; sin pronósticos del 27 aún; nada que registrar; ranking no regenerado (no hay pronósticos de hoy); portal en vivo sin lectura. Lectura asumida: el aviso 'bloqueo' por la web se cuenta desde cero cada día (ya se envió el 26). 01:10: sin pronósticos del 27 aún; nada que registrar; portal en vivo sin lectura (2.ª seguida hoy). 02:13: sin pronósticos del 27 aún; nada que registrar; portal en vivo sin lectura (3.ª seguida hoy); aviso 'bloqueo' del 27 enviado. 03:14: sin pronósticos del 27 aún (antes de las 08:00 no se recupera la rutina); nada que registrar; portal en vivo sin lectura (4.ª seguida hoy); aviso 'bloqueo' ya enviado hoy, no se repite. 04:13: sin pronósticos del 27 aún (antes de las 08:00 no se recupera la rutina); nada que registrar; ranking no regenerado; portal en vivo sin lectura (5.ª seguida hoy); aviso 'bloqueo' ya enviado hoy, no se repite. 05:11: sin pronósticos del 27 aún (antes de las 08:00 no se recupera la rutina); nada que registrar; ranking no regenerado; portal en vivo sin lectura (6.ª seguida hoy); aviso 'bloqueo' ya enviado hoy, no se repite. 06:16: pronósticos del 27 ya publicados por la rutina diaria (6 partidos, commit 143f439); rutina_diaria=hecha (no fue recuperada por el refresco, sin aviso); ranking regenerado (ningún partido terminado aún); portal en vivo sin lectura (7.ª seguida hoy); aviso 'bloqueo' ya enviado hoy, no se repite."
 }

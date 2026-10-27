@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27 14:11 ECU",
+ "actualizado": "2026-10-27 15:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -12,9 +12,10 @@
   "2026-10-23",
   "2026-10-24",
   "2026-10-25",
-  "2026-10-26"
+  "2026-10-26",
+  "2026-10-27"
  ],
- "partidos": 273,
+ "partidos": 274,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -30,8 +31,8 @@
    "partidos": 89
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 118,
-   "partidos": 150
+   "aciertos": 119,
+   "partidos": 151
   }
  },
  "over90": {
@@ -184,8 +185,8 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 92,
-   "aciertos": 69,
+   "partidos": 93,
+   "aciertos": 70,
    "prometido": 74.4
   },
   {
@@ -196,97 +197,16 @@
   }
  ],
  "ultima_jornada": {
-  "fecha": "2026-10-26",
+  "fecha": "2026-10-27",
   "partidos": [
    {
-    "hora": "15:00",
-    "local": "Sevilla",
-    "visita": "Osasuna",
-    "over15": 86.8,
-    "resultado": "2-0",
-    "goles": 2,
+    "hora": "12:30",
+    "local": "Sassuolo",
+    "visita": "Lazio",
+    "over15": 78.4,
+    "resultado": "2-6",
+    "goles": 8,
     "acierto": true
-   },
-   {
-    "hora": "16:00",
-    "local": "U. de Chile",
-    "visita": "Everton",
-    "over15": 77.8,
-    "resultado": "4-1",
-    "goles": 5,
-    "acierto": true
-   },
-   {
-    "hora": "14:30",
-    "local": "Paris Saint-Germain",
-    "visita": "Lyon",
-    "over15": 77.2,
-    "resultado": "2-0",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "13:45",
-    "local": "Santa Clara",
-    "visita": "Benfica",
-    "over15": 76.6,
-    "resultado": "1-2",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "18:00",
-    "local": "Jaguares de Córdoba",
-    "visita": "Llaneros",
-    "over15": 75.6,
-    "resultado": "1-0",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "17:00",
-    "local": "Union Santa Fe",
-    "visita": "Estudiantes LP",
-    "over15": 73.1,
-    "resultado": "3-1",
-    "goles": 4,
-    "acierto": true
-   },
-   {
-    "hora": "20:05",
-    "local": "Santa Fe",
-    "visita": "Bucaramanga",
-    "over15": 71.4,
-    "resultado": "2-1",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "18:00",
-    "local": "Flamengo",
-    "visita": "Atletico MG",
-    "over15": 70.5,
-    "resultado": "3-2",
-    "goles": 5,
-    "acierto": true
-   },
-   {
-    "hora": "17:30",
-    "local": "Coritiba",
-    "visita": "Grêmio",
-    "over15": 70.4,
-    "resultado": "0-1",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "19:15",
-    "local": "Instituto Cordoba",
-    "visita": "Deportivo Riestra",
-    "over15": 62.3,
-    "resultado": "1-0",
-    "goles": 1,
-    "acierto": false
    }
   ]
  }

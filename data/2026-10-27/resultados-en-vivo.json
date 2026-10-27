@@ -1,0 +1,17 @@
+[
+ {
+  "local": "Sassuolo",
+  "visita": "Lazio",
+  "hora": "12:30",
+  "resultado": "2-6",
+  "goles": 8,
+  "estado": "terminado",
+  "over15_dado": 78.4,
+  "over25_dado": 53.9,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.agi.it/sport/news/2026-10-27/sassuolo-lazio-39736481/",
+  "registrado": "15:14 ECU"
+ }
+]

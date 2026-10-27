@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-27",
- "actualizado": "2026-10-27 14:11 ECU (UTC-5)",
+ "actualizado": "2026-10-27 15:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-27/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 0,
+  "terminados": 1,
   "total": 6,
   "over15_70": [
-   0,
-   0
+   1,
+   1
   ],
   "over25_senal": [
    0,
@@ -43,7 +43,7 @@
     "gc": 6
    },
    "sellado": "2026-10-27 05:39 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   }
  ],
@@ -71,7 +71,7 @@
     "gc": 6
    },
    "sellado": "2026-10-27 05:39 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -97,7 +97,7 @@
     "gc": 5
    },
    "sellado": "2026-10-27 05:39 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -123,8 +123,13 @@
     "gc": 1
    },
    "sellado": "2026-10-27 05:39 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-6",
+   "goles": 8,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.agi.it/sport/news/2026-10-27/sassuolo-lazio-39736481/"
   },
   {
    "puesto": 4,

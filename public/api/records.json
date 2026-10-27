@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27 16:12 ECU",
+ "actualizado": "2026-10-27 17:18 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -15,7 +15,7 @@
   "2026-10-26",
   "2026-10-27"
  ],
- "partidos": 274,
+ "partidos": 275,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -31,8 +31,8 @@
    "partidos": 89
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 119,
-   "partidos": 151
+   "aciertos": 120,
+   "partidos": 152
   }
  },
  "over90": {
@@ -185,9 +185,9 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 93,
-   "aciertos": 70,
-   "prometido": 74.4
+   "partidos": 94,
+   "aciertos": 71,
+   "prometido": 74.5
   },
   {
    "franja": "menos de 70 %",
@@ -199,6 +199,15 @@
  "ultima_jornada": {
   "fecha": "2026-10-27",
   "partidos": [
+   {
+    "hora": "14:45",
+    "local": "Roma",
+    "visita": "Cagliari",
+    "over15": 78.7,
+    "resultado": "4-2",
+    "goles": 6,
+    "acierto": true
+   },
    {
     "hora": "12:30",
     "local": "Sassuolo",

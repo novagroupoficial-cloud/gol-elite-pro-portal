@@ -13,5 +13,35 @@
   "marcador_exacto": false,
   "fuente": "https://www.agi.it/sport/news/2026-10-27/sassuolo-lazio-39736481/",
   "registrado": "15:14 ECU"
+ },
+ {
+  "local": "Roma",
+  "visita": "Cagliari",
+  "hora": "14:45",
+  "resultado": "4-2",
+  "goles": 6,
+  "estado": "terminado",
+  "over15_dado": 78.7,
+  "over25_dado": 54.3,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.espn.com/soccer/match/_/gameId/401874780",
+  "registrado": "17:11 ECU"
+ },
+ {
+  "local": "Torino",
+  "visita": "Como",
+  "hora": "14:45",
+  "resultado": null,
+  "goles": null,
+  "estado": "pendiente",
+  "over15_dado": 82.7,
+  "over25_dado": 60.3,
+  "acierto_over15": null,
+  "acierto_over25": null,
+  "marcador_exacto": null,
+  "fuente": "https://www.espn.com/soccer/match/_/gameId/401874786",
+  "registrado": "17:11 ECU"
  }
 ]

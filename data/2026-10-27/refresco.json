@@ -1,0 +1,19 @@
+{
+ "fecha": "2026-10-27",
+ "ultima_ejecucion": "2026-10-27 00:12 ECU",
+ "ultima_ok": "2026-10-27 00:12 ECU",
+ "rutina_diaria": "pendiente",
+ "rutina_diaria_inicio": null,
+ "pendientes": [
+  "Pronósticos del 27 aún no existen (rutina diaria 05:24 ECU; este refresco la retoma desde las 08:00 si falta).",
+  "Portal en vivo sin lectura (WebFetch de gol-elite-pro.netlify.app/index: permiso no respondido a las 00:12)."
+ ],
+ "deploy": {
+  "ok": null,
+  "fallos_seguidos": 0,
+  "ultima_revision": "00:12 (sin lectura: permiso no respondido)"
+ },
+ "web_sin_lectura_seguidas_hoy": 1,
+ "avisos_enviados": [],
+ "nota": "00:12: primera ejecución del día; jornada del 26 ya cerrada (10/10) a las 23:15; sin pronósticos del 27 aún; nada que registrar; ranking no regenerado (no hay pronósticos de hoy); portal en vivo sin lectura. Lectura asumida: el aviso 'bloqueo' por la web se cuenta desde cero cada día (ya se envió el 26)."
+}

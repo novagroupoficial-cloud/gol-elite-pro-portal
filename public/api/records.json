@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26 18:11 ECU",
+ "actualizado": "2026-10-26 19:17 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -14,7 +14,7 @@
   "2026-10-25",
   "2026-10-26"
  ],
- "partidos": 266,
+ "partidos": 267,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -30,8 +30,8 @@
    "partidos": 89
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 114,
-   "partidos": 143
+   "aciertos": 115,
+   "partidos": 144
   }
  },
  "over90": {
@@ -176,8 +176,8 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 86,
-   "aciertos": 65,
+   "partidos": 87,
+   "aciertos": 66,
    "prometido": 74.5
   },
   {
@@ -197,6 +197,15 @@
     "over15": 86.8,
     "resultado": "2-0",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "16:00",
+    "local": "U. de Chile",
+    "visita": "Everton",
+    "over15": 77.8,
+    "resultado": "4-1",
+    "goles": 5,
     "acierto": true
    },
    {

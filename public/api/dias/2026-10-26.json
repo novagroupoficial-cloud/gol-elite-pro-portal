@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-26",
- "actualizado": "2026-10-26 18:11 ECU (UTC-5)",
+ "actualizado": "2026-10-26 19:17 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-26/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 3,
+  "terminados": 4,
   "total": 10,
   "over15_70": [
-   3,
-   3
+   4,
+   4
   ],
   "over25_senal": [
    0,
@@ -107,8 +107,13 @@
     "gc": 11
    },
    "sellado": "2026-10-26 05:41 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-1",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-de-primera/la-u-goleo-a-everton-para-acortar-distancia-con-el-lider-y-llegar/2026-10-26/200238.html"
   },
   {
    "puesto": 3,
@@ -325,7 +330,7 @@
     "gc": 6
    },
    "sellado": "2026-10-26 05:41 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   }
  ],

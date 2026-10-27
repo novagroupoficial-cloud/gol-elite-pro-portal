@@ -43,5 +43,20 @@
   "marcador_exacto": false,
   "fuente": "https://futboltotal.futbol/partido/sevilla-vs-osasuna-laliga-1570431",
   "registrado": "18:10 ECU"
+ },
+ {
+  "local": "U. de Chile",
+  "visita": "Everton",
+  "hora": "16:00",
+  "resultado": "4-1",
+  "goles": 5,
+  "estado": "terminado",
+  "over15_dado": 77.8,
+  "over25_dado": 53.0,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.cooperativa.cl/noticias/deportes/futbol/liga-de-primera/la-u-goleo-a-everton-para-acortar-distancia-con-el-lider-y-llegar/2026-10-26/200238.html",
+  "registrado": "19:17 ECU"
  }
 ]

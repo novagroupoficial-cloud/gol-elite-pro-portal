@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-28",
- "actualizado": "2026-10-28 14:13 ECU (UTC-5)",
+ "actualizado": "2026-10-28 15:12 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-28/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 0,
+  "terminados": 3,
   "total": 12,
   "over15_70": [
-   0,
-   0
+   2,
+   3
   ],
   "over25_senal": [
    0,
@@ -43,8 +43,13 @@
     "gc": 9
    },
    "sellado": "2026-10-28 05:39 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html"
   },
   {
    "puesto": 2,
@@ -69,7 +74,7 @@
     "gc": 5
    },
    "sellado": "2026-10-28 05:39 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -95,8 +100,13 @@
     "gc": 3
    },
    "sellado": "2026-10-28 05:39 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html"
   }
  ],
  "todos": [
@@ -123,8 +133,13 @@
     "gc": 9
    },
    "sellado": "2026-10-28 05:39 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-0",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html"
   },
   {
    "puesto": 2,
@@ -149,7 +164,7 @@
     "gc": 5
    },
    "sellado": "2026-10-28 05:39 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -175,8 +190,13 @@
     "gc": 3
    },
    "sellado": "2026-10-28 05:39 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html"
   },
   {
    "puesto": 4,
@@ -227,7 +247,7 @@
     "gc": 4
    },
    "sellado": "2026-10-28 05:39 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -253,8 +273,13 @@
     "gc": 3
    },
    "sellado": "2026-10-28 05:39 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-4",
+   "goles": 6,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html"
   },
   {
    "puesto": 7,

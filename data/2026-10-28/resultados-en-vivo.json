@@ -1,0 +1,47 @@
+[
+ {
+  "local": "AC Milan",
+  "visita": "Bologna",
+  "hora": "12:30",
+  "resultado": "2-4",
+  "goles": 6,
+  "estado": "terminado",
+  "over15_dado": 77.2,
+  "over25_dado": 52.1,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html",
+  "registrado": "15:20 ECU"
+ },
+ {
+  "local": "Parma",
+  "visita": "Udinese",
+  "hora": "12:30",
+  "resultado": "0-0",
+  "goles": 0,
+  "estado": "terminado",
+  "over15_dado": 84.8,
+  "over25_dado": 63.8,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html",
+  "registrado": "15:20 ECU"
+ },
+ {
+  "local": "Venezia",
+  "visita": "Inter",
+  "hora": "12:30",
+  "resultado": "0-2",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 80.9,
+  "over25_dado": 57.7,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html",
+  "registrado": "15:20 ECU"
+ }
+]

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28 14:13 ECU",
+ "actualizado": "2026-10-28 15:12 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -13,9 +13,10 @@
   "2026-10-24",
   "2026-10-25",
   "2026-10-26",
-  "2026-10-27"
+  "2026-10-27",
+  "2026-10-28"
  ],
- "partidos": 279,
+ "partidos": 282,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -27,12 +28,12 @@
    "partidos": 29
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 65,
-   "partidos": 90
+   "aciertos": 66,
+   "partidos": 92
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 122,
-   "partidos": 155
+   "aciertos": 123,
+   "partidos": 156
   }
  },
  "over90": {
@@ -42,8 +43,8 @@
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 97,
-  "partidos": 124
+  "aciertos": 98,
+  "partidos": 126
  },
  "over25_senal": {
   "aciertos": 38,
@@ -179,15 +180,15 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 90,
-   "aciertos": 65,
+   "partidos": 92,
+   "aciertos": 66,
    "prometido": 83.6
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 96,
-   "aciertos": 73,
-   "prometido": 74.4
+   "partidos": 97,
+   "aciertos": 74,
+   "prometido": 74.5
   },
   {
    "franja": "menos de 70 %",
@@ -197,61 +198,34 @@
   }
  ],
  "ultima_jornada": {
-  "fecha": "2026-10-27",
+  "fecha": "2026-10-28",
   "partidos": [
    {
-    "hora": "14:45",
-    "local": "Torino",
-    "visita": "Como",
-    "over15": 82.7,
-    "resultado": "1-3",
-    "goles": 4,
-    "acierto": true
-   },
-   {
-    "hora": "14:45",
-    "local": "Roma",
-    "visita": "Cagliari",
-    "over15": 78.7,
-    "resultado": "4-2",
-    "goles": 6,
-    "acierto": true
+    "hora": "12:30",
+    "local": "Parma",
+    "visita": "Udinese",
+    "over15": 84.8,
+    "resultado": "0-0",
+    "goles": 0,
+    "acierto": false
    },
    {
     "hora": "12:30",
-    "local": "Sassuolo",
-    "visita": "Lazio",
-    "over15": 78.4,
-    "resultado": "2-6",
-    "goles": 8,
-    "acierto": true
-   },
-   {
-    "hora": "20:05",
-    "local": "Boyacá Chicó",
-    "visita": "Junior",
-    "over15": 75.2,
-    "resultado": "1-1",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "18:00",
-    "local": "Cúcuta",
-    "visita": "Águilas Doradas",
-    "over15": 72.0,
+    "local": "Venezia",
+    "visita": "Inter",
+    "over15": 80.9,
     "resultado": "0-2",
     "goles": 2,
     "acierto": true
    },
    {
-    "hora": "17:00",
-    "local": "Argentinos Juniors",
-    "visita": "Independiente Rivadavia",
-    "over15": 69.2,
-    "resultado": "1-0",
-    "goles": 1,
-    "acierto": false
+    "hora": "12:30",
+    "local": "AC Milan",
+    "visita": "Bologna",
+    "over15": 77.2,
+    "resultado": "2-4",
+    "goles": 6,
+    "acierto": true
    }
   ]
  }

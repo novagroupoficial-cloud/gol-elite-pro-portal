@@ -1,0 +1,222 @@
+{
+ "nota": "Fase de medición Kaizen: no entra al modelo. Últimos 5 partidos oficiales tal como los muestra la ficha de Fútbol Total (se excluyen amistosos; si la ficha muestra menos de 5 oficiales, se registran los que hay). Cuotas Over/Under 2.5: sin dato (las fichas no las muestran).",
+ "Parma|Udinese": {
+  "local": {
+   "equipo": "Parma",
+   "fuente": "https://futboltotal.futbol/partido/parma-vs-udinese-serie-a-2026-10-28",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-24",
+     "rival": "Lazio",
+     "condicion": "fuera",
+     "marcador": "Lazio 2-1 Parma"
+    },
+    {
+     "fecha": "2026-10-19",
+     "rival": "Torino",
+     "condicion": "casa",
+     "marcador": "Parma 0-3 Torino"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Inter",
+     "condicion": "fuera",
+     "marcador": "Inter 3-0 Parma"
+    },
+    {
+     "fecha": "2026-09-20",
+     "rival": "Genoa",
+     "condicion": "casa",
+     "marcador": "Parma 2-1 Genoa"
+    },
+    {
+     "fecha": "2026-09-14",
+     "rival": "Como",
+     "condicion": "fuera",
+     "marcador": "Como 2-1 Parma"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Udinese",
+   "fuente": "https://futboltotal.futbol/partido/parma-vs-udinese-serie-a-2026-10-28",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "AC Milan",
+     "condicion": "casa",
+     "marcador": "Udinese 0-2 AC Milan"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Lecce",
+     "condicion": "casa",
+     "marcador": "Udinese 0-3 Lecce"
+    },
+    {
+     "fecha": "2026-10-12",
+     "rival": "Torino",
+     "condicion": "fuera",
+     "marcador": "Torino 2-1 Udinese"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Cagliari",
+     "condicion": "casa",
+     "marcador": "Udinese 0-1 Cagliari"
+    }
+   ],
+   "nota": "la ficha solo muestra 4 partidos oficiales (el 5.º es un amistoso)"
+  },
+  "cuota_over25": "sin dato",
+  "cuota_under25": "sin dato"
+ },
+ "Monza|Napoli": {
+  "local": {
+   "equipo": "Monza",
+   "fuente": "https://futboltotal.futbol/partido/monza-vs-napoli-serie-a-2026-10-28",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-23",
+     "rival": "Torino",
+     "condicion": "fuera",
+     "marcador": "Torino 3-2 Monza"
+    },
+    {
+     "fecha": "2026-10-19",
+     "rival": "Cagliari",
+     "condicion": "casa",
+     "marcador": "Monza 4-0 Cagliari"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "Lazio",
+     "condicion": "fuera",
+     "marcador": "Lazio 3-1 Monza"
+    }
+   ],
+   "nota": "la ficha solo muestra 3 partidos oficiales (los otros son amistosos)"
+  },
+  "visita": {
+   "equipo": "Napoli",
+   "fuente": "https://futboltotal.futbol/partido/monza-vs-napoli-serie-a-2026-10-28",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-24",
+     "rival": "Roma",
+     "condicion": "casa",
+     "marcador": "Napoli 3-3 Roma"
+    },
+    {
+     "fecha": "2026-10-20",
+     "rival": "Bodø/Glimt",
+     "condicion": "casa",
+     "marcador": "Napoli 4-3 Bodø/Glimt (Champions League)"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Venezia",
+     "condicion": "fuera",
+     "marcador": "Venezia 1-0 Napoli"
+    },
+    {
+     "fecha": "2026-10-13",
+     "rival": "Villarreal",
+     "condicion": "fuera",
+     "marcador": "Villarreal 3-1 Napoli (Champions League)"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Frosinone",
+     "condicion": "casa",
+     "marcador": "Napoli 3-0 Frosinone"
+    }
+   ]
+  },
+  "cuota_over25": "sin dato",
+  "cuota_under25": "sin dato"
+ },
+ "Venezia|Inter": {
+  "local": {
+   "equipo": "Venezia",
+   "fuente": "https://futboltotal.futbol/partido/venezia-vs-inter-serie-a-2026-10-28",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Genoa",
+     "condicion": "fuera",
+     "marcador": "Genoa 1-0 Venezia"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Napoli",
+     "condicion": "casa",
+     "marcador": "Venezia 1-0 Napoli"
+    },
+    {
+     "fecha": "2026-10-12",
+     "rival": "Atalanta",
+     "condicion": "fuera",
+     "marcador": "Atalanta 3-1 Venezia"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Lazio",
+     "condicion": "casa",
+     "marcador": "Venezia 0-2 Lazio"
+    },
+    {
+     "fecha": "2026-09-11",
+     "rival": "Fiorentina",
+     "condicion": "casa",
+     "marcador": "Venezia 2-4 Fiorentina"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Inter",
+   "fuente": "https://futboltotal.futbol/partido/venezia-vs-inter-serie-a-2026-10-28",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Fiorentina",
+     "condicion": "casa",
+     "marcador": "Inter 2-1 Fiorentina"
+    },
+    {
+     "fecha": "2026-10-21",
+     "rival": "Shakhtar Donetsk",
+     "condicion": "casa",
+     "marcador": "Inter 1-0 Shakhtar Donetsk (Champions League)"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Bologna",
+     "condicion": "fuera",
+     "marcador": "Bologna 1-3 Inter"
+    },
+    {
+     "fecha": "2026-10-13",
+     "rival": "Club Brugge",
+     "condicion": "casa",
+     "marcador": "Inter 3-4 Club Brugge (Champions League)"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Parma",
+     "condicion": "casa",
+     "marcador": "Inter 3-0 Parma"
+    }
+   ]
+  },
+  "cuota_over25": "sin dato",
+  "cuota_under25": "sin dato"
+ },
+ "Internacional de Bogotá (ex La Equidad)|Independiente Medellín": {
+  "local": "sin dato",
+  "visita": "sin dato",
+  "cuota_over25": "sin dato",
+  "cuota_under25": "sin dato",
+  "nota": "No se halló una ficha abierta con los últimos 5 (Goal y ESPN no devolvieron datos del partido)."
+ }
+}

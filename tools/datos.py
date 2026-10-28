@@ -313,6 +313,20 @@ for _lg,_a,_ga,_gb,_b in LUN26:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# ===== Actualización mié 28-oct-2026 (rutina diaria 05:2x ECU): partidos del MARTES 27-oct (data/2026-10-27/resultados-en-vivo.json, 6/6 terminados, cada uno con su fuente). Local en casa, visitante fuera. Corte nuevo: mar 27-oct-2026 final.
+# ITA J9: 3 del martes (hoy 5 más). COL: 2 del martes. ARG: cierra la fecha 14. Calendario del 27 (libero.pe/rpp.pe): sin partidos de BRA ni CHI ese día. PER sigue sin actualizar desde el 17-oct.
+MAR27=[
+ ('ITA','Sassuolo',2,6,'Lazio'),  # https://www.agi.it/sport/news/2026-10-27/sassuolo-lazio-39736481/
+ ('ITA','Roma',4,2,'Cagliari'),  # https://www.espn.com/soccer/match/_/gameId/401874780
+ ('ITA','Torino',1,3,'Como'),  # https://futboltotal.futbol/partido/torino-vs-como-serie-a-2026-10-27
+ ('ARG','Argentinos Juniors',1,0,'Independiente Rivadavia'),  # https://www.laarena.com.ar/deportes/argentinos-le-gano-a-independiente-rivadavia-y-sigue-prendido-arriba-2026102721280
+ ('COL','Cúcuta',0,2,'Águilas Doradas'),  # https://eldeportivo.com.co/futbol-colombiano/liga-betplay/aguilas-doradas-sorprendio-cucuta-deportivo/
+ ('COL','Boyacá Chicó',1,1,'Junior'),  # https://www.eluniversal.com.co/deportes/2026/10/27/liga-betplay-junior-de-barranquilla-no-pudo-con-boyaca-chico-al-empatar-1-1-en-tunja/
+]
+for _lg,_a,_ga,_gb,_b in MAR27:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

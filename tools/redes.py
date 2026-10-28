@@ -120,7 +120,7 @@ def carrusel():
     # 4 auditoría
     A=K['auditoria']
     tiles=''.join(f'<div class="caja" style="padding:28px;text-align:center"><div class="disp {c}" style="font-size:110px">{v}</div><div style="font-size:28px">{e(t)}</div></div>' for v,t,c in A['tiles'])
-    s.append(slide(f'''<div class="disp oro" style="position:absolute;top:120px;left:0;right:0;text-align:center;font-size:96px">Así nos fue ayer</div>
+    s.append(slide(f'''<div class="disp oro" style="position:absolute;top:120px;left:0;right:0;text-align:center;font-size:96px">{e(A.get('encabezado','Así nos fue ayer'))}</div>
 <div style="position:absolute;top:235px;left:0;right:0;text-align:center;font-size:32px;color:#9fb2a6">{e(A['titulo'])}</div>
 <div style="position:absolute;left:60px;right:60px;top:320px;display:grid;grid-template-columns:1fr 1fr;gap:24px">{tiles}</div>
 <div style="position:absolute;left:70px;right:70px;top:1010px;font-size:28px;line-height:1.4">{e(A['nota'])}</div>'''))

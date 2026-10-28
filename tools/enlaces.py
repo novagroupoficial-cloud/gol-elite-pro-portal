@@ -896,3 +896,26 @@ LLEGAN={
    "Los dos últimos Torino–Como de liga tuvieron goleada: 1-5 en Turín (nov-2025) y 6-0 en Como (ene-2026).",
    "Fuentes: tabla de la Serie A 2026-27 (local y visitante, partido a partido) y Fútbol Total."],
 }
+
+# ---- Miércoles 28-oct-2026 (rutina diaria, sellado 05:39 ECU) ----
+# LINK: ficha real de Fútbol Total (hora, forma, tabla) para los partidos de Over 1.5 de 80 % o más de la Serie A; para el resto,
+# la agenda real del miércoles 28 de Líbero (hora de Perú = Ecuador). U. Católica–Audax (Chile) quedó fuera: suspendido el 22-oct.
+_LB=("Partidos de hoy, miércoles 28 de octubre: horarios y dónde ver Serie A, Brasileirão, Liga BetPlay y más","Líbero","https://libero.pe/futbol-internacional/2026/10/27/partidos-de-hoy-miercoles-28-de-octubre-en-vivo-horarios-donde-ver-futbol-liverpool-vs-chelsea-cienciano-vs-atletico-grau-1562922")
+LINK={f"{p['local']}|{p['visita']}":_LB for p in _P if not p.get('sin')}
+LINK.update({
+ 'Parma|Udinese':("Parma vs Udinese: ficha, forma y antecedentes de la jornada 9 de la Serie A","Fútbol Total","https://futboltotal.futbol/partido/parma-vs-udinese-serie-a-2026-10-28"),
+ 'Monza|Napoli':("Monza vs Napoli: ficha, forma y antecedentes de la jornada 9 de la Serie A","Fútbol Total","https://futboltotal.futbol/partido/monza-vs-napoli-serie-a-2026-10-28"),
+ 'Venezia|Inter':("Venezia vs Inter: el colista recibe al líder en la jornada 9 de la Serie A","Fútbol Total","https://futboltotal.futbol/partido/venezia-vs-inter-serie-a-2026-10-28"),
+})
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Venezia|Inter','Genoa|Juventus','AC Milan|Bologna','Santos|Palmeiras']
+# ACIERTOS: se mantiene la lista del lunes 26 (última jornada publicada; el martes 27 fue día interno y no se publicó).
+LLEGAN={
+ 'Parma|Udinese':["Udinese de visita: 7 goles a favor y 9 en contra en 3 partidos de Serie A (5,3 goles por partido en sus salidas).",
+   "Parma en casa: 3 a favor y 6 en contra en 4 partidos; perdió 3 de sus últimos 4 de liga (0-3 Torino, 0-3 en Inter, 1-2 en Lazio).",
+   "Duelo de colistas: Parma 19.º y Udinese 17.º, ambos con 4 puntos; Udinese perdió sus últimos 4 de liga.",
+   "Fuentes: tabla de la Serie A 2026-27 (local y visitante, partido a partido) y Fútbol Total."],
+ 'Monza|Napoli':["Monza en casa: 8 goles a favor y 4 en contra en 3 partidos (4 goles por partido); viene de 4-0 a Cagliari y 2-3 en Turín.",
+   "Napoli llega con 3-3 ante Roma y 4-3 ante Bodø/Glimt en Champions: 13 goles en sus últimos 2 partidos.",
+   "Fuentes: tabla de la Serie A 2026-27 (local y visitante, partido a partido) y Fútbol Total."],
+}

@@ -1,13 +1,19 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — martes 27-oct-2026 (rutina diaria 05:2x ECU). Calendario: libero.pe y rpp.pe (agenda del martes 27, hora de Perú = Ecuador); Serie A cotejada con sport-flash.com (18:30 y 20:45 hora de Italia, UTC+1 tras el cambio de hora del 25-oct = 12:30 y 14:45 ECU). SportyTrader no accesible en esta ejecución. Perú (Juan Pablo II–Sport Huancayo, 15:00) sin pronóstico: tabla sin actualizar desde el 17-oct.
- ('12:30','ITA','Sassuolo','Lazio'),
- ('14:45','ITA','Roma','Cagliari'),
- ('14:45','ITA','Torino','Como'),
- ('17:00','ARG','Argentinos Juniors','Independiente Rivadavia'),
- ('18:00','COL','Cúcuta','Águilas Doradas'),
- ('20:05','COL','Boyacá Chicó','Junior'),
+P=[ # hora (Ecuador), liga, local, visita — miércoles 28-oct-2026 (rutina diaria 05:2x ECU). Calendario: libero.pe y rpp.pe (agenda del miércoles 28, hora de Perú = Ecuador; coinciden en todos los partidos). SportyTrader no accesible en esta ejecución. U. Católica–Audax Italiano (Chile, 18:30) excluido: suspendido el 22-oct sin nueva fecha (biobiochile, radioagricultura, prensafutbol), aunque las agendas aún lo listan. Sin pronóstico: Liga 1 de Perú (tabla sin actualizar desde el 17-oct) y copas (Carabao Cup, DFB Pokal, Copa Argentina, Copa Ecuador: sin tabla casa/fuera de la competición).
+ ('12:30','ITA','AC Milan','Bologna'),
+ ('12:30','ITA','Parma','Udinese'),
+ ('12:30','ITA','Venezia','Inter'),
+ ('14:45','ITA','Genoa','Juventus'),
+ ('14:45','ITA','Monza','Napoli'),
+ ('17:30','BRA','Bragantino','Chapecoense'),
+ ('17:30','BRA','Fluminense','Internacional'),
+ ('17:30','BRA','Santos','Palmeiras'),
+ ('18:00','COL','Once Caldas','Alianza (ex Alianza Petrolera)'),
+ ('19:30','BRA','Bahia','São Paulo'),
+ ('19:30','BRA','Remo','Botafogo'),
+ ('20:05','COL','Internacional de Bogotá (ex La Equidad)','Independiente Medellín'),
 ]
 out=[]
 for h,lg,a,b in P:

@@ -1,0 +1,417 @@
+{
+ "fecha": "2026-10-28",
+ "actualizado": "2026-10-28 05:41 ECU (UTC-5)",
+ "zona_horaria": "America/Guayaquil (UTC-5)",
+ "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
+ "fuente_sellada": "data/2026-10-28/pronosticos.json",
+ "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
+ "orden": "de mayor a menor Over 1.5",
+ "resumen_del_dia": {
+  "terminados": 0,
+  "total": 12,
+  "over15_70": [
+   0,
+   0
+  ],
+  "over25_senal": [
+   0,
+   0
+  ],
+  "marcadores_exactos": 0
+ },
+ "rango_80_90": [
+  {
+   "puesto": 1,
+   "hora_ecuador": "12:30",
+   "liga": "Serie A",
+   "local": "Parma",
+   "visitante": "Udinese",
+   "over15": 84.8,
+   "over25": 63.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.3,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 3,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 7,
+    "gc": 9
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 2,
+   "hora_ecuador": "14:45",
+   "liga": "Serie A",
+   "local": "Monza",
+   "visitante": "Napoli",
+   "over15": 82.7,
+   "over25": 60.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.1,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 3,
+    "gf": 8,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 5
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 3,
+   "hora_ecuador": "12:30",
+   "liga": "Serie A",
+   "local": "Venezia",
+   "visitante": "Inter",
+   "over15": 80.9,
+   "over25": 57.7,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 3,
+    "gc": 8
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 6,
+    "gc": 3
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "todos": [
+  {
+   "puesto": 1,
+   "hora_ecuador": "12:30",
+   "liga": "Serie A",
+   "local": "Parma",
+   "visitante": "Udinese",
+   "over15": 84.8,
+   "over25": 63.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.3,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 3,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 7,
+    "gc": 9
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 2,
+   "hora_ecuador": "14:45",
+   "liga": "Serie A",
+   "local": "Monza",
+   "visitante": "Napoli",
+   "over15": 82.7,
+   "over25": 60.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.1,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 3,
+    "gf": 8,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 5
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 3,
+   "hora_ecuador": "12:30",
+   "liga": "Serie A",
+   "local": "Venezia",
+   "visitante": "Inter",
+   "over15": 80.9,
+   "over25": 57.7,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 3,
+    "gc": 8
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 6,
+    "gc": 3
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 4,
+   "hora_ecuador": "20:05",
+   "liga": "Liga BetPlay",
+   "local": "Internacional de Bogotá (ex La Equidad)",
+   "visitante": "Independiente Medellín",
+   "over15": 79.8,
+   "over25": 55.9,
+   "marcador": "1-1",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 8,
+    "gf": 12,
+    "gc": 12
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 12,
+    "gc": 11
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 5,
+   "hora_ecuador": "14:45",
+   "liga": "Serie A",
+   "local": "Genoa",
+   "visitante": "Juventus",
+   "over15": 78.2,
+   "over25": 53.5,
+   "marcador": "1-1",
+   "goles_esperados": 2.8,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 5,
+    "gf": 5,
+    "gc": 8
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 6,
+    "gc": 4
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 6,
+   "hora_ecuador": "12:30",
+   "liga": "Serie A",
+   "local": "AC Milan",
+   "visitante": "Bologna",
+   "over15": 77.2,
+   "over25": 52.1,
+   "marcador": "1-1",
+   "goles_esperados": 2.8,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 3,
+    "gf": 8,
+    "gc": 2
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 4,
+    "gc": 3
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 7,
+   "hora_ecuador": "19:30",
+   "liga": "Brasileirão",
+   "local": "Remo",
+   "visitante": "Botafogo",
+   "over15": 76.3,
+   "over25": 51.0,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 16,
+    "gf": 20,
+    "gc": 21
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 18,
+    "gc": 29
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 8,
+   "hora_ecuador": "17:30",
+   "liga": "Brasileirão",
+   "local": "Bragantino",
+   "visitante": "Chapecoense",
+   "over15": 74.3,
+   "over25": 48.3,
+   "marcador": "1-1",
+   "goles_esperados": 2.6,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 24,
+    "gc": 17
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 11,
+    "gc": 29
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 9,
+   "hora_ecuador": "17:30",
+   "liga": "Brasileirão",
+   "local": "Fluminense",
+   "visitante": "Internacional",
+   "over15": 74.2,
+   "over25": 48.2,
+   "marcador": "1-1",
+   "goles_esperados": 2.6,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 16,
+    "gf": 29,
+    "gc": 16
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 15,
+    "gc": 23
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 10,
+   "hora_ecuador": "17:30",
+   "liga": "Brasileirão",
+   "local": "Santos",
+   "visitante": "Palmeiras",
+   "over15": 73.3,
+   "over25": 46.9,
+   "marcador": "1-1",
+   "goles_esperados": 2.6,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 16,
+    "gf": 23,
+    "gc": 21
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 26,
+    "gc": 12
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 11,
+   "hora_ecuador": "18:00",
+   "liga": "Liga BetPlay",
+   "local": "Once Caldas",
+   "visitante": "Alianza (ex Alianza Petrolera)",
+   "over15": 72.8,
+   "over25": 46.3,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 10,
+    "gc": 8
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 6,
+    "gc": 9
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 12,
+   "hora_ecuador": "19:30",
+   "liga": "Brasileirão",
+   "local": "Bahia",
+   "visitante": "São Paulo",
+   "over15": 70.1,
+   "over25": 43.0,
+   "marcador": "1-1",
+   "goles_esperados": 2.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 16,
+    "gf": 23,
+    "gc": 17
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 12,
+    "gc": 23
+   },
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "sin_pronostico": []
+}

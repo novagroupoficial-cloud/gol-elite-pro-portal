@@ -1,14 +1,15 @@
 {
- "local": "Torino",
- "fecha_larga": "Martes 27 de octubre de 2026",
+ "local": "Parma",
+ "fecha_larga": "Miércoles 28 de octubre de 2026",
  "desde": "05:39",
  "contexto": [
-  "Como de visita: 10 goles a favor y 6 en contra en 5 salidas (3,2 goles por partido).",
-  "Torino ganó sus últimos 3 de Serie A (2-1 Udinese, 3-0 en Parma, 3-2 Monza) y en casa recibe 1,75 por partido.",
-  "Los dos últimos Torino–Como de liga: 1-5 en Turín y 6-0 en Como."
+  "Udinese fuera: 5,3 goles por partido en sus salidas.",
+  "Parma perdió 3 de sus últimos 4 de liga.",
+  "Parma 19.º y Udinese 17.º; Udinese, 4 derrotas seguidas."
  ],
  "auditoria": {
-  "titulo": "Lunes 26 de octubre · 10 partidos con resultado y fuente",
+  "encabezado": "Así nos fue",
+  "titulo": "Lunes 26 de octubre · última jornada publicada",
   "tiles": [
    [
     "1/1",
@@ -31,16 +32,6 @@
     "dor"
    ]
   ],
-  "nota": "Partido del día: Sevilla 2-0 Osasuna ✔ (dimos Over 1.5 al 87 %; hubo 2 goles). Fallaron Coritiba 0-1 Grêmio (70 %; hubo 1 gol) y Jaguares 1-0 Llaneros (76 %; hubo 1 gol). Over 2.5 con señal: 0 de 1. Publicamos aciertos y fallos."
- },
- "acierto": {
-  "fecha": "lunes 26 de octubre",
-  "local": "Sevilla",
-  "visita": "Osasuna",
-  "liga": "LaLiga · jornada 10",
-  "resultado": "2-0",
-  "over15": 86.8,
-  "goles": "2",
-  "sellado": "05:41 ECU del 26-oct"
+  "nota": "Partido del día: Sevilla 2-0 Osasuna ✔ (dimos Over 1.5 al 87 %; hubo 2 goles). Fallaron Coritiba 0-1 Grêmio (70 %; hubo 1 gol) y Jaguares 1-0 Llaneros (76 %; hubo 1 gol). Over 2.5 con señal: 0 de 1. El martes 27 no publicamos: ningún partido llegaba a nuestro mínimo."
  }
 }

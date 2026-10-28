@@ -1,0 +1,28 @@
+{
+ "partidos": {
+  "Parma|Udinese": {
+   "titular": "Parma y Udinese, dos colistas con defensas que conceden mucho",
+   "texto": "Parma (19.º, 4 puntos) perdió 4 de sus últimos 5 partidos de Serie A (1-2 en Lazio, 0-3 ante Torino, 0-3 en Inter) y en casa recibe 1,5 goles por partido. Udinese (17.º, 4 puntos) encadena 4 derrotas de liga (0-2 ante Milan, 0-3 ante Lecce, 1-2 en Torino, 0-1 ante Cagliari) y en sus 3 salidas promedia 5,3 goles por partido (7 a favor, 9 en contra). En los últimos 6 cruces, Udinese ganó 4. Conclusión: dos defensas débiles y un Udinese que fuera de casa juega partidos abiertos sostienen el Over 1.5; el riesgo es el bajo poder ofensivo de Parma en casa (0,75 goles por partido).",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/parma-vs-udinese-serie-a-2026-10-28"
+  },
+  "Monza|Napoli": {
+   "titular": "Monza, goleador en casa, recibe a un Napoli de partidos abiertos",
+   "texto": "Monza (15.º, 7 puntos) promedia 4 goles por partido en casa (8 a favor, 4 en contra) y viene de golear 4-0 a Cagliari antes de perder 3-2 en Turín. Napoli (10.º, 11 puntos) empató 3-3 con Roma y ganó 4-3 a Bodø/Glimt en la Champions League, pero perdió 1-0 en Venecia. En los últimos 6 cruces, Napoli ganó 4. Conclusión: los dos vienen de partidos con muchos goles y el Over 1.5 tiene respaldo; el desgaste europeo del Napoli puede cambiar el ritmo.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/monza-vs-napoli-serie-a-2026-10-28"
+  },
+  "Venezia|Inter": {
+   "titular": "El colista Venezia recibe al líder Inter",
+   "texto": "Inter es líder con 22 puntos y 23 goles a favor en 8 partidos; ganó 2-1 a Fiorentina y 1-0 a Shakhtar en la Champions League. Venezia es último con 3 puntos (6 a favor, 17 en contra) y perdió 4 de sus últimos 5 de liga, con la excepción del 1-0 a Napoli. Conclusión: la diferencia ofensiva del Inter sostiene el Over 1.5, aunque un triunfo corto del líder (1-0 o 2-0) es el escenario de riesgo.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/venezia-vs-inter-serie-a-2026-10-28"
+  },
+  "Internacional de Bogotá (ex La Equidad)|Independiente Medellín": {
+   "titular": "Inter Bogotá y Medellín, partidos de goles en local y visita",
+   "texto": "Internacional de Bogotá en casa suma 12 goles a favor y 12 en contra en 8 partidos del Clausura (3 goles por partido). Independiente Medellín de visita marcó 12 y recibió 11 en 7 salidas (3,3 goles por partido). Conclusión: los dos registros apuntan a un partido con goles; el modelo lo deja justo en el límite de 80 % para Over 1.5. No hallamos una previa abierta del partido: los datos salen de nuestra tabla de local y visitante verificada.",
+   "fuente": "Gol Élite Pro · tabla de local y visitante de la Liga BetPlay (SoccerSTATS más resultados partido a partido)",
+   "url": "https://gol-elite-pro.netlify.app/"
+  }
+ }
+}

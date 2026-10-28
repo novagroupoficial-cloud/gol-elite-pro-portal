@@ -1,0 +1,226 @@
+{
+ "fecha": "2026-10-27",
+ "auditado": "2026-10-28 05:40 ECU",
+ "interno": true,
+ "partidos": 6,
+ "terminados": 6,
+ "anulados": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "Rango 80": [
+   1,
+   1
+  ],
+  "Rango 70": [
+   4,
+   4
+  ],
+  "Total >=70": [
+   5,
+   5
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   0
+  ],
+  "Marcadores exactos": [
+   2,
+   6
+  ],
+  "Menos de 70 (informativo)": [
+   0,
+   1
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   1,
+   1
+  ],
+  "GOLES OPTIMISTAS": [
+   4,
+   5
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   0,
+   0
+  ],
+  "moderada": [
+   0,
+   0
+  ]
+ },
+ "intervalo_wilson_95": {
+  "Rango 80": [
+   20.7,
+   100.0
+  ],
+  "Rango 70": [
+   51.0,
+   100.0
+  ],
+  "Total >=70": [
+   56.6,
+   100.0
+  ],
+  "Menos de 70 (informativo)": [
+   0.0,
+   79.3
+  ],
+  "GOLES ESTÁNDAR": [
+   20.7,
+   100.0
+  ],
+  "GOLES OPTIMISTAS": [
+   37.6,
+   96.4
+  ]
+ },
+ "partido_del_dia": null,
+ "fallos_over15_70": [],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [
+  "Argentinos Juniors 1-0 Independiente Rivadavia (69,2 %, menos de 70: no recomendado; hubo 1 gol)"
+ ],
+ "anulados_lista": [],
+ "nota": "DÍA INTERNO (data/2026-10-27/interno.json, decisión de Marco): estos pronósticos no se publicaron; se auditan solo para evaluar el modelo y no entran a la Galería pública. Resultados finales del refresco horario (data/2026-10-27/resultados-en-vivo.json, 6/6 terminados, cada uno con su fuente). Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. El Dashboard Gol 4.0 no expone /api/dia: auditoría manual. Escala de Marco del 17-oct (GOL ÉLITE ≥95 · GOLES PLATINO 90–94 · GOLES ESTÁNDAR 80–89 · GOLES OPTIMISTAS <80, sobre el entero redondeado) y, aparte, la escala clásica. Intervalos de Wilson 95 %.",
+ "resultados": [
+  {
+   "hora": "12:30",
+   "liga": "ITA",
+   "local": "Sassuolo",
+   "visita": "Lazio",
+   "resultado": "2-6",
+   "estado": "terminado",
+   "over15": 78.4,
+   "over25": 53.9,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-27 05:39 ECU (UTC-5)",
+   "goles": 8,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.agi.it/sport/news/2026-10-27/sassuolo-lazio-39736481/"
+  },
+  {
+   "hora": "14:45",
+   "liga": "ITA",
+   "local": "Roma",
+   "visita": "Cagliari",
+   "resultado": "4-2",
+   "estado": "terminado",
+   "over15": 78.7,
+   "over25": 54.3,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-27 05:39 ECU (UTC-5)",
+   "goles": 6,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.espn.com/soccer/match/_/gameId/401874780"
+  },
+  {
+   "hora": "14:45",
+   "liga": "ITA",
+   "local": "Torino",
+   "visita": "Como",
+   "resultado": "1-3",
+   "estado": "terminado",
+   "over15": 82.7,
+   "over25": 60.3,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-10-27 05:39 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/torino-vs-como-serie-a-2026-10-27"
+  },
+  {
+   "hora": "17:00",
+   "liga": "ARG",
+   "local": "Argentinos Juniors",
+   "visita": "Independiente Rivadavia",
+   "resultado": "1-0",
+   "estado": "terminado",
+   "over15": 69.2,
+   "over25": 42.0,
+   "marcador": "1-0",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70 (informativo)",
+   "sellado": "2026-10-27 05:39 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.laarena.com.ar/deportes/argentinos-le-gano-a-independiente-rivadavia-y-sigue-prendido-arriba-2026102721280"
+  },
+  {
+   "hora": "18:00",
+   "liga": "COL",
+   "local": "Cúcuta",
+   "visita": "Águilas Doradas",
+   "resultado": "0-2",
+   "estado": "terminado",
+   "over15": 72.0,
+   "over25": 45.3,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-27 05:39 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://eldeportivo.com.co/futbol-colombiano/liga-betplay/aguilas-doradas-sorprendio-cucuta-deportivo/"
+  },
+  {
+   "hora": "20:05",
+   "liga": "COL",
+   "local": "Boyacá Chicó",
+   "visita": "Junior",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 75.2,
+   "over25": 49.4,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-27 05:39 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.eluniversal.com.co/deportes/2026/10/27/liga-betplay-junior-de-barranquilla-no-pudo-con-boyaca-chico-al-empatar-1-1-en-tunja/"
+  }
+ ],
+ "partido_del_dia_interno": {
+  "partido": "Torino vs Como",
+  "over15": 82.7,
+  "sellado": "05:39 ECU",
+  "resultado": "1-3",
+  "goles": 4,
+  "acierto": true,
+  "nota": "Habría sido el partido del día, pero el día fue interno (decisión de Marco, 08:40 ECU) y no se publicó: no cuenta en la racha de partidos del día."
+ },
+ "galeria": "No se agrega a la Galería pública: el día fue interno y sus pronósticos no se publicaron antes de los partidos."
+}

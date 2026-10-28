@@ -58,5 +58,20 @@
   "marcador_exacto": true,
   "fuente": "https://www.laarena.com.ar/deportes/argentinos-le-gano-a-independiente-rivadavia-y-sigue-prendido-arriba-2026102721280",
   "registrado": "20:16 ECU"
+ },
+ {
+  "local": "Cúcuta",
+  "visita": "Águilas Doradas",
+  "hora": "18:00",
+  "resultado": "0-2",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 72.0,
+  "over25_dado": 45.3,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://eldeportivo.com.co/futbol-colombiano/liga-betplay/aguilas-doradas-sorprendio-cucuta-deportivo/",
+  "registrado": "21:14 ECU"
  }
 ]

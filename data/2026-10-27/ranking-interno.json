@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-27",
- "actualizado": "2026-10-27 20:12 ECU (UTC-5)",
+ "actualizado": "2026-10-27 21:16 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-27/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 4,
+  "terminados": 5,
   "total": 6,
   "over15_70": [
-   3,
-   3
+   4,
+   4
   ],
   "over25_senal": [
    0,
@@ -195,8 +195,13 @@
     "gc": 12
    },
    "sellado": "2026-10-27 05:39 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://eldeportivo.com.co/futbol-colombiano/liga-betplay/aguilas-doradas-sorprendio-cucuta-deportivo/"
   },
   {
    "puesto": 6,

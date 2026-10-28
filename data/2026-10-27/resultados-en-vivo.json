@@ -73,5 +73,20 @@
   "marcador_exacto": false,
   "fuente": "https://eldeportivo.com.co/futbol-colombiano/liga-betplay/aguilas-doradas-sorprendio-cucuta-deportivo/",
   "registrado": "21:14 ECU"
+ },
+ {
+  "local": "Boyacá Chicó",
+  "visita": "Junior",
+  "hora": "20:05",
+  "resultado": "1-1",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 75.2,
+  "over25_dado": 49.4,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": true,
+  "fuente": "https://www.eluniversal.com.co/deportes/2026/10/27/liga-betplay-junior-de-barranquilla-no-pudo-con-boyaca-chico-al-empatar-1-1-en-tunja/",
+  "registrado": "23:14 ECU"
  }
 ]

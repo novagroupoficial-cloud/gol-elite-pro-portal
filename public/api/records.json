@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27 22:11 ECU",
+ "actualizado": "2026-10-27 23:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -15,7 +15,7 @@
   "2026-10-26",
   "2026-10-27"
  ],
- "partidos": 278,
+ "partidos": 279,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -31,8 +31,8 @@
    "partidos": 90
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 121,
-   "partidos": 154
+   "aciertos": 122,
+   "partidos": 155
   }
  },
  "over90": {
@@ -185,8 +185,8 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 95,
-   "aciertos": 72,
+   "partidos": 96,
+   "aciertos": 73,
    "prometido": 74.4
   },
   {
@@ -224,6 +224,15 @@
     "over15": 78.4,
     "resultado": "2-6",
     "goles": 8,
+    "acierto": true
+   },
+   {
+    "hora": "20:05",
+    "local": "Boyacá Chicó",
+    "visita": "Junior",
+    "over15": 75.2,
+    "resultado": "1-1",
+    "goles": 2,
     "acierto": true
    },
    {

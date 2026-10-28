@@ -43,5 +43,35 @@
   "marcador_exacto": false,
   "fuente": "https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html",
   "registrado": "15:20 ECU"
+ },
+ {
+  "local": "Genoa",
+  "visita": "Juventus",
+  "hora": "14:45",
+  "resultado": "2-0",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 78.2,
+  "over25_dado": 53.5,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://football-italia.net/serie-a-liveblog-9-inter-milan-juventus-napoli/",
+  "registrado": "17:11 ECU"
+ },
+ {
+  "local": "Monza",
+  "visita": "Napoli",
+  "hora": "14:45",
+  "resultado": "1-4",
+  "goles": 5,
+  "estado": "terminado",
+  "over15_dado": 82.7,
+  "over25_dado": 60.4,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://football-italia.net/serie-a-liveblog-9-inter-milan-juventus-napoli/",
+  "registrado": "17:11 ECU"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27 19:12 ECU",
+ "actualizado": "2026-10-27 20:12 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -15,7 +15,7 @@
   "2026-10-26",
   "2026-10-27"
  ],
- "partidos": 276,
+ "partidos": 277,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -32,7 +32,7 @@
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 120,
-   "partidos": 152
+   "partidos": 153
   }
  },
  "over90": {
@@ -191,9 +191,9 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 58,
+   "partidos": 59,
    "aciertos": 49,
-   "prometido": 61.5
+   "prometido": 61.6
   }
  ],
  "ultima_jornada": {
@@ -225,6 +225,15 @@
     "resultado": "2-6",
     "goles": 8,
     "acierto": true
+   },
+   {
+    "hora": "17:00",
+    "local": "Argentinos Juniors",
+    "visita": "Independiente Rivadavia",
+    "over15": 69.2,
+    "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
    }
   ]
  }

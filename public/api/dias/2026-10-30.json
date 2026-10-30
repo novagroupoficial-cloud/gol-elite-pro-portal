@@ -1,0 +1,130 @@
+{
+ "fecha": "2026-10-30",
+ "actualizado": "2026-10-30 16:29 ECU (UTC-5)",
+ "zona_horaria": "America/Guayaquil (UTC-5)",
+ "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
+ "fuente_sellada": "data/2026-10-30/pronosticos.json",
+ "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
+ "orden": "de mayor a menor Over 1.5",
+ "resumen_del_dia": {
+  "terminados": 0,
+  "total": 4,
+  "over15_70": [
+   0,
+   0
+  ],
+  "over25_senal": [
+   0,
+   0
+  ],
+  "marcadores_exactos": 0
+ },
+ "rango_80_90": [],
+ "todos": [
+  {
+   "puesto": 1,
+   "hora_ecuador": "19:15",
+   "liga": "Liga Profesional",
+   "local": "Racing Club",
+   "visitante": "Aldosivi",
+   "over15": 73.1,
+   "over25": 46.6,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 8,
+    "gf": 9,
+    "gc": 12
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 7,
+    "gc": 13
+   },
+   "sellado": "2026-10-30 16:29 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 2,
+   "hora_ecuador": "19:15",
+   "liga": "Liga Profesional",
+   "local": "Sarmiento",
+   "visitante": "Rosario Central",
+   "over15": 70.0,
+   "over25": 42.8,
+   "marcador": "1-1",
+   "goles_esperados": 2.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 11,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 10,
+    "gc": 7
+   },
+   "sellado": "2026-10-30 16:29 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 3,
+   "hora_ecuador": "17:00",
+   "liga": "Liga Profesional",
+   "local": "Huracan",
+   "visitante": "Tigre",
+   "over15": 64.0,
+   "over25": 36.0,
+   "marcador": "1-1",
+   "goles_esperados": 2.1,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 6,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 9,
+    "gc": 11
+   },
+   "sellado": "2026-10-30 16:29 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 4,
+   "hora_ecuador": "17:00",
+   "liga": "Liga Profesional",
+   "local": "Estudiantes Rio Cuarto",
+   "visitante": "Gimnasia LP",
+   "over15": 63.9,
+   "over25": 35.8,
+   "marcador": "1-1",
+   "goles_esperados": 2.1,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 4,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 9,
+    "gc": 11
+   },
+   "sellado": "2026-10-30 16:29 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "sin_pronostico": []
+}

@@ -19,14 +19,10 @@ def key(p): return f"{p['local']}|{p['visita']}"
 NEWS_PRED={}  # (sin uso en la portada actual)
 NEWS_DEST=[]
 FUENTES=[
- ("SoccerSTATS · local y visitante Serie A (más resultados partido a partido)","https://www.soccerstats.com/homeaway.asp?league=italy"),
- ("SoccerSTATS · local y visitante Liga BetPlay (más resultados partido a partido)","https://www.soccerstats.com/homeaway.asp?league=colombia2"),
- ("Líbero · partidos del miércoles 28 de octubre (hora de Perú = Ecuador)","https://libero.pe/futbol-internacional/2026/10/27/partidos-de-hoy-miercoles-28-de-octubre-en-vivo-horarios-donde-ver-futbol-liverpool-vs-chelsea-cienciano-vs-atletico-grau-1562922"),
- ("RPP · partidos del miércoles 28 de octubre","https://rpp.pe/futbol/futbol-mundial/partidos-del-miercoles-28-de-octubre-horarios-y-canales-de-tv-para-ver-en-vivo-la-liga-1-y-carabao-cup-noticia-1714776"),
- ("Fútbol Total · ficha de Parma vs Udinese (hora, forma, tabla y antecedentes)","https://futboltotal.futbol/partido/parma-vs-udinese-serie-a-2026-10-28"),
- ("Fútbol Total · ficha de Monza vs Napoli","https://futboltotal.futbol/partido/monza-vs-napoli-serie-a-2026-10-28"),
- ("Fútbol Total · ficha de Venezia vs Inter","https://futboltotal.futbol/partido/venezia-vs-inter-serie-a-2026-10-28"),
- ("BioBioChile · U. Católica–Audax Italiano suspendido (22-oct)","https://www.biobiochile.cl/noticias/deportes/futbol/universidad-catolica/2026/10/22/reprograman-duelo-universidad-catolica-audax-italiano-tras-reclamos-cruzados.shtml"),
+ ("Fútbol Total · ficha de Huracán vs Tigre (fecha 15 del Clausura; hora UTC-5 = Ecuador)","https://futboltotal.futbol/partido/huracan-vs-tigre-liga-profesional-argentina-2026-10-30"),
+ ("Fútbol Total · ficha de Estudiantes de Río Cuarto vs Gimnasia LP","https://futboltotal.futbol/partido/estudiantes-de-rio-cuarto-vs-gimnasia-lp-liga-profesional-argentina-2026-10-30"),
+ ("Fútbol Total · ficha de Racing vs Aldosivi (19:15 ECU del viernes 30)","https://futboltotal.futbol/partido/racing-club-vs-aldosivi-liga-profesional-argentina-2026-10-31"),
+ ("Fútbol Total · ficha de Sarmiento vs Rosario Central (19:15 ECU del viernes 30)","https://futboltotal.futbol/partido/sarmiento-junin-vs-rosario-central-liga-profesional-argentina-2026-10-31"),
 ]
 ES.update({'Celta Vigo':'Celta de Vigo','Los Angeles FC':'LAFC','Bayer Leverkusen':'Leverkusen','Leones del Norte':'Leones del Norte','Paris Saint-Germain':'PSG','Atletico MG':'Atlético-MG','Union Santa Fe':'Unión','Instituto Cordoba':'Instituto','Deportivo Riestra':'Riestra','Jaguares de Córdoba':'Jaguares','Santa Fe':'Santa Fe'})
 idx={key(p):p for p in P}
@@ -164,7 +160,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if entero(p['over15'])>=80 else ''}"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=['U. Católica–Audax Italiano (Chile, 18:30): suspendido el 22-oct por la autoridad y sin nueva fecha confirmada, aunque algunas agendas aún lo listan. Si se juega, no lo pronosticamos.','Liga 1 de Perú (ADT–Moquegua, Cajamarca–UTC, Alianza Atlético–Garcilaso y Cienciano–Atlético Grau): nuestra tabla de local y visitante no está al día desde el 17-oct y hoy no pudimos verificar las fechas recientes con una fuente abierta.','Copas (Carabao Cup, Copa de Alemania, Copa Argentina, Copa Ecuador, Copa AUF): mezclan divisiones; nuestro modelo usa tablas de liga y no las pronostica.']
+SIN=['Liga MX, Liga BetPlay, LigaPro, Chile, Brasileirão y MLS de esta noche: la rutina de la mañana no corrió el jueves 29 ni el viernes 30, y nuestras tablas de local y visitante aún no suman los partidos del 28 y 29 de octubre. No publicamos números sin verificar.','Liga 1 de Perú: nuestra tabla de local y visitante no está al día desde el 17-oct.','Copas: mezclan divisiones; nuestro modelo usa tablas de liga y no las pronostica.']
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 # Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
@@ -284,9 +280,9 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del miércoles 28 de octubre; se integrará al portal cuando llegue el código.</div>
+<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del viernes 30 de octubre; se integrará al portal cuando llegue el código.</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Miércoles 28 de octubre de 2026 · sellado 05:39 ECU · el de mayor Over 1.5 que aún no empieza</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Viernes 30 de octubre de 2026 · sellado 16:29 ECU · el de mayor Over 1.5 que aún no empieza</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{pc(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{pc(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
@@ -297,11 +293,11 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 {resumen}{estrella}{recs}{ayer}{calib}<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1 or ('<p class="legal">Hoy solo el partido del día (arriba) llega a 80 % en Over 1.5; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>' if entero(top['over15'])>=80 else '<p class="legal">Hoy ningún partido llega a 80 % en Over 1.5. El más alto está arriba, como partido del día; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>')}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del miércoles</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del viernes</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Miércoles 28 de octubre de 2026 · pronósticos sellados a las 05:39 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Viernes 30 de octubre de 2026 · pronósticos sellados a las 16:29 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
@@ -318,7 +314,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-10-28"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-10-30"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

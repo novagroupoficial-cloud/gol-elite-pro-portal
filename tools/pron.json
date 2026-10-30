@@ -27,7 +27,7 @@
   "senal_o25": "sin señal",
   "aviso_mercado": null,
   "modelo_version": "4.1",
-  "sellado": "2026-10-30 16:32 ECU (UTC-5)",
+  "sellado": "2026-10-30 16:29 ECU (UTC-5)",
   "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (ARG al día tras la fecha 14 completa, 210 PJ; fuentes en sus comentarios); Dashboard Gol 4.0 /api/dia no disponible",
   "rango_clasico": "Menos de 70"
  },
@@ -59,7 +59,7 @@
   "senal_o25": "sin señal",
   "aviso_mercado": null,
   "modelo_version": "4.1",
-  "sellado": "2026-10-30 16:32 ECU (UTC-5)",
+  "sellado": "2026-10-30 16:29 ECU (UTC-5)",
   "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (ARG al día tras la fecha 14 completa, 210 PJ; fuentes en sus comentarios); Dashboard Gol 4.0 /api/dia no disponible",
   "rango_clasico": "Menos de 70"
  },
@@ -91,7 +91,7 @@
   "senal_o25": "sin señal",
   "aviso_mercado": null,
   "modelo_version": "4.1",
-  "sellado": "2026-10-30 16:32 ECU (UTC-5)",
+  "sellado": "2026-10-30 16:29 ECU (UTC-5)",
   "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (ARG al día tras la fecha 14 completa, 210 PJ; fuentes en sus comentarios); Dashboard Gol 4.0 /api/dia no disponible",
   "rango_clasico": "Rango 70"
  },
@@ -123,7 +123,7 @@
   "senal_o25": "sin señal",
   "aviso_mercado": null,
   "modelo_version": "4.1",
-  "sellado": "2026-10-30 16:32 ECU (UTC-5)",
+  "sellado": "2026-10-30 16:29 ECU (UTC-5)",
   "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (ARG al día tras la fecha 14 completa, 210 PJ; fuentes en sus comentarios); Dashboard Gol 4.0 /api/dia no disponible",
   "rango_clasico": "Rango 70"
  }

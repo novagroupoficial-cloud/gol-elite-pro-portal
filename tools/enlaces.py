@@ -919,3 +919,23 @@ LLEGAN={
    "Napoli llega con 3-3 ante Roma y 4-3 ante Bodø/Glimt en Champions: 13 goles en sus últimos 2 partidos.",
    "Fuentes: tabla de la Serie A 2026-27 (local y visitante, partido a partido) y Fútbol Total."],
 }
+
+# ---- Viernes 30-oct-2026 (rutina recuperada por el refresco de las 16:12 ECU, sellado 16:29 ECU; solo Argentina, fecha 15) ----
+# LINK: ficha real de Fútbol Total de cada partido (hora UTC-5 = Ecuador). Las de 19:15 llevan 2026-10-31 en la URL porque en Madrid ya es sábado.
+LINK={
+ 'Huracan|Tigre':("Huracán vs Tigre: ficha de la fecha 15 del Clausura","Fútbol Total","https://futboltotal.futbol/partido/huracan-vs-tigre-liga-profesional-argentina-2026-10-30"),
+ 'Estudiantes Rio Cuarto|Gimnasia LP':("Estudiantes de Río Cuarto vs Gimnasia LP: ficha de la fecha 15 del Clausura","Fútbol Total","https://futboltotal.futbol/partido/estudiantes-de-rio-cuarto-vs-gimnasia-lp-liga-profesional-argentina-2026-10-30"),
+ 'Racing Club|Aldosivi':("Racing vs Aldosivi: ficha de la fecha 15 del Clausura","Fútbol Total","https://futboltotal.futbol/partido/racing-club-vs-aldosivi-liga-profesional-argentina-2026-10-31"),
+ 'Sarmiento|Rosario Central':("Sarmiento vs Rosario Central: ficha de la fecha 15 del Clausura","Fútbol Total","https://futboltotal.futbol/partido/sarmiento-junin-vs-rosario-central-liga-profesional-argentina-2026-10-31"),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Racing Club|Aldosivi','Sarmiento|Rosario Central','Huracan|Tigre','Estudiantes Rio Cuarto|Gimnasia LP']
+# ACIERTOS: se mantiene la lista del lunes 26 (la auditoría del 28 está pendiente; el 29 no hubo pronósticos).
+LLEGAN={
+ 'Racing Club|Aldosivi':["Racing en casa: 9 goles a favor y 12 en contra en 8 partidos del Clausura (2,6 goles por partido).",
+   "Aldosivi fuera: 7 a favor y 13 en contra en 7 partidos (2,9 goles por partido en sus salidas).",
+   "Fuente: tabla del Clausura 2026 de local y visitante, partido a partido (fechas 1 a 14)."],
+ 'Sarmiento|Rosario Central':["Sarmiento en casa: 11 goles a favor y 7 en contra en 7 partidos.",
+   "Rosario Central fuera: 10 a favor y 7 en contra en 7 partidos (2,4 goles por partido).",
+   "Fuente: tabla del Clausura 2026 de local y visitante, partido a partido (fechas 1 a 14)."],
+}

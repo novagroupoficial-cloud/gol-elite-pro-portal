@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-30",
- "ultima_ejecucion": "2026-10-30 17:12 ECU",
- "ultima_ok": "2026-10-30 17:12 ECU",
+ "ultima_ejecucion": "2026-10-30 18:10 ECU",
+ "ultima_ok": "2026-10-30 18:10 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-30 16:12 ECU",
  "pendientes": [
@@ -10,17 +10,18 @@
   "Tablas de tools/datos.py sin los partidos del 28 y 29-oct (salvo ARG, que no jugó): las demás ligas de hoy quedaron sin pronóstico.",
   "Kit de redes del 30-oct no generado (rutina recuperada tarde, solo 4 partidos de Argentina por debajo de 75 %).",
   "SportyTrader no accesible (permiso de WebFetch no respondido); calendario tomado de Fútbol Total.",
-  "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido, 2.ª vez seguida hoy).",
-  "Resultados de Huracán–Tigre y Est. Río Cuarto–Gimnasia LP: en juego (inicio 17:00), buscar desde 19:15 ECU."
+  "Resultados de Huracán–Tigre y Est. Río Cuarto–Gimnasia LP: en juego (inicio 17:00), buscar desde 19:15 ECU.",
+  "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido, 3.ª vez seguida hoy; aviso de bloqueo enviado)."
  ],
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "17:12 (sin lectura: permiso de WebFetch no respondido)"
+  "ultima_revision": "18:10 (sin lectura: permiso de WebFetch no respondido)"
  },
  "avisos_enviados": [
-  "rutina_recuperada"
+  "rutina_recuperada",
+  "bloqueo"
  ],
- "nota": "16:12: primera ejecución registrada del día; no hay data/2026-10-29 ni data/2026-10-30 en main (último refresco 28-oct 17:11). Se inicia la rutina diaria (recuperación). | 16:29: sellados 4 partidos de Argentina (fecha 15): Racing–Aldosivi 73,1 %, Sarmiento–Rosario Central 70,0 %, Huracán–Tigre 64,0 %, Est. Río Cuarto–Gimnasia LP 63,9 % (Over 1.5). En el primer commit la hora de sello quedó escrita como 16:32 por error de tipeo (el commit fue a las 16:29:03); se corrigió solo la etiqueta a 16:29, sin tocar probabilidades. Lectura asumida: se publica normalmente (no hay interno.json; la decisión de día interno del 27 fue de Marco para ese día). Ranking y portada regenerados. | 17:12: ranking regenerado (2 en juego, 2 por jugar); sin resultados aún.",
- "web_sin_lectura_seguidas_hoy": 2
+ "nota": "16:12: primera ejecución registrada del día; no hay data/2026-10-29 ni data/2026-10-30 en main (último refresco 28-oct 17:11). Se inicia la rutina diaria (recuperación). | 16:29: sellados 4 partidos de Argentina (fecha 15): Racing–Aldosivi 73,1 %, Sarmiento–Rosario Central 70,0 %, Huracán–Tigre 64,0 %, Est. Río Cuarto–Gimnasia LP 63,9 % (Over 1.5). En el primer commit la hora de sello quedó escrita como 16:32 por error de tipeo (el commit fue a las 16:29:03); se corrigió solo la etiqueta a 16:29, sin tocar probabilidades. Lectura asumida: se publica normalmente (no hay interno.json; la decisión de día interno del 27 fue de Marco para ese día). Ranking y portada regenerados. | 17:12: ranking regenerado (2 en juego, 2 por jugar); sin resultados aún. | 18:10: ranking regenerado (2 en juego, 2 por jugar); sin resultados aún (Huracán–Tigre y Río Cuarto–Gimnasia se buscan desde 19:15).",
+ "web_sin_lectura_seguidas_hoy": 3
 }

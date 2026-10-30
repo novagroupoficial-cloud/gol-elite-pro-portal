@@ -1,0 +1,130 @@
+[
+ {
+  "hora": "17:00",
+  "liga": "ARG",
+  "local": "Huracan",
+  "visita": "Tigre",
+  "casa": [
+   7,
+   6,
+   4
+  ],
+  "fuera": [
+   7,
+   9,
+   11
+  ],
+  "HG": 1.23,
+  "AG": 1.02,
+  "lambda_local": 1.2,
+  "lambda_visita": 0.94,
+  "goles_esperados": 2.1,
+  "over15": 64.0,
+  "over25": 36.0,
+  "under25": 64.0,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-10-30 16:32 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (ARG al día tras la fecha 14 completa, 210 PJ; fuentes en sus comentarios); Dashboard Gol 4.0 /api/dia no disponible",
+  "rango_clasico": "Menos de 70"
+ },
+ {
+  "hora": "17:00",
+  "liga": "ARG",
+  "local": "Estudiantes Rio Cuarto",
+  "visita": "Gimnasia LP",
+  "casa": [
+   7,
+   4,
+   6
+  ],
+  "fuera": [
+   7,
+   9,
+   11
+  ],
+  "HG": 1.23,
+  "AG": 1.02,
+  "lambda_local": 1.08,
+  "lambda_visita": 1.05,
+  "goles_esperados": 2.1,
+  "over15": 63.9,
+  "over25": 35.8,
+  "under25": 64.2,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-10-30 16:32 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (ARG al día tras la fecha 14 completa, 210 PJ; fuentes en sus comentarios); Dashboard Gol 4.0 /api/dia no disponible",
+  "rango_clasico": "Menos de 70"
+ },
+ {
+  "hora": "19:15",
+  "liga": "ARG",
+  "local": "Racing Club",
+  "visita": "Aldosivi",
+  "casa": [
+   8,
+   9,
+   12
+  ],
+  "fuera": [
+   7,
+   7,
+   13
+  ],
+  "HG": 1.23,
+  "AG": 1.02,
+  "lambda_local": 1.38,
+  "lambda_visita": 1.16,
+  "goles_esperados": 2.5,
+  "over15": 73.1,
+  "over25": 46.6,
+  "under25": 53.4,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-10-30 16:32 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (ARG al día tras la fecha 14 completa, 210 PJ; fuentes en sus comentarios); Dashboard Gol 4.0 /api/dia no disponible",
+  "rango_clasico": "Rango 70"
+ },
+ {
+  "hora": "19:15",
+  "liga": "ARG",
+  "local": "Sarmiento",
+  "visita": "Rosario Central",
+  "casa": [
+   7,
+   11,
+   7
+  ],
+  "fuera": [
+   7,
+   10,
+   7
+  ],
+  "HG": 1.23,
+  "AG": 1.02,
+  "lambda_local": 1.25,
+  "lambda_visita": 1.14,
+  "goles_esperados": 2.4,
+  "over15": 70.0,
+  "over25": 42.8,
+  "under25": 57.2,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-10-30 16:32 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (ARG al día tras la fecha 14 completa, 210 PJ; fuentes en sus comentarios); Dashboard Gol 4.0 /api/dia no disponible",
+  "rango_clasico": "Rango 70"
+ }
+]

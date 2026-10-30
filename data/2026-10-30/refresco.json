@@ -1,0 +1,11 @@
+{
+ "fecha": "2026-10-30",
+ "ultima_ejecucion": "2026-10-30 16:12 ECU",
+ "ultima_ok": null,
+ "rutina_diaria": "en_curso",
+ "rutina_diaria_inicio": "2026-10-30 16:12 ECU",
+ "pendientes": [],
+ "deploy": {"ok": null, "fallos_seguidos": 0, "ultima_revision": null},
+ "avisos_enviados": [],
+ "nota": "16:12: primera ejecución registrada del día; no hay data/2026-10-29 ni data/2026-10-30 en main (último refresco 28-oct 17:11). Se inicia la rutina diaria (recuperación)."
+}

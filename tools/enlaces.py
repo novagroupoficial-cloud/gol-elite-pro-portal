@@ -939,3 +939,65 @@ LLEGAN={
    "Rosario Central fuera: 10 a favor y 7 en contra en 7 partidos (2,4 goles por partido).",
    "Fuente: tabla del Clausura 2026 de local y visitante, partido a partido (fechas 1 a 14)."],
 }
+
+# ---- Sábado 31-oct-2026 (rutina diaria, sellado 05:52 ECU) ----
+# LINK: previa real de cada partido de Over 1.5 de 80 % o más (data/2026-10-31/noticias.json tiene la noticia con hechos);
+# para el resto, la agenda real del sábado 31 de Líbero (hora de Perú = Ecuador) o la de la fecha 5 de LigaPro de El Mercurio.
+_LB=("Partidos de hoy, sábado 31 de octubre: quiénes juegan por Liga 1, LaLiga, Bundesliga y más","Líbero","https://libero.pe/futbol-internacional/2026/10/30/partidos-de-hoy-sabado-31-de-octubre-quienes-juegan-liga-1-laliga-bundesliga-2342580")
+_EM=("Así se jugará la fecha 5 de la fase final de LigaPro","El Mercurio","https://www.elmercurio.com.ec/deportes/2026/10/30/fecha-5-ligapro-hexagonales-cuadrangular-partidos/")
+LINK={f"{p['local']}|{p['visita']}":(_EM if p['liga']=='ECU' else _LB) for p in _P if not p.get('sin')}
+LINK.update({
+ 'Chelsea|Manchester United':('Chelsea vs Manchester United, previa de la jornada 9: bajas, once probable y claves FPL','Football Dream','https://www.footballdream.in/blog/chelsea-vs-manchester-united-gw9-premier-league-2026-27'),
+ 'Levante|Atletico Madrid':('Levante vs Atlético de Madrid, previa jornada 11: once probable, forma y pronóstico','Football Dream','https://www.footballdream.in/blog/levante-vs-atletico-madrid-matchday-11-la-liga-2026-27'),
+ 'Bologna|Monza':('Bologna vs Monza: ficha, forma y tabla antes del partido','Fútbol Total','https://futboltotal.futbol/partido/bologna-vs-monza-serie-a-2026-10-31'),
+ 'Manchester City|Brighton & Hove Albion':('Manchester City vs Brighton & Hove Albion, previa de la jornada 9: bajas, once probable y claves FPL','Football Dream','https://www.footballdream.in/blog/manchester-city-vs-brighton-gw9-premier-league-2026-27'),
+ 'Hull City|Ipswich Town':('Hull City vs Ipswich Town, previa de la jornada 9: bajas, once probable y claves FPL','Football Dream','https://www.footballdream.in/blog/hull-city-vs-ipswich-town-gw9-premier-league-2026-27'),
+ 'Coventry City|Sunderland':('Coventry City vs Sunderland, previa de la jornada 9: bajas, once probable y claves FPL','Football Dream','https://www.footballdream.in/blog/coventry-city-vs-sunderland-gw9-premier-league-2026-27'),
+ 'Moreirense|Estrela Amadora':('Moreirense vs Estrela Amadora: ficha, forma y tabla antes del partido','Fútbol Total','https://futboltotal.futbol/partido/moreirense-vs-estrela-primeira-liga-2026-10-31'),
+ 'AC Milan|Inter':('AC Milan vs Inter: ficha, forma y tabla antes del partido','Fútbol Total','https://futboltotal.futbol/partido/ac-milan-vs-inter-serie-a-2026-10-31'),
+ 'Troyes|Le Mans':('Troyes vs Le Mans: ficha, forma y tabla antes del partido','Fútbol Total','https://futboltotal.futbol/partido/estac-troyes-vs-le-mans-ligue-1-2026-10-31'),
+ 'Barcelona|Alaves':('Barcelona vs Alavés, previa jornada 11: once probable, forma y pronóstico','Football Dream','https://www.footballdream.in/blog/barcelona-vs-alaves-matchday-11-la-liga-2026-27'),
+ 'Cambuur|Go Ahead Eagles':('Cambuur vs Go Ahead Eagles: ficha, forma y tabla antes del partido','Fútbol Total','https://futboltotal.futbol/partido/cambuur-vs-go-ahead-eagles-eredivisie-2026-10-31'),
+ 'Ajax|AZ':('Ajax vs AZ: ficha, forma y tabla antes del partido','Fútbol Total','https://futboltotal.futbol/partido/ajax-vs-az-alkmaar-eredivisie-2026-10-31'),
+ 'PSV|Willem II':('PSV vs Willem II: ficha, forma y tabla antes del partido','Fútbol Total','https://futboltotal.futbol/partido/psv-eindhoven-vs-willem-ii-eredivisie-2026-10-31'),
+ 'Heerenveen|NEC':('Heerenveen vs NEC Nijmegen – Eredivisie, jornada 11 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/heerenveen-vs-nec-nijmegen-eredivisie-2026-10-31'),
+ 'Feyenoord|Fortuna Sittard':('Feyenoord vs Fortuna Sittard – Eredivisie, jornada 11 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/feyenoord-vs-fortuna-sittard-eredivisie-2026-10-31'),
+ 'Bayern Munich|Borussia Dortmund':('FC Bayern Múnich – Borussia Dortmund, 31-10-2026 (página de jornada)','FC Bayern (web oficial)','https://fcbayern.com/en/matches/profis/bundesliga/2026-2027/fc-bayern-muenchen-borussia-dortmund-31-10-2026/matchday'),
+ 'Werder Bremen|Hoffenheim':('Werder Bremen vs Hoffenheim – Bundesliga, jornada 8 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/werder-bremen-vs-1899-hoffenheim-bundesliga-2026-10-31'),
+ 'Schalke 04|RB Leipzig':('Pronóstico FC Schalke 04 vs RB Leipzig – Bundesliga, jornada 8','Foresportia','https://www.foresportia.com/en/prediction/bundesliga/fc-schalke-04-rb-leipzig-2026-10-31/'),
+ 'Borussia Monchengladbach|SC Paderborn':('Pronóstico Borussia Mönchengladbach vs SC Paderborn 07 – Bundesliga, jornada 8','Foresportia','https://www.foresportia.com/en/prediction/bundesliga/borussia-monchengladbach-sc-paderborn-07-2026-10-31/'),
+ 'Bayer Leverkusen|VfB Stuttgart':('Bayer Leverkusen vs VfB Stuttgart – Bundesliga, jornada 8 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/bayer-leverkusen-vs-vfb-stuttgart-bundesliga-2026-10-31'),
+ 'Augsburg|SC Freiburg':('FC Augsburg vs SC Freiburg – Bundesliga, jornada 8 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/fc-augsburg-vs-sc-freiburg-bundesliga-2026-10-31'),
+ 'Charlotte|Orlando City':('Charlotte F.C. vs Orlando City S.C.: MLS 2026, Jornada 33 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/charlotte-fc-vs-orlando-city-sc-mls-2026-10-31'),
+ 'Columbus Crew|DC United':('Columbus Crew vs D.C. United: MLS 2026, Jornada 33 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/columbus-crew-vs-dc-united-mls-2026-10-31'),
+ 'New York City|CF Montreal':('New York City F.C. vs C.F. Montréal: MLS 2026, Jornada 33 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/new-york-city-fc-vs-cf-montreal-mls-2026-10-31'),
+ 'Cincinnati|Philadelphia':('FC Cincinnati vs Philadelphia Union: alineaciones probables y bajas (MLS, fecha 33)','Starting11','https://starting11.com/fixtures/fc-cincinnati-vs-philadelphia-union'),
+ 'Sporting KC|Dallas':('Sporting Kansas City vs F.C. Dallas: MLS 2026, Jornada 33 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/sporting-kansas-city-vs-fc-dallas-mls-2026-10-31'),
+ 'St. Louis City|San Diego':('St. Louis City S.C. vs San Diego F.C.: MLS 2026, Jornada 33 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/st-louis-city-sc-vs-san-diego-fc-mls-2026-10-31'),
+ 'Alianza Atlético|Juan Pablo II':('Alianza Atlético vs Juan Pablo II College: alineaciones probables (Liga 1, fecha 15)','Starting11','https://starting11.com/fixtures/alianza-atletico-vs-juan-pablo-ii-college'),
+ 'LA Galaxy|Austin':('Los Angeles Galaxy vs Austin F.C.: MLS 2026, Jornada 33 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/los-angeles-galaxy-vs-austin-fc-mls-2026-10-31'),
+ 'SJ Earthquakes|Real Salt Lake':('San Jose Earthquakes vs Real Salt Lake: MLS 2026, Jornada 33 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/san-jose-earthquakes-vs-real-salt-lake-mls-2026-10-31'),
+ 'Pachuca|Tigres UANL':('Pachuca vs Tigres UANL: Liga MX Apertura 2026, Jornada 15 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/pachuca-vs-tigres-uanl-liga-mx-2026-11-01'),
+ 'Monterrey|Tijuana':('Monterrey vs Tijuana EN VIVO: Dónde ver en TV, online y hora Jornada 15 Liga MX Apertura 2026','Fox Sports México','https://www.foxsports.com.mx/2026/10/27/monterrey-vs-tijuana-en-vivo-donde-ver-en-tv-online-y-hora-jornada-15-liga-mx-apertura-2026/'),
+ 'Colorado Rapids|Chicago Fire':('Colorado Rapids vs Chicago Fire F.C.: MLS 2026, Jornada 33 (ficha previa)','Fútbol Total','https://futboltotal.futbol/partido/colorado-rapids-vs-chicago-fire-mls-2026-11-01'),
+ 'Macará|Barcelona SC':("Macará busca afianzar el vicecampeonato","Prensa Mercosur","https://prensamercosur.org/2026/10/28/macara-busca-afianzar-el-vicecampeonato/"),
+})
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['AC Milan|Inter','Bayern Munich|Borussia Dortmund','Macará|Barcelona SC','Emelec|Leones del Norte']
+COL.update({'Estoril':'#ffe600','Estrela Amadora':'#d0021b','FC Porto':'#1d4fa0','Go Ahead Eagles':'#c8102e','Juan Pablo II':'#0b2a8a','Moreirense':'#0b7a3b','Nublense':'#c8102e','OHiggins':'#0aa0e0','Cambuur':'#f6d11b'})
+# Aciertos de ayer (viernes 30) y del miércoles 28 (auditado hoy): (partido, marcador real, nuestro Over 1.5, medio, url)
+ACIERTOS=[
+ ("Racing Club vs Aldosivi","2-1","73 % · partido del día (vie 30)","GidStats","https://gidstats.com/football/argentina/2026-10-30-1493224-racing-club-vs-aldosivi/"),
+ ("Sarmiento vs Rosario Central","1-2","70 % · vie 30","La Nación","https://www.lanacion.com.ar/deportes/canchallena/rosario-central-vencio-por-2-1-a-sarmiento-por-el-torneo-clausura-2026-nid30102026/"),
+ ("Monza vs Napoli","1-4","83 % · mié 28","Football Italia","https://football-italia.net/serie-a-liveblog-9-inter-milan-juventus-napoli/"),
+ ("Venezia vs Inter","0-2","81 % · mié 28","Yahoo Sports","https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html"),
+ ("Internacional de Bogotá vs Independiente Medellín","3-1","80 % · mié 28","Infobae","https://www.infobae.com/colombia/deportes/2026/10/29/asi-quedo-la-tabla-de-posiciones-de-la-liga-betplay-2026-ii-tras-la-victoria-de-once-caldas-hubo-cambios-en-el-grupo-de-los-ocho/"),
+ ("AC Milan vs Bologna","2-4","77 % · mié 28","Yahoo Sports","https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html"),
+ ("Bahia vs São Paulo","3-2","70 % · mié 28","Muita Informação","https://muitainformacao.com.br/esporte/bahia-vence-sao-paulo-fluminense-vira-sobre-inter-e-palmeiras-tropeca/"),
+]
+LLEGAN={
+ 'Cambuur|Go Ahead Eagles':['Cambuur 10.º con 12 pts; Go Ahead Eagles 9.º con 14 pts (tras 10 jornadas).', 'Cambuur suma 5 partidos oficiales sin perder (4 de liga y 1 de Copa); Nicolas Binder marcó doblete en el 1-6 ante Willem II.', 'GAE ha marcado y encajado 23 goles en 10 jornadas (2,3 por partido en cada sentido).', 'Fuentes: Fútbol Total y FootballPredictions.com (ficha del partido, 31-oct).'],
+ 'Cincinnati|Philadelphia':['Philadelphia ya clasificado a playoffs (6º, 47 pts).', 'Último duelo: Philadelphia 5-0 Cincinnati (10-sep-2026).', 'Cincinnati: 66 GF y 73 GC en 32 PJ (8º, 43 pts).', 'Fuentes: Fútbol Total, Starting11 y MLSsoccer.com (31-oct).'],
+ 'PSV|Willem II':['PSV 3.º (20 pts); Willem II 18.º (2 pts, 32 goles en contra).', 'Willem II encadena 5 derrotas.', '15 de los últimos 20 PSV–Willem II tuvieron 3 goles o más.', 'Fuentes: Fútbol Total y FootballPredictions.com (31-oct).'],
+ 'Werder Bremen|Hoffenheim':['Werder 6.º (12 pts) vs Hoffenheim 10.º (9 pts).','Werder marcó 2 o más goles en sus últimos 3 de Bundesliga (2-3 en Mainz, 2-2 ante Paderborn, 2-2 en Dortmund).', 'Fuentes: Fútbol Total (ficha del partido, 31-oct).'],
+}

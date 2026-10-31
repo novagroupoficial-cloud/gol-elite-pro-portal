@@ -1,0 +1,334 @@
+{
+ "fecha": "2026-10-28",
+ "auditado": "2026-10-31 06:00 ECU",
+ "partidos": 12,
+ "terminados": 12,
+ "anulados": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "Rango 80": [
+   2,
+   3
+  ],
+  "Rango 70": [
+   7,
+   9
+  ],
+  "Total >=70": [
+   9,
+   12
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   0
+  ],
+  "Marcadores exactos": [
+   0,
+   12
+  ],
+  "Menos de 70 (informativo)": [
+   0,
+   0
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   3,
+   4
+  ],
+  "GOLES OPTIMISTAS": [
+   6,
+   8
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   0,
+   0
+  ],
+  "moderada": [
+   0,
+   0
+  ]
+ },
+ "intervalo_wilson_95": {
+  "Rango 80": [
+   20.8,
+   93.9
+  ],
+  "Rango 70": [
+   45.3,
+   93.7
+  ],
+  "Total >=70": [
+   46.8,
+   91.1
+  ],
+  "GOLES ESTÁNDAR": [
+   30.1,
+   95.4
+  ],
+  "GOLES OPTIMISTAS": [
+   40.9,
+   92.9
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Parma vs Udinese",
+  "over15": 84.8,
+  "sellado": "05:39 ECU",
+  "resultado": "0-0",
+  "goles": 0,
+  "acierto": false
+ },
+ "fallos_over15_70": [
+  "Parma 0-0 Udinese (84,8 %, GOLES ESTÁNDAR; hubo 0 goles)",
+  "Santos 0-0 Palmeiras (73,3 %, GOLES OPTIMISTAS; hubo 0 goles)",
+  "Once Caldas 1-0 Alianza (ex Alianza Petrolera) (72,8 %, GOLES OPTIMISTAS; hubo 1 gol)"
+ ],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [],
+ "anulados_lista": [],
+ "nota": "Auditoría hecha el 31-oct por la rutina diaria (la del 29 y la del 30 no la hicieron). Resultados: 5 del refresco horario del 28 y 7 agregados hoy con fuente (valorfinal.com.br, muitainformacao.com.br, noticiascaracol.com, infobae.com) en data/2026-10-28/resultados-en-vivo.json. Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. El Dashboard Gol 4.0 no responde en esta ejecución: auditoría manual. Escala de Marco del 17-oct (GOL ÉLITE ≥95 · GOLES PLATINO 90–94 · GOLES ESTÁNDAR 80–89 · GOLES OPTIMISTAS <80, sobre el entero redondeado) y, aparte, la escala clásica. Intervalos de Wilson 95 %.",
+ "resultados": [
+  {
+   "hora": "12:30",
+   "liga": "ITA",
+   "local": "AC Milan",
+   "visita": "Bologna",
+   "resultado": "2-4",
+   "estado": "terminado",
+   "over15": 77.2,
+   "over25": 52.1,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "goles": 6,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html"
+  },
+  {
+   "hora": "12:30",
+   "liga": "ITA",
+   "local": "Parma",
+   "visita": "Udinese",
+   "resultado": "0-0",
+   "estado": "terminado",
+   "over15": 84.8,
+   "over25": 63.8,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html"
+  },
+  {
+   "hora": "12:30",
+   "liga": "ITA",
+   "local": "Venezia",
+   "visita": "Inter",
+   "resultado": "0-2",
+   "estado": "terminado",
+   "over15": 80.9,
+   "over25": 57.7,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html"
+  },
+  {
+   "hora": "14:45",
+   "liga": "ITA",
+   "local": "Genoa",
+   "visita": "Juventus",
+   "resultado": "2-0",
+   "estado": "terminado",
+   "over15": 78.2,
+   "over25": 53.5,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://football-italia.net/serie-a-liveblog-9-inter-milan-juventus-napoli/"
+  },
+  {
+   "hora": "14:45",
+   "liga": "ITA",
+   "local": "Monza",
+   "visita": "Napoli",
+   "resultado": "1-4",
+   "estado": "terminado",
+   "over15": 82.7,
+   "over25": 60.4,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://football-italia.net/serie-a-liveblog-9-inter-milan-juventus-napoli/"
+  },
+  {
+   "hora": "17:30",
+   "liga": "BRA",
+   "local": "Bragantino",
+   "visita": "Chapecoense",
+   "resultado": "3-0",
+   "estado": "terminado",
+   "over15": 74.3,
+   "over25": 48.3,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://valorfinal.com.br/brasileirao/resultados"
+  },
+  {
+   "hora": "17:30",
+   "liga": "BRA",
+   "local": "Fluminense",
+   "visita": "Internacional",
+   "resultado": "2-1",
+   "estado": "terminado",
+   "over15": 74.2,
+   "over25": 48.2,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://valorfinal.com.br/brasileirao/resultados"
+  },
+  {
+   "hora": "17:30",
+   "liga": "BRA",
+   "local": "Santos",
+   "visita": "Palmeiras",
+   "resultado": "0-0",
+   "estado": "terminado",
+   "over15": 73.3,
+   "over25": 46.9,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://valorfinal.com.br/brasileirao/resultados"
+  },
+  {
+   "hora": "18:00",
+   "liga": "COL",
+   "local": "Once Caldas",
+   "visita": "Alianza (ex Alianza Petrolera)",
+   "resultado": "1-0",
+   "estado": "terminado",
+   "over15": 72.8,
+   "over25": 46.3,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.noticiascaracol.com/golcaracol/futbol-colombiano/asi-quedo-la-tabla-de-posiciones-de-liga-betplay-2026-ii-tras-once-caldas-1-0-alianza-fc-so35"
+  },
+  {
+   "hora": "19:30",
+   "liga": "BRA",
+   "local": "Bahia",
+   "visita": "São Paulo",
+   "resultado": "3-2",
+   "estado": "terminado",
+   "over15": 70.1,
+   "over25": 43.0,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://muitainformacao.com.br/esporte/bahia-vence-sao-paulo-fluminense-vira-sobre-inter-e-palmeiras-tropeca/"
+  },
+  {
+   "hora": "19:30",
+   "liga": "BRA",
+   "local": "Remo",
+   "visita": "Botafogo",
+   "resultado": "2-1",
+   "estado": "terminado",
+   "over15": 76.3,
+   "over25": 51.0,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://valorfinal.com.br/brasileirao/resultados"
+  },
+  {
+   "hora": "20:05",
+   "liga": "COL",
+   "local": "Internacional de Bogotá (ex La Equidad)",
+   "visita": "Independiente Medellín",
+   "resultado": "3-1",
+   "estado": "terminado",
+   "over15": 79.8,
+   "over25": 55.9,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-28 05:39 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.infobae.com/colombia/deportes/2026/10/29/asi-quedo-la-tabla-de-posiciones-de-la-liga-betplay-2026-ii-tras-la-victoria-de-once-caldas-hubo-cambios-en-el-grupo-de-los-ocho/"
+  }
+ ]
+}

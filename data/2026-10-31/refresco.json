@@ -2,13 +2,9 @@
  "fecha": "2026-10-31",
  "ultima_ejecucion": "2026-10-31 06:10 ECU",
  "ultima_ok": "2026-10-31 05:10 ECU",
- "rutina_diaria": "en_curso",
+ "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-31 05:52 ECU (pronósticos sellados; 53 partidos)",
  "pendientes": [
-  "Rutina diaria del 31-oct: pronósticos sellados 05:52 (53 partidos); falta portada (tools/portal.py aún con la selección del 30-oct: KeyError 'Cincinnati|Philadelphia'). Si a las 08:00 sigue sin portada y la rutina pasa 120 min en curso, el refresco la retoma.",
-  "Auditoría + galería del 30-oct (4 partidos, resultados provisionales ya en data/2026-10-30/resultados-en-vivo.json).",
-  "Resultados del 28-oct sin registrar (7 de 12) y auditoría + galería del 28-oct.",
-  "Tablas de tools/datos.py sin los partidos del 28 y 29-oct.",
   "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido; 7.ª vez hoy). Aviso de bloqueo de hoy enviado a las 02:10.",
   "Ranking 06:10 no publicado: portal.py falla hasta que la rutina actualice PRED/LINK; feed hoy.json se publicará con la portada."
  ],
@@ -21,5 +17,5 @@
   "bloqueo"
  ],
  "web_sin_lectura_seguidas_hoy": 7,
- "nota": "03:09: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica. Portada sigue con el ranking final del 30-oct. Web sin lectura 4 veces hoy (aviso de bloqueo ya enviado). | 04:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica. Web sin lectura 5.ª vez hoy (aviso de bloqueo ya enviado; no se repite). | 05:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica (la rutina diaria de las 05:24 aún no corre). Web sin lectura 6.ª vez hoy (aviso de bloqueo ya enviado; no se repite). | 06:10: pronósticos de hoy ya sellados (05:52, 53 partidos; primer partido 07:30). refresco.py OK (ningún partido terminado) pero portal.py falla con la selección vieja: no se publica a medias, se espera a la rutina diaria en curso. Web sin lectura 7.ª vez hoy."
+ "nota": "03:09: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica. Portada sigue con el ranking final del 30-oct. Web sin lectura 4 veces hoy (aviso de bloqueo ya enviado). | 04:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica. Web sin lectura 5.ª vez hoy (aviso de bloqueo ya enviado; no se repite). | 05:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica (la rutina diaria de las 05:24 aún no corre). Web sin lectura 6.ª vez hoy (aviso de bloqueo ya enviado; no se repite). | 06:10: pronósticos de hoy ya sellados (05:52, 53 partidos; primer partido 07:30). refresco.py OK (ningún partido terminado) pero portal.py falla con la selección vieja: no se publica a medias, se espera a la rutina diaria en curso. Web sin lectura 7.ª vez hoy. | 06:16 (rutina diaria): 53 pronósticos sellados 05:52; portada, auditorías del 28 y 30, galería y kit de redes publicados; tablas al día hasta el 30-oct."
 }

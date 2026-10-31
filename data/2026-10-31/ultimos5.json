@@ -1,0 +1,2372 @@
+{
+ "nota": "Fase de medición Kaizen: no entra al modelo. Últimos 5 partidos oficiales (se excluyen amistosos; si la fuente muestra menos de 5 oficiales, se registran los que hay) según las fichas de Fútbol Total y otras fuentes abiertas citadas en cada equipo. Cuotas Over/Under 2.5 solo si una fuente abierta las muestra; si no, 'sin dato'.",
+ "Chelsea|Manchester United": {
+  "local": {
+   "equipo": "Chelsea",
+   "fuente": "https://futboltotal.futbol/partido/chelsea-vs-manchester-united-premier-league-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Liverpool",
+     "condicion": "fuera",
+     "marcador": "Liverpool 1-1 Chelsea"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Tottenham Hotspur",
+     "condicion": "casa",
+     "marcador": "Chelsea 0-2 Tottenham Hotspur"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Everton",
+     "condicion": "fuera",
+     "marcador": "Everton 0-2 Chelsea"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Bournemouth",
+     "condicion": "casa",
+     "marcador": "Chelsea 5-1 Bournemouth"
+    },
+    {
+     "fecha": "2026-09-18",
+     "rival": "Brentford",
+     "condicion": "fuera",
+     "marcador": "Brentford 3-0 Chelsea"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Manchester United",
+   "fuente": "https://futboltotal.futbol/partido/chelsea-vs-manchester-united-premier-league-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Bournemouth",
+     "condicion": "casa",
+     "marcador": "Manchester United 0-3 Bournemouth"
+    },
+    {
+     "fecha": "2026-10-21",
+     "rival": "Como",
+     "condicion": "fuera",
+     "marcador": "Como 4-1 Manchester United"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Leeds",
+     "condicion": "fuera",
+     "marcador": "Leeds 1-1 Manchester United"
+    },
+    {
+     "fecha": "2026-10-13",
+     "rival": "Atlético de Madrid",
+     "condicion": "fuera",
+     "marcador": "Atlético de Madrid 2-0 Manchester United"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Tottenham Hotspur",
+     "condicion": "casa",
+     "marcador": "Manchester United 1-1 Tottenham Hotspur"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Levante|Atletico Madrid": {
+  "local": {
+   "equipo": "Levante",
+   "fuente": "https://futboltotal.futbol/partido/levante-vs-atletico-madrid-laliga-1570439",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Real Sociedad",
+     "condicion": "fuera",
+     "marcador": "Real Sociedad 2-1 Levante"
+    },
+    {
+     "fecha": "2026-10-21",
+     "rival": "Athletic Club",
+     "condicion": "casa",
+     "marcador": "Levante 3-1 Athletic Club"
+    },
+    {
+     "fecha": "2026-10-16",
+     "rival": "Deportivo La Coruña",
+     "condicion": "fuera",
+     "marcador": "Deportivo La Coruña 1-1 Levante"
+    },
+    {
+     "fecha": "2026-10-12",
+     "rival": "Sevilla",
+     "condicion": "casa",
+     "marcador": "Levante 3-3 Sevilla"
+    },
+    {
+     "fecha": "2026-09-20",
+     "rival": "Villarreal",
+     "condicion": "fuera",
+     "marcador": "Villarreal 3-1 Levante"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Atletico Madrid",
+   "fuente": "https://futboltotal.futbol/partido/levante-vs-atletico-madrid-laliga-1570439",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-24",
+     "rival": "Deportivo La Coruña",
+     "condicion": "casa",
+     "marcador": "Atlético 1-0 Deportivo La Coruña"
+    },
+    {
+     "fecha": "2026-10-20",
+     "rival": "VfB Stuttgart",
+     "condicion": "fuera",
+     "marcador": "VfB Stuttgart 1-1 Atlético"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "RCD Espanyol",
+     "condicion": "fuera",
+     "marcador": "RCD Espanyol 0-1 Atlético"
+    },
+    {
+     "fecha": "2026-10-13",
+     "rival": "Manchester United",
+     "condicion": "casa",
+     "marcador": "Atlético 2-0 Manchester United"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Deportivo Alavés",
+     "condicion": "fuera",
+     "marcador": "Deportivo Alavés 1-2 Atlético"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Bologna|Monza": {
+  "local": {
+   "equipo": "Bologna",
+   "fuente": "https://futboltotal.futbol/partido/bologna-vs-monza-serie-a-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "AC Milan",
+     "condicion": "fuera",
+     "marcador": "AC Milan 2-4 Bologna"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Cagliari",
+     "condicion": "fuera",
+     "marcador": "Cagliari 0-2 Bologna"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Inter",
+     "condicion": "casa",
+     "marcador": "Bologna 1-3 Inter"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "Lecce",
+     "condicion": "fuera",
+     "marcador": "Lecce 1-2 Bologna"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Torino",
+     "condicion": "casa",
+     "marcador": "Bologna 1-1 Torino"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Monza",
+   "fuente": "https://futboltotal.futbol/partido/bologna-vs-monza-serie-a-2026-10-31",
+   "nota": "Solo 4 oficiales en la fuente; el 5º listado (03-oct, Brest 2-2 Monza) fue amistoso y se excluye.",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Napoli",
+     "condicion": "casa",
+     "marcador": "Monza 1-4 Napoli"
+    },
+    {
+     "fecha": "2026-10-23",
+     "rival": "Torino",
+     "condicion": "fuera",
+     "marcador": "Torino 3-2 Monza"
+    },
+    {
+     "fecha": "2026-10-19",
+     "rival": "Cagliari",
+     "condicion": "casa",
+     "marcador": "Monza 4-0 Cagliari"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "Lazio",
+     "condicion": "fuera",
+     "marcador": "Lazio 3-1 Monza"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Manchester City|Brighton & Hove Albion": {
+  "local": {
+   "equipo": "Manchester City",
+   "fuente": "https://futboltotal.futbol/partido/manchester-city-vs-brighton-premier-league-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Brighton",
+     "condicion": "casa",
+     "marcador": "Manchester City 2-2 Brighton (Carabao Cup, penales)"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Aston Villa",
+     "condicion": "fuera",
+     "marcador": "Aston Villa 2-1 Manchester City"
+    },
+    {
+     "fecha": "2026-10-20",
+     "rival": "AEK Athens",
+     "condicion": "casa",
+     "marcador": "Manchester City 5-1 AEK Athens"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Ipswich",
+     "condicion": "casa",
+     "marcador": "Manchester City 3-2 Ipswich"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "PSG",
+     "condicion": "casa",
+     "marcador": "Manchester City 2-4 PSG"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Brighton & Hove Albion",
+   "fuente": "https://futboltotal.futbol/partido/manchester-city-vs-brighton-premier-league-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Manchester City",
+     "condicion": "fuera",
+     "marcador": "Manchester City 2-2 Brighton (Carabao Cup, penales)"
+    },
+    {
+     "fecha": "2026-10-25",
+     "rival": "Liverpool",
+     "condicion": "fuera",
+     "marcador": "Liverpool 2-0 Brighton"
+    },
+    {
+     "fecha": "2026-10-22",
+     "rival": "FK Jablonec",
+     "condicion": "fuera",
+     "marcador": "FK Jablonec 0-0 Brighton"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Crystal Palace",
+     "condicion": "casa",
+     "marcador": "Brighton 5-0 Crystal Palace"
+    },
+    {
+     "fecha": "2026-10-15",
+     "rival": "Kauno Žalgiris",
+     "condicion": "casa",
+     "marcador": "Brighton 4-0 Kauno Žalgiris"
+    }
+   ]
+  },
+  "cuotas": {
+   "cuota_over25": 1.44,
+   "cuota_under25": "sin dato",
+   "casa": "no indicada (texto de análisis de Oddslot; la tabla de cuotas BC.Game solo muestra 1X2: 1.70/4.33/4.20)",
+   "url": "https://oddslot.com/football/match/premier-league/manchester-city/brighton/31-oct-2026/"
+  }
+ },
+ "Hull City|Ipswich Town": {
+  "local": {
+   "equipo": "Hull City",
+   "fuente": "https://futboltotal.futbol/partido/hull-city-vs-ipswich-premier-league-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Brentford",
+     "condicion": "casa",
+     "marcador": "Hull City 1-1 Brentford"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Fulham",
+     "condicion": "fuera",
+     "marcador": "Fulham 1-0 Hull City"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "Everton",
+     "condicion": "casa",
+     "marcador": "Hull City 2-2 Everton"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Newcastle United",
+     "condicion": "fuera",
+     "marcador": "Newcastle United 2-1 Hull City"
+    },
+    {
+     "fecha": "2026-09-12",
+     "rival": "Chelsea",
+     "condicion": "fuera",
+     "marcador": "Chelsea 2-2 Hull City"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Ipswich Town",
+   "fuente": "https://futboltotal.futbol/partido/hull-city-vs-ipswich-premier-league-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-23",
+     "rival": "Nottingham Forest",
+     "condicion": "casa",
+     "marcador": "Ipswich 1-1 Nottingham Forest"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Manchester City",
+     "condicion": "fuera",
+     "marcador": "Manchester City 3-2 Ipswich"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Fulham",
+     "condicion": "casa",
+     "marcador": "Ipswich 2-1 Fulham"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Everton",
+     "condicion": "fuera",
+     "marcador": "Everton 1-0 Ipswich"
+    },
+    {
+     "fecha": "2026-09-15",
+     "rival": "Arsenal",
+     "condicion": "casa",
+     "marcador": "Ipswich 2-4 Arsenal (Carabao Cup)"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Coventry City|Sunderland": {
+  "local": {
+   "equipo": "Coventry City",
+   "fuente": "https://futboltotal.futbol/partido/coventry-vs-sunderland-premier-league-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-24",
+     "rival": "Fulham",
+     "condicion": "casa",
+     "marcador": "Coventry 0-1 Fulham"
+    },
+    {
+     "fecha": "2026-10-19",
+     "rival": "Tottenham Hotspur",
+     "condicion": "fuera",
+     "marcador": "Tottenham Hotspur 3-1 Coventry"
+    },
+    {
+     "fecha": "2026-10-12",
+     "rival": "Newcastle United",
+     "condicion": "casa",
+     "marcador": "Coventry 4-1 Newcastle United"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Nottingham Forest",
+     "condicion": "fuera",
+     "marcador": "Nottingham Forest 0-1 Coventry"
+    },
+    {
+     "fecha": "2026-09-16",
+     "rival": "Aston Villa",
+     "condicion": "casa",
+     "marcador": "Coventry 1-3 Aston Villa (Carabao Cup)"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Sunderland",
+   "fuente": "https://futboltotal.futbol/partido/coventry-vs-sunderland-premier-league-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Brentford",
+     "condicion": "casa",
+     "marcador": "Sunderland 3-2 Brentford (Carabao Cup)"
+    },
+    {
+     "fecha": "2026-10-25",
+     "rival": "Leeds",
+     "condicion": "casa",
+     "marcador": "Sunderland 0-0 Leeds"
+    },
+    {
+     "fecha": "2026-10-22",
+     "rival": "Lech Poznan",
+     "condicion": "fuera",
+     "marcador": "Lech Poznan 1-1 Sunderland"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Bournemouth",
+     "condicion": "fuera",
+     "marcador": "Bournemouth 2-0 Sunderland"
+    },
+    {
+     "fecha": "2026-10-15",
+     "rival": "Torreense",
+     "condicion": "fuera",
+     "marcador": "Torreense 1-2 Sunderland"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Moreirense|Estrela Amadora": {
+  "local": {
+   "equipo": "Moreirense",
+   "fuente": "https://futboltotal.futbol/partido/moreirense-vs-estrela-primeira-liga-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Estoril",
+     "condicion": "fuera",
+     "marcador": "Estoril 1-3 Moreirense"
+    },
+    {
+     "fecha": "2026-10-09",
+     "rival": "Gil Vicente",
+     "condicion": "casa",
+     "marcador": "Moreirense 0-1 Gil Vicente"
+    },
+    {
+     "fecha": "2026-09-20",
+     "rival": "Vitória de Guimarães",
+     "condicion": "fuera",
+     "marcador": "Vitória de Guimarães 1-1 Moreirense"
+    },
+    {
+     "fecha": "2026-09-14",
+     "rival": "Marítimo",
+     "condicion": "casa",
+     "marcador": "Moreirense 3-1 Marítimo"
+    },
+    {
+     "fecha": "2026-09-09",
+     "rival": "Benfica",
+     "condicion": "casa",
+     "marcador": "Moreirense 0-4 Benfica"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Estrela Amadora",
+   "fuente": "https://futboltotal.futbol/partido/moreirense-vs-estrela-primeira-liga-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-24",
+     "rival": "Casa Pia",
+     "condicion": "casa",
+     "marcador": "Estrela 0-2 Casa Pia"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "Arouca",
+     "condicion": "fuera",
+     "marcador": "Arouca 1-0 Estrela"
+    },
+    {
+     "fecha": "2026-09-20",
+     "rival": "Académico Viseu",
+     "condicion": "casa",
+     "marcador": "Estrela 0-2 Académico Viseu"
+    },
+    {
+     "fecha": "2026-09-14",
+     "rival": "Rio Ave",
+     "condicion": "fuera",
+     "marcador": "Rio Ave 3-3 Estrela"
+    },
+    {
+     "fecha": "2026-09-10",
+     "rival": "SC Braga",
+     "condicion": "casa",
+     "marcador": "Estrela 2-1 SC Braga"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "AC Milan|Inter": {
+  "local": {
+   "equipo": "AC Milan",
+   "fuente": "https://futboltotal.futbol/partido/ac-milan-vs-inter-serie-a-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Bologna",
+     "condicion": "casa",
+     "marcador": "AC Milan 2-4 Bologna"
+    },
+    {
+     "fecha": "2026-10-25",
+     "rival": "Udinese",
+     "condicion": "fuera",
+     "marcador": "Udinese 0-2 AC Milan"
+    },
+    {
+     "fecha": "2026-10-22",
+     "rival": "Bournemouth",
+     "condicion": "fuera",
+     "marcador": "Bournemouth 3-0 AC Milan (Europa League)"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Atalanta",
+     "condicion": "casa",
+     "marcador": "AC Milan 3-2 Atalanta"
+    },
+    {
+     "fecha": "2026-10-15",
+     "rival": "Red Bull Salzburg",
+     "condicion": "fuera",
+     "marcador": "Red Bull Salzburg 0-4 AC Milan (Europa League)"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Inter",
+   "fuente": "https://futboltotal.futbol/partido/ac-milan-vs-inter-serie-a-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Venezia",
+     "condicion": "fuera",
+     "marcador": "Venezia 0-2 Inter"
+    },
+    {
+     "fecha": "2026-10-25",
+     "rival": "Fiorentina",
+     "condicion": "casa",
+     "marcador": "Inter 2-1 Fiorentina"
+    },
+    {
+     "fecha": "2026-10-21",
+     "rival": "Shakhtar Donetsk",
+     "condicion": "casa",
+     "marcador": "Inter 1-0 Shakhtar Donetsk (Champions)"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Bologna",
+     "condicion": "fuera",
+     "marcador": "Bologna 1-3 Inter"
+    },
+    {
+     "fecha": "2026-10-13",
+     "rival": "Club Brugge",
+     "condicion": "casa",
+     "marcador": "Inter 3-4 Club Brugge (Champions)"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Troyes|Le Mans": {
+  "local": {
+   "equipo": "Troyes",
+   "fuente": "https://futboltotal.futbol/partido/estac-troyes-vs-le-mans-ligue-1-2026-10-31",
+   "nota": "Solo 4 oficiales; el 02-oct (Dijon 2-2 Troyes) fue amistoso y se excluye.",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Toulouse",
+     "condicion": "fuera",
+     "marcador": "Toulouse 0-0 Troyes"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Lens",
+     "condicion": "casa",
+     "marcador": "Troyes 1-3 Lens"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "Marseille",
+     "condicion": "casa",
+     "marcador": "Troyes 0-2 Marseille"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Angers",
+     "condicion": "fuera",
+     "marcador": "Angers 2-0 Troyes"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Le Mans",
+   "fuente": "https://futboltotal.futbol/partido/estac-troyes-vs-le-mans-ligue-1-2026-10-31",
+   "nota": "Solo 4 oficiales; el 02-oct (Guingamp 2-1 Le Mans) fue amistoso y se excluye.",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Auxerre",
+     "condicion": "fuera",
+     "marcador": "Auxerre 1-1 Le Mans"
+    },
+    {
+     "fecha": "2026-10-16",
+     "rival": "Toulouse",
+     "condicion": "casa",
+     "marcador": "Le Mans 0-3 Toulouse"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "PSG",
+     "condicion": "fuera",
+     "marcador": "PSG 3-1 Le Mans"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Lorient",
+     "condicion": "casa",
+     "marcador": "Le Mans 2-1 Lorient"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Barcelona|Alaves": {
+  "local": {
+   "equipo": "Barcelona",
+   "fuente": "https://futboltotal.futbol/partido/barcelona-vs-alaves-laliga-1570434",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Real Madrid",
+     "condicion": "casa",
+     "marcador": "Barcelona 1-2 Real Madrid"
+    },
+    {
+     "fecha": "2026-10-20",
+     "rival": "PSG",
+     "condicion": "fuera",
+     "marcador": "PSG 4-2 Barcelona"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Real Betis",
+     "condicion": "fuera",
+     "marcador": "Real Betis 2-5 Barcelona"
+    },
+    {
+     "fecha": "2026-10-13",
+     "rival": "Galatasaray",
+     "condicion": "fuera",
+     "marcador": "Galatasaray 1-4 Barcelona"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Getafe",
+     "condicion": "casa",
+     "marcador": "Barcelona 3-0 Getafe"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Alaves",
+   "fuente": "https://futboltotal.futbol/partido/barcelona-vs-alaves-laliga-1570434",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-23",
+     "rival": "Málaga",
+     "condicion": "casa",
+     "marcador": "Alavés 1-1 Málaga"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Celta de Vigo",
+     "condicion": "fuera",
+     "marcador": "Celta de Vigo 2-1 Alavés"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Atlético Madrid",
+     "condicion": "casa",
+     "marcador": "Alavés 1-2 Atlético Madrid"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Athletic Club",
+     "condicion": "fuera",
+     "marcador": "Athletic Club 0-0 Alavés"
+    },
+    {
+     "fecha": "2026-09-15",
+     "rival": "Valencia",
+     "condicion": "casa",
+     "marcador": "Alavés 0-1 Valencia"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Cambuur|Go Ahead Eagles": {
+  "local": {
+   "equipo": "Cambuur",
+   "fuente": "https://www.betexplorer.com/football/team/cambuur/QRyYgO7J/ ; copa: https://ontourfootball.com/fixtures/kloetinge-vs-cambuur-2026-10-27",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-27",
+     "rival": "Kloetinge (Copa KNVB)",
+     "condicion": "fuera",
+     "marcador": "Kloetinge 0-2 Cambuur"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Willem II",
+     "condicion": "fuera",
+     "marcador": "Willem II 1-6 Cambuur"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "AZ",
+     "condicion": "casa",
+     "marcador": "Cambuur 2-2 AZ"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "PEC Zwolle",
+     "condicion": "fuera",
+     "marcador": "PEC Zwolle 0-1 Cambuur"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "ADO Den Haag",
+     "condicion": "fuera",
+     "marcador": "ADO Den Haag 1-1 Cambuur"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Go Ahead Eagles",
+   "fuente": "https://futboltotal.futbol/partido/cambuur-vs-go-ahead-eagles-eredivisie-2026-10-31 ; copa: https://ontourfootball.com/fixtures/koninklijke-hfc-vs-go-ahead-eagles-2026-10-27 ; marcador Zwolle: https://club.betcity.nl/voorbeschouwingen/cambuur-leeuwarden-go-ahead-eagles",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-27",
+     "rival": "Koninklijke HFC (Copa KNVB)",
+     "condicion": "fuera",
+     "marcador": "Koninklijke HFC 0-5 Go Ahead Eagles"
+    },
+    {
+     "fecha": "2026-10-23",
+     "rival": "Telstar",
+     "condicion": "casa",
+     "marcador": "Go Ahead Eagles 3-2 Telstar"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "PEC Zwolle",
+     "condicion": "fuera",
+     "marcador": "PEC Zwolle 4-1 Go Ahead Eagles"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Sparta Rotterdam",
+     "condicion": "casa",
+     "marcador": "Go Ahead Eagles 3-3 Sparta Rotterdam"
+    },
+    {
+     "fecha": "2026-09-20",
+     "rival": "NEC",
+     "condicion": "fuera",
+     "marcador": "NEC 1-1 Go Ahead Eagles"
+    }
+   ]
+  },
+  "cuotas": {
+   "cuota_over25": 1.44,
+   "cuota_under25": 2.7,
+   "casa": "BetCity (página actualizada 28-10-2026; verificar)",
+   "url": "https://club.betcity.nl/voorbeschouwingen/cambuur-leeuwarden-go-ahead-eagles"
+  }
+ },
+ "Ajax|AZ": {
+  "local": {
+   "equipo": "Ajax",
+   "fuente": "https://futboltotal.futbol/partido/ajax-vs-az-alkmaar-eredivisie-2026-10-31 ; localía Groningen-Ajax: https://www.ziggo.nl/entertainment/sport/voetbal/eredivisie/fc-groningen-ajax-18-10-2026",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Sparta Rotterdam",
+     "condicion": "fuera",
+     "marcador": "Sparta Rotterdam 1-2 Ajax"
+    },
+    {
+     "fecha": "2026-10-22",
+     "rival": "Atalanta (Conference)",
+     "condicion": "casa",
+     "marcador": "Ajax 2-0 Atalanta"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Groningen",
+     "condicion": "fuera",
+     "marcador": "Groningen 2-5 Ajax"
+    },
+    {
+     "fecha": "2026-10-15",
+     "rival": "Hajduk Split (Conference)",
+     "condicion": "fuera",
+     "marcador": "Hajduk Split 2-1 Ajax"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "NEC",
+     "condicion": "casa",
+     "marcador": "Ajax 1-1 NEC"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "AZ",
+   "fuente": "https://futboltotal.futbol/partido/ajax-vs-az-alkmaar-eredivisie-2026-10-31 ; localía Feyenoord-AZ: https://futboltotal.futbol/partido/feyenoord-vs-fortuna-sittard-eredivisie-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Twente",
+     "condicion": "casa",
+     "marcador": "AZ 0-2 Twente"
+    },
+    {
+     "fecha": "2026-10-22",
+     "rival": "Ararat-Armenia (Europa League)",
+     "condicion": "fuera",
+     "marcador": "Ararat-Armenia 0-4 AZ"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Cambuur",
+     "condicion": "fuera",
+     "marcador": "Cambuur 2-2 AZ"
+    },
+    {
+     "fecha": "2026-10-15",
+     "rival": "Hapoel Beer Sheva (Europa League)",
+     "condicion": "casa",
+     "marcador": "AZ 2-1 Hapoel Beer Sheva"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Feyenoord",
+     "condicion": "fuera",
+     "marcador": "Feyenoord 2-0 AZ"
+    }
+   ]
+  },
+  "cuotas": {
+   "cuota_over25": "1.36 (-275 americana)",
+   "cuota_under25": "sin dato",
+   "casa": "FootballPredictions.com (cuota referencial)",
+   "url": "https://footballpredictions.com/footballpredictions/netherlands-eredivisie-predictions/ajax-vs-az-prediction-31-10-2026/"
+  }
+ },
+ "PSV|Willem II": {
+  "local": {
+   "equipo": "PSV",
+   "fuente": "https://futboltotal.futbol/partido/psv-eindhoven-vs-willem-ii-eredivisie-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Feyenoord",
+     "condicion": "casa",
+     "marcador": "PSV 1-1 Feyenoord"
+    },
+    {
+     "fecha": "2026-10-20",
+     "rival": "Porto (Champions)",
+     "condicion": "fuera",
+     "marcador": "Porto 0-1 PSV"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "ADO Den Haag",
+     "condicion": "fuera",
+     "marcador": "ADO Den Haag 2-1 PSV"
+    },
+    {
+     "fecha": "2026-10-13",
+     "rival": "RB Leipzig (Champions)",
+     "condicion": "fuera",
+     "marcador": "RB Leipzig 1-0 PSV"
+    },
+    {
+     "fecha": "2026-10-09",
+     "rival": "Heerenveen",
+     "condicion": "casa",
+     "marcador": "PSV 2-0 Heerenveen"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Willem II",
+   "fuente": "https://futboltotal.futbol/partido/psv-eindhoven-vs-willem-ii-eredivisie-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-24",
+     "rival": "Cambuur",
+     "condicion": "casa",
+     "marcador": "Willem II 1-6 Cambuur"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Sparta Rotterdam",
+     "condicion": "fuera",
+     "marcador": "Sparta Rotterdam 3-2 Willem II"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "Utrecht",
+     "condicion": "fuera",
+     "marcador": "Utrecht 3-1 Willem II"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Fortuna Sittard",
+     "condicion": "casa",
+     "marcador": "Willem II 0-1 Fortuna Sittard"
+    },
+    {
+     "fecha": "2026-09-15",
+     "rival": "Ajax",
+     "condicion": "fuera",
+     "marcador": "Ajax 5-1 Willem II"
+    }
+   ]
+  },
+  "cuotas": {
+   "cuota_over25": "1.13 (-800 americana)",
+   "cuota_under25": "sin dato",
+   "casa": "FootballPredictions.com (cuota referencial)",
+   "url": "https://footballpredictions.com/footballpredictions/netherlands-eredivisie-predictions/psv-vs-willem-ii-prediction-31-10-2026/"
+  }
+ },
+ "Heerenveen|NEC": {
+  "local": {
+   "equipo": "Heerenveen",
+   "fuente": "https://futboltotal.futbol/partido/heerenveen-vs-nec-nijmegen-eredivisie-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-24",
+     "rival": "ADO Den Haag",
+     "condicion": "fuera",
+     "marcador": "ADO Den Haag 2-3 Heerenveen"
+    },
+    {
+     "fecha": "2026-10-16",
+     "rival": "Excelsior",
+     "condicion": "casa",
+     "marcador": "Heerenveen 4-0 Excelsior"
+    },
+    {
+     "fecha": "2026-10-09",
+     "rival": "PSV",
+     "condicion": "fuera",
+     "marcador": "PSV 2-0 Heerenveen"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Sparta Rotterdam",
+     "condicion": "fuera",
+     "marcador": "Sparta Rotterdam 0-4 Heerenveen"
+    },
+    {
+     "fecha": "2026-09-12",
+     "rival": "Telstar",
+     "condicion": "casa",
+     "marcador": "Heerenveen 0-0 Telstar"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "NEC",
+   "fuente": "https://futboltotal.futbol/partido/heerenveen-vs-nec-nijmegen-eredivisie-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Groningen",
+     "condicion": "casa",
+     "marcador": "NEC 2-2 Groningen"
+    },
+    {
+     "fecha": "2026-10-22",
+     "rival": "Dinamo Zagreb (Europa League)",
+     "condicion": "fuera",
+     "marcador": "Dinamo Zagreb 2-4 NEC"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Fortuna Sittard",
+     "condicion": "casa",
+     "marcador": "NEC 2-2 Fortuna Sittard"
+    },
+    {
+     "fecha": "2026-10-15",
+     "rival": "Levski Sofia (Europa League)",
+     "condicion": "casa",
+     "marcador": "NEC 1-1 Levski Sofia"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Ajax",
+     "condicion": "fuera",
+     "marcador": "Ajax 1-1 NEC"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Feyenoord|Fortuna Sittard": {
+  "local": {
+   "equipo": "Feyenoord",
+   "fuente": "https://futboltotal.futbol/partido/feyenoord-vs-fortuna-sittard-eredivisie-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "PSV",
+     "condicion": "fuera",
+     "marcador": "PSV 1-1 Feyenoord"
+    },
+    {
+     "fecha": "2026-10-21",
+     "rival": "Real Betis (Champions)",
+     "condicion": "fuera",
+     "marcador": "Real Betis 1-0 Feyenoord"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Telstar",
+     "condicion": "fuera",
+     "marcador": "Telstar 3-4 Feyenoord"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Como (Champions)",
+     "condicion": "casa",
+     "marcador": "Feyenoord 3-2 Como"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "AZ",
+     "condicion": "casa",
+     "marcador": "Feyenoord 2-0 AZ"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Fortuna Sittard",
+   "fuente": "https://futboltotal.futbol/partido/feyenoord-vs-fortuna-sittard-eredivisie-2026-10-31 (se omite amistoso vs Genk; 5.º oficial sin dato)",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Excelsior",
+     "condicion": "casa",
+     "marcador": "Fortuna Sittard 1-0 Excelsior"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "NEC",
+     "condicion": "fuera",
+     "marcador": "NEC 2-2 Fortuna Sittard"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Twente",
+     "condicion": "casa",
+     "marcador": "Fortuna Sittard 1-1 Twente"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Willem II",
+     "condicion": "fuera",
+     "marcador": "Willem II 0-1 Fortuna Sittard"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Bayern Munich|Borussia Dortmund": {
+  "local": {
+   "equipo": "Bayern Munich",
+   "fuente": "https://futboltotal.futbol/partido/bayern-munchen-vs-borussia-dortmund-bundesliga-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Magdeburg (DFB-Pokal)",
+     "condicion": "casa",
+     "marcador": "Bayern 6-1 Magdeburg"
+    },
+    {
+     "fecha": "2026-10-25",
+     "rival": "SC Freiburg",
+     "condicion": "fuera",
+     "marcador": "Freiburg 1-3 Bayern"
+    },
+    {
+     "fecha": "2026-10-21",
+     "rival": "Arsenal (Champions)",
+     "condicion": "casa",
+     "marcador": "Bayern 2-2 Arsenal"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "RB Leipzig",
+     "condicion": "casa",
+     "marcador": "Bayern 6-1 RB Leipzig"
+    },
+    {
+     "fecha": "2026-10-13",
+     "rival": "Viking (Champions)",
+     "condicion": "fuera",
+     "marcador": "Viking 3-3 Bayern"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Borussia Dortmund",
+   "fuente": "https://futboltotal.futbol/partido/bayern-munchen-vs-borussia-dortmund-bundesliga-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-27",
+     "rival": "Werder Bremen (DFB-Pokal)",
+     "condicion": "casa",
+     "marcador": "Dortmund 3-2 Werder Bremen"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Eintracht Frankfurt",
+     "condicion": "casa",
+     "marcador": "Dortmund 1-0 Eintracht Frankfurt"
+    },
+    {
+     "fecha": "2026-10-20",
+     "rival": "Sabah (Champions)",
+     "condicion": "fuera",
+     "marcador": "Sabah 1-2 Dortmund"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Union Berlin",
+     "condicion": "fuera",
+     "marcador": "Union Berlin 0-0 Dortmund"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Bodø/Glimt (Champions)",
+     "condicion": "fuera",
+     "marcador": "Bodø/Glimt 1-0 Dortmund"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Werder Bremen|Hoffenheim": {
+  "local": {
+   "equipo": "Werder Bremen",
+   "fuente": "https://futboltotal.futbol/partido/werder-bremen-vs-1899-hoffenheim-bundesliga-2026-10-31 (se omite amistoso vs Twente; 5.º oficial sin dato)",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-27",
+     "rival": "Borussia Dortmund (DFB-Pokal)",
+     "condicion": "fuera",
+     "marcador": "Dortmund 3-2 Werder Bremen"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Mainz 05",
+     "condicion": "fuera",
+     "marcador": "Mainz 2-3 Werder Bremen"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "SC Paderborn",
+     "condicion": "casa",
+     "marcador": "Werder Bremen 2-2 Paderborn"
+    },
+    {
+     "fecha": "2026-10-09",
+     "rival": "Borussia Dortmund",
+     "condicion": "fuera",
+     "marcador": "Dortmund 2-2 Werder Bremen"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Hoffenheim",
+   "fuente": "https://futboltotal.futbol/partido/werder-bremen-vs-1899-hoffenheim-bundesliga-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Holstein Kiel (DFB-Pokal)",
+     "condicion": "fuera",
+     "marcador": "Holstein Kiel 1-1 Hoffenheim"
+    },
+    {
+     "fecha": "2026-10-25",
+     "rival": "Bayer Leverkusen",
+     "condicion": "casa",
+     "marcador": "Hoffenheim 3-0 Leverkusen"
+    },
+    {
+     "fecha": "2026-10-22",
+     "rival": "Lyon (Europa League)",
+     "condicion": "casa",
+     "marcador": "Hoffenheim 3-0 Lyon"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Mönchengladbach",
+     "condicion": "fuera",
+     "marcador": "Mönchengladbach 1-2 Hoffenheim"
+    },
+    {
+     "fecha": "2026-10-15",
+     "rival": "Beşiktaş (Europa League)",
+     "condicion": "casa",
+     "marcador": "Hoffenheim 2-3 Beşiktaş"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Schalke 04|RB Leipzig": {
+  "local": {
+   "equipo": "Schalke 04",
+   "fuente": "https://futboltotal.futbol/partido/fc-schalke-04-vs-rb-leipzig-bundesliga-2026-10-31 (se omite amistoso vs Austria Lustenau; 5.º oficial sin dato)",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Dynamo Dresden (DFB-Pokal)",
+     "condicion": "fuera",
+     "marcador": "Dynamo Dresden 2-0 Schalke"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "1. FC Köln",
+     "condicion": "fuera",
+     "marcador": "Köln 0-0 Schalke"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Mainz 05",
+     "condicion": "casa",
+     "marcador": "Schalke 0-1 Mainz"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "SC Freiburg",
+     "condicion": "fuera",
+     "marcador": "Freiburg 2-1 Schalke"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "RB Leipzig",
+   "fuente": "https://futboltotal.futbol/partido/fc-schalke-04-vs-rb-leipzig-bundesliga-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-27",
+     "rival": "Rot-Weiss Essen (DFB-Pokal)",
+     "condicion": "fuera",
+     "marcador": "Rot-Weiss Essen 1-2 RB Leipzig"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "SV Elversberg",
+     "condicion": "casa",
+     "marcador": "RB Leipzig 4-0 Elversberg"
+    },
+    {
+     "fecha": "2026-10-21",
+     "rival": "Real Madrid (Champions)",
+     "condicion": "fuera",
+     "marcador": "Real Madrid 4-1 RB Leipzig"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Bayern",
+     "condicion": "fuera",
+     "marcador": "Bayern 6-1 RB Leipzig"
+    },
+    {
+     "fecha": "2026-10-13",
+     "rival": "PSV (Champions)",
+     "condicion": "casa",
+     "marcador": "RB Leipzig 1-0 PSV"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Borussia Monchengladbach|SC Paderborn": {
+  "local": {
+   "equipo": "Borussia Monchengladbach",
+   "fuente": "https://futboltotal.futbol/partido/borussia-monchengladbach-vs-sc-paderborn-07-bundesliga-1575208 (se omite amistoso vs St. Pauli; 5.º oficial sin dato)",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-27",
+     "rival": "Karlsruher SC (DFB-Pokal)",
+     "condicion": "casa",
+     "marcador": "Gladbach 2-0 Karlsruhe"
+    },
+    {
+     "fecha": "2026-10-23",
+     "rival": "VfB Stuttgart",
+     "condicion": "fuera",
+     "marcador": "Stuttgart 2-3 Gladbach"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Hoffenheim",
+     "condicion": "casa",
+     "marcador": "Gladbach 1-2 Hoffenheim"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "1. FC Köln",
+     "condicion": "fuera",
+     "marcador": "Köln 2-1 Gladbach"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "SC Paderborn",
+   "fuente": "https://futboltotal.futbol/partido/borussia-monchengladbach-vs-sc-paderborn-07-bundesliga-1575208 (se omite amistoso vs D.C. United; 5.º oficial sin dato)",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "VfB Stuttgart (DFB-Pokal)",
+     "condicion": "casa",
+     "marcador": "Paderborn 0-1 Stuttgart"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Hamburger SV",
+     "condicion": "casa",
+     "marcador": "Paderborn 1-0 Hamburger SV"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Werder Bremen",
+     "condicion": "fuera",
+     "marcador": "Werder Bremen 2-2 Paderborn"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "VfB Stuttgart",
+     "condicion": "casa",
+     "marcador": "Paderborn 0-2 Stuttgart"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Bayer Leverkusen|VfB Stuttgart": {
+  "local": {
+   "equipo": "Bayer Leverkusen",
+   "fuente": "https://futboltotal.futbol/partido/bayer-leverkusen-vs-vfb-stuttgart-bundesliga-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Nürnberg (DFB-Pokal)",
+     "condicion": "casa",
+     "marcador": "Leverkusen 5-2 Nürnberg"
+    },
+    {
+     "fecha": "2026-10-25",
+     "rival": "Hoffenheim",
+     "condicion": "fuera",
+     "marcador": "Hoffenheim 3-0 Leverkusen"
+    },
+    {
+     "fecha": "2026-10-22",
+     "rival": "OFI (Europa League)",
+     "condicion": "fuera",
+     "marcador": "OFI 0-2 Leverkusen"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "SC Freiburg",
+     "condicion": "casa",
+     "marcador": "Leverkusen 2-1 Freiburg"
+    },
+    {
+     "fecha": "2026-10-15",
+     "rival": "Lech Poznań (Europa League)",
+     "condicion": "fuera",
+     "marcador": "Lech Poznań 0-4 Leverkusen"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "VfB Stuttgart",
+   "fuente": "https://futboltotal.futbol/partido/bayer-leverkusen-vs-vfb-stuttgart-bundesliga-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "SC Paderborn (DFB-Pokal)",
+     "condicion": "fuera",
+     "marcador": "Paderborn 0-1 Stuttgart"
+    },
+    {
+     "fecha": "2026-10-23",
+     "rival": "Mönchengladbach",
+     "condicion": "casa",
+     "marcador": "Stuttgart 2-3 Gladbach"
+    },
+    {
+     "fecha": "2026-10-20",
+     "rival": "Atlético de Madrid (Champions)",
+     "condicion": "casa",
+     "marcador": "Stuttgart 1-1 Atlético de Madrid"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Hamburger SV",
+     "condicion": "fuera",
+     "marcador": "Hamburger SV 1-0 Stuttgart"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Slovan Bratislava (Champions)",
+     "condicion": "fuera",
+     "marcador": "Slovan Bratislava 0-3 Stuttgart"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Augsburg|SC Freiburg": {
+  "local": {
+   "equipo": "Augsburg",
+   "fuente": "https://futboltotal.futbol/partido/fc-augsburg-vs-sc-freiburg-bundesliga-2026-10-31 (se omite amistoso vs Hertha; 5.º oficial sin dato)",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-27",
+     "rival": "Sonnenhof Großaspach (DFB-Pokal)",
+     "condicion": "fuera",
+     "marcador": "Großaspach 2-4 Augsburg"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Union Berlin",
+     "condicion": "casa",
+     "marcador": "Augsburg 1-1 Union Berlin"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "SV Elversberg",
+     "condicion": "fuera",
+     "marcador": "Elversberg 4-3 Augsburg"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Bayern",
+     "condicion": "casa",
+     "marcador": "Augsburg 2-2 Bayern"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "SC Freiburg",
+   "fuente": "https://futboltotal.futbol/partido/fc-augsburg-vs-sc-freiburg-bundesliga-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Wolfsburg (DFB-Pokal)",
+     "condicion": "casa",
+     "marcador": "Freiburg 3-2 Wolfsburg"
+    },
+    {
+     "fecha": "2026-10-25",
+     "rival": "Bayern",
+     "condicion": "casa",
+     "marcador": "Freiburg 1-3 Bayern"
+    },
+    {
+     "fecha": "2026-10-22",
+     "rival": "AS Monaco (Conference)",
+     "condicion": "fuera",
+     "marcador": "Monaco 3-0 Freiburg"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Bayer Leverkusen",
+     "condicion": "fuera",
+     "marcador": "Leverkusen 2-1 Freiburg"
+    },
+    {
+     "fecha": "2026-10-15",
+     "rival": "FK Jablonec (Conference)",
+     "condicion": "casa",
+     "marcador": "Freiburg 3-2 Jablonec"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Charlotte|Orlando City": {
+  "local": {
+   "equipo": "Charlotte",
+   "fuente": "https://futboltotal.futbol/partido/charlotte-fc-vs-orlando-city-sc-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "CF Montréal",
+     "condicion": "casa",
+     "marcador": "Charlotte 4-0 CF Montréal"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Portland Timbers",
+     "condicion": "fuera",
+     "marcador": "Charlotte 2-3 Portland Timbers"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Philadelphia Union",
+     "condicion": "fuera",
+     "marcador": "Charlotte 2-2 Philadelphia Union"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Columbus Crew",
+     "condicion": "fuera",
+     "marcador": "Charlotte 1-3 Columbus Crew"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "FC Dallas",
+     "condicion": "casa",
+     "marcador": "Charlotte 3-2 FC Dallas"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Orlando City",
+   "fuente": "https://futboltotal.futbol/partido/charlotte-fc-vs-orlando-city-sc-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Chicago Fire",
+     "condicion": "fuera",
+     "marcador": "Orlando City 2-2 Chicago Fire"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "New York City FC",
+     "condicion": "casa",
+     "marcador": "Orlando City 2-2 New York City FC"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "D.C. United",
+     "condicion": "casa",
+     "marcador": "Orlando City 4-1 D.C. United"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Toronto FC",
+     "condicion": "fuera",
+     "marcador": "Orlando City 3-3 Toronto FC"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Columbus Crew",
+     "condicion": "casa",
+     "marcador": "Orlando City 3-2 Columbus Crew"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Columbus Crew|DC United": {
+  "local": {
+   "equipo": "Columbus Crew",
+   "fuente": "https://futboltotal.futbol/partido/columbus-crew-vs-dc-united-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "FC Dallas",
+     "condicion": "fuera",
+     "marcador": "Columbus Crew 2-0 FC Dallas"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Toronto FC",
+     "condicion": "casa",
+     "marcador": "Columbus Crew 4-2 Toronto FC"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "FC Cincinnati",
+     "condicion": "fuera",
+     "marcador": "Columbus Crew 2-0 FC Cincinnati"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Charlotte FC",
+     "condicion": "casa",
+     "marcador": "Columbus Crew 3-1 Charlotte FC"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Orlando City",
+     "condicion": "fuera",
+     "marcador": "Columbus Crew 2-3 Orlando City"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "DC United",
+   "fuente": "https://futboltotal.futbol/partido/columbus-crew-vs-dc-united-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Toronto FC",
+     "condicion": "fuera",
+     "marcador": "DC United 1-2 Toronto FC"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "FC Cincinnati",
+     "condicion": "casa",
+     "marcador": "DC United 0-2 FC Cincinnati"
+    },
+    {
+     "fecha": "2026-10-21",
+     "rival": "FC Cincinnati",
+     "condicion": "fuera",
+     "marcador": "DC United 1-2 FC Cincinnati"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Orlando City",
+     "condicion": "fuera",
+     "marcador": "DC United 1-4 Orlando City"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "New York Red Bulls",
+     "condicion": "casa",
+     "marcador": "DC United 2-1 New York Red Bulls"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "New York City|CF Montreal": {
+  "local": {
+   "equipo": "New York City",
+   "fuente": "https://futboltotal.futbol/partido/new-york-city-fc-vs-cf-montreal-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Atlanta United",
+     "condicion": "casa",
+     "marcador": "New York City 2-1 Atlanta United"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Orlando City",
+     "condicion": "fuera",
+     "marcador": "New York City 2-2 Orlando City"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "LAFC",
+     "condicion": "casa",
+     "marcador": "New York City 1-1 LAFC"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Inter Miami",
+     "condicion": "fuera",
+     "marcador": "New York City 0-2 Inter Miami"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Chicago Fire",
+     "condicion": "fuera",
+     "marcador": "New York City 1-2 Chicago Fire"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "CF Montreal",
+   "fuente": "https://futboltotal.futbol/partido/new-york-city-fc-vs-cf-montreal-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Charlotte FC",
+     "condicion": "fuera",
+     "marcador": "CF Montreal 0-4 Charlotte FC"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Nashville SC",
+     "condicion": "casa",
+     "marcador": "CF Montreal 0-2 Nashville SC"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Seattle Sounders",
+     "condicion": "fuera",
+     "marcador": "CF Montreal 1-1 Seattle Sounders"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Atlanta United",
+     "condicion": "casa",
+     "marcador": "CF Montreal 0-3 Atlanta United"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Toronto FC",
+     "condicion": "fuera",
+     "marcador": "CF Montreal 1-2 Toronto FC"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Cincinnati|Philadelphia": {
+  "local": {
+   "equipo": "Cincinnati",
+   "fuente": "https://futboltotal.futbol/partido/fc-cincinnati-vs-philadelphia-union-major-league-soccer-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Inter Miami",
+     "condicion": "fuera",
+     "marcador": "Cincinnati 2-2 Inter Miami"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "D.C. United",
+     "condicion": "fuera",
+     "marcador": "Cincinnati 2-0 D.C. United"
+    },
+    {
+     "fecha": "2026-10-21",
+     "rival": "D.C. United",
+     "condicion": "casa",
+     "marcador": "Cincinnati 2-1 D.C. United"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Columbus Crew",
+     "condicion": "casa",
+     "marcador": "Cincinnati 0-2 Columbus Crew"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "New England Revolution",
+     "condicion": "casa",
+     "marcador": "Cincinnati 2-3 New England Revolution"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Philadelphia",
+   "fuente": "https://futboltotal.futbol/partido/fc-cincinnati-vs-philadelphia-union-major-league-soccer-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Nashville SC",
+     "condicion": "fuera",
+     "marcador": "Philadelphia 0-0 Nashville SC"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "New England Revolution",
+     "condicion": "casa",
+     "marcador": "Philadelphia 1-2 New England Revolution"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Charlotte FC",
+     "condicion": "casa",
+     "marcador": "Philadelphia 2-2 Charlotte FC"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Chicago Fire",
+     "condicion": "fuera",
+     "marcador": "Philadelphia 3-1 Chicago Fire"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Real Salt Lake",
+     "condicion": "casa",
+     "marcador": "Philadelphia 2-1 Real Salt Lake"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Sporting KC|Dallas": {
+  "local": {
+   "equipo": "Sporting KC",
+   "fuente": "https://futboltotal.futbol/partido/sporting-kansas-city-vs-fc-dallas-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Minnesota United",
+     "condicion": "fuera",
+     "marcador": "Sporting KC 1-3 Minnesota United"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Austin FC",
+     "condicion": "casa",
+     "marcador": "Sporting KC 1-2 Austin FC"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Real Salt Lake",
+     "condicion": "casa",
+     "marcador": "Sporting KC 1-3 Real Salt Lake"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Nashville SC",
+     "condicion": "fuera",
+     "marcador": "Sporting KC 0-4 Nashville SC"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Portland Timbers",
+     "condicion": "casa",
+     "marcador": "Sporting KC 3-3 Portland Timbers"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Dallas",
+   "fuente": "https://futboltotal.futbol/partido/sporting-kansas-city-vs-fc-dallas-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Columbus Crew",
+     "condicion": "casa",
+     "marcador": "Dallas 0-2 Columbus Crew"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "San Jose Earthquakes",
+     "condicion": "casa",
+     "marcador": "Dallas 3-0 San Jose Earthquakes"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Houston Dynamo",
+     "condicion": "fuera",
+     "marcador": "Dallas 2-2 Houston Dynamo"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Seattle Sounders",
+     "condicion": "casa",
+     "marcador": "Dallas 1-0 Seattle Sounders"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Charlotte FC",
+     "condicion": "fuera",
+     "marcador": "Dallas 2-3 Charlotte FC"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "St. Louis City|San Diego": {
+  "local": {
+   "equipo": "St. Louis City",
+   "fuente": "https://futboltotal.futbol/partido/st-louis-city-sc-vs-san-diego-fc-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Portland Timbers",
+     "condicion": "casa",
+     "marcador": "St. Louis City 2-3 Portland Timbers"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Real Salt Lake",
+     "condicion": "fuera",
+     "marcador": "St. Louis City 0-3 Real Salt Lake"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Minnesota United",
+     "condicion": "fuera",
+     "marcador": "St. Louis City 2-3 Minnesota United"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Vancouver Whitecaps",
+     "condicion": "casa",
+     "marcador": "St. Louis City 0-0 Vancouver Whitecaps"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "LA Galaxy",
+     "condicion": "casa",
+     "marcador": "St. Louis City 6-2 LA Galaxy"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "San Diego",
+   "fuente": "https://futboltotal.futbol/partido/st-louis-city-sc-vs-san-diego-fc-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Vancouver Whitecaps",
+     "condicion": "fuera",
+     "marcador": "San Diego 1-4 Vancouver Whitecaps"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Seattle Sounders",
+     "condicion": "casa",
+     "marcador": "San Diego 2-2 Seattle Sounders"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "LA Galaxy",
+     "condicion": "fuera",
+     "marcador": "San Diego 2-2 LA Galaxy"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Houston Dynamo",
+     "condicion": "casa",
+     "marcador": "San Diego 3-3 Houston Dynamo"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "New York Red Bulls",
+     "condicion": "fuera",
+     "marcador": "San Diego 1-4 New York Red Bulls"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Alianza Atlético|Juan Pablo II": {
+  "local": "sin dato",
+  "visita": "sin dato",
+  "cuotas": "sin dato"
+ },
+ "LA Galaxy|Austin": {
+  "local": {
+   "equipo": "LA Galaxy",
+   "fuente": "https://futboltotal.futbol/partido/los-angeles-galaxy-vs-austin-fc-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "LAFC",
+     "condicion": "fuera",
+     "marcador": "LA Galaxy 2-2 LAFC"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "San Diego FC",
+     "condicion": "casa",
+     "marcador": "LA Galaxy 2-2 San Diego FC"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Portland Timbers",
+     "condicion": "casa",
+     "marcador": "LA Galaxy 2-0 Portland Timbers"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "St. Louis City",
+     "condicion": "fuera",
+     "marcador": "LA Galaxy 2-6 St. Louis City"
+    },
+    {
+     "fecha": "2026-09-26",
+     "rival": "Colorado Rapids",
+     "condicion": "casa",
+     "marcador": "LA Galaxy 3-2 Colorado Rapids"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Austin",
+   "fuente": "https://futboltotal.futbol/partido/los-angeles-galaxy-vs-austin-fc-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Real Salt Lake",
+     "condicion": "casa",
+     "marcador": "Austin 1-2 Real Salt Lake"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Sporting KC",
+     "condicion": "fuera",
+     "marcador": "Austin 2-1 Sporting KC"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Vancouver Whitecaps",
+     "condicion": "casa",
+     "marcador": "Austin 1-2 Vancouver Whitecaps"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "LAFC",
+     "condicion": "fuera",
+     "marcador": "Austin 1-3 LAFC"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Nashville SC",
+     "condicion": "casa",
+     "marcador": "Austin 1-4 Nashville SC"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "SJ Earthquakes|Real Salt Lake": {
+  "local": {
+   "equipo": "SJ Earthquakes",
+   "fuente": "https://futboltotal.futbol/partido/san-jose-earthquakes-vs-real-salt-lake-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Colorado Rapids",
+     "condicion": "casa",
+     "marcador": "SJ Earthquakes 2-2 Colorado Rapids"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "FC Dallas",
+     "condicion": "fuera",
+     "marcador": "SJ Earthquakes 0-3 FC Dallas"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Nashville SC",
+     "condicion": "casa",
+     "marcador": "SJ Earthquakes 1-1 Nashville SC"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Real Salt Lake",
+     "condicion": "fuera",
+     "marcador": "SJ Earthquakes 1-1 Real Salt Lake"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Colorado Rapids",
+     "condicion": "fuera",
+     "marcador": "SJ Earthquakes 1-1 Colorado Rapids"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Real Salt Lake",
+   "fuente": "https://futboltotal.futbol/partido/san-jose-earthquakes-vs-real-salt-lake-mls-2026-10-31",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Austin FC",
+     "condicion": "fuera",
+     "marcador": "Real Salt Lake 2-1 Austin FC"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "St. Louis City",
+     "condicion": "casa",
+     "marcador": "Real Salt Lake 3-0 St. Louis City"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Sporting KC",
+     "condicion": "fuera",
+     "marcador": "Real Salt Lake 3-1 Sporting KC"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "San Jose Earthquakes",
+     "condicion": "casa",
+     "marcador": "Real Salt Lake 1-1 San Jose Earthquakes"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Philadelphia Union",
+     "condicion": "fuera",
+     "marcador": "Real Salt Lake 1-2 Philadelphia Union"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Pachuca|Tigres UANL": {
+  "local": {
+   "equipo": "Pachuca",
+   "fuente": "https://futboltotal.futbol/partido/pachuca-vs-tigres-uanl-liga-mx-2026-11-01",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-25",
+     "rival": "Club América",
+     "condicion": "fuera",
+     "marcador": "Pachuca 2-1 Club América"
+    },
+    {
+     "fecha": "2026-10-21",
+     "rival": "Cruz Azul",
+     "condicion": "casa",
+     "marcador": "Pachuca 1-2 Cruz Azul"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Monterrey",
+     "condicion": "fuera",
+     "marcador": "Pachuca 1-2 Monterrey"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "Necaxa",
+     "condicion": "casa",
+     "marcador": "Pachuca 3-3 Necaxa"
+    },
+    {
+     "fecha": "2026-09-26",
+     "rival": "Santos Laguna",
+     "condicion": "fuera",
+     "marcador": "Pachuca 0-1 Santos Laguna"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Tigres UANL",
+   "fuente": "https://futboltotal.futbol/partido/pachuca-vs-tigres-uanl-liga-mx-2026-11-01",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-24",
+     "rival": "Pumas UNAM",
+     "condicion": "fuera",
+     "marcador": "Tigres UANL 1-1 Pumas UNAM"
+    },
+    {
+     "fecha": "2026-10-20",
+     "rival": "León",
+     "condicion": "casa",
+     "marcador": "Tigres UANL 0-2 León"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Guadalajara",
+     "condicion": "fuera",
+     "marcador": "Tigres UANL 1-1 Guadalajara"
+    },
+    {
+     "fecha": "2026-10-09",
+     "rival": "Toluca",
+     "condicion": "casa",
+     "marcador": "Tigres UANL 3-2 Toluca"
+    },
+    {
+     "fecha": "2026-09-26",
+     "rival": "Puebla",
+     "condicion": "casa",
+     "marcador": "Tigres UANL 1-0 Puebla"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Monterrey|Tijuana": {
+  "local": {
+   "equipo": "Monterrey",
+   "fuente": "https://futboltotal.futbol/partido/monterrey-vs-club-tijuana-liga-mx-2026-11-01",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-24",
+     "rival": "Guadalajara",
+     "condicion": "casa",
+     "marcador": "Monterrey 0-1 Guadalajara"
+    },
+    {
+     "fecha": "2026-10-21",
+     "rival": "Puebla",
+     "condicion": "fuera",
+     "marcador": "Monterrey 4-1 Puebla"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Pachuca",
+     "condicion": "casa",
+     "marcador": "Monterrey 2-1 Pachuca"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Club América",
+     "condicion": "fuera",
+     "marcador": "Monterrey 1-1 Club América"
+    }
+   ],
+   "nota": "La ficha solo muestra 4 partidos oficiales; el 5º listado (03-10 vs Toluca) es amistoso y se excluye."
+  },
+  "visita": {
+   "equipo": "Tijuana",
+   "fuente": "https://futboltotal.futbol/partido/monterrey-vs-club-tijuana-liga-mx-2026-11-01",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Club América",
+     "condicion": "fuera",
+     "marcador": "Tijuana 1-1 Club América"
+    },
+    {
+     "fecha": "2026-10-25",
+     "rival": "Santos Laguna",
+     "condicion": "casa",
+     "marcador": "Tijuana 4-1 Santos Laguna"
+    },
+    {
+     "fecha": "2026-10-21",
+     "rival": "Toluca",
+     "condicion": "fuera",
+     "marcador": "Tijuana 2-2 Toluca"
+    },
+    {
+     "fecha": "2026-10-16",
+     "rival": "Puebla",
+     "condicion": "casa",
+     "marcador": "Tijuana 0-0 Puebla"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "FC Juárez",
+     "condicion": "fuera",
+     "marcador": "Tijuana 1-1 FC Juárez"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ },
+ "Colorado Rapids|Chicago Fire": {
+  "local": {
+   "equipo": "Colorado Rapids",
+   "fuente": "https://futboltotal.futbol/partido/colorado-rapids-vs-chicago-fire-mls-2026-11-01",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "San Jose Earthquakes",
+     "condicion": "fuera",
+     "marcador": "Colorado Rapids 2-2 San Jose Earthquakes"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Vancouver Whitecaps",
+     "condicion": "casa",
+     "marcador": "Colorado Rapids 1-0 Vancouver Whitecaps"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "Portland Timbers",
+     "condicion": "fuera",
+     "marcador": "Colorado Rapids 0-0 Portland Timbers"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Minnesota United",
+     "condicion": "casa",
+     "marcador": "Colorado Rapids 2-2 Minnesota United"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "San Jose Earthquakes",
+     "condicion": "casa",
+     "marcador": "Colorado Rapids 1-1 San Jose Earthquakes"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Chicago Fire",
+   "fuente": "https://futboltotal.futbol/partido/colorado-rapids-vs-chicago-fire-mls-2026-11-01",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Orlando City",
+     "condicion": "casa",
+     "marcador": "Chicago Fire 2-2 Orlando City"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Atlanta United",
+     "condicion": "fuera",
+     "marcador": "Chicago Fire 3-2 Atlanta United"
+    },
+    {
+     "fecha": "2026-10-17",
+     "rival": "New England Revolution",
+     "condicion": "fuera",
+     "marcador": "Chicago Fire 0-1 New England Revolution"
+    },
+    {
+     "fecha": "2026-10-14",
+     "rival": "Philadelphia Union",
+     "condicion": "casa",
+     "marcador": "Chicago Fire 1-3 Philadelphia Union"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "New York City FC",
+     "condicion": "casa",
+     "marcador": "Chicago Fire 2-1 New York City FC"
+    }
+   ]
+  },
+  "cuotas": "sin dato"
+ }
+}

@@ -1,15 +1,15 @@
 {
- "local": "Parma",
- "fecha_larga": "Miércoles 28 de octubre de 2026",
- "desde": "05:39",
+ "local": "Cambuur",
+ "fecha_larga": "Sábado 31 de octubre de 2026",
+ "desde": "05:52",
  "contexto": [
-  "Udinese fuera: 5,3 goles por partido en sus salidas.",
-  "Parma perdió 3 de sus últimos 4 de liga.",
-  "Parma 19.º y Udinese 17.º; Udinese, 4 derrotas seguidas."
+  "Cambuur suma 5 partidos oficiales sin perder (4 de liga y 1 de Copa) y viene de golear 1-6 al Willem II.",
+  "Go Ahead Eagles: 23 goles a favor y 23 en contra en 10 jornadas de Eredivisie.",
+  "Cambuur 10.º (12 pts) y Go Ahead Eagles 9.º (14 pts), separados por 2 puntos."
  ],
  "auditoria": {
-  "encabezado": "Así nos fue",
-  "titulo": "Lunes 26 de octubre · última jornada publicada",
+  "encabezado": "Así nos fue ayer",
+  "titulo": "Viernes 30 de octubre · Liga Profesional Argentina",
   "tiles": [
    [
     "1/1",
@@ -17,21 +17,31 @@
     "verde"
    ],
    [
-    "7/10",
+    "4/4",
     "Partidos con 2 goles o más",
     "verde"
    ],
    [
-    "7/9",
-    "Over 1.5 de 70 % o más (78 %)",
+    "9/12",
+    "Miércoles 28: partidos con 2 goles o más",
     "dor"
    ],
    [
-    "182/236",
+    "193/250",
     "Galería: Over 1.5 de 70 % o más (77 %)",
     "dor"
    ]
   ],
-  "nota": "Partido del día: Sevilla 2-0 Osasuna ✔ (dimos Over 1.5 al 87 %; hubo 2 goles). Fallaron Coritiba 0-1 Grêmio (70 %; hubo 1 gol) y Jaguares 1-0 Llaneros (76 %; hubo 1 gol). Over 2.5 con señal: 0 de 1. El martes 27 no publicamos: ningún partido llegaba a nuestro mínimo."
+  "nota": "Partido del día: Racing 2-1 Aldosivi ✔ (dimos Over 1.5 al 73 %; hubo 3 goles). Viernes 30 sin fallos en Over 1.5. Miércoles 28 (auditado hoy) fallaron Parma 0-0 Udinese (85 %; hubo 0 goles), Santos 0-0 Palmeiras (73 %) y Once Caldas 1-0 Alianza (73 %; hubo 1 gol)."
+ },
+ "acierto": {
+  "fecha": "viernes 30 de octubre",
+  "local": "Racing Club",
+  "visita": "Aldosivi",
+  "liga": "Liga Profesional Argentina · fecha 15 del Clausura",
+  "resultado": "2-1",
+  "over15": 73.1,
+  "goles": "3",
+  "sellado": "16:29 ECU del 30-oct"
  }
 }

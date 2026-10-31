@@ -280,15 +280,72 @@
 2026-10-27;17:00;ARG;Argentinos Juniors;Independiente Rivadavia;4.1;69.2;69;GOLES OPTIMISTAS;42.0;1-0;2.4;5;7;terminado;1-0;1;False;False;True;;;;;;;;https://www.laarena.com.ar/deportes/argentinos-le-gano-a-independiente-rivadavia-y-sigue-prendido-arriba-2026102721280
 2026-10-27;18:00;COL;Cúcuta;Águilas Doradas;4.1;72.0;72;GOLES OPTIMISTAS;45.3;1-1;2.5;7;8;terminado;0-2;2;True;False;False;;;;;;;;https://eldeportivo.com.co/futbol-colombiano/liga-betplay/aguilas-doradas-sorprendio-cucuta-deportivo/
 2026-10-27;20:05;COL;Boyacá Chicó;Junior;4.1;75.2;75;GOLES OPTIMISTAS;49.4;1-1;2.7;8;7;terminado;1-1;2;True;False;True;;;;;;;;https://www.eluniversal.com.co/deportes/2026/10/27/liga-betplay-junior-de-barranquilla-no-pudo-con-boyaca-chico-al-empatar-1-1-en-tunja/
-2026-10-28;12:30;ITA;AC Milan;Bologna;4.1;77.2;77;GOLES OPTIMISTAS;52.1;1-1;2.8;3;4;sin auditar;;;;;;;;;;;;;
-2026-10-28;12:30;ITA;Parma;Udinese;4.1;84.8;85;GOLES ESTÁNDAR;63.8;1-1;3.3;4;3;sin auditar;;;;;;;Parma y Udinese, dos colistas con defensas que conceden mucho;"Parma (19.º, 4 puntos) perdió 4 de sus últimos 5 partidos de Serie A (1-2 en Lazio, 0-3 ante Torino, 0-3 en Inter) y en casa recibe 1,5 goles por partido. Udinese (17.º, 4 puntos) encadena 4 derrotas de liga (0-2 ante Milan, 0-3 ante Lecce, 1-2 en Torino, 0-1 ante Cagliari) y en sus 3 salidas promedia 5,3 goles por partido (7 a favor, 9 en contra). En los últimos 6 cruces, Udinese ganó 4. Conclusión: dos defensas débiles y un Udinese que fuera de casa juega partidos abiertos sostienen el Over 1.5; el riesgo es el bajo poder ofensivo de Parma en casa (0,75 goles por partido).";https://futboltotal.futbol/partido/parma-vs-udinese-serie-a-2026-10-28;racha_mala,defensa_debil,descenso;sin dato;sin dato;
-2026-10-28;12:30;ITA;Venezia;Inter;4.1;80.9;81;GOLES ESTÁNDAR;57.7;1-1;3.0;4;3;sin auditar;;;;;;;El colista Venezia recibe al líder Inter;"Inter es líder con 22 puntos y 23 goles a favor en 8 partidos; ganó 2-1 a Fiorentina y 1-0 a Shakhtar en la Champions League. Venezia es último con 3 puntos (6 a favor, 17 en contra) y perdió 4 de sus últimos 5 de liga, con la excepción del 1-0 a Napoli. Conclusión: la diferencia ofensiva del Inter sostiene el Over 1.5, aunque un triunfo corto del líder (1-0 o 2-0) es el escenario de riesgo.";https://futboltotal.futbol/partido/venezia-vs-inter-serie-a-2026-10-28;racha_mala,defensa_debil,descenso;sin dato;sin dato;
-2026-10-28;14:45;ITA;Genoa;Juventus;4.1;78.2;78;GOLES OPTIMISTAS;53.5;1-1;2.8;5;4;sin auditar;;;;;;;;;;;;;
-2026-10-28;14:45;ITA;Monza;Napoli;4.1;82.7;83;GOLES ESTÁNDAR;60.4;1-1;3.1;3;4;sin auditar;;;;;;;Monza, goleador en casa, recibe a un Napoli de partidos abiertos;"Monza (15.º, 7 puntos) promedia 4 goles por partido en casa (8 a favor, 4 en contra) y viene de golear 4-0 a Cagliari antes de perder 3-2 en Turín. Napoli (10.º, 11 puntos) empató 3-3 con Roma y ganó 4-3 a Bodø/Glimt en la Champions League, pero perdió 1-0 en Venecia. En los últimos 6 cruces, Napoli ganó 4. Conclusión: los dos vienen de partidos con muchos goles y el Over 1.5 tiene respaldo; el desgaste europeo del Napoli puede cambiar el ritmo.";https://futboltotal.futbol/partido/monza-vs-napoli-serie-a-2026-10-28;defensa_debil,goleada_reciente;sin dato;sin dato;
-2026-10-28;17:30;BRA;Bragantino;Chapecoense;4.1;74.3;74;GOLES OPTIMISTAS;48.3;1-1;2.6;15;16;sin auditar;;;;;;;;;;;;;
-2026-10-28;17:30;BRA;Fluminense;Internacional;4.1;74.2;74;GOLES OPTIMISTAS;48.2;1-1;2.6;16;16;sin auditar;;;;;;;;;;;;;
-2026-10-28;17:30;BRA;Santos;Palmeiras;4.1;73.3;73;GOLES OPTIMISTAS;46.9;1-1;2.6;16;16;sin auditar;;;;;;;;;;;;;
-2026-10-28;18:00;COL;Once Caldas;Alianza (ex Alianza Petrolera);4.1;72.8;73;GOLES OPTIMISTAS;46.3;1-1;2.5;7;6;sin auditar;;;;;;;;;;;;;
-2026-10-28;19:30;BRA;Bahia;São Paulo;4.1;70.1;70;GOLES OPTIMISTAS;43.0;1-1;2.4;16;16;sin auditar;;;;;;;;;;;;;
-2026-10-28;19:30;BRA;Remo;Botafogo;4.1;76.3;76;GOLES OPTIMISTAS;51.0;1-1;2.7;16;16;sin auditar;;;;;;;;;;;;;
-2026-10-28;20:05;COL;Internacional de Bogotá (ex La Equidad);Independiente Medellín;4.1;79.8;80;GOLES ESTÁNDAR;55.9;1-1;2.9;8;7;sin auditar;;;;;;;Inter Bogotá y Medellín, partidos de goles en local y visita;"Internacional de Bogotá en casa suma 12 goles a favor y 12 en contra en 8 partidos del Clausura (3 goles por partido). Independiente Medellín de visita marcó 12 y recibió 11 en 7 salidas (3,3 goles por partido). Conclusión: los dos registros apuntan a un partido con goles; el modelo lo deja justo en el límite de 80 % para Over 1.5. No hallamos una previa abierta del partido: los datos salen de nuestra tabla de local y visitante verificada.";https://gol-elite-pro.netlify.app/;defensa_debil;sin dato;sin dato;
+2026-10-28;12:30;ITA;AC Milan;Bologna;4.1;77.2;77;GOLES OPTIMISTAS;52.1;1-1;2.8;3;4;terminado;2-4;6;True;True;False;;;;;;;;https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html
+2026-10-28;12:30;ITA;Parma;Udinese;4.1;84.8;85;GOLES ESTÁNDAR;63.8;1-1;3.3;4;3;terminado;0-0;0;False;False;False;;Parma y Udinese, dos colistas con defensas que conceden mucho;"Parma (19.º, 4 puntos) perdió 4 de sus últimos 5 partidos de Serie A (1-2 en Lazio, 0-3 ante Torino, 0-3 en Inter) y en casa recibe 1,5 goles por partido. Udinese (17.º, 4 puntos) encadena 4 derrotas de liga (0-2 ante Milan, 0-3 ante Lecce, 1-2 en Torino, 0-1 ante Cagliari) y en sus 3 salidas promedia 5,3 goles por partido (7 a favor, 9 en contra). En los últimos 6 cruces, Udinese ganó 4. Conclusión: dos defensas débiles y un Udinese que fuera de casa juega partidos abiertos sostienen el Over 1.5; el riesgo es el bajo poder ofensivo de Parma en casa (0,75 goles por partido).";https://futboltotal.futbol/partido/parma-vs-udinese-serie-a-2026-10-28;racha_mala,defensa_debil,descenso;sin dato;sin dato;https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html
+2026-10-28;12:30;ITA;Venezia;Inter;4.1;80.9;81;GOLES ESTÁNDAR;57.7;1-1;3.0;4;3;terminado;0-2;2;True;False;False;;El colista Venezia recibe al líder Inter;"Inter es líder con 22 puntos y 23 goles a favor en 8 partidos; ganó 2-1 a Fiorentina y 1-0 a Shakhtar en la Champions League. Venezia es último con 3 puntos (6 a favor, 17 en contra) y perdió 4 de sus últimos 5 de liga, con la excepción del 1-0 a Napoli. Conclusión: la diferencia ofensiva del Inter sostiene el Over 1.5, aunque un triunfo corto del líder (1-0 o 2-0) es el escenario de riesgo.";https://futboltotal.futbol/partido/venezia-vs-inter-serie-a-2026-10-28;racha_mala,defensa_debil,descenso;sin dato;sin dato;https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html
+2026-10-28;14:45;ITA;Genoa;Juventus;4.1;78.2;78;GOLES OPTIMISTAS;53.5;1-1;2.8;5;4;terminado;2-0;2;True;False;False;;;;;;;;https://football-italia.net/serie-a-liveblog-9-inter-milan-juventus-napoli/
+2026-10-28;14:45;ITA;Monza;Napoli;4.1;82.7;83;GOLES ESTÁNDAR;60.4;1-1;3.1;3;4;terminado;1-4;5;True;True;False;;Monza, goleador en casa, recibe a un Napoli de partidos abiertos;"Monza (15.º, 7 puntos) promedia 4 goles por partido en casa (8 a favor, 4 en contra) y viene de golear 4-0 a Cagliari antes de perder 3-2 en Turín. Napoli (10.º, 11 puntos) empató 3-3 con Roma y ganó 4-3 a Bodø/Glimt en la Champions League, pero perdió 1-0 en Venecia. En los últimos 6 cruces, Napoli ganó 4. Conclusión: los dos vienen de partidos con muchos goles y el Over 1.5 tiene respaldo; el desgaste europeo del Napoli puede cambiar el ritmo.";https://futboltotal.futbol/partido/monza-vs-napoli-serie-a-2026-10-28;defensa_debil,goleada_reciente;sin dato;sin dato;https://football-italia.net/serie-a-liveblog-9-inter-milan-juventus-napoli/
+2026-10-28;17:30;BRA;Bragantino;Chapecoense;4.1;74.3;74;GOLES OPTIMISTAS;48.3;1-1;2.6;15;16;terminado;3-0;3;True;True;False;;;;;;;;https://valorfinal.com.br/brasileirao/resultados
+2026-10-28;17:30;BRA;Fluminense;Internacional;4.1;74.2;74;GOLES OPTIMISTAS;48.2;1-1;2.6;16;16;terminado;2-1;3;True;True;False;;;;;;;;https://valorfinal.com.br/brasileirao/resultados
+2026-10-28;17:30;BRA;Santos;Palmeiras;4.1;73.3;73;GOLES OPTIMISTAS;46.9;1-1;2.6;16;16;terminado;0-0;0;False;False;False;;;;;;;;https://valorfinal.com.br/brasileirao/resultados
+2026-10-28;18:00;COL;Once Caldas;Alianza (ex Alianza Petrolera);4.1;72.8;73;GOLES OPTIMISTAS;46.3;1-1;2.5;7;6;terminado;1-0;1;False;False;False;;;;;;;;https://www.noticiascaracol.com/golcaracol/futbol-colombiano/asi-quedo-la-tabla-de-posiciones-de-liga-betplay-2026-ii-tras-once-caldas-1-0-alianza-fc-so35
+2026-10-28;19:30;BRA;Bahia;São Paulo;4.1;70.1;70;GOLES OPTIMISTAS;43.0;1-1;2.4;16;16;terminado;3-2;5;True;True;False;;;;;;;;https://muitainformacao.com.br/esporte/bahia-vence-sao-paulo-fluminense-vira-sobre-inter-e-palmeiras-tropeca/
+2026-10-28;19:30;BRA;Remo;Botafogo;4.1;76.3;76;GOLES OPTIMISTAS;51.0;1-1;2.7;16;16;terminado;2-1;3;True;True;False;;;;;;;;https://valorfinal.com.br/brasileirao/resultados
+2026-10-28;20:05;COL;Internacional de Bogotá (ex La Equidad);Independiente Medellín;4.1;79.8;80;GOLES ESTÁNDAR;55.9;1-1;2.9;8;7;terminado;3-1;4;True;True;False;;Inter Bogotá y Medellín, partidos de goles en local y visita;"Internacional de Bogotá en casa suma 12 goles a favor y 12 en contra en 8 partidos del Clausura (3 goles por partido). Independiente Medellín de visita marcó 12 y recibió 11 en 7 salidas (3,3 goles por partido). Conclusión: los dos registros apuntan a un partido con goles; el modelo lo deja justo en el límite de 80 % para Over 1.5. No hallamos una previa abierta del partido: los datos salen de nuestra tabla de local y visitante verificada.";https://gol-elite-pro.netlify.app/;defensa_debil;sin dato;sin dato;https://www.infobae.com/colombia/deportes/2026/10/29/asi-quedo-la-tabla-de-posiciones-de-la-liga-betplay-2026-ii-tras-la-victoria-de-once-caldas-hubo-cambios-en-el-grupo-de-los-ocho/
+2026-10-30;17:00;ARG;Huracan;Tigre;4.1;64.0;64;GOLES OPTIMISTAS;36.0;1-1;2.1;7;7;terminado;0-2;2;True;False;False;;;;;;;;https://gidstats.com/football/argentina/2026-10-30-1493219-huracan-vs-tigre/
+2026-10-30;17:00;ARG;Estudiantes Rio Cuarto;Gimnasia LP;4.1;63.9;64;GOLES OPTIMISTAS;35.8;1-1;2.1;7;7;terminado;1-2;3;True;True;False;;;;;;;;https://gidstats.com/es/futbol/argentina/2026-10-30-1493218-estudiantes-de-rio-cuarto-gimnasia-l-p/
+2026-10-30;19:15;ARG;Racing Club;Aldosivi;4.1;73.1;73;GOLES OPTIMISTAS;46.6;1-1;2.5;8;7;terminado;2-1;3;True;True;False;;;;;;;;https://gidstats.com/football/argentina/2026-10-30-1493224-racing-club-vs-aldosivi/
+2026-10-30;19:15;ARG;Sarmiento;Rosario Central;4.1;70.0;70;GOLES OPTIMISTAS;42.8;1-1;2.4;7;7;terminado;1-2;3;True;True;False;;;;;;;;https://www.lanacion.com.ar/deportes/canchallena/rosario-central-vencio-por-2-1-a-sarmiento-por-el-torneo-clausura-2026-nid30102026/
+2026-10-31;07:30;ENG;Chelsea;Manchester United;4.1;83.1;83;GOLES ESTÁNDAR;61.0;1-1;3.2;4;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;08:00;ESP;Levante;Atletico Madrid;4.1;87.4;87;GOLES ESTÁNDAR;68.4;1-1;3.5;4;5;sin auditar;;;;;;;;;;;;;
+2026-10-31;09:00;ITA;Bologna;Monza;4.1;84.6;85;GOLES ESTÁNDAR;63.6;1-1;3.3;4;5;sin auditar;;;;;;;;;;;;;
+2026-10-31;09:30;GER;Werder Bremen;Hoffenheim;4.1;90.1;90;GOLES PLATINO;73.6;2-1;3.8;3;3;sin auditar;;;;;;;;;;;;;
+2026-10-31;09:30;GER;Schalke 04;RB Leipzig;4.1;79.9;80;GOLES ESTÁNDAR;56.2;1-1;2.9;3;3;sin auditar;;;;;;;;;;;;;
+2026-10-31;09:30;GER;Borussia Monchengladbach;SC Paderborn;4.1;88.5;89;GOLES ESTÁNDAR;70.4;1-1;3.6;3;3;sin auditar;;;;;;;;;;;;;
+2026-10-31;09:30;GER;Bayer Leverkusen;VfB Stuttgart;4.1;84.8;85;GOLES ESTÁNDAR;64.0;2-1;3.3;3;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;09:30;GER;Augsburg;SC Freiburg;4.1;84.9;85;GOLES ESTÁNDAR;64.0;1-1;3.3;4;3;sin auditar;;;;;;;;;;;;;
+2026-10-31;10:00;ENG;Manchester City;Brighton & Hove Albion;4.1;86.1;86;GOLES ESTÁNDAR;66.1;1-1;3.4;4;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;10:00;ENG;Hull City;Ipswich Town;4.1;80.2;80;GOLES ESTÁNDAR;56.5;1-1;2.9;4;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;10:00;ENG;Coventry City;Sunderland;4.1;81.3;81;GOLES ESTÁNDAR;58.1;1-1;3.0;4;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;10:00;ENG;Brentford;Nottingham Forest;4.1;79.0;79;GOLES OPTIMISTAS;54.7;1-1;2.9;4;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;10:00;ENG;AFC Bournemouth;Leeds United;4.1;68.4;68;GOLES OPTIMISTAS;40.8;1-1;2.3;4;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;10:15;ESP;Rayo Vallecano;Celta Vigo;4.1;69.4;69;GOLES OPTIMISTAS;42.0;1-1;2.4;4;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;10:30;POR;Moreirense;Estrela Amadora;4.1;83.2;83;GOLES ESTÁNDAR;61.2;1-1;3.2;4;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;10:30;NED;Feyenoord;Fortuna Sittard;4.1;89.4;89;GOLES ESTÁNDAR;72.1;1-1;3.7;4;5;sin auditar;;;;;;;;;;;;;
+2026-10-31;11:30;ECU;Delfín;Deportivo Cuenca;4.1;58.1;58;GOLES OPTIMISTAS;30.1;0-0;1.9;17;17;sin auditar;;;;;;;;;;;;;
+2026-10-31;12:00;ITA;Udinese;Roma;4.1;78.7;79;GOLES OPTIMISTAS;54.4;1-1;2.9;5;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;12:00;USA;Charlotte;Orlando City;4.1;89.8;90;GOLES PLATINO;72.9;2-1;3.8;15;15;sin auditar;;;;;;;;;;;;;
+2026-10-31;12:30;ENG;Tottenham Hotspur;Crystal Palace;4.1;77.7;78;GOLES OPTIMISTAS;52.8;1-1;2.8;4;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;12:30;ESP;Real Betis;Malaga;4.1;78.6;79;GOLES OPTIMISTAS;54.2;1-1;2.8;5;5;sin auditar;;;;;;;;;;;;;
+2026-10-31;12:30;GER;Bayern Munich;Borussia Dortmund;4.1;87.5;88;GOLES ESTÁNDAR;68.7;2-1;3.5;3;3;sin auditar;;;;;;;;;;;;;
+2026-10-31;12:45;NED;PSV;Willem II;4.1;91.1;91;GOLES PLATINO;75.6;2-1;4.0;5;5;sin auditar;;;;;;;;;;;;;
+2026-10-31;12:45;NED;Heerenveen;NEC;4.1;85.1;85;GOLES ESTÁNDAR;64.3;1-1;3.3;5;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;12:45;ARG;Defensa y Justicia;Independiente;4.1;61.1;61;GOLES OPTIMISTAS;33.0;1-1;2.0;7;7;sin auditar;;;;;;;;;;;;;
+2026-10-31;13:00;USA;Columbus Crew;DC United;4.1;80.6;81;GOLES ESTÁNDAR;57.1;1-1;3.0;16;15;sin auditar;;;;;;;;;;;;;
+2026-10-31;13:00;USA;New York City;CF Montreal;4.1;86.2;86;GOLES ESTÁNDAR;66.3;1-1;3.4;15;15;sin auditar;;;;;;;;;;;;;
+2026-10-31;13:00;USA;Cincinnati;Philadelphia;4.1;92.7;93;GOLES PLATINO;79.0;2-1;4.2;15;15;sin auditar;;;;;;;;;;;;;
+2026-10-31;14:00;ECU;Emelec;Leones del Norte;4.1;63.8;64;GOLES OPTIMISTAS;35.7;1-1;2.1;17;17;sin auditar;;;;;;;;;;;;;
+2026-10-31;14:00;BRA;Coritiba;Vitória;4.1;74.7;75;GOLES OPTIMISTAS;48.8;1-1;2.6;16;16;sin auditar;;;;;;;;;;;;;
+2026-10-31;14:00;USA;Sporting KC;Dallas;4.1;86.8;87;GOLES ESTÁNDAR;67.3;1-1;3.5;16;16;sin auditar;;;;;;;;;;;;;
+2026-10-31;14:00;USA;St. Louis City;San Diego;4.1;85.0;85;GOLES ESTÁNDAR;64.3;1-1;3.3;15;15;sin auditar;;;;;;;;;;;;;
+2026-10-31;14:45;ITA;AC Milan;Inter;4.1;83.7;84;GOLES ESTÁNDAR;62.0;1-1;3.2;4;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;14:45;FRA;Troyes;Le Mans;4.1;82.8;83;GOLES ESTÁNDAR;60.6;1-1;3.1;4;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;15:00;ENG;Aston Villa;Fulham;4.1;69.2;69;GOLES OPTIMISTAS;41.8;1-1;2.4;4;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;15:00;ESP;Barcelona;Alaves;4.1;82.6;83;GOLES ESTÁNDAR;60.3;1-1;3.1;5;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;15:00;NED;Ajax;AZ;4.1;89.8;90;GOLES PLATINO;72.8;1-1;3.8;5;5;sin auditar;;;;;;;;;;;;;
+2026-10-31;15:00;NED;Cambuur;Go Ahead Eagles;4.1;93.0;93;GOLES PLATINO;79.5;2-2;4.2;5;5;sin auditar;;;;;;;;;;;;;
+2026-10-31;15:00;ARG;Deportivo Riestra;Talleres Cordoba;4.1;69.9;70;GOLES OPTIMISTAS;42.7;1-1;2.4;7;6;sin auditar;;;;;;;;;;;;;
+2026-10-31;15:30;POR;FC Porto;Estoril;4.1;74.3;74;GOLES OPTIMISTAS;48.3;1-1;2.6;4;4;sin auditar;;;;;;;;;;;;;
+2026-10-31;15:30;PER;Alianza Atlético;Juan Pablo II;4.1;85.7;86;GOLES ESTÁNDAR;65.4;1-1;3.4;7;7;sin auditar;;;;;;;;;;;;;
+2026-10-31;16:00;USA;LA Galaxy;Austin;4.1;81.5;82;GOLES ESTÁNDAR;58.6;1-1;3.0;16;16;sin auditar;;;;;;;;;;;;;
+2026-10-31;16:00;USA;SJ Earthquakes;Real Salt Lake;4.1;82.7;83;GOLES ESTÁNDAR;60.3;1-1;3.1;15;15;sin auditar;;;;;;;;;;;;;
+2026-10-31;16:30;ECU;Macará;Barcelona SC;4.1;64.3;64;GOLES OPTIMISTAS;36.4;1-1;2.1;16;17;sin auditar;;;;;;;;;;;;;
+2026-10-31;17:15;ARG;Velez Sarsfield;San Lorenzo;4.1;60.3;60;GOLES OPTIMISTAS;32.3;1-0;2.0;7;7;sin auditar;;;;;;;;;;;;;
+2026-10-31;18:00;MEX;Pachuca;Tigres UANL;4.1;79.8;80;GOLES ESTÁNDAR;56.0;1-1;2.9;6;8;sin auditar;;;;;;;;;;;;;
+2026-10-31;18:00;CHI;OHiggins;Nublense;4.1;74.4;74;GOLES OPTIMISTAS;48.3;1-1;2.6;12;12;sin auditar;;;;;;;;;;;;;
+2026-10-31;18:00;COL;Llaneros;Junior;4.1;75.1;75;GOLES OPTIMISTAS;49.3;1-1;2.6;8;8;sin auditar;;;;;;;;;;;;;
+2026-10-31;19:30;ARG;Estudiantes LP;Instituto Cordoba;4.1;65.8;66;GOLES OPTIMISTAS;38.0;1-1;2.2;7;7;sin auditar;;;;;;;;;;;;;
+2026-10-31;20:00;MEX;Monterrey;Tijuana;4.1;81.6;82;GOLES ESTÁNDAR;58.7;1-1;3.0;7;6;sin auditar;;;;;;;;;;;;;
+2026-10-31;20:07;MEX;Guadalajara;Atlante;4.1;75.7;76;GOLES OPTIMISTAS;50.1;1-1;2.7;7;7;sin auditar;;;;;;;;;;;;;
+2026-10-31;20:30;USA;Colorado Rapids;Chicago Fire;4.1;81.9;82;GOLES ESTÁNDAR;59.1;1-1;3.1;16;16;sin auditar;;;;;;;;;;;;;
+2026-10-31;22:00;MEX;America;Toluca;4.1;77.5;78;GOLES OPTIMISTAS;52.5;1-1;2.8;7;7;sin auditar;;;;;;;;;;;;;

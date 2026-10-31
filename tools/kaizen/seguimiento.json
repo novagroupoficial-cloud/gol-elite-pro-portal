@@ -1,44 +1,44 @@
 {
- "actualizado": "2026-10-28 05:41 ECU",
+ "actualizado": "2026-10-31 05:52 ECU",
  "nota": "Brier: menor es mejor. skill > 0: aporta frente a decir siempre la media. AUC: 0,5 = azar, 1 = perfecto. Metas Kaizen: skill > 0 y AUC Over 1.5 >= 0,60.",
  "total": {
   "over15": {
-   "n": 279,
-   "brier": 0.175,
-   "skill": -0.037,
-   "auc": 0.527,
-   "logloss": 0.5334,
-   "media_pred": 0.769,
-   "real": 0.785
+   "n": 295,
+   "brier": 0.1747,
+   "skill": -0.04,
+   "auc": 0.52,
+   "logloss": 0.533,
+   "media_pred": 0.768,
+   "real": 0.786
   },
   "over25": {
-   "n": 279,
-   "brier": 0.2502,
-   "skill": -0.008,
-   "auc": 0.577,
-   "logloss": 0.6957,
-   "media_pred": 0.535,
-   "real": 0.541
+   "n": 295,
+   "brier": 0.2512,
+   "skill": -0.013,
+   "auc": 0.57,
+   "logloss": 0.6977,
+   "media_pred": 0.533,
+   "real": 0.546
   }
  },
  "ultimos_7_dias": {
   "over15": {
-   "n": 137,
-   "brier": 0.174,
-   "skill": 0.006,
-   "auc": 0.577,
-   "logloss": 0.5284,
-   "media_pred": 0.769,
-   "real": 0.774
+   "n": 136,
+   "brier": 0.1741,
+   "skill": 0.011,
+   "auc": 0.578,
+   "logloss": 0.5297,
+   "media_pred": 0.765,
+   "real": 0.772
   },
   "over25": {
-   "n": 137,
-   "brier": 0.2504,
-   "skill": -0.002,
-   "auc": 0.582,
-   "logloss": 0.6953,
-   "media_pred": 0.535,
-   "real": 0.496
+   "n": 136,
+   "brier": 0.2584,
+   "skill": -0.034,
+   "auc": 0.539,
+   "logloss": 0.7121,
+   "media_pred": 0.529,
+   "real": 0.5
   }
  },
  "por_version": {
@@ -64,22 +64,22 @@
   },
   "4.1": {
    "over15": {
-    "n": 16,
-    "brier": 0.1632,
-    "skill": 0.13,
-    "auc": 0.896,
-    "logloss": 0.4991,
-    "media_pred": 0.749,
-    "real": 0.75
+    "n": 32,
+    "brier": 0.1658,
+    "skill": 0.03,
+    "auc": 0.669,
+    "logloss": 0.5128,
+    "media_pred": 0.748,
+    "real": 0.781
    },
    "over25": {
-    "n": 16,
-    "brier": 0.2408,
-    "skill": 0.037,
-    "auc": 0.688,
-    "logloss": 0.6751,
+    "n": 32,
+    "brier": 0.2546,
+    "skill": -0.035,
+    "auc": 0.538,
+    "logloss": 0.703,
     "media_pred": 0.494,
-    "real": 0.5
+    "real": 0.562
    }
   }
  },
@@ -324,7 +324,28 @@
     "media_pred": 0.509,
     "real": 0.5
    }
-  }
+  },
+  "2026-10-28": {
+   "over15": {
+    "n": 12,
+    "brier": 0.1893,
+    "skill": -0.009,
+    "auc": 0.593,
+    "logloss": 0.5716,
+    "media_pred": 0.771,
+    "real": 0.75
+   },
+   "over25": {
+    "n": 12,
+    "brier": 0.2618,
+    "skill": -0.077,
+    "auc": 0.429,
+    "logloss": 0.7175,
+    "media_pred": 0.523,
+    "real": 0.583
+   }
+  },
+  "2026-10-30": null
  },
  "por_semana": {
   "2026-S41": {
@@ -465,42 +486,44 @@
   },
   "2026-S44": {
    "over15": {
-    "n": 16,
-    "brier": 0.1632,
-    "skill": 0.13,
-    "auc": 0.896,
-    "logloss": 0.4991,
-    "media_pred": 0.749,
-    "real": 0.75
+    "n": 32,
+    "brier": 0.1658,
+    "skill": 0.03,
+    "auc": 0.669,
+    "logloss": 0.5128,
+    "media_pred": 0.748,
+    "real": 0.781
    },
    "over25": {
-    "n": 16,
-    "brier": 0.2408,
-    "skill": 0.037,
-    "auc": 0.688,
-    "logloss": 0.6751,
+    "n": 32,
+    "brier": 0.2546,
+    "skill": -0.035,
+    "auc": 0.538,
+    "logloss": 0.703,
     "media_pred": 0.494,
-    "real": 0.5
+    "real": 0.562
    },
-   "partidos": 16,
+   "partidos": 32,
    "dias": [
     "2026-10-26",
-    "2026-10-27"
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-30"
    ],
-   "aciertos_over15": 12,
-   "goles_por_partido": 3.12,
-   "goles_esperados": 2.67,
+   "aciertos_over15": 25,
+   "goles_por_partido": 2.97,
+   "goles_esperados": 2.66,
    "platino_o_elite": "0/0",
    "over25_fuerte": "0/0",
    "over25_moderada": "0/1",
    "por_liga": {
-    "ARG": "1/3",
-    "BRA": "1/2",
+    "ARG": "5/7",
+    "BRA": "5/7",
     "CHI": "1/1",
-    "COL": "3/4",
+    "COL": "4/6",
     "ESP": "1/1",
     "FRA": "1/1",
-    "ITA": "3/3",
+    "ITA": "7/8",
     "POR": "1/1"
    }
   }
@@ -508,24 +531,24 @@
  "por_mes": {
   "2026-10": {
    "over15": {
-    "n": 279,
-    "brier": 0.175,
-    "skill": -0.037,
-    "auc": 0.527,
-    "logloss": 0.5334,
-    "media_pred": 0.769,
-    "real": 0.785
+    "n": 295,
+    "brier": 0.1747,
+    "skill": -0.04,
+    "auc": 0.52,
+    "logloss": 0.533,
+    "media_pred": 0.768,
+    "real": 0.786
    },
    "over25": {
-    "n": 279,
-    "brier": 0.2502,
-    "skill": -0.008,
-    "auc": 0.577,
-    "logloss": 0.6957,
-    "media_pred": 0.535,
-    "real": 0.541
+    "n": 295,
+    "brier": 0.2512,
+    "skill": -0.013,
+    "auc": 0.57,
+    "logloss": 0.6977,
+    "media_pred": 0.533,
+    "real": 0.546
    },
-   "partidos": 279,
+   "partidos": 295,
    "dias": [
     "2026-10-11",
     "2026-10-12",
@@ -539,25 +562,27 @@
     "2026-10-24",
     "2026-10-25",
     "2026-10-26",
-    "2026-10-27"
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-30"
    ],
-   "aciertos_over15": 219,
+   "aciertos_over15": 232,
    "goles_por_partido": 2.97,
-   "goles_esperados": 2.88,
+   "goles_esperados": 2.87,
    "platino_o_elite": "32/34",
    "over25_fuerte": "18/26",
    "over25_moderada": "20/33",
    "por_liga": {
-    "ARG": "17/28",
-    "BRA": "19/25",
+    "ARG": "21/32",
+    "BRA": "23/30",
     "CHI": "1/1",
-    "COL": "17/24",
+    "COL": "18/26",
     "ECU": "12/15",
     "ENG": "17/22",
     "ESP": "18/23",
     "FRA": "15/18",
     "GER": "10/16",
-    "ITA": "23/25",
+    "ITA": "27/30",
     "MEX": "24/29",
     "NED": "14/15",
     "PER": "5/7",
@@ -566,8 +591,53 @@
    }
   }
  },
+ "comparacion_versiones": {
+  "partidos": 32,
+  "sellado": {
+   "over15": {
+    "n": 32,
+    "brier": 0.1658,
+    "skill": 0.03,
+    "auc": 0.669,
+    "logloss": 0.5128,
+    "media_pred": 0.748,
+    "real": 0.781
+   },
+   "over25": {
+    "n": 32,
+    "brier": 0.2546,
+    "skill": -0.035,
+    "auc": 0.538,
+    "logloss": 0.703,
+    "media_pred": 0.494,
+    "real": 0.562
+   }
+  },
+  "version_4_0": {
+   "over15": {
+    "n": 32,
+    "brier": 0.1703,
+    "skill": 0.004,
+    "auc": 0.563,
+    "logloss": 0.5247,
+    "media_pred": 0.748,
+    "real": 0.781
+   },
+   "over25": {
+    "n": 32,
+    "brier": 0.259,
+    "skill": -0.052,
+    "auc": 0.526,
+    "logloss": 0.7137,
+    "media_pred": 0.497,
+    "real": 0.562
+   }
+  }
+ },
  "avisos": [
-  "BUENA NOTICIA KAIZEN: Over 1.5 ya aporta en los últimos 7 días (skill +0.006)",
+  "BUENA NOTICIA KAIZEN: Over 1.5 ya aporta en los últimos 7 días (skill +0.011)",
+  "BUENA NOTICIA KAIZEN: la versión nueva supera a la 4.0 en Over 1.5 en 32 partidos reales (Brier 0.1658 vs 0.1703)",
+  "BUENA NOTICIA KAIZEN: la versión nueva supera a la 4.0 en Over 2.5 en 32 partidos reales (Brier 0.2546 vs 0.259)",
   "BUENA NOTICIA KAIZEN: ECU se cumple más de lo prometido (83 % real vs 60 % prometido, 6 partidos)",
   "ALERTA KAIZEN: GER se cumple mucho menos de lo prometido (62 % real vs 89 % prometido, 8 partidos)"
  ]

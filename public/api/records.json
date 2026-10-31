@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30 23:11 ECU",
+ "actualizado": "2026-10-31 06:15 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -17,7 +17,7 @@
   "2026-10-28",
   "2026-10-30"
  ],
- "partidos": 288,
+ "partidos": 295,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -29,12 +29,12 @@
    "partidos": 29
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 67,
-   "partidos": 93
+   "aciertos": 68,
+   "partidos": 94
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 128,
-   "partidos": 161
+   "aciertos": 132,
+   "partidos": 167
   }
  },
  "over90": {
@@ -44,17 +44,17 @@
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 99,
-  "partidos": 127
+  "aciertos": 100,
+  "partidos": 128
  },
  "over25_senal": {
   "aciertos": 38,
   "partidos": 59
  },
  "partido_del_dia": {
-  "aciertos": 11,
-  "dias": 12,
-  "racha_actual": 5,
+  "aciertos": 12,
+  "dias": 14,
+  "racha_actual": 1,
   "detalle": [
    {
     "fecha": "2026-10-11",
@@ -151,6 +151,22 @@
     "goles": 2,
     "acierto": true,
     "over15": 86.8
+   },
+   {
+    "fecha": "2026-10-28",
+    "partido": "Parma vs Udinese",
+    "resultado": "0-0",
+    "goles": 0,
+    "acierto": false,
+    "over15": 84.8
+   },
+   {
+    "fecha": "2026-10-30",
+    "partido": "Racing Club vs Aldosivi",
+    "resultado": "2-1",
+    "goles": 3,
+    "acierto": true,
+    "over15": 73.1
    }
   ]
  },
@@ -181,15 +197,15 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 93,
-   "aciertos": 67,
-   "prometido": 83.6
+   "partidos": 94,
+   "aciertos": 68,
+   "prometido": 83.5
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 100,
-   "aciertos": 77,
-   "prometido": 74.5
+   "partidos": 106,
+   "aciertos": 81,
+   "prometido": 74.4
   },
   {
    "franja": "menos de 70 %",

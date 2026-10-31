@@ -424,5 +424,72 @@
    "Instituto 1-0 Deportivo Riestra (marcador exacto acertado: dimos 1-0)"
   ],
   "partidos": 10
+ },
+ {
+  "fecha": "2026-10-28",
+  "titulo": "Miércoles 28 de octubre de 2026",
+  "imagen": "/historial/2026-10-28.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "9/12",
+    "Over 1.5 de 70 % o más (75 %)"
+   ],
+   [
+    "0/0",
+    "Over 2.5 con señal (sin señal ese día)"
+   ],
+   [
+    "0/12",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Fallaron 3 Over 1.5 de 70 % o más: Parma 0-0 Udinese (partido del día, 84,8 %), Santos 0-0 Palmeiras (73,3 %) y Once Caldas 1-0 Alianza (72,8 %; hubo 1 gol). No hubo partidos de 90 % o más ni señales de Over 2.5. En total, 9 de 12 partidos tuvieron 2 goles o más.",
+  "aciertos_destacados": [
+   "Monza 1-4 Napoli (Over 1.5 al 82,7 % · hubo 5 goles)",
+   "Venezia 0-2 Inter (Over 1.5 al 80,9 % · hubo 2 goles)",
+   "Internacional de Bogotá 3-1 Independiente Medellín (Over 1.5 al 79,8 % · hubo 4 goles)",
+   "Genoa 2-0 Juventus (Over 1.5 al 78,2 % · hubo 2 goles)",
+   "AC Milan 2-4 Bologna (Over 1.5 al 77,2 % · hubo 6 goles)",
+   "Remo 2-1 Botafogo (Over 1.5 al 76,3 % · hubo 3 goles)",
+   "Bragantino 3-0 Chapecoense (Over 1.5 al 74,3 % · hubo 3 goles)",
+   "Fluminense 2-1 Internacional (Over 1.5 al 74,2 % · hubo 3 goles)",
+   "Bahia 3-2 São Paulo (Over 1.5 al 70,1 % · hubo 5 goles)"
+  ],
+  "partidos": 12
+ },
+ {
+  "fecha": "2026-10-30",
+  "titulo": "Viernes 30 de octubre de 2026",
+  "imagen": "/historial/2026-10-30.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "2/2",
+    "Over 1.5 de 70 % o más (100 %)"
+   ],
+   [
+    "0/0",
+    "Over 2.5 con señal (sin señal ese día)"
+   ],
+   [
+    "0/4",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Ningún fallo en Over 1.5: los 4 partidos tuvieron 2 goles o más. No hubo partidos de 80 % o más ni señales de Over 2.5 (jornada corta, solo Argentina). Ningún marcador exacto (dimos 1-1 en los cuatro).",
+  "aciertos_destacados": [
+   "Racing Club 2-1 Aldosivi (partido del día · Over 1.5 al 73,1 % · hubo 3 goles)",
+   "Sarmiento 1-2 Rosario Central (Over 1.5 al 70,0 % · hubo 3 goles)",
+   "Estudiantes Río Cuarto 1-2 Gimnasia LP (Over 1.5 al 63,9 %, menos de 70 % · hubo 3 goles)",
+   "Huracán 0-2 Tigre (Over 1.5 al 64,0 %, menos de 70 % · hubo 2 goles)"
+  ],
+  "partidos": 4
  }
 ]

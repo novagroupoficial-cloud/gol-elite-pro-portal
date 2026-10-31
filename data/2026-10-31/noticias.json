@@ -1,0 +1,203 @@
+{
+ "nota": "Noticia de cada partido de Over 1.5 de 80 % o más (entero redondeado), con hechos concretos de fuentes abiertas y una conclusión. Recopilada el 31-oct-2026 05:55–06:00 ECU por la rutina diaria. Se usa como dato para la base histórica Kaizen; no entra al modelo.",
+ "partidos": {
+  "Chelsea|Manchester United": {
+   "titular": "Chelsea recibe a un United sin victorias recientes",
+   "texto": "Chelsea es 5º con 13 puntos (17 GF, 15 GC en 8 partidos) y Manchester United 16º con 7 puntos. El United llega sin ganar en sus últimos 5 (0-3 ante Bournemouth y 1-4 ante Como). En la lista FPL del 30-oct, João Pedro (muslo) es baja de Chelsea con regreso sin fecha y Šeško (tibia) y Dorgu (isquios) en el United; Mainoo tiene 25% de opciones. Conclusión: los partidos de Chelsea promedian más de 2 goles por encuentro y el United concede con frecuencia, lo que apoya un partido de 2+ goles, aunque las bajas ofensivas lo matizan.",
+   "fuente": "Football Dream / Fútbol Total",
+   "url": "https://www.footballdream.in/blog/chelsea-vs-manchester-united-gw9-premier-league-2026-27"
+  },
+  "Levante|Atletico Madrid": {
+   "titular": "El Atlético visita Valencia con cinco victorias seguidas en Liga",
+   "texto": "El Atlético es 2º con 25 puntos (20 GF, 8 GC) y ganó sus últimos cinco de Liga; Julián Álvarez marcó el 1-0 ante el Deportivo. El Levante es 15º con 10 puntos y ha encajado 19 goles en 10 jornadas, con un 3-3 ante Sevilla y un 3-1 ante Athletic en sus últimos partidos en casa. Conclusión: el Levante marca y recibe mucho en casa, lo que apoya 2+ goles, aunque el Atlético solo concede 0,8 por partido.",
+   "fuente": "Football Dream / Fútbol Total",
+   "url": "https://www.footballdream.in/blog/levante-vs-atletico-madrid-matchday-11-la-liga-2026-27"
+  },
+  "Bologna|Monza": {
+   "titular": "Bologna, en racha a domicilio, recibe a un Monza goleado",
+   "texto": "El Bologna viene de ganar 2-4 en San Siro al Milan y 0-2 en Cagliari, y es 11º con 11 puntos (12 GF, 12 GC). El Monza es 16º con 7 puntos y es la defensa más castigada de los dos: 22 goles encajados en 9 jornadas, con un 1-4 ante Napoli en su último partido. Conclusión: los goles recibidos por el Monza (2,4 por partido) apoyan un partido de 2+ goles, aunque el Bologna en casa ha sido poco goleador.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/bologna-vs-monza-serie-a-2026-10-31"
+  },
+  "Manchester City|Brighton & Hove Albion": {
+   "titular": "Líder contra tercero, tres días después del 2-2 en Copa",
+   "texto": "El City es líder con 21 puntos (20 GF, 9 GC) y el Brighton 3º con 16 (23 GF, 7 GC). Se enfrentaron el 28-oct en la Carabao Cup con 2-2 (definido por penales). En el City, Semenyo (rodilla) es baja sin fecha y Matheus Nunes tiene 75%; en el Brighton, Struijk (isquios) no vuelve hasta el 8-nov y Kadıoğlu está al 75%. Conclusión: dos de los ataques más productivos de la liga y el 2-2 reciente apoyan un partido de 2+ goles.",
+   "fuente": "Football Dream / Fútbol Total",
+   "url": "https://www.footballdream.in/blog/manchester-city-vs-brighton-gw9-premier-league-2026-27"
+  },
+  "Hull City|Ipswich Town": {
+   "titular": "Duelo de ascendidos empatados a 10 puntos",
+   "texto": "Hull (10º) e Ipswich (12º) llegan con 10 puntos en 8 jornadas; Hull con 9 GF y 8 GC, Ipswich con 12 GF y 16 GC. El Hull no gana en sus últimos 5 (tres empates, dos derrotas) e Ipswich viene de 1-1 ante Nottingham Forest. Bajas FPL del 30-oct: Targett (tobillo) en Hull, Gourna-Douath al 75%; Lukić (ingle) en Ipswich. Conclusión: la defensa de Ipswich (2 goles encajados por partido) apoya 2+ goles, pero el Hull en casa ha sido de marcadores cortos; señal mixta.",
+   "fuente": "Football Dream / Fútbol Total",
+   "url": "https://www.footballdream.in/blog/hull-city-vs-ipswich-town-gw9-premier-league-2026-27"
+  },
+  "Coventry City|Sunderland": {
+   "titular": "Duelo por salir del descenso: 19º contra 20º",
+   "texto": "Coventry es 19º con 6 puntos y Sunderland último con 5, ambos tras 8 jornadas. Coventry perdió sus dos últimos de liga (0-1 ante Fulham, 3-1 en Tottenham); Sunderland empató 0-0 con Leeds y ganó 3-2 al Brentford en Copa. Bajas FPL del 30-oct: Bobby Thomas (pantorrilla) al 50% en Coventry; Ballard y Mundle sin fecha e Isidor al 50% en Sunderland. Conclusión: dos ataques flojos (6 goles cada uno tras 7 jornadas según la previa) y un partido de tensión por el descenso no apoyan claramente los 2+ goles.",
+   "fuente": "Football Dream / Fútbol Total",
+   "url": "https://www.footballdream.in/blog/coventry-city-vs-sunderland-gw9-premier-league-2026-27"
+  },
+  "Moreirense|Estrela Amadora": {
+   "titular": "Moreirense, 10º, recibe a un Estrela en mala racha",
+   "texto": "Moreirense es 10º con 11 puntos (11 GF, 16 GC) y viene de ganar 1-3 en Estoril. El Estrela es 12º con 10 puntos (14 GF, 17 GC) y perdió sus últimos tres partidos: 0-2 ante Casa Pia, 1-0 en Arouca y 0-2 ante Académico Viseu. Conclusión: ambos encajan casi 2 goles por partido, lo que apoya 2+ goles, aunque el Estrela lleva tres partidos sin marcar.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/moreirense-vs-estrela-primeira-liga-2026-10-31"
+  },
+  "AC Milan|Inter": {
+   "titular": "Derbi de Milán: el líder Inter contra un Milan que ganó los dos últimos",
+   "texto": "El Inter es líder con 25 puntos (25 GF, 10 GC en 9 jornadas) y llega tras ganar 0-2 en Venezia, su cuarto triunfo seguido. El Milan es 5º con 18 puntos y viene de perder 2-4 en casa ante el Bologna. En los últimos 6 derbis el Milan ganó 4 y el Inter ninguno; los dos últimos terminaron 1-0 para el Milan. Conclusión: ambos llegan con mucho gol (el Milan encajó 4 el miércoles), lo que apoya 2+ goles, aunque los dos últimos derbis acabaron 1-0.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/ac-milan-vs-inter-serie-a-2026-10-31"
+  },
+  "Troyes|Le Mans": {
+   "titular": "Troyes, sin ganar, recibe a Le Mans en duelo por la permanencia",
+   "texto": "Troyes es 17º con 5 puntos y solo 5 goles a favor y 16 en contra en 8 jornadas; no gana en sus últimos 5 (0-0 en Toulouse, 1-3 ante Lens, 0-2 ante Marsella). Le Mans es 15º con 7 puntos (11 GF, 16 GC) y viene de 1-1 en Auxerre. Conclusión: el ataque de Troyes (0,6 goles por partido) no apoya un partido de 2+ goles, aunque ambas defensas conceden 2 por partido.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/estac-troyes-vs-le-mans-ligue-1-2026-10-31"
+  },
+  "Barcelona|Alaves": {
+   "titular": "El líder Barça, tras el Clásico perdido, recibe a un Alavés sin victorias",
+   "texto": "El Barcelona es líder con 27 puntos y 40 goles en 10 jornadas, pero llega de dos derrotas: 1-2 ante el Real Madrid y 4-2 en París ante el PSG. El Alavés es 7º con 12 puntos (14 GF, 11 GC) y no gana en sus últimos cinco oficiales; Raphinha marcó en el último partido liguero azulgrana. Conclusión: el Barça promedia 4 goles por partido en Liga, lo que apoya con fuerza un partido de 2+ goles.",
+   "fuente": "Fútbol Total / Football Dream",
+   "url": "https://futboltotal.futbol/partido/barcelona-vs-alaves-laliga-1570434"
+  },
+  "Cambuur|Go Ahead Eagles": {
+   "titular": "Cambuur, invicto en 5, recibe a un GAE goleador",
+   "texto": "Cambuur (10.º, 12 pts, 19-22 en goles) llega tras golear 1-6 al Willem II con doblete de Nicolas Binder y ganar 0-2 en Copa a Kloetinge; recupera a Bouah tras sanción, pero no tendrá a Amofa, Asselman ni Visser (lesionados). Go Ahead Eagles (9.º, 14 pts, 23-23) viene de ganar 3-2 al Telstar y 0-5 en Copa al HFC, aunque encajó 4-1 en Zwolle; baja de Saathof (rodilla). Ambos promedian más de 4 goles por partido de liga sumando a favor y en contra. Conclusión: los hechos apoyan claramente un partido de 2+ goles (defensas que conceden más de 2 por partido y ataques en racha).",
+   "fuente": "FootballPredictions.com / Fútbol Total / BetCity",
+   "url": "https://footballpredictions.com/footballpredictions/netherlands-eredivisie-predictions/cambuur-vs-go-ahead-eagles-prediction-31-10-2026/"
+  },
+  "Ajax|AZ": {
+   "titular": "Ajax (2.º) recibe a AZ (5.º) en duelo de altura",
+   "texto": "Ajax es 2.º con 21 pts (29 goles a favor) y viene de ganar 1-2 en Sparta, 2-0 a Atalanta y 2-5 en Groningen; Daley Blind se recuperó de lesión. AZ es 5.º con 20 pts, cayó 0-2 ante Twente pero goleó 0-4 al Ararat-Armenia en Europa League. En los últimos 38 duelos directos, 23 superaron los 2.5 goles. Conclusión: los hechos apoyan un partido de 2+ goles.",
+   "fuente": "Fútbol Total / FootballPredictions.com",
+   "url": "https://footballpredictions.com/footballpredictions/netherlands-eredivisie-predictions/ajax-vs-az-prediction-31-10-2026/"
+  },
+  "PSV|Willem II": {
+   "titular": "PSV recibe al colista Willem II",
+   "texto": "PSV es 3.º con 20 pts (28-13 en goles); siguen de baja Pepi, Lammers y Schouten, y regresa Sven Mijnans tras sanción. Willem II es último (18.º) con 2 pts y 32 goles encajados en 10 jornadas, con cinco derrotas seguidas, la última 1-6 ante Cambuur. 15 de los últimos 20 duelos directos tuvieron al menos tres goles. Conclusión: los hechos apoyan con fuerza un partido de 2+ goles.",
+   "fuente": "FootballPredictions.com / Fútbol Total",
+   "url": "https://footballpredictions.com/footballpredictions/netherlands-eredivisie-predictions/psv-vs-willem-ii-prediction-31-10-2026/"
+  },
+  "Heerenveen|NEC": {
+   "titular": "Heerenveen, en racha, recibe a un NEC de empates",
+   "texto": "Heerenveen es 7.º con 15 pts y ganó 3 de sus últimos 5 (2-3 en ADO, 4-0 al Excelsior). NEC es 12.º con 11 pts y empató 4 de sus últimos 5, aunque marcó 2+ goles en tres de ellos (2-2 Groningen, 2-4 en Zagreb, 2-2 Fortuna). Conclusión: los hechos apoyan moderadamente un partido de 2+ goles.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/heerenveen-vs-nec-nijmegen-eredivisie-2026-10-31"
+  },
+  "Feyenoord|Fortuna Sittard": {
+   "titular": "El líder Feyenoord recibe al Fortuna",
+   "texto": "Feyenoord lidera con 24 pts y 32 goles en 10 jornadas; viene de 1-1 en Eindhoven y 3-4 en Telstar. Fortuna Sittard es 6.º con 18 pts, con 17 goles a favor y 17 en contra, y suma 3 partidos de liga sin perder. Conclusión: los hechos apoyan un partido de 2+ goles por el ataque del líder (3,2 goles por partido).",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/feyenoord-vs-fortuna-sittard-eredivisie-2026-10-31"
+  },
+  "Bayern Munich|Borussia Dortmund": {
+   "titular": "Clásico de líderes: ambos con 17 puntos",
+   "texto": "Bayern es 1.º con 17 pts y 25-6 en goles; llega tras 6-1 al Magdeburgo en Copa, 1-3 en Friburgo y 6-1 al Leipzig. Dortmund es 2.º, también con 17 pts, con la defensa menos goleada (4 en contra) y 4 partidos seguidos sin perder (3-2 al Werder en Copa, 1-0 al Frankfurt). Conclusión: el ataque del Bayern apoya 2+ goles, aunque la solidez del Dortmund lo matiza.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/bayern-munchen-vs-borussia-dortmund-bundesliga-2026-10-31"
+  },
+  "Werder Bremen|Hoffenheim": {
+   "titular": "Werder (6.º) recibe a un Hoffenheim en alza",
+   "texto": "Werder es 6.º con 12 pts (15-14) y suma tres partidos con 2+ goles propios (2-3 en Mainz, 2-2 Paderborn, 2-2 en Dortmund) antes de caer 3-2 en Copa ante el Dortmund. Hoffenheim es 10.º con 9 pts y viene de 3-0 al Leverkusen y 3-0 al Lyon. Conclusión: los hechos apoyan un partido de 2+ goles.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/werder-bremen-vs-1899-hoffenheim-bundesliga-2026-10-31"
+  },
+  "Schalke 04|RB Leipzig": {
+   "titular": "Schalke, sin gol, recibe al Leipzig",
+   "texto": "Schalke es 16.º con 6 pts y apenas 4 goles a favor; no ha marcado en sus últimos tres oficiales (0-0 en Colonia, 0-1 ante Mainz, 2-0 en Dresde en Copa). Leipzig es 5.º con 12 pts y 20 goles, pero encajó 6-1 ante Bayern y 4-1 ante Real Madrid antes de ganar 4-0 al Elversberg. Conclusión: los hechos son mixtos; Leipzig aporta goles, pero la sequía de Schalke frena el 2+.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/fc-schalke-04-vs-rb-leipzig-bundesliga-2026-10-31"
+  },
+  "Borussia Monchengladbach|SC Paderborn": {
+   "titular": "El colista Gladbach recibe al Paderborn",
+   "texto": "Gladbach es último con 3 pts y 22 goles encajados, pero ganó 2-3 en Stuttgart y 2-0 al Karlsruhe en Copa. Paderborn es 13.º con 8 pts y solo 6 goles a favor y 9 en contra en 7 jornadas. Conclusión: los hechos son mixtos; la defensa de Gladbach invita a goles, el Paderborn juega partidos cerrados.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/borussia-monchengladbach-vs-sc-paderborn-07-bundesliga-1575208"
+  },
+  "Bayer Leverkusen|VfB Stuttgart": {
+   "titular": "Leverkusen (4.º) recibe a un Stuttgart en apuros",
+   "texto": "Leverkusen es 4.º con 13 pts y goleó 5-2 al Núremberg en Copa tras caer 3-0 en Hoffenheim. Stuttgart es 15.º con 6 pts, perdió 2-3 ante Gladbach y 1-0 en Hamburgo, aunque ganó 0-1 en Paderborn en Copa. Conclusión: los hechos apoyan moderadamente un partido de 2+ goles.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/bayer-leverkusen-vs-vfb-stuttgart-bundesliga-2026-10-31"
+  },
+  "Augsburg|SC Freiburg": {
+   "titular": "Augsburg recibe al Freiburg, 3.º",
+   "texto": "Augsburg es 9.º con 9 pts (17-13) y sus últimos oficiales fueron de muchos goles: 2-4 en Copa, 1-1 Union, 4-3 en Elversberg y 2-2 ante Bayern. Freiburg es 3.º con 13 pts, pero perdió 1-3 ante Bayern, 3-0 en Mónaco y 2-1 en Leverkusen antes de ganar 3-2 al Wolfsburgo en Copa. Conclusión: los hechos apoyan un partido de 2+ goles.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/fc-augsburg-vs-sc-freiburg-bundesliga-2026-10-31"
+  },
+  "Charlotte|Orlando City": {
+   "titular": "Charlotte, ya clasificado, recibe a un Orlando goleador pero muy permeable",
+   "texto": "Charlotte (5º, 50 pts) aseguró su plaza de playoffs al golear 4-0 a CF Montréal el 28-oct. Orlando (7º, 43 pts) llega con tres empates en sus últimos cinco (2-2, 2-2, 3-3) y ha recibido 74 goles en 32 partidos, la peor defensa de la tabla de referencia. Los últimos 5 de Orlando promedian 4,8 goles por partido. Conclusión: los hechos apoyan claramente un partido de 2+ goles.",
+   "fuente": "Fútbol Total / MLSsoccer.com",
+   "url": "https://futboltotal.futbol/partido/charlotte-fc-vs-orlando-city-sc-mls-2026-10-31"
+  },
+  "Columbus Crew|DC United": {
+   "titular": "Columbus, con cuatro triunfos seguidos, recibe a un D.C. United eliminado",
+   "texto": "Columbus (9º, 41 pts) ganó sus últimos cuatro partidos: 2-0 en Dallas, 4-2 a Toronto, 2-0 en Cincinnati y 3-1 a Charlotte. D.C. United (13º, 33 pts) quedó eliminado de playoffs tras perder 2-1 en Toronto y suma cuatro derrotas seguidas, con 57 goles recibidos en 32 partidos. Conclusión: el ataque en racha de Columbus y la defensa débil de D.C. apoyan 2+ goles, aunque D.C. marca poco (39 GF).",
+   "fuente": "Fútbol Total / MLSsoccer.com",
+   "url": "https://futboltotal.futbol/partido/columbus-crew-vs-dc-united-mls-2026-10-31"
+  },
+  "New York City|CF Montreal": {
+   "titular": "NYCFC sigue vivo y recibe a un Montréal que no gana hace cinco",
+   "texto": "NYCFC (12º, 38 pts) venció 2-1 a Atlanta el 28-oct y sigue con opciones de playoffs. Montréal (15º, 25 pts) no gana en sus últimos cinco (4 derrotas y 1 empate), con solo 2 goles anotados en ese tramo y 66 recibidos en la temporada. Conclusión: la defensa de Montréal invita a goles, pero su ataque casi nulo hace que 2+ goles dependa sobre todo de NYCFC; apoyo moderado.",
+   "fuente": "Fútbol Total / MLSsoccer.com",
+   "url": "https://futboltotal.futbol/partido/new-york-city-fc-vs-cf-montreal-mls-2026-10-31"
+  },
+  "Cincinnati|Philadelphia": {
+   "titular": "Cincinnati, con bajas en defensa, busca revancha del 5-0 ante una Union ya clasificada",
+   "texto": "Partido de temporada regular (Decision Day es el 7-nov). Philadelphia (6º, 47 pts) ya está clasificado a playoffs y goleó 5-0 a Cincinnati el 10-sep; llega sin Jean-Jacques (suspendido), Iloski, Bueno y Sullivan. Cincinnati (8º, 43 pts) ha recibido 73 goles en 32 partidos y no tendrá a Malatini, Robinson, Malacia ni Echenique; empató 2-2 en Miami el 28-oct. Conclusión: la defensa muy castigada de Cincinnati y el historial goleador del duelo apoyan con fuerza un partido de 2+ goles.",
+   "fuente": "Starting11 / Fútbol Total / MLSsoccer.com",
+   "url": "https://starting11.com/fixtures/fc-cincinnati-vs-philadelphia-union"
+  },
+  "Sporting KC|Dallas": {
+   "titular": "El colista Sporting KC, sin ganar en cinco, recibe al segundo de la tabla",
+   "texto": "Sporting KC (15º, 22 pts) acumula cuatro derrotas seguidas y ha encajado 80 goles en 32 partidos. FC Dallas (2º, 54 pts) perdió 0-2 ante Columbus el 28-oct pero antes ganó 3-0 a San José. Conclusión: la defensa de Sporting (2,5 goles recibidos por partido) apoya un partido de 2+ goles.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/sporting-kansas-city-vs-fc-dallas-mls-2026-10-31"
+  },
+  "St. Louis City|San Diego": {
+   "titular": "St. Louis, tercero pero con tres derrotas seguidas, recibe a un San Diego eliminado",
+   "texto": "St. Louis (3º, 51 pts) perdió sus últimos tres partidos (2-3 con Portland, 0-3 en Salt Lake, 2-3 en Minnesota). San Diego (13º, 35 pts) quedó eliminado tras caer 4-1 en Vancouver y no gana en sus últimos cinco, aunque marcó en todos ellos. Los últimos 5 de San Diego promedian 4,8 goles por partido. Conclusión: los hechos apoyan un partido de 2+ goles.",
+   "fuente": "Fútbol Total / MLSsoccer.com",
+   "url": "https://futboltotal.futbol/partido/st-louis-city-sc-vs-san-diego-fc-mls-2026-10-31"
+  },
+  "Alianza Atlético|Juan Pablo II": {
+   "titular": "Alianza Atlético y Juan Pablo II, igualados a 25 puntos, chocan en Sullana",
+   "texto": "Ambos suman 25 puntos en 14 partidos: Juan Pablo II es 6º (7G, 4E, 3D, +9) y Alianza Atlético 8º (8G, 1E, 5D, diferencia 0), según la tabla de ESPN. En el último duelo oficial, Alianza Atlético ganó 2-0 como visitante el 16-may-2026; antes, Juan Pablo II había ganado 1-0 en Sullana (13-sep-2025). Conclusión: los duelos recientes fueron de pocos goles (2, 1 y 1), así que los hechos no apoyan con claridad un 2+ goles.",
+   "fuente": "ESPN / Starting11",
+   "url": "https://espndeportes.espn.com/futbol/partido/_/juegoId/756354/juan-pablo-ii-alianza-atletico"
+  },
+  "LA Galaxy|Austin": {
+   "titular": "Galaxy recibe a un Austin eliminado y con cuatro derrotas en cinco",
+   "texto": "LA Galaxy (10º, 41 pts) viene de empatar 2-2 ante LAFC y 2-2 ante San Diego. Austin (14º, 34 pts) quedó eliminado de playoffs tras perder 2-1 con Real Salt Lake y ha perdido cuatro de sus últimos cinco, con 59 goles recibidos en 32 partidos. Conclusión: los empates con muchos goles del Galaxy y la defensa floja de Austin apoyan un 2+ goles.",
+   "fuente": "Fútbol Total / MLSsoccer.com",
+   "url": "https://futboltotal.futbol/partido/los-angeles-galaxy-vs-austin-fc-mls-2026-10-31"
+  },
+  "SJ Earthquakes|Real Salt Lake": {
+   "titular": "San José, rey del empate, recibe a un Real Salt Lake con tres triunfos seguidos",
+   "texto": "San José (5º, 49 pts) no gana en sus últimos cinco: cuatro empates y una derrota 0-3 en Dallas. Real Salt Lake (9º, 42 pts) ganó sus últimos tres (2-1 en Austin, 3-0 a St. Louis, 3-1 en Kansas City). El último duelo entre ambos (14-oct) terminó 1-1. Conclusión: apoyo moderado a 2+ goles; RSL llega goleando, pero los partidos de San José han sido cerrados.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/san-jose-earthquakes-vs-real-salt-lake-mls-2026-10-31"
+  },
+  "Pachuca|Tigres UANL": {
+   "titular": "Pachuca y Tigres, fuera de zona de liguilla, se juegan la vida en el Hidalgo",
+   "texto": "Pachuca (13º, 16 pts) ganó 2-1 en casa del América el 25-oct tras dos derrotas seguidas. Tigres (15º, 15 pts) suma tres partidos sin ganar (1-1 con Pumas, 0-2 con León, 1-1 con Chivas) y solo ha marcado 15 goles en 14 partidos. Conclusión: el ataque pobre de Tigres no apoya con claridad un 2+ goles; señal neutral a baja.",
+   "fuente": "Fútbol Total",
+   "url": "https://futboltotal.futbol/partido/pachuca-vs-tigres-uanl-liga-mx-2026-11-01"
+  },
+  "Monterrey|Tijuana": {
+   "titular": "Monterrey recibe a un Tijuana que llega de golear 4-1 a Santos",
+   "texto": "Monterrey cayó 0-1 en casa ante Chivas, tras ganar 4-1 en Puebla y 2-1 a Pachuca. Tijuana goleó 4-1 a Santos con doblete de Ignacio Rivero y empató 1-1 con América el 28-oct. Ambos pelean por la zona alta: Monterrey 8º (20 pts, un partido menos) y Tijuana 7º (21 pts). Conclusión: el buen momento ofensivo de ambos apoya de forma moderada un 2+ goles.",
+   "fuente": "Fox Sports México / Fútbol Total",
+   "url": "https://www.foxsports.com.mx/2026/10/27/monterrey-vs-tijuana-en-vivo-donde-ver-en-tv-online-y-hora-jornada-15-liga-mx-apertura-2026/"
+  },
+  "Colorado Rapids|Chicago Fire": {
+   "titular": "Colorado, sin perder en cinco, recibe al Chicago Fire",
+   "texto": "Colorado no pierde en sus últimos cinco (1 victoria y 4 empates), pero no pudo cerrar su clasificación al empatar 2-2 en San José. Chicago empató 2-2 con Orlando el 28-oct y antes ganó 3-2 en Atlanta. Conclusión: apoyo moderado a 2+ goles; los últimos partidos de Chicago fueron abiertos, pero Colorado viene de partidos cerrados (1-0, 0-0, 1-1).",
+   "fuente": "Fútbol Total / MLSsoccer.com",
+   "url": "https://futboltotal.futbol/partido/colorado-rapids-vs-chicago-fire-mls-2026-11-01"
+  }
+ }
+}

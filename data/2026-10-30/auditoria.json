@@ -1,0 +1,177 @@
+{
+ "fecha": "2026-10-30",
+ "auditado": "2026-10-31 06:02 ECU",
+ "partidos": 4,
+ "terminados": 4,
+ "anulados": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "Rango 80": [
+   0,
+   0
+  ],
+  "Rango 70": [
+   2,
+   2
+  ],
+  "Total >=70": [
+   2,
+   2
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   0
+  ],
+  "Marcadores exactos": [
+   0,
+   4
+  ],
+  "Menos de 70 (informativo)": [
+   2,
+   2
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   0,
+   0
+  ],
+  "GOLES OPTIMISTAS": [
+   4,
+   4
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   0,
+   0
+  ],
+  "moderada": [
+   0,
+   0
+  ]
+ },
+ "intervalo_wilson_95": {
+  "Rango 70": [
+   34.2,
+   100.0
+  ],
+  "Total >=70": [
+   34.2,
+   100.0
+  ],
+  "Menos de 70 (informativo)": [
+   34.2,
+   100.0
+  ],
+  "GOLES OPTIMISTAS": [
+   51.0,
+   100.0
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Racing Club vs Aldosivi",
+  "over15": 73.1,
+  "sellado": "16:29 ECU",
+  "resultado": "2-1",
+  "goles": 3,
+  "acierto": true
+ },
+ "fallos_over15_70": [],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [
+  "Huracan 0-2 Tigre (64,0 %, menos de 70: no recomendado; hubo 2 goles)",
+  "Estudiantes Rio Cuarto 1-2 Gimnasia LP (63,9 %, menos de 70: no recomendado; hubo 3 goles)"
+ ],
+ "anulados_lista": [],
+ "nota": "Resultados finales del refresco horario (data/2026-10-30/resultados-en-vivo.json, 4/4 terminados, cada uno con su fuente: gidstats.com y lanacion.com.ar; Huracán 0-2 Tigre confirmado también en futboltotal.futbol). Partido del día: Racing–Aldosivi (el de mayor Over 1.5 del día; la recuperación del 30 no hizo kit de redes). Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. El Dashboard Gol 4.0 no responde en esta ejecución: auditoría manual. Escala de Marco del 17-oct y, aparte, la escala clásica. Intervalos de Wilson 95 %.",
+ "resultados": [
+  {
+   "hora": "17:00",
+   "liga": "ARG",
+   "local": "Huracan",
+   "visita": "Tigre",
+   "resultado": "0-2",
+   "estado": "terminado",
+   "over15": 64.0,
+   "over25": 36.0,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-10-30 16:29 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://gidstats.com/football/argentina/2026-10-30-1493219-huracan-vs-tigre/"
+  },
+  {
+   "hora": "17:00",
+   "liga": "ARG",
+   "local": "Estudiantes Rio Cuarto",
+   "visita": "Gimnasia LP",
+   "resultado": "1-2",
+   "estado": "terminado",
+   "over15": 63.9,
+   "over25": 35.8,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-10-30 16:29 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://gidstats.com/es/futbol/argentina/2026-10-30-1493218-estudiantes-de-rio-cuarto-gimnasia-l-p/"
+  },
+  {
+   "hora": "19:15",
+   "liga": "ARG",
+   "local": "Racing Club",
+   "visita": "Aldosivi",
+   "resultado": "2-1",
+   "estado": "terminado",
+   "over15": 73.1,
+   "over25": 46.6,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-30 16:29 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://gidstats.com/football/argentina/2026-10-30-1493224-racing-club-vs-aldosivi/"
+  },
+  {
+   "hora": "19:15",
+   "liga": "ARG",
+   "local": "Sarmiento",
+   "visita": "Rosario Central",
+   "resultado": "1-2",
+   "estado": "terminado",
+   "over15": 70.0,
+   "over25": 42.8,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-10-30 16:29 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/rosario-central-vencio-por-2-1-a-sarmiento-por-el-torneo-clausura-2026-nid30102026/"
+  }
+ ]
+}

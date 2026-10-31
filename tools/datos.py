@@ -327,6 +327,77 @@ for _lg,_a,_ga,_gb,_b in MAR27:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# ===== Actualización sáb 31-oct-2026 (rutina diaria 05:2x ECU): partidos del MIÉ 28, JUE 29 y VIE 30-oct (la rutina del 29 y 30 no actualizó tablas) + PER del 18 al 27-oct (PER no se actualizaba desde el 17-oct). Local en casa, visitante fuera; cada uno con su fuente. Corte nuevo: vie 30-oct-2026 final.
+# Sin partidos 28-30 oct: ENG (skysports.com/premier-league-scores-fixtures), NED (fcupdate.nl), ECU (fecha 4 terminó el 26, fecha 5 empieza hoy; primicias.ec), ESP/FRA 28-29 (vavel), GER 28-29 (hessenschau). PER: Universitario–Sport Boys (fecha 14) reprogramado al 4-nov (futbolperuano.com).
+VIE30=[
+ ('ITA','AC Milan',2,4,'Bologna'),  # 28-oct https://sports.yahoo.com/articles/inter-leave-again-serie-bologna-194256785.html
+ ('ITA','Parma',0,0,'Udinese'),  # 28-oct idem
+ ('ITA','Venezia',0,2,'Inter'),  # 28-oct idem
+ ('ITA','Genoa',2,0,'Juventus'),  # 28-oct https://football-italia.net/serie-a-liveblog-9-inter-milan-juventus-napoli/
+ ('ITA','Monza',1,4,'Napoli'),  # 28-oct idem
+ ('ITA','Frosinone',5,1,'Lecce'),  # 29-oct https://europacalcio.it/risultati-serie-a-oggi-classifica-aggiornata-385780/
+ ('ITA','Fiorentina',2,2,'Atalanta'),  # 29-oct idem + tuttoatalanta.com
+ ('ESP','Villarreal',0,1,'Espanyol'),  # 30-oct https://www.vavel.com/en/data/laliga/results/
+ ('GER','Elversberg',4,1,'Mainz 05'),  # 30-oct https://us.soccerway.com/game/j9drDZFO
+ ('FRA','Le Havre',1,5,'Paris Saint-Germain'),  # 30-oct https://www.foot01.com/ligue1/l1-programme-tv-et-resultats-de-la-9e-journee-331181
+ ('FRA','Nice',5,2,'Rennes'),  # 30-oct foot01 + vavel
+ ('FRA','Lille',1,0,'Lens'),  # 30-oct foot01 + vavel
+ ('POR','Casa Pia',0,2,'Sporting CP'),  # 30-oct https://www.sportschau.de/live-und-ergebnisse/fussball/portugal-primeira-liga/ma12223804/casa-pia-ac_sporting-cp/blitztabelle
+ ('BRA','Bragantino',3,0,'Chapecoense'),  # 28-oct https://valorfinal.com.br/brasileirao/resultados
+ ('BRA','Fluminense',2,1,'Internacional'),  # 28-oct idem
+ ('BRA','Santos',0,0,'Palmeiras'),  # 28-oct idem
+ ('BRA','Bahia',3,2,'São Paulo'),  # 28-oct idem
+ ('BRA','Remo',2,1,'Botafogo'),  # 28-oct idem
+ ('BRA','Grêmio',2,0,'Athletico-PR'),  # 29-oct idem
+ ('BRA','Vasco da Gama',1,4,'Flamengo'),  # 29-oct idem
+ ('BRA','Atletico MG',0,1,'Cruzeiro'),  # 29-oct idem
+ ('BRA','Corinthians',2,0,'Mirassol'),  # 30-oct https://futboltotal.futbol/partido/corinthians-vs-mirassol-brasileirao-2026-10-31
+ ('COL','Once Caldas',1,0,'Alianza (ex Alianza Petrolera)'),  # 28-oct noticiascaracol.com
+ ('COL','Internacional de Bogotá (ex La Equidad)',3,1,'Independiente Medellín'),  # 28-oct infobae.com/colombia
+ ('COL','América de Cali',2,1,'Fortaleza'),  # 29-oct noticiascaracol.com + pulzo.com
+ ('COL','Atlético Nacional',2,0,'Santa Fe'),  # 29-oct infobae + diariodeportes.com.co
+ ('COL','Bucaramanga',2,1,'Pasto'),  # 30-oct noticiascaracol.com
+ ('COL','Deportivo Pereira',1,0,'Jaguares de Córdoba'),  # 30-oct diariodeportes.com.co
+ ('MEX','America',1,1,'Tijuana'),  # 28-oct foxsports.com.mx
+ ('MEX','Juarez',3,1,'Queretaro'),  # 30-oct foxsports.com.mx
+ ('MEX','A. San Luis',0,1,'Atlas'),  # 30-oct foxsports.com.mx
+ ('MEX','Puebla',1,2,'Pumas UNAM'),  # 30-oct informador.mx
+ ('USA','Inter Miami',2,2,'Cincinnati'),  # 28-oct https://futboltotal.futbol/partido/inter-miami-vs-fc-cincinnati-major-league-soccer-2026-10-29
+ ('CHI','Colo-Colo',6,1,'U. Concepcion'),  # 30-oct cooperativa.cl
+ ('CHI','Coquimbo Unido',1,0,'Union La Calera'),  # 30-oct cooperativa.cl
+ ('ARG','Huracan',0,2,'Tigre'),  # 30-oct data/2026-10-30/resultados-en-vivo.json
+ ('ARG','Estudiantes Rio Cuarto',1,2,'Gimnasia LP'),  # 30-oct idem
+ ('ARG','Racing Club',2,1,'Aldosivi'),  # 30-oct idem
+ ('ARG','Sarmiento',1,2,'Rosario Central'),  # 30-oct idem (lanacion.com.ar)
+ # PER fecha 12 (18-oct): americatv.com.pe + elcomercio.pe
+ ('PER','Sporting Cristal',4,2,'Comerciantes Unidos'),
+ ('PER','FC Cajamarca',0,1,'CD Moquegua'),
+ ('PER','Alianza Atlético',1,4,'Universitario'),
+ ('PER','Cienciano',1,0,'UTC'),
+ # PER fecha 13 (23-25 oct): bolavip.com/pe + radionacional.gob.pe
+ ('PER','UTC',1,2,'Melgar'),
+ ('PER','Atlético Grau',1,1,'ADT'),
+ ('PER','Sport Huancayo',4,1,'Alianza Atlético'),
+ ('PER','Cusco FC',3,1,'Sporting Cristal'),
+ ('PER','Universitario',3,0,'Juan Pablo II'),
+ ('PER','Comerciantes Unidos',3,1,'Cienciano'),
+ ('PER','CD Moquegua',0,1,'Alianza Lima'),
+ ('PER','Sport Boys',4,2,'FC Cajamarca'),
+ ('PER','Deportivo Garcilaso',4,1,'Los Chankas'),
+ # PER fecha 14 (27-29 oct): depor.com + libero.pe
+ ('PER','Juan Pablo II',2,0,'Sport Huancayo'),
+ ('PER','ADT',2,0,'CD Moquegua'),
+ ('PER','FC Cajamarca',1,3,'UTC'),
+ ('PER','Alianza Atlético',3,2,'Deportivo Garcilaso'),
+ ('PER','Cienciano',3,0,'Atlético Grau'),
+ ('PER','Los Chankas',0,1,'Cusco FC'),
+ ('PER','Sporting Cristal',3,2,'Alianza Lima'),
+ ('PER','Melgar',1,1,'Comerciantes Unidos'),
+]
+for _lg,_a,_ga,_gb,_b in VIE30:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

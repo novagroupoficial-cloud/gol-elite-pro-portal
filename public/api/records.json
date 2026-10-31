@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31 11:17 ECU",
+ "actualizado": "2026-10-31 12:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -18,7 +18,7 @@
   "2026-10-30",
   "2026-10-31"
  ],
- "partidos": 298,
+ "partidos": 303,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -26,12 +26,12 @@
    "partidos": 5
   },
   "GOLES PLATINO": {
-   "aciertos": 27,
-   "partidos": 29
+   "aciertos": 28,
+   "partidos": 30
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 71,
-   "partidos": 97
+   "aciertos": 74,
+   "partidos": 101
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 132,
@@ -39,18 +39,18 @@
   }
  },
  "over90": {
-  "aciertos": 32,
-  "partidos": 34,
-  "racha_actual": 12,
+  "aciertos": 33,
+  "partidos": 35,
+  "racha_actual": 13,
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 103,
-  "partidos": 131
+  "aciertos": 107,
+  "partidos": 136
  },
  "over25_senal": {
   "aciertos": 38,
-  "partidos": 60
+  "partidos": 62
  },
  "partido_del_dia": {
   "aciertos": 12,
@@ -192,14 +192,14 @@
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 29,
-   "aciertos": 27,
-   "prometido": 91.8
+   "partidos": 30,
+   "aciertos": 28,
+   "prometido": 91.7
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 97,
-   "aciertos": 71,
+   "partidos": 101,
+   "aciertos": 74,
    "prometido": 83.6
   },
   {
@@ -219,12 +219,48 @@
   "fecha": "2026-10-31",
   "partidos": [
    {
+    "hora": "09:30",
+    "local": "Werder Bremen",
+    "visita": "Hoffenheim",
+    "over15": 90.1,
+    "resultado": "2-0",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "09:30",
+    "local": "Borussia Monchengladbach",
+    "visita": "SC Paderborn",
+    "over15": 88.5,
+    "resultado": "0-0",
+    "goles": 0,
+    "acierto": false
+   },
+   {
     "hora": "08:00",
     "local": "Levante",
     "visita": "Atletico Madrid",
     "over15": 87.4,
     "resultado": "0-2",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "09:30",
+    "local": "Augsburg",
+    "visita": "SC Freiburg",
+    "over15": 84.9,
+    "resultado": "1-2",
+    "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "09:30",
+    "local": "Bayer Leverkusen",
+    "visita": "VfB Stuttgart",
+    "over15": 84.8,
+    "resultado": "2-4",
+    "goles": 6,
     "acierto": true
    },
    {
@@ -242,6 +278,15 @@
     "visita": "Manchester United",
     "over15": 83.1,
     "resultado": "2-0",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "09:30",
+    "local": "Schalke 04",
+    "visita": "RB Leipzig",
+    "over15": 79.9,
+    "resultado": "0-2",
     "goles": 2,
     "acierto": true
    }

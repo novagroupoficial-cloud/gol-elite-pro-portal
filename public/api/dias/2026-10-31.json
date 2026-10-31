@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-31",
- "actualizado": "2026-10-31 09:10 ECU (UTC-5)",
+ "actualizado": "2026-10-31 10:18 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-31/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 0,
+  "terminados": 2,
   "total": 53,
   "over15_70": [
-   0,
-   0
+   2,
+   2
   ],
   "over25_senal": [
    0,
-   0
+   1
   ],
   "marcadores_exactos": 0
  },
@@ -121,7 +121,7 @@
     "gc": 5
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -173,8 +173,13 @@
     "gc": 5
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/atletico-de-madrid-vencio-2-0-a-levante-por-la-liga-de-espana-2026-nid31102026/"
   },
   {
    "puesto": 11,
@@ -251,7 +256,7 @@
     "gc": 6
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -355,7 +360,7 @@
     "gc": 4
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -381,7 +386,7 @@
     "gc": 8
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -485,8 +490,13 @@
     "gc": 6
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://dave.sport/news/chelsea-vs-man-utd-report-rogers-palmer/"
   },
   {
    "puesto": 23,
@@ -667,7 +677,7 @@
     "gc": 10
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -719,7 +729,7 @@
     "gc": 11
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   }
  ],
@@ -825,7 +835,7 @@
     "gc": 7
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -929,7 +939,7 @@
     "gc": 5
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -981,8 +991,13 @@
     "gc": 5
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/atletico-de-madrid-vencio-2-0-a-levante-por-la-liga-de-espana-2026-nid31102026/"
   },
   {
    "puesto": 11,
@@ -1059,7 +1074,7 @@
     "gc": 6
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1163,7 +1178,7 @@
     "gc": 4
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1189,7 +1204,7 @@
     "gc": 8
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1293,8 +1308,13 @@
     "gc": 6
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://dave.sport/news/chelsea-vs-man-utd-report-rogers-palmer/"
   },
   {
    "puesto": 23,
@@ -1475,7 +1495,7 @@
     "gc": 10
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1527,7 +1547,7 @@
     "gc": 11
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1553,7 +1573,7 @@
     "gc": 11
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1605,7 +1625,7 @@
     "gc": 7
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1891,7 +1911,7 @@
     "gc": 1
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1943,7 +1963,7 @@
     "gc": 3
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

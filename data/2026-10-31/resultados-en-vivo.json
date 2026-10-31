@@ -1,0 +1,32 @@
+[
+ {
+  "local": "Chelsea",
+  "visita": "Manchester United",
+  "hora": "07:30",
+  "resultado": "2-0",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 83.1,
+  "over25_dado": 61.0,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://dave.sport/news/chelsea-vs-man-utd-report-rogers-palmer/",
+  "registrado": "10:20 ECU"
+ },
+ {
+  "local": "Levante",
+  "visita": "Atletico Madrid",
+  "hora": "08:00",
+  "resultado": "0-2",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 87.4,
+  "over25_dado": 68.4,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.lanacion.com.ar/deportes/canchallena/atletico-de-madrid-vencio-2-0-a-levante-por-la-liga-de-espana-2026-nid31102026/",
+  "registrado": "10:20 ECU"
+ }
+]

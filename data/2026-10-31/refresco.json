@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-31",
- "ultima_ejecucion": "2026-10-31 09:10 ECU",
- "ultima_ok": "2026-10-31 09:10 ECU",
+ "ultima_ejecucion": "2026-10-31 10:18 ECU",
+ "ultima_ok": "2026-10-31 10:18 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-31 05:52 ECU (pronósticos sellados; 53 partidos)",
  "pendientes": [
-  "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido; 10.ª vez hoy). Aviso de bloqueo de hoy ya enviado a las 02:10.",
-  "Buscar resultado de Chelsea-Man Utd (07:30) desde las 09:45; partidos de las 08:00 desde las 10:15."
+  "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido; 11.ª vez hoy). Aviso de bloqueo de hoy ya enviado a las 02:10.",
+  "Buscar resultados de los partidos de las 09:00 (Bologna-Monza) desde las 11:15 y de las 09:30 (Bundesliga) desde las 11:45."
  ],
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "09:10 (sin lectura: permiso de WebFetch no respondido)"
+  "ultima_revision": "10:18 (sin lectura: permiso de WebFetch no respondido)"
  },
  "avisos_enviados": [
   "bloqueo"
  ],
- "web_sin_lectura_seguidas_hoy": 10,
- "nota": "03:09: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica. Portada sigue con el ranking final del 30-oct. Web sin lectura 4 veces hoy (aviso de bloqueo ya enviado). | 04:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica. Web sin lectura 5.ª vez hoy (aviso de bloqueo ya enviado; no se repite). | 05:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica (la rutina diaria de las 05:24 aún no corre). Web sin lectura 6.ª vez hoy (aviso de bloqueo ya enviado; no se repite). | 06:10: pronósticos de hoy ya sellados (05:52, 53 partidos; primer partido 07:30). refresco.py OK (ningún partido terminado) pero portal.py falla con la selección vieja: no se publica a medias, se espera a la rutina diaria en curso. Web sin lectura 7.ª vez hoy. | 06:16 (rutina diaria): 53 pronósticos sellados 05:52; portada, auditorías del 28 y 30, galería y kit de redes publicados; tablas al día hasta el 30-oct. | 07:17: ranking de 53 partidos regenerado (ninguno terminado; primero 07:30). portal.py y envolver.py OK. Web sin lectura 8.ª vez hoy (aviso ya enviado; no se repite). | 08:12: ranking de 53 partidos regenerado (ninguno terminado; Chelsea-Man Utd en juego, su resultado se busca desde las 09:45). portal.py y envolver.py OK. Web sin lectura 9.ª vez hoy (aviso ya enviado; no se repite). | 09:10: ranking de 53 partidos regenerado (ninguno terminado; el primero, Chelsea-Man Utd, se busca desde las 09:45). portal.py y envolver.py OK. Web sin lectura 10.ª vez hoy (aviso ya enviado; no se repite)."
+ "web_sin_lectura_seguidas_hoy": 11,
+ "nota": "03:09: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica. Portada sigue con el ranking final del 30-oct. Web sin lectura 4 veces hoy (aviso de bloqueo ya enviado). | 04:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica. Web sin lectura 5.ª vez hoy (aviso de bloqueo ya enviado; no se repite). | 05:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica (la rutina diaria de las 05:24 aún no corre). Web sin lectura 6.ª vez hoy (aviso de bloqueo ya enviado; no se repite). | 06:10: pronósticos de hoy ya sellados (05:52, 53 partidos; primer partido 07:30). refresco.py OK (ningún partido terminado) pero portal.py falla con la selección vieja: no se publica a medias, se espera a la rutina diaria en curso. Web sin lectura 7.ª vez hoy. | 06:16 (rutina diaria): 53 pronósticos sellados 05:52; portada, auditorías del 28 y 30, galería y kit de redes publicados; tablas al día hasta el 30-oct. | 07:17: ranking de 53 partidos regenerado (ninguno terminado; primero 07:30). portal.py y envolver.py OK. Web sin lectura 8.ª vez hoy (aviso ya enviado; no se repite). | 08:12: ranking de 53 partidos regenerado (ninguno terminado; Chelsea-Man Utd en juego, su resultado se busca desde las 09:45). portal.py y envolver.py OK. Web sin lectura 9.ª vez hoy (aviso ya enviado; no se repite). | 09:10: ranking de 53 partidos regenerado (ninguno terminado; el primero, Chelsea-Man Utd, se busca desde las 09:45). portal.py y envolver.py OK. Web sin lectura 10.ª vez hoy (aviso ya enviado; no se repite). | 10:18: registrados Chelsea 2-0 Man Utd (O1.5 ✔, O2.5 ✘) y Levante 0-2 Atlético (O1.5 ✔, O2.5 ✘), con fuente. Ranking 2/53 terminados regenerado; portal.py y envolver.py OK. Web sin lectura 11.ª vez hoy (aviso ya enviado; no se repite)."
 }

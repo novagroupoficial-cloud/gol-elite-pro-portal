@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31 15:11 ECU",
+ "actualizado": "2026-10-31 16:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -18,7 +18,7 @@
   "2026-10-30",
   "2026-10-31"
  ],
- "partidos": 318,
+ "partidos": 322,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -26,12 +26,12 @@
    "partidos": 5
   },
   "GOLES PLATINO": {
-   "aciertos": 29,
-   "partidos": 31
+   "aciertos": 30,
+   "partidos": 33
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 79,
-   "partidos": 108
+   "aciertos": 81,
+   "partidos": 110
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 139,
@@ -39,18 +39,18 @@
   }
  },
  "over90": {
-  "aciertos": 34,
-  "partidos": 36,
-  "racha_actual": 14,
+  "aciertos": 35,
+  "partidos": 38,
+  "racha_actual": 0,
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 113,
-  "partidos": 144
+  "aciertos": 116,
+  "partidos": 148
  },
  "over25_senal": {
-  "aciertos": 40,
-  "partidos": 66
+  "aciertos": 41,
+  "partidos": 69
  },
  "partido_del_dia": {
   "aciertos": 12,
@@ -192,14 +192,14 @@
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 31,
-   "aciertos": 29,
+   "partidos": 33,
+   "aciertos": 30,
    "prometido": 91.7
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 108,
-   "aciertos": 79,
+   "partidos": 110,
+   "aciertos": 81,
    "prometido": 83.7
   },
   {
@@ -219,6 +219,15 @@
   "fecha": "2026-10-31",
   "partidos": [
    {
+    "hora": "13:00",
+    "local": "Cincinnati",
+    "visita": "Philadelphia",
+    "over15": 92.7,
+    "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
+   },
+   {
     "hora": "12:45",
     "local": "PSV",
     "visita": "Willem II",
@@ -234,6 +243,15 @@
     "over15": 90.1,
     "resultado": "2-0",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "12:00",
+    "local": "Charlotte",
+    "visita": "Orlando City",
+    "over15": 89.8,
+    "resultado": "4-0",
+    "goles": 4,
     "acierto": true
    },
    {
@@ -269,6 +287,15 @@
     "visita": "Atletico Madrid",
     "over15": 87.4,
     "resultado": "0-2",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "13:00",
+    "local": "New York City",
+    "visita": "CF Montreal",
+    "over15": 86.2,
+    "resultado": "1-1",
     "goles": 2,
     "acierto": true
    },
@@ -342,6 +369,15 @@
     "over15": 81.3,
     "resultado": "3-1",
     "goles": 4,
+    "acierto": true
+   },
+   {
+    "hora": "13:00",
+    "local": "Columbus Crew",
+    "visita": "DC United",
+    "over15": 80.6,
+    "resultado": "3-0",
+    "goles": 3,
     "acierto": true
    },
    {

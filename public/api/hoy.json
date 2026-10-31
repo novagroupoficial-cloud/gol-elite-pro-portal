@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-31",
- "actualizado": "2026-10-31 15:11 ECU (UTC-5)",
+ "actualizado": "2026-10-31 16:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-31/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 23,
+  "terminados": 27,
   "total": 53,
   "over15_70": [
-   17,
-   20
+   20,
+   24
   ],
   "over25_senal": [
-   2,
-   7
+   3,
+   10
   ],
-  "marcadores_exactos": 1
+  "marcadores_exactos": 2
  },
  "rango_80_90": [
   {
@@ -43,8 +43,13 @@
     "gc": 50
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-0",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/charlotte-fc-vs-orlando-city-sc-mls-2026-10-31"
   },
   {
    "puesto": 6,
@@ -245,8 +250,13 @@
     "gc": 39
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://gidstats.com/football/mls/2026-10-31-1490589-new-york-city-fc-vs-cf-montreal/"
   },
   {
    "puesto": 13,
@@ -302,7 +312,7 @@
     "gc": 14
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -592,7 +602,7 @@
     "gc": 27
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -696,7 +706,7 @@
     "gc": 36
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -753,8 +763,13 @@
     "gc": 27
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-0",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://gidstats.com/football/mls/2026-10-31-1490588-columbus-crew-vs-dc-united/"
   },
   {
    "puesto": 31,
@@ -838,8 +853,13 @@
     "gc": 32
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://gidstats.com/es/futbol/mls/2026-10-31-1490585-fc-cincinnati-philadelphia-union/"
   },
   {
    "puesto": 3,
@@ -926,8 +946,13 @@
     "gc": 50
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-0",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/charlotte-fc-vs-orlando-city-sc-mls-2026-10-31"
   },
   {
    "puesto": 6,
@@ -1128,8 +1153,13 @@
     "gc": 39
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://gidstats.com/football/mls/2026-10-31-1490589-new-york-city-fc-vs-cf-montreal/"
   },
   {
    "puesto": 13,
@@ -1185,7 +1215,7 @@
     "gc": 14
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1475,7 +1505,7 @@
     "gc": 27
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1579,7 +1609,7 @@
     "gc": 36
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1636,8 +1666,13 @@
     "gc": 27
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-0",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://gidstats.com/football/mls/2026-10-31-1490588-columbus-crew-vs-dc-united/"
   },
   {
    "puesto": 31,
@@ -2004,7 +2039,7 @@
     "gc": 7
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

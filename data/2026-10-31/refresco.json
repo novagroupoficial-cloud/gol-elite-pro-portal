@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-31",
- "ultima_ejecucion": "2026-10-31 04:10 ECU",
- "ultima_ok": "2026-10-31 04:10 ECU",
+ "ultima_ejecucion": "2026-10-31 05:10 ECU",
+ "ultima_ok": "2026-10-31 05:10 ECU",
  "rutina_diaria": "pendiente",
  "rutina_diaria_inicio": null,
  "pendientes": [
@@ -9,16 +9,16 @@
   "Auditoría + galería del 30-oct (4 partidos, resultados provisionales ya en data/2026-10-30/resultados-en-vivo.json).",
   "Resultados del 28-oct sin registrar (7 de 12) y auditoría + galería del 28-oct.",
   "Tablas de tools/datos.py sin los partidos del 28 y 29-oct.",
-  "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido; 13.ª vez seguida contando ayer, 5.ª hoy). Aviso de bloqueo de hoy enviado a las 02:10."
+  "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido; 14.ª vez seguida contando ayer, 6.ª hoy). Aviso de bloqueo de hoy enviado a las 02:10."
  ],
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "04:10 (sin lectura: permiso de WebFetch no respondido)"
+  "ultima_revision": "05:10 (sin lectura: permiso de WebFetch no respondido)"
  },
  "avisos_enviados": [
   "bloqueo"
  ],
- "web_sin_lectura_seguidas_hoy": 5,
- "nota": "03:09: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica. Portada sigue con el ranking final del 30-oct. Web sin lectura 4 veces hoy (aviso de bloqueo ya enviado). | 04:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica. Web sin lectura 5.ª vez hoy (aviso de bloqueo ya enviado; no se repite)."
+ "web_sin_lectura_seguidas_hoy": 6,
+ "nota": "03:09: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica. Portada sigue con el ranking final del 30-oct. Web sin lectura 4 veces hoy (aviso de bloqueo ya enviado). | 04:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica. Web sin lectura 5.ª vez hoy (aviso de bloqueo ya enviado; no se repite). | 05:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica (la rutina diaria de las 05:24 aún no corre). Web sin lectura 6.ª vez hoy (aviso de bloqueo ya enviado; no se repite)."
 }

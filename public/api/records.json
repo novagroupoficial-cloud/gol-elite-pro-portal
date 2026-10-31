@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30 21:10 ECU",
+ "actualizado": "2026-10-30 22:16 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -17,7 +17,7 @@
   "2026-10-28",
   "2026-10-30"
  ],
- "partidos": 286,
+ "partidos": 288,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -33,8 +33,8 @@
    "partidos": 93
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 126,
-   "partidos": 159
+   "aciertos": 128,
+   "partidos": 161
   }
  },
  "over90": {
@@ -187,8 +187,8 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 98,
-   "aciertos": 75,
+   "partidos": 100,
+   "aciertos": 77,
    "prometido": 74.5
   },
   {
@@ -201,6 +201,24 @@
  "ultima_jornada": {
   "fecha": "2026-10-30",
   "partidos": [
+   {
+    "hora": "19:15",
+    "local": "Racing Club",
+    "visita": "Aldosivi",
+    "over15": 73.1,
+    "resultado": "2-1",
+    "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "19:15",
+    "local": "Sarmiento",
+    "visita": "Rosario Central",
+    "over15": 70.0,
+    "resultado": "1-2",
+    "goles": 3,
+    "acierto": true
+   },
    {
     "hora": "17:00",
     "local": "Huracan",

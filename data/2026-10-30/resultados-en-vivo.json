@@ -28,5 +28,35 @@
   "marcador_exacto": false,
   "fuente": "https://gidstats.com/es/futbol/argentina/2026-10-30-1493218-estudiantes-de-rio-cuarto-gimnasia-l-p/",
   "registrado": "19:11 ECU"
+ },
+ {
+  "local": "Racing Club",
+  "visita": "Aldosivi",
+  "hora": "19:15",
+  "resultado": "2-1",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 73.1,
+  "over25_dado": 46.6,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://gidstats.com/football/argentina/2026-10-30-1493224-racing-club-vs-aldosivi/",
+  "registrado": "22:12 ECU"
+ },
+ {
+  "local": "Sarmiento",
+  "visita": "Rosario Central",
+  "hora": "19:15",
+  "resultado": "1-2",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 70.0,
+  "over25_dado": 42.8,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.lanacion.com.ar/deportes/canchallena/rosario-central-vencio-por-2-1-a-sarmiento-por-el-torneo-clausura-2026-nid30102026/",
+  "registrado": "22:12 ECU"
  }
 ]

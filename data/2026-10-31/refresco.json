@@ -1,7 +1,7 @@
 {
  "fecha": "2026-10-31",
- "ultima_ejecucion": "2026-10-31 00:09 ECU",
- "ultima_ok": "2026-10-31 00:09 ECU",
+ "ultima_ejecucion": "2026-10-31 01:09 ECU",
+ "ultima_ok": "2026-10-31 01:09 ECU",
  "rutina_diaria": "pendiente",
  "rutina_diaria_inicio": null,
  "pendientes": [
@@ -9,10 +9,14 @@
   "Auditoría + galería del 30-oct (4 partidos, resultados provisionales ya en data/2026-10-30/resultados-en-vivo.json).",
   "Resultados del 28-oct sin registrar (7 de 12) y auditoría + galería del 28-oct.",
   "Tablas de tools/datos.py sin los partidos del 28 y 29-oct.",
-  "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido; 9.ª vez seguida contando ayer). Aviso de bloqueo ya enviado el 30-oct; se repite hoy solo si sigue en 3 ejecuciones seguidas de hoy."
+  "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido; 10.ª vez seguida contando ayer, 2.ª hoy). Aviso de bloqueo ya enviado el 30-oct; se repite hoy si llega a 3 ejecuciones seguidas de hoy."
  ],
- "deploy": {"ok": null, "fallos_seguidos": 0, "ultima_revision": "00:09 (sin lectura: permiso de WebFetch no respondido)"},
+ "deploy": {
+  "ok": null,
+  "fallos_seguidos": 0,
+  "ultima_revision": "01:09 (sin lectura: permiso de WebFetch no respondido)"
+ },
  "avisos_enviados": [],
- "web_sin_lectura_seguidas_hoy": 1,
- "nota": "00:09: primera ejecución del día. Antes de las 08:00 y sin pronósticos de hoy: refresco.py no aplica (no hay data/2026-10-31/pronosticos.json); la portada sigue con el ranking final del 30-oct (4/4 terminados). Sin avisos."
+ "web_sin_lectura_seguidas_hoy": 2,
+ "nota": "01:09: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica. Portada sigue con el ranking final del 30-oct. Sin avisos."
 }

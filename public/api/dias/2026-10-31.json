@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-31",
- "actualizado": "2026-10-31 12:11 ECU (UTC-5)",
+ "actualizado": "2026-10-31 13:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-31/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 8,
+  "terminados": 16,
   "total": 53,
   "over15_70": [
-   7,
-   8
+   12,
+   14
   ],
   "over25_senal": [
    0,
-   3
+   5
   ],
-  "marcadores_exactos": 0
+  "marcadores_exactos": 1
  },
  "rango_80_90": [
   {
@@ -95,8 +95,13 @@
     "gc": 8
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338872/"
   },
   {
    "puesto": 8,
@@ -152,7 +157,7 @@
     "gc": 2
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -235,7 +240,7 @@
     "gc": 39
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -261,8 +266,13 @@
     "gc": 6
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3340738/"
   },
   {
    "puesto": 14,
@@ -313,7 +323,7 @@
     "gc": 6
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -484,8 +494,13 @@
     "gc": 8
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://maisfutebol.iol.pt/liga/estrela-amadora/moreirense-estrela-2-1-cronica"
   },
   {
    "puesto": 22,
@@ -697,8 +712,13 @@
     "gc": 10
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-1",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3340738/"
   },
   {
    "puesto": 30,
@@ -723,7 +743,7 @@
     "gc": 27
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -749,8 +769,13 @@
     "gc": 11
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3340738/"
   }
  ],
  "todos": [
@@ -803,7 +828,7 @@
     "gc": 32
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -829,7 +854,7 @@
     "gc": 16
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -938,8 +963,13 @@
     "gc": 8
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338872/"
   },
   {
    "puesto": 8,
@@ -995,7 +1025,7 @@
     "gc": 2
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1078,7 +1108,7 @@
     "gc": 39
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1104,8 +1134,13 @@
     "gc": 6
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3340738/"
   },
   {
    "puesto": 14,
@@ -1156,7 +1191,7 @@
     "gc": 6
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1327,8 +1362,13 @@
     "gc": 8
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://maisfutebol.iol.pt/liga/estrela-amadora/moreirense-estrela-2-1-cronica"
   },
   {
    "puesto": 22,
@@ -1540,8 +1580,13 @@
     "gc": 10
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-1",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3340738/"
   },
   {
    "puesto": 30,
@@ -1566,7 +1611,7 @@
     "gc": 27
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1592,8 +1637,13 @@
     "gc": 11
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3340738/"
   },
   {
    "puesto": 32,
@@ -1675,8 +1725,13 @@
     "gc": 7
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3340738/"
   },
   {
    "puesto": 35,
@@ -1727,7 +1782,7 @@
     "gc": 9
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1753,7 +1808,7 @@
     "gc": 9
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1961,8 +2016,13 @@
     "gc": 1
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-0",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://dxtcampeon.elidealgallego.com/mas-futbol/2026-10-31/el-celta-encaja-una-goleada-en-su-visita-a-vallecas-3-888238.html"
   },
   {
    "puesto": 46,
@@ -2013,8 +2073,13 @@
     "gc": 3
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3340738/"
   },
   {
    "puesto": 48,
@@ -2117,7 +2182,7 @@
     "gc": 4
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

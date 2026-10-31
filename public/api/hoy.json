@@ -1,21 +1,21 @@
 {
  "fecha": "2026-10-31",
- "actualizado": "2026-10-31 14:15 ECU (UTC-5)",
+ "actualizado": "2026-10-31 15:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-31/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 17,
+  "terminados": 23,
   "total": 53,
   "over15_70": [
-   12,
-   14
+   17,
+   20
   ],
   "over25_senal": [
-   0,
-   5
+   2,
+   7
   ],
   "marcadores_exactos": 1
  },
@@ -69,7 +69,7 @@
     "gc": 7
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -157,8 +157,13 @@
     "gc": 2
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/matches/voetbal/buitenland/dui/bundesliga/2026-2027/regulier/08/bayern-munchen-borussia-dortmund-live-patat-tegen-de-paal-olise-zet-overwicht-van-bayern-bijna-om-in-voorsprong-tegen-dortmund~1784284149439"
   },
   {
    "puesto": 10,
@@ -323,8 +328,13 @@
     "gc": 6
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338925/"
   },
   {
    "puesto": 16,
@@ -468,7 +478,7 @@
     "gc": 3
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -556,7 +566,7 @@
     "gc": 8
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -608,7 +618,7 @@
     "gc": 5
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -802,7 +812,7 @@
     "gc": 15
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -854,8 +864,13 @@
     "gc": 16
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "7-0",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/matches/voetbal/buitenland/ned/vriendenloterij-eredivisie/2026-2027/regulier/11/psv-willem-ii-club-brugge-is-gewaarschuwd-psv-houdt-doelpuntenkermis-voor-ontmoeting-in-champions-league~1784284447950/"
   },
   {
    "puesto": 4,
@@ -937,7 +952,7 @@
     "gc": 7
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1025,8 +1040,13 @@
     "gc": 2
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/matches/voetbal/buitenland/dui/bundesliga/2026-2027/regulier/08/bayern-munchen-borussia-dortmund-live-patat-tegen-de-paal-olise-zet-overwicht-van-bayern-bijna-om-in-voorsprong-tegen-dortmund~1784284149439"
   },
   {
    "puesto": 10,
@@ -1191,8 +1211,13 @@
     "gc": 6
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338925/"
   },
   {
    "puesto": 16,
@@ -1336,7 +1361,7 @@
     "gc": 3
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1424,7 +1449,7 @@
     "gc": 8
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1476,7 +1501,7 @@
     "gc": 5
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1756,8 +1781,13 @@
     "gc": 3
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-5",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338216/"
   },
   {
    "puesto": 36,
@@ -1782,8 +1812,13 @@
     "gc": 9
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-1",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3341328/"
   },
   {
    "puesto": 37,
@@ -1808,8 +1843,13 @@
     "gc": 9
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3340884/"
   },
   {
    "puesto": 38,
@@ -1990,7 +2030,7 @@
     "gc": 10
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2047,7 +2087,7 @@
     "gc": 3
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2182,8 +2222,9 @@
     "gc": 4
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "anulado",
+   "resultado": null,
+   "fuente": "https://www.espn.com/soccer/match/_/gameId/401841657/independiente-defensa-y-justicia"
   },
   {
    "puesto": 52,

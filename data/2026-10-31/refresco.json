@@ -5,8 +5,7 @@
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-10-31 05:52 ECU (pronósticos sellados; 53 partidos)",
  "pendientes": [
-  "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido; 7.ª vez hoy). Aviso de bloqueo de hoy enviado a las 02:10.",
-  "Ranking 06:10 no publicado: portal.py falla hasta que la rutina actualice PRED/LINK; feed hoy.json se publicará con la portada."
+  "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido; 7.ª vez hoy). Aviso de bloqueo de hoy enviado a las 02:10."
  ],
  "deploy": {
   "ok": null,

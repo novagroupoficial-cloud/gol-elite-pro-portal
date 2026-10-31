@@ -238,5 +238,20 @@
   "marcador_exacto": true,
   "fuente": "https://sporza.be/nl/sport/voetbal/~3338872/",
   "registrado": "13:10 ECU"
+ },
+ {
+  "local": "Delfín",
+  "visita": "Deportivo Cuenca",
+  "hora": "11:30",
+  "resultado": "3-1",
+  "goles": 4,
+  "estado": "terminado",
+  "over15_dado": 58.1,
+  "over25_dado": 30.1,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://studiofutbol.com.ec/2026/10/31/video-luchan-por-la-permanencia-delfin-derroto-en-casa-a-deportivo-cuenca/",
+  "registrado": "14:09 ECU"
  }
 ]

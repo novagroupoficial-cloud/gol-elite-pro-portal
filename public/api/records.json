@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31 13:11 ECU",
+ "actualizado": "2026-10-31 14:15 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -18,7 +18,7 @@
   "2026-10-30",
   "2026-10-31"
  ],
- "partidos": 311,
+ "partidos": 312,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -34,8 +34,8 @@
    "partidos": 106
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 135,
-   "partidos": 170
+   "aciertos": 136,
+   "partidos": 171
   }
  },
  "over90": {
@@ -210,9 +210,9 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 63,
-   "aciertos": 53,
-   "prometido": 61.9
+   "partidos": 64,
+   "aciertos": 54,
+   "prometido": 61.8
   }
  ],
  "ultima_jornada": {
@@ -360,6 +360,15 @@
     "over15": 68.4,
     "resultado": "2-0",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "11:30",
+    "local": "Delfín",
+    "visita": "Deportivo Cuenca",
+    "over15": 58.1,
+    "resultado": "3-1",
+    "goles": 4,
     "acierto": true
    }
   ]

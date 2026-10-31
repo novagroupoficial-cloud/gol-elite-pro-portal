@@ -1,0 +1,32 @@
+[
+ {
+  "local": "Huracan",
+  "visita": "Tigre",
+  "hora": "17:00",
+  "resultado": "0-2",
+  "goles": 2,
+  "estado": "terminado",
+  "over15_dado": 64.0,
+  "over25_dado": 36.0,
+  "acierto_over15": true,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://gidstats.com/football/argentina/2026-10-30-1493219-huracan-vs-tigre/",
+  "registrado": "19:11 ECU"
+ },
+ {
+  "local": "Estudiantes Rio Cuarto",
+  "visita": "Gimnasia LP",
+  "hora": "17:00",
+  "resultado": "1-2",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 63.9,
+  "over25_dado": 35.8,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://gidstats.com/es/futbol/argentina/2026-10-30-1493218-estudiantes-de-rio-cuarto-gimnasia-l-p/",
+  "registrado": "19:11 ECU"
+ }
+]

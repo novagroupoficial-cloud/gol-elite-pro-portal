@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30 18:10 ECU",
+ "actualizado": "2026-10-30 19:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -14,9 +14,10 @@
   "2026-10-25",
   "2026-10-26",
   "2026-10-27",
-  "2026-10-28"
+  "2026-10-28",
+  "2026-10-30"
  ],
- "partidos": 284,
+ "partidos": 286,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -32,8 +33,8 @@
    "partidos": 93
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 124,
-   "partidos": 157
+   "aciertos": 126,
+   "partidos": 159
   }
  },
  "over90": {
@@ -192,57 +193,30 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 59,
-   "aciertos": 49,
-   "prometido": 61.6
+   "partidos": 61,
+   "aciertos": 51,
+   "prometido": 61.7
   }
  ],
  "ultima_jornada": {
-  "fecha": "2026-10-28",
+  "fecha": "2026-10-30",
   "partidos": [
    {
-    "hora": "12:30",
-    "local": "Parma",
-    "visita": "Udinese",
-    "over15": 84.8,
-    "resultado": "0-0",
-    "goles": 0,
-    "acierto": false
-   },
-   {
-    "hora": "14:45",
-    "local": "Monza",
-    "visita": "Napoli",
-    "over15": 82.7,
-    "resultado": "1-4",
-    "goles": 5,
-    "acierto": true
-   },
-   {
-    "hora": "12:30",
-    "local": "Venezia",
-    "visita": "Inter",
-    "over15": 80.9,
+    "hora": "17:00",
+    "local": "Huracan",
+    "visita": "Tigre",
+    "over15": 64.0,
     "resultado": "0-2",
     "goles": 2,
     "acierto": true
    },
    {
-    "hora": "14:45",
-    "local": "Genoa",
-    "visita": "Juventus",
-    "over15": 78.2,
-    "resultado": "2-0",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "12:30",
-    "local": "AC Milan",
-    "visita": "Bologna",
-    "over15": 77.2,
-    "resultado": "2-4",
-    "goles": 6,
+    "hora": "17:00",
+    "local": "Estudiantes Rio Cuarto",
+    "visita": "Gimnasia LP",
+    "over15": 63.9,
+    "resultado": "1-2",
+    "goles": 3,
     "acierto": true
    }
   ]

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31 10:18 ECU",
+ "actualizado": "2026-10-31 11:17 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -18,7 +18,7 @@
   "2026-10-30",
   "2026-10-31"
  ],
- "partidos": 297,
+ "partidos": 298,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -30,8 +30,8 @@
    "partidos": 29
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 70,
-   "partidos": 96
+   "aciertos": 71,
+   "partidos": 97
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 132,
@@ -45,8 +45,8 @@
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 102,
-  "partidos": 130
+  "aciertos": 103,
+  "partidos": 131
  },
  "over25_senal": {
   "aciertos": 38,
@@ -198,8 +198,8 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 96,
-   "aciertos": 70,
+   "partidos": 97,
+   "aciertos": 71,
    "prometido": 83.6
   },
   {
@@ -225,6 +225,15 @@
     "over15": 87.4,
     "resultado": "0-2",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "09:00",
+    "local": "Bologna",
+    "visita": "Monza",
+    "over15": 84.6,
+    "resultado": "2-1",
+    "goles": 3,
     "acierto": true
    },
    {

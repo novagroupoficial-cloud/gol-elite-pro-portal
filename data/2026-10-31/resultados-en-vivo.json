@@ -28,5 +28,20 @@
   "marcador_exacto": false,
   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/atletico-de-madrid-vencio-2-0-a-levante-por-la-liga-de-espana-2026-nid31102026/",
   "registrado": "10:20 ECU"
+ },
+ {
+  "local": "Bologna",
+  "visita": "Monza",
+  "hora": "09:00",
+  "resultado": "2-1",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 84.6,
+  "over25_dado": 63.6,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://sporza.be/nl/sport/voetbal/~3338076/",
+  "registrado": "11:17 ECU"
  }
 ]

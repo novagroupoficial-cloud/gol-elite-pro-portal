@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31 17:11 ECU",
+ "actualizado": "2026-10-31 18:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -18,7 +18,7 @@
   "2026-10-30",
   "2026-10-31"
  ],
- "partidos": 327,
+ "partidos": 333,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -27,30 +27,30 @@
   },
   "GOLES PLATINO": {
    "aciertos": 30,
-   "partidos": 33
+   "partidos": 34
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 84,
-   "partidos": 114
+   "aciertos": 85,
+   "partidos": 115
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 140,
-   "partidos": 175
+   "aciertos": 144,
+   "partidos": 179
   }
  },
  "over90": {
   "aciertos": 35,
-  "partidos": 38,
+  "partidos": 39,
   "racha_actual": 0,
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 119,
-  "partidos": 152
+  "aciertos": 120,
+  "partidos": 154
  },
  "over25_senal": {
   "aciertos": 41,
-  "partidos": 70
+  "partidos": 71
  },
  "partido_del_dia": {
   "aciertos": 12,
@@ -192,27 +192,27 @@
   },
   {
    "franja": "90 a 94 %",
-   "partidos": 33,
+   "partidos": 34,
    "aciertos": 30,
-   "prometido": 91.7
+   "prometido": 91.6
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 114,
-   "aciertos": 84,
+   "partidos": 115,
+   "aciertos": 85,
    "prometido": 83.7
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 111,
-   "aciertos": 86,
+   "partidos": 113,
+   "aciertos": 88,
    "prometido": 74.5
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 64,
-   "aciertos": 54,
-   "prometido": 61.8
+   "partidos": 66,
+   "aciertos": 56,
+   "prometido": 62.0
   }
  ],
  "ultima_jornada": {
@@ -253,6 +253,15 @@
     "resultado": "4-0",
     "goles": 4,
     "acierto": true
+   },
+   {
+    "hora": "15:00",
+    "local": "Ajax",
+    "visita": "AZ",
+    "over15": 89.8,
+    "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
    },
    {
     "hora": "10:30",
@@ -399,6 +408,15 @@
     "acierto": true
    },
    {
+    "hora": "15:00",
+    "local": "Barcelona",
+    "visita": "Alaves",
+    "over15": 82.6,
+    "resultado": "6-1",
+    "goles": 7,
+    "acierto": true
+   },
+   {
     "hora": "10:00",
     "local": "Coventry City",
     "visita": "Sunderland",
@@ -480,6 +498,24 @@
     "acierto": true
    },
    {
+    "hora": "15:30",
+    "local": "FC Porto",
+    "visita": "Estoril",
+    "over15": 74.3,
+    "resultado": "4-0",
+    "goles": 4,
+    "acierto": true
+   },
+   {
+    "hora": "15:00",
+    "local": "Deportivo Riestra",
+    "visita": "Talleres Cordoba",
+    "over15": 69.9,
+    "resultado": "0-3",
+    "goles": 3,
+    "acierto": true
+   },
+   {
     "hora": "10:15",
     "local": "Rayo Vallecano",
     "visita": "Celta Vigo",
@@ -489,11 +525,29 @@
     "acierto": true
    },
    {
+    "hora": "15:00",
+    "local": "Aston Villa",
+    "visita": "Fulham",
+    "over15": 69.2,
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
+   },
+   {
     "hora": "10:00",
     "local": "AFC Bournemouth",
     "visita": "Leeds United",
     "over15": 68.4,
     "resultado": "2-0",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "14:00",
+    "local": "Emelec",
+    "visita": "Leones del Norte",
+    "over15": 63.8,
+    "resultado": "0-2",
     "goles": 2,
     "acierto": true
    },

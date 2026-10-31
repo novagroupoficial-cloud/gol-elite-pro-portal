@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-31",
- "actualizado": "2026-10-31 17:11 ECU (UTC-5)",
+ "actualizado": "2026-10-31 18:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-31/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 32,
+  "terminados": 38,
   "total": 53,
   "over15_70": [
-   24,
-   29
+   26,
+   32
   ],
   "over25_senal": [
    3,
-   11
+   12
   ],
-  "marcadores_exactos": 3
+  "marcadores_exactos": 4
  },
  "rango_80_90": [
   {
@@ -74,8 +74,13 @@
     "gc": 7
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338869/"
   },
   {
    "puesto": 7,
@@ -648,8 +653,13 @@
     "gc": 5
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "6-1",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.si.com/mx/barcelona-golea-6-1-al-alaves-y-mantiene-el-liderato-de-laliga"
   },
   {
    "puesto": 26,
@@ -847,8 +857,9 @@
     "gc": 15
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "anulado",
+   "resultado": null,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338912/"
   },
   {
    "puesto": 2,
@@ -997,8 +1008,13 @@
     "gc": 7
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3338869/"
   },
   {
    "puesto": 7,
@@ -1571,8 +1587,13 @@
     "gc": 5
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "6-1",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.si.com/mx/barcelona-golea-6-1-al-alaves-y-mantiene-el-liderato-de-laliga"
   },
   {
    "puesto": 26,
@@ -1799,7 +1820,7 @@
     "gc": 12
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2001,7 +2022,7 @@
     "gc": 15
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2058,7 +2079,7 @@
     "gc": 21
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2084,8 +2105,13 @@
     "gc": 7
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "4-0",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.diariocoimbra.pt/2026/10/31/fc-porto-goleia-estoril-e-reforca-lideranca-da-liga-1/"
   },
   {
    "puesto": 44,
@@ -2110,8 +2136,13 @@
     "gc": 10
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-3",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://gidstats.com/es/futbol/argentina/2026-10-31-1493216-deportivo-riestra-talleres-cordoba/"
   },
   {
    "puesto": 45,
@@ -2167,8 +2198,13 @@
     "gc": 3
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://sporza.be/nl/sport/voetbal/~3340786/"
   },
   {
    "puesto": 47,
@@ -2276,8 +2312,13 @@
     "gc": 23
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-2",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.eluniverso.com/deportes/campeonato-ecuatoriano/en-vivo-emelec-vs-leones-fc-por-la-fecha-5-del-cuadrangular-de-la-liga-ecuabet-nota/"
   },
   {
    "puesto": 51,
@@ -2329,7 +2370,7 @@
     "gc": 8
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

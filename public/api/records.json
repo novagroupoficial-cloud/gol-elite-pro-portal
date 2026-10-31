@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31 16:11 ECU",
+ "actualizado": "2026-10-31 17:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -18,7 +18,7 @@
   "2026-10-30",
   "2026-10-31"
  ],
- "partidos": 322,
+ "partidos": 327,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -30,12 +30,12 @@
    "partidos": 33
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 81,
-   "partidos": 110
+   "aciertos": 84,
+   "partidos": 114
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 139,
-   "partidos": 174
+   "aciertos": 140,
+   "partidos": 175
   }
  },
  "over90": {
@@ -45,12 +45,12 @@
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 116,
-  "partidos": 148
+  "aciertos": 119,
+  "partidos": 152
  },
  "over25_senal": {
   "aciertos": 41,
-  "partidos": 69
+  "partidos": 70
  },
  "partido_del_dia": {
   "aciertos": 12,
@@ -198,14 +198,14 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 110,
-   "aciertos": 81,
+   "partidos": 114,
+   "aciertos": 84,
    "prometido": 83.7
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 110,
-   "aciertos": 85,
+   "partidos": 111,
+   "aciertos": 86,
    "prometido": 74.5
   },
   {
@@ -291,6 +291,15 @@
     "acierto": true
    },
    {
+    "hora": "14:00",
+    "local": "Sporting KC",
+    "visita": "Dallas",
+    "over15": 86.8,
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
+   },
+   {
     "hora": "13:00",
     "local": "New York City",
     "visita": "CF Montreal",
@@ -314,6 +323,15 @@
     "visita": "NEC",
     "over15": 85.1,
     "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
+   },
+   {
+    "hora": "14:00",
+    "local": "St. Louis City",
+    "visita": "San Diego",
+    "over15": 85.0,
+    "resultado": "0-1",
     "goles": 1,
     "acierto": false
    },
@@ -345,6 +363,15 @@
     "acierto": true
    },
    {
+    "hora": "14:45",
+    "local": "AC Milan",
+    "visita": "Inter",
+    "over15": 83.7,
+    "resultado": "3-1",
+    "goles": 4,
+    "acierto": true
+   },
+   {
     "hora": "10:30",
     "local": "Moreirense",
     "visita": "Estrela Amadora",
@@ -358,6 +385,15 @@
     "local": "Chelsea",
     "visita": "Manchester United",
     "over15": 83.1,
+    "resultado": "2-0",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "14:45",
+    "local": "Troyes",
+    "visita": "Le Mans",
+    "over15": 82.8,
     "resultado": "2-0",
     "goles": 2,
     "acierto": true
@@ -430,6 +466,15 @@
     "local": "Tottenham Hotspur",
     "visita": "Crystal Palace",
     "over15": 77.7,
+    "resultado": "2-0",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "14:00",
+    "local": "Coritiba",
+    "visita": "Vitória",
+    "over15": 74.7,
     "resultado": "2-0",
     "goles": 2,
     "acierto": true

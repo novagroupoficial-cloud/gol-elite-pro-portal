@@ -1,23 +1,23 @@
 {
  "fecha": "2026-10-31",
- "actualizado": "2026-10-31 16:11 ECU (UTC-5)",
+ "actualizado": "2026-10-31 17:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-31/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 27,
+  "terminados": 32,
   "total": 53,
   "over15_70": [
-   20,
-   24
+   24,
+   29
   ],
   "over25_senal": [
    3,
-   10
+   11
   ],
-  "marcadores_exactos": 2
+  "marcadores_exactos": 3
  },
  "rango_80_90": [
   {
@@ -224,8 +224,13 @@
     "gc": 27
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://futboltotal.futbol/partido/sporting-kansas-city-vs-fc-dallas-mls-2026-10-31"
   },
   {
    "puesto": 12,
@@ -369,8 +374,13 @@
     "gc": 29
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/st-louis-city-sc-vs-san-diego-fc-mls-2026-10-31"
   },
   {
    "puesto": 17,
@@ -488,8 +498,13 @@
     "gc": 3
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-1",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.foxsports.com/soccer/serie-a-ac-milan-vs-inter-milan-oct-31-2026-game-boxscore-869482"
   },
   {
    "puesto": 21,
@@ -576,8 +591,13 @@
     "gc": 8
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://gidstats.com/es/futbol/ligue-1/2026-10-31-1552809-estac-troyes-le-mans/"
   },
   {
    "puesto": 24,
@@ -1127,8 +1147,13 @@
     "gc": 27
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-1",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://futboltotal.futbol/partido/sporting-kansas-city-vs-fc-dallas-mls-2026-10-31"
   },
   {
    "puesto": 12,
@@ -1272,8 +1297,13 @@
     "gc": 29
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "0-1",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/st-louis-city-sc-vs-san-diego-fc-mls-2026-10-31"
   },
   {
    "puesto": 17,
@@ -1391,8 +1421,13 @@
     "gc": 3
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-1",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.foxsports.com/soccer/serie-a-ac-milan-vs-inter-milan-oct-31-2026-game-boxscore-869482"
   },
   {
    "puesto": 21,
@@ -1479,8 +1514,13 @@
     "gc": 8
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://gidstats.com/es/futbol/ligue-1/2026-10-31-1552809-estac-troyes-le-mans/"
   },
   {
    "puesto": 24,
@@ -1987,8 +2027,13 @@
     "gc": 33
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-0",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://gidstats.com/football/brasileirao/2026-10-31-1492434-coritiba-vs-vitoria/"
   },
   {
    "puesto": 42,
@@ -2205,7 +2250,7 @@
     "gc": 17
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {

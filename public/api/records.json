@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31 22:10 ECU",
+ "actualizado": "2026-10-31 23:10 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -18,7 +18,7 @@
   "2026-10-30",
   "2026-10-31"
  ],
- "partidos": 342,
+ "partidos": 345,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -30,12 +30,12 @@
    "partidos": 34
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 88,
-   "partidos": 119
+   "aciertos": 90,
+   "partidos": 121
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 148,
-   "partidos": 184
+   "aciertos": 149,
+   "partidos": 185
   }
  },
  "over90": {
@@ -45,8 +45,8 @@
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 123,
-  "partidos": 158
+  "aciertos": 125,
+  "partidos": 160
  },
  "over25_senal": {
   "aciertos": 41,
@@ -198,14 +198,14 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 119,
-   "aciertos": 88,
-   "prometido": 83.7
+   "partidos": 121,
+   "aciertos": 90,
+   "prometido": 83.6
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 115,
-   "aciertos": 89,
+   "partidos": 116,
+   "aciertos": 90,
    "prometido": 74.5
   },
   {
@@ -435,6 +435,24 @@
     "acierto": true
    },
    {
+    "hora": "20:30",
+    "local": "Colorado Rapids",
+    "visita": "Chicago Fire",
+    "over15": 81.9,
+    "resultado": "2-4",
+    "goles": 6,
+    "acierto": true
+   },
+   {
+    "hora": "20:00",
+    "local": "Monterrey",
+    "visita": "Tijuana",
+    "over15": 81.6,
+    "resultado": "3-3",
+    "goles": 6,
+    "acierto": true
+   },
+   {
     "hora": "16:00",
     "local": "LA Galaxy",
     "visita": "Austin",
@@ -522,6 +540,15 @@
     "over15": 77.7,
     "resultado": "2-0",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "20:07",
+    "local": "Guadalajara",
+    "visita": "Atlante",
+    "over15": 75.7,
+    "resultado": "4-2",
+    "goles": 6,
     "acierto": true
    },
    {

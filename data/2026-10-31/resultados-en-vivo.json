@@ -748,5 +748,50 @@
   "fuente": "https://canalshowsport.com.ar/instituto-goleaba-en-la-plata-pero-estudiantes-lo-empato-con-uno-menos/",
   "nota": "Canal Showsport: empate 3-3 en La Plata (Instituto ganaba 3-0); coincide titular de El Doce ('se lo empataron').",
   "registrado": "22:10 ECU"
+ },
+ {
+  "local": "Monterrey",
+  "visita": "Tijuana",
+  "hora": "20:00",
+  "resultado": "3-3",
+  "goles": 6,
+  "estado": "terminado",
+  "over15_dado": 81.6,
+  "over25_dado": 58.7,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/monterrey-vs-club-tijuana-liga-mx-2026-11-01",
+  "registrado": "23:15 ECU"
+ },
+ {
+  "local": "Guadalajara",
+  "visita": "Atlante",
+  "hora": "20:07",
+  "resultado": "4-2",
+  "goles": 6,
+  "estado": "terminado",
+  "over15_dado": 75.7,
+  "over25_dado": 50.1,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.espn.com/soccer/match/_/gameId/401876915",
+  "registrado": "23:15 ECU"
+ },
+ {
+  "local": "Colorado Rapids",
+  "visita": "Chicago Fire",
+  "hora": "20:30",
+  "resultado": "2-4",
+  "goles": 6,
+  "estado": "terminado",
+  "over15_dado": 81.9,
+  "over25_dado": 59.1,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://gidstats.com/football/mls/2026-10-31-1490593-colorado-rapids-vs-chicago-fire/",
+  "registrado": "23:15 ECU"
  }
 ]

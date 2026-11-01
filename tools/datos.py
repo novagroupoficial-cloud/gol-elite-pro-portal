@@ -398,6 +398,66 @@ for _lg,_a,_ga,_gb,_b in VIE30:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+
+# ===== Actualización dom 1-nov-2026 (rutina diaria 05:2x ECU): partidos del SÁBADO 31-oct (data/2026-10-31/resultados-en-vivo.json, 51/53 terminados, cada uno con su fuente;
+# anulados sin sumar: Defensa y Justicia–Independiente y Cambuur–Go Ahead Eagles). Local en casa, visitante fuera. Corte nuevo: sáb 31-oct-2026 final.
+SAB31=[
+ ('ENG','Chelsea',2,0,'Manchester United'),  # https://dave.sport/news/chelsea-vs-man-utd-report-rogers-palmer/
+ ('ESP','Levante',0,2,'Atletico Madrid'),  # https://www.lanacion.com.ar/deportes/canchallena/atletico-de-madrid-vencio-2-0-a-levante-por-la-liga-de-espana-2026-nid31102026/
+ ('ITA','Bologna',2,1,'Monza'),  # https://sporza.be/nl/sport/voetbal/~3338076/
+ ('GER','Werder Bremen',2,0,'Hoffenheim'),  # https://sporza.be/nl/sport/voetbal/~3341696/
+ ('GER','Schalke 04',0,2,'RB Leipzig'),  # https://sporza.be/nl/sport/voetbal/~3341696/
+ ('GER','Borussia Monchengladbach',0,0,'SC Paderborn'),  # https://sporza.be/nl/sport/voetbal/~3341696/
+ ('GER','Bayer Leverkusen',2,4,'VfB Stuttgart'),  # https://sporza.be/nl/sport/voetbal/~3341696/
+ ('GER','Augsburg',1,2,'SC Freiburg'),  # https://sporza.be/nl/sport/voetbal/~3341696/
+ ('ENG','Manchester City',0,1,'Brighton & Hove Albion'),  # https://sporza.be/nl/sport/voetbal/~3340738/
+ ('ENG','Hull City',2,2,'Ipswich Town'),  # https://sporza.be/nl/sport/voetbal/~3340738/
+ ('ENG','Coventry City',3,1,'Sunderland'),  # https://sporza.be/nl/sport/voetbal/~3340738/
+ ('ENG','Brentford',2,0,'Nottingham Forest'),  # https://sporza.be/nl/sport/voetbal/~3340738/
+ ('ENG','AFC Bournemouth',2,0,'Leeds United'),  # https://sporza.be/nl/sport/voetbal/~3340738/
+ ('ESP','Rayo Vallecano',3,0,'Celta Vigo'),  # https://dxtcampeon.elidealgallego.com/mas-futbol/2026-10-31/el-celta-encaja-una-goleada-en-su-visita-a-vallecas-3-888238.html
+ ('POR','Moreirense',2,1,'Estrela Amadora'),  # https://maisfutebol.iol.pt/liga/estrela-amadora/moreirense-estrela-2-1-cronica
+ ('NED','Feyenoord',1,1,'Fortuna Sittard'),  # https://sporza.be/nl/sport/voetbal/~3338872/
+ ('ECU','Delfín',3,1,'Deportivo Cuenca'),  # https://studiofutbol.com.ec/2026/10/31/video-luchan-por-la-permanencia-delfin-derroto-en-casa-a-deportivo-cuenca/
+ ('ITA','Udinese',2,5,'Roma'),  # https://sporza.be/nl/sport/voetbal/~3338216/
+ ('ENG','Tottenham Hotspur',2,0,'Crystal Palace'),  # https://sporza.be/nl/sport/voetbal/~3340884/
+ ('ESP','Real Betis',2,1,'Malaga'),  # https://sporza.be/nl/sport/voetbal/~3341328/
+ ('GER','Bayern Munich',2,2,'Borussia Dortmund'),  # https://sporza.be/nl/matches/voetbal/buitenland/dui/bundesliga/2026-2027/regulier/08/bayern-munchen-borussia-dortmund-live-patat-tegen-de-paal-olise-zet-overwicht-van-bayern-bijna-om-in-voorsprong-tegen-dortmund~1784284149439
+ ('NED','PSV',7,0,'Willem II'),  # https://sporza.be/nl/matches/voetbal/buitenland/ned/vriendenloterij-eredivisie/2026-2027/regulier/11/psv-willem-ii-club-brugge-is-gewaarschuwd-psv-houdt-doelpuntenkermis-voor-ontmoeting-in-champions-league~1784284447950/
+ ('NED','Heerenveen',1,0,'NEC'),  # https://sporza.be/nl/sport/voetbal/~3338925/
+ ('USA','Charlotte',4,0,'Orlando City'),  # https://futboltotal.futbol/partido/charlotte-fc-vs-orlando-city-sc-mls-2026-10-31
+ ('USA','Columbus Crew',3,0,'DC United'),  # https://gidstats.com/football/mls/2026-10-31-1490588-columbus-crew-vs-dc-united/
+ ('USA','New York City',1,1,'CF Montreal'),  # https://gidstats.com/football/mls/2026-10-31-1490589-new-york-city-fc-vs-cf-montreal/
+ ('USA','Cincinnati',1,0,'Philadelphia'),  # https://gidstats.com/es/futbol/mls/2026-10-31-1490585-fc-cincinnati-philadelphia-union/
+ ('BRA','Coritiba',2,0,'Vitória'),  # https://gidstats.com/football/brasileirao/2026-10-31-1492434-coritiba-vs-vitoria/
+ ('USA','Sporting KC',1,1,'Dallas'),  # https://futboltotal.futbol/partido/sporting-kansas-city-vs-fc-dallas-mls-2026-10-31
+ ('USA','St. Louis City',0,1,'San Diego'),  # https://futboltotal.futbol/partido/st-louis-city-sc-vs-san-diego-fc-mls-2026-10-31
+ ('ITA','AC Milan',3,1,'Inter'),  # https://www.foxsports.com/soccer/serie-a-ac-milan-vs-inter-milan-oct-31-2026-game-boxscore-869482
+ ('FRA','Troyes',2,0,'Le Mans'),  # https://gidstats.com/es/futbol/ligue-1/2026-10-31-1552809-estac-troyes-le-mans/
+ ('ECU','Emelec',0,2,'Leones del Norte'),  # https://www.eluniverso.com/deportes/campeonato-ecuatoriano/en-vivo-emelec-vs-leones-fc-por-la-fecha-5-del-cuadrangular-de-la-liga-ecuabet-nota/
+ ('ENG','Aston Villa',1,1,'Fulham'),  # https://sporza.be/nl/sport/voetbal/~3340786/
+ ('ESP','Barcelona',6,1,'Alaves'),  # https://www.si.com/mx/barcelona-golea-6-1-al-alaves-y-mantiene-el-liderato-de-laliga
+ ('NED','Ajax',1,0,'AZ'),  # https://sporza.be/nl/sport/voetbal/~3338869/
+ ('ARG','Deportivo Riestra',0,3,'Talleres Cordoba'),  # https://gidstats.com/es/futbol/argentina/2026-10-31-1493216-deportivo-riestra-talleres-cordoba/
+ ('POR','FC Porto',4,0,'Estoril'),  # https://www.diariocoimbra.pt/2026/10/31/fc-porto-goleia-estoril-e-reforca-lideranca-da-liga-1/
+ ('PER','Alianza Atlético',1,0,'Juan Pablo II'),  # https://ovacion.pe/noticias/liga1-2026/fotos-video-alianza-atletico-supero-juan-pablo-ii-sigue-pelea-del-clausura
+ ('USA','LA Galaxy',4,1,'Austin'),  # https://www.vavel.com/en-us/soccer/2026/10/31/1277473-los-angeles-galaxy-vs-austin-fc-live-score-mls.html
+ ('USA','SJ Earthquakes',2,1,'Real Salt Lake'),  # https://futboltotal.futbol/partido/san-jose-earthquakes-vs-real-salt-lake-mls-2026-10-31
+ ('ECU','Macará',3,0,'Barcelona SC'),  # https://www.eldiario.ec/deportes/con-doblete-de-franco-posse-macara-supero-a-barcelona-sc-en-el-estadio-bellavista-31102026
+ ('ARG','Velez Sarsfield',2,2,'San Lorenzo'),  # https://elintransigente.com/2026/10/31/san-lorenzo-empata-velez-remonta-dos-goles-amalfitani/
+ ('MEX','Pachuca',3,0,'Tigres UANL'),  # https://futboltotal.futbol/partido/pachuca-vs-tigres-uanl-liga-mx-2026-11-01
+ ('CHI','OHiggins',1,0,'Nublense'),  # https://www.biobiochile.cl/noticias/deportes/futbol/futbol-nacional/2026/10/31/gol-y-roja-para-castillo-ohiggins-resistio-en-rancagua-vencio-a-nublense-y-toma-aire-en-la-tabla.shtml
+ ('COL','Llaneros',3,2,'Junior'),  # https://www.eluniversal.com.co/deportes/2026/10/31/liga-betplay-languida-derrota-de-junior-frente-a-llaneros-fc-en-villavicencio/
+ ('ARG','Estudiantes LP',3,3,'Instituto Cordoba'),  # https://canalshowsport.com.ar/instituto-goleaba-en-la-plata-pero-estudiantes-lo-empato-con-uno-menos/
+ ('MEX','Monterrey',3,3,'Tijuana'),  # https://futboltotal.futbol/partido/monterrey-vs-club-tijuana-liga-mx-2026-11-01
+ ('MEX','Guadalajara',4,2,'Atlante'),  # https://www.espn.com/soccer/match/_/gameId/401876915
+ ('USA','Colorado Rapids',2,4,'Chicago Fire'),  # https://gidstats.com/football/mls/2026-10-31-1490593-colorado-rapids-vs-chicago-fire/
+ ('MEX','America',2,2,'Toluca'),  # https://www.infobae.com/america/agencias/2026/11/01/america-empata-con-toluca-y-recupera-el-liderato-del-apertura-mexicano/
+]
+for _lg,_a,_ga,_gb,_b in SAB31:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

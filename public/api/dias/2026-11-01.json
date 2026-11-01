@@ -1,6 +1,6 @@
 {
  "fecha": "2026-11-01",
- "actualizado": "2026-11-01 09:39 ECU (UTC-5)",
+ "actualizado": "2026-11-01 09:49 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-11-01/pronosticos.json",
@@ -443,7 +443,7 @@
   },
   {
    "puesto": 19,
-   "hora_ecuador": "20:00",
+   "hora_ecuador": "20:10",
    "liga": "Liga MX",
    "local": "Cruz Azul",
    "visitante": "Leon",
@@ -1022,7 +1022,7 @@
   },
   {
    "puesto": 19,
-   "hora_ecuador": "20:00",
+   "hora_ecuador": "20:10",
    "liga": "Liga MX",
    "local": "Cruz Azul",
    "visitante": "Leon",

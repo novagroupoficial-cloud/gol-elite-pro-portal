@@ -1408,7 +1408,7 @@
   "rango_clasico": "Rango 80"
  },
  {
-  "hora": "20:00",
+  "hora": "20:10",
   "liga": "MEX",
   "local": "Cruz Azul",
   "visita": "Leon",
@@ -1437,7 +1437,8 @@
   "modelo_version": "4.1",
   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
   "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (corte sáb 31-oct-2026 final; bloque SAB31 con cada resultado y su fuente); Dashboard Gol 4.0 /api/dia no accesible en esta ejecución",
-  "rango_clasico": "Rango 80"
+  "rango_clasico": "Rango 80",
+  "nota_hora": "Hora corregida de 20:00 a 20:10 ECU según SportyTrader (cotejo de Marco, 1-nov 09:48). Probabilidades sin cambios."
  },
  {
   "hora": "20:30",

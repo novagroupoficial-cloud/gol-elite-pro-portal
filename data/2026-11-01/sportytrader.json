@@ -1,0 +1,42 @@
+{
+ "fecha": "2026-11-01",
+ "fuente": "capturas de SportyTrader enviadas por Marco (09:48 ECU)",
+ "partidos": [
+  "Lecce|Genoa",
+  "Juventus|Napoli",
+  "Racing Santander|Real Madrid",
+  "Elche|Valencia",
+  "Athletic Club|Real Sociedad",
+  "Eintracht Frankfurt|Hamburger SV",
+  "Vancouver|Seattle",
+  "Nashville SC|New York RB",
+  "Atlanta United|Toronto",
+  "New England|Inter Miami",
+  "Los Angeles FC|Minnesota United",
+  "Universidad Católica|Aucas",
+  "Independiente del Valle|LDU Quito",
+  "Guayaquil City|Libertad",
+  "Paris FC|Monaco",
+  "Marseille|Toulouse",
+  "Sporting Braga|Famalicao",
+  "Santos Laguna|Necaxa",
+  "Cruz Azul|Leon",
+  "Liverpool|Arsenal",
+  "Boca Juniors|River Plate",
+  "Newells Old Boys|Union Santa Fe",
+  "Belgrano|Barracas Central",
+  "Lanus|Gimnasia Mendoza"
+ ],
+ "sin_pronostico": [
+  "Universidad de Guadalajara vs Tepatitlán 13:00 (Liga de Expansión MX: sin tabla)",
+  "Deportivo La Guaira vs Portuguesa 16:30 y Carabobo vs Metropolitanos 18:30 (Venezuela: sin tabla)",
+  "Saprissa vs Alajuelense 17:00 (Costa Rica: sin tabla)",
+  "Danubio vs Nacional 14:30 (Uruguay: sin tabla)"
+ ],
+ "descartados_otra_fecha": [
+  "Benfica vs Alverca (2-nov)"
+ ],
+ "hora_corregida": [
+  "Cruz Azul vs León: 20:00 -> 20:10"
+ ]
+}

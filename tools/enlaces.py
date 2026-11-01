@@ -1063,3 +1063,16 @@ LLEGAN={
  'Marseille|Toulouse':['Marsella 9.º (12 pts): 4-3 al Le Havre y 2-5 en Angers en sus dos últimos de liga.','Toulouse 11.º (10 pts), sin Rafik Messali; ganó solo 1 de 32 duelos ante Marsella.','Los últimos diez partidos de Marsella promedian 3,3 goles.','Fuente: FootballPredictions.com (1-nov).'],
  'Portland|Houston Dynamo':['Portland 11.º del Oeste (40 pts), dos triunfos seguidos por 3-2.','Los partidos de Portland suman 117 goles en 32 jornadas (57 a favor, 60 en contra).','Houston 5.º (51 pts) y cinco sin perder; tres de sus últimos cinco con 4 goles o más.','Fuente: Starting11 y vavel (1-nov).'],
 }
+
+# ---- Genérico (desde 1-nov-2026): si existe data/<fecha>/sportytrader.json (lista de Marco), manda en PRED y DEST ----
+try:
+    _F=next((p.get('sellado','')[:10] for p in _P if p.get('sellado')),None)
+    _SF=_o.path.join(_o.path.dirname(_o.path.abspath(__file__)),f'../data/{_F}/sportytrader.json') if _F else None
+    if _SF and _o.path.exists(_SF):
+        _STG=_j.load(open(_SF,encoding='utf-8'))['partidos']
+        _PIG={f"{p['local']}|{p['visita']}":p for p in _P if not p.get('sin')}
+        _ORD=[k for k in sorted(_STG,key=lambda k:-_PIG[k]['over15']) if k in _PIG]
+        PRED=[k for k in _ORD if round(_PIG[k]['over15'],1)>=79.5]
+        DEST=_ORD[:5]
+except Exception as _err:
+    print('aviso enlaces: lista SportyTrader no aplicada:',_err)

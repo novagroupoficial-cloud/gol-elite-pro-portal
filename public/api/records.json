@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31 18:11 ECU",
+ "actualizado": "2026-10-31 19:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -18,7 +18,7 @@
   "2026-10-30",
   "2026-10-31"
  ],
- "partidos": 333,
+ "partidos": 337,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -30,12 +30,12 @@
    "partidos": 34
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 85,
-   "partidos": 115
+   "aciertos": 87,
+   "partidos": 118
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 144,
-   "partidos": 179
+   "aciertos": 145,
+   "partidos": 180
   }
  },
  "over90": {
@@ -45,12 +45,12 @@
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 120,
-  "partidos": 154
+  "aciertos": 122,
+  "partidos": 157
  },
  "over25_senal": {
   "aciertos": 41,
-  "partidos": 71
+  "partidos": 72
  },
  "partido_del_dia": {
   "aciertos": 12,
@@ -198,8 +198,8 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 115,
-   "aciertos": 85,
+   "partidos": 118,
+   "aciertos": 87,
    "prometido": 83.7
   },
   {
@@ -210,8 +210,8 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 66,
-   "aciertos": 56,
+   "partidos": 67,
+   "aciertos": 57,
    "prometido": 62.0
   }
  ],
@@ -327,6 +327,15 @@
     "acierto": false
    },
    {
+    "hora": "15:30",
+    "local": "Alianza Atlético",
+    "visita": "Juan Pablo II",
+    "over15": 85.7,
+    "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
+   },
+   {
     "hora": "12:45",
     "local": "Heerenveen",
     "visita": "NEC",
@@ -408,12 +417,30 @@
     "acierto": true
    },
    {
+    "hora": "16:00",
+    "local": "SJ Earthquakes",
+    "visita": "Real Salt Lake",
+    "over15": 82.7,
+    "resultado": "2-1",
+    "goles": 3,
+    "acierto": true
+   },
+   {
     "hora": "15:00",
     "local": "Barcelona",
     "visita": "Alaves",
     "over15": 82.6,
     "resultado": "6-1",
     "goles": 7,
+    "acierto": true
+   },
+   {
+    "hora": "16:00",
+    "local": "LA Galaxy",
+    "visita": "Austin",
+    "over15": 81.5,
+    "resultado": "4-1",
+    "goles": 5,
     "acierto": true
    },
    {
@@ -540,6 +567,15 @@
     "over15": 68.4,
     "resultado": "2-0",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "16:30",
+    "local": "Macará",
+    "visita": "Barcelona SC",
+    "over15": 64.3,
+    "resultado": "3-0",
+    "goles": 3,
     "acierto": true
    },
    {

@@ -1,13 +1,13 @@
 {
  "fecha": "2026-10-31",
- "actualizado": "2026-10-31 21:11 ECU (UTC-5)",
+ "actualizado": "2026-10-31 22:10 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-31/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 46,
+  "terminados": 47,
   "total": 53,
   "over15_70": [
    30,
@@ -2005,7 +2005,7 @@
     "gc": 8
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2305,8 +2305,13 @@
     "gc": 5
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-3",
+   "goles": 6,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://canalshowsport.com.ar/instituto-goleaba-en-la-plata-pero-estudiantes-lo-empato-con-uno-menos/"
   },
   {
    "puesto": 49,

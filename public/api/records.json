@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31 21:11 ECU",
+ "actualizado": "2026-10-31 22:10 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -18,7 +18,7 @@
   "2026-10-30",
   "2026-10-31"
  ],
- "partidos": 341,
+ "partidos": 342,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -34,8 +34,8 @@
    "partidos": 119
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 147,
-   "partidos": 183
+   "aciertos": 148,
+   "partidos": 184
   }
  },
  "over90": {
@@ -210,9 +210,9 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 68,
-   "aciertos": 58,
-   "prometido": 62.0
+   "partidos": 69,
+   "aciertos": 59,
+   "prometido": 62.1
   }
  ],
  "ultima_jornada": {
@@ -594,6 +594,15 @@
     "over15": 68.4,
     "resultado": "2-0",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "19:30",
+    "local": "Estudiantes LP",
+    "visita": "Instituto Cordoba",
+    "over15": 65.8,
+    "resultado": "3-3",
+    "goles": 6,
     "acierto": true
    },
    {

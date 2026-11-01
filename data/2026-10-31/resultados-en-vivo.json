@@ -732,5 +732,21 @@
   "fuente": "https://www.eluniversal.com.co/deportes/2026/10/31/liga-betplay-languida-derrota-de-junior-frente-a-llaneros-fc-en-villavicencio/",
   "nota": "El Universal: crónica de la derrota de Junior, final 3-2; coincide Infobae (Junior fuera de cuadrangulares).",
   "registrado": "21:15 ECU"
+ },
+ {
+  "local": "Estudiantes LP",
+  "visita": "Instituto Cordoba",
+  "hora": "19:30",
+  "resultado": "3-3",
+  "goles": 6,
+  "estado": "terminado",
+  "over15_dado": 65.8,
+  "over25_dado": 38.0,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://canalshowsport.com.ar/instituto-goleaba-en-la-plata-pero-estudiantes-lo-empato-con-uno-menos/",
+  "nota": "Canal Showsport: empate 3-3 en La Plata (Instituto ganaba 3-0); coincide titular de El Doce ('se lo empataron').",
+  "registrado": "22:10 ECU"
  }
 ]

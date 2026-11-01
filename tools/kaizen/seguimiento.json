@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01 09:39 ECU",
+ "actualizado": "2026-11-01 11:02 ECU",
  "nota": "Brier: menor es mejor. skill > 0: aporta frente a decir siempre la media. AUC: 0,5 = azar, 1 = perfecto. Metas Kaizen: skill > 0 y AUC Over 1.5 >= 0,60.",
  "total": {
   "over15": {
@@ -677,7 +677,9 @@
    "real": 100.0,
    "prometido": 95.8,
    "meta": 95,
-   "fallos": []
+   "fallos": [],
+   "con_bajas": "0/0",
+   "con_sin_nada_en_juego": "0/0"
   },
   "GOLES PLATINO": {
    "partidos": 34,
@@ -726,7 +728,9 @@
      "pj_casa": 5,
      "pj_fuera": 5
     }
-   ]
+   ],
+   "con_bajas": "3/4",
+   "con_sin_nada_en_juego": "1/2"
   },
   "GOLES ESTÁNDAR": {
    "partidos": 121,

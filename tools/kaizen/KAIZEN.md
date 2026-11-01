@@ -50,6 +50,16 @@ El modelo mejora en este orden:
 4. **GOLES OPTIMISTAS (menos de 80 %).**
 Ninguna mejora de una categoría inferior se acepta si empeora una superior.
 
+## Registro de hipótesis por prioridad (desde 1-nov-2026)
+- ❌ **DESCARTADA (1-nov):** "PLATINO/ÉLITE falla por muestras cortas (<4 partidos por condición)". Datos: con menos de 4 partidos, 13/15 (87 %); de 4 a 6, 15/16 (94 %); 7 o más, 7/8 (88 %). No hay diferencia: no se aplica.
+- 🔬 **EN MEDICIÓN (desde el 1-nov, decisión hacia el 15-nov):** "PLATINO/ÉLITE con bajas de atacantes o con un equipo sin nada en juego baja una categoría". Origen:
+  - los 4 fallos de PLATINO terminaron 1-0;
+  - Cincinnati 1-0 Philadelphia (Philadelphia sin 4 jugadores, entre ellos atacantes, y ya clasificado);
+  - Ajax 1-0 AZ (2.º contra 5.º);
+  - indicio de la base histórica: noticias con "bajas", 2/6 en Over 1.5.
+
+  Se mide con las etiquetas de `historial.py` (`bajas` y, desde ahora, `sin_nada_en_juego`). No cambia porcentajes, solo la categoría con que se destaca. Necesita al menos 30 partidos PLATINO/ÉLITE con noticia antes de decidir.
+
 ## Base estadística propia: semana por semana y mes por mes (pedido de Marco, 25-oct-2026)
 - `tools/kaizen/seguimiento.json` guarda, para lo SELLADO:
   - `por_semana` (lunes a domingo) y `por_mes`, con partidos, aciertos de Over 1.5, GOLES PLATINO/GOL ÉLITE, señales de Over 2.5 fuertes y moderadas, goles reales vs esperados, aciertos por liga, Brier, skill y AUC;

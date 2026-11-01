@@ -86,6 +86,14 @@ for nom, lo, hi, meta in CAT:
                             over15=x['o15_sellado'], version=x['p'].get('modelo_version', '4.0'),
                             pj_casa=x['p']['casa'][0], pj_fuera=x['p']['fuera'][0]) for x in xs if x['gl'] + x['gv'] < 2]
     out['por_categoria'][nom] = d
+    if lo >= 90:  # hipótesis en medición: noticias con bajas / sin nada en juego
+        try:
+            Hh = {(h['fecha'], h['local'], h['visita']): h for h in json.load(open(os.path.join(AQUI, 'historial_partidos.json'), encoding='utf-8'))}
+            et = lambda x: (Hh.get((x['fecha'], x['p']['local'], x['p']['visita'])) or {}).get('etiquetas') or ''
+            for tag in ('bajas', 'sin_nada_en_juego'):
+                s2 = [x for x in xs if tag in et(x).split(',')]
+                d[f'con_{tag}'] = f"{sum(x['gl'] + x['gv'] >= 2 for x in s2)}/{len(s2)}"
+        except Exception: pass
     if meta and len(xs) >= 5 and d['real'] < meta:
         avisos.append(f"ALERTA KAIZEN (prioridad {nom}): se cumple {d['real']} % y la meta es {meta} % ({ok}/{len(xs)})")
 json.dump(out, open(os.path.join(AQUI, 'seguimiento.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

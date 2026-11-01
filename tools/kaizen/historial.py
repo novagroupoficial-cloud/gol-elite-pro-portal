@@ -18,6 +18,8 @@ ETQ = {  # etiqueta: palabras clave (en minúsculas) que aparecen en la noticia
  'descenso': r'descenso|\búltimo\b|\búltima\b|penúltimo|colista',
  'muchos_goles_h2h': r'duelos con muchos goles|últimos \d (duelos|enfrentamientos)|terminaron \d-\d',
  'muestra_corta': r'muestra corta|pocos datos|solo \d partidos',
+ 'sin_nada_en_juego': r'ya clasificad|ya asegur|ya eliminad|nada en juego|sin nada que jugar|ya campe',
+ 'duelo_de_arriba': r'\b[1-4][º.]?\b.{0,40}\b[1-5][º.]?\b.{0,20}(pts|puntos)',
 }
 filas = []
 for d in sorted(glob.glob(os.path.join(RAIZ, 'data', '2026-*'))):

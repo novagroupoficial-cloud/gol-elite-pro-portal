@@ -82,6 +82,24 @@
    "goles_reales": 3.5,
    "goles_esperados": 3.6
   },
+  "sin_nada_en_juego": {
+   "partidos": 2,
+   "over15_real": 50.0,
+   "over15_prometido": 91.2,
+   "over25_real": 50.0,
+   "over25_prometido": 76.0,
+   "goles_reales": 2.5,
+   "goles_esperados": 4.0
+  },
+  "duelo_de_arriba": {
+   "partidos": 7,
+   "over15_real": 71.4,
+   "over15_prometido": 85.1,
+   "over25_real": 57.1,
+   "over25_prometido": 64.6,
+   "goles_reales": 2.43,
+   "goles_esperados": 3.34
+  },
   "(con noticia)": {
    "partidos": 103,
    "over15_real": 79.6,

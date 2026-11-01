@@ -1,0 +1,19 @@
+{
+ "fecha": "2026-11-01",
+ "ultima_ejecucion": "2026-11-01 00:10 ECU",
+ "ultima_ok": "2026-11-01 00:10 ECU",
+ "rutina_diaria": "pendiente",
+ "rutina_diaria_inicio": null,
+ "pendientes": [
+  "Buscar resultado del 31-oct: América-Toluca (inicio 22:10 ECU; a las 00:10 solo había crónicas sin final: Claro Sports con alineaciones, Fox Sports en el min 24 0-0). Registrar en data/2026-10-31/resultados-en-vivo.json, regenerar ranking del 31-oct y enviar aviso de cierre del día del 31-oct.",
+  "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido; 1.ª vez hoy)."
+ ],
+ "deploy": {
+  "ok": null,
+  "fallos_seguidos": 0,
+  "ultima_revision": "00:10 (sin lectura: permiso de WebFetch no respondido)"
+ },
+ "avisos_enviados": [],
+ "web_sin_lectura_seguidas_hoy": 1,
+ "nota": "00:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica para el 1-nov. Ranking del 31-oct sin cambios (50/53; falta América-Toluca, sin informe final aún). Web sin lectura 1.ª vez hoy."
+}

@@ -1,21 +1,21 @@
 {
  "fecha": "2026-11-01",
- "ultima_ejecucion": "2026-11-01 06:16 ECU",
- "ultima_ok": "2026-11-01 06:16 ECU",
+ "ultima_ejecucion": "2026-11-01 07:11 ECU",
+ "ultima_ok": "2026-11-01 07:11 ECU",
  "rutina_diaria": "hecha",
  "rutina_diaria_inicio": "2026-11-01 05:24 ECU",
  "pendientes": [
-  "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido; 7.ª vez seguida hoy)."
+  "Portal en vivo sin lectura (WebFetch de /index: permiso no respondido; 8.ª vez seguida hoy)."
  ],
  "deploy": {
   "ok": null,
   "fallos_seguidos": 0,
-  "ultima_revision": "06:10 (sin lectura: permiso de WebFetch no respondido)"
+  "ultima_revision": "07:11 (sin lectura: permiso de WebFetch no respondido)"
  },
  "avisos_enviados": [
   "cierre_del_dia_2026-10-31",
   "bloqueo_web_2026-11-01"
  ],
- "web_sin_lectura_seguidas_hoy": 7,
- "nota": "00:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica para el 1-nov. Ranking del 31-oct sin cambios (50/53; falta América-Toluca, sin informe final aún). Web sin lectura 1.ª vez hoy. | 01:15: registrado América 2-2 Toluca (31-oct; 77,5 %; O1.5 ✔, O2.5 ✔; Infobae, coincide Amexi). Jornada del 31-oct cerrada: 51/53 terminados, 2 anulados; O1.5 ≥70 %: 34/42. Ranking del 31-oct regenerado; portal.py y envolver.py OK. Aviso de cierre del 31-oct enviado. Antes de las 08:00 y sin pronósticos del 1-nov. Web sin lectura 2.ª vez hoy. | 02:11: antes de las 08:00 y sin pronósticos del 1-nov; nada que registrar ni ranking que regenerar. Web sin lectura 3.ª vez seguida: aviso de bloqueo enviado. | 03:10: antes de las 08:00 y sin pronósticos del 1-nov; nada que registrar ni ranking que regenerar. Web sin lectura 4.ª vez seguida (aviso de bloqueo ya enviado hoy). | 04:10: antes de las 08:00 y sin pronósticos del 1-nov; nada que registrar ni ranking que regenerar. Web sin lectura 5.ª vez seguida (aviso de bloqueo ya enviado hoy). | 05:10: antes de las 08:00 y sin pronósticos del 1-nov; nada que registrar ni ranking que regenerar. Web sin lectura 6.ª vez seguida (aviso de bloqueo ya enviado hoy). | 06:10: rutina diaria hecha: 47 pronósticos sellados 05:40 ECU, auditoría del 31-oct, galería, Kaizen (informe de octubre) y kit de redes publicados. | 06:16 (refresco): ranking del día regenerado con los 47 pronósticos (todos por jugar; primero 06:15). portal.py y envolver.py OK. Web sin lectura 7.ª vez seguida (aviso de bloqueo ya enviado hoy)."
+ "web_sin_lectura_seguidas_hoy": 8,
+ "nota": "00:10: antes de las 08:00 y sin pronósticos de hoy; refresco.py no aplica para el 1-nov. Ranking del 31-oct sin cambios (50/53; falta América-Toluca, sin informe final aún). Web sin lectura 1.ª vez hoy. | 01:15: registrado América 2-2 Toluca (31-oct; 77,5 %; O1.5 ✔, O2.5 ✔; Infobae, coincide Amexi). Jornada del 31-oct cerrada: 51/53 terminados, 2 anulados; O1.5 ≥70 %: 34/42. Ranking del 31-oct regenerado; portal.py y envolver.py OK. Aviso de cierre del 31-oct enviado. Antes de las 08:00 y sin pronósticos del 1-nov. Web sin lectura 2.ª vez hoy. | 02:11: antes de las 08:00 y sin pronósticos del 1-nov; nada que registrar ni ranking que regenerar. Web sin lectura 3.ª vez seguida: aviso de bloqueo enviado. | 03:10: antes de las 08:00 y sin pronósticos del 1-nov; nada que registrar ni ranking que regenerar. Web sin lectura 4.ª vez seguida (aviso de bloqueo ya enviado hoy). | 04:10: antes de las 08:00 y sin pronósticos del 1-nov; nada que registrar ni ranking que regenerar. Web sin lectura 5.ª vez seguida (aviso de bloqueo ya enviado hoy). | 05:10: antes de las 08:00 y sin pronósticos del 1-nov; nada que registrar ni ranking que regenerar. Web sin lectura 6.ª vez seguida (aviso de bloqueo ya enviado hoy). | 06:10: rutina diaria hecha: 47 pronósticos sellados 05:40 ECU, auditoría del 31-oct, galería, Kaizen (informe de octubre) y kit de redes publicados. | 06:16 (refresco): ranking del día regenerado con los 47 pronósticos (todos por jugar; primero 06:15). portal.py y envolver.py OK. Web sin lectura 7.ª vez seguida (aviso de bloqueo ya enviado hoy). | 07:11: ranking regenerado (47 partidos; PEC Zwolle-ADO y Como-Venezia en juego, ninguno terminado aún). portal.py y envolver.py OK. Web sin lectura 8.ª vez seguida (aviso de bloqueo ya enviado hoy)."
 }

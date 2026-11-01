@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31 19:11 ECU",
+ "actualizado": "2026-10-31 20:10 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -18,7 +18,7 @@
   "2026-10-30",
   "2026-10-31"
  ],
- "partidos": 337,
+ "partidos": 338,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -34,8 +34,8 @@
    "partidos": 118
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 145,
-   "partidos": 180
+   "aciertos": 146,
+   "partidos": 181
   }
  },
  "over90": {
@@ -210,8 +210,8 @@
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 67,
-   "aciertos": 57,
+   "partidos": 68,
+   "aciertos": 58,
    "prometido": 62.0
   }
  ],
@@ -585,6 +585,15 @@
     "over15": 63.8,
     "resultado": "0-2",
     "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "17:15",
+    "local": "Velez Sarsfield",
+    "visita": "San Lorenzo",
+    "over15": 60.3,
+    "resultado": "2-2",
+    "goles": 4,
     "acierto": true
    },
    {

@@ -668,5 +668,21 @@
   "fuente": "https://www.eldiario.ec/deportes/con-doblete-de-franco-posse-macara-supero-a-barcelona-sc-en-el-estadio-bellavista-31102026",
   "nota": "El Diario: '3-0 definitivo'; coincide extra.ec.",
   "registrado": "19:20 ECU"
+ },
+ {
+  "local": "Velez Sarsfield",
+  "visita": "San Lorenzo",
+  "hora": "17:15",
+  "resultado": "2-2",
+  "goles": 4,
+  "estado": "terminado",
+  "over15_dado": 60.3,
+  "over25_dado": 32.3,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://elintransigente.com/2026/10/31/san-lorenzo-empata-velez-remonta-dos-goles-amalfitani/",
+  "nota": "El Intransigente: 'terminó 2-2'; coincide Doble Amarilla ('terminaron en un empate') y titular de Canal26 'Vélez 2-2 San Lorenzo'.",
+  "registrado": "20:15 ECU"
  }
 ]

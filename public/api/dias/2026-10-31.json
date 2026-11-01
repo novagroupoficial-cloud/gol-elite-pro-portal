@@ -1,13 +1,13 @@
 {
  "fecha": "2026-10-31",
- "actualizado": "2026-10-31 19:11 ECU (UTC-5)",
+ "actualizado": "2026-10-31 20:10 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-31/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 42,
+  "terminados": 43,
   "total": 53,
   "over15_70": [
    28,
@@ -720,7 +720,7 @@
     "gc": 11
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1669,7 +1669,7 @@
     "gc": 11
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2026,7 +2026,7 @@
     "gc": 10
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2290,7 +2290,7 @@
     "gc": 5
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -2405,8 +2405,13 @@
     "gc": 8
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "2-2",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://elintransigente.com/2026/10/31/san-lorenzo-empata-velez-remonta-dos-goles-amalfitani/"
   },
   {
    "puesto": 53,

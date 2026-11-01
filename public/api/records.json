@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31 20:10 ECU",
+ "actualizado": "2026-10-31 21:11 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -18,7 +18,7 @@
   "2026-10-30",
   "2026-10-31"
  ],
- "partidos": 338,
+ "partidos": 341,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -30,12 +30,12 @@
    "partidos": 34
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 87,
-   "partidos": 118
+   "aciertos": 88,
+   "partidos": 119
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 146,
-   "partidos": 181
+   "aciertos": 147,
+   "partidos": 183
   }
  },
  "over90": {
@@ -45,8 +45,8 @@
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 122,
-  "partidos": 157
+  "aciertos": 123,
+  "partidos": 158
  },
  "over25_senal": {
   "aciertos": 41,
@@ -198,14 +198,14 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 118,
-   "aciertos": 87,
+   "partidos": 119,
+   "aciertos": 88,
    "prometido": 83.7
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 113,
-   "aciertos": 88,
+   "partidos": 115,
+   "aciertos": 89,
    "prometido": 74.5
   },
   {
@@ -480,6 +480,15 @@
     "acierto": true
    },
    {
+    "hora": "18:00",
+    "local": "Pachuca",
+    "visita": "Tigres UANL",
+    "over15": 79.8,
+    "resultado": "3-0",
+    "goles": 3,
+    "acierto": true
+   },
+   {
     "hora": "10:00",
     "local": "Brentford",
     "visita": "Nottingham Forest",
@@ -516,6 +525,15 @@
     "acierto": true
    },
    {
+    "hora": "18:00",
+    "local": "Llaneros",
+    "visita": "Junior",
+    "over15": 75.1,
+    "resultado": "3-2",
+    "goles": 5,
+    "acierto": true
+   },
+   {
     "hora": "14:00",
     "local": "Coritiba",
     "visita": "Vitória",
@@ -523,6 +541,15 @@
     "resultado": "2-0",
     "goles": 2,
     "acierto": true
+   },
+   {
+    "hora": "18:00",
+    "local": "OHiggins",
+    "visita": "Nublense",
+    "over15": 74.4,
+    "resultado": "1-0",
+    "goles": 1,
+    "acierto": false
    },
    {
     "hora": "15:30",

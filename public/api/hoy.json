@@ -1,17 +1,17 @@
 {
  "fecha": "2026-10-31",
- "actualizado": "2026-10-31 20:10 ECU (UTC-5)",
+ "actualizado": "2026-10-31 21:11 ECU (UTC-5)",
  "zona_horaria": "America/Guayaquil (UTC-5)",
  "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
  "fuente_sellada": "data/2026-10-31/pronosticos.json",
  "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
  "orden": "de mayor a menor Over 1.5",
  "resumen_del_dia": {
-  "terminados": 43,
+  "terminados": 46,
   "total": 53,
   "over15_70": [
-   28,
-   35
+   30,
+   38
   ],
   "over25_senal": [
    3,
@@ -694,7 +694,7 @@
     "gc": 27
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1643,7 +1643,7 @@
     "gc": 27
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "por jugar",
+   "estado": "en juego / sin confirmar",
    "resultado": null
   },
   {
@@ -1850,8 +1850,13 @@
     "gc": 12
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-0",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/pachuca-vs-tigres-uanl-liga-mx-2026-11-01"
   },
   {
    "puesto": 34,
@@ -2052,8 +2057,13 @@
     "gc": 15
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "3-2",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.eluniversal.com.co/deportes/2026/10/31/liga-betplay-languida-derrota-de-junior-frente-a-llaneros-fc-en-villavicencio/"
   },
   {
    "puesto": 41,
@@ -2109,8 +2119,13 @@
     "gc": 21
    },
    "sellado": "2026-10-31 05:52 ECU (UTC-5)",
-   "estado": "en juego / sin confirmar",
-   "resultado": null
+   "estado": "terminado",
+   "resultado": "1-0",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.biobiochile.cl/noticias/deportes/futbol/futbol-nacional/2026/10/31/gol-y-roja-para-castillo-ohiggins-resistio-en-rancagua-vencio-a-nublense-y-toma-aire-en-la-tabla.shtml"
   },
   {
    "puesto": 43,

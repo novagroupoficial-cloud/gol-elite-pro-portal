@@ -684,5 +684,53 @@
   "fuente": "https://elintransigente.com/2026/10/31/san-lorenzo-empata-velez-remonta-dos-goles-amalfitani/",
   "nota": "El Intransigente: 'terminó 2-2'; coincide Doble Amarilla ('terminaron en un empate') y titular de Canal26 'Vélez 2-2 San Lorenzo'.",
   "registrado": "20:15 ECU"
+ },
+ {
+  "local": "Pachuca",
+  "visita": "Tigres UANL",
+  "hora": "18:00",
+  "resultado": "3-0",
+  "goles": 3,
+  "estado": "terminado",
+  "over15_dado": 79.8,
+  "over25_dado": 56.0,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://futboltotal.futbol/partido/pachuca-vs-tigres-uanl-liga-mx-2026-11-01",
+  "nota": "futboltotal: 'Final' (Rondón 42' y 53', Robert Nunes 69'); coincide gidstats 'Finalizado' 3-0.",
+  "registrado": "21:15 ECU"
+ },
+ {
+  "local": "OHiggins",
+  "visita": "Nublense",
+  "hora": "18:00",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 74.4,
+  "over25_dado": 48.3,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.biobiochile.cl/noticias/deportes/futbol/futbol-nacional/2026/10/31/gol-y-roja-para-castillo-ohiggins-resistio-en-rancagua-vencio-a-nublense-y-toma-aire-en-la-tabla.shtml",
+  "nota": "BioBioChile: crónica final 1-0 (Castillo 43') con tabla actualizada; coincide El Rancagüino 'O'Higgins supera a Ñublense'.",
+  "registrado": "21:15 ECU"
+ },
+ {
+  "local": "Llaneros",
+  "visita": "Junior",
+  "hora": "18:00",
+  "resultado": "3-2",
+  "goles": 5,
+  "estado": "terminado",
+  "over15_dado": 75.1,
+  "over25_dado": 49.3,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.eluniversal.com.co/deportes/2026/10/31/liga-betplay-languida-derrota-de-junior-frente-a-llaneros-fc-en-villavicencio/",
+  "nota": "El Universal: crónica de la derrota de Junior, final 3-2; coincide Infobae (Junior fuera de cuadrangulares).",
+  "registrado": "21:15 ECU"
  }
 ]

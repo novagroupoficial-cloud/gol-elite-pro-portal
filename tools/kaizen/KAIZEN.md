@@ -42,6 +42,14 @@ Autorizado por Marco Rivera el 25-oct-2026: "te autorizo desde este momento… d
   - Over 2.5 fuerte más exigente.
 - **Rige** desde los pronósticos del 26-oct-2026. Los del 25-oct ya estaban sellados con la versión 4.0.
 
+## PRIORIDAD KAIZEN (regla de Marco, 1-nov-2026)
+El modelo mejora en este orden:
+1. **GOL ÉLITE (95 % o más).** Meta: que se cumpla al menos el 95 %. Cada fallo se analiza uno por uno (`por_categoria` → `fallos` en `seguimiento.json`): liga, partidos jugados en la muestra, versión y noticia.
+2. **GOLES PLATINO (90 a 94 %).** Meta: al menos el 90 %. Mismo análisis de cada fallo.
+3. **GOLES ESTÁNDAR (80 a 89 %).** Recalibrar la franja que promete de más.
+4. **GOLES OPTIMISTAS (menos de 80 %).**
+Ninguna mejora de una categoría inferior se acepta si empeora una superior.
+
 ## Base estadística propia: semana por semana y mes por mes (pedido de Marco, 25-oct-2026)
 - `tools/kaizen/seguimiento.json` guarda, para lo SELLADO:
   - `por_semana` (lunes a domingo) y `por_mes`, con partidos, aciertos de Over 1.5, GOLES PLATINO/GOL ÉLITE, señales de Over 2.5 fuertes y moderadas, goles reales vs esperados, aciertos por liga, Brier, skill y AUC;

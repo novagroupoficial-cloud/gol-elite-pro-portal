@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01 09:36 ECU",
+ "actualizado": "2026-11-01 09:39 ECU",
  "nota": "Brier: menor es mejor. skill > 0: aporta frente a decir siempre la media. AUC: 0,5 = azar, 1 = perfecto. Metas Kaizen: skill > 0 y AUC Over 1.5 >= 0,60.",
  "total": {
   "over15": {
@@ -666,6 +666,81 @@
  "avisos": [
   "BUENA NOTICIA KAIZEN: la versión nueva supera a la 4.0 en Over 1.5 en 83 partidos reales (Brier 0.162 vs 0.1709)",
   "BUENA NOTICIA KAIZEN: la versión nueva supera a la 4.0 en Over 2.5 en 83 partidos reales (Brier 0.2745 vs 0.2887)",
-  "BUENA NOTICIA KAIZEN: ECU se cumple más de lo prometido (89 % real vs 61 % prometido, 9 partidos)"
- ]
+  "BUENA NOTICIA KAIZEN: ECU se cumple más de lo prometido (89 % real vs 61 % prometido, 9 partidos)",
+  "ALERTA KAIZEN (prioridad GOLES PLATINO): se cumple 88.2 % y la meta es 90 % (30/34)",
+  "ALERTA KAIZEN (prioridad GOLES ESTÁNDAR): se cumple 74.4 % y la meta es 80 % (90/121)"
+ ],
+ "por_categoria": {
+  "GOL ÉLITE": {
+   "partidos": 5,
+   "aciertos": 5,
+   "real": 100.0,
+   "prometido": 95.8,
+   "meta": 95,
+   "fallos": []
+  },
+  "GOLES PLATINO": {
+   "partidos": 34,
+   "aciertos": 30,
+   "real": 88.2,
+   "prometido": 91.6,
+   "meta": 90,
+   "fallos": [
+    {
+     "fecha": "2026-10-17",
+     "liga": "GER",
+     "partido": "Hamburger SV vs VfB Stuttgart",
+     "resultado": "1-0",
+     "over15": 89.8,
+     "version": "4.0",
+     "pj_casa": 2,
+     "pj_fuera": 3
+    },
+    {
+     "fecha": "2026-10-24",
+     "liga": "GER",
+     "partido": "Borussia Dortmund vs Eintracht Frankfurt",
+     "resultado": "1-0",
+     "over15": 91.7,
+     "version": "4.0",
+     "pj_casa": 3,
+     "pj_fuera": 3
+    },
+    {
+     "fecha": "2026-10-31",
+     "liga": "USA",
+     "partido": "Cincinnati vs Philadelphia",
+     "resultado": "1-0",
+     "over15": 92.7,
+     "version": "4.1",
+     "pj_casa": 15,
+     "pj_fuera": 15
+    },
+    {
+     "fecha": "2026-10-31",
+     "liga": "NED",
+     "partido": "Ajax vs AZ",
+     "resultado": "1-0",
+     "over15": 89.8,
+     "version": "4.1",
+     "pj_casa": 5,
+     "pj_fuera": 5
+    }
+   ]
+  },
+  "GOLES ESTÁNDAR": {
+   "partidos": 121,
+   "aciertos": 90,
+   "real": 74.4,
+   "prometido": 83.6,
+   "meta": 80
+  },
+  "GOLES OPTIMISTAS": {
+   "partidos": 186,
+   "aciertos": 150,
+   "real": 80.6,
+   "prometido": 69.9,
+   "meta": null
+  }
+ }
 }

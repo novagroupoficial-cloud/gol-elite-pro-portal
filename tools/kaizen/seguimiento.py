@@ -70,6 +70,24 @@ for l in sorted(set(x['liga'] for x in ul)):
         if real < prom - 20: avisos.append(f"ALERTA KAIZEN: {l} se cumple mucho menos de lo prometido ({real:.0f} % real vs {prom:.0f} % prometido, {len(xs)} partidos)")
         elif real > prom + 15: avisos.append(f"BUENA NOTICIA KAIZEN: {l} se cumple más de lo prometido ({real:.0f} % real vs {prom:.0f} % prometido, {len(xs)} partidos)")
 out['avisos'] = avisos
+# PRIORIDAD KAIZEN (Marco, 1-nov-2026): primero GOL ÉLITE, luego GOLES PLATINO, luego ESTÁNDAR y OPTIMISTAS.
+# Por categoría: cumplimiento real vs prometido y CADA fallo de ÉLITE/PLATINO con su contexto (análisis de causa).
+import math
+ent = lambda v: int(math.floor(round(v, 1) + 0.5 + 1e-9))
+CAT = [('GOL ÉLITE', 95, 101, 95), ('GOLES PLATINO', 90, 95, 90), ('GOLES ESTÁNDAR', 80, 90, 80), ('GOLES OPTIMISTAS', 0, 80, None)]
+out['por_categoria'] = {}
+for nom, lo, hi, meta in CAT:
+    xs = [x for x in X if lo <= ent(x['o15_sellado']) < hi]
+    if not xs: continue
+    ok = sum(x['gl'] + x['gv'] >= 2 for x in xs)
+    d = dict(partidos=len(xs), aciertos=ok, real=round(100 * ok / len(xs), 1), prometido=round(sum(x['o15_sellado'] for x in xs) / len(xs), 1), meta=meta)
+    if lo >= 90:
+        d['fallos'] = [dict(fecha=x['fecha'], liga=x['liga'], partido=f"{x['p']['local']} vs {x['p']['visita']}", resultado=f"{x['gl']}-{x['gv']}",
+                            over15=x['o15_sellado'], version=x['p'].get('modelo_version', '4.0'),
+                            pj_casa=x['p']['casa'][0], pj_fuera=x['p']['fuera'][0]) for x in xs if x['gl'] + x['gv'] < 2]
+    out['por_categoria'][nom] = d
+    if meta and len(xs) >= 5 and d['real'] < meta:
+        avisos.append(f"ALERTA KAIZEN (prioridad {nom}): se cumple {d['real']} % y la meta es {meta} % ({ok}/{len(xs)})")
 json.dump(out, open(os.path.join(AQUI, 'seguimiento.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 for a in out['avisos']: print(a)
 t = out['total']['over15']; print(f"Kaizen: {t['n']} partidos · Over 1.5 Brier {t['brier']} · skill {t['skill']:+} · AUC {t['auc']} · versiones {list(out['por_version'])}")

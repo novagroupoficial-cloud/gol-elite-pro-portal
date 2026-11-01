@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01 08:13 ECU",
+ "actualizado": "2026-11-01 09:13 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -16,9 +16,10 @@
   "2026-10-27",
   "2026-10-28",
   "2026-10-30",
-  "2026-10-31"
+  "2026-10-31",
+  "2026-11-01"
  ],
- "partidos": 346,
+ "partidos": 348,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -31,11 +32,11 @@
   },
   "GOLES ESTÁNDAR": {
    "aciertos": 90,
-   "partidos": 121
+   "partidos": 122
   },
   "GOLES OPTIMISTAS": {
    "aciertos": 150,
-   "partidos": 186
+   "partidos": 187
   }
  },
  "over90": {
@@ -46,11 +47,11 @@
  },
  "over80": {
   "aciertos": 125,
-  "partidos": 160
+  "partidos": 161
  },
  "over25_senal": {
   "aciertos": 41,
-  "partidos": 72
+  "partidos": 73
  },
  "partido_del_dia": {
   "aciertos": 12,
@@ -206,15 +207,15 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 121,
+   "partidos": 122,
    "aciertos": 90,
-   "prometido": 83.6
+   "prometido": 83.7
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 117,
+   "partidos": 118,
    "aciertos": 91,
-   "prometido": 74.5
+   "prometido": 74.6
   },
   {
    "franja": "menos de 70 %",
@@ -224,466 +225,25 @@
   }
  ],
  "ultima_jornada": {
-  "fecha": "2026-10-31",
+  "fecha": "2026-11-01",
   "partidos": [
    {
-    "hora": "13:00",
-    "local": "Cincinnati",
-    "visita": "Philadelphia",
-    "over15": 92.7,
+    "hora": "06:15",
+    "local": "PEC Zwolle",
+    "visita": "ADO Den Haag",
+    "over15": 87.3,
     "resultado": "1-0",
     "goles": 1,
     "acierto": false
    },
    {
-    "hora": "12:45",
-    "local": "PSV",
-    "visita": "Willem II",
-    "over15": 91.1,
-    "resultado": "7-0",
-    "goles": 7,
-    "acierto": true
-   },
-   {
-    "hora": "09:30",
-    "local": "Werder Bremen",
-    "visita": "Hoffenheim",
-    "over15": 90.1,
-    "resultado": "2-0",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "12:00",
-    "local": "Charlotte",
-    "visita": "Orlando City",
-    "over15": 89.8,
-    "resultado": "4-0",
-    "goles": 4,
-    "acierto": true
-   },
-   {
-    "hora": "15:00",
-    "local": "Ajax",
-    "visita": "AZ",
-    "over15": 89.8,
+    "hora": "06:30",
+    "local": "Como",
+    "visita": "Venezia",
+    "over15": 77.9,
     "resultado": "1-0",
     "goles": 1,
     "acierto": false
-   },
-   {
-    "hora": "10:30",
-    "local": "Feyenoord",
-    "visita": "Fortuna Sittard",
-    "over15": 89.4,
-    "resultado": "1-1",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "09:30",
-    "local": "Borussia Monchengladbach",
-    "visita": "SC Paderborn",
-    "over15": 88.5,
-    "resultado": "0-0",
-    "goles": 0,
-    "acierto": false
-   },
-   {
-    "hora": "12:30",
-    "local": "Bayern Munich",
-    "visita": "Borussia Dortmund",
-    "over15": 87.5,
-    "resultado": "2-2",
-    "goles": 4,
-    "acierto": true
-   },
-   {
-    "hora": "08:00",
-    "local": "Levante",
-    "visita": "Atletico Madrid",
-    "over15": 87.4,
-    "resultado": "0-2",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "14:00",
-    "local": "Sporting KC",
-    "visita": "Dallas",
-    "over15": 86.8,
-    "resultado": "1-1",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "13:00",
-    "local": "New York City",
-    "visita": "CF Montreal",
-    "over15": 86.2,
-    "resultado": "1-1",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "10:00",
-    "local": "Manchester City",
-    "visita": "Brighton & Hove Albion",
-    "over15": 86.1,
-    "resultado": "0-1",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "15:30",
-    "local": "Alianza Atlético",
-    "visita": "Juan Pablo II",
-    "over15": 85.7,
-    "resultado": "1-0",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "12:45",
-    "local": "Heerenveen",
-    "visita": "NEC",
-    "over15": 85.1,
-    "resultado": "1-0",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "14:00",
-    "local": "St. Louis City",
-    "visita": "San Diego",
-    "over15": 85.0,
-    "resultado": "0-1",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "09:30",
-    "local": "Augsburg",
-    "visita": "SC Freiburg",
-    "over15": 84.9,
-    "resultado": "1-2",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "09:30",
-    "local": "Bayer Leverkusen",
-    "visita": "VfB Stuttgart",
-    "over15": 84.8,
-    "resultado": "2-4",
-    "goles": 6,
-    "acierto": true
-   },
-   {
-    "hora": "09:00",
-    "local": "Bologna",
-    "visita": "Monza",
-    "over15": 84.6,
-    "resultado": "2-1",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "14:45",
-    "local": "AC Milan",
-    "visita": "Inter",
-    "over15": 83.7,
-    "resultado": "3-1",
-    "goles": 4,
-    "acierto": true
-   },
-   {
-    "hora": "10:30",
-    "local": "Moreirense",
-    "visita": "Estrela Amadora",
-    "over15": 83.2,
-    "resultado": "2-1",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "07:30",
-    "local": "Chelsea",
-    "visita": "Manchester United",
-    "over15": 83.1,
-    "resultado": "2-0",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "14:45",
-    "local": "Troyes",
-    "visita": "Le Mans",
-    "over15": 82.8,
-    "resultado": "2-0",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "16:00",
-    "local": "SJ Earthquakes",
-    "visita": "Real Salt Lake",
-    "over15": 82.7,
-    "resultado": "2-1",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "15:00",
-    "local": "Barcelona",
-    "visita": "Alaves",
-    "over15": 82.6,
-    "resultado": "6-1",
-    "goles": 7,
-    "acierto": true
-   },
-   {
-    "hora": "20:30",
-    "local": "Colorado Rapids",
-    "visita": "Chicago Fire",
-    "over15": 81.9,
-    "resultado": "2-4",
-    "goles": 6,
-    "acierto": true
-   },
-   {
-    "hora": "20:00",
-    "local": "Monterrey",
-    "visita": "Tijuana",
-    "over15": 81.6,
-    "resultado": "3-3",
-    "goles": 6,
-    "acierto": true
-   },
-   {
-    "hora": "16:00",
-    "local": "LA Galaxy",
-    "visita": "Austin",
-    "over15": 81.5,
-    "resultado": "4-1",
-    "goles": 5,
-    "acierto": true
-   },
-   {
-    "hora": "10:00",
-    "local": "Coventry City",
-    "visita": "Sunderland",
-    "over15": 81.3,
-    "resultado": "3-1",
-    "goles": 4,
-    "acierto": true
-   },
-   {
-    "hora": "13:00",
-    "local": "Columbus Crew",
-    "visita": "DC United",
-    "over15": 80.6,
-    "resultado": "3-0",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "10:00",
-    "local": "Hull City",
-    "visita": "Ipswich Town",
-    "over15": 80.2,
-    "resultado": "2-2",
-    "goles": 4,
-    "acierto": true
-   },
-   {
-    "hora": "09:30",
-    "local": "Schalke 04",
-    "visita": "RB Leipzig",
-    "over15": 79.9,
-    "resultado": "0-2",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "18:00",
-    "local": "Pachuca",
-    "visita": "Tigres UANL",
-    "over15": 79.8,
-    "resultado": "3-0",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "10:00",
-    "local": "Brentford",
-    "visita": "Nottingham Forest",
-    "over15": 79.0,
-    "resultado": "2-0",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "12:00",
-    "local": "Udinese",
-    "visita": "Roma",
-    "over15": 78.7,
-    "resultado": "2-5",
-    "goles": 7,
-    "acierto": true
-   },
-   {
-    "hora": "12:30",
-    "local": "Real Betis",
-    "visita": "Malaga",
-    "over15": 78.6,
-    "resultado": "2-1",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "12:30",
-    "local": "Tottenham Hotspur",
-    "visita": "Crystal Palace",
-    "over15": 77.7,
-    "resultado": "2-0",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "22:00",
-    "local": "America",
-    "visita": "Toluca",
-    "over15": 77.5,
-    "resultado": "2-2",
-    "goles": 4,
-    "acierto": true
-   },
-   {
-    "hora": "20:07",
-    "local": "Guadalajara",
-    "visita": "Atlante",
-    "over15": 75.7,
-    "resultado": "4-2",
-    "goles": 6,
-    "acierto": true
-   },
-   {
-    "hora": "18:00",
-    "local": "Llaneros",
-    "visita": "Junior",
-    "over15": 75.1,
-    "resultado": "3-2",
-    "goles": 5,
-    "acierto": true
-   },
-   {
-    "hora": "14:00",
-    "local": "Coritiba",
-    "visita": "Vitória",
-    "over15": 74.7,
-    "resultado": "2-0",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "18:00",
-    "local": "OHiggins",
-    "visita": "Nublense",
-    "over15": 74.4,
-    "resultado": "1-0",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "15:30",
-    "local": "FC Porto",
-    "visita": "Estoril",
-    "over15": 74.3,
-    "resultado": "4-0",
-    "goles": 4,
-    "acierto": true
-   },
-   {
-    "hora": "15:00",
-    "local": "Deportivo Riestra",
-    "visita": "Talleres Cordoba",
-    "over15": 69.9,
-    "resultado": "0-3",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "10:15",
-    "local": "Rayo Vallecano",
-    "visita": "Celta Vigo",
-    "over15": 69.4,
-    "resultado": "3-0",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "15:00",
-    "local": "Aston Villa",
-    "visita": "Fulham",
-    "over15": 69.2,
-    "resultado": "1-1",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "10:00",
-    "local": "AFC Bournemouth",
-    "visita": "Leeds United",
-    "over15": 68.4,
-    "resultado": "2-0",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "19:30",
-    "local": "Estudiantes LP",
-    "visita": "Instituto Cordoba",
-    "over15": 65.8,
-    "resultado": "3-3",
-    "goles": 6,
-    "acierto": true
-   },
-   {
-    "hora": "16:30",
-    "local": "Macará",
-    "visita": "Barcelona SC",
-    "over15": 64.3,
-    "resultado": "3-0",
-    "goles": 3,
-    "acierto": true
-   },
-   {
-    "hora": "14:00",
-    "local": "Emelec",
-    "visita": "Leones del Norte",
-    "over15": 63.8,
-    "resultado": "0-2",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "17:15",
-    "local": "Velez Sarsfield",
-    "visita": "San Lorenzo",
-    "over15": 60.3,
-    "resultado": "2-2",
-    "goles": 4,
-    "acierto": true
-   },
-   {
-    "hora": "11:30",
-    "local": "Delfín",
-    "visita": "Deportivo Cuenca",
-    "over15": 58.1,
-    "resultado": "3-1",
-    "goles": 4,
-    "acierto": true
    }
   ]
  }

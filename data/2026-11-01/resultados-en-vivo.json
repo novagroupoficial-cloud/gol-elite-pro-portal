@@ -1,0 +1,32 @@
+[
+ {
+  "local": "PEC Zwolle",
+  "visita": "ADO Den Haag",
+  "hora": "06:15",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 87.3,
+  "over25_dado": 68.2,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.voetbalnieuws.nl/nieuws/2153645/pec-verslaat-ado-en-duwt-hagenaars-verder-in-problemen.html",
+  "registrado": "09:20 ECU"
+ },
+ {
+  "local": "Como",
+  "visita": "Venezia",
+  "hora": "06:30",
+  "resultado": "1-0",
+  "goles": 1,
+  "estado": "terminado",
+  "over15_dado": 77.9,
+  "over25_dado": 53.2,
+  "acierto_over15": false,
+  "acierto_over25": false,
+  "marcador_exacto": false,
+  "fuente": "https://www.sportivo24.it/notizie/calcio/serie-a/202632-como-venezia-1-0-decide-da-cunha-su-calcio-rigore/",
+  "registrado": "09:20 ECU"
+ }
+]

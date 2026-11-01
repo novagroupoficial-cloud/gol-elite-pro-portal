@@ -1,47 +1,21 @@
 {
- "local": "Cambuur",
- "fecha_larga": "Sábado 31 de octubre de 2026",
- "desde": "05:52",
+ "local": "FC Groningen",
+ "fecha_larga": "Domingo 1 de noviembre de 2026",
+ "desde": "05:40",
  "contexto": [
-  "Cambuur suma 5 partidos oficiales sin perder (4 de liga y 1 de Copa) y viene de golear 1-6 al Willem II.",
-  "Go Ahead Eagles: 23 goles a favor y 23 en contra en 10 jornadas de Eredivisie.",
-  "Cambuur 10.º (12 pts) y Go Ahead Eagles 9.º (14 pts), separados por 2 puntos."
+  "Groningen 8.º (15 pts, 24 GF): Willumsson lleva 8 goles y Van Bergen 6.",
+  "Sparta Rotterdam recibió gol en sus 10 jornadas de liga: 24 en contra (2,4 por partido).",
+  "Sparta 14.º con 9 pts; ganó los tres últimos duelos de liga ante Groningen."
  ],
  "auditoria": {
   "encabezado": "Así nos fue ayer",
-  "titulo": "Viernes 30 de octubre · Liga Profesional Argentina",
+  "titulo": "Sábado 31 de octubre · 51 partidos auditados",
   "tiles": [
-   [
-    "1/1",
-    "Partido del día · Over 1.5",
-    "verde"
-   ],
-   [
-    "4/4",
-    "Partidos con 2 goles o más",
-    "verde"
-   ],
-   [
-    "9/12",
-    "Miércoles 28: partidos con 2 goles o más",
-    "dor"
-   ],
-   [
-    "193/250",
-    "Galería: Over 1.5 de 70 % o más (77 %)",
-    "dor"
-   ]
+   ["43/51", "Partidos con 2 goles o más", "verde"],
+   ["34/42", "Over 1.5 de 70 % o más (81 %)", "verde"],
+   ["3/5", "GOLES PLATINO (90 a 94 %)", "dor"],
+   ["227/292", "Galería: Over 1.5 de 70 % o más (78 %)", "dor"]
   ],
-  "nota": "Partido del día: Racing 2-1 Aldosivi ✔ (dimos Over 1.5 al 73 %; hubo 3 goles). Viernes 30 sin fallos en Over 1.5. Miércoles 28 (auditado hoy) fallaron Parma 0-0 Udinese (85 %; hubo 0 goles), Santos 0-0 Palmeiras (73 %) y Once Caldas 1-0 Alianza (73 %; hubo 1 gol)."
- },
- "acierto": {
-  "fecha": "viernes 30 de octubre",
-  "local": "Racing Club",
-  "visita": "Aldosivi",
-  "liga": "Liga Profesional Argentina · fecha 15 del Clausura",
-  "resultado": "2-1",
-  "over15": 73.1,
-  "goles": "3",
-  "sellado": "16:29 ECU del 30-oct"
+  "nota": "Partido del día: Cambuur–Go Ahead Eagles (93 %) se suspendió en el minuto 82: anulado. Aciertos: PSV 7-0 Willem II (91 %), Charlotte 4-0 Orlando (90 %). Fallaron Cincinnati 1-0 Philadelphia (93 %; hubo 1 gol), Ajax 1-0 AZ (90 %; 1 gol) y M'gladbach 0-0 Paderborn (89 %; 0 goles), entre 8 fallos."
  }
 }

@@ -1,0 +1,1769 @@
+{
+ "fecha": "2026-11-01",
+ "actualizado": "2026-11-01 06:06 ECU (UTC-5)",
+ "zona_horaria": "America/Guayaquil (UTC-5)",
+ "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
+ "fuente_sellada": "data/2026-11-01/pronosticos.json",
+ "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
+ "orden": "de mayor a menor Over 1.5",
+ "resumen_del_dia": {
+  "terminados": 0,
+  "total": 47,
+  "over15_70": [
+   0,
+   0
+  ],
+  "over25_senal": [
+   0,
+   0
+  ],
+  "marcadores_exactos": 0
+ },
+ "rango_80_90": [
+  {
+   "puesto": 3,
+   "hora_ecuador": "14:45",
+   "liga": "Ligue 1",
+   "local": "Marseille",
+   "visitante": "Toulouse",
+   "over15": 88.2,
+   "over25": 69.9,
+   "marcador": "1-1",
+   "goles_esperados": 3.6,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 4,
+    "gf": 11,
+    "gc": 8
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 9,
+    "gc": 6
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 4,
+   "hora_ecuador": "06:15",
+   "liga": "Eredivisie",
+   "local": "PEC Zwolle",
+   "visitante": "ADO Den Haag",
+   "over15": 87.3,
+   "over25": 68.2,
+   "marcador": "1-1",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 5,
+    "gf": 5,
+    "gc": 14
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 5,
+    "gc": 11
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 5,
+   "hora_ecuador": "08:30",
+   "liga": "Eredivisie",
+   "local": "Excelsior",
+   "visitante": "FC Twente",
+   "over15": 86.9,
+   "over25": 67.5,
+   "marcador": "1-1",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 10
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 9,
+    "gc": 5
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 6,
+   "hora_ecuador": "09:00",
+   "liga": "Ligue 1",
+   "local": "Strasbourg",
+   "visitante": "Auxerre",
+   "over15": 86.7,
+   "over25": 67.1,
+   "marcador": "1-1",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 5
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 7,
+    "gc": 13
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 7,
+   "hora_ecuador": "21:45",
+   "liga": "MLS",
+   "local": "Portland",
+   "visitante": "Houston Dynamo",
+   "over15": 86.3,
+   "over25": 66.3,
+   "marcador": "1-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 16,
+    "gf": 34,
+    "gc": 27
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 22,
+    "gc": 25
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 8,
+   "hora_ecuador": "10:00",
+   "liga": "Liga de Primera",
+   "local": "Huachipato",
+   "visitante": "La Serena",
+   "over15": 85.8,
+   "over25": 65.5,
+   "marcador": "1-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 12,
+    "gf": 23,
+    "gc": 22
+   },
+   "fuera_visitante": {
+    "pj": 12,
+    "gf": 17,
+    "gc": 23
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 9,
+   "hora_ecuador": "11:30",
+   "liga": "Bundesliga",
+   "local": "Eintracht Frankfurt",
+   "visitante": "Hamburger SV",
+   "over15": 85.6,
+   "over25": 65.3,
+   "marcador": "1-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 3,
+    "gc": 10
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 10,
+   "hora_ecuador": "20:30",
+   "liga": "MLS",
+   "local": "Los Angeles FC",
+   "visitante": "Minnesota United",
+   "over15": 85.3,
+   "over25": 64.7,
+   "marcador": "1-1",
+   "goles_esperados": 3.3,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 16,
+    "gf": 31,
+    "gc": 15
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 28,
+    "gc": 35
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 11,
+   "hora_ecuador": "15:00",
+   "liga": "LaLiga",
+   "local": "Athletic Club",
+   "visitante": "Real Sociedad",
+   "over15": 84.6,
+   "over25": 63.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.3,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 5,
+    "gf": 9,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 12,
+    "gc": 11
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 12,
+   "hora_ecuador": "16:30",
+   "liga": "MLS",
+   "local": "Nashville SC",
+   "visitante": "New York RB",
+   "over15": 84.6,
+   "over25": 63.7,
+   "marcador": "2-1",
+   "goles_esperados": 3.3,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 15,
+    "gf": 45,
+    "gc": 12
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 17,
+    "gc": 27
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 13,
+   "hora_ecuador": "09:00",
+   "liga": "Serie A",
+   "local": "Frosinone",
+   "visitante": "Torino",
+   "over15": 84.2,
+   "over25": 62.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 5,
+    "gf": 14,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 7,
+    "gc": 4
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 14,
+   "hora_ecuador": "19:00",
+   "liga": "MLS",
+   "local": "New England",
+   "visitante": "Inter Miami",
+   "over15": 84.0,
+   "over25": 62.5,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 15,
+    "gf": 27,
+    "gc": 16
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 32,
+    "gc": 27
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 15,
+   "hora_ecuador": "10:15",
+   "liga": "LaLiga",
+   "local": "Racing Santander",
+   "visitante": "Real Madrid",
+   "over15": 83.9,
+   "over25": 62.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 5,
+    "gf": 11,
+    "gc": 8
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 8,
+    "gc": 7
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 16,
+   "hora_ecuador": "09:30",
+   "liga": "Bundesliga",
+   "local": "Union Berlin",
+   "visitante": "1. FC Koln",
+   "over15": 83.4,
+   "over25": 61.6,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 2,
+    "gc": 7
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 17,
+   "hora_ecuador": "11:15",
+   "liga": "Ligue 1",
+   "local": "Lyon",
+   "visitante": "Angers",
+   "over15": 82.8,
+   "over25": 60.6,
+   "marcador": "1-1",
+   "goles_esperados": 3.1,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 10,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 6
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 18,
+   "hora_ecuador": "09:00",
+   "liga": "Serie A",
+   "local": "Lazio",
+   "visitante": "Cagliari",
+   "over15": 82.3,
+   "over25": 59.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.1,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 8,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 6,
+    "gc": 9
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 19,
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "Cruz Azul",
+   "visitante": "Leon",
+   "over15": 82.3,
+   "over25": 59.7,
+   "marcador": "1-1",
+   "goles_esperados": 3.1,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 7,
+    "gf": 17,
+    "gc": 12
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 8,
+    "gc": 8
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 20,
+   "hora_ecuador": "16:30",
+   "liga": "MLS",
+   "local": "Atlanta United",
+   "visitante": "Toronto",
+   "over15": 81.7,
+   "over25": 58.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 16,
+    "gf": 23,
+    "gc": 32
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 14,
+    "gc": 27
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 21,
+   "hora_ecuador": "12:30",
+   "liga": "LaLiga",
+   "local": "Elche",
+   "visitante": "Valencia",
+   "over15": 81.1,
+   "over25": 57.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 4,
+    "gc": 11
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 4,
+    "gc": 6
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 22,
+   "hora_ecuador": "12:15",
+   "liga": "Liga de Primera",
+   "local": "Cobresal",
+   "visitante": "Everton",
+   "over15": 80.9,
+   "over25": 57.6,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 12,
+    "gf": 19,
+    "gc": 17
+   },
+   "fuera_visitante": {
+    "pj": 12,
+    "gf": 22,
+    "gc": 15
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "todos": [
+  {
+   "puesto": 1,
+   "hora_ecuador": "10:45",
+   "liga": "Eredivisie",
+   "local": "FC Groningen",
+   "visitante": "Sparta Rotterdam",
+   "over15": 92.2,
+   "over25": 77.9,
+   "marcador": "1-1",
+   "goles_esperados": 4.1,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "fuerte",
+   "casa_local": {
+    "pj": 5,
+    "gf": 11,
+    "gc": 11
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 8,
+    "gc": 10
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 2,
+   "hora_ecuador": "08:30",
+   "liga": "Eredivisie",
+   "local": "Telstar",
+   "visitante": "FC Utrecht",
+   "over15": 91.5,
+   "over25": 76.3,
+   "marcador": "1-1",
+   "goles_esperados": 4.0,
+   "categoria": "GOLES PLATINO",
+   "senal_over25": "fuerte",
+   "casa_local": {
+    "pj": 5,
+    "gf": 8,
+    "gc": 15
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 8,
+    "gc": 12
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 3,
+   "hora_ecuador": "14:45",
+   "liga": "Ligue 1",
+   "local": "Marseille",
+   "visitante": "Toulouse",
+   "over15": 88.2,
+   "over25": 69.9,
+   "marcador": "1-1",
+   "goles_esperados": 3.6,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 4,
+    "gf": 11,
+    "gc": 8
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 9,
+    "gc": 6
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 4,
+   "hora_ecuador": "06:15",
+   "liga": "Eredivisie",
+   "local": "PEC Zwolle",
+   "visitante": "ADO Den Haag",
+   "over15": 87.3,
+   "over25": 68.2,
+   "marcador": "1-1",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 5,
+    "gf": 5,
+    "gc": 14
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 5,
+    "gc": 11
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 5,
+   "hora_ecuador": "08:30",
+   "liga": "Eredivisie",
+   "local": "Excelsior",
+   "visitante": "FC Twente",
+   "over15": 86.9,
+   "over25": 67.5,
+   "marcador": "1-1",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 10
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 9,
+    "gc": 5
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 6,
+   "hora_ecuador": "09:00",
+   "liga": "Ligue 1",
+   "local": "Strasbourg",
+   "visitante": "Auxerre",
+   "over15": 86.7,
+   "over25": 67.1,
+   "marcador": "1-1",
+   "goles_esperados": 3.5,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 5
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 7,
+    "gc": 13
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 7,
+   "hora_ecuador": "21:45",
+   "liga": "MLS",
+   "local": "Portland",
+   "visitante": "Houston Dynamo",
+   "over15": 86.3,
+   "over25": 66.3,
+   "marcador": "1-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 16,
+    "gf": 34,
+    "gc": 27
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 22,
+    "gc": 25
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 8,
+   "hora_ecuador": "10:00",
+   "liga": "Liga de Primera",
+   "local": "Huachipato",
+   "visitante": "La Serena",
+   "over15": 85.8,
+   "over25": 65.5,
+   "marcador": "1-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 12,
+    "gf": 23,
+    "gc": 22
+   },
+   "fuera_visitante": {
+    "pj": 12,
+    "gf": 17,
+    "gc": 23
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 9,
+   "hora_ecuador": "11:30",
+   "liga": "Bundesliga",
+   "local": "Eintracht Frankfurt",
+   "visitante": "Hamburger SV",
+   "over15": 85.6,
+   "over25": 65.3,
+   "marcador": "1-1",
+   "goles_esperados": 3.4,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "moderada",
+   "casa_local": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 3,
+    "gc": 10
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 10,
+   "hora_ecuador": "20:30",
+   "liga": "MLS",
+   "local": "Los Angeles FC",
+   "visitante": "Minnesota United",
+   "over15": 85.3,
+   "over25": 64.7,
+   "marcador": "1-1",
+   "goles_esperados": 3.3,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 16,
+    "gf": 31,
+    "gc": 15
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 28,
+    "gc": 35
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 11,
+   "hora_ecuador": "15:00",
+   "liga": "LaLiga",
+   "local": "Athletic Club",
+   "visitante": "Real Sociedad",
+   "over15": 84.6,
+   "over25": 63.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.3,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 5,
+    "gf": 9,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 12,
+    "gc": 11
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 12,
+   "hora_ecuador": "16:30",
+   "liga": "MLS",
+   "local": "Nashville SC",
+   "visitante": "New York RB",
+   "over15": 84.6,
+   "over25": 63.7,
+   "marcador": "2-1",
+   "goles_esperados": 3.3,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 15,
+    "gf": 45,
+    "gc": 12
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 17,
+    "gc": 27
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 13,
+   "hora_ecuador": "09:00",
+   "liga": "Serie A",
+   "local": "Frosinone",
+   "visitante": "Torino",
+   "over15": 84.2,
+   "over25": 62.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 5,
+    "gf": 14,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 7,
+    "gc": 4
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 14,
+   "hora_ecuador": "19:00",
+   "liga": "MLS",
+   "local": "New England",
+   "visitante": "Inter Miami",
+   "over15": 84.0,
+   "over25": 62.5,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 15,
+    "gf": 27,
+    "gc": 16
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 32,
+    "gc": 27
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 15,
+   "hora_ecuador": "10:15",
+   "liga": "LaLiga",
+   "local": "Racing Santander",
+   "visitante": "Real Madrid",
+   "over15": 83.9,
+   "over25": 62.4,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 5,
+    "gf": 11,
+    "gc": 8
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 8,
+    "gc": 7
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 16,
+   "hora_ecuador": "09:30",
+   "liga": "Bundesliga",
+   "local": "Union Berlin",
+   "visitante": "1. FC Koln",
+   "over15": 83.4,
+   "over25": 61.6,
+   "marcador": "1-1",
+   "goles_esperados": 3.2,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 2,
+    "gc": 7
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 17,
+   "hora_ecuador": "11:15",
+   "liga": "Ligue 1",
+   "local": "Lyon",
+   "visitante": "Angers",
+   "over15": 82.8,
+   "over25": 60.6,
+   "marcador": "1-1",
+   "goles_esperados": 3.1,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 10,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 6
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 18,
+   "hora_ecuador": "09:00",
+   "liga": "Serie A",
+   "local": "Lazio",
+   "visitante": "Cagliari",
+   "over15": 82.3,
+   "over25": 59.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.1,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 8,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 6,
+    "gc": 9
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 19,
+   "hora_ecuador": "20:00",
+   "liga": "Liga MX",
+   "local": "Cruz Azul",
+   "visitante": "Leon",
+   "over15": 82.3,
+   "over25": 59.7,
+   "marcador": "1-1",
+   "goles_esperados": 3.1,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 7,
+    "gf": 17,
+    "gc": 12
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 8,
+    "gc": 8
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 20,
+   "hora_ecuador": "16:30",
+   "liga": "MLS",
+   "local": "Atlanta United",
+   "visitante": "Toronto",
+   "over15": 81.7,
+   "over25": 58.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 16,
+    "gf": 23,
+    "gc": 32
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 14,
+    "gc": 27
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 21,
+   "hora_ecuador": "12:30",
+   "liga": "LaLiga",
+   "local": "Elche",
+   "visitante": "Valencia",
+   "over15": 81.1,
+   "over25": 57.8,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 4,
+    "gc": 11
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 4,
+    "gc": 6
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 22,
+   "hora_ecuador": "12:15",
+   "liga": "Liga de Primera",
+   "local": "Cobresal",
+   "visitante": "Everton",
+   "over15": 80.9,
+   "over25": 57.6,
+   "marcador": "1-1",
+   "goles_esperados": 3.0,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 12,
+    "gf": 19,
+    "gc": 17
+   },
+   "fuera_visitante": {
+    "pj": 12,
+    "gf": 22,
+    "gc": 15
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 23,
+   "hora_ecuador": "12:00",
+   "liga": "Serie A",
+   "local": "Lecce",
+   "visitante": "Genoa",
+   "over15": 79.9,
+   "over25": 56.1,
+   "marcador": "1-1",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES ESTÁNDAR",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 4,
+    "gc": 10
+   },
+   "fuera_visitante": {
+    "pj": 3,
+    "gf": 1,
+    "gc": 5
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 24,
+   "hora_ecuador": "14:45",
+   "liga": "Serie A",
+   "local": "Juventus",
+   "visitante": "Napoli",
+   "over15": 79.4,
+   "over25": 55.3,
+   "marcador": "1-1",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "informativa",
+   "casa_local": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 9,
+    "gc": 6
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 25,
+   "hora_ecuador": "15:15",
+   "liga": "Liga de Primera",
+   "local": "U. Catolica",
+   "visitante": "U. de Chile",
+   "over15": 78.8,
+   "over25": 54.5,
+   "marcador": "1-1",
+   "goles_esperados": 2.9,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 11,
+    "gf": 29,
+    "gc": 16
+   },
+   "fuera_visitante": {
+    "pj": 12,
+    "gf": 14,
+    "gc": 10
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 26,
+   "hora_ecuador": "15:30",
+   "liga": "Liga 1",
+   "local": "Atlético Grau",
+   "visitante": "Universitario",
+   "over15": 78.6,
+   "over25": 54.2,
+   "marcador": "1-1",
+   "goles_esperados": 2.8,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 9,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 15,
+    "gc": 13
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 27,
+   "hora_ecuador": "06:30",
+   "liga": "Serie A",
+   "local": "Como",
+   "visitante": "Venezia",
+   "over15": 77.9,
+   "over25": 53.2,
+   "marcador": "1-1",
+   "goles_esperados": 2.8,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 3,
+    "gf": 4,
+    "gc": 1
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 3,
+    "gc": 9
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 28,
+   "hora_ecuador": "10:30",
+   "liga": "Liga Portugal",
+   "local": "Arouca",
+   "visitante": "Nacional",
+   "over15": 77.9,
+   "over25": 53.2,
+   "marcador": "1-1",
+   "goles_esperados": 2.8,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 4,
+    "gf": 8,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 4,
+    "gc": 8
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 29,
+   "hora_ecuador": "15:30",
+   "liga": "MLS",
+   "local": "Vancouver",
+   "visitante": "Seattle",
+   "over15": 77.1,
+   "over25": 52.1,
+   "marcador": "1-1",
+   "goles_esperados": 2.8,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 15,
+    "gf": 35,
+    "gc": 14
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 17,
+    "gc": 18
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 30,
+   "hora_ecuador": "08:00",
+   "liga": "LaLiga",
+   "local": "Getafe",
+   "visitante": "Sevilla",
+   "over15": 76.5,
+   "over25": 51.2,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 5,
+    "gf": 5,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 5,
+    "gf": 9,
+    "gc": 9
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 31,
+   "hora_ecuador": "11:15",
+   "liga": "Ligue 1",
+   "local": "Paris FC",
+   "visitante": "Monaco",
+   "over15": 76.4,
+   "over25": 51.1,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 4,
+    "gf": 9,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 4,
+    "gc": 3
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 32,
+   "hora_ecuador": "18:00",
+   "liga": "Liga MX",
+   "local": "Santos Laguna",
+   "visitante": "Necaxa",
+   "over15": 76.2,
+   "over25": 50.9,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 10,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 7,
+    "gc": 12
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 33,
+   "hora_ecuador": "11:00",
+   "liga": "Liga 1",
+   "local": "CD Moquegua",
+   "visitante": "Los Chankas",
+   "over15": 75.6,
+   "over25": 49.9,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 5,
+    "gc": 12
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 4,
+    "gc": 17
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 34,
+   "hora_ecuador": "13:15",
+   "liga": "Liga 1",
+   "local": "Cusco FC",
+   "visitante": "Sport Boys",
+   "over15": 75.4,
+   "over25": 49.7,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 16,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 4,
+    "gc": 7
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 35,
+   "hora_ecuador": "15:30",
+   "liga": "Liga Portugal",
+   "local": "Sporting Braga",
+   "visitante": "Famalicao",
+   "over15": 74.5,
+   "over25": 48.5,
+   "marcador": "1-1",
+   "goles_esperados": 2.6,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 4,
+    "gf": 4,
+    "gc": 5
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 7,
+    "gc": 4
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 36,
+   "hora_ecuador": "16:05",
+   "liga": "Liga BetPlay",
+   "local": "Deportivo Cali",
+   "visitante": "Boyacá Chicó",
+   "over15": 73.7,
+   "over25": 47.7,
+   "marcador": "1-0",
+   "goles_esperados": 2.6,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 13,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 2,
+    "gc": 17
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 37,
+   "hora_ecuador": "13:30",
+   "liga": "LigaPro",
+   "local": "Independiente del Valle",
+   "visitante": "LDU Quito",
+   "over15": 72.4,
+   "over25": 45.8,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 16,
+    "gf": 38,
+    "gc": 16
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 19,
+    "gc": 14
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 38,
+   "hora_ecuador": "13:00",
+   "liga": "Liga Portugal",
+   "local": "Maritimo",
+   "visitante": "Santa Clara",
+   "over15": 71.9,
+   "over25": 45.1,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 4,
+    "gf": 4,
+    "gc": 7
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 5,
+    "gc": 2
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 39,
+   "hora_ecuador": "13:00",
+   "liga": "Liga Portugal",
+   "local": "Academico Viseu",
+   "visitante": "Rio Ave",
+   "over15": 71.5,
+   "over25": 44.6,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 4,
+    "gf": 4,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 2,
+    "gc": 6
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 40,
+   "hora_ecuador": "18:10",
+   "liga": "Liga BetPlay",
+   "local": "Independiente Medellín",
+   "visitante": "Alianza (ex Alianza Petrolera)",
+   "over15": 70.8,
+   "over25": 43.8,
+   "marcador": "1-1",
+   "goles_esperados": 2.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 8,
+    "gf": 10,
+    "gc": 10
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 6,
+    "gc": 10
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 41,
+   "hora_ecuador": "11:00",
+   "liga": "LigaPro",
+   "local": "Universidad Católica",
+   "visitante": "Aucas",
+   "over15": 69.7,
+   "over25": 42.5,
+   "marcador": "1-1",
+   "goles_esperados": 2.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 16,
+    "gf": 37,
+    "gc": 15
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 15,
+    "gc": 14
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 42,
+   "hora_ecuador": "16:30",
+   "liga": "Liga Profesional",
+   "local": "Newells Old Boys",
+   "visitante": "Union Santa Fe",
+   "over15": 69.6,
+   "over25": 42.3,
+   "marcador": "1-1",
+   "goles_esperados": 2.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 10,
+    "gc": 5
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 7,
+    "gc": 12
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 43,
+   "hora_ecuador": "11:30",
+   "liga": "Premier League",
+   "local": "Liverpool",
+   "visitante": "Arsenal",
+   "over15": 69.5,
+   "over25": 42.1,
+   "marcador": "1-1",
+   "goles_esperados": 2.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 4,
+    "gf": 4,
+    "gc": 5
+   },
+   "fuera_visitante": {
+    "pj": 4,
+    "gf": 4,
+    "gc": 3
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 44,
+   "hora_ecuador": "13:00",
+   "liga": "Liga Profesional",
+   "local": "Boca Juniors",
+   "visitante": "River Plate",
+   "over15": 67.9,
+   "over25": 40.4,
+   "marcador": "1-1",
+   "goles_esperados": 2.3,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 11,
+    "gc": 3
+   },
+   "fuera_visitante": {
+    "pj": 6,
+    "gf": 9,
+    "gc": 6
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 45,
+   "hora_ecuador": "16:00",
+   "liga": "LigaPro",
+   "local": "Guayaquil City",
+   "visitante": "Libertad",
+   "over15": 66.8,
+   "over25": 39.1,
+   "marcador": "1-1",
+   "goles_esperados": 2.3,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 17,
+    "gf": 20,
+    "gc": 16
+   },
+   "fuera_visitante": {
+    "pj": 17,
+    "gf": 16,
+    "gc": 24
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 46,
+   "hora_ecuador": "18:45",
+   "liga": "Liga Profesional",
+   "local": "Lanus",
+   "visitante": "Gimnasia Mendoza",
+   "over15": 65.5,
+   "over25": 37.6,
+   "marcador": "1-1",
+   "goles_esperados": 2.2,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 8,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 6,
+    "gc": 10
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 47,
+   "hora_ecuador": "16:30",
+   "liga": "Liga Profesional",
+   "local": "Belgrano",
+   "visitante": "Barracas Central",
+   "over15": 65.4,
+   "over25": 37.5,
+   "marcador": "1-1",
+   "goles_esperados": 2.2,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 8,
+    "gc": 9
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 7,
+    "gc": 6
+   },
+   "sellado": "2026-11-01 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "sin_pronostico": []
+}

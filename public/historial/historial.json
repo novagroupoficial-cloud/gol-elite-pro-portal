@@ -491,5 +491,45 @@
    "Huracán 0-2 Tigre (Over 1.5 al 64,0 %, menos de 70 % · hubo 2 goles)"
   ],
   "partidos": 4
+ },
+ {
+  "fecha": "2026-10-31",
+  "titulo": "Sábado 31 de octubre de 2026",
+  "imagen": "/historial/2026-10-31.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "3/5",
+    "GOLES PLATINO (90 a 94 %)"
+   ],
+   [
+    "34/42",
+    "Over 1.5 de 70 % o más (81 %)"
+   ],
+   [
+    "3/13",
+    "Over 2.5 con señal (23 %)"
+   ],
+   [
+    "4/51",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Fallaron 8 Over 1.5 de 70 % o más: Cincinnati 1-0 Philadelphia (92,7 %), Ajax 1-0 AZ (89,8 %), M'gladbach 0-0 Paderborn (88,5 %), Manchester City 0-1 Brighton (86,1 %), Alianza Atlético 1-0 Juan Pablo II (85,7 %), Heerenveen 1-0 NEC (85,1 %), St. Louis 0-1 San Diego (85,0 %) y O'Higgins 1-0 Ñublense (74,4 %). Over 2.5 con señal: 3 de 13 (fallaron, entre otros, Cincinnati–Philadelphia con señal fuerte, 79 %). El partido del día, Cambuur–Go Ahead Eagles (93,0 %), se suspendió definitivamente hacia el minuto 82 y queda anulado, igual que Defensa y Justicia–Independiente (reprogramado). En total, 43 de 51 partidos terminados tuvieron 2 goles o más.",
+  "aciertos_destacados": [
+   "PSV 7-0 Willem II (Over 1.5 al 91,1 % · hubo 7 goles)",
+   "Werder Bremen 2-0 Hoffenheim (Over 1.5 al 90,1 % · hubo 2 goles)",
+   "Charlotte 4-0 Orlando City (Over 1.5 al 89,8 % · hubo 4 goles)",
+   "Bayern 2-2 Dortmund (Over 1.5 al 87,5 % · hubo 4 goles)",
+   "Leverkusen 2-4 Stuttgart (Over 1.5 al 84,8 % · hubo 6 goles)",
+   "Milan 3-1 Inter (Over 1.5 al 83,7 % · hubo 4 goles)",
+   "Barcelona 6-1 Alavés (Over 1.5 al 82,6 % · hubo 7 goles)",
+   "Udinese 2-5 Roma (Over 1.5 al 78,7 % · hubo 7 goles)",
+   "Monterrey 3-3 Tijuana (Over 1.5 al 81,6 % · hubo 6 goles)"
+  ],
+  "partidos": 51
  }
 ]

@@ -1001,3 +1001,65 @@ LLEGAN={
  'PSV|Willem II':['PSV 3.º (20 pts); Willem II 18.º (2 pts, 32 goles en contra).', 'Willem II encadena 5 derrotas.', '15 de los últimos 20 PSV–Willem II tuvieron 3 goles o más.', 'Fuentes: Fútbol Total y FootballPredictions.com (31-oct).'],
  'Werder Bremen|Hoffenheim':['Werder 6.º (12 pts) vs Hoffenheim 10.º (9 pts).','Werder marcó 2 o más goles en sus últimos 3 de Bundesliga (2-3 en Mainz, 2-2 ante Paderborn, 2-2 en Dortmund).', 'Fuentes: Fútbol Total (ficha del partido, 31-oct).'],
 }
+
+# ---- Domingo 1-nov-2026 (rutina diaria, sellado 05:40 ECU) ----
+# LINK: previa o ficha real de cada partido de Over 1.5 de 80 % o más (data/2026-11-01/noticias.json tiene la noticia con hechos) y de los destacados;
+# para el resto, la agenda real del domingo 1 de Líbero (hora de Perú = Ecuador) o la de la fecha 5 de LigaPro de Teleamazonas.
+_LB=("Partidos de hoy, domingo 1 de noviembre: quiénes juegan por Liga 1, Premier League, LaLiga y más","Líbero","https://libero.pe/futbol-internacional/2026/10/31/partidos-de-hoy-domingo-1-de-noviembre-quienes-juegan-liga-1-premier-league-laliga-1930618")
+_TA=("Quinta fecha de la LigaPro 2026: horarios, partidos decisivos y todos los detalles de la jornada","Teleamazonas","https://www.teleamazonas.com/deportes/futbol/ligapro/quinta-fecha-ligapro-2026-horarios-partidos-131575/")
+LINK={f"{p['local']}|{p['visita']}":(_TA if p['liga']=='ECU' else _LB) for p in _P if not p.get('sin')}
+LINK.update({
+ 'FC Groningen|Sparta Rotterdam':('Groningen vs Sparta: pronóstico, noticias de los equipos y alineaciones', 'Sports Mole', 'https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-sparta-prediction-team-news-lineups_608112.html'),
+ 'Telstar|FC Utrecht':('Telstar vs Utrecht: pronóstico y previa del 01-11-2026', 'FootballPredictions.com', 'https://footballpredictions.com/footballpredictions/netherlands-eredivisie-predictions/telstar-vs-utrecht-prediction-01-11-2026/'),
+ 'PEC Zwolle|ADO Den Haag':('PEC Zwolle vs ADO Den Haag: pronóstico, noticias y alineaciones', 'Sports Mole', 'https://www.sportsmole.co.uk/football/pec-zwolle/preview/pec-zwolle-vs-ado-den-haag-prediction-team-news-lineups_608040.html'),
+ 'Excelsior|FC Twente':('Excelsior vs Twente: pronóstico y previa del 01-11-2026', 'FootballPredictions.com', 'https://footballpredictions.com/footballpredictions/netherlands-eredivisie-predictions/excelsior-vs-twente-prediction-01-11-2026/'),
+ 'Marseille|Toulouse':('Marsella vs Toulouse: pronóstico y previa del 01-11-2026', 'FootballPredictions.com', 'https://footballpredictions.com/footballpredictions/ligue1predictions/marseille-vs-toulouse-prediction-01-11-2026/'),
+ 'Strasbourg|Auxerre':('Strasbourg vs Auxerre: pronóstico y previa del 01-11-2026', 'FootballPredictions.com', 'https://footballpredictions.com/footballpredictions/ligue1predictions/strasbourg-vs-auxerre-prediction-01-11-2026/'),
+ 'Lyon|Angers':('Lyon vs Angers: pronóstico, estadísticas y cuotas', 'KickOff', 'https://www.kickoff.co.uk/french-ligue-predictions-stats-odds/olympique-lyonnais-vs-angers/'),
+ 'Eintracht Frankfurt|Hamburger SV':('Frankfurt vs Hamburgo: pronóstico y previa del 01-11-2026', 'FootballPredictions.com', 'https://footballpredictions.com/footballpredictions/bundesligapredictions/frankfurt-vs-hamburg-prediction-01-11-2026/'),
+ 'Union Berlin|1. FC Koln':('Union Berlin vs Köln: pronóstico, noticias y alineaciones', 'Sports Mole', 'https://www.sportsmole.co.uk/football/union-berlin/preview/union-berlin-vs-fc-koln-prediction-team-news-lineups_608118.html'),
+ 'Athletic Club|Real Sociedad':('Athletic Bilbao vs Real Sociedad: pronóstico y previa | 1 de noviembre de 2026', 'FootballPredictions.com', 'https://footballpredictions.com/footballpredictions/primeradivisionpredictions/athletic-bilbao-vs-real-sociedad-prediction-01-11-2026/'),
+ 'Racing Santander|Real Madrid':('Racing Santander vs Real Madrid: pronóstico y previa | 1 de noviembre de 2026', 'FootballPredictions.com', 'https://footballpredictions.com/footballpredictions/primeradivisionpredictions/racing-santander-vs-real-madrid-prediction-01-11-2026/'),
+ 'Elche|Valencia':('Previa Fantasy Jornada 11: Elche vs Valencia', 'Asesorías Fantasy', 'https://asesoriasfantasy.com/previa-fantasy-jornada-11-elche-vs-valencia/'),
+ 'Frosinone|Torino':('Frosinone vs Torino: pronóstico, alineaciones y noticias de los equipos', 'Sports Mole', 'https://www.sportsmole.co.uk/football/serie-a/frosinone-vs-torino_game_261405.html'),
+ 'Lazio|Cagliari':('Lazio vs Cagliari: pronóstico, alineaciones y noticias de los equipos', 'Sports Mole', 'https://www.sportsmole.co.uk/football/serie-a/lazio-vs-cagliari_game_261404.html'),
+ 'Lecce|Genoa':('Lecce vs Genoa: ficha, previa y estadísticas del partido', 'Futbol Total', 'https://futboltotal.futbol/partido/lecce-vs-genoa-serie-a-2026-11-01'),
+ 'Huachipato|La Serena':('Huachipato vs La Serena: ficha y datos del partido (fecha 26)', 'FotMob', 'https://www.fotmob.com/livescores/3558905/matchfacts/huachipato-vs-la-serena'),
+ 'Cobresal|Everton':('Cobresal vs Everton: ficha del partido, fecha 26 Liga de Primera', 'ESPN Deportes', 'https://espndeportes.espn.com/futbol/partido/_/juegoId/401850682/everton-cd-cobresal'),
+ 'Portland|Houston Dynamo':('Portland Timbers vs Houston Dynamo: alineaciones probables y novedades del plantel', 'Starting11', 'https://starting11.com/fixtures/portland-timbers-vs-houston-dynamo'),
+ 'Los Angeles FC|Minnesota United':('LAFC vs Minnesota United: alineaciones probables y novedades del plantel', 'Starting11', 'https://starting11.com/fixtures/lafc-vs-minnesota-united-fc'),
+ 'Nashville SC|New York RB':('Nashville SC vs New York Red Bulls: alineaciones probables y novedades del plantel', 'Starting11', 'https://starting11.com/fixtures/nashville-sc-vs-new-york-red-bulls'),
+ 'New England|Inter Miami':('New England Revolution vs Inter Miami: alineaciones probables y novedades del plantel', 'Starting11', 'https://starting11.com/fixtures/new-england-revolution-vs-inter-miami'),
+ 'Atlanta United|Toronto':('Atlanta United vs Toronto FC: alineaciones probables y novedades del plantel', 'Starting11', 'https://starting11.com/fixtures/atlanta-united-fc-vs-toronto-fc'),
+ 'Cruz Azul|Leon':('Cruz Azul vs León: ficha, previa y estadísticas de la jornada 15', 'futboltotal.futbol', 'https://futboltotal.futbol/partido/cruz-azul-vs-leon-liga-mx-2026-11-02'),
+ 'Boca Juniors|River Plate':('Boca Juniors vs River Plate: a qué hora y dónde ver el Superclásico del fútbol argentino','La República','https://larepublica.pe/deportes/2026/11/01/boca-juniors-vs-river-plate-en-vivo-hoy-a-que-hora-y-donde-ver-superclasico-del-futbol-argentino-473339'),
+ 'Independiente del Valle|LDU Quito':('Independiente del Valle buscará asegurar anticipadamente el título ante Liga de Quito','El Universo','https://www.eluniverso.com/deportes/campeonato-ecuatoriano/independiente-del-valle-buscara-asegurar-anticipadamente-el-titulo-de-liga-pro-este-fin-de-semana-ante-liga-de-quito-nota/'),
+ 'Atlético Grau|Universitario':('Atlético Grau vs Universitario: a qué hora y dónde ver el partido del Clausura','La República','https://larepublica.pe/deportes/2026/11/01/en-vivo-atletico-grau-vs-universitario-a-que-hora-y-donde-ver-partido-de-hoy-torneo-clausura-de-la-liga-1-2026-1331512'),
+ 'Arouca|Nacional':('Arouca vs Nacional: ficha, forma y tabla antes del partido','Fútbol Total','https://futboltotal.futbol/partido/arouca-vs-nacional-primeira-liga-2026-11-01'),
+ 'Deportivo Cali|Boyacá Chicó':('Liga BetPlay: partidos del domingo 1 y lunes 2 de noviembre','VAVEL','https://www.vavel.com/en-us/data/liga-betplay/fixtures/'),
+ 'Independiente Medellín|Alianza (ex Alianza Petrolera)':('Liga BetPlay: partidos del domingo 1 y lunes 2 de noviembre','VAVEL','https://www.vavel.com/en-us/data/liga-betplay/fixtures/'),
+ 'Santos Laguna|Necaxa':('Partidos de hoy domingo 1 de noviembre: mexicanos en el exterior y Liga MX','TUDN','https://www.tudn.com/futbol/partidos-hoy-domingo-1-noviembre-2026-mexicanos-en-el-exterior-y-liga-mx'),
+ 'Vancouver|Seattle':('Calendario MLS 2026: partidos del domingo 1 de noviembre','ESPN','https://www.espn.com/soccer/schedule/_/league/usa.1'),
+ 'U. Catolica|U. de Chile':('Fecha 26 de la Liga de Primera: clásico universitario y Colo Colo–U. de Concepción','Al Aire Libre','https://www.alairelibre.cl/futbol/campeonato-nacional/fecha-26-liga-de-primera-colo-colo-udec-clasico-universitario/'),
+})
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Boca Juniors|River Plate','Liverpool|Arsenal','Independiente del Valle|LDU Quito','Juventus|Napoli']
+LINK.update({'Liverpool|Arsenal':('Liverpool vs Arsenal: ficha, forma y tabla antes del partido','Fútbol Total','https://futboltotal.futbol/partido/liverpool-vs-arsenal-premier-1557453'),
+ 'Juventus|Napoli':('Juventus vs Napoli: ficha, forma y tabla antes del partido','Fútbol Total','https://futboltotal.futbol/partido/juventus-vs-napoli-serie-a-1550182')})
+COL.update({'Academico Viseu':'#1a1a1a','Arouca':'#f2d300','Atlético Grau':'#f2f2f2','Cobresal':'#f28c00','Cusco FC':'#d4af37','Famalicao':'#1d4fa0','Huachipato':'#1d4fa0','La Serena':'#c8102e','Los Chankas':'#d0102e','Maritimo':'#0b7a3b','Nacional':'#f2f2f2','Rio Ave':'#0b7a3b','Sport Boys':'#f49ac2','Sporting Braga':'#c8102e','U. Catolica':'#1d3f8f'})
+# Aciertos de ayer (sábado 31): (partido, marcador real, nuestro Over 1.5, medio, url)
+ACIERTOS=[
+ ("PSV vs Willem II","7-0","91 % · sáb 31","Sporza","https://sporza.be/nl/matches/voetbal/buitenland/ned/vriendenloterij-eredivisie/2026-2027/regulier/11/psv-willem-ii-club-brugge-is-gewaarschuwd-psv-houdt-doelpuntenkermis-voor-ontmoeting-in-champions-league~1784284447950/"),
+ ("Werder Bremen vs Hoffenheim","2-0","90 % · sáb 31","Sporza","https://sporza.be/nl/sport/voetbal/~3341696/"),
+ ("Charlotte vs Orlando City","4-0","90 % · sáb 31","Fútbol Total","https://futboltotal.futbol/partido/charlotte-fc-vs-orlando-city-sc-mls-2026-10-31"),
+ ("Bayern Munich vs Borussia Dortmund","2-2","88 % · sáb 31","Sporza",'https://sporza.be/nl/matches/voetbal/buitenland/dui/bundesliga/2026-2027/regulier/08/bayern-munchen-borussia-dortmund-live-patat-tegen-de-paal-olise-zet-overwicht-van-bayern-bijna-om-in-voorsprong-tegen-dortmund~1784284149439'),
+ ("Bayer Leverkusen vs VfB Stuttgart","2-4","85 % · sáb 31","Sporza","https://sporza.be/nl/sport/voetbal/~3341696/"),
+ ("AC Milan vs Inter","3-1","84 % · sáb 31","Fox Sports",'https://www.foxsports.com/soccer/serie-a-ac-milan-vs-inter-milan-oct-31-2026-game-boxscore-869482'),
+ ("Barcelona vs Alaves","6-1","83 % · sáb 31","SI",'https://www.si.com/mx/barcelona-golea-6-1-al-alaves-y-mantiene-el-liderato-de-laliga'),
+]
+LLEGAN={
+ 'FC Groningen|Sparta Rotterdam':['Groningen 8.º con 15 pts (24 GF, 21 GC); Sparta 14.º con 9 pts (17 GF, 24 GC) tras 10 jornadas.','Willumsson lleva 8 goles y Van Bergen 6: entre ambos, 14 de los 24 de Groningen.','Sparta recibió gol en sus 10 jornadas de liga (2,4 en contra por partido); ojo: ganó los tres últimos duelos sin que Groningen marcara.','Fuentes: Sports Mole, Fútbol Total y KickOff (1-nov).'],
+ 'Telstar|FC Utrecht':['Telstar 16.º con 6 pts y nueve partidos seguidos sin ganar.','Utrecht 11.º con 12 pts, 27 goles en contra en 10 jornadas y muchas bajas (Engwanda, Jensen, Jonathans, Ohio, Paredes).','En sus últimos diez partidos Utrecht promedia 4,2 goles totales.','Fuente: FootballPredictions.com (1-nov).'],
+ 'Marseille|Toulouse':['Marsella 9.º (12 pts): 4-3 al Le Havre y 2-5 en Angers en sus dos últimos de liga.','Toulouse 11.º (10 pts), sin Rafik Messali; ganó solo 1 de 32 duelos ante Marsella.','Los últimos diez partidos de Marsella promedian 3,3 goles.','Fuente: FootballPredictions.com (1-nov).'],
+ 'Portland|Houston Dynamo':['Portland 11.º del Oeste (40 pts), dos triunfos seguidos por 3-2.','Los partidos de Portland suman 117 goles en 32 jornadas (57 a favor, 60 en contra).','Houston 5.º (51 pts) y cinco sin perder; tres de sus últimos cinco con 4 goles o más.','Fuente: Starting11 y vavel (1-nov).'],
+}

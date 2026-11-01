@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01 01:15 ECU",
+ "actualizado": "2026-11-01 06:08 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -54,8 +54,8 @@
  },
  "partido_del_dia": {
   "aciertos": 12,
-  "dias": 14,
-  "racha_actual": 1,
+  "dias": 15,
+  "racha_actual": 0,
   "detalle": [
    {
     "fecha": "2026-10-11",
@@ -168,6 +168,14 @@
     "goles": 3,
     "acierto": true,
     "over15": 73.1
+   },
+   {
+    "fecha": "2026-10-31",
+    "partido": "Cambuur vs Go Ahead Eagles",
+    "resultado": null,
+    "goles": null,
+    "acierto": null,
+    "over15": 93.0
    }
   ]
  },

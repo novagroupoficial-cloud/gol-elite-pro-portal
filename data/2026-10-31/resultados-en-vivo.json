@@ -793,5 +793,21 @@
   "marcador_exacto": false,
   "fuente": "https://gidstats.com/football/mls/2026-10-31-1490593-colorado-rapids-vs-chicago-fire/",
   "registrado": "23:15 ECU"
+ },
+ {
+  "local": "America",
+  "visita": "Toluca",
+  "hora": "22:00",
+  "resultado": "2-2",
+  "goles": 4,
+  "estado": "terminado",
+  "over15_dado": 77.5,
+  "over25_dado": 52.5,
+  "acierto_over15": true,
+  "acierto_over25": true,
+  "marcador_exacto": false,
+  "fuente": "https://www.infobae.com/america/agencias/2026/11/01/america-empata-con-toluca-y-recupera-el-liderato-del-apertura-mexicano/",
+  "nota": "Coincide Amexi (https://amexi.com.mx/deportes/america-2-2-toluca-y-aguila-se-mantiene-de-lider-general-con-alfileres/).",
+  "registrado": "2026-11-01 01:15 ECU"
  }
 ]

@@ -1,0 +1,36 @@
+{
+ "partidos": {
+  "Sassuolo|Fiorentina": {
+   "titular": "Duelo de urgencias en Reggio Emilia: ninguno gana hace cinco partidos",
+   "texto": "Sassuolo (15.º, 8 puntos, 14 goles a favor y 22 en contra en 9 jornadas) no gana en sus últimos 5 partidos (4 derrotas y 1 empate) y viene de caer 2-6 ante la Lazio. Fiorentina (17.ª, 5 puntos, 11 a favor y 21 en contra) tampoco gana en sus últimos 5 (3 derrotas y 2 empates) y viene de empatar 2-2 con el Atalanta. Sassuolo tiene 8 bajas informadas, entre ellas Thorstvedt (expulsado) y Koné (fractura), y la Fiorentina 6, entre ellas Gosens y Ranieri. El último cruce terminó 0-0 (26-abr-2026). Conclusión: las dos defensas reciben más de 2 goles por partido, así que todo apunta a 2 goles o más, con el 0-0 del último duelo como única advertencia.",
+   "fuente": "Fútbol Total y Starting11",
+   "url": "https://futboltotal.futbol/partido/sassuolo-vs-fiorentina-serie-a-2026-11-02",
+   "url2": "https://starting11.com/fixtures/sassuolo-vs-fiorentina-20261102"
+  },
+  "Sporting Cristal|FC Cajamarca": {
+   "titular": "El líder del Clausura recibe al que más goles concede",
+   "texto": "Sporting Cristal es 1.º del Clausura con 28 puntos en 14 partidos (29 goles a favor y 17 en contra) y viene de ganar 3-2 a Alianza Lima. Hernán Barcos suma 14 goles en la liga y Luis Iberico 10. FC Cajamarca es 15.º con 11 puntos, 21 goles a favor y 32 en contra, y perdió 4 de sus últimos 5 partidos. En el Apertura, Cajamarca ganó 3-1 a Cristal. Conclusión: un ataque que promedia más de 2 goles contra una defensa que recibe más de 2 por partido; se esperan goles.",
+   "fuente": "FotMob y Starting11",
+   "url": "https://www.fotmob.com/ja/teams/1848/overview",
+   "url2": "https://starting11.com/fixtures/sporting-cristal-vs-fc-cajamarca"
+  },
+  "Benfica|Alverca": {
+   "titular": "Benfica llega con cinco triunfos seguidos y 16 goles",
+   "texto": "Benfica es 2.º con 22 puntos (26 goles a favor y 8 en contra en 9 jornadas) y encadena 5 victorias seguidas con 16 goles marcados. Pavlidis es el máximo goleador de la liga con 9 goles. Alverca es 10.º con 11 puntos y no marcó en sus dos últimos partidos (0-1 con Arouca y 0-2 con Tondela). Benfica no tendrá a Barreiro ni a Barrenechea; en Alverca, Baseya está suspendido. Conclusión: se esperan goles, sobre todo del Benfica.",
+   "fuente": "Fútbol Total y FotMob",
+   "url": "https://futboltotal.futbol/partido/benfica-vs-alverca-primeira-liga-2026-11-02",
+   "url2": "https://www.fotmob.com/de/matches/benfica-vs-alverca/35t7xg"
+  },
+  "Bragantino|Santos": {
+   "titular": "Bragantino, goleador en casa, ante un Santos que recibe mucho",
+   "texto": "Bragantino (9.º, 44 puntos) viene de golear 3-0 a Chapecoense y marcó 8 goles en sus últimos 3 partidos de local (3-0, 4-2 y 1-1). Santos (8.º, 47 puntos, 49 goles a favor y 47 en contra) encadena dos empates en casa (0-0 con Palmeiras y 1-1 con Bahia). En la ida ganó Santos 2-0. Conclusión: partido de goles moderados; Santos recibe 1,42 goles por partido, pero viene de dos empates cortos.",
+   "fuente": "Valor Final y Fútbol Total",
+   "url": "https://valorfinal.com.br/brasileirao/2026/jogos/bragantino-x-santos",
+   "url2": "https://futboltotal.futbol/partido/rb-bragantino-vs-santos-brasileirao-2026-11-03"
+  }
+ },
+ "sin_noticia": {
+  "Atalanta|Parma": "sin noticia verificada en esta ejecución (cupo de búsquedas agotado y ficha de Fútbol Total bloqueada)",
+  "Deportivo La Coruna|Osasuna": "sin noticia verificada en esta ejecución (cupo de búsquedas agotado y ficha de Fútbol Total bloqueada)"
+ }
+}

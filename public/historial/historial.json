@@ -531,5 +531,45 @@
    "Monterrey 3-3 Tijuana (Over 1.5 al 81,6 % · hubo 6 goles)"
   ],
   "partidos": 51
+ },
+ {
+  "fecha": "2026-11-01",
+  "titulo": "Domingo 1 de noviembre de 2026",
+  "imagen": "/historial/2026-11-01.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "2/2",
+    "GOLES PLATINO (90 a 94 %)"
+   ],
+   [
+    "30/37",
+    "Over 1.5 de 70 % o más (81 %)"
+   ],
+   [
+    "6/8",
+    "Over 2.5 con señal (75 %)"
+   ],
+   [
+    "3/44",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Fallaron 7 Over 1.5 de 70 % o más: PEC Zwolle 1-0 ADO Den Haag (87,3 %), Elche 0-1 Valencia (81,1 %), Como 1-0 Venezia (77,9 %), Arouca 1-0 Nacional (77,9 %), Santos Laguna 1-0 Necaxa (76,2 %), CD Moquegua 0-0 Los Chankas (75,6 %) y Cusco FC 0-1 Sport Boys (75,4 %). Over 2.5 con señal: 6 de 8 (fallaron PEC Zwolle–ADO, 68 %, y Marseille–Toulouse, 70 %, ambas señal moderada). Quedan pendientes 3 partidos de Chile (Huachipato–La Serena, Cobresal–Everton y U. Católica–U. de Chile) sin informe final al auditar. En total, 34 de 44 partidos terminados tuvieron 2 goles o más.",
+  "aciertos_destacados": [
+   "FC Groningen 2-3 Sparta Rotterdam (Over 1.5 al 92,2 % · hubo 5 goles) · partido del día",
+   "Telstar 4-2 FC Utrecht (Over 1.5 al 91,5 % · hubo 6 goles)",
+   "Excelsior 0-9 FC Twente (Over 1.5 al 86,9 % · hubo 9 goles)",
+   "Strasbourg 5-1 Auxerre (Over 1.5 al 86,7 % · hubo 6 goles)",
+   "Portland 3-1 Houston (Over 1.5 al 86,3 % · hubo 4 goles)",
+   "Eintracht Frankfurt 3-1 Hamburgo (Over 1.5 al 85,6 % · hubo 4 goles)",
+   "LAFC 1-3 Minnesota (Over 1.5 al 85,3 % · hubo 4 goles)",
+   "Nashville 3-2 NY Red Bulls (Over 1.5 al 84,6 % · hubo 5 goles)",
+   "Racing 0-3 Real Madrid (Over 1.5 al 83,9 % · hubo 3 goles)"
+  ],
+  "partidos": 44
  }
 ]

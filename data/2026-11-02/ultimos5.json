@@ -1,0 +1,290 @@
+{
+ "nota": "Fase de medición Kaizen: no entra al modelo. Últimos 5 oficiales según fichas abiertas citadas (futboltotal, FotMob, valorfinal). Cuotas Over/Under 2.5: ninguna fuente abierta consultada las mostró hoy ('sin dato'). Atalanta–Parma y Deportivo–Osasuna: sin dato (cupo de búsquedas agotado y fichas bloqueadas).",
+ "Sassuolo|Fiorentina": {
+  "local": {
+   "equipo": "Sassuolo",
+   "fuente": "https://futboltotal.futbol/partido/sassuolo-vs-fiorentina-serie-a-2026-11-02",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-27",
+     "rival": "Lazio",
+     "condicion": "casa",
+     "marcador": "Sassuolo 2-6 Lazio"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Como",
+     "condicion": "fuera",
+     "marcador": "Como 2-0 Sassuolo"
+    },
+    {
+     "fecha": "2026-10-16",
+     "rival": "Frosinone",
+     "condicion": "fuera",
+     "marcador": "Frosinone 4-2 Sassuolo"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "AC Milan",
+     "condicion": "casa",
+     "marcador": "Sassuolo 1-1 Milan"
+    },
+    {
+     "fecha": "2026-09-18",
+     "rival": "Monza",
+     "condicion": "fuera",
+     "marcador": "Monza 2-1 Sassuolo"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Fiorentina",
+   "fuente": "https://futboltotal.futbol/partido/sassuolo-vs-fiorentina-serie-a-2026-11-02",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-29",
+     "rival": "Atalanta",
+     "condicion": "casa",
+     "marcador": "Fiorentina 2-2 Atalanta"
+    },
+    {
+     "fecha": "2026-10-25",
+     "rival": "Inter",
+     "condicion": "fuera",
+     "marcador": "Inter 2-1 Fiorentina"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Como",
+     "condicion": "casa",
+     "marcador": "Fiorentina 1-3 Como"
+    },
+    {
+     "fecha": "2026-10-10",
+     "rival": "Genoa",
+     "condicion": "fuera",
+     "marcador": "Genoa 2-1 Fiorentina"
+    },
+    {
+     "fecha": "2026-09-20",
+     "rival": "Napoli",
+     "condicion": "casa",
+     "marcador": "Fiorentina 1-1 Napoli"
+    }
+   ]
+  },
+  "nota": "Lista de Serie A de la ficha; puede faltar algún partido entre mediados de septiembre y el 10-oct (hueco en la ficha).",
+  "cuota_over25": "sin dato",
+  "cuota_under25": "sin dato"
+ },
+ "Sporting Cristal|FC Cajamarca": {
+  "local": {
+   "equipo": "Sporting Cristal",
+   "fuente": "https://www.fotmob.com/ja/teams/1848/overview",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-29",
+     "rival": "Alianza Lima",
+     "condicion": "casa",
+     "marcador": "Sporting Cristal 3-2 Alianza Lima"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Cusco FC",
+     "condicion": "fuera",
+     "marcador": "Cusco FC 3-1 Sporting Cristal"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Comerciantes Unidos",
+     "condicion": "casa",
+     "marcador": "Sporting Cristal 4-2 Comerciantes Unidos"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "UTC",
+     "condicion": "fuera",
+     "marcador": "UTC 0-1 Sporting Cristal"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Atlético Grau",
+     "condicion": "casa",
+     "marcador": "Sporting Cristal 3-1 Atlético Grau"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "FC Cajamarca",
+   "fuente": "FotMob (solo secuencia P-E-P-P-P, sin rivales)",
+   "ultimos5": "sin dato"
+  },
+  "cuota_over25": "sin dato",
+  "cuota_under25": "sin dato"
+ },
+ "Benfica|Alverca": {
+  "local": {
+   "equipo": "Benfica",
+   "fuente": "https://www.fotmob.com/de/matches/benfica-vs-alverca/35t7xg",
+   "ultimos5": [
+    {
+     "fecha": "sin fecha",
+     "rival": "Gil Vicente",
+     "condicion": "casa",
+     "marcador": "Benfica 4-1 Gil Vicente"
+    },
+    {
+     "fecha": "2026-10-26",
+     "rival": "Santa Clara",
+     "condicion": "fuera",
+     "marcador": "Santa Clara 1-2 Benfica"
+    },
+    {
+     "fecha": "2026-10-22",
+     "rival": "Omonia (UEL)",
+     "condicion": "fuera",
+     "marcador": "Omonia 1-4 Benfica"
+    },
+    {
+     "fecha": "2026-10-15",
+     "rival": "Celtic (UEL)",
+     "condicion": "casa",
+     "marcador": "Benfica 4-1 Celtic"
+    },
+    {
+     "fecha": "sin fecha",
+     "rival": "Vitória SC",
+     "condicion": "fuera",
+     "marcador": "Vitória SC 0-2 Benfica"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Alverca",
+   "fuente": "https://www.fotmob.com/de/matches/benfica-vs-alverca/35t7xg | https://futboltotal.futbol/partido/benfica-vs-alverca-primeira-liga-2026-11-02",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-24",
+     "rival": "Arouca",
+     "condicion": "fuera",
+     "marcador": "Arouca 1-0 Alverca"
+    },
+    {
+     "fecha": "sin fecha",
+     "rival": "Tondela",
+     "condicion": "fuera",
+     "marcador": "Tondela 2-0 Alverca"
+    },
+    {
+     "fecha": "2026-10-12",
+     "rival": "Famalicão",
+     "condicion": "fuera",
+     "marcador": "Famalicão 1-4 Alverca"
+    },
+    {
+     "fecha": "2026-09-19",
+     "rival": "Rio Ave",
+     "condicion": "casa",
+     "marcador": "Alverca 1-0 Rio Ave"
+    },
+    {
+     "fecha": "2026-09-12",
+     "rival": "Nacional",
+     "condicion": "casa",
+     "marcador": "Alverca 3-1 Nacional"
+    }
+   ]
+  },
+  "nota": "FotMob y Fútbol Total discrepan en algunas condiciones casa/fuera y fechas; se registra FotMob.",
+  "cuota_over25": "sin dato",
+  "cuota_under25": "sin dato"
+ },
+ "Bragantino|Santos": {
+  "local": {
+   "equipo": "Bragantino",
+   "fuente": "https://valorfinal.com.br/brasileirao/2026/jogos/bragantino-x-santos",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Chapecoense",
+     "condicion": "casa",
+     "marcador": "Bragantino 3-0 Chapecoense"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Palmeiras",
+     "condicion": "fuera",
+     "marcador": "Palmeiras 2-0 Bragantino"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Remo",
+     "condicion": "fuera",
+     "marcador": "Remo 1-1 Bragantino"
+    },
+    {
+     "fecha": "2026-10-12",
+     "rival": "Cruzeiro",
+     "condicion": "casa",
+     "marcador": "Bragantino 4-2 Cruzeiro"
+    },
+    {
+     "fecha": "2026-10-07",
+     "rival": "Mirassol",
+     "condicion": "casa",
+     "marcador": "Bragantino 1-1 Mirassol"
+    }
+   ]
+  },
+  "visita": {
+   "equipo": "Santos",
+   "fuente": "https://valorfinal.com.br/brasileirao/2026/jogos/bragantino-x-santos",
+   "ultimos5": [
+    {
+     "fecha": "2026-10-28",
+     "rival": "Palmeiras",
+     "condicion": "casa",
+     "marcador": "Santos 0-0 Palmeiras"
+    },
+    {
+     "fecha": "2026-10-24",
+     "rival": "Bahia",
+     "condicion": "casa",
+     "marcador": "Santos 1-1 Bahia"
+    },
+    {
+     "fecha": "2026-10-18",
+     "rival": "Fluminense",
+     "condicion": "fuera",
+     "marcador": "Fluminense 1-2 Santos"
+    },
+    {
+     "fecha": "2026-10-11",
+     "rival": "Atlético-MG",
+     "condicion": "fuera",
+     "marcador": "Atlético-MG 2-1 Santos"
+    },
+    {
+     "fecha": "2026-10-08",
+     "rival": "Flamengo",
+     "condicion": "casa",
+     "marcador": "Santos 2-2 Flamengo"
+    }
+   ]
+  },
+  "cuota_over25": "sin dato (valorfinal no publica cuotas)",
+  "cuota_under25": "sin dato"
+ },
+ "Atalanta|Parma": {
+  "local": "sin dato",
+  "visita": "sin dato",
+  "cuota_over25": "sin dato",
+  "cuota_under25": "sin dato"
+ },
+ "Deportivo La Coruna|Osasuna": {
+  "local": "sin dato",
+  "visita": "sin dato",
+  "cuota_over25": "sin dato",
+  "cuota_under25": "sin dato"
+ }
+}

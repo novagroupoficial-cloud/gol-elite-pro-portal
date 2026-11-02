@@ -1064,6 +1064,49 @@ LLEGAN={
  'Portland|Houston Dynamo':['Portland 11.º del Oeste (40 pts), dos triunfos seguidos por 3-2.','Los partidos de Portland suman 117 goles en 32 jornadas (57 a favor, 60 en contra).','Houston 5.º (51 pts) y cinco sin perder; tres de sus últimos cinco con 4 goles o más.','Fuente: Starting11 y vavel (1-nov).'],
 }
 
+# ---- Lunes 2-nov-2026 (rutina diaria, sellado 05:50 ECU) ----
+# LINK: previa o ficha real de cada partido; donde no se halló previa individual (cupo de búsquedas agotado), la agenda real del lunes 2 de Depor (resultados y horarios del día).
+_DP=("Partidos y resultados del lunes 2 de noviembre de 2026","Depor","https://depor.com/resultados/2026-11-02/")
+LINK={f"{p['local']}|{p['visita']}":_DP for p in _P if not p.get('sin')}
+LINK.update({
+ 'Sassuolo|Fiorentina':('Sassuolo vs Fiorentina: ficha, forma y tabla de la jornada 10','Fútbol Total','https://futboltotal.futbol/partido/sassuolo-vs-fiorentina-serie-a-2026-11-02'),
+ 'Atalanta|Parma':('Atalanta vs Parma: ficha del partido de la Serie A (2-nov-2026)','On Tour Football','https://ontourfootball.com/fixtures/atalanta-vs-parma-2026-11-02'),
+ 'Lorient|Brest':('Lorient vs Brest: pronóstico, análisis y cuotas','Oddslot','https://oddslot.com/football/match/ligue-1/lorient/stade-brestois-29/2-nov-2026/'),
+ 'Newcastle United|Everton':('Newcastle vs Everton: ficha, forma y tabla de la jornada 9','Fútbol Total','https://futboltotal.futbol/partido/newcastle-united-vs-everton-premier-1557455'),
+ 'Benfica|Alverca':('Benfica vs Alverca: ficha, forma y tabla de la jornada 10','Fútbol Total','https://futboltotal.futbol/partido/benfica-vs-alverca-primeira-liga-2026-11-02'),
+ 'Gil Vicente|Guimaraes':('Gil Vicente vs Vitória de Guimarães: ficha de la jornada 10','Fútbol Total','https://futboltotal.futbol/partido/gil-vicente-vs-guimaraes-primeira-liga-2026-11-02'),
+ 'Orense|Técnico Universitario':('Quinta fecha de la LigaPro: horarios del hexagonal del descenso','El Mercurio','https://elmercurio.com.ec/?p=1288798'),
+ 'Sporting Cristal|FC Cajamarca':('Sporting Cristal vs FC Cajamarca: alineaciones probables de la fecha 15','Starting11','https://starting11.com/fixtures/sporting-cristal-vs-fc-cajamarca'),
+ 'D. Limache|Audax Italiano':('Fecha 26 de la Liga de Primera: horarios del clásico universitario y del lunes','T13','https://www.t13.cl/noticia/deportes13/universidad-catolica-vs-universidad-chile-cuando-hora-clasico-universitario-29-10-2026'),
+ 'Concepcion|Palestino':('Fecha 26 de la Liga de Primera: horarios del clásico universitario y del lunes','T13','https://www.t13.cl/noticia/deportes13/universidad-catolica-vs-universidad-chile-cuando-hora-clasico-universitario-29-10-2026'),
+ 'Defensa y Justicia|Independiente':('Defensa y Justicia vs Independiente: ficha del partido reprogramado','GidStats','https://gidstats.com/es/futbol/argentina/2026-11-02-1493215-defensa-y-justicia-independiente/'),
+ 'Bragantino|Santos':('Red Bull Bragantino x Santos: dónde ver el partido de la 34.ª jornada','Máquina do Esporte','https://maquinadoesporte.com.br/?p=245621'),
+ 'Bucaramanga|Atlético Nacional':('Atlético Bucaramanga y un ajetreado calendario en la recta final de la Liga BetPlay','Vanguardia','https://www.vanguardia.com/deportes/futbol/2026/10/08/atletico-bucaramanga-y-un-ajetreado-calendario-en-la-recta-final-de-la-liga-betplay/'),
+ 'Platense|Central Cordoba SdE':('Fixture del Clausura 2026: horarios y resultados','El Economista','https://eleconomista.com.ar/deportes/fixture-clausura-2026-resultados-n96907'),
+ 'Atletico Tucuman|Argentinos Juniors':('Fixture del Clausura 2026: horarios y resultados','El Economista','https://eleconomista.com.ar/deportes/fixture-clausura-2026-resultados-n96907'),
+ 'Independiente Rivadavia|Banfield':('Fixture del Clausura 2026: horarios y resultados','El Economista','https://eleconomista.com.ar/deportes/fixture-clausura-2026-resultados-n96907'),
+ 'Deportivo La Coruna|Osasuna':('Horarios de la undécima jornada de LaLiga EA Sports 2026-27','LaLiga','https://www.laliga.com/noticias/horarios-de-la-undecima-jornada-de-laliga-ea-sports-2026-27'),
+})
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Newcastle United|Everton','Bucaramanga|Atlético Nacional','Defensa y Justicia|Independiente','Orense|Técnico Universitario']
+COL.update({'Sassuolo':'#00a752','Fiorentina':'#5b2a86','Atalanta':'#1e3c8c','Parma':'#f2f2f2','Lorient':'#f58220','Brest':'#d0021b','Newcastle United':'#241f20','Everton':'#003399','Deportivo La Coruna':'#1d5fb8','Osasuna':'#c8102e','Benfica':'#e30613','Alverca':'#d0021b','Gil Vicente':'#c8102e','Guimaraes':'#f2f2f2','Orense':'#0b7a3b','Técnico Universitario':'#c8102e','Sporting Cristal':'#6cc4ec','FC Cajamarca':'#f5a12d','Sport Huancayo':'#d0102e','Melgar':'#141414','UTC':'#1a1a1a','Deportivo Garcilaso':'#6cc4ec','D. Limache':'#f2c200','Audax Italiano':'#0b7a3b','Concepcion':'#5b2a86','Palestino':'#0b7a3b','Águilas Doradas':'#f2c200','Fortaleza':'#c8102e','Defensa y Justicia':'#f2c200','Independiente':'#c8102e','Platense':'#7a4a2a','Central Cordoba SdE':'#141414','Bragantino':'#f2f2f2','Santos':'#f2f2f2','Atletico Tucuman':'#6cc4ec','Argentinos Juniors':'#c8102e','Independiente Rivadavia':'#1d3f8f','Banfield':'#0b7a3b','Bucaramanga':'#f2c200','Atlético Nacional':'#0b7a3b'})
+# Aciertos de ayer (domingo 1): (partido, marcador real, nuestro Over 1.5, medio, url)
+ACIERTOS=[
+ ("FC Groningen vs Sparta Rotterdam","2-3","92 % · partido del día","Sporza","https://sporza.be/nl/sport/voetbal/~3338731/"),
+ ("Telstar vs FC Utrecht","4-2","92 % · dom 1","FC Update","https://www.fcupdate.nl/voetbalcompetities/nederland/eredivisie/programma-uitslagen/2026-2027/telstar-fc-utrecht-01-11"),
+ ("Excelsior vs FC Twente","0-9","87 % · dom 1","Fútbol Total","https://futboltotal.futbol/partido/excelsior-vs-twente-eredivisie-2026-11-01"),
+ ("Strasbourg vs Auxerre","5-1","87 % · dom 1","Fútbol Total","https://futboltotal.futbol/partido/strasbourg-vs-auxerre-ligue-1-2026-11-01"),
+ ("Portland vs Houston Dynamo","3-1","86 % · dom 1","GidStats","https://gidstats.com/football/mls/2026-11-01-1490599-portland-timbers-vs-houston-dynamo/"),
+ ("Eintracht Frankfurt vs Hamburger SV","3-1","86 % · dom 1","ZDFheute","https://www.zdfheute.de/sport/Bundesliga-26-27/12194446"),
+ ("Racing Santander vs Real Madrid","0-3","84 % · dom 1","Sporza","https://sporza.be/nl/sport/voetbal/~3341413/"),
+]
+LLEGAN={
+ 'Sassuolo|Fiorentina':['Sassuolo 15.º con 8 pts (14 GF, 22 GC); Fiorentina 17.ª con 5 pts (11 GF, 21 GC) tras 9 jornadas.','Ninguno gana en sus últimos 5: Sassuolo viene de perder 2-6 con la Lazio y la Fiorentina de empatar 2-2 con el Atalanta.','Muchas bajas: 8 en Sassuolo (Thorstvedt expulsado, Koné con fractura) y 6 en la Fiorentina (Gosens, Ranieri).','Fuentes: Fútbol Total y Starting11 (2-nov).'],
+ 'Sporting Cristal|FC Cajamarca':['Cristal, líder del Clausura: 28 pts, 29 GF y 17 GC en 14 partidos; Barcos lleva 14 goles.','FC Cajamarca 15.º con 11 pts y 32 goles en contra; perdió 4 de sus últimos 5.','Ojo: en el Apertura, Cajamarca le ganó 3-1 a Cristal.','Fuentes: FotMob y Starting11.'],
+ 'Benfica|Alverca':['Benfica 2.º con 22 pts (26 GF, 8 GC) y cinco triunfos seguidos con 16 goles.','Pavlidis, máximo goleador de la liga con 9.','Alverca 10.º (11 pts) no marcó en sus dos últimos partidos.','Fuentes: Fútbol Total y FotMob.'],
+ 'Bragantino|Santos':['Bragantino marcó 8 goles en sus últimos 3 partidos de local (3-0, 4-2 y 1-1).','Santos 8.º (47 pts) con 49 GF y 47 GC; viene de dos empates en casa (0-0 y 1-1).','En la ida ganó Santos 2-0.','Fuentes: Valor Final y Fútbol Total.'],
+}
+
 # ---- Genérico (desde 1-nov-2026): si existe data/<fecha>/sportytrader.json (lista de Marco), manda en PRED y DEST ----
 try:
     _F=next((p.get('sellado','')[:10] for p in _P if p.get('sellado')),None)

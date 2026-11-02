@@ -5,6 +5,7 @@ FECHA_PRON=(P[0].get('sellado','')[:10] if P else '')
 NOM={'ENG':'Premier League','ITA':'Serie A','FRA':'Ligue 1','ESP':'LaLiga','BRA':'Brasileirão','MEX':'Liga MX','ECU':'LigaPro','ARG':'Liga Profesional','GER':'Bundesliga','NED':'Eredivisie','POR':'Liga Portugal','USA':'MLS','COL':'Liga BetPlay','PER':'Liga 1','CHI':'Primera División'}
 PAIS={'ENG':'Inglaterra','ITA':'Italia','FRA':'Francia','ESP':'España','BRA':'Brasil','MEX':'México','ECU':'Ecuador','ARG':'Argentina','GER':'Alemania','NED':'Países Bajos','POR':'Portugal','USA':'EE. UU.','COL':'Colombia','PER':'Perú','CHI':'Chile'}
 ES={'Borussia Monchengladbach':"M'gladbach",'AFC Bournemouth':'Bournemouth','Brighton & Hove Albion':'Brighton','SC Freiburg':'Friburgo','Malaga':'Málaga','Alaves':'Alavés','Marseille':'Marsella','Monaco':'Mónaco','Estudiantes Rio Cuarto':'Est. Río Cuarto','Estudiantes LP':'Estudiantes','Comerciantes Unidos':'Comerciantes U.','Universidad Católica':'U. Católica','Columbus Crew':'Columbus Crew','Cincinnati':'FC Cincinnati','Nottm Forest':'Nottingham Forest','Bologna':'Bolonia','Nice':'Niza','Strasbourg':'Estrasburgo','Deportivo':'Deportivo La Coruña','AC Milan':'Milan','Real Betis':'Betis','Marseille':'Marsella','Racing':'Racing Santander','Atletico MG':'Atlético MG','A. San Luis':'Atlético San Luis','Pumas UNAM':'Pumas','Coventry':'Coventry City','Newcastle':'Newcastle United','Lanus':'Lanús','Velez Sarsfield':'Vélez Sarsfield','Gimnasia Mendoza':'Gimnasia (Mendoza)','Newells Old Boys':"Newell's Old Boys",'Bragantino':'Red Bull Bragantino','Athletico-PR':'Athletico Paranaense','Bayern Munich':'Bayern Múnich','Atletico Madrid':'Atlético de Madrid','Paris Saint-Germain':'PSG','Leon':'León','America':'América','Queretaro':'Querétaro','Juarez':'FC Juárez','Atletico Tucuman':'Atlético Tucumán','Philadelphia':'Philadelphia Union','New England':'New England Revolution','Seattle':'Seattle Sounders','Portland':'Portland Timbers','Austin':'Austin FC','Dallas':'FC Dallas','Toronto':'Toronto FC','New York RB':'New York Red Bulls','SJ Earthquakes':'San José Earthquakes','San Diego':'San Diego FC','Charlotte':'Charlotte FC','Colorado Rapids':'Colorado Rapids','Houston Dynamo':'Houston Dynamo','Minnesota United':'Minnesota United','Real Betis':'Real Betis','Guadalajara':'Chivas','Tigres UANL':'Tigres','Tottenham Hotspur':'Tottenham','Central Cordoba SdE':'Central Córdoba','Union Santa Fe':'Unión','Alianza (ex Alianza Petrolera)':'Alianza FC','Pasto':'Deportivo Pasto','Newells Old Boys':"Newell's",'Deportivo Riestra':'Riestra','Internacional de Bogotá (ex La Equidad)':'Inter Bogotá','Boyacá Chicó':'Boyacá Chicó'}
+ES.update({'Deportivo La Coruna':'Deportivo La Coruña','Guimaraes':'Vitória SC','Concepcion':'Dep. Concepción','D. Limache':'Dep. Limache','Central Cordoba SdE':'Central Córdoba','Atletico Tucuman':'Atlético Tucumán'})
 n=lambda x:ES.get(x,x)
 e=html.escape
 f1=lambda v:f"{v:.1f}".replace('.',',')
@@ -19,12 +20,12 @@ def key(p): return f"{p['local']}|{p['visita']}"
 NEWS_PRED={}  # (sin uso en la portada actual)
 NEWS_DEST=[]
 FUENTES=[
- ("Líbero · Partidos de hoy, domingo 1 de noviembre (hora Perú = Ecuador)","https://libero.pe/futbol-internacional/2026/10/31/partidos-de-hoy-domingo-1-de-noviembre-quienes-juegan-liga-1-premier-league-laliga-1930618"),
- ("Fútbol Total · Partidos del 1 de noviembre de 2026","https://futboltotal.futbol/2026-11-01"),
- ("Teleamazonas · Quinta fecha de la fase final de LigaPro 2026","https://www.teleamazonas.com/deportes/futbol/ligapro/quinta-fecha-ligapro-2026-horarios-partidos-131575/"),
- ("ESPN · Calendario MLS 2026 (última jornada de temporada regular)","https://www.espn.com/soccer/schedule/_/league/usa.1"),
- ("TUDN · Partidos de hoy domingo 1 de noviembre (Liga MX)","https://www.tudn.com/futbol/partidos-hoy-domingo-1-noviembre-2026-mexicanos-en-el-exterior-y-liga-mx"),
- ("Sports Mole · Groningen vs Sparta: previa del partido del día","https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-sparta-prediction-team-news-lineups_608112.html"),
+ ("Depor · Partidos y resultados del lunes 2 de noviembre","https://depor.com/resultados/2026-11-02/"),
+ ("LaLiga · Horarios de la undécima jornada 2026-27","https://www.laliga.com/noticias/horarios-de-la-undecima-jornada-de-laliga-ea-sports-2026-27"),
+ ("A Bola · Horarios de la Liga Portugal hasta la 12.ª jornada","https://www.abola.pt/noticias/ja-ha-data-para-o-fc-porto-benfica-os-horarios-ate-a-12a-jornada-da-liga-2026090319073200619"),
+ ("T13 · Fecha 26 de la Liga de Primera (Chile)","https://www.t13.cl/noticia/deportes13/universidad-catolica-vs-universidad-chile-cuando-hora-clasico-universitario-29-10-2026"),
+ ("El Mercurio · Quinta fecha de la LigaPro","https://elmercurio.com.ec/?p=1288798"),
+ ("Fútbol Total · Sassuolo vs Fiorentina: previa del partido del día","https://futboltotal.futbol/partido/sassuolo-vs-fiorentina-serie-a-2026-11-02"),
 ]
 
 ES.update({'Celta Vigo':'Celta de Vigo','Los Angeles FC':'LAFC','Bayer Leverkusen':'Leverkusen','Leones del Norte':'Leones del Norte','Paris Saint-Germain':'PSG','Atletico MG':'Atlético-MG','Union Santa Fe':'Unión','Instituto Cordoba':'Instituto','Deportivo Riestra':'Riestra','Jaguares de Córdoba':'Jaguares','Santa Fe':'Santa Fe'})
@@ -163,7 +164,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if entero(p['over15'])>=80 else ''}"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=['Liga Boliviana (The Strongest–Gualberto Villarroel, Guabirá–Bolívar, Universitario de Vinto–Always Ready), Liga Paraguaya (Cerro Porteño–Olimpia) y Liga Uruguaya (Progreso–Defensor Sporting, Boston River–Torque, Danubio–Nacional, Liverpool–Juventud): no tenemos tablas verificadas de local y visitante de esas ligas.','Copa do Brasil (Palmeiras–Vasco da Gama, Grêmio–Atlético-MG): las copas mezclan contextos; nuestro modelo usa tablas de liga y no las pronostica. El Brasileirão no tiene partidos hoy.']
+SIN=[]
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 # Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
@@ -283,30 +284,30 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del domingo 1 de noviembre; se integrará al portal cuando llegue el código.</div>
+<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del lunes 2 de noviembre; se integrará al portal cuando llegue el código.</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Domingo 1 de noviembre de 2026 · sellado 05:40 ECU · el de mayor Over 1.5 que aún no empieza</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Lunes 2 de noviembre de 2026 · sellado 05:50 ECU · el de mayor Over 1.5 que aún no empieza</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{pc(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{pc(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.1 (mejora Kaizen del 26-oct), calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK[key(top)][1])} · <a href="{LINK[key(top)][2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
 {RANK}
-<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>¡Acertamos ayer! Sábado 31 de octubre: 43 de 51 partidos con 2 goles o más (Over 1.5) y 34 de 42 en los de 70 % o más · PSV 7-0 Willem II (dimos 91 %), Werder 2-0 Hoffenheim (90 %), Charlotte 4-0 Orlando (90 %) · el partido del día (Cambuur–Go Ahead Eagles, 93 %) se suspendió en el minuto 82 y queda anulado · también publicamos los fallos · toca para ver el resultado en su medio</p></div>
+<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>¡Acertamos ayer! Domingo 1 de noviembre: el partido del día, Groningen 2-3 Sparta (dimos Over 1.5 al 92 % · hubo 5 goles), y 30 de 37 en los de 70 % o más · Telstar 4-2 Utrecht (92 %), Excelsior 0-9 Twente (87 %), Strasbourg 5-1 Auxerre (87 %) · también publicamos los fallos · toca para ver el resultado en su medio</p></div>
 {resumen}{estrella}{recs}{ayer}{calib}<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1 or ('<p class="legal">Hoy solo el partido del día (arriba) llega a 80 % en Over 1.5; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>' if entero(top['over15'])>=80 else '<p class="legal">Hoy ningún partido llega a 80 % en Over 1.5. El más alto está arriba, como partido del día; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>')}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del domingo</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del lunes</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Domingo 1 de noviembre de 2026 · pronósticos sellados a las 05:40 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Lunes 2 de noviembre de 2026 · pronósticos sellados a las 05:50 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
-<section class="box" id="historial"><h3>Auditoría del sábado 31</h3>
-<div class="kpis"><div class="kpi"><b>—</b><span>Partido del día · anulado (suspendido)</span></div><div class="kpi g"><b>43/51</b><span>Partidos con 2 goles o más</span></div><div class="kpi g"><b>34/42</b><span>Over 1.5 de 70 % o más (81 %)</span></div><div class="kpi"><b>3/13</b><span>Over 2.5 con señal (65 % o más)</span></div></div>
-<p class="legal">Sábado 31: 53 partidos, 51 terminados con resultado final y fuente, 2 anulados (Cambuur–Go Ahead Eagles, partido del día al 93 %, suspendido definitivamente hacia el minuto 82; Defensa y Justicia–Independiente, reprogramado). Escala del día: GOLES PLATINO 3/5, GOLES ESTÁNDAR 22/27 y GOLES OPTIMISTAS 18/19; no hubo GOL ÉLITE (95 % o más). Fallaron en Over 1.5: Cincinnati 1-0 Philadelphia (93 %), Ajax 1-0 AZ (90 %), M'gladbach 0-0 Paderborn (89 %), Manchester City 0-1 Brighton (86 %), Alianza Atlético 1-0 Juan Pablo II (86 %), Heerenveen 1-0 NEC (85 %), St. Louis 0-1 San Diego (85 %) y O'Higgins 1-0 Ñublense (74 %). Over 2.5 con señal: 3 de 13 (la señal fuerte, 1 de 2). Marcadores exactos: 4 de 51. Acumulado de la galería (16 jornadas publicadas): 32/33 GOL ÉLITE y 227/292 en Over 1.5 de 70 % o más (78 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
+<section class="box" id="historial"><h3>Auditoría del domingo 1</h3>
+<div class="kpis"><div class="kpi g"><b>✔ 5 goles</b><span>Partido del día: Groningen 2-3 Sparta (92 %)</span></div><div class="kpi g"><b>34/44</b><span>Partidos con 2 goles o más</span></div><div class="kpi g"><b>30/37</b><span>Over 1.5 de 70 % o más (81 %)</span></div><div class="kpi g"><b>6/8</b><span>Over 2.5 con señal (65 % o más)</span></div></div>
+<p class="legal">Domingo 1: 47 partidos, 44 terminados con resultado final y fuente y 3 pendientes de Chile (Huachipato–La Serena, Cobresal–Everton y U. Católica–U. de Chile, sin informe final al auditar). Escala del día: GOLES PLATINO 2/2, GOLES ESTÁNDAR 17/19 y GOLES OPTIMISTAS 15/23; no hubo GOL ÉLITE (95 % o más). Fallaron en Over 1.5 de 70 % o más: PEC Zwolle 1-0 ADO (87 %), Elche 0-1 Valencia (81 %), Como 1-0 Venezia (78 %), Arouca 1-0 Nacional (78 %), Santos Laguna 1-0 Necaxa (76 %), Moquegua 0-0 Los Chankas (76 %) y Cusco 0-1 Sport Boys (75 %). Over 2.5 con señal: 6 de 8 (la señal fuerte, 2 de 2). Marcadores exactos: 3 de 44. Acumulado de la galería (17 jornadas publicadas): 32/33 GOL ÉLITE y 257/329 en Over 1.5 de 70 % o más (78 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul><p class="legal">Porcentajes redondeados: ,5 o más sube (94,8 → 95 %); menos de ,5 se queda (94,4 → 94 %).</p></section>
 <section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos revisados tienen datos verificados de local y visitante.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
@@ -317,7 +318,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-11-01"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-11-02"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

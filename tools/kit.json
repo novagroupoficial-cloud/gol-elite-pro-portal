@@ -1,21 +1,4 @@
-{
- "local": "FC Groningen",
- "fecha_larga": "Domingo 1 de noviembre de 2026",
- "desde": "05:40",
- "contexto": [
-  "Groningen 8.º (15 pts, 24 GF): Willumsson lleva 8 goles y Van Bergen 6.",
-  "Sparta Rotterdam recibió gol en sus 10 jornadas de liga: 24 en contra (2,4 por partido).",
-  "Sparta 14.º con 9 pts; ganó los tres últimos duelos de liga ante Groningen."
- ],
- "auditoria": {
-  "encabezado": "Así nos fue ayer",
-  "titulo": "Sábado 31 de octubre · 51 partidos auditados",
-  "tiles": [
-   ["43/51", "Partidos con 2 goles o más", "verde"],
-   ["34/42", "Over 1.5 de 70 % o más (81 %)", "verde"],
-   ["3/5", "GOLES PLATINO (90 a 94 %)", "dor"],
-   ["227/292", "Galería: Over 1.5 de 70 % o más (78 %)", "dor"]
-  ],
-  "nota": "Partido del día: Cambuur–Go Ahead Eagles (93 %) se suspendió en el minuto 82: anulado. Aciertos: PSV 7-0 Willem II (91 %), Charlotte 4-0 Orlando (90 %). Fallaron Cincinnati 1-0 Philadelphia (93 %; hubo 1 gol), Ajax 1-0 AZ (90 %; 1 gol) y M'gladbach 0-0 Paderborn (89 %; 0 goles), entre 8 fallos."
- }
-}
+{"local": "Sassuolo", "fecha_larga": "Lunes 2 de noviembre de 2026", "desde": "05:50",
+ "contexto": ["Sassuolo 15.º (8 pts) recibió 22 goles en 9 jornadas; Fiorentina 17.ª (5 pts) recibió 21.", "Ninguno gana en sus últimos 5: Sassuolo cayó 2-6 con la Lazio y la Viola empató 2-2 con el Atalanta.", "Muchas bajas: 8 en Sassuolo y 6 en la Fiorentina (Starting11)."],
+ "auditoria": {"encabezado": "Así nos fue ayer", "titulo": "Domingo 1 de noviembre · 44 partidos auditados", "tiles": [["34/44", "Partidos con 2 goles o más", "verde"], ["30/37", "Over 1.5 de 70 % o más (81 %)", "verde"], ["2/2", "GOLES PLATINO (90 a 94 %)", "dor"], ["257/329", "Galería: Over 1.5 de 70 % o más (78 %)", "dor"]], "nota": "Partido del día: Groningen 2-3 Sparta (dimos 92 %, hubo 5 goles). Aciertos: Telstar 4-2 Utrecht (92 %), Excelsior 0-9 Twente (87 %). Fallaron PEC Zwolle 1-0 ADO (87 %; hubo 1 gol), Elche 0-1 Valencia (81 %; 1 gol) y Como 1-0 Venezia (78 %; 1 gol), entre 7 fallos. 3 partidos de Chile, pendientes."},
+ "acierto": {"fecha": "Domingo 1 de noviembre", "local": "FC Groningen", "visita": "Sparta Rotterdam", "liga": "Eredivisie · Países Bajos", "resultado": "2-3", "over15": 92.2, "goles": "5", "sellado": "05:40 ECU del 1-nov"}}

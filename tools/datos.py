@@ -1,4 +1,4 @@
-# Tablas casa/fuera — miércoles 21-oct-2026 (bloque MAR20 con el martes 20 y Cincinnati-Columbus) · antes: martes 20-oct-2026 (bloque LUN19 con el lunes 19 y Monterrey-Pachuca) · antes: lunes 19-oct-2026 (antes de los partidos del día, incluye todo hasta el domingo 18-oct; bloque DOM18 al final): equipo: (PJ, GF, GC)
+# Tablas casa/fuera — lunes 2-nov-2026 (bloque DOM01 con el domingo 1-nov) · antes: miércoles 21-oct-2026 (bloque MAR20 con el martes 20 y Cincinnati-Columbus) · antes: martes 20-oct-2026 (bloque LUN19 con el lunes 19 y Monterrey-Pachuca) · antes: lunes 19-oct-2026 (antes de los partidos del día, incluye todo hasta el domingo 18-oct; bloque DOM18 al final): equipo: (PJ, GF, GC)
 # Datos manuales (el Dashboard Gol 4.0 aún no expone /api/dia). Fuente de cada liga en su comentario.
 L={}
 # BRA: base tools/datos.py (valorfinal tabelas-por-recorte, tras 30ª rodada + Mirassol 2-0 Internacional 16/10) + 4 partidos del sábado 17/10 (31ª rodada): Botafogo 1-0 Chapecoense, Atletico MG 1-0 Coritiba, Athletico-PR 0-2 Palmeiras, São Paulo 1-0 Vasco da Gama. Fuentes: https://ptd.verdao.net/brasileirao-2026-resultados-de-sabado-pela-31a-rodada-classificacao-atualizada/ · https://www.supervasco.com/noticias/tabela-atualizada-da-serie-a-apos-os-jogos-deste-sabado-18-da-rodada-31-457982.html · https://365scores.com/pt-br/news/magazine/sao-paulo-vence-vasco-sobe-tabela-brasileirao · calendario https://valorfinal.com.br/brasileirao/2026/rodada-31 . Cotejada equipo por equipo (40/40 filas idénticas) con https://valorfinal.com.br/brasileirao/tabelas-por-recorte (lectura 18/10/2026 06:30). Corte: sábado 17/10/2026 incluido (pendientes 31ª: 4 de hoy + Corinthians–Vitória lun 19/10). 304 partidos · control: PJ 304=304, GF casa 465 = GC fuera 465, GC casa 342 = GF fuera 342
@@ -455,6 +455,58 @@ SAB31=[
  ('MEX','America',2,2,'Toluca'),  # https://www.infobae.com/america/agencias/2026/11/01/america-empata-con-toluca-y-recupera-el-liderato-del-apertura-mexicano/
 ]
 for _lg,_a,_ga,_gb,_b in SAB31:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
+# ===== Actualización lun 2-nov-2026 (rutina diaria 05:2x ECU): partidos del DOMINGO 1-nov (data/2026-11-01/auditoria.json, 44/47 terminados, cada uno con su fuente).
+# Pendientes sin sumar: CHI Huachipato–La Serena, Cobresal–Everton y U. Católica–U. de Chile (sin informe final hallado; no afectan a los equipos de CHI de hoy, solo levemente las medias). Local en casa, visitante fuera. Corte nuevo: dom 1-nov-2026 final (CHI: sáb 31-oct).
+DOM01=[
+ ('NED','PEC Zwolle',1,0,'ADO Den Haag'),  # https://www.voetbalnieuws.nl/nieuws/2153645/pec-verslaat-ado-en-duwt-hagenaars-verder-in-problemen.html
+ ('ITA','Como',1,0,'Venezia'),  # https://www.sportivo24.it/notizie/calcio/serie-a/202632-como-venezia-1-0-decide-da-cunha-su-calcio-rigore/
+ ('ESP','Getafe',3,1,'Sevilla'),  # https://futboltotal.futbol/partido/getafe-vs-sevilla-la-liga-2026-11-01
+ ('NED','Excelsior',0,9,'FC Twente'),  # https://futboltotal.futbol/partido/excelsior-vs-twente-eredivisie-2026-11-01
+ ('NED','Telstar',4,2,'FC Utrecht'),  # https://www.fcupdate.nl/voetbalcompetities/nederland/eredivisie/programma-uitslagen/2026-2027/telstar-fc-utrecht-01-11
+ ('ITA','Frosinone',2,0,'Torino'),  # https://futboltotal.futbol/partido/frosinone-vs-torino-serie-a-2026-11-01
+ ('ITA','Lazio',2,1,'Cagliari'),  # https://futboltotal.futbol/partido/lazio-vs-cagliari-serie-a-2026-11-01
+ ('FRA','Strasbourg',5,1,'Auxerre'),  # https://futboltotal.futbol/partido/strasbourg-vs-auxerre-ligue-1-2026-11-01
+ ('GER','Union Berlin',1,1,'1. FC Koln'),  # https://futboltotal.futbol/partido/union-berlin-vs-1fc-koln-bundesliga-1575207
+ ('ESP','Racing Santander',0,3,'Real Madrid'),  # https://sporza.be/nl/sport/voetbal/~3341413/
+ ('POR','Arouca',1,0,'Nacional'),  # https://futboltotal.futbol/partido/arouca-vs-nacional-primeira-liga-2026-11-01
+ ('NED','FC Groningen',2,3,'Sparta Rotterdam'),  # https://sporza.be/nl/sport/voetbal/~3338731/
+ ('ECU','Universidad Católica',1,2,'Aucas'),  # https://www.primicias.ec/deportes/ligapro/universidad-catolica/envivo-aucas-fecha5-primer-hexagonal-resultado-ver-partido-tv-136081/
+ ('PER','CD Moquegua',0,0,'Los Chankas'),  # https://depor.com/resultados/2026-11-01/
+ ('FRA','Paris FC',3,1,'Monaco'),  # https://futboltotal.futbol/partido/paris-fc-vs-monaco-ligue-1-2026-11-01
+ ('FRA','Lyon',2,0,'Angers'),  # https://www.t-online.de/sport/live-ticker/fussball/french-ligue-1/sdc_fm-58215/lyon-angers-french-ligue-1-im-liveticker.html
+ ('ENG','Liverpool',0,1,'Arsenal'),  # https://futboltotal.futbol/partido/liverpool-vs-arsenal-premier-league-2026-11-01
+ ('GER','Eintracht Frankfurt',3,1,'Hamburger SV'),  # https://www.zdfheute.de/sport/Bundesliga-26-27/12194446
+ ('ITA','Lecce',1,2,'Genoa'),  # https://futboltotal.futbol/partido/lecce-vs-genoa-serie-a-2026-11-01
+ ('ESP','Elche',0,1,'Valencia'),  # https://futboltotal.futbol/partido/elche-vs-valencia-la-liga-2026-11-01
+ ('POR','Maritimo',0,2,'Santa Clara'),  # https://futboltotal.futbol/partido/maritimo-vs-santa-clara-primeira-liga-2026-11-01
+ ('POR','Academico Viseu',2,1,'Rio Ave'),  # https://futboltotal.futbol/partido/academico-viseu-vs-rio-ave-primeira-liga-2026-11-01
+ ('ARG','Boca Juniors',1,0,'River Plate'),  # https://gidstats.com/es/futbol/argentina/2026-11-01-1493214-boca-juniors-river-plate/
+ ('PER','Cusco FC',0,1,'Sport Boys'),  # https://depor.com/resultados/2026-11-01/
+ ('ECU','Independiente del Valle',2,0,'LDU Quito'),  # https://www.primicias.ec/deportes/ligapro/independiente-del-valle/envivo-idv-liga-quito-fecha5-primer-hexagonal-resultado-ver-partido-tv-136089/
+ ('ITA','Juventus',2,0,'Napoli'),  # https://futboltotal.futbol/partido/juventus-vs-napoli-serie-a-2026-11-01
+ ('FRA','Marseille',2,0,'Toulouse'),  # https://futboltotal.futbol/partido/marseille-vs-toulouse-ligue-1-2026-11-01
+ ('ESP','Athletic Club',2,1,'Real Sociedad'),  # https://futboltotal.futbol/partido/athletic-club-vs-real-sociedad-laliga-1570433
+ ('POR','Sporting Braga',3,0,'Famalicao'),  # https://futboltotal.futbol/partido/sc-braga-vs-famalicao-primeira-liga-2026-11-01
+ ('PER','Atlético Grau',1,3,'Universitario'),  # https://depor.com/resultados/2026-11-01/
+ ('USA','Vancouver',5,1,'Seattle'),  # https://futboltotal.futbol/partido/vancouver-whitecaps-vs-seattle-sounders-mls-2026-11-01
+ ('ECU','Guayaquil City',0,0,'Libertad'),  # https://www.primicias.ec/deportes/ligapro/guayaquil-city/envivo-libertadfc-fecha5-cuadrangular-resultado-ver-partido-tv-136097/
+ ('COL','Deportivo Cali',2,0,'Boyacá Chicó'),  # https://depor.com/resultados/2026-11-01/
+ ('ARG','Belgrano',2,2,'Barracas Central'),  # https://gidstats.com/es/futbol/argentina/2026-11-01-1493213-belgrano-cordoba-barracas-central/
+ ('ARG','Newells Old Boys',1,1,'Union Santa Fe'),  # https://gidstats.com/es/futbol/argentina/2026-11-01-1493222-newells-old-boys-union-santa-fe/
+ ('USA','Atlanta United',3,1,'Toronto'),  # https://futboltotal.futbol/partido/atlanta-united-fc-vs-toronto-fc-mls-2026-11-01
+ ('USA','Nashville SC',3,2,'New York RB'),  # https://gidstats.com/football/mls/2026-11-01-1490586-nashville-sc-vs-new-york-red-bulls/
+ ('MEX','Santos Laguna',1,0,'Necaxa'),  # https://www.clubsantos.mx/en/matches/temporada-2026-2027-1-liga-bbva-mx-15-santos-laguna-vs-necaxa-2641306
+ ('COL','Independiente Medellín',2,1,'Alianza (ex Alianza Petrolera)'),  # https://depor.com/resultados/2026-11-01/
+ ('ARG','Lanus',1,1,'Gimnasia Mendoza'),  # https://africa.espn.com/football/match/_/gameId/401841651/gimnasia-mendoza-lanus
+ ('USA','New England',1,2,'Inter Miami'),  # https://www.thescore.com/mls/event/93411
+ ('MEX','Cruz Azul',2,1,'Leon'),  # https://gidstats.com/football/liga-mx/2026-11-01-1551028-cruz-azul-vs-leon/
+ ('USA','Los Angeles FC',1,3,'Minnesota United'),  # https://www.thescore.com/mls/event/93413
+ ('USA','Portland',3,1,'Houston Dynamo'),  # https://gidstats.com/football/mls/2026-11-01-1490599-portland-timbers-vs-houston-dynamo/
+]
+for _lg,_a,_ga,_gb,_b in DOM01:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 

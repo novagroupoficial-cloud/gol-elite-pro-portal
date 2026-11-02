@@ -49,6 +49,9 @@ El modelo mejora en este orden:
 3. **GOLES ESTÁNDAR (80 a 89 %).** Recalibrar la franja que promete de más.
 4. **GOLES OPTIMISTAS (menos de 80 %).**
 Ninguna mejora de una categoría inferior se acepta si empeora una superior.
+**Foco (Marco, 2-nov-2026): el análisis y los ajustes se concentran en GOL ÉLITE y GOLES PLATINO, porque son los que el público usa para apostar.**
+- Por eso, en cada partido de 90 % o más la rutina registra de forma OBLIGATORIA: bajas confirmadas (sobre todo de atacantes y de arqueros), situación en la tabla y si algún equipo no tiene nada en juego, cuotas Over/Under 2.5 y últimos 5. Si un dato no existe, se anota "sin dato".
+- Al comunicar ÉLITE y PLATINO, se publica su cumplimiento real (no solo el prometido) y se mantiene "+18 · probabilidades estadísticas, no garantías".
 
 ## Registro de hipótesis por prioridad (desde 1-nov-2026)
 - ❌ **DESCARTADA (1-nov):** "PLATINO/ÉLITE falla por muestras cortas (<4 partidos por condición)". Datos: con menos de 4 partidos, 13/15 (87 %); de 4 a 6, 15/16 (94 %); 7 o más, 7/8 (88 %). No hay diferencia: no se aplica.

@@ -1,0 +1,55 @@
+{
+ "fecha": "2026-11-03",
+ "tipo": "informativo para reels (no es pronóstico del modelo)",
+ "fuente": "futboltotal.futbol (ficha de cada partido, últimos 5 de cada equipo, consultado 09:40 ECU)",
+ "partidos": {
+  "Barcelona|Aston Villa": {
+   "o15": "9/10",
+   "o25": "8/10",
+   "prom": 4.1
+  },
+  "Manchester United|Roma": {
+   "o15": "10/10",
+   "o25": "6/10",
+   "prom": 3.9
+  },
+  "LASK|Slovan Bratislava": {
+   "o15": "9/10",
+   "o25": "8/10",
+   "prom": 4.3,
+   "nota": "sin partidos de liga en la ficha (incluye amistoso y previas)"
+  },
+  "Villarreal|PSG": {
+   "o15": "8/10",
+   "o25": "7/10",
+   "prom": 4.0
+  },
+  "Atlético Madrid|Bayern": {
+   "o15": "8/10",
+   "o25": "5/10",
+   "prom": 3.4
+  },
+  "Bodø/Glimt|Lille": {
+   "o15": "8/10",
+   "o25": "6/10",
+   "prom": 3.4,
+   "nota": "Bodø: sin partidos de liga noruega en la ficha"
+  },
+  "Feyenoord|Inter": {
+   "o15": "8/10",
+   "o25": "5/10",
+   "prom": 3.1
+  },
+  "Shakhtar|Sporting CP": {
+   "o15": "8/10",
+   "o25": "5/10",
+   "prom": 2.6,
+   "nota": "Shakhtar: incluye 2 amistosos"
+  },
+  "Galatasaray|Stuttgart": {
+   "o15": "7/10",
+   "o25": "6/10",
+   "prom": 3.4
+  }
+ }
+}

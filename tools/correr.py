@@ -1,27 +1,14 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — lunes 2-nov-2026 (rutina diaria 05:2x ECU). SportyTrader no accesible en esta ejecución (permiso de WebFetch sin respuesta). Calendario: futboltotal.futbol (UTC-6: +1 h), depor.com/resultados/2026-11-02 (UTC-10: +5 h, comprobado en 8 partidos), calcioefinanza (ITA), maxifoot (Lorient-Brest movido al lunes), laliga.com, abola.pt (POR), T13/ESPN (CHI, hora Chile UTC-3: -2 h), elmercurio.com.ec/Primicias (ECU), Vanguardia (COL), gidstats/El Economista (ARG), starting11 (BRA). Sin discrepancias una vez convertidas las zonas.
- ('11:00','PER','Sport Huancayo','Melgar'),
- ('12:30','ITA','Sassuolo','Fiorentina'),
- ('13:15','PER','UTC','Deportivo Garcilaso'),
- ('14:45','ITA','Atalanta','Parma'),
- ('14:45','FRA','Lorient','Brest'),
- ('15:00','ENG','Newcastle United','Everton'),
- ('15:00','ESP','Deportivo La Coruna','Osasuna'),
- ('15:15','POR','Benfica','Alverca'),
- ('15:15','POR','Gil Vicente','Guimaraes'),
- ('15:30','ECU','Orense','Técnico Universitario'),
- ('15:30','PER','Sporting Cristal','FC Cajamarca'),
- ('16:00','CHI','D. Limache','Audax Italiano'),
- ('16:05','COL','Águilas Doradas','Fortaleza'),
- ('17:00','ARG','Defensa y Justicia','Independiente'),
- ('17:00','ARG','Platense','Central Cordoba SdE'),
- ('18:00','BRA','Bragantino','Santos'),
- ('18:30','CHI','Concepcion','Palestino'),
- ('19:15','ARG','Atletico Tucuman','Argentinos Juniors'),
- ('19:15','ARG','Independiente Rivadavia','Banfield'),
- ('20:15','COL','Bucaramanga','Atlético Nacional'),
+P=[ # hora (Ecuador), liga, local, visita — martes 3-nov-2026 (chat con Marco, 09:4x ECU; la rutina diaria de hoy no terminó). SportyTrader no accesible en esta sesión. Calendario: La República, Infobae y DSN (hora de Perú = Ecuador). Champions League (9 partidos), Championship, Paraguay y Venezuela: sin pronóstico (sin tabla casa/fuera común o verificable).
+ ('15:00','PER','Comerciantes Unidos','ADT'),
+ ('15:30','COL','Deportivo Pereira','Tolima'),
+ ('15:30','ECU','Mushuc Runa','Manta'),
+ ('17:30','BRA','Chapecoense','Mirassol'),
+ ('18:20','COL','Pasto','Jaguares de Córdoba'),
+ ('19:30','BRA','Internacional','Coritiba'),
+ ('20:00','PER','Alianza Lima','Cienciano'),
 ]
 out=[]
 for h,lg,a,b in P:

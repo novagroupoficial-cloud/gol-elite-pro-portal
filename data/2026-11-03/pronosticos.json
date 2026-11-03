@@ -1,0 +1,219 @@
+[
+ {
+  "hora": "15:00",
+  "liga": "PER",
+  "local": "Comerciantes Unidos",
+  "visita": "ADT",
+  "casa": [
+   6,
+   11,
+   9
+  ],
+  "fuera": [
+   7,
+   4,
+   16
+  ],
+  "HG": 1.78,
+  "AG": 1.22,
+  "lambda_local": 1.95,
+  "lambda_visita": 1.06,
+  "goles_esperados": 3.0,
+  "over15": 81.0,
+  "over25": 57.9,
+  "under25": 42.1,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (corte lun 2-nov-2026 final; bloque LUN02 con cada resultado y su fuente); Dashboard Gol 4.0 /api/dia no consultado"
+ },
+ {
+  "hora": "15:30",
+  "liga": "COL",
+  "local": "Deportivo Pereira",
+  "visita": "Tolima",
+  "casa": [
+   8,
+   6,
+   9
+  ],
+  "fuera": [
+   8,
+   9,
+   11
+  ],
+  "HG": 1.41,
+  "AG": 1.1,
+  "lambda_local": 1.16,
+  "lambda_visita": 1.12,
+  "goles_esperados": 2.3,
+  "over15": 67.4,
+  "over25": 39.8,
+  "under25": 60.2,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (corte lun 2-nov-2026 final; bloque LUN02 con cada resultado y su fuente); Dashboard Gol 4.0 /api/dia no consultado"
+ },
+ {
+  "hora": "15:30",
+  "liga": "ECU",
+  "local": "Mushuc Runa",
+  "visita": "Manta",
+  "casa": [
+   16,
+   17,
+   15
+  ],
+  "fuera": [
+   16,
+   12,
+   32
+  ],
+  "HG": 1.33,
+  "AG": 0.99,
+  "lambda_local": 1.44,
+  "lambda_visita": 0.87,
+  "goles_esperados": 2.3,
+  "over15": 68.2,
+  "over25": 40.7,
+  "under25": 59.3,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (corte lun 2-nov-2026 final; bloque LUN02 con cada resultado y su fuente); Dashboard Gol 4.0 /api/dia no consultado"
+ },
+ {
+  "hora": "17:30",
+  "liga": "BRA",
+  "local": "Chapecoense",
+  "visita": "Mirassol",
+  "casa": [
+   15,
+   21,
+   34
+  ],
+  "fuera": [
+   16,
+   13,
+   25
+  ],
+  "HG": 1.53,
+  "AG": 1.13,
+  "lambda_local": 1.49,
+  "lambda_visita": 1.26,
+  "goles_esperados": 2.7,
+  "over15": 76.9,
+  "over25": 51.8,
+  "under25": 48.2,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (corte lun 2-nov-2026 final; bloque LUN02 con cada resultado y su fuente); Dashboard Gol 4.0 /api/dia no consultado"
+ },
+ {
+  "hora": "18:20",
+  "liga": "COL",
+  "local": "Pasto",
+  "visita": "Jaguares de Córdoba",
+  "casa": [
+   7,
+   3,
+   8
+  ],
+  "fuera": [
+   8,
+   6,
+   17
+  ],
+  "HG": 1.41,
+  "AG": 1.1,
+  "lambda_local": 1.26,
+  "lambda_visita": 0.99,
+  "goles_esperados": 2.3,
+  "over15": 66.8,
+  "over25": 39.1,
+  "under25": 60.9,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (corte lun 2-nov-2026 final; bloque LUN02 con cada resultado y su fuente); Dashboard Gol 4.0 /api/dia no consultado"
+ },
+ {
+  "hora": "19:30",
+  "liga": "BRA",
+  "local": "Internacional",
+  "visita": "Coritiba",
+  "casa": [
+   16,
+   21,
+   17
+  ],
+  "fuera": [
+   16,
+   18,
+   29
+  ],
+  "HG": 1.53,
+  "AG": 1.13,
+  "lambda_local": 1.54,
+  "lambda_visita": 1.1,
+  "goles_esperados": 2.6,
+  "over15": 75.1,
+  "over25": 49.3,
+  "under25": 50.7,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (corte lun 2-nov-2026 final; bloque LUN02 con cada resultado y su fuente); Dashboard Gol 4.0 /api/dia no consultado"
+ },
+ {
+  "hora": "20:00",
+  "liga": "PER",
+  "local": "Alianza Lima",
+  "visita": "Cienciano",
+  "casa": [
+   7,
+   12,
+   6
+  ],
+  "fuera": [
+   7,
+   10,
+   15
+  ],
+  "HG": 1.78,
+  "AG": 1.22,
+  "lambda_local": 1.87,
+  "lambda_visita": 1.16,
+  "goles_esperados": 3.0,
+  "over15": 81.3,
+  "over25": 58.3,
+  "under25": 41.7,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+  "fuente_datos": "manual: tablas casa/fuera de tools/datos.py (corte lun 2-nov-2026 final; bloque LUN02 con cada resultado y su fuente); Dashboard Gol 4.0 /api/dia no consultado"
+ }
+]

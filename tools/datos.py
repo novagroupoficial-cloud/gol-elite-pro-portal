@@ -510,6 +510,33 @@ for _lg,_a,_ga,_gb,_b in DOM01:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# ===== Actualización mar 3-nov-2026 (chat con Marco, 09:4x ECU; la rutina diaria de hoy no terminó): partidos del LUNES 2-nov (data/2026-11-02/auditoria.json, 20/20 terminados, cada uno con su fuente). Local en casa, visitante fuera. Corte nuevo: lun 2-nov-2026 final.
+LUN02=[
+ ('PER','Sport Huancayo',2,0,'Melgar'),  # https://www.infobae.com/peru/deportes/2026/11/02/melgar-vs-sport-huancayo-en-vivo-hoy-minuto-a-minuto-partido-fecha-15-torneo-clausura-liga-1-2026-goles-resumen-resultado/
+ ('ITA','Sassuolo',2,4,'Fiorentina'),  # https://futboltotal.futbol/partido/sassuolo-vs-fiorentina-serie-a-2026-11-02
+ ('PER','UTC',2,3,'Deportivo Garcilaso'),  # https://elcomercio.pe/deporte-total/futbol-peruano/utc-cajamarca-vs-deportivo-garcilaso-en-vivo-hora-y-donde-ver-la-fecha-15-del-torneo-clausura-l1max-l1play-resumen-y-goles-tdpe-noticia/
+ ('ITA','Atalanta',0,3,'Parma'),  # https://futboltotal.futbol/partido/atalanta-vs-parma-serie-a-2026-11-02
+ ('FRA','Lorient',0,2,'Brest'),  # https://gidstats.com/es/futbol/ligue-1/2026-11-02-1552803-lorient-stade-brestois-29/
+ ('ENG','Newcastle United',0,1,'Everton'),  # https://www.thescore.com/epl/event/98345
+ ('ESP','Deportivo La Coruna',2,1,'Osasuna'),  # https://futboltotal.futbol/partido/deportivo-la-coruna-vs-ca-osasuna-laliga-1570436
+ ('POR','Benfica',1,0,'Alverca'),  # https://futboltotal.futbol/partido/benfica-vs-alverca-primeira-liga-2026-11-02
+ ('POR','Gil Vicente',0,0,'Guimaraes'),  # https://www.sporttv.pt/noticias/859920/gil-vicente-e-vitoria-nao-saem-do-nulo
+ ('ECU','Orense',1,1,'Técnico Universitario'),  # https://www.primicias.ec/deportes/ligapro/orense/envivo-tecnico-universitario-fecha5-hexagonal-descenso-ver-resultado-partido-tv-136100/
+ ('PER','Sporting Cristal',5,0,'FC Cajamarca'),  # https://larepublica.pe/deportes/2026/11/02/en-vivo-sporting-cristal-vs-fc-cajamarca-hoy-a-que-hora-y-donde-ver-partido-por-el-torneo-clausura-de-la-liga-1-2026-96750
+ ('CHI','D. Limache',2,0,'Audax Italiano'),  # https://www.lanacion.com.ar/deportes/canchallena/deportes-limache-vencio-2-0-a-audax-italiano-por-la-primera-division-chile-2026-nid02112026/
+ ('COL','Águilas Doradas',1,0,'Fortaleza'),  # https://www.futbolred.com/futbol-colombiano/liga-betplay/aguilas-doradas-supera-a-fortaleza-fc-1-0-en-medellin-con-gol-de-ricaurte-274755
+ ('ARG','Defensa y Justicia',1,1,'Independiente'),  # https://futboltotal.futbol/partido/defensa-y-justicia-vs-independiente-liga-profesional-argentina-2026-11-02
+ ('ARG','Platense',2,0,'Central Cordoba SdE'),  # https://futboltotal.futbol/partido/platense-vs-central-cordoba-de-santiago-liga-profesional-argentina-2026-11-02
+ ('BRA','Bragantino',2,1,'Santos'),  # https://gidstats.com/football/brasileirao/2026-11-02-1492442-rb-bragantino-vs-santos/
+ ('CHI','Concepcion',1,0,'Palestino'),  # https://www.espn.com/soccer/match/_/gameId/401850679/palestino-deportes-concepcion
+ ('ARG','Atletico Tucuman',1,2,'Argentinos Juniors'),  # https://www.sporx.com/atletico-tucuman-argentinos-juniors-maci-canli-puan-durumu-5116083
+ ('ARG','Independiente Rivadavia',3,1,'Banfield'),  # https://www.canal26.com/futbol/liga-profesional-de-futbol/independiente-riv-m-vs-banfield-en-vivo-hoy-resultado-goles-y-minuto-a-minuto-del-torneo-clausura-2026/
+ ('COL','Bucaramanga',1,1,'Atlético Nacional'),  # https://futboltotal.futbol/partido/bucaramanga-vs-atletico-nacional-primera-a-2026-11-03
+]
+for _lg,_a,_ga,_gb,_b in LUN02:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

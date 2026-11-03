@@ -73,6 +73,15 @@ Ninguna mejora de una categoría inferior se acepta si empeora una superior.
   - **Regla de aceptación:** la del ciclo; además, al menos 40 partidos y que no toque nada de las ligas nacionales. ÉLITE y PLATINO de copas no se publican hasta tener 30 casos auditados.
   - **Mientras tanto:** los partidos de copas siguen "sin pronóstico" y no se inventan números.
 
+- 🔬 **EN MEDICIÓN (3-nov-2026, propuesta de Marco): "indicador últimos 5" como variable de pronóstico.**
+  - **Qué mide:** se juntan los últimos 5 partidos de cada equipo (10 en total) y se cuenta en cuántos hubo 2 goles o más (Over 1.5) y 3 o más (Over 2.5), más el promedio de goles. Fuente: la ficha de cada partido en futboltotal.
+  - **Primer registro:** los 9 partidos de Champions del 3-nov, en `data/2026-11-03/champions-ultimos5.json`. Se comparan con sus resultados el 4-nov.
+  - **Cómo se decide:**
+    - se registra cada día y se audita igual que el modelo;
+    - se mide si los partidos con 9 o 10 de 10 cumplen más que los de 7 u 8 de 10;
+    - en ligas nacionales, si mejora el Brier al combinarlo con el modelo (se une a la medición de `ultimos5.json`).
+  - **Umbral:** decisión con 100 partidos o más. Un día bueno o malo no decide nada.
+
 ## Base estadística propia: semana por semana y mes por mes (pedido de Marco, 25-oct-2026)
 - `tools/kaizen/seguimiento.json` guarda, para lo SELLADO:
   - `por_semana` (lunes a domingo) y `por_mes`, con partidos, aciertos de Over 1.5, GOLES PLATINO/GOL ÉLITE, señales de Over 2.5 fuertes y moderadas, goles reales vs esperados, aciertos por liga, Brier, skill y AUC;

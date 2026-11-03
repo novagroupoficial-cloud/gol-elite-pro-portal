@@ -63,6 +63,16 @@ Ninguna mejora de una categoría inferior se acepta si empeora una superior.
 
   Se mide con las etiquetas de `historial.py` (`bajas` y, desde ahora, `sin_nada_en_juego`). No cambia porcentajes, solo la categoría con que se destaca. Necesita al menos 30 partidos PLATINO/ÉLITE con noticia antes de decidir.
 
+- 🔬 **ABIERTA (3-nov-2026, aprobada por Marco): "modo copas" para Champions League y torneos entre ligas.**
+  - **Problema:** el modelo usa la tabla casa/fuera y la media de UNA liga. En Champions se cruzan ligas de nivel distinto. Por eso hoy esos partidos quedan "sin pronóstico" (el 3-nov fueron 9 partidos).
+  - **Hipótesis:** si se ajusta el ataque y la defensa de cada equipo por un coeficiente de nivel de su liga (público y verificable: coeficiente UEFA por país) y se usa como base la media de goles de la propia Champions (local/visita), el Over 1.5 y el Over 2.5 de copas quedan calibrados.
+  - **Prueba:**
+    - todos los partidos de la fase liga 2026-27 ya jugados (jornadas 1 a 3) cuyos dos equipos tengan tabla verificada en `datos.py`;
+    - tablas reconstruidas al corte previo de cada partido con el historial de git, para no usar datos del futuro;
+    - comparar con la referencia "media de goles de la Champions" por Brier, skill y AUC.
+  - **Regla de aceptación:** la del ciclo; además, al menos 40 partidos y que no toque nada de las ligas nacionales. ÉLITE y PLATINO de copas no se publican hasta tener 30 casos auditados.
+  - **Mientras tanto:** los partidos de copas siguen "sin pronóstico" y no se inventan números.
+
 ## Base estadística propia: semana por semana y mes por mes (pedido de Marco, 25-oct-2026)
 - `tools/kaizen/seguimiento.json` guarda, para lo SELLADO:
   - `por_semana` (lunes a domingo) y `por_mes`, con partidos, aciertos de Over 1.5, GOLES PLATINO/GOL ÉLITE, señales de Over 2.5 fuertes y moderadas, goles reales vs esperados, aciertos por liga, Brier, skill y AUC;

@@ -1,4 +1,37 @@
-{"local": "Sassuolo", "fecha_larga": "Lunes 2 de noviembre de 2026", "desde": "05:50",
- "contexto": ["Sassuolo 15.º (8 pts) recibió 22 goles en 9 jornadas; Fiorentina 17.ª (5 pts) recibió 21.", "Ninguno gana en sus últimos 5: Sassuolo cayó 2-6 con la Lazio y la Viola empató 2-2 con el Atalanta.", "Muchas bajas: 8 en Sassuolo y 6 en la Fiorentina (Starting11)."],
- "auditoria": {"encabezado": "Así nos fue ayer", "titulo": "Domingo 1 de noviembre · 44 partidos auditados", "tiles": [["34/44", "Partidos con 2 goles o más", "verde"], ["30/37", "Over 1.5 de 70 % o más (81 %)", "verde"], ["2/2", "GOLES PLATINO (90 a 94 %)", "dor"], ["257/329", "Galería: Over 1.5 de 70 % o más (78 %)", "dor"]], "nota": "Partido del día: Groningen 2-3 Sparta (dimos 92 %, hubo 5 goles). Aciertos: Telstar 4-2 Utrecht (92 %), Excelsior 0-9 Twente (87 %). Fallaron PEC Zwolle 1-0 ADO (87 %; hubo 1 gol), Elche 0-1 Valencia (81 %; 1 gol) y Como 1-0 Venezia (78 %; 1 gol), entre 7 fallos. 3 partidos de Chile, pendientes."},
- "acierto": {"fecha": "Domingo 1 de noviembre", "local": "FC Groningen", "visita": "Sparta Rotterdam", "liga": "Eredivisie · Países Bajos", "resultado": "2-3", "over15": 92.2, "goles": "5", "sellado": "05:40 ECU del 1-nov"}}
+{
+ "local": "Botafogo",
+ "fecha_larga": "Miércoles 4 de noviembre de 2026",
+ "desde": "05:34",
+ "contexto": [
+  "Botafogo 13.º (39 pts) y Atlético-MG 7.º (50 pts): ambos vienen de 2 derrotas.",
+  "Botafogo pelea la permanencia: riesgo de descenso de 18,7 % si pierde.",
+  "Fuente: Valor Final (4-nov)."
+ ],
+ "auditoria": {
+  "encabezado": "Así nos fue ayer",
+  "titulo": "Martes 3 de noviembre · 7 partidos auditados",
+  "tiles": [
+   [
+    "5/7",
+    "Partidos con 2 goles o más",
+    "verde"
+   ],
+   [
+    "2/4",
+    "Over 1.5 de 70 % o más (50 %)",
+    "dor"
+   ],
+   [
+    "1/2",
+    "GOLES ESTÁNDAR (80 a 89 %)",
+    "dor"
+   ],
+   [
+    "271/349",
+    "Galería: Over 1.5 de 70 % o más (78 %)",
+    "verde"
+   ]
+  ],
+  "nota": "Falló el partido del día: Alianza Lima 1-0 Cienciano (dimos 81 %, hubo 1 gol). También falló Internacional 1-0 Coritiba (75 %; 1 gol). Acertamos Comerciantes U. 2-2 ADT (81 %; 4 goles) y Chapecoense 1-2 Mirassol (77 %; 3 goles). Publicamos aciertos y fallos."
+ }
+}

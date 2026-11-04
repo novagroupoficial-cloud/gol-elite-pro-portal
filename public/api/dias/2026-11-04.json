@@ -1,0 +1,208 @@
+{
+ "fecha": "2026-11-04",
+ "actualizado": "2026-11-04 05:37 ECU (UTC-5)",
+ "zona_horaria": "America/Guayaquil (UTC-5)",
+ "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
+ "fuente_sellada": "data/2026-11-04/pronosticos.json",
+ "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
+ "orden": "de mayor a menor Over 1.5",
+ "resumen_del_dia": {
+  "terminados": 0,
+  "total": 7,
+  "over15_70": [
+   0,
+   0
+  ],
+  "over25_senal": [
+   0,
+   0
+  ],
+  "marcadores_exactos": 0
+ },
+ "rango_80_90": [],
+ "todos": [
+  {
+   "puesto": 1,
+   "hora_ecuador": "19:30",
+   "liga": "Brasileirão",
+   "local": "Botafogo",
+   "visitante": "Atletico MG",
+   "over15": 75.6,
+   "over25": 49.9,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 16,
+    "gf": 26,
+    "gc": 22
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 17,
+    "gc": 21
+   },
+   "sellado": "2026-11-04 05:34 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 2,
+   "hora_ecuador": "17:30",
+   "liga": "Brasileirão",
+   "local": "Athletico-PR",
+   "visitante": "Vasco da Gama",
+   "over15": 75.1,
+   "over25": 49.3,
+   "marcador": "1-1",
+   "goles_esperados": 2.6,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 16,
+    "gf": 27,
+    "gc": 15
+   },
+   "fuera_visitante": {
+    "pj": 15,
+    "gf": 15,
+    "gc": 25
+   },
+   "sellado": "2026-11-04 05:34 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 3,
+   "hora_ecuador": "20:30",
+   "liga": "Liga 1",
+   "local": "Universitario",
+   "visitante": "Sport Boys",
+   "over15": 74.1,
+   "over25": 48.0,
+   "marcador": "1-1",
+   "goles_esperados": 2.6,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 6,
+    "gf": 13,
+    "gc": 6
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 5,
+    "gc": 7
+   },
+   "sellado": "2026-11-04 05:34 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 4,
+   "hora_ecuador": "19:30",
+   "liga": "Brasileirão",
+   "local": "São Paulo",
+   "visitante": "Corinthians",
+   "over15": 73.2,
+   "over25": 46.9,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 16,
+    "gf": 25,
+    "gc": 13
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 18,
+    "gc": 25
+   },
+   "sellado": "2026-11-04 05:34 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 5,
+   "hora_ecuador": "18:30",
+   "liga": "Liga BetPlay",
+   "local": "Cúcuta",
+   "visitante": "Santa Fe",
+   "over15": 71.8,
+   "over25": 44.9,
+   "marcador": "1-1",
+   "goles_esperados": 2.5,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 8,
+    "gf": 12,
+    "gc": 8
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 9,
+    "gc": 8
+   },
+   "sellado": "2026-11-04 05:34 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 6,
+   "hora_ecuador": "17:30",
+   "liga": "Brasileirão",
+   "local": "Flamengo",
+   "visitante": "Grêmio",
+   "over15": 70.9,
+   "over25": 44.1,
+   "marcador": "1-0",
+   "goles_esperados": 2.4,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 16,
+    "gf": 32,
+    "gc": 12
+   },
+   "fuera_visitante": {
+    "pj": 16,
+    "gf": 10,
+    "gc": 23
+   },
+   "sellado": "2026-11-04 05:34 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 7,
+   "hora_ecuador": "20:30",
+   "liga": "Liga BetPlay",
+   "local": "Millonarios",
+   "visitante": "América de Cali",
+   "over15": 65.0,
+   "over25": 37.1,
+   "marcador": "1-1",
+   "goles_esperados": 2.2,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 11,
+    "gc": 4
+   },
+   "fuera_visitante": {
+    "pj": 7,
+    "gf": 9,
+    "gc": 5
+   },
+   "sellado": "2026-11-04 05:34 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "sin_pronostico": []
+}

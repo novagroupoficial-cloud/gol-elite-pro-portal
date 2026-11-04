@@ -1107,6 +1107,34 @@ LLEGAN={
  'Bragantino|Santos':['Bragantino marcó 8 goles en sus últimos 3 partidos de local (3-0, 4-2 y 1-1).','Santos 8.º (47 pts) con 49 GF y 47 GC; viene de dos empates en casa (0-0 y 1-1).','En la ida ganó Santos 2-0.','Fuentes: Valor Final y Fútbol Total.'],
 }
 
+
+# ---- Miércoles 4-nov-2026 (rutina diaria, sellado 05:34 ECU) ----
+# LINK: página real de cada partido (Valor Final para Brasil, Fútbol Total/ESPN para Colombia, Fútbol Peruano para Perú). Hoy ningún partido llega a 80 % en Over 1.5 (PRED vacío).
+_VF='https://valorfinal.com.br/brasileirao/jogos/'
+LINK={
+ 'Athletico-PR|Vasco da Gama':('Athletico-PR x Vasco: probabilidades y análisis de la 34.ª rodada','Valor Final',_VF+'athletico-pr-x-vasco'),
+ 'Flamengo|Grêmio':('Flamengo x Grêmio: el líder recibe a un Grêmio en zona baja','Valor Final',_VF+'flamengo-x-gremio'),
+ 'Cúcuta|Santa Fe':('Cúcuta vs Santa Fe: ficha, forma y tabla de la jornada 17','Fútbol Total','https://futboltotal.futbol/partido/cucuta-vs-santa-fe-primera-a-2026-11-03'),
+ 'Botafogo|Atletico MG':('Botafogo x Atlético-MG: los dos llegan de perder y el Fogão mira el descenso','Valor Final',_VF+'botafogo-x-atletico-mg'),
+ 'São Paulo|Corinthians':('São Paulo x Corinthians: clásico Majestoso de la 34.ª rodada','Valor Final',_VF+'sao-paulo-x-corinthians'),
+ 'Millonarios|América de Cali':('Millonarios vs América de Cali: ficha del partido de la Liga BetPlay','ESPN','https://espndeportes.espn.com/futbol/partido/_/juegoId/401850874/millonarios-america-de-cali'),
+ 'Universitario|Sport Boys':('Se reprogramó el partido entre Universitario y Sport Boys (miércoles 4, 20:30)','Fútbol Peruano','https://www.futbolperuano.com/liga-1/noticias/se-reprogramo-el-partido-entre-universitario-y-sport-boys-por-el-torneo-clausura-605542'),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['São Paulo|Corinthians','Flamengo|Grêmio','Millonarios|América de Cali','Universitario|Sport Boys']
+# Aciertos de ayer (martes 3): (partido, marcador real, nuestro Over 1.5, medio, url)
+ACIERTOS=[
+ ("Comerciantes Unidos vs ADT","2-2","81 % · mar 3","Bolavip","https://bolavip.com/pe/liga-1/tabla-de-posiciones-del-torneo-clausura-y-acumulado-2026-alianza-lima-vs-cienciano-comerciantes-unidos-vs-adt"),
+ ("Chapecoense vs Mirassol","1-2","77 % · mar 3","Fútbol Total","https://futboltotal.futbol/partido/chapecoense-sc-vs-mirassol-brasileirao-2026-11-03"),
+ ("Mushuc Runa vs Manta","2-3","68 % · mar 3","El Diario","https://www.eldiario.ec/deportes/manta-fc-vence-2-3-a-mushuc-runa-con-gol-agonico-de-penal-y-mantiene-vivas-sus-esperanzas-en-la-ligapro-03112026/"),
+ ("Deportivo Pereira vs Tolima","1-3","67 % · mar 3","Fútbol Total","https://futboltotal.futbol/league/primera-a"),
+ ("Pasto vs Jaguares de Córdoba","2-0","67 % · mar 3","Fútbol Total","https://futboltotal.futbol/league/primera-a"),
+]
+LLEGAN={
+ 'Botafogo|Atletico MG':['Botafogo 13.º con 39 pts (45 GF, 53 GC); Atlético-MG 7.º con 50 pts (44 GF, 39 GC).','Los dos perdieron sus dos últimos partidos.','Botafogo se juega la permanencia: riesgo de descenso de 9,3 % que sube a 18,7 % si pierde.','Fuente: Valor Final (4-nov).'],
+ 'Athletico-PR|Vasco da Gama':['Athletico-PR 5.º con 54 pts; Vasco 13.º con 38 pts.','Athletico marcó 27 goles en 16 partidos en casa; Vasco recibió 25 en 15 de visitante.','Fuente: Valor Final (jogos do Brasileirão hoje) y tablas casa/fuera de Gol Élite Pro.'],
+}
+
 # ---- Genérico (desde 1-nov-2026): si existe data/<fecha>/sportytrader.json (lista de Marco), manda en PRED y DEST ----
 try:
     _F=next((p.get('sellado','')[:10] for p in _P if p.get('sellado')),None)

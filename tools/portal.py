@@ -20,12 +20,11 @@ def key(p): return f"{p['local']}|{p['visita']}"
 NEWS_PRED={}  # (sin uso en la portada actual)
 NEWS_DEST=[]
 FUENTES=[
- ("Depor · Partidos y resultados del lunes 2 de noviembre","https://depor.com/resultados/2026-11-02/"),
- ("LaLiga · Horarios de la undécima jornada 2026-27","https://www.laliga.com/noticias/horarios-de-la-undecima-jornada-de-laliga-ea-sports-2026-27"),
- ("A Bola · Horarios de la Liga Portugal hasta la 12.ª jornada","https://www.abola.pt/noticias/ja-ha-data-para-o-fc-porto-benfica-os-horarios-ate-a-12a-jornada-da-liga-2026090319073200619"),
- ("T13 · Fecha 26 de la Liga de Primera (Chile)","https://www.t13.cl/noticia/deportes13/universidad-catolica-vs-universidad-chile-cuando-hora-clasico-universitario-29-10-2026"),
- ("El Mercurio · Quinta fecha de la LigaPro","https://elmercurio.com.ec/?p=1288798"),
- ("Fútbol Total · Sassuolo vs Fiorentina: previa del partido del día","https://futboltotal.futbol/partido/sassuolo-vs-fiorentina-serie-a-2026-11-02"),
+ ("Valor Final · Jogos do Brasileirão hoje (34.ª rodada)","https://valorfinal.com.br/jogos-do-brasileirao-hoje"),
+ ("Valor Final · Botafogo x Atlético-MG: partido del día","https://valorfinal.com.br/brasileirao/jogos/botafogo-x-atletico-mg"),
+ ("Fútbol Total · Primera A de Colombia: resultados y calendario","https://futboltotal.futbol/league/primera-a"),
+ ("Fútbol Peruano · Universitario vs Sport Boys reprogramado al miércoles 4","https://www.futbolperuano.com/liga-1/noticias/se-reprogramo-el-partido-entre-universitario-y-sport-boys-por-el-torneo-clausura-605542"),
+ ("Infobae · Alianza Lima 1-0 Cienciano (auditoría del martes 3)","https://www.infobae.com/peru/deportes/2026/11/03/alianza-lima-vs-cienciano-en-vivo-hoy-minuto-a-minuto-partido-matute-fecha-15-torneo-clausura-liga-1-2026-goles-resumen-resultado/"),
 ]
 
 ES.update({'Celta Vigo':'Celta de Vigo','Los Angeles FC':'LAFC','Bayer Leverkusen':'Leverkusen','Leones del Norte':'Leones del Norte','Paris Saint-Germain':'PSG','Atletico MG':'Atlético-MG','Union Santa Fe':'Unión','Instituto Cordoba':'Instituto','Deportivo Riestra':'Riestra','Jaguares de Córdoba':'Jaguares','Santa Fe':'Santa Fe'})
@@ -164,7 +163,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if entero(p['over15'])>=80 else ''}"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=[]
+SIN=['Copas europeas de hoy (Champions League: Fenerbahçe–Liverpool, AEK Atenas–Real Madrid, RB Leipzig–Manchester City, Porto–Napoli, Dortmund–Betis, Slavia Praga–Arsenal, Lens–Como y otros): copa entre ligas, sin tabla casa/fuera común; el «modo copas» sigue en medición (Kaizen)']
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 # Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
@@ -284,30 +283,30 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del lunes 2 de noviembre; se integrará al portal cuando llegue el código.</div>
+<div class="preview">Vista previa del nuevo diseño de la portada. Datos reales del miércoles 4 de noviembre; se integrará al portal cuando llegue el código.</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Lunes 2 de noviembre de 2026 · sellado 05:50 ECU · el de mayor Over 1.5 que aún no empieza</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Miércoles 4 de noviembre de 2026 · sellado 05:34 ECU · el de mayor Over 1.5 que aún no empieza</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{pc(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{pc(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.1 (mejora Kaizen del 26-oct), calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK[key(top)][1])} · <a href="{LINK[key(top)][2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
 {RANK}
-<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>¡Acertamos ayer! Domingo 1 de noviembre: el partido del día, Groningen 2-3 Sparta (dimos Over 1.5 al 92 % · hubo 5 goles), y 30 de 37 en los de 70 % o más · Telstar 4-2 Utrecht (92 %), Excelsior 0-9 Twente (87 %), Strasbourg 5-1 Auxerre (87 %) · también publicamos los fallos · toca para ver el resultado en su medio</p></div>
+<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>Martes 3 de noviembre: 5 de 7 partidos con 2 goles o más · Comerciantes U. 2-2 ADT (dimos Over 1.5 al 81 % · hubo 4 goles), Chapecoense 1-2 Mirassol (77 % · hubo 3 goles) · el partido del día, Alianza Lima 1-0 Cienciano (81 %), falló: lo publicamos igual · toca para ver el resultado en su medio</p></div>
 {resumen}{estrella}{recs}{ayer}{calib}<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1 or ('<p class="legal">Hoy solo el partido del día (arriba) llega a 80 % en Over 1.5; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>' if entero(top['over15'])>=80 else '<p class="legal">Hoy ningún partido llega a 80 % en Over 1.5. El más alto está arriba, como partido del día; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>')}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del lunes</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del miércoles</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Lunes 2 de noviembre de 2026 · pronósticos sellados a las 05:50 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Miércoles 4 de noviembre de 2026 · pronósticos sellados a las 05:34 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
-<section class="box" id="historial"><h3>Auditoría del domingo 1</h3>
-<div class="kpis"><div class="kpi g"><b>✔ 5 goles</b><span>Partido del día: Groningen 2-3 Sparta (92 %)</span></div><div class="kpi g"><b>34/44</b><span>Partidos con 2 goles o más</span></div><div class="kpi g"><b>30/37</b><span>Over 1.5 de 70 % o más (81 %)</span></div><div class="kpi g"><b>6/8</b><span>Over 2.5 con señal (65 % o más)</span></div></div>
-<p class="legal">Domingo 1: 47 partidos, 44 terminados con resultado final y fuente y 3 pendientes de Chile (Huachipato–La Serena, Cobresal–Everton y U. Católica–U. de Chile, sin informe final al auditar). Escala del día: GOLES PLATINO 2/2, GOLES ESTÁNDAR 17/19 y GOLES OPTIMISTAS 15/23; no hubo GOL ÉLITE (95 % o más). Fallaron en Over 1.5 de 70 % o más: PEC Zwolle 1-0 ADO (87 %), Elche 0-1 Valencia (81 %), Como 1-0 Venezia (78 %), Arouca 1-0 Nacional (78 %), Santos Laguna 1-0 Necaxa (76 %), Moquegua 0-0 Los Chankas (76 %) y Cusco 0-1 Sport Boys (75 %). Over 2.5 con señal: 6 de 8 (la señal fuerte, 2 de 2). Marcadores exactos: 3 de 44. Acumulado de la galería (17 jornadas publicadas): 32/33 GOL ÉLITE y 257/329 en Over 1.5 de 70 % o más (78 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
+<section class="box" id="historial"><h3>Auditoría del martes 3</h3>
+<div class="kpis"><div class="kpi"><b>✘ 1 gol</b><span>Partido del día: Alianza Lima 1-0 Cienciano (81 %)</span></div><div class="kpi g"><b>5/7</b><span>Partidos con 2 goles o más</span></div><div class="kpi"><b>2/4</b><span>Over 1.5 de 70 % o más (50 %)</span></div><div class="kpi"><b>0/0</b><span>Over 2.5 con señal (no hubo)</span></div></div>
+<p class="legal">Martes 3: 7 partidos, los 7 terminados con resultado final y fuente. Escala del día: GOLES ESTÁNDAR 1/2 y GOLES OPTIMISTAS 4/5; no hubo GOL ÉLITE ni GOLES PLATINO. Fallaron en Over 1.5 de 70 % o más: Alianza Lima 1-0 Cienciano (81 %; hubo 1 gol) e Internacional 1-0 Coritiba (75 %; hubo 1 gol). Acertaron Comerciantes U. 2-2 ADT (81 %), Chapecoense 1-2 Mirassol (77 %) y los tres de menos de 70 %. Marcadores exactos: 0 de 7. Acumulado de la galería (19 jornadas publicadas): 32/33 GOL ÉLITE y 271/349 en Over 1.5 de 70 % o más (78 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul><p class="legal">Porcentajes redondeados: ,5 o más sube (94,8 → 95 %); menos de ,5 se queda (94,4 → 94 %).</p></section>
 <section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos revisados tienen datos verificados de local y visitante.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
@@ -318,7 +317,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-11-02"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-11-04"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

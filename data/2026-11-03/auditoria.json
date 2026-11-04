@@ -1,0 +1,251 @@
+{
+ "fecha": "2026-11-03",
+ "auditado": "2026-11-04 05:4x ECU (rutina diaria)",
+ "partidos": 7,
+ "terminados": 7,
+ "anulados": 0,
+ "pendientes": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "Rango 80": [
+   1,
+   2
+  ],
+  "Rango 70": [
+   1,
+   2
+  ],
+  "Total >=70": [
+   2,
+   4
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   0
+  ],
+  "Marcadores exactos": [
+   0,
+   7
+  ],
+  "Menos de 70 (informativo)": [
+   3,
+   3
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   1,
+   2
+  ],
+  "GOLES OPTIMISTAS": [
+   4,
+   5
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   0,
+   0
+  ],
+  "moderada": [
+   0,
+   0
+  ]
+ },
+ "intervalo_wilson_95": {
+  "Rango 80": [
+   9.5,
+   90.5
+  ],
+  "Rango 70": [
+   9.5,
+   90.5
+  ],
+  "Total >=70": [
+   15.0,
+   85.0
+  ],
+  "Menos de 70 (informativo)": [
+   43.8,
+   100.0
+  ],
+  "GOLES ESTÁNDAR": [
+   9.5,
+   90.5
+  ],
+  "GOLES OPTIMISTAS": [
+   37.6,
+   96.4
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Alianza Lima vs Cienciano",
+  "over15": 81.3,
+  "sellado": "09:32 ECU",
+  "resultado": "1-0",
+  "goles": 1,
+  "acierto": false,
+  "estado": "terminado",
+  "fuente": "https://www.infobae.com/peru/deportes/2026/11/03/alianza-lima-vs-cienciano-en-vivo-hoy-minuto-a-minuto-partido-matute-fecha-15-torneo-clausura-liga-1-2026-goles-resumen-resultado/",
+  "nota": "El 3-nov no hubo kit de redes; partido del día = el de mayor Over 1.5 sellado (regla)."
+ },
+ "fallos_over15_70": [
+  "Internacional 1-0 Coritiba (75,1 %; hubo 1 gol)",
+  "Alianza Lima 1-0 Cienciano (81,3 %; hubo 1 gol)"
+ ],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [
+  "Deportivo Pereira 1-3 Tolima (67,4 %, menos de 70: no recomendado; hubo 4 goles)",
+  "Mushuc Runa 2-3 Manta (68,2 %, menos de 70: no recomendado; hubo 5 goles)",
+  "Pasto 2-0 Jaguares de Córdoba (66,8 %, menos de 70: no recomendado; hubo 2 goles)"
+ ],
+ "anulados_lista": [],
+ "pendientes_lista": [],
+ "nota": "Resultados buscados el 4-nov en fuentes abiertas (Bolavip, Infobae, futboltotal, El Diario EC), cada uno con su fuente. El Dashboard Gol 4.0 no se consultó (sin URL pública) y no hubo resultados-en-vivo.json del 3-nov. Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. Escala de Marco del 17-oct sobre el entero redondeado y, aparte, la escala clásica. Intervalos de Wilson 95 %. Champions League del 3-nov: sin pronóstico, no se audita.",
+ "resultados": [
+  {
+   "hora": "15:00",
+   "liga": "PER",
+   "local": "Comerciantes Unidos",
+   "visita": "ADT",
+   "resultado": "2-2",
+   "estado": "terminado",
+   "over15": 81.0,
+   "over25": 57.9,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://bolavip.com/pe/liga-1/tabla-de-posiciones-del-torneo-clausura-y-acumulado-2026-alianza-lima-vs-cienciano-comerciantes-unidos-vs-adt"
+  },
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Deportivo Pereira",
+   "visita": "Tolima",
+   "resultado": "1-3",
+   "estado": "terminado",
+   "over15": 67.4,
+   "over25": 39.8,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/league/primera-a"
+  },
+  {
+   "hora": "15:30",
+   "liga": "ECU",
+   "local": "Mushuc Runa",
+   "visita": "Manta",
+   "resultado": "2-3",
+   "estado": "terminado",
+   "over15": 68.2,
+   "over25": 40.7,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.eldiario.ec/deportes/manta-fc-vence-2-3-a-mushuc-runa-con-gol-agonico-de-penal-y-mantiene-vivas-sus-esperanzas-en-la-ligapro-03112026/"
+  },
+  {
+   "hora": "17:30",
+   "liga": "BRA",
+   "local": "Chapecoense",
+   "visita": "Mirassol",
+   "resultado": "1-2",
+   "estado": "terminado",
+   "over15": 76.9,
+   "over25": 51.8,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/chapecoense-sc-vs-mirassol-brasileirao-2026-11-03"
+  },
+  {
+   "hora": "18:20",
+   "liga": "COL",
+   "local": "Pasto",
+   "visita": "Jaguares de Córdoba",
+   "resultado": "2-0",
+   "estado": "terminado",
+   "over15": 66.8,
+   "over25": 39.1,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Menos de 70",
+   "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/league/primera-a"
+  },
+  {
+   "hora": "19:30",
+   "liga": "BRA",
+   "local": "Internacional",
+   "visita": "Coritiba",
+   "resultado": "1-0",
+   "estado": "terminado",
+   "over15": 75.1,
+   "over25": 49.3,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "rango_clasico": "Rango 70",
+   "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://futboltotal.futbol/partido/internacional-vs-coritiba-brasileirao-2026-11-04"
+  },
+  {
+   "hora": "20:00",
+   "liga": "PER",
+   "local": "Alianza Lima",
+   "visita": "Cienciano",
+   "resultado": "1-0",
+   "estado": "terminado",
+   "over15": 81.3,
+   "over25": 58.3,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "rango_clasico": "Rango 80",
+   "sellado": "2026-11-03 09:32 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.infobae.com/peru/deportes/2026/11/03/alianza-lima-vs-cienciano-en-vivo-hoy-minuto-a-minuto-partido-matute-fecha-15-torneo-clausura-liga-1-2026-goles-resumen-resultado/"
+  }
+ ]
+}

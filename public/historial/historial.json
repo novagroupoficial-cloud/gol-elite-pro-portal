@@ -571,5 +571,81 @@
    "Racing 0-3 Real Madrid (Over 1.5 al 83,9 % · hubo 3 goles)"
   ],
   "partidos": 44
+ },
+ {
+  "fecha": "2026-11-02",
+  "titulo": "Lunes 2 de noviembre de 2026",
+  "imagen": "/historial/2026-11-02.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "0/0",
+    "GOLES PLATINO (90 a 94 %)"
+   ],
+   [
+    "12/16",
+    "Over 1.5 de 70 % o más (75 %)"
+   ],
+   [
+    "2/2",
+    "Over 2.5 con señal (100 %)"
+   ],
+   [
+    "3/20",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Fallaron 4 Over 1.5 de 70 % o más: Benfica 1-0 Alverca (82,1 %), Dep. Concepción 1-0 Palestino (75,5 %), Águilas Doradas 1-0 Fortaleza (74,6 %), Newcastle United 0-1 Everton (74,1 %). Over 2.5 con señal: 2 de 2. En total, 15 de 20 partidos terminados tuvieron 2 goles o más.",
+  "aciertos_destacados": [
+   "Sassuolo 2-4 Fiorentina (Over 1.5 al 88,9 % · hubo 6 goles) · partido del día",
+   "Sporting Cristal 5-0 FC Cajamarca (Over 1.5 al 86,8 % · hubo 5 goles)",
+   "Atalanta 0-3 Parma (Over 1.5 al 83,7 % · hubo 3 goles)",
+   "Deportivo La Coruña 2-1 Osasuna (Over 1.5 al 82,8 % · hubo 3 goles)",
+   "Bragantino 2-1 Santos (Over 1.5 al 79,6 % · hubo 3 goles)",
+   "Lorient 0-2 Brest (Over 1.5 al 78,3 % · hubo 2 goles)",
+   "Dep. Limache 2-0 Audax Italiano (Over 1.5 al 77,8 % · hubo 2 goles)",
+   "Sport Huancayo 2-0 Melgar (Over 1.5 al 76,9 % · hubo 2 goles)",
+   "Bucaramanga 1-1 Atlético Nacional (Over 1.5 al 76,7 % · hubo 2 goles)",
+   "Independiente Rivadavia 3-1 Banfield (Over 1.5 al 76,3 % · hubo 4 goles)",
+   "UTC 2-3 Deportivo Garcilaso (Over 1.5 al 73,9 % · hubo 5 goles)",
+   "Orense 1-1 Técnico Universitario (Over 1.5 al 70,3 % · hubo 2 goles)"
+  ],
+  "partidos": 20
+ },
+ {
+  "fecha": "2026-11-03",
+  "titulo": "Martes 3 de noviembre de 2026",
+  "imagen": "/historial/2026-11-03.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "0/0",
+    "GOLES PLATINO (90 a 94 %)"
+   ],
+   [
+    "2/4",
+    "Over 1.5 de 70 % o más (50 %)"
+   ],
+   [
+    "0/0",
+    "Over 2.5 con señal (sin casos)"
+   ],
+   [
+    "0/7",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Fallaron 2 Over 1.5 de 70 % o más: Alianza Lima 1-0 Cienciano (81,3 %), Internacional 1-0 Coritiba (75,1 %). Ese día no hubo Over 2.5 con señal (65 % o más). El partido del día, Alianza Lima 1-0 Cienciano (dimos Over 1.5 al 81,3 %), falló: hubo 1 gol. En total, 5 de 7 partidos terminados tuvieron 2 goles o más.",
+  "aciertos_destacados": [
+   "Comerciantes Unidos 2-2 ADT (Over 1.5 al 81,0 % · hubo 4 goles)",
+   "Chapecoense 1-2 Mirassol (Over 1.5 al 76,9 % · hubo 3 goles)"
+  ],
+  "partidos": 7
  }
 ]

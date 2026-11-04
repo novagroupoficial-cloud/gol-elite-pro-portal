@@ -6,50 +6,88 @@
   "Barcelona|Aston Villa": {
    "o15": "9/10",
    "o25": "8/10",
-   "prom": 4.1
+   "prom": 4.1,
+   "resultado": "3-0",
+   "goles": 3,
+   "over15": true,
+   "over25": true
   },
   "Manchester United|Roma": {
    "o15": "10/10",
    "o25": "6/10",
-   "prom": 3.9
+   "prom": 3.9,
+   "resultado": "3-2",
+   "goles": 5,
+   "over15": true,
+   "over25": true
   },
   "LASK|Slovan Bratislava": {
    "o15": "9/10",
    "o25": "8/10",
    "prom": 4.3,
-   "nota": "sin partidos de liga en la ficha (incluye amistoso y previas)"
+   "nota": "sin partidos de liga en la ficha (incluye amistoso y previas)",
+   "resultado": "4-0",
+   "goles": 4,
+   "over15": true,
+   "over25": true
   },
   "Villarreal|PSG": {
    "o15": "8/10",
    "o25": "7/10",
-   "prom": 4.0
+   "prom": 4.0,
+   "resultado": "0-6",
+   "goles": 6,
+   "over15": true,
+   "over25": true
   },
   "Atlético Madrid|Bayern": {
    "o15": "8/10",
    "o25": "5/10",
-   "prom": 3.4
+   "prom": 3.4,
+   "resultado": "0-2",
+   "goles": 2,
+   "over15": true,
+   "over25": false
   },
   "Bodø/Glimt|Lille": {
    "o15": "8/10",
    "o25": "6/10",
    "prom": 3.4,
-   "nota": "Bodø: sin partidos de liga noruega en la ficha"
+   "nota": "Bodø: sin partidos de liga noruega en la ficha",
+   "resultado": "0-0",
+   "goles": 0,
+   "over15": false,
+   "over25": false
   },
   "Feyenoord|Inter": {
    "o15": "8/10",
    "o25": "5/10",
-   "prom": 3.1
+   "prom": 3.1,
+   "resultado": "0-3",
+   "goles": 3,
+   "over15": true,
+   "over25": true
   },
   "Shakhtar|Sporting CP": {
    "o15": "8/10",
    "o25": "5/10",
    "prom": 2.6,
-   "nota": "Shakhtar: incluye 2 amistosos"
+   "nota": "Shakhtar: incluye 2 amistosos",
+   "resultado": "0-1",
+   "goles": 1,
+   "over15": false,
+   "over25": false
   },
   "Galatasaray|Stuttgart": {
    "o15": "7/10",
    "o25": "6/10",
-   "prom": 3.4
+   "prom": 3.4,
+   "resultado": "2-0",
+   "goles": 2,
+   "over15": true,
+   "over25": false
   }
- }
+ },
+ "resultados_fuente": "https://www.futbolperuano.com/liga-de-campeones/noticias/resultados-de-hoy-martes-03-de-noviembre-por-fecha-4-de-champions-league-2026-27-610064",
+ "auditado": "2026-11-04 07:2x ECU (chat con Marco)"
 }

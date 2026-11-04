@@ -1121,7 +1121,7 @@ LINK={
  'Universitario|Sport Boys':('Se reprogramó el partido entre Universitario y Sport Boys (miércoles 4, 20:30)','Fútbol Peruano','https://www.futbolperuano.com/liga-1/noticias/se-reprogramo-el-partido-entre-universitario-y-sport-boys-por-el-torneo-clausura-605542'),
 }
 PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
-DEST=['São Paulo|Corinthians','Flamengo|Grêmio','Millonarios|América de Cali','Universitario|Sport Boys']
+DEST=['Millonarios|América de Cali','São Paulo|Corinthians','Athletico-PR|Vasco da Gama','Flamengo|Grêmio','Botafogo|Atletico MG']  # Marco 4-nov: los 5 con la estadística de últimos 5 más alta
 # Aciertos de ayer (martes 3): (partido, marcador real, nuestro Over 1.5, medio, url)
 ACIERTOS=[
  ("Comerciantes Unidos vs ADT","2-2","81 % · mar 3","Bolavip","https://bolavip.com/pe/liga-1/tabla-de-posiciones-del-torneo-clausura-y-acumulado-2026-alianza-lima-vs-cienciano-comerciantes-unidos-vs-adt"),
@@ -1129,6 +1129,12 @@ ACIERTOS=[
  ("Mushuc Runa vs Manta","2-3","68 % · mar 3","El Diario","https://www.eldiario.ec/deportes/manta-fc-vence-2-3-a-mushuc-runa-con-gol-agonico-de-penal-y-mantiene-vivas-sus-esperanzas-en-la-ligapro-03112026/"),
  ("Deportivo Pereira vs Tolima","1-3","67 % · mar 3","Fútbol Total","https://futboltotal.futbol/league/primera-a"),
  ("Pasto vs Jaguares de Córdoba","2-0","67 % · mar 3","Fútbol Total","https://futboltotal.futbol/league/primera-a"),
+ # Champions (mar 3): estadística de últimos 5, no pronóstico del modelo (Marco 4-nov)
+ ("Manchester United vs Roma","3-2","últimos 5: 10/10 · Champions mar 3","futbolperuano.com","https://www.futbolperuano.com/liga-de-campeones/noticias/resultados-de-hoy-martes-03-de-noviembre-por-fecha-4-de-champions-league-2026-27-610064"),
+ ("Barcelona vs Aston Villa","3-0","últimos 5: 9/10 · Champions mar 3","El Salvador.com","https://www.elsalvador.com/deportes/futbol/barcelona-aston-villa-champions-league/1302075/2026/"),
+ ("LASK vs Slovan Bratislava","4-0","últimos 5: 9/10 · Champions mar 3","futbolperuano.com","https://www.futbolperuano.com/liga-de-campeones/noticias/resultados-de-hoy-martes-03-de-noviembre-por-fecha-4-de-champions-league-2026-27-610064"),
+ ("Villarreal vs PSG","0-6","últimos 5: 8/10 · Champions mar 3","Grupo Animal","https://grupoanimal.mx/deportes/champions-league-resultados-hoy-3-noviembre-2026-jornada-4"),
+ ("Feyenoord vs Inter","0-3","últimos 5: 8/10 · Champions mar 3","futbolperuano.com","https://www.futbolperuano.com/liga-de-campeones/noticias/resultados-de-hoy-martes-03-de-noviembre-por-fecha-4-de-champions-league-2026-27-610064"),
 ]
 LLEGAN={
  'Botafogo|Atletico MG':['Botafogo 13.º con 39 pts (45 GF, 53 GC); Atlético-MG 7.º con 50 pts (44 GF, 39 GC).','Los dos perdieron sus dos últimos partidos.','Botafogo se juega la permanencia: riesgo de descenso de 9,3 % que sube a 18,7 % si pierde.','Fuente: Valor Final (4-nov).'],

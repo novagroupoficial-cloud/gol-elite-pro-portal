@@ -1,0 +1,136 @@
+{
+ "fecha": "2026-11-04",
+ "sellado": "2026-11-04 07:46 ECU",
+ "tipo": "informativo (no es pronóstico del modelo)",
+ "fuente": "futboltotal.futbol (ficha de cada partido, últimos 5 de cada equipo)",
+ "partidos": {
+  "Fenerbahce|Liverpool": {
+   "hora": "12:45",
+   "o15": "9/10",
+   "o25": "7/10",
+   "prom": 3.4,
+   "local": {
+    "o15": 5,
+    "goles": 19
+   },
+   "visita": {
+    "o15": 4,
+    "goles": 15
+   }
+  },
+  "AEK Athens|Real Madrid": {
+   "hora": "12:45",
+   "o15": "10/10",
+   "o25": "9/10",
+   "prom": 4.3,
+   "local": {
+    "o15": 5,
+    "goles": 20
+   },
+   "visita": {
+    "o15": 5,
+    "goles": 23
+   }
+  },
+  "Slavia Praha|Arsenal": {
+   "hora": "15:00",
+   "o15": "8/10",
+   "o25": "4/10",
+   "prom": 2.6,
+   "local": {
+    "o15": 5,
+    "goles": 16
+   },
+   "visita": {
+    "o15": 3,
+    "goles": 10
+   },
+   "nota": "Slavia: incluye 2 amistosos de julio"
+  },
+  "Lens|Como": {
+   "hora": "15:00",
+   "o15": "8/10",
+   "o25": "6/10",
+   "prom": 2.9,
+   "local": {
+    "o15": 4,
+    "goles": 13
+   },
+   "visita": {
+    "o15": 4,
+    "goles": 16
+   }
+  },
+  "Dortmund|Real Betis": {
+   "hora": "15:00",
+   "o15": "6/10",
+   "o25": "6/10",
+   "prom": 2.9,
+   "local": {
+    "o15": 3,
+    "goles": 13
+   },
+   "visita": {
+    "o15": 3,
+    "goles": 16
+   }
+  },
+  "Porto|Napoli": {
+   "hora": "15:00",
+   "o15": "7/10",
+   "o25": "6/10",
+   "prom": 3.5,
+   "local": {
+    "o15": 3,
+    "goles": 14
+   },
+   "visita": {
+    "o15": 4,
+    "goles": 21
+   }
+  },
+  "RB Leipzig|Manchester City": {
+   "hora": "15:00",
+   "o15": "9/10",
+   "o25": "8/10",
+   "prom": 4.0,
+   "local": {
+    "o15": 5,
+    "goles": 21
+   },
+   "visita": {
+    "o15": 4,
+    "goles": 19
+   }
+  },
+  "PSV|Club Brugge": {
+   "hora": "15:00",
+   "o15": "8/10",
+   "o25": "7/10",
+   "prom": 4.0,
+   "local": {
+    "o15": 3,
+    "goles": 14
+   },
+   "visita": {
+    "o15": 5,
+    "goles": 26
+   }
+  },
+  "Viking|Sabah": {
+   "hora": "15:00",
+   "o15": "10/10",
+   "o25": "9/10",
+   "prom": 4.1,
+   "local": {
+    "o15": 5,
+    "goles": 22
+   },
+   "visita": {
+    "o15": 5,
+    "goles": 19
+   },
+   "nota": "ambos: solo partidos de Champions y previas"
+  }
+ }
+}

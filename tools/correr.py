@@ -1,14 +1,14 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — martes 3-nov-2026 (chat con Marco, 09:4x ECU; la rutina diaria de hoy no terminó). SportyTrader no accesible en esta sesión. Calendario: La República, Infobae y DSN (hora de Perú = Ecuador). Champions League (9 partidos), Championship, Paraguay y Venezuela: sin pronóstico (sin tabla casa/fuera común o verificable).
- ('15:00','PER','Comerciantes Unidos','ADT'),
- ('15:30','COL','Deportivo Pereira','Tolima'),
- ('15:30','ECU','Mushuc Runa','Manta'),
- ('17:30','BRA','Chapecoense','Mirassol'),
- ('18:20','COL','Pasto','Jaguares de Córdoba'),
- ('19:30','BRA','Internacional','Coritiba'),
- ('20:00','PER','Alianza Lima','Cienciano'),
+P=[ # hora (Ecuador), liga, local, visita — miércoles 4-nov-2026 (rutina diaria 05:2x ECU). SportyTrader no accesible (error del sitio). Calendario: valorfinal (BRA, rodada 34, hora de Brasília −2 h), futboltotal (COL, hora de Chicago +1 h) y futbolperuano/bolavip (PER, reprogramado). Champions League (9 partidos): sin pronóstico (modo copas en medición).
+ ('17:30','BRA','Athletico-PR','Vasco da Gama'),
+ ('17:30','BRA','Flamengo','Grêmio'),
+ ('18:30','COL','Cúcuta','Santa Fe'),
+ ('19:30','BRA','Botafogo','Atletico MG'),
+ ('19:30','BRA','São Paulo','Corinthians'),
+ ('20:30','COL','Millonarios','América de Cali'),
+ ('20:30','PER','Universitario','Sport Boys'),
 ]
 out=[]
 for h,lg,a,b in P:

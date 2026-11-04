@@ -537,6 +537,21 @@ for _lg,_a,_ga,_gb,_b in LUN02:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# ===== Actualización mié 4-nov-2026 (rutina diaria 05:2x ECU): partidos del MARTES 3-nov (data/2026-11-03/auditoria.json, 7/7 terminados, cada uno con su fuente). Local en casa, visitante fuera. Corte nuevo: mar 3-nov-2026 final.
+# Champions League del 3-nov no se suma (copa, sin tabla de liga).
+MAR03=[
+ ('PER','Comerciantes Unidos',2,2,'ADT'),  # https://bolavip.com/pe/liga-1/tabla-de-posiciones-del-torneo-clausura-y-acumulado-2026-alianza-lima-vs-cienciano-comerciantes-unidos-vs-adt
+ ('COL','Deportivo Pereira',1,3,'Tolima'),  # https://futboltotal.futbol/league/primera-a
+ ('ECU','Mushuc Runa',2,3,'Manta'),  # https://www.eldiario.ec/deportes/manta-fc-vence-2-3-a-mushuc-runa-con-gol-agonico-de-penal-y-mantiene-vivas-sus-esperanzas-en-la-ligapro-03112026/
+ ('BRA','Chapecoense',1,2,'Mirassol'),  # https://futboltotal.futbol/partido/chapecoense-sc-vs-mirassol-brasileirao-2026-11-03
+ ('COL','Pasto',2,0,'Jaguares de Córdoba'),  # https://futboltotal.futbol/league/primera-a
+ ('BRA','Internacional',1,0,'Coritiba'),  # https://futboltotal.futbol/partido/internacional-vs-coritiba-brasileirao-2026-11-04
+ ('PER','Alianza Lima',1,0,'Cienciano'),  # https://www.infobae.com/peru/deportes/2026/11/03/alianza-lima-vs-cienciano-en-vivo-hoy-minuto-a-minuto-partido-matute-fecha-15-torneo-clausura-liga-1-2026-goles-resumen-resultado/
+]
+for _lg,_a,_ga,_gb,_b in MAR03:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

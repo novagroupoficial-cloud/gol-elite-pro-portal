@@ -1,0 +1,136 @@
+{
+ "fecha": "2026-11-04",
+ "criterio": "solo partidos de las capturas de SportyTrader de Marco; orden: Over 1.5 últimos 5, luego Over 2.5, luego promedio de goles",
+ "ranking": [
+  {
+   "puesto": 1,
+   "hora": "12:45",
+   "partido": "AEK Athens|Real Madrid",
+   "competicion": "Champions",
+   "o15": "10/10",
+   "o25": "9/10",
+   "prom": 4.3,
+   "nota": ""
+  },
+  {
+   "puesto": 2,
+   "hora": "15:00",
+   "partido": "Viking|Sabah",
+   "competicion": "Champions",
+   "o15": "10/10",
+   "o25": "9/10",
+   "prom": 4.1,
+   "nota": "ambos: solo partidos de Champions y previas"
+  },
+  {
+   "puesto": 3,
+   "hora": "15:00",
+   "partido": "RB Leipzig|Manchester City",
+   "competicion": "Champions",
+   "o15": "9/10",
+   "o25": "8/10",
+   "prom": 4.0,
+   "nota": ""
+  },
+  {
+   "puesto": 4,
+   "hora": "12:45",
+   "partido": "Fenerbahce|Liverpool",
+   "competicion": "Champions",
+   "o15": "9/10",
+   "o25": "7/10",
+   "prom": 3.4,
+   "nota": ""
+  },
+  {
+   "puesto": 5,
+   "hora": "19:30",
+   "partido": "São Paulo|Corinthians",
+   "competicion": "Brasileirão",
+   "o15": "9/10",
+   "o25": "5/10",
+   "prom": 3.0,
+   "nota": ""
+  },
+  {
+   "puesto": 6,
+   "hora": "15:00",
+   "partido": "PSV|Club Brugge",
+   "competicion": "Champions",
+   "o15": "8/10",
+   "o25": "7/10",
+   "prom": 4.0,
+   "nota": ""
+  },
+  {
+   "puesto": 7,
+   "hora": "15:00",
+   "partido": "Lens|Como",
+   "competicion": "Champions",
+   "o15": "8/10",
+   "o25": "6/10",
+   "prom": 2.9,
+   "nota": ""
+  },
+  {
+   "puesto": 8,
+   "hora": "17:30",
+   "partido": "Athletico-PR|Vasco da Gama",
+   "competicion": "Brasileirão",
+   "o15": "8/10",
+   "o25": "5/10",
+   "prom": 3.1,
+   "nota": ""
+  },
+  {
+   "puesto": 9,
+   "hora": "15:00",
+   "partido": "Slavia Praha|Arsenal",
+   "competicion": "Champions",
+   "o15": "8/10",
+   "o25": "4/10",
+   "prom": 2.6,
+   "nota": "Slavia: incluye 2 amistosos de julio"
+  },
+  {
+   "puesto": 10,
+   "hora": "15:00",
+   "partido": "Porto|Napoli",
+   "competicion": "Champions",
+   "o15": "7/10",
+   "o25": "6/10",
+   "prom": 3.5,
+   "nota": ""
+  },
+  {
+   "puesto": 11,
+   "hora": "17:30",
+   "partido": "Flamengo|Grêmio",
+   "competicion": "Brasileirão",
+   "o15": "7/10",
+   "o25": "4/10",
+   "prom": 2.6,
+   "nota": ""
+  },
+  {
+   "puesto": 12,
+   "hora": "19:30",
+   "partido": "Botafogo|Atletico MG",
+   "competicion": "Brasileirão",
+   "o15": "7/10",
+   "o25": "4/10",
+   "prom": 2.3,
+   "nota": ""
+  },
+  {
+   "puesto": 13,
+   "hora": "15:00",
+   "partido": "Dortmund|Real Betis",
+   "competicion": "Champions",
+   "o15": "6/10",
+   "o25": "6/10",
+   "prom": 2.9,
+   "nota": ""
+  }
+ ]
+}

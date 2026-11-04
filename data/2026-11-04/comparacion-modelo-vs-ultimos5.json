@@ -1,0 +1,63 @@
+{
+ "fecha": "2026-11-04",
+ "sellado": "2026-11-04 07:19 ECU",
+ "tipo": "comparación modelo Nova Gol 4.1 vs indicador últimos 5 (10 partidos de ambos equipos), ambos sellados antes de los partidos",
+ "fuente": "futboltotal.futbol (ficha de cada partido)",
+ "nota": "Millonarios: la ficha muestra hasta el 20-oct (puede faltar algún partido reciente).",
+ "partidos": {
+  "Botafogo|Atletico MG": {
+   "hora": "19:30",
+   "modelo_over15": 75.6,
+   "modelo_over25": 49.9,
+   "ind_over15": "7/10",
+   "ind_over25": "4/10",
+   "ind_prom_goles": 2.3
+  },
+  "Athletico-PR|Vasco da Gama": {
+   "hora": "17:30",
+   "modelo_over15": 75.1,
+   "modelo_over25": 49.3,
+   "ind_over15": "8/10",
+   "ind_over25": "5/10",
+   "ind_prom_goles": 3.1
+  },
+  "Universitario|Sport Boys": {
+   "hora": "20:30",
+   "modelo_over15": 74.1,
+   "modelo_over25": 48.0,
+   "indicador": "sin dato (no se halló ficha con últimos 5)"
+  },
+  "São Paulo|Corinthians": {
+   "hora": "19:30",
+   "modelo_over15": 73.2,
+   "modelo_over25": 46.9,
+   "ind_over15": "9/10",
+   "ind_over25": "5/10",
+   "ind_prom_goles": 3.0
+  },
+  "Cúcuta|Santa Fe": {
+   "hora": "18:30",
+   "modelo_over15": 71.8,
+   "modelo_over25": 44.9,
+   "ind_over15": "6/10",
+   "ind_over25": "4/10",
+   "ind_prom_goles": 2.2
+  },
+  "Flamengo|Grêmio": {
+   "hora": "17:30",
+   "modelo_over15": 70.9,
+   "modelo_over25": 44.1,
+   "ind_over15": "7/10",
+   "ind_over25": "4/10",
+   "ind_prom_goles": 2.6
+  },
+  "Millonarios|América de Cali": {
+   "hora": "20:30",
+   "modelo_over15": 65.0,
+   "modelo_over25": 37.1,
+   "ind_over15": "10/10",
+   "ind_over25": "6/10",
+   "ind_prom_goles": 3.0
+  }
+ }
+}

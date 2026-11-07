@@ -11,7 +11,11 @@
    "modelo_over25": 49.9,
    "ind_over15": "7/10",
    "ind_over25": "4/10",
-   "ind_prom_goles": 2.3
+   "ind_prom_goles": 2.3,
+   "resultado": "1-0",
+   "goles": 1,
+   "over15": false,
+   "over25": false
   },
   "Athletico-PR|Vasco da Gama": {
    "hora": "17:30",
@@ -19,13 +23,21 @@
    "modelo_over25": 49.3,
    "ind_over15": "8/10",
    "ind_over25": "5/10",
-   "ind_prom_goles": 3.1
+   "ind_prom_goles": 3.1,
+   "resultado": "1-3",
+   "goles": 4,
+   "over15": true,
+   "over25": true
   },
   "Universitario|Sport Boys": {
    "hora": "20:30",
    "modelo_over15": 74.1,
    "modelo_over25": 48.0,
-   "indicador": "sin dato (no se halló ficha con últimos 5)"
+   "indicador": "sin dato (no se halló ficha con últimos 5)",
+   "resultado": "2-2",
+   "goles": 4,
+   "over15": true,
+   "over25": true
   },
   "São Paulo|Corinthians": {
    "hora": "19:30",
@@ -33,7 +45,11 @@
    "modelo_over25": 46.9,
    "ind_over15": "9/10",
    "ind_over25": "5/10",
-   "ind_prom_goles": 3.0
+   "ind_prom_goles": 3.0,
+   "resultado": "0-0",
+   "goles": 0,
+   "over15": false,
+   "over25": false
   },
   "Cúcuta|Santa Fe": {
    "hora": "18:30",
@@ -41,7 +57,11 @@
    "modelo_over25": 44.9,
    "ind_over15": "6/10",
    "ind_over25": "4/10",
-   "ind_prom_goles": 2.2
+   "ind_prom_goles": 2.2,
+   "resultado": "1-0",
+   "goles": 1,
+   "over15": false,
+   "over25": false
   },
   "Flamengo|Grêmio": {
    "hora": "17:30",
@@ -49,7 +69,11 @@
    "modelo_over25": 44.1,
    "ind_over15": "7/10",
    "ind_over25": "4/10",
-   "ind_prom_goles": 2.6
+   "ind_prom_goles": 2.6,
+   "resultado": "3-1",
+   "goles": 4,
+   "over15": true,
+   "over25": true
   },
   "Millonarios|América de Cali": {
    "hora": "20:30",
@@ -57,7 +81,12 @@
    "modelo_over25": 37.1,
    "ind_over15": "10/10",
    "ind_over25": "6/10",
-   "ind_prom_goles": 3.0
+   "ind_prom_goles": 3.0,
+   "resultado": "0-0",
+   "goles": 0,
+   "over15": false,
+   "over25": false
   }
- }
+ },
+ "auditado": "2026-11-07"
 }

@@ -16,7 +16,11 @@
    "visita": {
     "o15": 4,
     "goles": 15
-   }
+   },
+   "resultado": "3-2",
+   "goles": 5,
+   "over15": true,
+   "over25": true
   },
   "AEK Athens|Real Madrid": {
    "hora": "12:45",
@@ -30,7 +34,11 @@
    "visita": {
     "o15": 5,
     "goles": 23
-   }
+   },
+   "resultado": "2-3",
+   "goles": 5,
+   "over15": true,
+   "over25": true
   },
   "Slavia Praha|Arsenal": {
    "hora": "15:00",
@@ -45,7 +53,11 @@
     "o15": 3,
     "goles": 10
    },
-   "nota": "Slavia: incluye 2 amistosos de julio"
+   "nota": "Slavia: incluye 2 amistosos de julio",
+   "resultado": "1-2",
+   "goles": 3,
+   "over15": true,
+   "over25": true
   },
   "Lens|Como": {
    "hora": "15:00",
@@ -59,7 +71,11 @@
    "visita": {
     "o15": 4,
     "goles": 16
-   }
+   },
+   "resultado": "1-9",
+   "goles": 10,
+   "over15": true,
+   "over25": true
   },
   "Dortmund|Real Betis": {
    "hora": "15:00",
@@ -73,7 +89,11 @@
    "visita": {
     "o15": 3,
     "goles": 16
-   }
+   },
+   "resultado": "2-1",
+   "goles": 3,
+   "over15": true,
+   "over25": true
   },
   "Porto|Napoli": {
    "hora": "15:00",
@@ -87,7 +107,11 @@
    "visita": {
     "o15": 4,
     "goles": 21
-   }
+   },
+   "resultado": "4-1",
+   "goles": 5,
+   "over15": true,
+   "over25": true
   },
   "RB Leipzig|Manchester City": {
    "hora": "15:00",
@@ -101,7 +125,11 @@
    "visita": {
     "o15": 4,
     "goles": 19
-   }
+   },
+   "resultado": "2-3",
+   "goles": 5,
+   "over15": true,
+   "over25": true
   },
   "PSV|Club Brugge": {
    "hora": "15:00",
@@ -115,7 +143,11 @@
    "visita": {
     "o15": 5,
     "goles": 26
-   }
+   },
+   "resultado": "1-2",
+   "goles": 3,
+   "over15": true,
+   "over25": true
   },
   "Viking|Sabah": {
    "hora": "15:00",
@@ -130,7 +162,13 @@
     "o15": 5,
     "goles": 19
    },
-   "nota": "ambos: solo partidos de Champions y previas"
+   "nota": "ambos: solo partidos de Champions y previas",
+   "resultado": "4-1",
+   "goles": 5,
+   "over15": true,
+   "over25": true
   }
- }
+ },
+ "resultados_fuente": "https://futboltotal.futbol/partido/lens-vs-como-uefa-champions-league-2026-11-04",
+ "auditado": "2026-11-07"
 }

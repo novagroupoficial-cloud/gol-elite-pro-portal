@@ -1,0 +1,175 @@
+{
+ "fecha": "2026-11-07",
+ "sellado": "2026-11-07 08:16 ECU",
+ "modelo": "Modelo Nova Promedio (últimos 5 de cada equipo, todas las competiciones)",
+ "partidos": {
+  "Mainz 05|Bayern Munich": {
+   "hora": "09:30",
+   "liga": "GER",
+   "o15": 9,
+   "o25": 7,
+   "prom": 4.1,
+   "fuente": "https://futboltotal.futbol/partido/fsv-mainz-05-vs-bayern-munchen-bundesliga-2026-11-07"
+  },
+  "SC Paderborn|Eintracht Frankfurt": {
+   "hora": "09:30",
+   "liga": "GER",
+   "o15": 5,
+   "o25": 4,
+   "prom": 2.4,
+   "fuente": "https://futboltotal.futbol/partido/sc-paderborn-07-vs-eintracht-frankfurt-bundesliga-1575220"
+  },
+  "RB Leipzig|Augsburg": {
+   "hora": "09:30",
+   "liga": "GER",
+   "o15": 10,
+   "o25": 8,
+   "prom": 4.1,
+   "fuente": "https://futboltotal.futbol/partido/rb-leipzig-vs-fc-augsburg-bundesliga-2026-11-07"
+  },
+  "Borussia Dortmund|Elversberg": {
+   "hora": "09:30",
+   "liga": "GER",
+   "o15": 8,
+   "o25": 7,
+   "prom": 3.5,
+   "fuente": "https://futboltotal.futbol/partido/borussia-dortmund-vs-sv-elversberg-bundesliga-1575212"
+  },
+  "Fulham|Newcastle United": {
+   "hora": "10:00",
+   "liga": "ENG",
+   "o15": 5,
+   "o25": 3,
+   "prom": 2.1,
+   "fuente": "https://futboltotal.futbol/partido/fulham-vs-newcastle-premier-league-2026-11-07"
+  },
+  "Arsenal|Hull City": {
+   "hora": "10:00",
+   "liga": "ENG",
+   "o15": 8,
+   "o25": 5,
+   "prom": 2.6,
+   "fuente": "https://futboltotal.futbol/partido/arsenal-vs-hull-city-premier-league-2026-11-07"
+  },
+  "Espanyol|Deportivo La Coruna": {
+   "hora": "10:15",
+   "liga": "ESP",
+   "o15": 7,
+   "o25": 5,
+   "prom": 2.8,
+   "fuente": "https://futboltotal.futbol/partido/espanyol-vs-deportivo-la-coruna-laliga-1570446"
+  },
+  "Parma|Bologna": {
+   "hora": "12:00",
+   "liga": "ITA",
+   "o15": 9,
+   "o25": 8,
+   "prom": 3.0,
+   "fuente": "https://futboltotal.futbol/partido/parma-vs-bologna-serie-a-2026-11-07"
+  },
+  "Nottingham Forest|Manchester City": {
+   "hora": "12:30",
+   "liga": "ENG",
+   "o15": 7,
+   "o25": 5,
+   "prom": 2.9,
+   "fuente": "https://futboltotal.futbol/partido/nottingham-forest-vs-manchester-city-premier-league-2026-11-07"
+  },
+  "VfB Stuttgart|Werder Bremen": {
+   "hora": "12:30",
+   "liga": "GER",
+   "o15": 9,
+   "o25": 6,
+   "prom": 3.6,
+   "fuente": "https://futboltotal.futbol/partido/vfb-stuttgart-vs-werder-bremen-bundesliga-2026-11-07"
+  },
+  "Roma|Sassuolo": {
+   "hora": "14:45",
+   "liga": "ITA",
+   "o15": 10,
+   "o25": 8,
+   "prom": 5.2,
+   "fuente": "https://futboltotal.futbol/partido/as-roma-vs-sassuolo-serie-a-2026-11-07"
+  },
+  "Valencia|Real Madrid": {
+   "hora": "15:00",
+   "liga": "ESP",
+   "o15": 8,
+   "o25": 8,
+   "prom": 3.4,
+   "fuente": "https://futboltotal.futbol/partido/valencia-vs-real-madrid-laliga-1570451"
+  },
+  "Paris Saint-Germain|Troyes": {
+   "hora": "15:05",
+   "liga": "FRA",
+   "o15": 9,
+   "o25": 6,
+   "prom": 3.6,
+   "fuente": "https://futboltotal.futbol/partido/paris-saint-germain-vs-estac-troyes-ligue-1-2026-11-07"
+  },
+  "Inter Miami|Charlotte": {
+   "hora": "16:00",
+   "liga": "USA",
+   "o15": 10,
+   "o25": 8,
+   "prom": 3.6,
+   "fuente": "https://futboltotal.futbol/partido/inter-miami-cf-vs-charlotte-fc-mls-2026-11-07"
+  },
+  "Chicago Fire|Columbus Crew": {
+   "hora": "16:00",
+   "liga": "USA",
+   "o15": 9,
+   "o25": 7,
+   "prom": 3.7,
+   "fuente": "https://futboltotal.futbol/partido/chicago-fire-fc-vs-columbus-crew-mls-2026-11-07"
+  },
+  "Cincinnati|Nashville SC": {
+   "hora": "16:00",
+   "liga": "USA",
+   "o15": 8,
+   "o25": 4,
+   "prom": 2.5,
+   "fuente": "https://futboltotal.futbol/partido/fc-cincinnati-vs-nashville-sc-mls-2026-11-07"
+  },
+  "San Diego|Sporting KC": {
+   "hora": "19:00",
+   "liga": "USA",
+   "o15": 9,
+   "o25": 8,
+   "prom": 3.7,
+   "fuente": "https://futboltotal.futbol/partido/san-diego-fc-vs-sporting-kansas-city-mls-2026-11-08"
+  },
+  "Real Salt Lake|LA Galaxy": {
+   "hora": "19:00",
+   "liga": "USA",
+   "o15": 10,
+   "o25": 8,
+   "prom": 3.8,
+   "fuente": "https://futboltotal.futbol/partido/real-salt-lake-vs-los-angeles-galaxy-mls-2026-11-08"
+  },
+  "Tigres UANL|Cruz Azul": {
+   "hora": "20:00",
+   "liga": "MEX",
+   "o15": 10,
+   "o25": 7,
+   "prom": 3.5,
+   "fuente": "https://futboltotal.futbol/partido/tigres-uanl-vs-cruz-azul-liga-mx-2026-11-08"
+  },
+  "Toluca|Monterrey": {
+   "hora": "20:00",
+   "liga": "MEX",
+   "o15": 9,
+   "o25": 6,
+   "prom": 3.4,
+   "fuente": "https://futboltotal.futbol/partido/toluca-vs-monterrey-liga-mx-2026-11-08"
+  },
+  "Pumas UNAM|America": {
+   "hora": "22:10",
+   "liga": "MEX",
+   "o15": 10,
+   "o25": 7,
+   "prom": 4.0,
+   "fuente": "https://futboltotal.futbol/partido/unam-pumas-vs-club-america-liga-mx-2026-11-08"
+  }
+ }
+}

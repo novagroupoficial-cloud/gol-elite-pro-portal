@@ -1,0 +1,143 @@
+{
+ "fecha": "2026-11-08",
+ "sellado": "2026-11-07 08:19 ECU",
+ "modelo": "Modelo Nova Promedio (últimos 5 de cada equipo, todas las competiciones)",
+ "partidos": {
+  "Heerenveen|Feyenoord": {
+   "hora": "06:15",
+   "liga": "NED",
+   "o15": 8,
+   "o25": 5,
+   "prom": 3.1,
+   "fuente": "https://futboltotal.futbol/partido/heerenveen-vs-feyenoord-eredivisie-2026-11-08"
+  },
+  "Napoli|Lazio": {
+   "hora": "06:30",
+   "liga": "ITA",
+   "o15": 10,
+   "o25": 9,
+   "prom": 4.6,
+   "fuente": "https://futboltotal.futbol/partido/napoli-vs-lazio-serie-a-2026-11-08"
+  },
+  "Elche|Real Betis": {
+   "hora": "08:00",
+   "liga": "ESP",
+   "o15": 5,
+   "o25": 5,
+   "prom": 2.2,
+   "fuente": "https://futboltotal.futbol/partido/elche-vs-real-betis-la-liga-2026-11-08"
+  },
+  "FC Twente|Ajax": {
+   "hora": "08:30",
+   "liga": "NED",
+   "o15": 9,
+   "o25": 7,
+   "prom": 4.3,
+   "fuente": "https://futboltotal.futbol/partido/twente-vs-ajax-eredivisie-2026-11-08"
+  },
+  "Crystal Palace|Liverpool": {
+   "hora": "09:00",
+   "liga": "ENG",
+   "o15": 8,
+   "o25": 3,
+   "prom": 2.8,
+   "fuente": "https://futboltotal.futbol/partido/crystal-palace-vs-liverpool-premier-league-2026-11-08"
+  },
+  "Monza|Atalanta": {
+   "hora": "09:00",
+   "liga": "ITA",
+   "o15": 10,
+   "o25": 8,
+   "prom": 4.0,
+   "fuente": "https://futboltotal.futbol/partido/monza-vs-atalanta-serie-a-2026-11-08"
+  },
+  "1. FC Koln|Bayer Leverkusen": {
+   "hora": "09:30",
+   "liga": "GER",
+   "o15": 7,
+   "o25": 5,
+   "prom": 3.0,
+   "fuente": "https://futboltotal.futbol/partido/1fc-koln-vs-bayer-leverkusen-bundesliga-2026-11-08"
+  },
+  "Real Sociedad|Rayo Vallecano": {
+   "hora": "10:15",
+   "liga": "ESP",
+   "o15": 10,
+   "o25": 7,
+   "prom": 3.6,
+   "fuente": "https://futboltotal.futbol/partido/real-sociedad-vs-rayo-vallecano-la-liga-2026-11-08"
+  },
+  "Cambuur|PSV": {
+   "hora": "10:45",
+   "liga": "NED",
+   "o15": 8,
+   "o25": 6,
+   "prom": 3.4,
+   "fuente": "https://futboltotal.futbol/partido/cambuur-vs-psv-eindhoven-eredivisie-2026-11-08"
+  },
+  "Manchester United|Aston Villa": {
+   "hora": "11:30",
+   "liga": "ENG",
+   "o15": 10,
+   "o25": 7,
+   "prom": 3.2,
+   "fuente": "https://futboltotal.futbol/partido/manchester-united-vs-aston-villa-premier-league-2026-11-08"
+  },
+  "SC Freiburg|Union Berlin": {
+   "hora": "11:30",
+   "liga": "GER",
+   "o15": 7,
+   "o25": 5,
+   "prom": 2.6,
+   "fuente": "https://futboltotal.futbol/partido/sc-freiburg-vs-union-berlin-bundesliga-2026-11-08"
+  },
+  "Inter|Como": {
+   "hora": "12:00",
+   "liga": "ITA",
+   "o15": 8,
+   "o25": 6,
+   "prom": 3.5,
+   "fuente": "https://futboltotal.futbol/partido/inter-vs-como-serie-a-2026-11-08"
+  },
+  "Fiorentina|Juventus": {
+   "hora": "14:45",
+   "liga": "ITA",
+   "o15": 10,
+   "o25": 7,
+   "prom": 3.3,
+   "fuente": "https://futboltotal.futbol/partido/fiorentina-vs-juventus-serie-a-2026-11-08"
+  },
+  "Lens|Marseille": {
+   "hora": "14:45",
+   "liga": "FRA",
+   "o15": 7,
+   "o25": 6,
+   "prom": 3.9,
+   "fuente": "https://futboltotal.futbol/partido/lens-vs-marseille-ligue-1-2026-11-08"
+  },
+  "Atletico Madrid|Barcelona": {
+   "hora": "15:00",
+   "liga": "ESP",
+   "o15": 8,
+   "o25": 5,
+   "prom": 3.4,
+   "fuente": "https://futboltotal.futbol/partido/atletico-madrid-vs-barcelona-la-liga-2026-11-08"
+  },
+  "Rio Ave|Sporting Braga": {
+   "hora": "15:30",
+   "liga": "POR",
+   "o15": 7,
+   "o25": 6,
+   "prom": 2.8,
+   "fuente": "https://futboltotal.futbol/partido/rio-ave-vs-sc-braga-primeira-liga-2026-11-08"
+  },
+  "Estrela Amadora|Benfica": {
+   "hora": "15:30",
+   "liga": "POR",
+   "o15": 8,
+   "o25": 6,
+   "prom": 3.2,
+   "fuente": "https://futboltotal.futbol/partido/estrela-vs-benfica-primeira-liga-2026-11-08"
+  }
+ }
+}

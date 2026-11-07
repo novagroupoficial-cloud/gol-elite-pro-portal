@@ -1,0 +1,42 @@
+{
+ "fecha": "2026-11-07",
+ "registrado": "2026-11-07 08:33 ECU",
+ "origen": "Modelo de Gemini enviado por Marco (top 5, sin fuente de marcadores)",
+ "partidos": [
+  {
+   "local": "Borussia Dortmund",
+   "visita": "Elversberg",
+   "promedio_estimado": 3.65,
+   "calificacion_o15": 10.0,
+   "categoria": "ÉLITE 95 (según Gemini)"
+  },
+  {
+   "local": "RB Leipzig",
+   "visita": "Augsburg",
+   "promedio_estimado": 3.5,
+   "calificacion_o15": 9.8,
+   "categoria": "ÉLITE 95 (según Gemini)"
+  },
+  {
+   "local": "Pumas UNAM",
+   "visita": "America",
+   "promedio_estimado": 3.4,
+   "calificacion_o15": 9.6,
+   "categoria": "ÉLITE 95 (según Gemini)"
+  },
+  {
+   "local": "Real Salt Lake",
+   "visita": "LA Galaxy",
+   "promedio_estimado": 3.35,
+   "calificacion_o15": 9.5,
+   "categoria": "ÉLITE 95 (según Gemini)"
+  },
+  {
+   "local": "Arsenal",
+   "visita": "Hull City",
+   "promedio_estimado": 3.3,
+   "calificacion_o15": 9.4,
+   "categoria": "ÉLITE 95 (según Gemini)"
+  }
+ ]
+}

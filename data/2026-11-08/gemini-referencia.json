@@ -1,0 +1,42 @@
+{
+ "fecha": "2026-11-08",
+ "registrado": "2026-11-07 08:33 ECU",
+ "origen": "Modelo de Gemini enviado por Marco (top 5, sin fuente de marcadores)",
+ "partidos": [
+  {
+   "local": "Atletico Madrid",
+   "visita": "Barcelona",
+   "promedio_estimado": 3.55,
+   "calificacion_o15": 10.0,
+   "categoria": "ÉLITE 95 (según Gemini)"
+  },
+  {
+   "local": "Inter",
+   "visita": "Como",
+   "promedio_estimado": 3.45,
+   "calificacion_o15": 9.8,
+   "categoria": "ÉLITE 95 (según Gemini)"
+  },
+  {
+   "local": "Manchester United",
+   "visita": "Aston Villa",
+   "promedio_estimado": 3.35,
+   "calificacion_o15": 9.6,
+   "categoria": "ÉLITE 95 (según Gemini)"
+  },
+  {
+   "local": "Crystal Palace",
+   "visita": "Liverpool",
+   "promedio_estimado": 3.3,
+   "calificacion_o15": 9.5,
+   "categoria": "ÉLITE 95 (según Gemini)"
+  },
+  {
+   "local": "Fiorentina",
+   "visita": "Juventus",
+   "promedio_estimado": 3.2,
+   "calificacion_o15": 9.3,
+   "categoria": "ÉLITE 95 (según Gemini)"
+  }
+ ]
+}

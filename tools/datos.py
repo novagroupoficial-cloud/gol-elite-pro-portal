@@ -552,6 +552,20 @@ for _lg,_a,_ga,_gb,_b in MAR03:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# ===== Actualización sáb 7-nov-2026 (chat con Marco, 08:2x ECU; la rutina diaria no publica desde el 4-nov): partidos del MIÉRCOLES 4-nov (data/2026-11-04/auditoria.json, 7/7 terminados, cada uno con su fuente). Pueden faltar otros partidos entre semana de COL/PER/ECU del 4 al 6-nov. Corte nuevo: mié 4-nov-2026 final.
+MIE04=[
+ ('BRA','Athletico-PR',1,3,'Vasco da Gama'),  # https://valorfinal.com.br/brasileirao/resultados
+ ('BRA','Flamengo',3,1,'Grêmio'),  # https://futboltotal.futbol/partido/flamengo-vs-gremio-campeonato-brasileno-de-serie-a-2026-11-04
+ ('COL','Cúcuta',1,0,'Santa Fe'),  # https://www.futbolred.com/futbol-colombiano/liga-betplay/cucuta-vence-1-0-a-santa-fe-con-gol-de-berdugo-en-el-general-santander-274896
+ ('BRA','Botafogo',1,0,'Atletico MG'),  # https://valorfinal.com.br/brasileirao/resultados
+ ('BRA','São Paulo',0,0,'Corinthians'),  # https://valorfinal.com.br/brasileirao/resultados
+ ('COL','Millonarios',0,0,'América de Cali'),  # https://www.infobae.com/colombia/deportes/2026/11/04/millonarios-fc-vs-america-de-cali-en-vivo-hoy-siga-aqui-el-partido-que-cierra-la-fecha-17-de-la-liga-betplay-2026-ii-en-el-estadio-el-campin/
+ ('PER','Universitario',2,2,'Sport Boys'),  # https://oddslot.com/es/futbol/partido/primera-divisi%C3%B3n/universitario/sport-boys/5-nov-2026/
+]
+for _lg,_a,_ga,_gb,_b in MIE04:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

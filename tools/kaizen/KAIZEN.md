@@ -82,6 +82,8 @@ Ninguna mejora de una categoría inferior se acepta si empeora una superior.
     - en ligas nacionales, si mejora el Brier al combinarlo con el modelo (se une a la medición de `ultimos5.json`).
   - **Umbral:** decisión con 100 partidos o más. Un día bueno o malo no decide nada.
 
+- ⭐ **PRIORIDAD CHAMPIONS (Marco, 7-nov-2026):** la Champions League es la competición más acertada hasta ahora (indicador de últimos 5: 16/18 en Over 1.5 en las jornadas del 3 y 4-nov; el 4-nov, 9/9 en Over 1.5 y en Over 2.5). En los próximos cálculos y rankings se le da prioridad: sus partidos van primero en el ranking de estadísticas y en redes. La señal principal es un promedio de 4,0 goles o más en los últimos 5 (7/7 en ambas líneas). Se sigue midiendo por competición (Champions frente a ligas nacionales) hasta los 100 partidos.
+
 ## Base estadística propia: semana por semana y mes por mes (pedido de Marco, 25-oct-2026)
 - `tools/kaizen/seguimiento.json` guarda, para lo SELLADO:
   - `por_semana` (lunes a domingo) y `por_mes`, con partidos, aciertos de Over 1.5, GOLES PLATINO/GOL ÉLITE, señales de Over 2.5 fuertes y moderadas, goles reales vs esperados, aciertos por liga, Brier, skill y AUC;

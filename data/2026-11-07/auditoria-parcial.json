@@ -1,0 +1,279 @@
+{
+ "fecha": "2026-11-07",
+ "corte": "2026-11-07 21:32 ECU",
+ "fuente_resultados": "Marco (lista enviada en el chat, 21:32); verificación cruzada pendiente",
+ "partidos": [
+  {
+   "partido": "Mainz 05|Bayern Munich",
+   "marcador": "1-2",
+   "estado": "final",
+   "goles": 3,
+   "nova_gol_o15": 86,
+   "nova_gol_o25": 66,
+   "categoria": "GOLES ESTÁNDAR",
+   "acierto_o15": true,
+   "acierto_o25": true,
+   "promedio": {
+    "o15": 9,
+    "o25": 7,
+    "prom": 4.1
+   }
+  },
+  {
+   "partido": "SC Paderborn|Eintracht Frankfurt",
+   "marcador": "2-2",
+   "estado": "final",
+   "goles": 4,
+   "nova_gol_o15": 84,
+   "nova_gol_o25": 63,
+   "categoria": "GOLES ESTÁNDAR",
+   "acierto_o15": true,
+   "acierto_o25": true,
+   "promedio": {
+    "o15": 5,
+    "o25": 4,
+    "prom": 2.4
+   }
+  },
+  {
+   "partido": "RB Leipzig|Augsburg",
+   "marcador": "5-2",
+   "estado": "final",
+   "goles": 7,
+   "nova_gol_o15": 92,
+   "nova_gol_o25": 78,
+   "categoria": "GOLES PLATINO",
+   "acierto_o15": true,
+   "acierto_o25": true,
+   "promedio": {
+    "o15": 10,
+    "o25": 8,
+    "prom": 4.1
+   }
+  },
+  {
+   "partido": "Borussia Dortmund|Elversberg",
+   "marcador": "2-1",
+   "estado": "final",
+   "goles": 3,
+   "nova_gol_o15": 82,
+   "nova_gol_o25": 60,
+   "categoria": "GOLES ESTÁNDAR",
+   "acierto_o15": true,
+   "acierto_o25": true,
+   "promedio": {
+    "o15": 8,
+    "o25": 7,
+    "prom": 3.5
+   }
+  },
+  {
+   "partido": "Fulham|Newcastle United",
+   "marcador": "1-1",
+   "estado": "final",
+   "goles": 2,
+   "nova_gol_o15": 81,
+   "nova_gol_o25": 58,
+   "categoria": "GOLES ESTÁNDAR",
+   "acierto_o15": true,
+   "acierto_o25": false,
+   "promedio": {
+    "o15": 5,
+    "o25": 3,
+    "prom": 2.1
+   }
+  },
+  {
+   "partido": "Arsenal|Hull City",
+   "marcador": "1-0",
+   "estado": "final",
+   "goles": 1,
+   "nova_gol_o15": 74,
+   "nova_gol_o25": 48,
+   "categoria": "GOLES OPTIMISTAS",
+   "acierto_o15": false,
+   "acierto_o25": false,
+   "promedio": {
+    "o15": 8,
+    "o25": 5,
+    "prom": 2.6
+   }
+  },
+  {
+   "partido": "Espanyol|Deportivo La Coruna",
+   "marcador": "0-0",
+   "estado": "final",
+   "goles": 0,
+   "nova_gol_o15": 79,
+   "nova_gol_o25": 55,
+   "categoria": "GOLES OPTIMISTAS",
+   "acierto_o15": false,
+   "acierto_o25": false,
+   "promedio": {
+    "o15": 7,
+    "o25": 5,
+    "prom": 2.8
+   }
+  },
+  {
+   "partido": "Parma|Bologna",
+   "marcador": "1-2",
+   "estado": "final",
+   "goles": 3,
+   "nova_gol_o15": 75,
+   "nova_gol_o25": 49,
+   "categoria": "GOLES OPTIMISTAS",
+   "acierto_o15": true,
+   "acierto_o25": true,
+   "promedio": {
+    "o15": 9,
+    "o25": 8,
+    "prom": 3.0
+   }
+  },
+  {
+   "partido": "Nottingham Forest|Manchester City",
+   "marcador": "3-1",
+   "estado": "final",
+   "goles": 4,
+   "nova_gol_o15": 68,
+   "nova_gol_o25": 40,
+   "categoria": "GOLES OPTIMISTAS",
+   "acierto_o15": true,
+   "acierto_o25": true,
+   "promedio": {
+    "o15": 7,
+    "o25": 5,
+    "prom": 2.9
+   }
+  },
+  {
+   "partido": "Osasuna|Athletic Club",
+   "marcador": "1-1",
+   "estado": "final",
+   "goles": 2,
+   "nova_gol_o15": 68,
+   "nova_gol_o25": 40,
+   "categoria": "GOLES OPTIMISTAS",
+   "acierto_o15": true,
+   "acierto_o25": false,
+   "promedio": null
+  },
+  {
+   "partido": "VfB Stuttgart|Werder Bremen",
+   "marcador": "1-0",
+   "estado": "final",
+   "goles": 1,
+   "nova_gol_o15": 89,
+   "nova_gol_o25": 71,
+   "categoria": "GOLES ESTÁNDAR",
+   "acierto_o15": false,
+   "acierto_o25": false,
+   "promedio": {
+    "o15": 9,
+    "o25": 6,
+    "prom": 3.6
+   }
+  },
+  {
+   "partido": "Roma|Sassuolo",
+   "marcador": "3-0",
+   "estado": "final",
+   "goles": 3,
+   "nova_gol_o15": 87,
+   "nova_gol_o25": 67,
+   "categoria": "GOLES ESTÁNDAR",
+   "acierto_o15": true,
+   "acierto_o25": true,
+   "promedio": {
+    "o15": 10,
+    "o25": 8,
+    "prom": 5.2
+   }
+  },
+  {
+   "partido": "Valencia|Real Madrid",
+   "marcador": "0-3",
+   "estado": "final",
+   "goles": 3,
+   "nova_gol_o15": 78,
+   "nova_gol_o25": 53,
+   "categoria": "GOLES OPTIMISTAS",
+   "acierto_o15": true,
+   "acierto_o25": true,
+   "promedio": {
+    "o15": 8,
+    "o25": 8,
+    "prom": 3.4
+   }
+  },
+  {
+   "partido": "Tigres UANL|Cruz Azul",
+   "marcador": "1-2",
+   "estado": "en juego (parcial)",
+   "goles": 3,
+   "nova_gol_o15": 82,
+   "nova_gol_o25": 60,
+   "categoria": "GOLES ESTÁNDAR",
+   "acierto_o15": true,
+   "acierto_o25": true,
+   "promedio": {
+    "o15": 10,
+    "o25": 7,
+    "prom": 3.5
+   }
+  },
+  {
+   "partido": "Toluca|Monterrey",
+   "marcador": "3-0",
+   "estado": "en juego (parcial)",
+   "goles": 3,
+   "nova_gol_o15": 87,
+   "nova_gol_o25": 67,
+   "categoria": "GOLES ESTÁNDAR",
+   "acierto_o15": true,
+   "acierto_o25": true,
+   "promedio": {
+    "o15": 9,
+    "o25": 6,
+    "prom": 3.4
+   }
+  },
+  {
+   "partido": "Instituto Cordoba|Newells Old Boys",
+   "marcador": "1-0",
+   "estado": "en juego (parcial)",
+   "goles": 1,
+   "nova_gol_o15": 58,
+   "nova_gol_o25": 30,
+   "categoria": "GOLES OPTIMISTAS",
+   "acierto_o15": null,
+   "acierto_o25": null,
+   "promedio": null
+  },
+  {
+   "partido": "América de Cali|Deportivo Cali",
+   "marcador": "0-0",
+   "estado": "en juego (parcial)",
+   "goles": 0,
+   "nova_gol_o15": 70,
+   "nova_gol_o25": 43,
+   "categoria": "GOLES OPTIMISTAS",
+   "acierto_o15": null,
+   "acierto_o25": null,
+   "promedio": null
+  },
+  {
+   "partido": "Cienciano|Sport Huancayo",
+   "marcador": "1-1",
+   "estado": "en juego (parcial)",
+   "goles": 2,
+   "nova_gol_o15": 74,
+   "nova_gol_o25": 48,
+   "categoria": "GOLES OPTIMISTAS",
+   "acierto_o15": true,
+   "acierto_o25": null,
+   "promedio": null
+  }
+ ]
+}

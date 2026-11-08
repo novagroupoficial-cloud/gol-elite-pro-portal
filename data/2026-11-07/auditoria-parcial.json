@@ -275,5 +275,22 @@
    "acierto_o25": null,
    "promedio": null
   }
+ ],
+ "agregado_2026-11-08": [
+  {
+   "partido": "Inter Miami|Charlotte",
+   "marcador": "3-3",
+   "estado": "final",
+   "goles": 6,
+   "fuente": "https://futboltotal.futbol/partido/inter-miami-vs-charlotte-mls-2026-11-07"
+  },
+  {
+   "partido": "Pumas UNAM|America",
+   "marcador": "2-2 al 77' (final no confirmado)",
+   "goles_minimo": 4,
+   "acierto_o15": true,
+   "acierto_o25": true,
+   "fuente": "https://www.foxsports.com/soccer/liga-mx-pumas-vs-america-nov-07-2026-game-boxscore-878189"
+  }
  ]
 }

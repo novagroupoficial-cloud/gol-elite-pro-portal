@@ -1,0 +1,182 @@
+{
+ "fecha": "2026-11-10",
+ "sellado": "2026-11-10 10:40 ECU",
+ "fuente_calendario": "captura SportyTrader de Marco",
+ "modelo": "Modelo Nova Promedio",
+ "partidos": [
+  {
+   "hora": "12:45",
+   "liga": "UWCL",
+   "local": "Real Madrid F",
+   "visita": "Paris FC F",
+   "o15": 10,
+   "o25": 7,
+   "prom": 3.7,
+   "ultimos5_local": [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     5,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/real-madrid-cf-vs-paris-fc-w-uefa-champions-league-women-2026-11-10",
+   "nova_gol": "sin pronóstico: sin tabla casa/fuera de la competición"
+  },
+  {
+   "hora": "15:00",
+   "liga": "UWCL",
+   "local": "PSG F",
+   "visita": "Bayern Munich F",
+   "o15": 8,
+   "o25": 6,
+   "prom": 2.8,
+   "ultimos5_local": [
+    [
+     4,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     4
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     2
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/paris-saint-germain-w-vs-bayern-munich-w-uefa-champions-league-women-2026-11-10",
+   "nova_gol": "sin pronóstico: sin tabla casa/fuera de la competición"
+  },
+  {
+   "hora": "15:00",
+   "liga": "UWCL",
+   "local": "Inter F",
+   "visita": "Manchester City F",
+   "o15": 9,
+   "o25": 7,
+   "prom": 3.2,
+   "ultimos5_local": [
+    [
+     0,
+     3
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     6,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     5,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/inter-milano-w-vs-manchester-city-w-uefa-champions-league-women-2026-11-10",
+   "nova_gol": "sin pronóstico: sin tabla casa/fuera de la competición"
+  },
+  {
+   "hora": "15:00",
+   "liga": "Copa del Rey",
+   "local": "UE Tavernes",
+   "visita": "Valencia",
+   "sin": true,
+   "motivo": "Tavernes solo tiene 2 partidos registrados en la fuente; Nova Gol sin tabla de copa",
+   "fuente": "https://futboltotal.futbol/partido/tavernes-vs-valencia-cf-copa-del-rey-2026-10-28"
+  }
+ ]
+}

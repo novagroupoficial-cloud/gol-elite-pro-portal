@@ -1,0 +1,57 @@
+{
+ "fecha": "2026-11-10",
+ "revisado": "2026-11-10 05:40 ECU (UTC-5)",
+ "pronosticos": [],
+ "motivo": "Fecha FIFA de selecciones (9–17 nov): sin partidos de las ligas que sigue el portal. Solo copas (sin tabla común casa/fuera; modo copas en medición), Champions femenina y amistosos.",
+ "sin_pronostico": [
+  {
+   "competicion": "Copa del Rey",
+   "partidos": [
+    "Anaitasuna–Alavés",
+    "Pamplona–Eibar",
+    "Amorebieta–UD Logroñés",
+    "Mijas Las Lagunas–Real Jaén",
+    "Trival Valderas–Leganés",
+    "Tavernes–Valencia"
+   ]
+  },
+  {
+   "competicion": "Copa Colombia",
+   "partidos": [
+    "Inter Bogotá–América de Cali",
+    "Once Caldas–Atlético Nacional"
+   ]
+  },
+  {
+   "competicion": "Copa AUF Uruguay",
+   "partidos": [
+    "Boston River–Montevideo City",
+    "Liverpool–Juventud"
+   ]
+  },
+  {
+   "competicion": "UEFA Women's Champions League",
+   "partidos": [
+    "Häcken–Chelsea",
+    "Real Madrid–Paris FC",
+    "Inter–Manchester City",
+    "PSG–Bayern",
+    "Roma–Servette"
+   ]
+  },
+  {
+   "competicion": "Amistosos de selecciones",
+   "partidos": [
+    "Perú–Bolivia y otros"
+   ]
+  }
+ ],
+ "fuentes": [
+  "https://www.tudn.com/futbol/partidos-hoy-martes-10-noviembre-del-2026-copa-del-rey-y-champions-femenina",
+  "https://libero.pe/futbol-internacional/2026/11/09/partidos-de-hoy-martes-10-de-noviembre-en-vivo-horarios-donde-ver-futbol-676629",
+  "https://www.futbolperuano.com/partidos-por-tv/",
+  "https://valorfinal.com.br/jogos-do-brasileirao-hoje",
+  "https://elcomercio.pe/respuestas/deportes/tabla-acumulada-de-liga-1-2026-en-vivo-puntajes-y-posiciones-del-torneo-clausura-resultados-y-partidos-de-fecha-17-tdpe-noticia/"
+ ],
+ "nota": "SportyTrader no accesible desde la rutina (permiso de red). Dashboard Gol 4.0 /api/dia no consultado (sin URL pública). No se crea pronosticos.json: no hay nada que sellar."
+}

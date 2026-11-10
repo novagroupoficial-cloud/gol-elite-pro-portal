@@ -1,14 +1,7 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — miércoles 4-nov-2026 (rutina diaria 05:2x ECU). SportyTrader no accesible (error del sitio). Calendario: valorfinal (BRA, rodada 34, hora de Brasília −2 h), futboltotal (COL, hora de Chicago +1 h) y futbolperuano/bolavip (PER, reprogramado). Champions League (9 partidos): sin pronóstico (modo copas en medición).
- ('17:30','BRA','Athletico-PR','Vasco da Gama'),
- ('17:30','BRA','Flamengo','Grêmio'),
- ('18:30','COL','Cúcuta','Santa Fe'),
- ('19:30','BRA','Botafogo','Atletico MG'),
- ('19:30','BRA','São Paulo','Corinthians'),
- ('20:30','COL','Millonarios','América de Cali'),
- ('20:30','PER','Universitario','Sport Boys'),
+P=[ # hora (Ecuador), liga, local, visita — martes 10-nov-2026 (rutina diaria 05:2x ECU): fecha FIFA de selecciones (9–17 nov). Sin partidos de liga hoy (revisado: TUDN, Líbero, futbolperuano.com, Valor Final, El Comercio; SportyTrader no accesible). Solo copas (Copa del Rey, Copa Colombia, Copa AUF), Champions femenina y amistosos: sin pronóstico (modo copas en medición).
 ]
 out=[]
 for h,lg,a,b in P:

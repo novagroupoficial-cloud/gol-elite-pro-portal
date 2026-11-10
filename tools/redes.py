@@ -24,8 +24,10 @@ def escudo(t,size):
     c=COL.get(t,'#2a3a32'); ini=''.join(w[0] for w in n(t).replace('.','').split()[:2]).upper()
     return f'<div class="esc" style="width:{size}px;height:{size}px;background:{c};color:{ink(c)};font-size:{size*.36:.0f}px">{e(ini)}</div>'
 foto='data:image/jpeg;base64,'+base64.b64encode(open(K.get('foto','../assets/presentadora.jpg'),'rb').read()).decode()
-top=next(p for p in P if p['local']==K['local'])
-pjL,gfL,gcL=top['casa']; pjV,gfV,gcV=top['fuera']
+SINP=not P or K.get('modo')=='sin_partidos'  # día sin partidos de liga (fecha FIFA, etc.): kit de auditoría, sin pronósticos
+if not SINP:
+    top=next(p for p in P if p['local']==K['local'])
+    pjL,gfL,gcL=top['casa']; pjV,gfV,gcV=top['fuera']
 def _ff(fam,w,f): return '@font-face{font-family:"%s";font-weight:%d;src:url(data:font/woff2;base64,%s) format("woff2")}'%(fam,w,base64.b64encode(open('../assets/fuentes/'+f,'rb').read()).decode())
 FUENTES=_ff('Barlow Condensed',700,'barlow-condensed-latin-700-normal.woff2')+_ff('Barlow Condensed',800,'barlow-condensed-latin-800-normal.woff2')+_ff('IBM Plex Sans',400,'ibm-plex-sans-latin-400-normal.woff2')+_ff('IBM Plex Sans',600,'ibm-plex-sans-latin-600-normal.woff2')
 CSS='''<style>'''+FUENTES+'''
@@ -125,15 +127,58 @@ def carrusel():
 <div style="position:absolute;top:235px;left:0;right:0;text-align:center;font-size:32px;color:#9fb2a6">{e(A['titulo'])}</div>
 <div style="position:absolute;left:60px;right:60px;top:320px;display:grid;grid-template-columns:1fr 1fr;gap:24px">{tiles}</div>
 <div style="position:absolute;left:70px;right:70px;top:1010px;font-size:28px;line-height:1.4">{e(A['nota'])}</div>'''))
-    # 5 cierre
-    s.append(slide(f'''<img src="{foto}" style="position:absolute;left:-30px;bottom:100px;height:1000px;mask-image:linear-gradient(90deg,#000 60%,transparent);-webkit-mask-image:linear-gradient(90deg,#000 60%,transparent)">
+    s.append(carrusel_cierre())
+    return s
+
+def carrusel_cierre():
+    return slide(f'''<img src="{foto}" style="position:absolute;left:-30px;bottom:100px;height:1000px;mask-image:linear-gradient(90deg,#000 60%,transparent);-webkit-mask-image:linear-gradient(90deg,#000 60%,transparent)">
 <div style="position:absolute;right:60px;top:220px;width:560px;display:grid;gap:30px;text-align:right">
 <div class="disp oro" style="font-size:110px;white-space:normal">¿Cuál es tu pronóstico?</div>
 <div style="font-size:36px">Déjalo en los comentarios y compáralo con el nuestro.</div>
 <div class="caja" style="padding:26px;text-align:center"><div class="disp" style="font-size:52px;white-space:normal">Miembros Fundadores</div><div style="font-size:30px" class="dor">Análisis gratis hasta el 30 de noviembre de 2026</div><div style="font-size:28px;margin-top:8px">gol-elite-pro.netlify.app</div></div>
-<div class="legal">Probabilidades estadísticas, no garantías. Solo mayores de 18 años. Presentadora creada con IA.</div></div>'''))
-    return s
+<div class="legal">Probabilidades estadísticas, no garantías. Solo mayores de 18 años. Presentadora creada con IA.</div></div>''')
 
+def slide_aud(A):
+    tiles=''.join(f'<div class="caja" style="padding:28px;text-align:center"><div class="disp {c}" style="font-size:110px">{v}</div><div style="font-size:28px">{e(t)}</div></div>' for v,t,c in A['tiles'])
+    return slide(f'''<div class="disp oro" style="position:absolute;top:120px;left:0;right:0;text-align:center;font-size:96px">{e(A.get('encabezado','Así nos fue ayer'))}</div>
+<div style="position:absolute;top:235px;left:0;right:0;text-align:center;font-size:32px;color:#9fb2a6">{e(A['titulo'])}</div>
+<div style="position:absolute;left:60px;right:60px;top:320px;display:grid;grid-template-columns:1fr 1fr;gap:24px">{tiles}</div>
+<div style="position:absolute;left:70px;right:70px;top:1010px;font-size:28px;line-height:1.4">{e(A['nota'])}</div>''')
+
+def kit_sin_partidos():
+    """Día sin partidos de liga: historia y carrusel con la auditoría (nunca pronósticos inventados)."""
+    S=K['sin_partidos']
+    pdd=''.join(f'''<div class="caja" style="padding:22px 26px;display:grid;gap:6px;text-align:center"><div style="font-size:28px;color:#9fb2a6">{e(x['dia'])}</div><div style="font-size:30px;white-space:nowrap">Dimos Over 1.5 al <b class="verde">{e(x['pct'])}&nbsp;%</b></div>
+<div class="disp" style="font-size:56px;white-space:normal">{e(n(x['local']))} <span class="oro">{e(x['resultado'])}</span> {e(n(x['visita']))}</div><div class="disp verde" style="font-size:40px">✔ Hubo {e(x['goles'])} goles</div></div>''' for x in S['partidos_del_dia'])
+    hist=CSS+f'''<div class="lienzo" style="width:1080px;height:1920px"><div class="luces"></div>
+<div class="marca" style="position:absolute;top:250px;left:0;right:0;font-size:84px">GOL <b>ÉLITE</b> PRO</div>
+<div class="disp oro" style="position:absolute;top:360px;left:40px;right:40px;text-align:center;font-size:120px;white-space:normal">{e(S['titular'])}</div>
+<div style="position:absolute;top:500px;left:80px;right:80px;text-align:center;font-size:36px;line-height:1.35">{e(S['bajada'])}</div>
+<img src="{foto}" style="position:absolute;left:-60px;bottom:250px;height:900px;width:auto;opacity:.9;mask-image:linear-gradient(90deg,#000 55%,transparent);-webkit-mask-image:linear-gradient(90deg,#000 55%,transparent)">
+<div style="position:absolute;right:50px;top:700px;width:640px;display:grid;gap:22px">
+ <div class="disp verde" style="text-align:center;font-size:52px">Partidos del día del finde</div>{pdd}
+ <div class="caja" style="padding:20px 24px;text-align:center;font-size:30px">{e(S['resumen_corto'])}</div></div>
+<div style="position:absolute;left:0;right:0;bottom:330px;padding:12px 40px;background:rgba(3,10,7,.88);text-align:center;font-size:23px;color:#cfe">Over 1.5 = 2 goles o más en el partido, sin importar quién gane · Over 2.5 = 3 goles o más</div>
+<div style="position:absolute;left:0;right:0;bottom:250px;padding:14px 40px;text-align:center;font-size:30px;font-family:'Barlow Condensed';font-weight:700;color:#e6b84a">gol-elite-pro.netlify.app/galeria.html · +18 · no garantiza resultados</div>
+</div>'''
+    sl=[]
+    # 1 portada del día: fecha FIFA + fin de semana auditado
+    tiles=''.join(f'<div class="caja" style="padding:24px;text-align:center"><div class="disp {c}" style="font-size:96px">{v}</div><div style="font-size:26px">{e(t)}</div></div>' for v,t,c in S['tiles'])
+    sl.append(slide(f'''<div class="disp oro" style="position:absolute;top:125px;left:0;right:0;text-align:center;font-size:92px">{e(S['titular'])}</div>
+<div style="position:absolute;top:235px;left:70px;right:70px;text-align:center;font-size:30px;color:#cfe;line-height:1.3">{e(S['bajada'])}</div>
+<div class="disp verde" style="position:absolute;top:360px;left:0;right:0;text-align:center;font-size:54px">Así nos fue el fin de semana</div>
+<div style="position:absolute;left:60px;right:60px;top:450px;display:grid;grid-template-columns:1fr 1fr;gap:22px">{tiles}</div>
+<div style="position:absolute;left:70px;right:70px;top:1030px;font-size:30px;text-align:center;color:#cfe">Desliza: los mejores aciertos y la auditoría completa, con fallos →</div>'''))
+    # 2 mejores aciertos
+    filas=''.join(f'''<div style="display:grid;grid-template-columns:1fr 130px 140px;gap:14px;align-items:center;padding:14px 22px;border-bottom:1px solid #1f3a2b">
+<span style="font-size:28px;font-weight:600;line-height:1.15">{e(n(a))} <span class="dor">{e(r)}</span> {e(n(b))}<br><span style="font-size:22px;color:#9fb2a6">{e(d)}</span></span>
+<span class="disp verde" style="font-size:48px;text-align:right">{e(p)}%</span><span class="disp" style="font-size:36px;text-align:right;color:#cfe">{e(g)} goles</span></div>''' for a,b,r,p,g,d in S['aciertos'])
+    sl.append(slide(f'''<div class="disp oro" style="position:absolute;top:120px;left:0;right:0;text-align:center;font-size:90px">Mejores aciertos</div>
+<div style="position:absolute;top:230px;left:0;right:0;text-align:center;font-size:30px;color:#9fb2a6">Sábado 7 y domingo 8 · <span class="verde">dimos Over 1.5 al</span> · goles que hubo</div>
+<div class="caja" style="position:absolute;left:50px;right:50px;top:290px">{filas}</div>'''))
+    for A in S['auditorias']: sl.append(slide_aud(A))
+    sl.append(carrusel_cierre())
+    return hist,sl
 
 def historia_acierto(A):
     """Historia 1080x1920 '¡ACERTAMOS!' para el partido del día anterior (solo si acertó). A: dict de kit.json['acierto']."""
@@ -141,7 +186,7 @@ def historia_acierto(A):
 <div class="luces"></div>
 <div class="marca" style="position:absolute;top:60px;left:0;right:0;font-size:84px">GOL <b>ÉLITE</b> PRO</div>
 <div class="disp oro" style="position:absolute;top:170px;left:40px;right:40px;text-align:center;font-size:190px">¡ACERTAMOS!</div>
-<div class="disp verde" style="position:absolute;top:385px;left:0;right:0;text-align:center;font-size:46px;letter-spacing:.08em">Partido del día de ayer · {e(A['fecha'])}</div>
+<div class="disp verde" style="position:absolute;top:385px;left:0;right:0;text-align:center;font-size:46px;letter-spacing:.08em">{e(A.get('encabezado','Partido del día de ayer'))} · {e(A['fecha'])}</div>
 <img src="{foto}" style="position:absolute;left:0;bottom:120px;height:1100px;width:auto;mask-image:linear-gradient(90deg,#000 70%,transparent);-webkit-mask-image:linear-gradient(90deg,#000 70%,transparent)">
 <div style="position:absolute;right:50px;top:480px;width:600px;display:grid;gap:28px;grid-template-columns:minmax(0,1fr)">
  <div style="display:flex;align-items:center;justify-content:space-between">{escudo(A['local'],160)}<div class="disp oro" style="font-size:72px">VS</div>{escudo(A['visita'],160)}</div>
@@ -159,8 +204,13 @@ def historia_acierto(A):
 </div>'''
 
 os.makedirs(f'../redes/{FECHA}',exist_ok=True)
-open(f'../redes/{FECHA}/historia.html','w',encoding='utf-8').write(historia())
-for i,h in enumerate(carrusel(),1): open(f'../redes/{FECHA}/carrusel-{i}.html','w',encoding='utf-8').write(h)
+if SINP:
+    _h,_s=kit_sin_partidos()
+    open(f'../redes/{FECHA}/historia.html','w',encoding='utf-8').write(_h)
+    for i,h in enumerate(_s,1): open(f'../redes/{FECHA}/carrusel-{i}.html','w',encoding='utf-8').write(h)
+else:
+    open(f'../redes/{FECHA}/historia.html','w',encoding='utf-8').write(historia())
+    for i,h in enumerate(carrusel(),1): open(f'../redes/{FECHA}/carrusel-{i}.html','w',encoding='utf-8').write(h)
 print('html listo')
 if K.get('acierto'):
     open(f'../redes/{FECHA}/historia-acierto.html','w',encoding='utf-8').write(historia_acierto(K['acierto'])); print('historia-acierto lista')

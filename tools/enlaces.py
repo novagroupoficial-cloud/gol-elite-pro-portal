@@ -1153,3 +1153,20 @@ try:
         DEST=_ORD[:5]
 except Exception as _err:
     print('aviso enlaces: lista SportyTrader no aplicada:',_err)
+
+# ---- Martes 10-nov-2026 (rutina diaria): fecha FIFA de selecciones (9–17 nov), sin partidos de liga hoy -> sin pronósticos.
+# La portada muestra la auditoría del fin de semana (sáb 7 y dom 8) y la galería.
+LINK={}; PRED=[]; DEST=[]; LLEGAN={}
+COL.update({'Augsburg':'#ba3733','Charlotte':'#1a85c8','Columbus Crew':'#fedd00','Chicago Fire':'#c8102e','Union Berlin':'#d4011d','Heerenveen':'#1d4fa0','Feyenoord':'#e30613','Toluca':'#d0021b','Monterrey':'#0b2a6a'})
+ACIERTOS=[
+ ("RB Leipzig vs Augsburg","5-2","92 % · sáb 7","Fútbol Total","https://futboltotal.futbol/partido/rb-leipzig-vs-fc-augsburg-bundesliga-2026-11-07"),
+ ("Cambuur vs PSV","2-5","93 % · dom 8","Fútbol Total","https://futboltotal.futbol/partido/cambuur-vs-psv-eindhoven-eredivisie-2026-11-08"),
+ ("Inter Miami vs Charlotte","3-3","90 % · sáb 7","La Nación","https://www.lanacion.com.ar/deportes/canchallena/charlotte-fc-empato-3-3-con-inter-miami-cf-por-la-mls-nid07112026/"),
+ ("Heerenveen vs Feyenoord","5-3","86 % · dom 8","Fútbol Total","https://futboltotal.futbol/partido/heerenveen-vs-feyenoord-eredivisie-2026-11-08"),
+ ("Chicago Fire vs Columbus Crew","3-4","85 % · sáb 7","Fútbol Total","https://futboltotal.futbol/partido/chicago-fire-fc-vs-columbus-crew-mls-2026-11-07"),
+ ("Toluca vs Monterrey","4-0","87 % · sáb 7","TUDN","https://www.tudn.com/futbol/liga-mx/al-momento-resultados-momento-hoy-jornada-16-del-apertura-2026-liga-mx"),
+ ("FC Twente vs Ajax","2-2","88 % · dom 8","Fútbol Total","https://futboltotal.futbol/partido/twente-vs-ajax-eredivisie-2026-11-08"),
+ ("Pumas vs América","2-2","88 % · sáb 7","Fox Sports","https://www.foxsports.com/soccer/liga-mx-pumas-vs-america-nov-07-2026-game-boxscore-878189"),
+ ("Estrela Amadora vs Benfica","2-3","81 % · dom 8","Fútbol Total","https://futboltotal.futbol/partido/estrela-vs-benfica-primeira-liga-2026-11-08"),
+ ("Manchester United vs Aston Villa","4-4","77 % · dom 8","Fútbol Total","https://futboltotal.futbol/partido/manchester-united-vs-aston-villa-premier-league-2026-11-08"),
+]

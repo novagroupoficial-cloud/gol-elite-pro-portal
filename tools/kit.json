@@ -1,20 +1,15 @@
 {
  "modo": "sin_partidos",
- "fecha_larga": "Martes 10 de noviembre de 2026",
- "desde": "05:45",
+ "fecha_larga": "Miércoles 11 de noviembre de 2026",
+ "desde": "05:50",
  "sin_partidos": {
   "titular": "Hoy: fecha FIFA",
-  "bajada": "No hay partidos de liga hasta el fin de semana, así que hoy no hay pronósticos. No inventamos números.",
-  "resumen_corto": "Fin de semana: 63 de 81 partidos con 2 goles o más · GOLES PLATINO 4/5",
+  "bajada": "Hoy no juega ninguna de las ligas que seguimos, así que no hay pronósticos. No inventamos números. Vuelven desde el jueves.",
+  "titulo_historia": "Últimos partidos del día",
+  "resumen_corto": "22 días auditados · Over 1.5 de 90 % o más: 41 de 46 (89 %)",
+  "titulo_tiles": "Nuestros números en 22 días auditados",
+  "desliza": "Desliza: partidos del día (aciertos y fallos) y cómo se cumplen nuestras probabilidades →",
   "partidos_del_dia": [
-   {
-    "dia": "Sábado 7 · Bundesliga",
-    "local": "RB Leipzig",
-    "visita": "Augsburg",
-    "resultado": "5-2",
-    "pct": "92",
-    "goles": "7"
-   },
    {
     "dia": "Domingo 8 · Eredivisie",
     "local": "Cambuur",
@@ -22,162 +17,161 @@
     "resultado": "2-5",
     "pct": "93",
     "goles": "7"
+   },
+   {
+    "dia": "Sábado 7 · Bundesliga",
+    "local": "RB Leipzig",
+    "visita": "Augsburg",
+    "resultado": "5-2",
+    "pct": "92",
+    "goles": "7"
    }
   ],
   "tiles": [
    [
-    "2/2",
-    "Partidos del día acertados",
+    "41/46",
+    "Over 1.5 de 90 % o más (89 %)",
     "verde"
    ],
    [
-    "4/5",
-    "GOLES PLATINO (90 a 94 %)",
+    "17",
+    "aciertos seguidos de 90 % o más (récord)",
     "verde"
    ],
    [
-    "51/67",
-    "Over 1.5 de 70 % o más (76 %)",
+    "181/226",
+    "Over 1.5 de 80 % o más (80 %)",
     "dor"
    ],
    [
-    "11/16",
-    "Over 2.5 con señal (69 %)",
+    "505",
+    "partidos auditados con fuente",
     "dor"
    ]
   ],
+  "titulo_aciertos": "Partidos del día",
+  "sub_aciertos": "Los últimos 8 auditados, con fallos",
   "aciertos": [
-   [
-    "RB Leipzig",
-    "Augsburg",
-    "5-2",
-    "92",
-    "7",
-    "Sáb 7 · partido del día"
-   ],
    [
     "Cambuur",
     "PSV",
     "2-5",
     "93",
     "7",
-    "Dom 8 · partido del día"
+    "Dom 8 · Eredivisie · ✔ acertó"
    ],
    [
-    "Inter Miami",
-    "Charlotte",
-    "3-3",
-    "90",
-    "6",
-    "Sáb 7 · MLS"
-   ],
-   [
-    "Heerenveen",
-    "Feyenoord",
-    "5-3",
-    "86",
-    "8",
-    "Dom 8 · Eredivisie"
-   ],
-   [
-    "Chicago Fire",
-    "Columbus Crew",
-    "3-4",
-    "85",
+    "RB Leipzig",
+    "Augsburg",
+    "5-2",
+    "92",
     "7",
-    "Sáb 7 · MLS"
+    "Sáb 7 · Bundesliga · ✔ acertó"
    ],
    [
-    "Toluca",
-    "Monterrey",
-    "4-0",
-    "87",
-    "4",
-    "Sáb 7 · Liga MX"
+    "Botafogo",
+    "Atletico MG",
+    "1-0",
+    "76",
+    "1",
+    "Mié 4 · Brasileirão · ✘ falló"
    ],
    [
-    "FC Twente",
-    "Ajax",
-    "2-2",
-    "88",
-    "4",
-    "Dom 8 · Eredivisie"
+    "Alianza Lima",
+    "Cienciano",
+    "1-0",
+    "81",
+    "1",
+    "Mar 3 · Liga 1 · ✘ falló"
    ],
    [
-    "Pumas UNAM",
-    "America",
-    "2-2",
-    "88",
-    "4",
-    "Sáb 7 · Liga MX"
+    "Sassuolo",
+    "Fiorentina",
+    "2-4",
+    "89",
+    "6",
+    "Lun 2 · Serie A · ✔ acertó"
+   ],
+   [
+    "FC Groningen",
+    "Sparta Rotterdam",
+    "2-3",
+    "92",
+    "5",
+    "Dom 1 · Eredivisie · ✔ acertó"
+   ],
+   [
+    "Racing Club",
+    "Aldosivi",
+    "2-1",
+    "73",
+    "3",
+    "Vie 30 · Argentina · ✔ acertó"
+   ],
+   [
+    "Parma",
+    "Udinese",
+    "0-0",
+    "85",
+    "0",
+    "Mié 28 · Serie A · ✘ falló"
    ]
   ],
   "auditorias": [
    {
-    "encabezado": "Sábado 7",
-    "titulo": "43 partidos auditados con fuente",
+    "encabezado": "Por categoría",
+    "titulo": "505 partidos auditados · escala actual",
     "tiles": [
      [
-      "32/43",
-      "Partidos con 2 goles o más",
+      "5/5",
+      "GOL ÉLITE (95 % o más)",
       "verde"
      ],
      [
-      "2/3",
-      "GOLES PLATINO (90 a 94 %)",
+      "36/41",
+      "GOLES PLATINO (90 a 94 %) · 88 %",
       "verde"
      ],
      [
-      "15/16",
-      "GOLES ESTÁNDAR (80 a 89 %)",
-      "verde"
+      "140/180",
+      "GOLES ESTÁNDAR (80 a 89 %) · 78 %",
+      "dor"
      ],
      [
-      "7/9",
-      "Over 2.5 con señal (78 %)",
+      "214/279",
+      "GOLES OPTIMISTAS (menos de 80 %) · 77 %",
       "dor"
      ]
     ],
-    "nota": "Acertamos el partido del día: RB Leipzig 5-2 Augsburg (dimos 92 %, hubo 7 goles). Fallaron San Diego 0-1 Sporting KC (90 %; 1 gol) y Stuttgart 1-0 Werder Bremen (89 %; 1 gol). Publicamos aciertos y fallos."
+    "nota": "Lo decimos tal cual: GOL ÉLITE cumple el 100 % (muestra aún pequeña, 5 partidos); GOLES PLATINO, 88 % (meta 90 %); GOLES ESTÁNDAR prometía 84 % y cumple 78 %. Por eso seguimos auditando cada partido y mejoramos el modelo con el método Kaizen."
    },
    {
-    "encabezado": "Domingo 8",
-    "titulo": "38 partidos auditados con fuente",
+    "encabezado": "Más récords",
+    "titulo": "Desde el 11 de octubre de 2026",
     "tiles": [
      [
-      "31/38",
-      "Partidos con 2 goles o más",
+      "16/20",
+      "Partidos del día acertados (+1 sin resultado)",
       "verde"
      ],
      [
-      "2/2",
-      "GOLES PLATINO (90 a 94 %)",
+      "9",
+      "goles en la mayor goleada acertada",
       "verde"
      ],
      [
-      "12/16",
-      "GOLES ESTÁNDAR (80 a 89 %)",
+      "62/100",
+      "Over 2.5 con señal (62 %)",
       "dor"
      ],
      [
-      "4/7",
-      "Over 2.5 con señal (57 %)",
+      "325/422",
+      "Galería: Over 1.5 de 70 % o más (77 %)",
       "dor"
      ]
     ],
-    "nota": "Acertamos el partido del día: Cambuur 2-5 PSV (dimos 93 %, hubo 7 goles). Fallaron Monza 0-1 Atalanta (87 %), Sport Boys 0-0 UTC (84 %), Real Sociedad 1-0 Rayo (83 %) y Rio Ave 0-1 Braga (81 %)."
+    "nota": "Mayor goleada acertada: Excelsior 0-9 FC Twente (dimos Over 1.5 al 87 %). Over 2.5 sigue siendo nuestro punto más flojo y lo publicamos igual. Todos los días auditados, con aciertos y fallos, están en gol-elite-pro.netlify.app/galeria.html"
    }
   ]
- },
- "acierto": {
-  "encabezado": "Partido del día del domingo",
-  "fecha": "dom 8 de noviembre",
-  "local": "Cambuur",
-  "visita": "PSV",
-  "liga": "Eredivisie · Países Bajos",
-  "resultado": "2-5",
-  "over15": "92.7",
-  "goles": "7",
-  "sellado": "08:13 del sábado 7 (ECU)"
  }
 }

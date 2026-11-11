@@ -1170,3 +1170,7 @@ ACIERTOS=[
  ("Estrela Amadora vs Benfica","2-3","81 % · dom 8","Fútbol Total","https://futboltotal.futbol/partido/estrela-vs-benfica-primeira-liga-2026-11-08"),
  ("Manchester United vs Aston Villa","4-4","77 % · dom 8","Fútbol Total","https://futboltotal.futbol/partido/manchester-united-vs-aston-villa-premier-league-2026-11-08"),
 ]
+
+# ---- Miércoles 11-nov-2026 (rutina diaria): fecha FIFA de selecciones (9–17 nov), sin partidos de liga hoy -> sin pronósticos.
+# Ayer (10-nov) tampoco hubo pronósticos: los aciertos de la portada siguen siendo los del último fin de semana auditado (7 y 8).
+LINK={}; PRED=[]; DEST=[]; LLEGAN={}

@@ -1,0 +1,21 @@
+{
+ "fecha": "2026-11-11",
+ "revisado": "2026-11-11 05:50 ECU (UTC-5)",
+ "pronosticos": [],
+ "motivo": "Fecha FIFA de selecciones (9–17 nov): hoy no juega ninguna de las ligas que sigue el portal. Solo Champions femenina, Segunda RFEF, Serie B de Brasil, Taça Fares Lopes, Liga MX Femenil y amistosos de selecciones (fuera del modelo).",
+ "calendario_revisado": [
+  {"fuente": "Fútbol Total · partidos del 11-nov-2026 (15 partidos, ninguno de las ligas del portal)", "url": "https://futboltotal.futbol/2026-11-11"},
+  {"fuente": "O Povo · Jogos hoje (11/11/26): sin Brasileirão Serie A", "url": "https://www.opovo.com.br/esportes/futebol/jogos-de-hoje/2026/11/11/jogos-hoje-11-11-26-ao-vivo-de-futebol-onde-assistir-e-horario.html"},
+  {"fuente": "Minuto60 · Liga BetPlay fecha 19: jueves 12, viernes 13 y sábado 14 de noviembre", "url": "https://www.minuto60.com/deportes/liga-betplay-hora-canal-los-partidos-fecha-19-simultanea/18711"},
+  {"fuente": "Primicias · LigaPro fecha 6 de la fase final: del 7 al 9 de noviembre", "url": "https://www.primicias.ec/deportes/donde-ver-fecha/teleamazonas-fechas-partidos-horarios-fecha6-hexagonal-cuadrangular-ver-tv-136584/"},
+  {"fuente": "SportyTrader: no accesible desde la rutina (permiso de acceso no concedido)", "url": "https://www.sportytrader.com/es/pronosticos/futbol/"}
+ ],
+ "sin_pronostico": [
+  {"competicion": "UEFA Women's Champions League", "partidos": ["OH Leuven–Køge", "Benfica–Austria Viena", "Juventus–Lyon"]},
+  {"competicion": "Campeonato Brasileño Serie B", "partidos": ["Londrina–Náutico"]},
+  {"competicion": "Taça Fares Lopes (copa)", "partidos": ["Tirol–Fortaleza"]},
+  {"competicion": "Segunda RFEF grupo 3", "partidos": ["Castellonense–La Nucía", "Castellón II–Deportiva Minera", "Alcoyano–Elche II", "Cieza–Valencia II"]},
+  {"competicion": "Amistosos de selecciones", "partidos": ["Vietnam–China Taipéi", "Sint Maarten–Anguila", "otros juveniles"]}
+ ],
+ "nota": "Liga BetPlay retoma el jueves 12 (Pasto–Junior). El Dashboard Gol 4.0 no se consultó con datos de hoy porque no hay partidos de liga que pronosticar."
+}

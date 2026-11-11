@@ -1,7 +1,7 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — martes 10-nov-2026 (rutina diaria 05:2x ECU): fecha FIFA de selecciones (9–17 nov). Sin partidos de liga hoy (revisado: TUDN, Líbero, futbolperuano.com, Valor Final, El Comercio; SportyTrader no accesible). Solo copas (Copa del Rey, Copa Colombia, Copa AUF), Champions femenina y amistosos: sin pronóstico (modo copas en medición).
+P=[ # hora (Ecuador), liga, local, visita — miércoles 11-nov-2026 (rutina diaria 05:2x ECU): fecha FIFA de selecciones (9–17 nov). Sin partidos de las ligas del portal (revisado: Fútbol Total, O Povo, Minuto60/Liga BetPlay desde el 12-nov, Primicias/LigaPro; SportyTrader no accesible). Solo Champions femenina, Serie B Brasil, Segunda RFEF, Taça Fares Lopes y amistosos: sin pronóstico.
 ]
 out=[]
 for h,lg,a,b in P:

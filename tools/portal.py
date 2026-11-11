@@ -20,10 +20,10 @@ def key(p): return f"{p['local']}|{p['visita']}"
 NEWS_PRED={}  # (sin uso en la portada actual)
 NEWS_DEST=[]
 FUENTES=[
- ("TUDN · Partidos de hoy, martes 10 de noviembre de 2026","https://www.tudn.com/futbol/partidos-hoy-martes-10-noviembre-del-2026-copa-del-rey-y-champions-femenina"),
- ("Líbero · Partidos de hoy, martes 10 de noviembre","https://libero.pe/futbol-internacional/2026/11/09/partidos-de-hoy-martes-10-de-noviembre-en-vivo-horarios-donde-ver-futbol-676629"),
- ("Valor Final · Jogos do Brasileirão (sin partidos el 10-nov)","https://valorfinal.com.br/jogos-do-brasileirao-hoje"),
- ("El Comercio · Liga 1: fecha 17 del Clausura (desde el 15-nov)","https://elcomercio.pe/respuestas/deportes/tabla-acumulada-de-liga-1-2026-en-vivo-puntajes-y-posiciones-del-torneo-clausura-resultados-y-partidos-de-fecha-17-tdpe-noticia/"),
+ ("Fútbol Total · Partidos del miércoles 11 de noviembre de 2026 (sin ligas del portal)","https://futboltotal.futbol/2026-11-11"),
+ ("O Povo · Jogos hoje (11/11/26): sin Brasileirão Serie A","https://www.opovo.com.br/esportes/futebol/jogos-de-hoje/2026/11/11/jogos-hoje-11-11-26-ao-vivo-de-futebol-onde-assistir-e-horario.html"),
+ ("Minuto60 · Liga BetPlay, fecha 19: del jueves 12 al sábado 14 de noviembre","https://www.minuto60.com/deportes/liga-betplay-hora-canal-los-partidos-fecha-19-simultanea/18711"),
+ ("Primicias · LigaPro, fecha 6 de la fase final (7 al 9 de noviembre)","https://www.primicias.ec/deportes/donde-ver-fecha/teleamazonas-fechas-partidos-horarios-fecha6-hexagonal-cuadrangular-ver-tv-136584/"),
  ("Fútbol Total · RB Leipzig 5-2 Augsburg (sáb 7)","https://futboltotal.futbol/partido/rb-leipzig-vs-fc-augsburg-bundesliga-2026-11-07"),
  ("Fútbol Total · Cambuur 2-5 PSV (dom 8)","https://futboltotal.futbol/partido/cambuur-vs-psv-eindhoven-eredivisie-2026-11-08"),
 ]
@@ -178,7 +178,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if entero(p['over15'])>=80 else ''}"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=['Fecha FIFA (9–17 nov): hoy no hay partidos de las ligas que seguimos.','Copa del Rey (Tavernes–Valencia y otros), Copa Colombia (Inter Bogotá–América de Cali, Once Caldas–Atlético Nacional) y Copa AUF de Uruguay: copas, sin tabla común de local y visitante; el «modo copas» sigue en medición (Kaizen).','Champions League femenina y amistosos de selecciones (Perú–Bolivia y otros): fuera del modelo.']
+SIN=['Fecha FIFA (9–17 nov): hoy no juega ninguna de las ligas que seguimos. Liga BetPlay vuelve el jueves 12 (Pasto–Junior).','Champions League femenina (Juventus–Lyon, Benfica–Austria Viena, OH Leuven–Køge), Serie B de Brasil (Londrina–Náutico), Taça Fares Lopes y Segunda RFEF: fuera de las ligas del modelo o sin tabla común de local y visitante.','Amistosos de selecciones (Vietnam–China Taipéi y otros): fuera del modelo.']
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 # Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
@@ -298,7 +298,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Martes 10 de noviembre de 2026 · fecha FIFA de selecciones: hoy no hay partidos de liga, así que no hay pronósticos. Abajo, la auditoría completa del fin de semana.</div>
+<div class="preview">Miércoles 11 de noviembre de 2026 · fecha FIFA de selecciones: hoy no hay partidos de las ligas que seguimos, así que no hay pronósticos. Abajo, la última auditoría (fin de semana 7 y 8) y nuestros récords.</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
 <div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Miércoles 4 de noviembre de 2026 · sellado 05:34 ECU · el de mayor Over 1.5 que aún no empieza</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
@@ -319,7 +319,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <div class="book">{rows}</div></section>
 </main>
 <aside>
-<section class="box" id="historial"><h3>Auditoría del fin de semana (sáb 7 y dom 8)</h3>
+<section class="box" id="historial"><h3>Última auditoría: fin de semana (sáb 7 y dom 8)</h3><p class="legal">Lunes 9, martes 10 y miércoles 11 (fecha FIFA): sin pronósticos, nada que auditar.</p>
 <div class="kpis"><div class="kpi g"><b>✔ 7 goles</b><span>Partido del día sáb: RB Leipzig 5-2 Augsburg (92 %)</span></div><div class="kpi g"><b>✔ 7 goles</b><span>Partido del día dom: Cambuur 2-5 PSV (93 %)</span></div><div class="kpi"><b>51/67</b><span>Over 1.5 de 70 % o más (76 %)</span></div><div class="kpi"><b>11/16</b><span>Over 2.5 con señal (69 %)</span></div></div>
 <p class="legal">Sábado 7: 43 partidos terminados, 32 con 2 goles o más; GOLES PLATINO 2/3, GOLES ESTÁNDAR 15/16 y GOLES OPTIMISTAS 15/24. Domingo 8: 38 terminados (1 pendiente sin fuente: Universitario–CD Moquegua), 31 con 2 goles o más; GOLES PLATINO 2/2, GOLES ESTÁNDAR 12/16 y GOLES OPTIMISTAS 17/20. No hubo GOL ÉLITE. Fallaron con 80 % o más: San Diego 0-1 Sporting KC (90 %), Stuttgart 1-0 Werder Bremen (89 %), Monza 0-1 Atalanta (87 %), Sport Boys 0-0 UTC (84 %), Real Sociedad 1-0 Rayo (83 %) y Rio Ave 0-1 Braga (81 %). Marcadores exactos: 9 de 81. Acumulado de la galería (22 jornadas publicadas): 32/33 GOL ÉLITE y 325/422 en Over 1.5 de 70 % o más (77 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul><p class="legal">Porcentajes redondeados: ,5 o más sube (94,8 → 95 %); menos de ,5 se queda (94,4 → 94 %).</p></section>
@@ -332,7 +332,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-11-10"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-11-11"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});
@@ -342,9 +342,9 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 # Día sin partidos de liga (fecha FIFA, etc.): no hay pronósticos; se quitan las secciones del día y queda la auditoría.
 if SINP:
     _av='''<section class="hero" aria-label="Hoy sin pronósticos"><img src="data:image/jpeg;base64,'''+FOTO+'''" alt="Presentadora de Gol Élite Pro"><div class="hero-b"><div class="hero-k">Hoy no hay pronósticos</div>
-<div class="src">Martes 10 de noviembre de 2026 · revisado a las 05:30 ECU</div>
-<h2>Fecha FIFA: las ligas vuelven el fin de semana</h2>
-<p>Del 9 al 17 de noviembre juegan las selecciones. Hoy solo hay copas (Copa del Rey, Copa Colombia, Copa AUF), Champions femenina y amistosos, que el modelo Nova Gol no pronostica: no tienen una tabla común de local y visitante. No inventamos números. Mientras tanto, revisa la auditoría del fin de semana: los dos partidos del día acertaron (RB Leipzig 5-2 Augsburg y Cambuur 2-5 PSV).</p>
+<div class="src">Miércoles 11 de noviembre de 2026 · revisado a las 05:50 ECU</div>
+<h2>Fecha FIFA: las ligas vuelven desde el jueves</h2>
+<p>Del 9 al 17 de noviembre juegan las selecciones. Hoy solo hay Champions femenina, amistosos y divisiones que el modelo Nova Gol no cubre. No inventamos números. La Liga BetPlay vuelve el jueves 12 y el resto de ligas el fin de semana. Mientras tanto, revisa la última auditoría: los dos partidos del día del fin de semana acertaron (RB Leipzig 5-2 Augsburg y Cambuur 2-5 PSV) y en 22 días auditados el Over 1.5 de 90 % o más se cumplió 41 de 46 veces.</p>
 <div class="src">+18 · Probabilidades estadísticas, no garantías · <a href="/galeria.html">Ver la galería de aciertos ↗</a></div></div></section>'''
     out=re.sub(r'<section class="hero".*?</section>',lambda m:_av,out,count=1,flags=re.S)
     for _sid in ('predicciones','destacados','llegan','partidos'):

@@ -1,0 +1,566 @@
+{
+ "fecha": "2026-11-14",
+ "sellado": "2026-11-14 10:55 ECU",
+ "fuente_calendario": "capturas SportyTrader de Marco",
+ "partidos": [
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Atlético Nacional",
+   "visita": "Once Caldas",
+   "o15": 8,
+   "o25": 3,
+   "prom": 2.5,
+   "ultimos5_local": [
+    [
+     4,
+     3
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     2
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/atletico-nacional-vs-once-caldas-primera-a-2026-11-12",
+   "nova_gol": {
+    "over15": 72.1,
+    "over25": 45.4,
+    "marcador": "1-1",
+    "categoria": "GOLES OPTIMISTAS",
+    "sellado": "rutina 14-nov"
+   }
+  },
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Bucaramanga",
+   "visita": "Fortaleza",
+   "o15": 8,
+   "o25": 6,
+   "prom": 2.5,
+   "ultimos5_local": [
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/bucaramanga-vs-fortaleza-fc-primera-a-2026-11-12",
+   "nova_gol": {
+    "over15": 71.5,
+    "over25": 44.6,
+    "marcador": "1-1",
+    "categoria": "GOLES OPTIMISTAS",
+    "sellado": "rutina 14-nov"
+   }
+  },
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Deportivo Pereira",
+   "visita": "América de Cali",
+   "o15": 7,
+   "o25": 4,
+   "prom": 2.5,
+   "ultimos5_local": [
+    [
+     4,
+     3
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/deportivo-pereira-vs-america-de-cali-primera-a-2026-11-12",
+   "nova_gol": {
+    "over15": 63.4,
+    "over25": 35.4,
+    "marcador": "1-1",
+    "categoria": "GOLES OPTIMISTAS",
+    "sellado": "rutina 14-nov"
+   }
+  },
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Águilas Doradas",
+   "visita": "Independiente Medellín",
+   "o15": 7,
+   "o25": 5,
+   "prom": 2.3,
+   "ultimos5_local": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     0,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     2
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/rionegro-aguilas-vs-independiente-medellin-primera-a-2026-11-12",
+   "nova_gol": {
+    "over15": 77.9,
+    "over25": 53.1,
+    "marcador": "1-1",
+    "categoria": "GOLES OPTIMISTAS",
+    "sellado": "rutina 14-nov"
+   }
+  },
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Deportivo Cali",
+   "visita": "Tolima",
+   "o15": 7,
+   "o25": 5,
+   "prom": 2.3,
+   "ultimos5_local": [
+    [
+     0,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/deportivo-cali-vs-deportes-tolima-primera-a-2026-11-12",
+   "nova_gol": {
+    "over15": 71.5,
+    "over25": 44.7,
+    "marcador": "1-1",
+    "categoria": "GOLES OPTIMISTAS",
+    "sellado": "rutina 14-nov"
+   }
+  },
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Millonarios",
+   "visita": "Alianza (ex Alianza Petrolera)",
+   "o15": 6,
+   "o25": 4,
+   "prom": 2.1,
+   "ultimos5_local": [
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/millonarios-vs-alianza-petrolera-primera-a-2026-11-12",
+   "nova_gol": {
+    "over15": 66.5,
+    "over25": 38.8,
+    "marcador": "1-0",
+    "categoria": "GOLES OPTIMISTAS",
+    "sellado": "rutina 14-nov"
+   }
+  },
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Cúcuta",
+   "visita": "Jaguares de Córdoba",
+   "o15": 6,
+   "o25": 3,
+   "prom": 2.1,
+   "ultimos5_local": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/cucuta-vs-jaguares-primera-a-2026-11-12",
+   "nova_gol": {
+    "over15": 72.6,
+    "over25": 46.1,
+    "marcador": "1-1",
+    "categoria": "GOLES OPTIMISTAS",
+    "sellado": "rutina 14-nov"
+   }
+  },
+  {
+   "hora": "16:30",
+   "liga": "BRA",
+   "local": "Mirassol",
+   "visita": "Atletico MG",
+   "o15": 7,
+   "o25": 2,
+   "prom": 2.1,
+   "ultimos5_local": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/partido-mirassol-vs-atletico-mg-campeonato-brasileno-de-serie-a-2026-11-18",
+   "nova_gol": {
+    "over15": 72.7,
+    "over25": 46.2,
+    "marcador": "1-1",
+    "categoria": "GOLES OPTIMISTAS",
+    "sellado": "2026-11-14 10:5x ECU (chat)",
+    "nota_datos": "tabla BRA con corte 4-nov"
+   }
+  },
+  {
+   "hora": "18:30",
+   "liga": "BRA",
+   "local": "Chapecoense",
+   "visita": "Vasco da Gama",
+   "o15": 8,
+   "o25": 8,
+   "prom": 3.3,
+   "ultimos5_local": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     4
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/partido-chapecoense-sc-vs-vasco-da-gama-campeonato-brasileno-de-serie-a-2026-07-29",
+   "nova_gol": {
+    "over15": 79.9,
+    "over25": 56.0,
+    "marcador": "1-1",
+    "categoria": "GOLES ESTÁNDAR",
+    "sellado": "2026-11-14 10:5x ECU (chat)",
+    "nota_datos": "tabla BRA con corte 4-nov"
+   }
+  },
+  {
+   "hora": "22:00",
+   "liga": "MXE",
+   "local": "Club Atlético La Paz",
+   "visita": "Piratas Veracruz",
+   "sin": true,
+   "motivo": "Liga de Expansión MX sin datos verificables"
+  }
+ ]
+}

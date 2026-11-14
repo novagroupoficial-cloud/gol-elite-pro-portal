@@ -1,7 +1,14 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — miércoles 11-nov-2026 (rutina diaria 05:2x ECU): fecha FIFA de selecciones (9–17 nov). Sin partidos de las ligas del portal (revisado: Fútbol Total, O Povo, Minuto60/Liga BetPlay desde el 12-nov, Primicias/LigaPro; SportyTrader no accesible). Solo Champions femenina, Serie B Brasil, Segunda RFEF, Taça Fares Lopes y amistosos: sin pronóstico.
+P=[ # hora (Ecuador), liga, local, visita — sábado 14-nov-2026 (rutina diaria 05:2x ECU): fecha FIFA; solo la Liga BetPlay (fecha 19, 7 partidos simultáneos 15:30 COL = 15:30 ECU; programación Publimetro/Dimayor). Sin partidos hoy de BRA (paro FIFA), MEX (vuelve el 20-nov), ARG (octavos desde el 20-nov), PER (desde el 15-nov), CHI (fecha 29 el 28-nov), ECU (fecha 7 desde el 20-nov), MLS ni Europa. SportyTrader no accesible.
+ ('15:30','COL','Millonarios','Alianza (ex Alianza Petrolera)'),
+ ('15:30','COL','Deportivo Pereira','América de Cali'),
+ ('15:30','COL','Cúcuta','Jaguares de Córdoba'),
+ ('15:30','COL','Deportivo Cali','Tolima'),
+ ('15:30','COL','Atlético Nacional','Once Caldas'),
+ ('15:30','COL','Águilas Doradas','Independiente Medellín'),
+ ('15:30','COL','Bucaramanga','Fortaleza'),
 ]
 out=[]
 for h,lg,a,b in P:

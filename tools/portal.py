@@ -20,10 +20,10 @@ def key(p): return f"{p['local']}|{p['visita']}"
 NEWS_PRED={}  # (sin uso en la portada actual)
 NEWS_DEST=[]
 FUENTES=[
- ("Fútbol Total · Partidos del miércoles 11 de noviembre de 2026 (sin ligas del portal)","https://futboltotal.futbol/2026-11-11"),
- ("O Povo · Jogos hoje (11/11/26): sin Brasileirão Serie A","https://www.opovo.com.br/esportes/futebol/jogos-de-hoje/2026/11/11/jogos-hoje-11-11-26-ao-vivo-de-futebol-onde-assistir-e-horario.html"),
- ("Minuto60 · Liga BetPlay, fecha 19: del jueves 12 al sábado 14 de noviembre","https://www.minuto60.com/deportes/liga-betplay-hora-canal-los-partidos-fecha-19-simultanea/18711"),
- ("Primicias · LigaPro, fecha 6 de la fase final (7 al 9 de noviembre)","https://www.primicias.ec/deportes/donde-ver-fecha/teleamazonas-fechas-partidos-horarios-fecha6-hexagonal-cuadrangular-ver-tv-136584/"),
+ ("Publimetro · Dimayor confirmó la programación de la fecha 19 de la Liga BetPlay (sábado 14, 15:30)","https://www.publimetro.co/deportes/2026/11/10/dimayor-confirmo-la-programacion-de-la-ultima-fecha-de-la-liga-betplay-millonarios-y-once-caldas-se-juegan-la-vida-por-entrar-a-los-ocho/"),
+ ("Win Sports · Resultados de la fecha 18 de la Liga BetPlay 2026-II","https://www.winsports.co/futbol-colombiano/liga-dimayor/resultados"),
+ ("Infobae · Liga 1 Perú: la última fecha empieza el domingo 15","https://www.infobae.com/peru/deportes/2026/11/10/programacion-confirmada-de-la-ultima-fecha-del-torneo-clausura-2026-de-la-liga-1-2026-partidos-horarios-y-canales-tv/"),
+ ("El Mercurio · LigaPro: la fecha 7 de los hexagonales se juega del 20 al 22 de noviembre","https://elmercurio.com.ec/deportes/2026/11/11/fecha-7-hexagonales-ligapro-partidos-horarios/"),
  ("Fútbol Total · RB Leipzig 5-2 Augsburg (sáb 7)","https://futboltotal.futbol/partido/rb-leipzig-vs-fc-augsburg-bundesliga-2026-11-07"),
  ("Fútbol Total · Cambuur 2-5 PSV (dom 8)","https://futboltotal.futbol/partido/cambuur-vs-psv-eindhoven-eredivisie-2026-11-08"),
 ]
@@ -178,7 +178,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if entero(p['over15'])>=80 else ''}"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=['Fecha FIFA (9–17 nov): hoy no juega ninguna de las ligas que seguimos. Liga BetPlay vuelve el jueves 12 (Pasto–Junior).','Champions League femenina (Juventus–Lyon, Benfica–Austria Viena, OH Leuven–Køge), Serie B de Brasil (Londrina–Náutico), Taça Fares Lopes y Segunda RFEF: fuera de las ligas del modelo o sin tabla común de local y visitante.','Amistosos de selecciones (Vietnam–China Taipéi y otros): fuera del modelo.']
+SIN=['Fecha FIFA (9–17 nov): hoy solo juega la Liga BetPlay. Sin partidos de Brasileirão, Liga MX (vuelve el 20), Argentina (octavos desde el 20), Perú (desde el 15), Chile, LigaPro (desde el 20), MLS ni ligas europeas.','Copa Argentina (semifinal) y amistosos de selecciones: fuera del modelo (sin tabla común de local y visitante).']
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 # Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
@@ -298,9 +298,9 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Miércoles 11 de noviembre de 2026 · fecha FIFA de selecciones: hoy no hay partidos de las ligas que seguimos, así que no hay pronósticos. Abajo, la última auditoría (fin de semana 7 y 8) y nuestros récords.</div>
+<div class="preview">Sábado 14 de noviembre de 2026 · fecha FIFA: hoy solo juega la Liga BetPlay (última fecha, 7 partidos a las 15:30). Ningún partido llega a 80 % en Over 1.5: lo decimos tal cual. Pronósticos sellados a las 05:47 (hora de Ecuador).</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Miércoles 4 de noviembre de 2026 · sellado 05:34 ECU · el de mayor Over 1.5 que aún no empieza</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Sábado 14 de noviembre de 2026 · sellado 05:47 ECU · el de mayor Over 1.5 que aún no empieza</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{pc(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{pc(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
@@ -311,15 +311,15 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 {resumen}{champ}{estrella}{recs}{ayer}{calib}<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1 or ('<p class="legal">Hoy solo el partido del día (arriba) llega a 80 % en Over 1.5; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>' if entero(top['over15'])>=80 else '<p class="legal">Hoy ningún partido llega a 80 % en Over 1.5. El más alto está arriba, como partido del día; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>')}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del miércoles</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del sábado</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Miércoles 4 de noviembre de 2026 · pronósticos sellados a las 05:34 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Sábado 14 de noviembre de 2026 · pronósticos sellados a las 05:47 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
-<section class="box" id="historial"><h3>Última auditoría: fin de semana (sáb 7 y dom 8)</h3><p class="legal">Lunes 9, martes 10 y miércoles 11 (fecha FIFA): sin pronósticos, nada que auditar.</p>
+<section class="box" id="historial"><h3>Última auditoría: fin de semana (sáb 7 y dom 8)</h3><p class="legal">Del lunes 9 al viernes 13 (fecha FIFA): sin pronósticos, nada que auditar. Los de hoy (Liga BetPlay) se auditan mañana.</p>
 <div class="kpis"><div class="kpi g"><b>✔ 7 goles</b><span>Partido del día sáb: RB Leipzig 5-2 Augsburg (92 %)</span></div><div class="kpi g"><b>✔ 7 goles</b><span>Partido del día dom: Cambuur 2-5 PSV (93 %)</span></div><div class="kpi"><b>51/67</b><span>Over 1.5 de 70 % o más (76 %)</span></div><div class="kpi"><b>11/16</b><span>Over 2.5 con señal (69 %)</span></div></div>
 <p class="legal">Sábado 7: 43 partidos terminados, 32 con 2 goles o más; GOLES PLATINO 2/3, GOLES ESTÁNDAR 15/16 y GOLES OPTIMISTAS 15/24. Domingo 8: 38 terminados (1 pendiente sin fuente: Universitario–CD Moquegua), 31 con 2 goles o más; GOLES PLATINO 2/2, GOLES ESTÁNDAR 12/16 y GOLES OPTIMISTAS 17/20. No hubo GOL ÉLITE. Fallaron con 80 % o más: San Diego 0-1 Sporting KC (90 %), Stuttgart 1-0 Werder Bremen (89 %), Monza 0-1 Atalanta (87 %), Sport Boys 0-0 UTC (84 %), Real Sociedad 1-0 Rayo (83 %) y Rio Ave 0-1 Braga (81 %). Marcadores exactos: 9 de 81. Acumulado de la galería (22 jornadas publicadas): 32/33 GOL ÉLITE y 325/422 en Over 1.5 de 70 % o más (77 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul><p class="legal">Porcentajes redondeados: ,5 o más sube (94,8 → 95 %); menos de ,5 se queda (94,4 → 94 %).</p></section>
@@ -332,7 +332,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-11-11"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-11-14"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

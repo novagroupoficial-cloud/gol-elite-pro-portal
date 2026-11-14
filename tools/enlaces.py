@@ -1174,3 +1174,22 @@ ACIERTOS=[
 # ---- Miércoles 11-nov-2026 (rutina diaria): fecha FIFA de selecciones (9–17 nov), sin partidos de liga hoy -> sin pronósticos.
 # Ayer (10-nov) tampoco hubo pronósticos: los aciertos de la portada siguen siendo los del último fin de semana auditado (7 y 8).
 LINK={}; PRED=[]; DEST=[]; LLEGAN={}
+
+# ---- Sábado 14-nov-2026 (rutina diaria, sellado 05:47 ECU): fecha FIFA; solo la Liga BetPlay (fecha 19, 7 partidos simultáneos a las 15:30 ECU).
+# LINK: ficha del partido en Win Sports (fecha 19 Clausura 2026) o la programación oficial de la fecha 19 (Publimetro). Hoy ningún partido llega a 80 % en Over 1.5 (PRED vacío).
+_PB=("Dimayor confirmó la programación de la última fecha: Millonarios y Once Caldas se juegan la vida por entrar a los ocho","Publimetro","https://www.publimetro.co/deportes/2026/11/10/dimayor-confirmo-la-programacion-de-la-ultima-fecha-de-la-liga-betplay-millonarios-y-once-caldas-se-juegan-la-vida-por-entrar-a-los-ocho/")
+LINK={f"{p['local']}|{p['visita']}":_PB for p in _P if not p.get('sin')}
+LINK.update({
+ 'Atlético Nacional|Once Caldas':("Atlético Nacional vs Once Caldas: ficha del partido de la fecha 19","Win Sports","https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-19-atletico-nacional-vs-once-caldas"),
+ 'Millonarios|Alianza (ex Alianza Petrolera)':("Millonarios pierde a dos titulares para el partido decisivo ante Alianza","Noticias RCN","https://www.noticiasrcn.com/deportes/millonarios-bajas-leonardo-castro-sergio-mosquera-alianza-1080854"),
+ 'Águilas Doradas|Independiente Medellín':("Águilas Doradas vs Independiente Medellín: ficha del partido de la fecha 19","Win Sports","https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-19-aguilas-doradas-vs-independiente-medellin"),
+ 'Deportivo Cali|Tolima':("Deportes Tolima visitará a Deportivo Cali con durísimas bajas","Win Sports","https://www.winsports.co/futbol-colombiano/noticias/deportes-tolima-visitara-a-deportivo-cali-con-durisimas-bajas-477910"),
+})
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Atlético Nacional|Once Caldas','Millonarios|Alianza (ex Alianza Petrolera)','Deportivo Cali|Tolima','Deportivo Pereira|América de Cali']
+# ACIERTOS: el 12 y 13-nov no hubo pronósticos (fecha FIFA); se mantienen los del último fin de semana auditado (7 y 8).
+LLEGAN={
+ 'Águilas Doradas|Independiente Medellín':["Águilas Doradas en casa: 13 goles a favor y 8 en contra en 8 partidos (2,6 goles por partido)","Independiente Medellín fuera: 16 a favor y 14 en contra en 9 partidos (3,3 goles por partido)","Medellín llega de golear 0-3 a Fortaleza en Techo (fecha 18)","Fuente: tablas de local y visitante de la Liga BetPlay 2026-II calculadas partido a partido (Win Sports, Noticias RCN, Futbolred; control futbol24)"],
+ 'Cúcuta|Jaguares de Córdoba':["Cúcuta en casa: 13 a favor y 8 en contra en 9 partidos","Jaguares fuera: 19 goles recibidos en 9 partidos (2,1 por partido), la peor defensa visitante del torneo","Jaguares viene de perder 0-4 en casa ante Bucaramanga (fecha 18)","Fuente: tablas de local y visitante de la Liga BetPlay 2026-II calculadas partido a partido (Win Sports, Noticias RCN, Futbolred; control futbol24)"],
+ 'Atlético Nacional|Once Caldas':["Nacional en casa: 19 goles a favor y 7 en contra en 9 partidos (2,1 a favor por partido)","Once Caldas fuera: 10 a favor y 10 en contra en 9 partidos","Nacional, líder, viene de ganar 4-3 a Pereira en el Atanasio (fecha 18)","Fuente: tablas de local y visitante de la Liga BetPlay 2026-II calculadas partido a partido (Win Sports, Noticias RCN, Futbolred; control futbol24)"],
+}

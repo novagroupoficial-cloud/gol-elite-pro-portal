@@ -1,177 +1,37 @@
 {
- "modo": "sin_partidos",
- "fecha_larga": "Miércoles 11 de noviembre de 2026",
- "desde": "05:50",
- "sin_partidos": {
-  "titular": "Hoy: fecha FIFA",
-  "bajada": "Hoy no juega ninguna de las ligas que seguimos, así que no hay pronósticos. No inventamos números. Vuelven desde el jueves.",
-  "titulo_historia": "Últimos partidos del día",
-  "resumen_corto": "22 días auditados · Over 1.5 de 90 % o más: 41 de 46 (89 %)",
-  "titulo_tiles": "Nuestros números en 22 días auditados",
-  "desliza": "Desliza: partidos del día (aciertos y fallos) y cómo se cumplen nuestras probabilidades →",
-  "partidos_del_dia": [
-   {
-    "dia": "Domingo 8 · Eredivisie",
-    "local": "Cambuur",
-    "visita": "PSV",
-    "resultado": "2-5",
-    "pct": "93",
-    "goles": "7"
-   },
-   {
-    "dia": "Sábado 7 · Bundesliga",
-    "local": "RB Leipzig",
-    "visita": "Augsburg",
-    "resultado": "5-2",
-    "pct": "92",
-    "goles": "7"
-   }
-  ],
+ "local": "Águilas Doradas",
+ "fecha_larga": "Sábado 14 de noviembre de 2026",
+ "desde": "05:47",
+ "contexto": [
+  "Águilas Doradas en casa: 13 goles a favor y 8 en contra en 8 partidos.",
+  "Medellín fuera: 30 goles en 9 partidos (16 a favor, 14 en contra).",
+  "Medellín viene de ganar 0-3 a Fortaleza (fecha 18)."
+ ],
+ "auditoria": {
+  "encabezado": "Última auditoría",
+  "titulo": "Fin de semana 7 y 8 de noviembre · 81 partidos con fuente",
   "tiles": [
    [
-    "41/46",
-    "Over 1.5 de 90 % o más (89 %)",
+    "2/2",
+    "Partidos del día acertados (7 goles cada uno)",
     "verde"
    ],
    [
-    "17",
-    "aciertos seguidos de 90 % o más (récord)",
+    "51/67",
+    "Over 1.5 de 70 % o más (76 %)",
     "verde"
    ],
    [
-    "181/226",
-    "Over 1.5 de 80 % o más (80 %)",
+    "11/16",
+    "Over 2.5 con señal (69 %)",
     "dor"
    ],
    [
-    "505",
-    "partidos auditados con fuente",
+    "9/81",
+    "Marcadores exactos",
     "dor"
    ]
   ],
-  "titulo_aciertos": "Partidos del día",
-  "sub_aciertos": "Los últimos 8 auditados, con fallos",
-  "aciertos": [
-   [
-    "Cambuur",
-    "PSV",
-    "2-5",
-    "93",
-    "7",
-    "Dom 8 · Eredivisie · ✔ acertó"
-   ],
-   [
-    "RB Leipzig",
-    "Augsburg",
-    "5-2",
-    "92",
-    "7",
-    "Sáb 7 · Bundesliga · ✔ acertó"
-   ],
-   [
-    "Botafogo",
-    "Atletico MG",
-    "1-0",
-    "76",
-    "1",
-    "Mié 4 · Brasileirão · ✘ falló"
-   ],
-   [
-    "Alianza Lima",
-    "Cienciano",
-    "1-0",
-    "81",
-    "1",
-    "Mar 3 · Liga 1 · ✘ falló"
-   ],
-   [
-    "Sassuolo",
-    "Fiorentina",
-    "2-4",
-    "89",
-    "6",
-    "Lun 2 · Serie A · ✔ acertó"
-   ],
-   [
-    "FC Groningen",
-    "Sparta Rotterdam",
-    "2-3",
-    "92",
-    "5",
-    "Dom 1 · Eredivisie · ✔ acertó"
-   ],
-   [
-    "Racing Club",
-    "Aldosivi",
-    "2-1",
-    "73",
-    "3",
-    "Vie 30 · Argentina · ✔ acertó"
-   ],
-   [
-    "Parma",
-    "Udinese",
-    "0-0",
-    "85",
-    "0",
-    "Mié 28 · Serie A · ✘ falló"
-   ]
-  ],
-  "auditorias": [
-   {
-    "encabezado": "Por categoría",
-    "titulo": "505 partidos auditados · escala actual",
-    "tiles": [
-     [
-      "5/5",
-      "GOL ÉLITE (95 % o más)",
-      "verde"
-     ],
-     [
-      "36/41",
-      "GOLES PLATINO (90 a 94 %) · 88 %",
-      "verde"
-     ],
-     [
-      "140/180",
-      "GOLES ESTÁNDAR (80 a 89 %) · 78 %",
-      "dor"
-     ],
-     [
-      "214/279",
-      "GOLES OPTIMISTAS (menos de 80 %) · 77 %",
-      "dor"
-     ]
-    ],
-    "nota": "Lo decimos tal cual: GOL ÉLITE cumple el 100 % (muestra aún pequeña, 5 partidos); GOLES PLATINO, 88 % (meta 90 %); GOLES ESTÁNDAR prometía 84 % y cumple 78 %. Por eso seguimos auditando cada partido y mejoramos el modelo con el método Kaizen."
-   },
-   {
-    "encabezado": "Más récords",
-    "titulo": "Desde el 11 de octubre de 2026",
-    "tiles": [
-     [
-      "16/20",
-      "Partidos del día acertados (+1 sin resultado)",
-      "verde"
-     ],
-     [
-      "9",
-      "goles en la mayor goleada acertada",
-      "verde"
-     ],
-     [
-      "62/100",
-      "Over 2.5 con señal (62 %)",
-      "dor"
-     ],
-     [
-      "325/422",
-      "Galería: Over 1.5 de 70 % o más (77 %)",
-      "dor"
-     ]
-    ],
-    "nota": "Mayor goleada acertada: Excelsior 0-9 FC Twente (dimos Over 1.5 al 87 %). Over 2.5 sigue siendo nuestro punto más flojo y lo publicamos igual. Todos los días auditados, con aciertos y fallos, están en gol-elite-pro.netlify.app/galeria.html"
-   }
-  ]
+  "nota": "RB Leipzig 5-2 Augsburg (dimos Over 1.5 al 92 % · hubo 7 goles) y Cambuur 2-5 PSV (93 % · hubo 7 goles). Fallaron, entre otros, San Diego 0-1 Sporting KC (90 % · hubo 1 gol) y Monza 0-1 Atalanta (87 % · hubo 1 gol). Del 9 al 13 de noviembre (fecha FIFA) no hubo pronósticos."
  }
 }

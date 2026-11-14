@@ -1,1 +1,226 @@
-[]
+[
+ {
+  "hora": "15:30",
+  "liga": "COL",
+  "local": "Millonarios",
+  "visita": "Alianza (ex Alianza Petrolera)",
+  "casa": [
+   8,
+   11,
+   4
+  ],
+  "fuera": [
+   8,
+   7,
+   12
+  ],
+  "HG": 1.4,
+  "AG": 1.1,
+  "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+  "fuente_calendario": "Publimetro/Dimayor: fecha 19 Liga BetPlay 2026-II, sábado 14-nov 15:30 (COL=ECU); SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py, corte COL vie 13-nov-2026 (Win Sports, Noticias RCN, Futbolred; control futbol24 y Publimetro). Dashboard Gol 4.0 /api/dia sin URL pública",
+  "lambda_local": 1.43,
+  "lambda_visita": 0.81,
+  "goles_esperados": 2.2,
+  "over15": 66.5,
+  "over25": 38.8,
+  "under25": 61.2,
+  "marcador": "1-0",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ },
+ {
+  "hora": "15:30",
+  "liga": "COL",
+  "local": "Deportivo Pereira",
+  "visita": "América de Cali",
+  "casa": [
+   9,
+   7,
+   12
+  ],
+  "fuera": [
+   8,
+   9,
+   5
+  ],
+  "HG": 1.4,
+  "AG": 1.1,
+  "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+  "fuente_calendario": "Publimetro/Dimayor: fecha 19 Liga BetPlay 2026-II, sábado 14-nov 15:30 (COL=ECU); SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py, corte COL vie 13-nov-2026 (Win Sports, Noticias RCN, Futbolred; control futbol24 y Publimetro). Dashboard Gol 4.0 /api/dia sin URL pública",
+  "lambda_local": 0.93,
+  "lambda_visita": 1.19,
+  "goles_esperados": 2.1,
+  "over15": 63.4,
+  "over25": 35.4,
+  "under25": 64.6,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ },
+ {
+  "hora": "15:30",
+  "liga": "COL",
+  "local": "Cúcuta",
+  "visita": "Jaguares de Córdoba",
+  "casa": [
+   9,
+   13,
+   8
+  ],
+  "fuera": [
+   9,
+   6,
+   19
+  ],
+  "HG": 1.4,
+  "AG": 1.1,
+  "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+  "fuente_calendario": "Publimetro/Dimayor: fecha 19 Liga BetPlay 2026-II, sábado 14-nov 15:30 (COL=ECU); SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py, corte COL vie 13-nov-2026 (Win Sports, Noticias RCN, Futbolred; control futbol24 y Publimetro). Dashboard Gol 4.0 /api/dia sin URL pública",
+  "lambda_local": 1.65,
+  "lambda_visita": 0.87,
+  "goles_esperados": 2.5,
+  "over15": 72.6,
+  "over25": 46.1,
+  "under25": 53.9,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ },
+ {
+  "hora": "15:30",
+  "liga": "COL",
+  "local": "Deportivo Cali",
+  "visita": "Tolima",
+  "casa": [
+   8,
+   15,
+   4
+  ],
+  "fuera": [
+   9,
+   12,
+   12
+  ],
+  "HG": 1.4,
+  "AG": 1.1,
+  "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+  "fuente_calendario": "Publimetro/Dimayor: fecha 19 Liga BetPlay 2026-II, sábado 14-nov 15:30 (COL=ECU); SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py, corte COL vie 13-nov-2026 (Win Sports, Noticias RCN, Futbolred; control futbol24 y Publimetro). Dashboard Gol 4.0 /api/dia sin URL pública",
+  "lambda_local": 1.53,
+  "lambda_visita": 0.94,
+  "goles_esperados": 2.5,
+  "over15": 71.5,
+  "over25": 44.7,
+  "under25": 55.3,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ },
+ {
+  "hora": "15:30",
+  "liga": "COL",
+  "local": "Atlético Nacional",
+  "visita": "Once Caldas",
+  "casa": [
+   9,
+   19,
+   7
+  ],
+  "fuera": [
+   9,
+   10,
+   10
+  ],
+  "HG": 1.4,
+  "AG": 1.1,
+  "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+  "fuente_calendario": "Publimetro/Dimayor: fecha 19 Liga BetPlay 2026-II, sábado 14-nov 15:30 (COL=ECU); SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py, corte COL vie 13-nov-2026 (Win Sports, Noticias RCN, Futbolred; control futbol24 y Publimetro). Dashboard Gol 4.0 /api/dia sin URL pública",
+  "lambda_local": 1.51,
+  "lambda_visita": 0.99,
+  "goles_esperados": 2.5,
+  "over15": 72.1,
+  "over25": 45.4,
+  "under25": 54.6,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ },
+ {
+  "hora": "15:30",
+  "liga": "COL",
+  "local": "Águilas Doradas",
+  "visita": "Independiente Medellín",
+  "casa": [
+   8,
+   13,
+   8
+  ],
+  "fuera": [
+   9,
+   16,
+   14
+  ],
+  "HG": 1.4,
+  "AG": 1.1,
+  "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+  "fuente_calendario": "Publimetro/Dimayor: fecha 19 Liga BetPlay 2026-II, sábado 14-nov 15:30 (COL=ECU); SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py, corte COL vie 13-nov-2026 (Win Sports, Noticias RCN, Futbolred; control futbol24 y Publimetro). Dashboard Gol 4.0 /api/dia sin URL pública",
+  "lambda_local": 1.53,
+  "lambda_visita": 1.27,
+  "goles_esperados": 2.8,
+  "over15": 77.9,
+  "over25": 53.1,
+  "under25": 46.9,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ },
+ {
+  "hora": "15:30",
+  "liga": "COL",
+  "local": "Bucaramanga",
+  "visita": "Fortaleza",
+  "casa": [
+   9,
+   14,
+   9
+  ],
+  "fuera": [
+   9,
+   8,
+   13
+  ],
+  "HG": 1.4,
+  "AG": 1.1,
+  "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+  "fuente_calendario": "Publimetro/Dimayor: fecha 19 Liga BetPlay 2026-II, sábado 14-nov 15:30 (COL=ECU); SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py, corte COL vie 13-nov-2026 (Win Sports, Noticias RCN, Futbolred; control futbol24 y Publimetro). Dashboard Gol 4.0 /api/dia sin URL pública",
+  "lambda_local": 1.47,
+  "lambda_visita": 0.99,
+  "goles_esperados": 2.5,
+  "over15": 71.5,
+  "over25": 44.6,
+  "under25": 55.4,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ }
+]

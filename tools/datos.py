@@ -566,6 +566,28 @@ for _lg,_a,_ga,_gb,_b in MIE04:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# ===== Actualización sáb 14-nov-2026 (rutina diaria 05:2x ECU): COL — pendiente de la fecha 14 (Nacional–Pasto), fecha 18 completa (10/10) y fecha 19 jue 12 / vie 13 (3/10). Local en casa, visitante fuera. Corte nuevo COL: vie 13-nov-2026 final.
+# Control externo: futbol24 (Colombia Primera A 2026 Finalización, 182 partidos, 257 goles locales y 199 visitantes) y Fox Sports (tabla Finalización al 8-nov). Otras ligas sin cambios (fecha FIFA).
+SAB14=[
+ ('COL','Atlético Nacional',3,0,'Pasto'),  # fecha 14 · https://www.winsports.co/futbol-colombiano/noticias/en-vivo-nacional-vs-pasto-minuto-a-minuto-y-goles-fecha-14-472614
+ ('COL','Alianza (ex Alianza Petrolera)',1,2,'Llaneros'),  # fecha 18 · https://www.winsports.co/futbol-colombiano/liga-dimayor/resultados
+ ('COL','Tolima',2,1,'Millonarios'),  # fecha 18 · idem
+ ('COL','Jaguares de Córdoba',0,4,'Bucaramanga'),  # fecha 18 · idem
+ ('COL','Santa Fe',5,0,'Pasto'),  # fecha 18 · idem
+ ('COL','América de Cali',0,0,'Deportivo Cali'),  # fecha 18 · idem
+ ('COL','Atlético Nacional',4,3,'Deportivo Pereira'),  # fecha 18 · idem
+ ('COL','Once Caldas',1,0,'Águilas Doradas'),  # fecha 18 · idem
+ ('COL','Fortaleza',0,3,'Independiente Medellín'),  # fecha 18 · https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-18-fortaleza-vs-independiente-medellin
+ ('COL','Boyacá Chicó',2,1,'Internacional de Bogotá (ex La Equidad)'),  # fecha 18 · https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-18-boyaca-chico-vs-inter-bogota
+ ('COL','Junior',2,0,'Cúcuta'),  # fecha 18 (lun 9-nov) · https://www.noticiasrcn.com/deportes/cucuta-no-pudo-con-junior-y-quedo-eliminado-de-la-liga-betplay-1080350
+ ('COL','Pasto',0,1,'Junior'),  # fecha 19 (jue 12) · https://www.winsports.co/futbol-colombiano/noticias/en-vivo-pasto-vs-junior-minuto-a-minuto-y-goles-fecha-19-478225
+ ('COL','Llaneros',0,0,'Boyacá Chicó'),  # fecha 19 (jue 12) · https://www.winsports.co/futbol-colombiano/noticias/boyaca-chico-resistio-y-saco-un-empate-ante-llaneros-en-villavicencio-478265
+ ('COL','Internacional de Bogotá (ex La Equidad)',0,2,'Santa Fe'),  # fecha 19 (vie 13) · https://www.futbolred.com/futbol-colombiano/liga-betplay/santa-fe-vencio-2-0-a-internacional-de-bogota-goles-resumen-y-posiciones-en-fecha-19-275232
+]
+for _lg,_a,_ga,_gb,_b in SAB14:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

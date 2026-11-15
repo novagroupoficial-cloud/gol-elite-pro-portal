@@ -588,6 +588,24 @@ for _lg,_a,_ga,_gb,_b in SAB14:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# ===== Actualización dom 15-nov-2026 (rutina diaria 05:2x ECU): PER — fecha 16 del Clausura completa (vie 6 a dom 8-nov, 9/9). Local en casa, visitante fuera.
+# Fuentes: https://www.futbolperuano.com/liga-1/clausura/resultados (fecha 16) y control con Depor (resultados + tabla del Clausura tras la fecha 16: PJ 16 y GF/GC por equipo coinciden con casa+fuera):
+# https://depor.com/futbol-peruano/descentralizado/tabla-de-posiciones-liga-1-peru-2026-en-vivo-hoy-partidos-y-resultados-de-fecha-16-del-torneo-clausura-2026-sporting-cristal-universitario-de-deportes-sport-huancayo-alianza-lima-noticia/
+DOM15=[
+ ('PER','Atlético Grau',3,0,'Cusco FC'),
+ ('PER','ADT',1,1,'Sporting Cristal'),
+ ('PER','FC Cajamarca',2,0,'Alianza Atlético'),
+ ('PER','Melgar',2,1,'Juan Pablo II'),
+ ('PER','Cienciano',1,2,'Sport Huancayo'),
+ ('PER','Los Chankas',1,1,'Alianza Lima'),
+ ('PER','Sport Boys',0,0,'UTC'),
+ ('PER','Deportivo Garcilaso',0,0,'Comerciantes Unidos'),
+ ('PER','Universitario',2,2,'CD Moquegua'),
+]
+for _lg,_a,_ga,_gb,_b in DOM15:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

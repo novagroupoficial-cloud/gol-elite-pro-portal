@@ -1,0 +1,66 @@
+[
+ {
+  "hora": "13:00",
+  "liga": "PER",
+  "local": "Comerciantes Unidos",
+  "visita": "Sport Boys",
+  "casa": [
+   7,
+   13,
+   11
+  ],
+  "fuera": [
+   8,
+   7,
+   9
+  ],
+  "HG": 1.75,
+  "AG": 1.19,
+  "lambda_local": 1.56,
+  "lambda_visita": 1.19,
+  "goles_esperados": 2.7,
+  "over15": 76.9,
+  "over25": 51.7,
+  "under25": 48.3,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-15 05:40 ECU (UTC-5)",
+  "fuente_calendario": "Bolavip (programación definitiva fecha 17 Clausura) y futbolperuano.com; Perú = hora de Ecuador; SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py PER, corte dom 8-nov-2026 (fechas 1-16 del Clausura completas, 144 partidos; control: tabla del Clausura de Depor tras la fecha 16, PJ/GF/GC de los 18 equipos coinciden). Dashboard Gol 4.0 /api/dia sin URL pública"
+ },
+ {
+  "hora": "15:15",
+  "liga": "PER",
+  "local": "Juan Pablo II",
+  "visita": "Deportivo Garcilaso",
+  "casa": [
+   7,
+   16,
+   2
+  ],
+  "fuera": [
+   8,
+   9,
+   11
+  ],
+  "HG": 1.75,
+  "AG": 1.19,
+  "lambda_local": 1.77,
+  "lambda_visita": 0.91,
+  "goles_esperados": 2.7,
+  "over15": 75.6,
+  "over25": 50.1,
+  "under25": 49.9,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-15 05:40 ECU (UTC-5)",
+  "fuente_calendario": "Bolavip (programación definitiva fecha 17 Clausura) y futbolperuano.com; Perú = hora de Ecuador; SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py PER, corte dom 8-nov-2026 (fechas 1-16 del Clausura completas, 144 partidos; control: tabla del Clausura de Depor tras la fecha 16, PJ/GF/GC de los 18 equipos coinciden). Dashboard Gol 4.0 /api/dia sin URL pública"
+ }
+]

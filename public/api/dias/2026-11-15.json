@@ -1,0 +1,78 @@
+{
+ "fecha": "2026-11-15",
+ "actualizado": "2026-11-15 05:42 ECU (UTC-5)",
+ "zona_horaria": "America/Guayaquil (UTC-5)",
+ "modelo": "Nova Gol 4.0 (Poisson + Dixon-Coles)",
+ "fuente_sellada": "data/2026-11-15/pronosticos.json",
+ "aviso": "+18 · Probabilidades estadísticas, no garantías. Resultados provisionales hasta la auditoría oficial.",
+ "orden": "de mayor a menor Over 1.5",
+ "resumen_del_dia": {
+  "terminados": 0,
+  "total": 2,
+  "over15_70": [
+   0,
+   0
+  ],
+  "over25_senal": [
+   0,
+   0
+  ],
+  "marcadores_exactos": 0
+ },
+ "rango_80_90": [],
+ "todos": [
+  {
+   "puesto": 1,
+   "hora_ecuador": "13:00",
+   "liga": "Liga 1",
+   "local": "Comerciantes Unidos",
+   "visitante": "Sport Boys",
+   "over15": 76.9,
+   "over25": 51.7,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 13,
+    "gc": 11
+   },
+   "fuera_visitante": {
+    "pj": 8,
+    "gf": 7,
+    "gc": 9
+   },
+   "sellado": "2026-11-15 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  },
+  {
+   "puesto": 2,
+   "hora_ecuador": "15:15",
+   "liga": "Liga 1",
+   "local": "Juan Pablo II",
+   "visitante": "Deportivo Garcilaso",
+   "over15": 75.6,
+   "over25": 50.1,
+   "marcador": "1-1",
+   "goles_esperados": 2.7,
+   "categoria": "GOLES OPTIMISTAS",
+   "senal_over25": "sin señal",
+   "casa_local": {
+    "pj": 7,
+    "gf": 16,
+    "gc": 2
+   },
+   "fuera_visitante": {
+    "pj": 8,
+    "gf": 9,
+    "gc": 11
+   },
+   "sellado": "2026-11-15 05:40 ECU (UTC-5)",
+   "estado": "por jugar",
+   "resultado": null
+  }
+ ],
+ "sin_pronostico": []
+}

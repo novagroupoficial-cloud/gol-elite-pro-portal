@@ -1,0 +1,233 @@
+{
+ "fecha": "2026-11-14",
+ "auditado": "2026-11-15 05:5x ECU (rutina diaria)",
+ "partidos": 7,
+ "terminados": 7,
+ "anulados": 0,
+ "pendientes": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   0,
+   0
+  ],
+  "GOLES OPTIMISTAS": [
+   5,
+   7
+  ],
+  "Total >=70": [
+   3,
+   5
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   0
+  ],
+  "Marcadores exactos": [
+   1,
+   7
+  ],
+  "Menos de 70 (informativo)": [
+   2,
+   2
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   0,
+   0
+  ],
+  "GOLES OPTIMISTAS": [
+   5,
+   7
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   0,
+   0
+  ],
+  "moderada": [
+   0,
+   0
+  ]
+ },
+ "intervalo_wilson_95": {
+  "GOLES OPTIMISTAS": [
+   35.9,
+   91.8
+  ],
+  "Total >=70": [
+   23.1,
+   88.2
+  ],
+  "Menos de 70 (informativo)": [
+   34.2,
+   100.0
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Águilas Doradas vs Independiente Medellín",
+  "over15": 77.9,
+  "resultado": "0-1",
+  "goles": 1,
+  "acierto": false,
+  "estado": "terminado",
+  "fuente": "https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-19-aguilas-doradas-vs-independiente-medellin"
+ },
+ "fallos_over15_70": [
+  "Águilas Doradas 0-1 Independiente Medellín (77,9 %; hubo 1 gol)",
+  "Bucaramanga 1-0 Fortaleza (71,5 %; hubo 1 gol)"
+ ],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [
+  "Millonarios 2-0 Alianza (ex Alianza Petrolera) (66,5 %, menos de 70: no recomendado; hubo 2 goles)",
+  "Deportivo Pereira 0-2 América de Cali (63,4 %, menos de 70: no recomendado; hubo 2 goles)"
+ ],
+ "anulados_lista": [],
+ "pendientes_lista": [],
+ "nota": "Fecha 19 de la Liga BetPlay 2026-II (7 partidos simultáneos, 15:30 ECU). Resultados finales: Win Sports (fichas 'Finalizado') para Cali–Tolima, Nacional–Once Caldas y Águilas–Medellín; Semana ('Resultados de la fecha 19') para el resto, coherente con los parciales de El Tiempo. Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. El Dashboard Gol 4.0 no expone /api/dia: auditoría manual. Escala vigente (17-oct): todos los pronósticos fueron GOLES OPTIMISTAS (<80 %).",
+ "resultados": [
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Millonarios",
+   "visita": "Alianza (ex Alianza Petrolera)",
+   "resultado": "2-0",
+   "estado": "terminado",
+   "over15": 66.5,
+   "over25": 38.8,
+   "marcador": "1-0",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.semana.com/deportes/articulo/definidos-los-ocho-clasificados-a-los-cuadrangulares-de-la-liga-betplay/202639/"
+  },
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Deportivo Pereira",
+   "visita": "América de Cali",
+   "resultado": "0-2",
+   "estado": "terminado",
+   "over15": 63.4,
+   "over25": 35.4,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.semana.com/deportes/articulo/definidos-los-ocho-clasificados-a-los-cuadrangulares-de-la-liga-betplay/202639/"
+  },
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Cúcuta",
+   "visita": "Jaguares de Córdoba",
+   "resultado": "2-0",
+   "estado": "terminado",
+   "over15": 72.6,
+   "over25": 46.1,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.semana.com/deportes/articulo/definidos-los-ocho-clasificados-a-los-cuadrangulares-de-la-liga-betplay/202639/"
+  },
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Deportivo Cali",
+   "visita": "Tolima",
+   "resultado": "2-2",
+   "estado": "terminado",
+   "over15": 71.5,
+   "over25": 44.7,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-19-deportivo-cali-vs-deportes-tolima"
+  },
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Atlético Nacional",
+   "visita": "Once Caldas",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 72.1,
+   "over25": 45.4,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-19-atletico-nacional-vs-once-caldas"
+  },
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Águilas Doradas",
+   "visita": "Independiente Medellín",
+   "resultado": "0-1",
+   "estado": "terminado",
+   "over15": 77.9,
+   "over25": 53.1,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-19-aguilas-doradas-vs-independiente-medellin"
+  },
+  {
+   "hora": "15:30",
+   "liga": "COL",
+   "local": "Bucaramanga",
+   "visita": "Fortaleza",
+   "resultado": "1-0",
+   "estado": "terminado",
+   "over15": 71.5,
+   "over25": 44.6,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-14 05:47 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.semana.com/deportes/articulo/definidos-los-ocho-clasificados-a-los-cuadrangulares-de-la-liga-betplay/202639/"
+  }
+ ]
+}

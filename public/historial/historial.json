@@ -759,5 +759,39 @@
    "Lens 1-2 Marsella (Over 1.5 al 82,7 % · hubo 3 goles)"
   ],
   "partidos": 38
+ },
+ {
+  "fecha": "2026-11-14",
+  "titulo": "Sábado 14 de noviembre de 2026",
+  "imagen": "/historial/2026-11-14.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "0/0",
+    "GOLES PLATINO (90 a 94 %)"
+   ],
+   [
+    "3/5",
+    "Over 1.5 de 70 % o más (60 %)"
+   ],
+   [
+    "0/0",
+    "Over 2.5 con señal (sin casos)"
+   ],
+   [
+    "1/7",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Fallaron 2 Over 1.5 de 70 % o más: Águilas Doradas 0-1 Independiente Medellín (77,9 %), Bucaramanga 1-0 Fortaleza (71,5 %). Ese día no hubo Over 2.5 con señal (65 % o más). El partido del día, Águilas Doradas 0-1 Independiente Medellín (dimos Over 1.5 al 77,9 %), falló: hubo 1 gol. En total, 5 de 7 partidos terminados tuvieron 2 goles o más (fecha 19 de la Liga BetPlay, fecha FIFA).",
+  "aciertos_destacados": [
+   "Cúcuta 2-0 Jaguares de Córdoba (Over 1.5 al 72,6 % · hubo 2 goles)",
+   "Atlético Nacional 1-1 Once Caldas (Over 1.5 al 72,1 % · hubo 2 goles · marcador exacto 1-1)",
+   "Deportivo Cali 2-2 Tolima (Over 1.5 al 71,5 % · hubo 4 goles)"
+  ],
+  "partidos": 7
  }
 ]

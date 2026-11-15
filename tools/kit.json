@@ -1,37 +1,37 @@
 {
- "local": "Águilas Doradas",
- "fecha_larga": "Sábado 14 de noviembre de 2026",
- "desde": "05:47",
+ "local": "Comerciantes Unidos",
+ "fecha_larga": "Domingo 15 de noviembre de 2026",
+ "desde": "05:40",
  "contexto": [
-  "Águilas Doradas en casa: 13 goles a favor y 8 en contra en 8 partidos.",
-  "Medellín fuera: 30 goles en 9 partidos (16 a favor, 14 en contra).",
-  "Medellín viene de ganar 0-3 a Fortaleza (fecha 18)."
+  "Comerciantes Unidos en casa: 13 goles a favor y 11 en contra en 7 partidos.",
+  "Sport Boys fuera: 16 goles en 8 partidos (7 a favor, 9 en contra).",
+  "Los dos vienen de empatar 0-0 en la fecha 16 del Clausura."
  ],
  "auditoria": {
-  "encabezado": "Última auditoría",
-  "titulo": "Fin de semana 7 y 8 de noviembre · 81 partidos con fuente",
+  "encabezado": "Auditoría de ayer",
+  "titulo": "Sábado 14 de noviembre · Liga BetPlay, fecha 19 · 7 partidos con fuente",
   "tiles": [
    [
-    "2/2",
-    "Partidos del día acertados (7 goles cada uno)",
+    "5/7",
+    "Partidos con 2 goles o más (Over 1.5)",
     "verde"
    ],
    [
-    "51/67",
-    "Over 1.5 de 70 % o más (76 %)",
-    "verde"
-   ],
-   [
-    "11/16",
-    "Over 2.5 con señal (69 %)",
+    "3/5",
+    "Over 1.5 de 70 % o más (60 %)",
     "dor"
    ],
    [
-    "9/81",
-    "Marcadores exactos",
+    "0/1",
+    "Partido del día (Águilas 0-1 Medellín)",
+    "dor"
+   ],
+   [
+    "1/7",
+    "Marcadores exactos (Nacional 1-1 Once Caldas)",
     "dor"
    ]
   ],
-  "nota": "RB Leipzig 5-2 Augsburg (dimos Over 1.5 al 92 % · hubo 7 goles) y Cambuur 2-5 PSV (93 % · hubo 7 goles). Fallaron, entre otros, San Diego 0-1 Sporting KC (90 % · hubo 1 gol) y Monza 0-1 Atalanta (87 % · hubo 1 gol). Del 9 al 13 de noviembre (fecha FIFA) no hubo pronósticos."
+  "nota": "Acertaron Cúcuta 2-0 Jaguares (dimos Over 1.5 al 73 % · hubo 2 goles), Deportivo Cali 2-2 Tolima (72 % · hubo 4 goles) y Nacional 1-1 Once Caldas (72 % · marcador exacto). Fallaron el partido del día, Águilas Doradas 0-1 Medellín (78 % · hubo 1 gol), y Bucaramanga 1-0 Fortaleza (72 % · hubo 1 gol)."
  }
 }

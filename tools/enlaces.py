@@ -1193,3 +1193,24 @@ LLEGAN={
  'Cúcuta|Jaguares de Córdoba':["Cúcuta en casa: 13 a favor y 8 en contra en 9 partidos","Jaguares fuera: 19 goles recibidos en 9 partidos (2,1 por partido), la peor defensa visitante del torneo","Jaguares viene de perder 0-4 en casa ante Bucaramanga (fecha 18)","Fuente: tablas de local y visitante de la Liga BetPlay 2026-II calculadas partido a partido (Win Sports, Noticias RCN, Futbolred; control futbol24)"],
  'Atlético Nacional|Once Caldas':["Nacional en casa: 19 goles a favor y 7 en contra en 9 partidos (2,1 a favor por partido)","Once Caldas fuera: 10 a favor y 10 en contra en 9 partidos","Nacional, líder, viene de ganar 4-3 a Pereira en el Atanasio (fecha 18)","Fuente: tablas de local y visitante de la Liga BetPlay 2026-II calculadas partido a partido (Win Sports, Noticias RCN, Futbolred; control futbol24)"],
 }
+
+# ---- Domingo 15-nov-2026 (rutina diaria, sellado 05:40 ECU): fecha FIFA; solo la Liga 1 de Perú (fecha 17 del Clausura, la última).
+# Hoy ningún partido llega a 80 % en Over 1.5 (PRED vacío). ACIERTOS: los de ayer (sáb 14, Liga BetPlay).
+_SEM="https://www.semana.com/deportes/articulo/definidos-los-ocho-clasificados-a-los-cuadrangulares-de-la-liga-betplay/202639/"
+LINK={
+ 'Comerciantes Unidos|Sport Boys':("Comerciantes Unidos vs Sport Boys: hora y dónde ver la fecha 17 del Clausura en Cutervo","RPP","https://rpp.pe/futbol/descentralizado/comerciantes-unidos-vs-sport-boys-en-vivo-a-que-hora-juegan-y-donde-ver-fecha-17-torneo-clausura-2026-via-l1max-partidos-de-hoy-noticia-1717814"),
+ 'Juan Pablo II|Deportivo Garcilaso':("Juan Pablo II vs Deportivo Garcilaso: Garcilaso necesita ganar en Chongoyape para asegurar la Libertadores","Futbolperuano.com","https://www.futbolperuano.com/liga-1/noticias/juan-pablo-ii-vs-deportivo-garcilaso-en-vivo-por-el-torneo-clausura-de-la-liga-1-2026-612714"),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Juan Pablo II|Deportivo Garcilaso','Comerciantes Unidos|Sport Boys']
+ACIERTOS=[
+ ("Cúcuta vs Jaguares","2-0","73 % · sáb 14","Semana",_SEM),
+ ("Atlético Nacional vs Once Caldas","1-1","72 % · marcador exacto","Win Sports","https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-19-atletico-nacional-vs-once-caldas"),
+ ("Deportivo Cali vs Tolima","2-2","72 % · sáb 14","Win Sports","https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-19-deportivo-cali-vs-deportes-tolima"),
+ ("Millonarios vs Alianza FC","2-0","67 % · sáb 14","Semana",_SEM),
+ ("Deportivo Pereira vs América de Cali","0-2","63 % · sáb 14","Semana",_SEM),
+]
+LLEGAN={
+ 'Comerciantes Unidos|Sport Boys':["Comerciantes Unidos en casa: 13 goles a favor y 11 en contra en 7 partidos (3,4 goles por partido)","Sport Boys fuera: 7 a favor y 9 en contra en 8 partidos","Los dos vienen de empatar 0-0 en la fecha 16 (Comerciantes ante Garcilaso, Sport Boys ante UTC)","Fuente: tablas casa/fuera del Clausura (futbolperuano.com, control Depor) y RPP"],
+ 'Juan Pablo II|Deportivo Garcilaso':["Juan Pablo II en casa: 16 goles a favor y solo 2 en contra en 7 partidos","Deportivo Garcilaso fuera: 9 a favor y 11 en contra en 8 partidos","Garcilaso ganó los 3 duelos oficiales entre ambos; el último, 4-1 en el Apertura 2026","Fuente: tablas casa/fuera del Clausura (futbolperuano.com, control Depor) y Futbolperuano.com"],
+}

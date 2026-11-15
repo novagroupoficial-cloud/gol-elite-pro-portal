@@ -20,12 +20,13 @@ def key(p): return f"{p['local']}|{p['visita']}"
 NEWS_PRED={}  # (sin uso en la portada actual)
 NEWS_DEST=[]
 FUENTES=[
- ("Publimetro · Dimayor confirmó la programación de la fecha 19 de la Liga BetPlay (sábado 14, 15:30)","https://www.publimetro.co/deportes/2026/11/10/dimayor-confirmo-la-programacion-de-la-ultima-fecha-de-la-liga-betplay-millonarios-y-once-caldas-se-juegan-la-vida-por-entrar-a-los-ocho/"),
- ("Win Sports · Resultados de la fecha 18 de la Liga BetPlay 2026-II","https://www.winsports.co/futbol-colombiano/liga-dimayor/resultados"),
- ("Infobae · Liga 1 Perú: la última fecha empieza el domingo 15","https://www.infobae.com/peru/deportes/2026/11/10/programacion-confirmada-de-la-ultima-fecha-del-torneo-clausura-2026-de-la-liga-1-2026-partidos-horarios-y-canales-tv/"),
- ("El Mercurio · LigaPro: la fecha 7 de los hexagonales se juega del 20 al 22 de noviembre","https://elmercurio.com.ec/deportes/2026/11/11/fecha-7-hexagonales-ligapro-partidos-horarios/"),
- ("Fútbol Total · RB Leipzig 5-2 Augsburg (sáb 7)","https://futboltotal.futbol/partido/rb-leipzig-vs-fc-augsburg-bundesliga-2026-11-07"),
- ("Fútbol Total · Cambuur 2-5 PSV (dom 8)","https://futboltotal.futbol/partido/cambuur-vs-psv-eindhoven-eredivisie-2026-11-08"),
+ ("Bolavip · Liga 1 confirmó la programación de la fecha 17 del Clausura (domingo 15: Comerciantes–Sport Boys 13:00, Juan Pablo II–Garcilaso 15:15)","https://bolavip.com/pe/amp/liga-1/liga-1-confirmo-cambios-de-dia-y-horario-asi-quedo-la-programacion-de-la-fecha-17-del-torneo-clausura-2026"),
+ ("Futbolperuano.com · Resultados del Torneo Clausura 2026 (fecha 16)","https://www.futbolperuano.com/liga-1/clausura/resultados"),
+ ("Depor · Tabla y resultados de la fecha 16 del Clausura (control de las tablas casa/fuera)","https://depor.com/futbol-peruano/descentralizado/tabla-de-posiciones-liga-1-peru-2026-en-vivo-hoy-partidos-y-resultados-de-fecha-16-del-torneo-clausura-2026-sporting-cristal-universitario-de-deportes-sport-huancayo-alianza-lima-noticia/"),
+ ("Semana · Resultados de la fecha 19 de la Liga BetPlay (sáb 14)","https://www.semana.com/deportes/articulo/definidos-los-ocho-clasificados-a-los-cuadrangulares-de-la-liga-betplay/202639/"),
+ ("Win Sports · Águilas Doradas 0-1 Independiente Medellín (finalizado)","https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-19-aguilas-doradas-vs-independiente-medellin"),
+ ("Win Sports · Atlético Nacional 1-1 Once Caldas (finalizado)","https://www.winsports.co/futbol-colombiano/liga-dimayor/partidos/2026-clausura-fecha-19-atletico-nacional-vs-once-caldas"),
+ ("Líbero · Partidos de hoy domingo 15 de noviembre","https://libero.pe/futbol-peruano/2026/11/14/partidos-de-hoy-domingo-15-de-noviembre-quienes-juegan-copa-de-liga-liga-1-nations-league-1269870"),
 ]
 
 ES.update({'Celta Vigo':'Celta de Vigo','Los Angeles FC':'LAFC','Bayer Leverkusen':'Leverkusen','Leones del Norte':'Leones del Norte','Paris Saint-Germain':'PSG','Atletico MG':'Atlético-MG','Union Santa Fe':'Unión','Instituto Cordoba':'Instituto','Deportivo Riestra':'Riestra','Jaguares de Córdoba':'Jaguares','Santa Fe':'Santa Fe'})
@@ -178,7 +179,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if entero(p['over15'])>=80 else ''}"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=['Fecha FIFA (9–17 nov): hoy solo juega la Liga BetPlay. Sin partidos de Brasileirão, Liga MX (vuelve el 20), Argentina (octavos desde el 20), Perú (desde el 15), Chile, LigaPro (desde el 20), MLS ni ligas europeas.','Copa Argentina (semifinal) y amistosos de selecciones: fuera del modelo (sin tabla común de local y visitante).']
+SIN=['Fecha FIFA (9–17 nov): hoy solo juega la Liga 1 de Perú. Sin partidos de Liga BetPlay (cuadrangulares por sortear), Brasileirão, Liga MX (vuelve el 20), Argentina (octavos desde el 20), Chile, LigaPro (desde el 20), MLS ni ligas europeas.','Uruguay: Danubio–Liverpool y Defensor Sporting–Peñarol, sin tabla actualizada y verificable de local y visitante.','Copa de la Liga de Perú (Sporting Cristal–Alianza Atlético), UEFA y Concacaf Nations League: fuera del modelo (copas y selecciones, sin tabla común de local y visitante).']
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 # Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
@@ -298,30 +299,30 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Sábado 14 de noviembre de 2026 · fecha FIFA: hoy solo juega la Liga BetPlay (última fecha, 7 partidos a las 15:30). Ningún partido llega a 80 % en Over 1.5: lo decimos tal cual. Pronósticos sellados a las 05:47 (hora de Ecuador).</div>
+<div class="preview">Domingo 15 de noviembre de 2026 · fecha FIFA: hoy solo juega la Liga 1 de Perú (última fecha del Clausura, 2 partidos). Ningún partido llega a 80 % en Over 1.5: lo decimos tal cual. Pronósticos sellados a las 05:40 (hora de Ecuador).</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Sábado 14 de noviembre de 2026 · sellado 05:47 ECU · el de mayor Over 1.5 que aún no empieza</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Domingo 15 de noviembre de 2026 · sellado 05:40 ECU · el de mayor Over 1.5 que aún no empieza</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{pc(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{pc(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.1 (mejora Kaizen del 26-oct), calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK.get(key(top),('','','#'))[1])} · <a href="{LINK.get(key(top),('','','#'))[2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
 {RANK}
-<section id="aciertos"><div class="sh"><h2>Últimos aciertos auditados</h2><p>Fin de semana 7 y 8 de noviembre: 63 de 81 partidos con 2 goles o más · los dos partidos del día acertaron: RB Leipzig 5-2 Augsburg (dimos Over 1.5 al 92 % · hubo 7 goles) y Cambuur 2-5 PSV (93 % · hubo 7 goles) · fallaron, entre otros, San Diego 0-1 Sporting KC (90 %) y Monza 0-1 Atalanta (87 %): lo publicamos igual · toca para ver el resultado en su medio</p></div>
+<section id="aciertos"><div class="sh"><h2>¡Acertamos ayer!</h2><p>Sábado 14 (Liga BetPlay, fecha 19): 5 de 7 partidos con 2 goles o más · Cúcuta 2-0 Jaguares (dimos Over 1.5 al 73 % · hubo 2 goles), Deportivo Cali 2-2 Tolima (72 % · hubo 4 goles) y Nacional 1-1 Once Caldas (72 % · marcador exacto) · el partido del día, Águilas Doradas 0-1 Medellín (78 %), falló: hubo 1 gol, y también Bucaramanga 1-0 Fortaleza (72 %): lo publicamos igual · toca para ver el resultado en su medio</p></div>
 {resumen}{champ}{estrella}{recs}{ayer}{calib}<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1 or ('<p class="legal">Hoy solo el partido del día (arriba) llega a 80 % en Over 1.5; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>' if entero(top['over15'])>=80 else '<p class="legal">Hoy ningún partido llega a 80 % en Over 1.5. El más alto está arriba, como partido del día; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>')}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del sábado</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del domingo</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Sábado 14 de noviembre de 2026 · pronósticos sellados a las 05:47 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Domingo 15 de noviembre de 2026 · pronósticos sellados a las 05:40 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
-<section class="box" id="historial"><h3>Última auditoría: fin de semana (sáb 7 y dom 8)</h3><p class="legal">Del lunes 9 al viernes 13 (fecha FIFA): sin pronósticos, nada que auditar. Los de hoy (Liga BetPlay) se auditan mañana.</p>
-<div class="kpis"><div class="kpi g"><b>✔ 7 goles</b><span>Partido del día sáb: RB Leipzig 5-2 Augsburg (92 %)</span></div><div class="kpi g"><b>✔ 7 goles</b><span>Partido del día dom: Cambuur 2-5 PSV (93 %)</span></div><div class="kpi"><b>51/67</b><span>Over 1.5 de 70 % o más (76 %)</span></div><div class="kpi"><b>11/16</b><span>Over 2.5 con señal (69 %)</span></div></div>
-<p class="legal">Sábado 7: 43 partidos terminados, 32 con 2 goles o más; GOLES PLATINO 2/3, GOLES ESTÁNDAR 15/16 y GOLES OPTIMISTAS 15/24. Domingo 8: 38 terminados (1 pendiente sin fuente: Universitario–CD Moquegua), 31 con 2 goles o más; GOLES PLATINO 2/2, GOLES ESTÁNDAR 12/16 y GOLES OPTIMISTAS 17/20. No hubo GOL ÉLITE. Fallaron con 80 % o más: San Diego 0-1 Sporting KC (90 %), Stuttgart 1-0 Werder Bremen (89 %), Monza 0-1 Atalanta (87 %), Sport Boys 0-0 UTC (84 %), Real Sociedad 1-0 Rayo (83 %) y Rio Ave 0-1 Braga (81 %). Marcadores exactos: 9 de 81. Acumulado de la galería (22 jornadas publicadas): 32/33 GOL ÉLITE y 325/422 en Over 1.5 de 70 % o más (77 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
+<section class="box" id="historial"><h3>Auditoría de ayer: sábado 14 de noviembre</h3><p class="legal">Liga BetPlay, fecha 19: 7 partidos terminados, todos con fuente (Win Sports y Semana). Los de hoy (Liga 1 de Perú) se auditan mañana.</p>
+<div class="kpis"><div class="kpi"><b>✘ 1 gol</b><span>Partido del día: Águilas Doradas 0-1 Medellín (78 %)</span></div><div class="kpi g"><b>5/7</b><span>partidos con 2 goles o más (Over 1.5)</span></div><div class="kpi"><b>3/5</b><span>Over 1.5 de 70 % o más (60 %)</span></div><div class="kpi"><b>1/7</b><span>Marcadores exactos (Nacional 1-1 Once Caldas)</span></div></div>
+<p class="legal">Todos fueron GOLES OPTIMISTAS (menos de 80 %): no hubo GOL ÉLITE, GOLES PLATINO ni GOLES ESTÁNDAR, ni Over 2.5 con señal. Acertaron Cúcuta 2-0 Jaguares (73 %), Nacional 1-1 Once Caldas (72 %), Deportivo Cali 2-2 Tolima (72 %), Millonarios 2-0 Alianza FC (67 %) y Pereira 0-2 América (63 %). Fallaron Águilas Doradas 0-1 Medellín (78 %) y Bucaramanga 1-0 Fortaleza (72 %). Acumulado de la galería (23 jornadas publicadas): 32/33 GOL ÉLITE y 328/427 en Over 1.5 de 70 % o más (77 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul><p class="legal">Porcentajes redondeados: ,5 o más sube (94,8 → 95 %); menos de ,5 se queda (94,4 → 94 %).</p></section>
 <section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos revisados tienen datos verificados de local y visitante.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
@@ -332,7 +333,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-11-14"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-11-15"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

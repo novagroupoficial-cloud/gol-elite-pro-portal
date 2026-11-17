@@ -1214,3 +1214,12 @@ LLEGAN={
  'Comerciantes Unidos|Sport Boys':["Comerciantes Unidos en casa: 13 goles a favor y 11 en contra en 7 partidos (3,4 goles por partido)","Sport Boys fuera: 7 a favor y 9 en contra en 8 partidos","Los dos vienen de empatar 0-0 en la fecha 16 (Comerciantes ante Garcilaso, Sport Boys ante UTC)","Fuente: tablas casa/fuera del Clausura (futbolperuano.com, control Depor) y RPP"],
  'Juan Pablo II|Deportivo Garcilaso':["Juan Pablo II en casa: 16 goles a favor y solo 2 en contra en 7 partidos","Deportivo Garcilaso fuera: 9 a favor y 11 en contra en 8 partidos","Garcilaso ganó los 3 duelos oficiales entre ambos; el último, 4-1 en el Apertura 2026","Fuente: tablas casa/fuera del Clausura (futbolperuano.com, control Depor) y Futbolperuano.com"],
 }
+
+# ---- Martes 17-nov-2026 (rutina diaria, revisado 05:40 ECU): último día de la fecha FIFA, sin ligas del portal → sin pronósticos ----
+LINK={}; PRED=[]; DEST=[]; LLEGAN={}
+_RPP_CU="https://rpp.pe/futbol/descentralizado/comerciantes-unidos-vs-sport-boys-en-vivo-a-que-hora-juegan-y-donde-ver-fecha-17-torneo-clausura-2026-via-l1max-partidos-de-hoy-noticia-1717814"
+_FP_JP="https://www.futbolperuano.com/liga-1/noticias/juan-pablo-ii-vs-deportivo-garcilaso-en-vivo-por-el-torneo-clausura-de-la-liga-1-2026-612714"
+ACIERTOS=[
+ ("Comerciantes Unidos vs Sport Boys","3-3","77 % · partido del día (dom 15)","RPP",_RPP_CU),
+ ("Juan Pablo II vs Deportivo Garcilaso","2-2","76 % · dom 15","Futbolperuano.com",_FP_JP),
+]

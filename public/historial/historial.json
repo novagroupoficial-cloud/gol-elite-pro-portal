@@ -793,5 +793,38 @@
    "Deportivo Cali 2-2 Tolima (Over 1.5 al 71,5 % · hubo 4 goles)"
   ],
   "partidos": 7
+ },
+ {
+  "fecha": "2026-11-15",
+  "titulo": "Domingo 15 de noviembre de 2026",
+  "imagen": "/historial/2026-11-15.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "0/0",
+    "GOLES PLATINO (90 a 94 %)"
+   ],
+   [
+    "2/2",
+    "Over 1.5 de 70 % o más (100 %)"
+   ],
+   [
+    "0/0",
+    "Over 2.5 con señal (sin casos)"
+   ],
+   [
+    "0/2",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Ese día no falló ningún Over 1.5 de 70 % o más y no hubo Over 2.5 con señal (65 % o más): los dos Over 2.5 rondaban 50 %. Ningún marcador exacto: dimos 1-1 en los dos y terminaron 3-3 y 2-2. El partido del día, Comerciantes Unidos 3-3 Sport Boys (dimos Over 1.5 al 76,9 %), acertó: hubo 6 goles. En total, 2 de 2 partidos terminados tuvieron 2 goles o más (fecha 17 del Clausura de la Liga 1 de Perú, fecha FIFA).",
+  "aciertos_destacados": [
+   "Comerciantes Unidos 3-3 Sport Boys (Over 1.5 al 76,9 % · hubo 6 goles · partido del día)",
+   "Juan Pablo II 2-2 Deportivo Garcilaso (Over 1.5 al 75,6 % · hubo 4 goles)"
+  ],
+  "partidos": 2
  }
 ]

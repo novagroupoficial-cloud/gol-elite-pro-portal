@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15 05:42 ECU",
+ "actualizado": "2026-11-17 05:35 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -23,9 +23,10 @@
   "2026-11-04",
   "2026-11-07",
   "2026-11-08",
-  "2026-11-14"
+  "2026-11-14",
+  "2026-11-15"
  ],
- "partidos": 512,
+ "partidos": 514,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -41,8 +42,8 @@
    "partidos": 180
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 219,
-   "partidos": 286
+   "aciertos": 221,
+   "partidos": 288
   }
  },
  "over90": {
@@ -60,9 +61,9 @@
   "partidos": 100
  },
  "partido_del_dia": {
-  "aciertos": 16,
-  "dias": 22,
-  "racha_actual": 0,
+  "aciertos": 17,
+  "dias": 23,
+  "racha_actual": 1,
   "detalle": [
    {
     "fecha": "2026-10-11",
@@ -239,6 +240,14 @@
     "goles": 1,
     "acierto": false,
     "over15": 77.9
+   },
+   {
+    "fecha": "2026-11-15",
+    "partido": "Comerciantes Unidos vs Sport Boys",
+    "resultado": "3-3",
+    "goles": 6,
+    "acierto": true,
+    "over15": 76.9
    }
   ]
  },
@@ -275,8 +284,8 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 191,
-   "aciertos": 140,
+   "partidos": 193,
+   "aciertos": 142,
    "prometido": 74.7
   },
   {
@@ -287,69 +296,24 @@
   }
  ],
  "ultima_jornada": {
-  "fecha": "2026-11-14",
+  "fecha": "2026-11-15",
   "partidos": [
    {
-    "hora": "15:30",
-    "local": "Águilas Doradas",
-    "visita": "Independiente Medellín",
-    "over15": 77.9,
-    "resultado": "0-1",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "15:30",
-    "local": "Cúcuta",
-    "visita": "Jaguares de Córdoba",
-    "over15": 72.6,
-    "resultado": "2-0",
-    "goles": 2,
+    "hora": "13:00",
+    "local": "Comerciantes Unidos",
+    "visita": "Sport Boys",
+    "over15": 76.9,
+    "resultado": "3-3",
+    "goles": 6,
     "acierto": true
    },
    {
-    "hora": "15:30",
-    "local": "Atlético Nacional",
-    "visita": "Once Caldas",
-    "over15": 72.1,
-    "resultado": "1-1",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "15:30",
-    "local": "Deportivo Cali",
-    "visita": "Tolima",
-    "over15": 71.5,
+    "hora": "15:15",
+    "local": "Juan Pablo II",
+    "visita": "Deportivo Garcilaso",
+    "over15": 75.6,
     "resultado": "2-2",
     "goles": 4,
-    "acierto": true
-   },
-   {
-    "hora": "15:30",
-    "local": "Bucaramanga",
-    "visita": "Fortaleza",
-    "over15": 71.5,
-    "resultado": "1-0",
-    "goles": 1,
-    "acierto": false
-   },
-   {
-    "hora": "15:30",
-    "local": "Millonarios",
-    "visita": "Alianza (ex Alianza Petrolera)",
-    "over15": 66.5,
-    "resultado": "2-0",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "15:30",
-    "local": "Deportivo Pereira",
-    "visita": "América de Cali",
-    "over15": 63.4,
-    "resultado": "0-2",
-    "goles": 2,
     "acierto": true
    }
   ]

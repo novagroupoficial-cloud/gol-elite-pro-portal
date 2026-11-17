@@ -1,0 +1,18 @@
+{
+ "fecha": "2026-11-17",
+ "revisado": "2026-11-17 05:40 ECU (UTC-5)",
+ "pronosticos": [],
+ "motivo": "Último día de la fecha FIFA de selecciones (9–17 nov): hoy no juega ninguna de las ligas que sigue el portal. Solo UEFA Nations League, eliminatorias Sub-21 y amistosos de selecciones (fuera del modelo Nova Gol, que necesita tablas de local y visitante de liga).",
+ "calendario_revisado": [
+  {"fuente": "Fútbol Total · partidos del 17-nov-2026 (34 partidos: Nations League, Sub-21 y amistosos; ninguna liga del portal)", "url": "https://futboltotal.futbol/2026-11-17"},
+  {"fuente": "Depor · resultados del 17-nov-2026: «No hay partidos programados» en las ligas que sigue", "url": "https://depor.com/resultados/2026-11-17/"},
+  {"fuente": "ABC do ABC · el Brasileirão vuelve con la rodada 35: bloque principal el 18 y 19 de noviembre; nada el 17", "url": "https://abcdoabc.com.br/saiba-quando-volta-o-brasileirao-apos/"},
+  {"fuente": "SportyTrader: no accesible desde la rutina (permiso de acceso no concedido)", "url": "https://www.sportytrader.com/es/pronosticos/futbol/"}
+ ],
+ "sin_pronostico": [
+  {"competicion": "UEFA Nations League", "partidos": ["Hungría–Irlanda del Norte", "Ucrania–Georgia", "Israel–Austria", "Dinamarca–Noruega", "Bosnia y Herzegovina–Rumania", "Polonia–Suecia", "Irlanda–Kosovo", "Gales–Portugal"]},
+  {"competicion": "Eliminatorias Europeo Sub-21", "partidos": ["Chequia–Turquía", "Países Bajos–Dinamarca", "Irlanda–Finlandia"]},
+  {"competicion": "Amistosos de selecciones", "partidos": ["Japón–Paraguay", "Rusia–Venezuela", "Kuwait–Honduras", "Singapur–Brasil", "Irak–Irán", "otros"]}
+ ],
+ "nota": "Mañana miércoles 18 vuelven las ligas (Brasileirão, rodada 35) y el fin de semana del 21-22 el resto. El Dashboard Gol 4.0 no se consultó con datos de hoy porque no hay partidos de liga que pronosticar (además, en las últimas rutinas no expuso /api/dia). El lunes 16 no corrió la rutina y no hay pronósticos de ese día."
+}

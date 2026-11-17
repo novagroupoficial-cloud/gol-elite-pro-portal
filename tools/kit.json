@@ -1,37 +1,172 @@
 {
- "local": "Comerciantes Unidos",
- "fecha_larga": "Domingo 15 de noviembre de 2026",
+ "modo": "sin_partidos",
+ "fecha_larga": "Martes 17 de noviembre de 2026",
  "desde": "05:40",
- "contexto": [
-  "Comerciantes Unidos en casa: 13 goles a favor y 11 en contra en 7 partidos.",
-  "Sport Boys fuera: 16 goles en 8 partidos (7 a favor, 9 en contra).",
-  "Los dos vienen de empatar 0-0 en la fecha 16 del Clausura."
- ],
- "auditoria": {
-  "encabezado": "Auditoría de ayer",
-  "titulo": "Sábado 14 de noviembre · Liga BetPlay, fecha 19 · 7 partidos con fuente",
+ "sin_partidos": {
+  "titular": "Hoy: fecha FIFA",
+  "bajada": "Último día de selecciones: hoy no juega ninguna liga que seguimos. Sin pronósticos: no inventamos números.",
+  "titulo_historia": "Partido del día del domingo",
+  "partidos_del_dia": [
+   {
+    "dia": "Domingo 15 · Liga 1 de Perú",
+    "pct": "77",
+    "local": "Comerciantes Unidos",
+    "resultado": "3-3",
+    "visita": "Sport Boys",
+    "goles": "6"
+   }
+  ],
+  "resumen_corto": "Domingo 15: 2 de 2 con 2 goles o más · Juan Pablo II 2-2 Garcilaso (76 % · hubo 4 goles)",
+  "titulo_tiles": "Así nos fue el domingo",
   "tiles": [
    [
-    "5/7",
+    "2/2",
     "Partidos con 2 goles o más (Over 1.5)",
     "verde"
    ],
    [
-    "3/5",
-    "Over 1.5 de 70 % o más (60 %)",
+    "✔ 6",
+    "goles en el partido del día (Comerciantes U. 3-3 Sport Boys)",
+    "verde"
+   ],
+   [
+    "41/46",
+    "Over 1.5 de 90 % o más (acumulado)",
     "dor"
    ],
    [
-    "0/1",
-    "Partido del día (Águilas 0-1 Medellín)",
-    "dor"
-   ],
-   [
-    "1/7",
-    "Marcadores exactos (Nacional 1-1 Once Caldas)",
+    "17/23",
+    "Partidos del día cumplidos (acumulado)",
     "dor"
    ]
   ],
-  "nota": "Acertaron Cúcuta 2-0 Jaguares (dimos Over 1.5 al 73 % · hubo 2 goles), Deportivo Cali 2-2 Tolima (72 % · hubo 4 goles) y Nacional 1-1 Once Caldas (72 % · marcador exacto). Fallaron el partido del día, Águilas Doradas 0-1 Medellín (78 % · hubo 1 gol), y Bucaramanga 1-0 Fortaleza (72 % · hubo 1 gol)."
+  "desliza": "Desliza: los últimos aciertos, nuestros números y la auditoría completa →",
+  "titulo_aciertos": "Últimos aciertos",
+  "sub_aciertos": "Sábado 14 y domingo 15",
+  "aciertos": [
+   [
+    "Comerciantes Unidos",
+    "Sport Boys",
+    "3-3",
+    "77",
+    "6",
+    "Dom 15 · Liga 1 · partido del día"
+   ],
+   [
+    "Juan Pablo II",
+    "Deportivo Garcilaso",
+    "2-2",
+    "76",
+    "4",
+    "Dom 15 · Liga 1"
+   ],
+   [
+    "Cúcuta",
+    "Jaguares",
+    "2-0",
+    "73",
+    "2",
+    "Sáb 14 · Liga BetPlay"
+   ],
+   [
+    "Deportivo Cali",
+    "Tolima",
+    "2-2",
+    "72",
+    "4",
+    "Sáb 14 · Liga BetPlay"
+   ],
+   [
+    "Atlético Nacional",
+    "Once Caldas",
+    "1-1",
+    "72",
+    "2",
+    "Sáb 14 · Liga BetPlay · marcador exacto"
+   ],
+   [
+    "Millonarios",
+    "Alianza FC",
+    "2-0",
+    "67",
+    "2",
+    "Sáb 14 · Liga BetPlay"
+   ],
+   [
+    "Deportivo Pereira",
+    "América de Cali",
+    "0-2",
+    "63",
+    "2",
+    "Sáb 14 · Liga BetPlay"
+   ]
+  ],
+  "auditorias": [
+   {
+    "encabezado": "Nuestros números",
+    "titulo": "24 días auditados · 514 partidos con fuente · escala actual",
+    "tiles": [
+     [
+      "5/5",
+      "GOL ÉLITE (95 % o más)",
+      "verde"
+     ],
+     [
+      "36/41",
+      "GOLES PLATINO (90 a 94 %)",
+      "verde"
+     ],
+     [
+      "140/180",
+      "GOLES ESTÁNDAR (80 a 89 %)",
+      "dor"
+     ],
+     [
+      "62/100",
+      "Over 2.5 con señal (65 % o más)",
+      "dor"
+     ]
+    ],
+    "nota": "Récord: 17 aciertos seguidos de Over 1.5 de 90 % o más. Lo decimos tal cual: GOLES ESTÁNDAR prometía 84 % y cumple 78 %, y GOLES PLATINO está en 88 % (meta 90 %). Publicamos aciertos y fallos."
+   },
+   {
+    "encabezado": "Auditoría del domingo",
+    "titulo": "Domingo 15 · Liga 1 de Perú, fecha 17 · 2 partidos con fuente",
+    "tiles": [
+     [
+      "2/2",
+      "Partidos con 2 goles o más (Over 1.5)",
+      "verde"
+     ],
+     [
+      "2/2",
+      "Over 1.5 de 70 % o más (100 %)",
+      "verde"
+     ],
+     [
+      "1/1",
+      "Partido del día (Comerciantes U. 3-3 Sport Boys)",
+      "verde"
+     ],
+     [
+      "0/2",
+      "Marcadores exactos (dimos 1-1)",
+      "dor"
+     ]
+    ],
+    "nota": "Acertaron Comerciantes Unidos 3-3 Sport Boys (dimos Over 1.5 al 77 % · hubo 6 goles) y Juan Pablo II 2-2 Garcilaso (76 % · hubo 4 goles). Sin Over 2.5 con señal (los dos rondaban 50 %). El lunes 16 no hubo pronósticos. Fuentes: RPP y Futbolperuano.com."
+   }
+  ]
+ },
+ "acierto": {
+  "encabezado": "Partido del día del domingo",
+  "fecha": "Dom 15 de noviembre",
+  "local": "Comerciantes Unidos",
+  "visita": "Sport Boys",
+  "liga": "Liga 1 de Perú · fecha 17 del Clausura",
+  "resultado": "3-3",
+  "over15": 76.9,
+  "goles": "6",
+  "sellado": "05:40 ECU del 15-nov"
  }
 }

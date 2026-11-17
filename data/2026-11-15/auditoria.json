@@ -1,0 +1,133 @@
+{
+ "fecha": "2026-11-15",
+ "auditado": "2026-11-17 05:5x ECU (rutina diaria; recuperado por la regla del histórico sin huecos: la rutina del 16-nov no corrió)",
+ "partidos": 2,
+ "terminados": 2,
+ "anulados": 0,
+ "pendientes": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   0,
+   0
+  ],
+  "GOLES OPTIMISTAS": [
+   2,
+   2
+  ],
+  "Total >=70": [
+   2,
+   2
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   0
+  ],
+  "Marcadores exactos": [
+   0,
+   2
+  ],
+  "Menos de 70 (informativo)": [
+   0,
+   0
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   0,
+   0
+  ],
+  "GOLES OPTIMISTAS": [
+   2,
+   2
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   0,
+   0
+  ],
+  "moderada": [
+   0,
+   0
+  ]
+ },
+ "intervalo_wilson_95": {
+  "GOLES OPTIMISTAS": [
+   34.2,
+   100.0
+  ],
+  "Total >=70": [
+   34.2,
+   100.0
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Comerciantes Unidos vs Sport Boys",
+  "over15": 76.9,
+  "resultado": "3-3",
+  "goles": 6,
+  "acierto": true,
+  "estado": "terminado",
+  "fuente": "https://rpp.pe/futbol/descentralizado/comerciantes-unidos-vs-sport-boys-en-vivo-a-que-hora-juegan-y-donde-ver-fecha-17-torneo-clausura-2026-via-l1max-partidos-de-hoy-noticia-1717814"
+ },
+ "fallos_over15_70": [],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [],
+ "anulados_lista": [],
+ "pendientes_lista": [],
+ "nota": "Fecha 17 (última) del Torneo Clausura 2026 de la Liga 1 de Perú, domingo 15-nov (fecha FIFA). Resultados finales: RPP (Comerciantes Unidos 3-3 Sport Boys, Cutervo) y Futbolperuano.com (Juan Pablo II 2-2 Deportivo Garcilaso, Chongoyape), confirmados por Ovacion, El Comercio y DSN. Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. Los dos Over 2.5 eran ~50 % (sin señal), así que no cuentan como señal aunque hubo 3+ goles. El Dashboard Gol 4.0 no se usó (no expone /api/dia para Perú): auditoría manual. El 16-nov no hubo pronósticos (sin data/2026-11-16).",
+ "resultados": [
+  {
+   "hora": "13:00",
+   "liga": "PER",
+   "local": "Comerciantes Unidos",
+   "visita": "Sport Boys",
+   "resultado": "3-3",
+   "estado": "terminado",
+   "over15": 76.9,
+   "over25": 51.7,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-15 05:40 ECU (UTC-5)",
+   "goles": 6,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://rpp.pe/futbol/descentralizado/comerciantes-unidos-vs-sport-boys-en-vivo-a-que-hora-juegan-y-donde-ver-fecha-17-torneo-clausura-2026-via-l1max-partidos-de-hoy-noticia-1717814"
+  },
+  {
+   "hora": "15:15",
+   "liga": "PER",
+   "local": "Juan Pablo II",
+   "visita": "Deportivo Garcilaso",
+   "resultado": "2-2",
+   "estado": "terminado",
+   "over15": 75.6,
+   "over25": 50.1,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-15 05:40 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.futbolperuano.com/liga-1/noticias/juan-pablo-ii-vs-deportivo-garcilaso-en-vivo-por-el-torneo-clausura-de-la-liga-1-2026-612714"
+  }
+ ]
+}

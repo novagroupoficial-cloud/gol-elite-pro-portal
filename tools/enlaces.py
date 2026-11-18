@@ -1223,3 +1223,24 @@ ACIERTOS=[
  ("Comerciantes Unidos vs Sport Boys","3-3","77 % · partido del día (dom 15)","RPP",_RPP_CU),
  ("Juan Pablo II vs Deportivo Garcilaso","2-2","76 % · dom 15","Futbolperuano.com",_FP_JP),
 ]
+
+# ---- Miércoles 18-nov-2026 (rutina diaria, sellado 05:35 ECU): vuelve el Brasileirão (35ª rodada, 6 partidos) + Liga 1 Perú (Alianza Atlético–Melgar, pendiente de la fecha 17).
+# Hoy ningún partido llega a 80 % en Over 1.5 (PRED vacío). ACIERTOS: el 16 y 17-nov no hubo pronósticos; se mantienen los del último día auditado (dom 15).
+_PLA="https://placar.com.br/brasileirao/brasileirao-de-volta-o-que-esta-em-jogo-na-35a-rodada/?media=tv&content=geral"
+_DEP17="https://depor.com/futbol-peruano/descentralizado/tabla-de-posiciones-liga-1-peru-2026-en-vivo-hoy-partidos-y-resultados-de-fecha-17-del-torneo-clausura-2026-sporting-cristal-universitario-de-deportes-sport-huancayo-alianza-lima-noticia/"
+LINK={
+ 'Alianza Atlético|Melgar':("Alianza Atlético recibe a Melgar en Sullana en el partido pendiente de la fecha 17 del Clausura","Depor",_DEP17),
+ 'Coritiba|Santos':("Brasileirão de vuelta: una victoria del Coritiba ante el Santos puede asegurarle la permanencia","Placar",_PLA),
+ 'Remo|Chapecoense':("Remo y Chapecoense, los dos últimos, frente a frente: el Remo puede descender esta fecha","Placar",_PLA),
+ 'Flamengo|Athletico-PR':("Flamengo vs Athletico-PR: el líder recibe a un Athletico sin su goleador Viveros (suspendido)","Flashscore","https://www.flashscore.com.br/noticias/futebol-brasileirao-serie-a-flamengo-x-athletico-pr-onde-assistir-previa-e-provaveis-escalacoes/z11UAa4D/"),
+ 'Cruzeiro|Palmeiras':("Cruzeiro vs Palmeiras: el escolta visita al tercero para no perder pisada del Flamengo","Placar",_PLA),
+ 'Corinthians|Botafogo':("Corinthians necesita ganar en casa ante Botafogo para salir de la zona de descenso","Placar",_PLA),
+ 'Grêmio|Bahia':("Grêmio, en zona de descenso, necesita los tres puntos ante el Bahia en su estadio","Placar",_PLA),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Flamengo|Athletico-PR','Cruzeiro|Palmeiras','Corinthians|Botafogo','Grêmio|Bahia']
+LLEGAN={
+ 'Alianza Atlético|Melgar':["Alianza Atlético en casa: 17 goles a favor y 11 en contra en 8 partidos (3,5 goles por partido)","Melgar fuera: 11 a favor y 7 en contra en 8 partidos","Melgar es 5.º del Clausura (29 pts) y Alianza Atlético 7.º (28): los dos pelean los puestos de arriba","Fuente: tablas casa/fuera del Clausura (futbolperuano.com y Depor, control con la tabla del Clausura) y Depor"],
+ 'Grêmio|Bahia':["Grêmio en casa: 27 goles a favor y 21 en contra en 17 partidos (2,8 goles por partido)","Bahia fuera: 24 a favor y 26 en contra en 17 partidos (2,9 goles por partido)","Grêmio es 18.º (37 pts, zona de descenso) y Bahia 6.º (53 pts)","Fuente: ValorFinal (tablas de local y visitante tras la 34ª rodada) y Placar"],
+ 'Coritiba|Santos':["Coritiba en casa: 22 a favor y 21 en contra en 17 partidos","Santos fuera: 27 a favor y 28 en contra en 17 partidos (3,2 goles por partido)","Coritiba es 13.º (42 pts) y una victoria puede darle la permanencia; Santos es 9.º (47 pts)","Fuente: ValorFinal (tablas de local y visitante tras la 34ª rodada) y Placar"],
+}

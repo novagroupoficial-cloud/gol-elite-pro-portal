@@ -1,4 +1,4 @@
-# Tablas casa/fuera — lunes 2-nov-2026 (bloque DOM01 con el domingo 1-nov) · antes: miércoles 21-oct-2026 (bloque MAR20 con el martes 20 y Cincinnati-Columbus) · antes: martes 20-oct-2026 (bloque LUN19 con el lunes 19 y Monterrey-Pachuca) · antes: lunes 19-oct-2026 (antes de los partidos del día, incluye todo hasta el domingo 18-oct; bloque DOM18 al final): equipo: (PJ, GF, GC)
+# Tablas casa/fuera — miércoles 18-nov-2026 (BRA ValorFinal tras 34ª + PER fecha 17 parcial; bloque MIE18 al final) · antes: lunes 2-nov-2026 (bloque DOM01 con el domingo 1-nov) · antes: miércoles 21-oct-2026 (bloque MAR20 con el martes 20 y Cincinnati-Columbus) · antes: martes 20-oct-2026 (bloque LUN19 con el lunes 19 y Monterrey-Pachuca) · antes: lunes 19-oct-2026 (antes de los partidos del día, incluye todo hasta el domingo 18-oct; bloque DOM18 al final): equipo: (PJ, GF, GC)
 # Datos manuales (el Dashboard Gol 4.0 aún no expone /api/dia). Fuente de cada liga en su comentario.
 L={}
 # BRA: base tools/datos.py (valorfinal tabelas-por-recorte, tras 30ª rodada + Mirassol 2-0 Internacional 16/10) + 4 partidos del sábado 17/10 (31ª rodada): Botafogo 1-0 Chapecoense, Atletico MG 1-0 Coritiba, Athletico-PR 0-2 Palmeiras, São Paulo 1-0 Vasco da Gama. Fuentes: https://ptd.verdao.net/brasileirao-2026-resultados-de-sabado-pela-31a-rodada-classificacao-atualizada/ · https://www.supervasco.com/noticias/tabela-atualizada-da-serie-a-apos-os-jogos-deste-sabado-18-da-rodada-31-457982.html · https://365scores.com/pt-br/news/magazine/sao-paulo-vence-vasco-sobe-tabela-brasileirao · calendario https://valorfinal.com.br/brasileirao/2026/rodada-31 . Cotejada equipo por equipo (40/40 filas idénticas) con https://valorfinal.com.br/brasileirao/tabelas-por-recorte (lectura 18/10/2026 06:30). Corte: sábado 17/10/2026 incluido (pendientes 31ª: 4 de hoy + Corinthians–Vitória lun 19/10). 304 partidos · control: PJ 304=304, GF casa 465 = GC fuera 465, GC casa 342 = GF fuera 342
@@ -603,6 +603,25 @@ DOM15=[
  ('PER','Universitario',2,2,'CD Moquegua'),
 ]
 for _lg,_a,_ga,_gb,_b in DOM15:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
+# ===== Actualización mié 18-nov-2026 (rutina diaria 05:2x ECU) =====
+# BRA: tabla casa/fuera COMPLETA reemplazada por ValorFinal "tabelas-por-recorte" (lectura 18/11/2026 05:30 ECU: corte tras la 34ª rodada + 1 jogo de la 35ª, Mirassol–Atlético MG; fotografia 2026.R34.45268f16-341; datos football-data.org, CC BY 4.0)
+# https://valorfinal.com.br/brasileirao/tabelas-por-recorte · control: PJ 341=341, GF casa 522 = GC fuera 522, GC casa 386 = GF fuera 386. (La base anterior tenía 336 PJ: faltaban 5 partidos atrasados.)
+L['BRA']=dict(casa={'Palmeiras': (17, 36, 11), 'Flamengo': (17, 35, 13), 'Fluminense': (17, 31, 17), 'Atletico MG': (17, 27, 18), 'Cruzeiro': (17, 30, 18), 'São Paulo': (17, 25, 13), 'Vitória': (17, 23, 16), 'Athletico-PR': (17, 28, 18), 'Bragantino': (17, 29, 18), 'Bahia': (17, 26, 19), 'Grêmio': (17, 27, 21), 'Mirassol': (18, 24, 22), 'Vasco da Gama': (17, 25, 24), 'Botafogo': (17, 27, 22), 'Santos': (17, 23, 21), 'Internacional': (17, 22, 17), 'Coritiba': (17, 22, 21), 'Corinthians': (17, 18, 17), 'Remo': (17, 22, 22), 'Chapecoense': (17, 22, 38)},
+ fuera={'Flamengo': (17, 36, 16), 'Palmeiras': (17, 26, 12), 'Cruzeiro': (17, 25, 30), 'Bahia': (17, 24, 26), 'Santos': (17, 27, 28), 'Athletico-PR': (17, 23, 25), 'Coritiba': (17, 18, 30), 'Fluminense': (17, 24, 25), 'Vasco da Gama': (17, 20, 26), 'Bragantino': (17, 15, 21), 'Atletico MG': (18, 17, 22), 'Botafogo': (17, 19, 31), 'Corinthians': (17, 18, 25), 'Internacional': (17, 16, 25), 'Mirassol': (17, 15, 26), 'São Paulo': (17, 14, 26), 'Remo': (17, 15, 35), 'Grêmio': (17, 11, 26), 'Chapecoense': (17, 11, 32), 'Vitória': (17, 12, 35)})
+# PER: fecha 17 del Clausura, 5 partidos jugados (15 y 16-nov); pendientes: Alianza Atlético–Melgar (hoy), Alianza Lima–FC Cajamarca, Sporting Cristal–Cienciano, Sport Huancayo–Universitario.
+# Fuente: Depor, resultados y tabla del Clausura tras la fecha 17 (16 de 18 equipos coinciden en PJ/GF/GC con casa+fuera; UTC y Los Chankas difieren en la tabla de Depor —UTC 5-3 vs "5-2" en el texto—, no afecta a los equipos de hoy):
+# https://depor.com/futbol-peruano/descentralizado/tabla-de-posiciones-liga-1-peru-2026-en-vivo-hoy-partidos-y-resultados-de-fecha-17-del-torneo-clausura-2026-sporting-cristal-universitario-de-deportes-sport-huancayo-alianza-lima-noticia/
+MIE18=[
+ ('PER','Comerciantes Unidos',3,3,'Sport Boys'),
+ ('PER','Juan Pablo II',2,2,'Deportivo Garcilaso'),
+ ('PER','UTC',5,3,'Los Chankas'),
+ ('PER','Cusco FC',2,2,'ADT'),
+ ('PER','CD Moquegua',2,1,'Atlético Grau'),
+]
+for _lg,_a,_ga,_gb,_b in MIE18:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 

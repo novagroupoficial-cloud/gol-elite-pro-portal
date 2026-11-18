@@ -1,9 +1,14 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — domingo 15-nov-2026 (rutina diaria 05:2x ECU): fecha FIFA; solo la Liga 1 de Perú (fecha 17 del Clausura, última; programación definitiva Bolavip/futbolperuano, Perú = hora de Ecuador). Sin partidos hoy de COL (cuadrangulares por sortear), BRA (paro FIFA), MEX (vuelve el 20-nov), ARG (octavos desde el 20-nov), CHI (28-nov), ECU (fecha 7 desde el 20-nov), MLS ni Europa. Uruguay (Danubio–Liverpool, Defensor–Peñarol): sin tabla casa/fuera verificable. SportyTrader no accesible.
- ('13:00','PER','Comerciantes Unidos','Sport Boys'),
- ('15:15','PER','Juan Pablo II','Deportivo Garcilaso'),
+P=[ # hora (Ecuador), liga, local, visita — miércoles 18-nov-2026 (rutina diaria 05:2x ECU): vuelve el Brasileirão (35ª rodada, 6 partidos; RS Notícia/RPP/LiveSoccerTV, Brasília −2 h) + Liga 1 Perú (Alianza Atlético–Melgar, pendiente de la fecha 17; Depor/RPP). Copa del Rey (copa, equipos de categorías inferiores) sin tabla de liga: sin pronóstico. Sin partidos de las demás ligas del portal. SportyTrader no accesible.
+ ('15:00','PER','Alianza Atlético','Melgar'),
+ ('17:30','BRA','Coritiba','Santos'),
+ ('18:00','BRA','Remo','Chapecoense'),
+ ('18:30','BRA','Flamengo','Athletico-PR'),
+ ('18:30','BRA','Cruzeiro','Palmeiras'),
+ ('19:30','BRA','Corinthians','Botafogo'),
+ ('19:30','BRA','Grêmio','Bahia'),
 ]
 out=[]
 for h,lg,a,b in P:

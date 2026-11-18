@@ -1,1 +1,205 @@
-[]
+[
+ {
+  "hora": "15:00",
+  "liga": "PER",
+  "local": "Alianza Atlético",
+  "visita": "Melgar",
+  "casa": [
+   8,
+   17,
+   11
+  ],
+  "fuera": [
+   8,
+   11,
+   7
+  ],
+  "HG": 1.79,
+  "AG": 1.23,
+  "lambda_local": 1.54,
+  "lambda_visita": 1.33,
+  "goles_esperados": 2.9,
+  "over15": 78.9,
+  "over25": 54.6,
+  "under25": 45.4,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ },
+ {
+  "hora": "17:30",
+  "liga": "BRA",
+  "local": "Coritiba",
+  "visita": "Santos",
+  "casa": [
+   17,
+   22,
+   21
+  ],
+  "fuera": [
+   17,
+   27,
+   28
+  ],
+  "HG": 1.53,
+  "AG": 1.13,
+  "lambda_local": 1.48,
+  "lambda_visita": 1.35,
+  "goles_esperados": 2.8,
+  "over15": 78.3,
+  "over25": 53.7,
+  "under25": 46.3,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ },
+ {
+  "hora": "18:00",
+  "liga": "BRA",
+  "local": "Remo",
+  "visita": "Chapecoense",
+  "casa": [
+   17,
+   22,
+   22
+  ],
+  "fuera": [
+   17,
+   11,
+   32
+  ],
+  "HG": 1.53,
+  "AG": 1.13,
+  "lambda_local": 1.56,
+  "lambda_visita": 0.97,
+  "goles_esperados": 2.5,
+  "over15": 72.8,
+  "over25": 46.3,
+  "under25": 53.7,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ },
+ {
+  "hora": "18:30",
+  "liga": "BRA",
+  "local": "Flamengo",
+  "visita": "Athletico-PR",
+  "casa": [
+   17,
+   35,
+   13
+  ],
+  "fuera": [
+   17,
+   23,
+   25
+  ],
+  "HG": 1.53,
+  "AG": 1.13,
+  "lambda_local": 1.7,
+  "lambda_visita": 1.05,
+  "goles_esperados": 2.7,
+  "over15": 76.9,
+  "over25": 51.8,
+  "under25": 48.2,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ },
+ {
+  "hora": "18:30",
+  "liga": "BRA",
+  "local": "Cruzeiro",
+  "visita": "Palmeiras",
+  "casa": [
+   17,
+   30,
+   18
+  ],
+  "fuera": [
+   17,
+   26,
+   12
+  ],
+  "HG": 1.53,
+  "AG": 1.13,
+  "lambda_local": 1.26,
+  "lambda_visita": 1.25,
+  "goles_esperados": 2.5,
+  "over15": 72.4,
+  "over25": 45.8,
+  "under25": 54.2,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ },
+ {
+  "hora": "19:30",
+  "liga": "BRA",
+  "local": "Corinthians",
+  "visita": "Botafogo",
+  "casa": [
+   17,
+   18,
+   17
+  ],
+  "fuera": [
+   17,
+   19,
+   31
+  ],
+  "HG": 1.53,
+  "AG": 1.13,
+  "lambda_local": 1.43,
+  "lambda_visita": 1.07,
+  "goles_esperados": 2.5,
+  "over15": 72.2,
+  "over25": 45.5,
+  "under25": 54.5,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ },
+ {
+  "hora": "19:30",
+  "liga": "BRA",
+  "local": "Grêmio",
+  "visita": "Bahia",
+  "casa": [
+   17,
+   27,
+   21
+  ],
+  "fuera": [
+   17,
+   24,
+   26
+  ],
+  "HG": 1.53,
+  "AG": 1.13,
+  "lambda_local": 1.55,
+  "lambda_visita": 1.29,
+  "goles_esperados": 2.8,
+  "over15": 78.5,
+  "over25": 54.0,
+  "under25": 46.0,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1"
+ }
+]

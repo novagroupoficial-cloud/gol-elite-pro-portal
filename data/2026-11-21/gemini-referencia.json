@@ -1,0 +1,71 @@
+{
+ "fecha": "2026-11-21",
+ "registrado": "2026-11-21 10:10 ECU",
+ "origen": "Ranking \"gol promedio equipos\" de Gemini enviado por Marco, sin fuente de marcadores",
+ "partidos": [
+  {
+   "local": "Palmeiras",
+   "visita": "Flamengo",
+   "o15": 10,
+   "o25": 8,
+   "prom": 3.5,
+   "categoria_gemini": "ÉLITE 95"
+  },
+  {
+   "local": "Real Madrid",
+   "visita": "Celta de Vigo",
+   "o15": 9,
+   "o25": 8,
+   "prom": 3.4,
+   "categoria_gemini": "PLATINO"
+  },
+  {
+   "local": "Monaco",
+   "visita": "Auxerre",
+   "o15": 9,
+   "o25": 6,
+   "prom": 3.2,
+   "categoria_gemini": "PLATINO"
+  },
+  {
+   "local": "Borussia Monchengladbach",
+   "visita": "Borussia Dortmund",
+   "o15": 9,
+   "o25": 6,
+   "prom": 2.8,
+   "categoria_gemini": "PLATINO"
+  },
+  {
+   "local": "Chelsea",
+   "visita": "Leeds United",
+   "o15": 8,
+   "o25": 6,
+   "prom": 2.7,
+   "categoria_gemini": "ESTÁNDAR"
+  },
+  {
+   "local": "Nice",
+   "visita": "Paris Saint-Germain",
+   "o15": 8,
+   "o25": 5,
+   "prom": 2.6,
+   "categoria_gemini": "ESTÁNDAR"
+  },
+  {
+   "local": "Pachuca",
+   "visita": "Toluca",
+   "o15": 8,
+   "o25": 5,
+   "prom": 2.5,
+   "categoria_gemini": "ESTÁNDAR"
+  },
+  {
+   "local": "Newcastle",
+   "visita": "Arsenal",
+   "o15": 8,
+   "o25": 4,
+   "prom": 2.3,
+   "categoria_gemini": "ESTÁNDAR"
+  }
+ ]
+}

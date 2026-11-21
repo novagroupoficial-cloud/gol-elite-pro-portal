@@ -20,13 +20,14 @@ def key(p): return f"{p['local']}|{p['visita']}"
 NEWS_PRED={}  # (sin uso en la portada actual)
 NEWS_DEST=[]
 FUENTES=[
- ("RPP · Comerciantes Unidos y Sport Boys empataron 3-3 por la última fecha del Clausura 2026 (dom 15)","https://rpp.pe/futbol/descentralizado/comerciantes-unidos-vs-sport-boys-en-vivo-a-que-hora-juegan-y-donde-ver-fecha-17-torneo-clausura-2026-via-l1max-partidos-de-hoy-noticia-1717814"),
- ("Futbolperuano.com · Juan Pablo II 2-2 Deportivo Garcilaso, fecha 17 del Clausura (dom 15)","https://www.futbolperuano.com/liga-1/noticias/juan-pablo-ii-vs-deportivo-garcilaso-en-vivo-por-el-torneo-clausura-de-la-liga-1-2026-612714"),
- ("RS Notícia · Brasileirão vuelve el miércoles con seis partidos: agenda de la 35ª rodada","https://rsnoticia.com.br/brasileirao-volta-na-quarta-com-seis-jogos-veja-a-agenda-da-35a-rodada/"),
- ("RPP · Partidos del miércoles 18 de noviembre: horarios de Liga 1 y Brasileirão (hora de Perú = Ecuador)","https://rpp.pe/futbol/futbol-mundial/partidos-del-miercoles-18-de-noviembre-horarios-y-canales-de-tv-para-ver-en-vivo-en-liga-1-y-brasileirao-noticia-1718308"),
- ("Placar · Brasileirão de vuelta: qué está en juego en la 35ª rodada (posiciones y contexto)","https://placar.com.br/brasileirao/brasileirao-de-volta-o-que-esta-em-jogo-na-35a-rodada/?media=tv&content=geral"),
- ("ValorFinal · Brasileirão 2026 en casa y fuera (tablas de local y visitante tras la 34ª rodada)","https://valorfinal.com.br/brasileirao/tabelas-por-recorte"),
- ("Depor · Resultados y tabla de la fecha 17 del Clausura 2026 (Liga 1)","https://depor.com/futbol-peruano/descentralizado/tabla-de-posiciones-liga-1-peru-2026-en-vivo-hoy-partidos-y-resultados-de-fecha-17-del-torneo-clausura-2026-sporting-cristal-universitario-de-deportes-sport-huancayo-alianza-lima-noticia/"),
+ ("Diario Correo · Melgar empata 1-1 con Alianza Atlético en Sullana (mié 18)","https://diariocorreo.pe/deportes/melgar-empata-1-1-con-alianza-atletico-de-sullana-noticia/"),
+ ("ESPN · Coritiba 0-1 Santos, Corinthians 4-0 Botafogo y Grêmio 0-0 Bahia: resultados finales de la rodada 35 (mié 18)","https://espndeportes.espn.com/futbol/partido/_/juegoId/401841316/botafogo-corinthians"),
+ ("ohoje.com · Resultados del miércoles 18 en el Brasileirão: Flamengo encamina el título","https://ohoje.com/2026/11/19/flamengo-encaminha-titulo-e-corinthians-ganha-folego-na-luta-contra-o-z-4-confira-os-resultados-dos-jogos-desta-quarta/"),
+ ("Sports Mole · Tablas de local y visitante: Premier League, LaLiga, Bundesliga, Ligue 1 y MLS 2026","https://www.sportsmole.co.uk/football/Premier-League/table.html"),
+ ("SoccerNews · Tablas de la Serie A, Bundesliga y Eredivisie 2026/27 (local y visitante)","https://www.soccernews.com/soccer-stats/serie-a/league-table/2026/"),
+ ("Fútbol Total · Clasificación local/visitante de la Liga MX Apertura 2026","https://futboltotal.futbol/league/liga-mx/clasificacion"),
+ ("Sport-Flash · Calendario del sábado 21 de noviembre por país (con zona horaria)","https://www.sport-flash.com/sports/football/mx/calendar/2026-11-21"),
+ ("Líbero · Alianza Lima vs FC Cajamarca, 15:30 en Matute (hora corregida)","https://libero.pe/futbol-peruano/liga-1/2026/11/20/alianza-lima-vs-fc-cajamarca-en-vivo-gratis-partido-del-torneo-clausura-via-liga-1-max-internet-1867460"),
 ]
 
 ES.update({'Celta Vigo':'Celta de Vigo','Los Angeles FC':'LAFC','Bayer Leverkusen':'Leverkusen','Leones del Norte':'Leones del Norte','Paris Saint-Germain':'PSG','Atletico MG':'Atlético-MG','Union Santa Fe':'Unión','Instituto Cordoba':'Instituto','Deportivo Riestra':'Riestra','Jaguares de Córdoba':'Jaguares','Santa Fe':'Santa Fe'})
@@ -179,7 +180,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if entero(p['over15'])>=80 else ''}"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=['Copa del Rey de España (Portugalete–Real Unión, Utebo–Sabadell, Alcoyano–Mallorca, Badajoz–Tenerife, Deportiva Minera–Cartagena, Reus–Barakaldo): es copa, con equipos de categorías inferiores sin tabla de local y visitante comparable; el modelo no la pronostica.','Hoy no juegan las demás ligas que seguimos (vuelven el fin de semana del 21-22). SportyTrader no fue accesible desde la rutina: calendario con RPP, RS Notícia, LiveSoccerTV y Depor.']
+SIN=['Final de la Copa Sudamericana, Atlético Mineiro–Boca Juniors (17:30, Barranquilla): partido único de copa entre equipos de ligas distintas, sin tabla de local y visitante comparable; el modelo no lo pronostica.','Liga Portugal: sin partidos hoy (vuelve el viernes 27). Uruguay, Paraguay, Bolivia y Venezuela: calendario no confirmado desde la rutina, sin pronóstico.','SportyTrader no fue accesible desde la rutina: calendario con Sport-Flash cruzado con medios y ligas oficiales.']
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 # Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
@@ -299,41 +300,41 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Miércoles 18 de noviembre de 2026 · vuelve el Brasileirão (35ª fecha) y se juega el pendiente Alianza Atlético–Melgar de la Liga 1 · pronósticos sellados a las 05:35 (hora de Ecuador).</div>
+<div class="preview">Sábado 21 de noviembre de 2026 · vuelven las ligas tras la fecha FIFA: 48 partidos con pronóstico en 14 ligas · sellados a las 06:12 (hora de Ecuador).</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Miércoles 18 de noviembre de 2026 · sellado 05:35 ECU · el de mayor Over 1.5 que aún no empieza</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Sábado 21 de noviembre de 2026 · sellado 06:12 ECU · el de mayor Over 1.5 que aún no empieza</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{pc(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{pc(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.1 (mejora Kaizen del 26-oct), calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK.get(key(top),('','','#'))[1])} · <a href="{LINK.get(key(top),('','','#'))[2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
 {RANK}
-<section id="aciertos"><div class="sh"><h2>¡Acertamos ayer!</h2><p>Domingo 15 (Liga 1 de Perú, última fecha del Clausura): 2 de 2 partidos con 2 goles o más · el partido del día, Comerciantes Unidos 3-3 Sport Boys (dimos Over 1.5 al 77 % · hubo 6 goles), y Juan Pablo II 2-2 Garcilaso (76 % · hubo 4 goles) · el lunes 16 y el martes 17 no hubo pronósticos (fecha FIFA) · toca para ver el resultado en su medio</p></div>
+<section id="aciertos"><div class="sh"><h2>¡Acertamos ayer!</h2><p>Miércoles 18 (última jornada auditada; el 19 y 20 no hubo pronósticos): 5 de 7 partidos con 2 goles o más · el partido del día, Alianza Atlético 1-1 Melgar (dimos Over 1.5 al 79 % · hubo 2 goles, y acertamos el marcador exacto), Flamengo 2-1 Athletico-PR (77 % · hubo 3 goles) y Corinthians 4-0 Botafogo (72 % · hubo 4 goles) · fallaron Coritiba 0-1 Santos y Grêmio 0-0 Bahia · toca para ver el resultado en su medio</p></div>
 {resumen}{champ}{estrella}{recs}{ayer}{calib}<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1 or ('<p class="legal">Hoy solo el partido del día (arriba) llega a 80 % en Over 1.5; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>' if entero(top['over15'])>=80 else '<p class="legal">Hoy ningún partido llega a 80 % en Over 1.5. El más alto está arriba, como partido del día; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>')}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del miércoles</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del sábado</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Miércoles 18 de noviembre de 2026 · pronósticos sellados a las 05:35 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Sábado 21 de noviembre de 2026 · pronósticos sellados a las 06:12 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
-<section class="box" id="historial"><h3>Auditoría: domingo 15 de noviembre</h3><p class="legal">Liga 1 de Perú, fecha 17 del Clausura: 2 partidos terminados, con fuente (RPP y Futbolperuano.com). El lunes 16 y el martes 17 no hubo pronósticos (fecha FIFA): es la última jornada auditada.</p>
-<div class="kpis"><div class="kpi g"><b>✔ 6 goles</b><span>Partido del día: Comerciantes Unidos 3-3 Sport Boys (77 %)</span></div><div class="kpi g"><b>2/2</b><span>partidos con 2 goles o más (Over 1.5)</span></div><div class="kpi g"><b>2/2</b><span>Over 1.5 de 70 % o más (100 %)</span></div><div class="kpi"><b>0/2</b><span>Marcadores exactos (dimos 1-1 en los dos)</span></div></div>
-<p class="legal">Los dos fueron GOLES OPTIMISTAS (menos de 80 %): no hubo GOL ÉLITE, GOLES PLATINO ni GOLES ESTÁNDAR, ni Over 2.5 con señal (los dos rondaban 50 %, aunque hubo 3 goles o más). Acertaron Comerciantes Unidos 3-3 Sport Boys (76,9 %) y Juan Pablo II 2-2 Deportivo Garcilaso (75,6 %). Acumulado de la galería (24 jornadas publicadas): 32/33 GOL ÉLITE y 330/429 en Over 1.5 de 70 % o más (77 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
+<section class="box" id="historial"><h3>Auditoría: miércoles 18 de noviembre</h3><p class="legal">Rodada 35 del Brasileirão (6 partidos) y Alianza Atlético–Melgar (Liga 1): 7 partidos terminados, con fuente (ESPN, imirante, La Nación y Diario Correo). El jueves 19 y el viernes 20 no hubo pronósticos: es la última jornada auditada.</p>
+<div class="kpis"><div class="kpi g"><b>✔ 2 goles</b><span>Partido del día: Alianza Atlético 1-1 Melgar (79 %)</span></div><div class="kpi g"><b>5/7</b><span>Over 1.5 de 70 % o más (71 %)</span></div><div class="kpi"><b>0/0</b><span>Over 2.5 con señal (ninguno llegó a 65 %)</span></div><div class="kpi"><b>1/7</b><span>Marcadores exactos (Alianza Atlético 1-1 Melgar)</span></div></div>
+<p class="legal">Los siete fueron GOLES OPTIMISTAS (menos de 80 %): no hubo GOL ÉLITE, GOLES PLATINO ni GOLES ESTÁNDAR. Fallaron Coritiba 0-1 Santos (dimos Over 1.5 al 78,3 % · hubo 1 gol) y Grêmio 0-0 Bahia (78,5 % · hubo 0 goles). Acumulado de la galería (25 jornadas publicadas): 32/33 GOL ÉLITE y 335/436 en Over 1.5 de 70 % o más (77 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul><p class="legal">Porcentajes redondeados: ,5 o más sube (94,8 → 95 %); menos de ,5 se queda (94,4 → 94 %).</p></section>
 <section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos revisados tienen datos verificados de local y visitante.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
-<p>Las noticias enlazan a sus medios de origen. Las imágenes de los partidos son ilustraciones propias de Gol Élite Pro.</p><p>Estadísticas de local y visitante: SoccerSTATS, Sports Mole, Football Web Pages, VAVEL y Fútbol Total (resultados recientes sumados partido a partido), verificadas con sumas cruzadas: goles a favor en casa = goles en contra fuera.</p></section>
+<p>Las noticias enlazan a sus medios de origen. Las imágenes de los partidos son ilustraciones propias de Gol Élite Pro.</p><p>Estadísticas de local y visitante: Sports Mole, SoccerNews, Fútbol Total, ValorFinal, Wikipedia (matrices de resultados) y SoccerSTATS (resultados recientes sumados partido a partido), verificadas con sumas cruzadas: goles a favor en casa = goles en contra fuera.</p></section>
 </aside></div>
 <a class="fab" href="/" aria-label="Volver al inicio" title="Inicio"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z" fill="currentColor"/></svg></a>
 <script>
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-11-18"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-11-21"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

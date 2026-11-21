@@ -1,0 +1,156 @@
+{
+ "fecha": "2026-11-21",
+ "nota": "Noticia de cada partido de Over 1.5 de 80 % o más (redondeado), con hechos de previas abiertas leídas el 21-nov; texto propio.",
+ "partidos": {
+  "NEC|PSV": {
+   "titular": "El líder PSV visita un Goffert que no deja de encajar: los últimos 4 NEC–PSV suman 24 goles",
+   "texto": "El PSV es líder tras ganar 2-5 en Cambuur y puede sacar 4 puntos. El NEC ha encajado en 19 partidos seguidos y los últimos 4 NEC–PSV sumaron 24 goles. Bajas del NEC: Emre Mor y Nuytinck; del PSV, Ouaissa. El PSV lleva 6 goles en los primeros 15 minutos, el mejor dato de la liga. Conclusión: la previa espera muchos goles.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/nec/preview/nijmegen-vs-psv-prediction-team-news-lineups_609357.html"
+  },
+  "Nice|Paris Saint-Germain": {
+   "titular": "Un Nice en racha recibe a un PSG plagado de dudas que sigue invicto lejos de París",
+   "texto": "El PSG es líder, 2 puntos sobre el Lille; el Nice es 6.º y ganó 5 de sus últimos 6. Dudas en el PSG: Marquinhos, Nuno Mendes, Dembélé y Doué; Kvaratskhelia es baja larga. Wahi lleva 6 goles y 2 asistencias en el Nice. Conclusión: partido abierto con goles de ambos lados.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/nice/preview/nice-vs-psg-prediction-team-news-lineups_609361.html"
+  },
+  "Parma|Roma": {
+   "titular": "La Roma, invicta y con Dybala de vuelta, visita a un Parma al borde del descenso",
+   "texto": "La Roma es 3.ª e invicta en liga y marcó 2 o más goles en 15 de sus últimos 16 partidos; vuelven Dybala y Svilar. El Parma (8 pts, uno sobre el descenso) pierde a Romero y a Ndiaye (sancionado). Malen lleva 8 goles. Conclusión: dominio de la Roma; los goles dependen de ella.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/parma/preview/parma-vs-roma-prediction-team-news-lineups_609422.html"
+  },
+  "Feyenoord|Excelsior": {
+   "titular": "El Feyenoord, segundo, busca reaccionar ante un Excelsior que encadena cinco derrotas",
+   "texto": "El Feyenoord es 2.º con 25 puntos (36 GF, 17 GC) y viene de perder 5-3 con el Heerenveen; el Excelsior, 15.º, lleva 5 derrotas seguidas. Seis bajas en el Feyenoord (Beelen, Bos, Moder, Nieuwkoop, Smal, St. Juste). Conclusión: se espera un partido con goles.",
+   "fuente": "footballpredictions.com",
+   "url": "https://footballpredictions.com/footballpredictions/netherlands-eredivisie-predictions/feyenoord-vs-excelsior-prediction-21-11-2026/"
+  },
+  "FC Utrecht|Cambuur": {
+   "titular": "Un Utrecht que encaja mucho recibe a un Cambuur goleador",
+   "texto": "El Utrecht es 14.º, a 2 puntos del descenso, y ha encajado 34 goles (segunda peor defensa). El Cambuur lleva 25 goles a favor y viene de caer 2-5 con el PSV tras tres victorias. Bajas del Utrecht: Jonathans, Ohio, Jensen, Paredes y Engwanda. Conclusión: con goles; la defensa local, en el foco.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/fc-utrecht/preview/utrecht-vs-cambuur-prediction-team-news-lineups_609395.html"
+  },
+  "Lens|Toulouse": {
+   "titular": "Igualdad total en Bollaert: Lens y Toulouse, empatados a 13 puntos",
+   "texto": "Lens (11.º) y Toulouse (12.º) suman 13 puntos. El Lens lleva 17 goles a favor y 15 en contra y ninguna portería a cero; Thauvin suma 5 goles y 7 asistencias. El Toulouse pierde a Messali; Tengstedt lleva 5 goles. Conclusión: partido parejo, goles moderados.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/lens/preview/lens-vs-toulouse-prediction-team-news-lineups_609417.html"
+  },
+  "Strasbourg|Brest": {
+   "titular": "El Brest, en la pelea por Europa, visita a un Strasbourg hundido en la tabla",
+   "texto": "El Strasbourg es 13.º con 10 puntos (18 GF, 22 GC) y perdió 6 de 10. El Brest suma 15 puntos, a 2 del 6.º; Ajorque lleva 5 goles. Panichelli (Strasbourg) está lesionado. Conclusión: goles probables.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/strasbourg/preview/strasbourg-vs-brest-prediction-team-news-lineups_609408.html"
+  },
+  "Monaco|Auxerre": {
+   "titular": "El Monaco recibe a la defensa más goleada de la liga",
+   "texto": "El Monaco (7.º, 16 pts) no deja la portería a cero en liga desde hace 8 partidos. El Auxerre tiene la peor defensa (24 GC, 18 fuera) y Archer lleva 6 goles en 8 partidos. Ansu Fati es baja del Monaco. Conclusión: se espera un partido con goles.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/as-monaco/preview/monaco-vs-auxerre-prediction-team-news-lineups_609420.html"
+  },
+  "Napoli|Torino": {
+   "titular": "Un Napoli con bajas recupera a Neres para un duelo parejo ante el Torino",
+   "texto": "Napoli (10.º, 15 pts) y Torino (11.º, 14) llegan parejos. Vuelve Neres; bajas del Napoli: Lobotka, Di Lorenzo, Buongiorno. Che Adams lleva 4 goles. McTominay suma 3 goles en 2 partidos ante el Torino. Conclusión: se esperan goles.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/napoli/preview/napoli-vs-torino-prediction-team-news-lineups_609322.html"
+  },
+  "New England Revolution|Philadelphia Union": {
+   "titular": "Carles Gil y los Revs abren en casa la serie ante un Union que se rearmó",
+   "texto": "Primer juego de la serie al mejor de 3. New England es 3.º del Este (58 pts) y Philadelphia 6.º (50). Carles Gil: 13 goles y 13 asistencias; Iloski (Union) 19 goles pero tocado del isquio. Conclusión: la previa espera un partido parejo y de pocos goles.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/new-england-revolution/preview/new-england-vs-philadelphia-prediction-team-news-lineups_609347.html"
+  },
+  "FC Dallas|Portland Timbers": {
+   "titular": "Musa contra Velde: Dallas recibe a unos Timbers con cuatro victorias seguidas",
+   "texto": "Dallas es 2.º del Oeste y Portland 7.º, con cuatro victorias seguidas. Petar Musa lleva 22 goles; Velde suma 12 goles y 10 asistencias (4 goles en los últimos 3). Dallas pierde a Geovane Jesus. Conclusión: se esperan goles; la defensa de Portland es irregular.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/dallas/preview/dallas-vs-portland-prediction-team-news-lineups_609349.html"
+  },
+  "Inter Miami|Columbus Crew": {
+   "titular": "Messi abre la defensa del título ante el Crew más en forma de la liga",
+   "texto": "Messi suma 26 goles y 17 asistencias (Bota de Oro). Columbus ganó 8 de sus últimos 9 partidos, con 6 victorias seguidas. Miami solo ganó 6 de 17 en casa (9 empates). Conclusión: la previa espera muchos goles.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/inter-miami/preview/inter-miami-vs-columbus-crew-prediction-team-news-lineups_609351.html"
+  },
+  "Pachuca|Toluca": {
+   "titular": "Pachuca se juega el boleto a la Liguilla ante un Toluca ya clasificado",
+   "texto": "Pachuca (9.º, 22 pts) se juega la Liguilla y llega con tres victorias seguidas (4-1 al Atlas, 3-0 a Tigres, 2-1 al América). Toluca (4.º, 27) ya está clasificado y goleó 4-0 a Monterrey. Conclusión: dos ofensivas productivas, se esperan goles.",
+   "fuente": "Telemundo",
+   "url": "https://www.telemundo.com/deportes/liga-mx/ultima-jornada-de-liga-mx-equipos-que-suenan-con-liguilla-y-una-pelea-rcna610090"
+  },
+  "Pumas UNAM|Monterrey": {
+   "titular": "Pumas necesita un milagro y Rayados, solo ganar, para meterse en la Liguilla",
+   "texto": "Pumas (11.º, 21 pts) queda eliminado si no gana; Monterrey (7.º, 24) clasifica si gana. Suspendidos: Pedro Vite (Pumas) y Ricardo Chávez (Monterrey). Conclusión: Pumas está obligado a atacar.",
+   "fuente": "Publimetro",
+   "url": "https://www.publimetro.com.mx/deportes/2026/11/18/pumas-va-por-el-milagro-ante-monterrey-donde-y-a-que-hora-ver-el-partido/"
+  },
+  "Tigres UANL|América": {
+   "titular": "El América visita a un Tigres eliminado con la mira en el liderato",
+   "texto": "El América es 2.º (30 pts) y pelea el liderato con Cruz Azul (32); Tigres ya está eliminado (15 de 48 puntos). Brian Rodríguez (América) sigue en recuperación. El América lleva 4 partidos sin ganar en liga. Conclusión: previas mixtas.",
+   "fuente": "Telemundo",
+   "url": "https://www.telemundo.com/deportes/liga-mx/ultima-jornada-de-liga-mx-equipos-que-suenan-con-liguilla-y-una-pelea-rcna610090"
+  },
+  "Chapecoense|Cruzeiro": {
+   "titular": "El colista Chapecoense recibe a un Cruzeiro que suma cinco victorias seguidas",
+   "texto": "El Chapecoense es último (21 pts) y ha recibido 72 goles. El Cruzeiro es 3.º (63) con cinco victorias seguidas, pero sin Gerson ni Kaio Jorge (suspendidos). Conclusión: favorito claro el visitante; la defensa local deja goles.",
+   "fuente": "Flashscore",
+   "url": "https://www.flashscore.com.br/noticias/futebol-brasileirao-serie-a-chapecoense-x-cruzeiro-onde-assistir-times-e-tudo-sobre-jogo-do-brasileirao/Yw4oxznm/"
+  },
+  "Alianza Lima|FC Cajamarca": {
+   "titular": "Alianza cierra el Clausura pensando en la final ante un Cajamarca casi descendido",
+   "texto": "Cajamarca solo se salva si gana por 7 o más. Alianza (6.º, 29 pts) rotará pensando en la final: sin Nicolás Díaz y con Guerrero en recuperación. Cajamarca viaja con 5 bajas. Conclusión: Alianza favorito, sin señal clara de muchos goles.",
+   "fuente": "Líbero",
+   "url": "https://libero.pe/futbol-peruano/liga-1/2026/11/20/alianza-lima-vs-fc-cajamarca-en-vivo-gratis-partido-del-torneo-clausura-via-liga-1-max-internet-1867460"
+  },
+  "Lazio|Lecce": {
+   "titular": "La Lazio, líder invicta, recibe a un Lecce que se acerca al descenso",
+   "texto": "La Lazio es líder invicta y recibe a un Lecce que se acerca a la zona de descenso.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/lazio/preview/lazio-vs-lecce-prediction-team-news-lineups_609407.html"
+  },
+  "Bayer Leverkusen|Paderborn": {
+   "titular": "Un Leverkusen irregular ante un Paderborn que no pierde desde hace cuatro jornadas",
+   "texto": "Un Leverkusen irregular recibe a un Paderborn que no pierde desde hace cuatro jornadas.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/bayer-leverkusen/preview/b-leverkusen-vs-sc-paderborn-prediction-team-news-lineups_609418.html"
+  },
+  "Borussia Monchengladbach|Borussia Dortmund": {
+   "titular": "El colista Gladbach, sin Itakura ni Kleindienst, recibe al segundo, el Dortmund",
+   "texto": "El Gladbach es colista y no tendrá a Itakura ni a Kleindienst; el Dortmund es 2.º.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/borussia-monchengladbach/preview/borussia-mbach-vs-dortmund-prediction-team-news-lineups_609317.html"
+  },
+  "Eintracht Frankfurt|Hoffenheim": {
+   "titular": "Duelo de vecinos en la tabla: Frankfurt y Hoffenheim, ambos con 12 puntos",
+   "texto": "Frankfurt y Hoffenheim llegan con 12 puntos cada uno, vecinos en la tabla.",
+   "fuente": "footballpredictions.com",
+   "url": "https://footballpredictions.com/footballpredictions/bundesligapredictions/frankfurt-vs-hoffenheim-prediction-21-11-2026/"
+  },
+  "Union Berlin|RB Leipzig": {
+   "titular": "El Leipzig, con tres victorias seguidas, visita a un Union que apenas marca en casa",
+   "texto": "El Leipzig suma tres victorias seguidas; el Union apenas marca en casa (6 goles en 5 partidos).",
+   "fuente": "footballpredictions.com",
+   "url": "https://footballpredictions.com/footballpredictions/bundesligapredictions/union-berlin-vs-leipzig-prediction-21-11-2026/"
+  },
+  "Elversberg|Freiburg": {
+   "titular": "El Freiburg, tercero, pone a prueba a un Elversberg mermado por las bajas",
+   "texto": "El Freiburg es 3.º y visita a un Elversberg con varias bajas.",
+   "fuente": "footballpredictions.com",
+   "url": "https://footballpredictions.com/footballpredictions/bundesligapredictions/elversberg-vs-freiburg-prediction-21-11-2026/"
+  },
+  "Aston Villa|Sunderland": {
+   "titular": "Villa busca cortar cuatro partidos sin ganar ante un Sunderland sin Xhaka",
+   "texto": "El Villa lleva cuatro partidos sin ganar; el Sunderland no tendrá a Xhaka.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/aston-villa/preview/aston-villa-vs-sunderland-prediction-team-news-lineups_609375.html"
+  },
+  "Tottenham|Ipswich Town": {
+   "titular": "Un Tottenham con dudas físicas recibe a un Ipswich con la plantilla completa",
+   "texto": "El Tottenham tiene dudas físicas; el Ipswich llega con la plantilla completa.",
+   "fuente": "Sports Mole",
+   "url": "https://www.sportsmole.co.uk/football/spurs/preview/spurs-vs-ipswich-prediction-team-news-lineups_609360.html"
+  }
+ }
+}

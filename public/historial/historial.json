@@ -826,5 +826,41 @@
    "Juan Pablo II 2-2 Deportivo Garcilaso (Over 1.5 al 75,6 % · hubo 4 goles)"
   ],
   "partidos": 2
+ },
+ {
+  "fecha": "2026-11-18",
+  "titulo": "Miércoles 18 de noviembre de 2026",
+  "imagen": "/historial/2026-11-18.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "0/0",
+    "GOLES PLATINO (90 a 94 %)"
+   ],
+   [
+    "5/7",
+    "Over 1.5 de 70 % o más (71 %)"
+   ],
+   [
+    "0/0",
+    "Over 2.5 con señal (sin casos)"
+   ],
+   [
+    "1/7",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Fallaron 2 Over 1.5: Coritiba 0-1 Santos (dimos Over 1.5 al 78,3 % · hubo 1 gol) y Grêmio 0-0 Bahia (78,5 % · hubo 0 goles). No hubo Over 2.5 con señal (65 % o más). Un marcador exacto de 7: Alianza Atlético 1-1 Melgar. El partido del día, Alianza Atlético 1-1 Melgar (dimos Over 1.5 al 78,9 %), acertó: hubo 2 goles. Rodada 35 del Brasileirão y pendiente de la fecha 17 del Clausura de Perú; todos fueron GOLES OPTIMISTAS (menos de 80 %).",
+  "aciertos_destacados": [
+   "Alianza Atlético 1-1 Melgar (Over 1.5 al 78,9 % · hubo 2 goles · partido del día · marcador exacto)",
+   "Flamengo 2-1 Athletico-PR (Over 1.5 al 76,9 % · hubo 3 goles)",
+   "Corinthians 4-0 Botafogo (Over 1.5 al 72,2 % · hubo 4 goles)",
+   "Cruzeiro 2-1 Palmeiras (Over 1.5 al 72,4 % · hubo 3 goles)",
+   "Remo 2-0 Chapecoense (Over 1.5 al 72,8 % · hubo 2 goles)"
+  ],
+  "partidos": 7
  }
 ]

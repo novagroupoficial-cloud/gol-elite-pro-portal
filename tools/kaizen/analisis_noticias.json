@@ -110,12 +110,12 @@
    "goles_esperados": 3.29
   },
   "(sin noticia)": {
-   "partidos": 377,
-   "over15_real": 77.5,
-   "over15_prometido": 75.0,
-   "over25_real": 50.4,
+   "partidos": 384,
+   "over15_real": 77.3,
+   "over15_prometido": 75.1,
+   "over25_real": 50.3,
    "over25_prometido": 50.4,
-   "goles_reales": 2.84,
+   "goles_reales": 2.83,
    "goles_esperados": 2.73
   }
  }

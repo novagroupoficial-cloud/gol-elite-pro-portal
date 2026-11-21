@@ -1152,6 +1152,39 @@
   "fuente_datos": "manual: tools/datos.py BRA · ValorFinal tras la 34ª + rodada 35 (350 PJ) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública"
  },
  {
+  "hora": "15:30",
+  "liga": "PER",
+  "local": "Alianza Lima",
+  "visita": "FC Cajamarca",
+  "casa": [
+   8,
+   13,
+   6
+  ],
+  "fuera": [
+   7,
+   12,
+   16
+  ],
+  "HG": 1.78,
+  "AG": 1.23,
+  "lambda_local": 1.88,
+  "lambda_visita": 1.18,
+  "goles_esperados": 3.1,
+  "over15": 81.8,
+  "over25": 59.0,
+  "under25": 41.0,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-21 06:12 ECU (UTC-5)",
+  "fuente_calendario": "Sport-Flash (páginas por país con zona horaria) cruzado con medios/ligas; SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py PER · tabla previa (Depor) + Alianza Atlético 1-1 Melgar (150 PJ) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública",
+  "nota_hora": "Hora corregida de 20:30 a 15:30 ECU (Líbero 20-nov: 15:30 hora de Perú = Ecuador; el 20:30 de ESPN era UTC). El pronóstico no cambia."
+ },
+ {
   "hora": "16:00",
   "liga": "USA",
   "local": "FC Dallas",
@@ -1470,38 +1503,6 @@
   "sellado": "2026-11-21 06:12 ECU (UTC-5)",
   "fuente_calendario": "Sport-Flash (páginas por país con zona horaria) cruzado con medios/ligas; SportyTrader no accesible desde la rutina",
   "fuente_datos": "manual: tools/datos.py COL · tabla previa verificada (corte 13-nov, 183 PJ; faltan 7 partidos de la fecha 19) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública"
- },
- {
-  "hora": "20:30",
-  "liga": "PER",
-  "local": "Alianza Lima",
-  "visita": "FC Cajamarca",
-  "casa": [
-   8,
-   13,
-   6
-  ],
-  "fuera": [
-   7,
-   12,
-   16
-  ],
-  "HG": 1.78,
-  "AG": 1.23,
-  "lambda_local": 1.88,
-  "lambda_visita": 1.18,
-  "goles_esperados": 3.1,
-  "over15": 81.8,
-  "over25": 59.0,
-  "under25": 41.0,
-  "marcador": "1-1",
-  "categoria": "GOLES ESTÁNDAR",
-  "senal_o25": "informativa",
-  "aviso_mercado": null,
-  "modelo_version": "4.1",
-  "sellado": "2026-11-21 06:12 ECU (UTC-5)",
-  "fuente_calendario": "Sport-Flash (páginas por país con zona horaria) cruzado con medios/ligas; SportyTrader no accesible desde la rutina",
-  "fuente_datos": "manual: tools/datos.py PER · tabla previa (Depor) + Alianza Atlético 1-1 Melgar (150 PJ) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública"
  },
  {
   "hora": "22:00",

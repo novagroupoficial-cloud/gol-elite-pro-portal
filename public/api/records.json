@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18 05:37 ECU",
+ "actualizado": "2026-11-21 06:29 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -24,9 +24,10 @@
   "2026-11-07",
   "2026-11-08",
   "2026-11-14",
-  "2026-11-15"
+  "2026-11-15",
+  "2026-11-18"
  ],
- "partidos": 514,
+ "partidos": 521,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -42,8 +43,8 @@
    "partidos": 180
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 221,
-   "partidos": 288
+   "aciertos": 226,
+   "partidos": 295
   }
  },
  "over90": {
@@ -61,9 +62,9 @@
   "partidos": 100
  },
  "partido_del_dia": {
-  "aciertos": 17,
-  "dias": 23,
-  "racha_actual": 1,
+  "aciertos": 18,
+  "dias": 24,
+  "racha_actual": 2,
   "detalle": [
    {
     "fecha": "2026-10-11",
@@ -248,6 +249,14 @@
     "goles": 6,
     "acierto": true,
     "over15": 76.9
+   },
+   {
+    "fecha": "2026-11-18",
+    "partido": "Alianza Atlético vs Melgar",
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true,
+    "over15": 78.9
    }
   ]
  },
@@ -284,9 +293,9 @@
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 193,
-   "aciertos": 142,
-   "prometido": 74.7
+   "partidos": 200,
+   "aciertos": 147,
+   "prometido": 74.8
   },
   {
    "franja": "menos de 70 %",
@@ -296,23 +305,68 @@
   }
  ],
  "ultima_jornada": {
-  "fecha": "2026-11-15",
+  "fecha": "2026-11-18",
   "partidos": [
    {
-    "hora": "13:00",
-    "local": "Comerciantes Unidos",
-    "visita": "Sport Boys",
-    "over15": 76.9,
-    "resultado": "3-3",
-    "goles": 6,
+    "hora": "15:00",
+    "local": "Alianza Atlético",
+    "visita": "Melgar",
+    "over15": 78.9,
+    "resultado": "1-1",
+    "goles": 2,
     "acierto": true
    },
    {
-    "hora": "15:15",
-    "local": "Juan Pablo II",
-    "visita": "Deportivo Garcilaso",
-    "over15": 75.6,
-    "resultado": "2-2",
+    "hora": "19:30",
+    "local": "Grêmio",
+    "visita": "Bahia",
+    "over15": 78.5,
+    "resultado": "0-0",
+    "goles": 0,
+    "acierto": false
+   },
+   {
+    "hora": "17:30",
+    "local": "Coritiba",
+    "visita": "Santos",
+    "over15": 78.3,
+    "resultado": "0-1",
+    "goles": 1,
+    "acierto": false
+   },
+   {
+    "hora": "18:30",
+    "local": "Flamengo",
+    "visita": "Athletico-PR",
+    "over15": 76.9,
+    "resultado": "2-1",
+    "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "18:00",
+    "local": "Remo",
+    "visita": "Chapecoense",
+    "over15": 72.8,
+    "resultado": "2-0",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "18:30",
+    "local": "Cruzeiro",
+    "visita": "Palmeiras",
+    "over15": 72.4,
+    "resultado": "2-1",
+    "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "19:30",
+    "local": "Corinthians",
+    "visita": "Botafogo",
+    "over15": 72.2,
+    "resultado": "4-0",
     "goles": 4,
     "acierto": true
    }

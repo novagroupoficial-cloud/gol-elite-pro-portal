@@ -48,7 +48,7 @@ P=[ # hora (Ecuador), liga, local, visita — sábado 21-nov-2026 (rutina diaria
  ('19:00','BRA','Chapecoense','Cruzeiro'),
  ('20:00','MEX','Pumas UNAM','Monterrey'),
  ('20:15','COL','Once Caldas','Atlético Nacional'),
- ('20:30','PER','Alianza Lima','FC Cajamarca'),
+ ('15:30','PER','Alianza Lima','FC Cajamarca'),  # hora corregida (Líbero: 15:30 Perú = Ecuador)
  ('22:00','MEX','Tigres UANL','América'),
 ]
 out=[]

@@ -1,21 +1,47 @@
 {
- "local": "Alianza Atlético",
- "fecha_larga": "Miércoles 18 de noviembre de 2026",
- "desde": "05:35",
+ "local": "FC Utrecht",
+ "fecha_larga": "Sábado 21 de noviembre de 2026",
+ "desde": "06:12",
  "contexto": [
-  "Alianza Atlético en casa: 17 goles a favor y 11 en contra en 8 partidos del Clausura (3,5 goles por partido).",
-  "Melgar fuera: 11 goles a favor y 7 en contra en 8 partidos.",
-  "Pelean arriba: Melgar es 5.º del Clausura (29 pts) y Alianza Atlético 7.º (28)."
+  "El Utrecht es 14.º y tiene la segunda peor defensa de la liga: 34 goles en contra.",
+  "Cambuur suma 25 goles y viene de caer 2-5 con el PSV (Sports Mole)."
  ],
  "auditoria": {
   "encabezado": "Última auditoría",
-  "titulo": "Domingo 15 · Liga 1 de Perú · 2 partidos con fuente",
+  "titulo": "Miércoles 18 · Brasileirão y Liga 1 · 7 partidos con fuente",
   "tiles": [
-   ["2/2", "Partidos con 2 goles o más (Over 1.5)", "verde"],
-   ["2/2", "Over 1.5 de 70 % o más", "verde"],
-   ["1/1", "Partido del día (Comerciantes U. 3-3 Sport Boys)", "verde"],
-   ["0/2", "Marcadores exactos (dimos 1-1)", "dor"]
+   [
+    "5/7",
+    "Partidos con 2 goles o más (Over 1.5)",
+    "verde"
+   ],
+   [
+    "1/1",
+    "Partido del día (Alianza Atlético 1-1 Melgar)",
+    "verde"
+   ],
+   [
+    "0/0",
+    "Over 2.5 con señal (ninguno llegó a 65 %)",
+    "dor"
+   ],
+   [
+    "1/7",
+    "Marcador exacto (Alianza Atl. 1-1 Melgar)",
+    "dor"
+   ]
   ],
-  "nota": "Acertaron Comerciantes Unidos 3-3 Sport Boys (dimos Over 1.5 al 77 % · hubo 6 goles) y Juan Pablo II 2-2 Garcilaso (76 % · hubo 4 goles). Sin fallos en Over 1.5. El lunes 16 y el martes 17 no hubo pronósticos (fecha FIFA). Fuentes: RPP y Futbolperuano.com."
+  "nota": "Acertaron Alianza Atl. 1-1 Melgar (79 % · 2 goles), Flamengo 2-1 Athletico-PR (77 % · 3) y Corinthians 4-0 Botafogo (72 % · 4). Fallaron Coritiba 0-1 Santos (78 % · 1 gol) y Grêmio 0-0 Bahia (79 % · 0). Fuentes: ESPN, imirante, Diario Correo."
+ },
+ "acierto": {
+  "encabezado": "Último partido del día auditado",
+  "fecha": "Miércoles 18",
+  "local": "Alianza Atlético",
+  "visita": "Melgar",
+  "liga": "Liga 1 de Perú · Clausura",
+  "resultado": "1-1",
+  "over15": 78.9,
+  "goles": "2",
+  "sellado": "05:35 ECU del 18-nov"
  }
 }

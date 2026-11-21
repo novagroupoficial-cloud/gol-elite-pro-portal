@@ -1244,3 +1244,83 @@ LLEGAN={
  'Grêmio|Bahia':["Grêmio en casa: 27 goles a favor y 21 en contra en 17 partidos (2,8 goles por partido)","Bahia fuera: 24 a favor y 26 en contra en 17 partidos (2,9 goles por partido)","Grêmio es 18.º (37 pts, zona de descenso) y Bahia 6.º (53 pts)","Fuente: ValorFinal (tablas de local y visitante tras la 34ª rodada) y Placar"],
  'Coritiba|Santos':["Coritiba en casa: 22 a favor y 21 en contra en 17 partidos","Santos fuera: 27 a favor y 28 en contra en 17 partidos (3,2 goles por partido)","Coritiba es 13.º (42 pts) y una victoria puede darle la permanencia; Santos es 9.º (47 pts)","Fuente: ValorFinal (tablas de local y visitante tras la 34ª rodada) y Placar"],
 }
+
+# ---- Sábado 21-nov-2026 (rutina diaria, sellado 06:12 ECU): vuelven las ligas tras la fecha FIFA (48 partidos con pronóstico).
+# ACIERTOS: el 19 y 20-nov no hubo pronósticos; la última jornada auditada es el miércoles 18 (5 de 7 en Over 1.5).
+_SM='https://www.sportsmole.co.uk/football/'
+_FP='https://footballpredictions.com/footballpredictions/'
+_SFUK="https://www.sport-flash.com/sports/football/uk/calendar/2026-11-21"
+_SFES="https://www.sport-flash.com/sports/football/es/calendar/2026-11-21/serie-a-2026-2027"
+_SFFR="https://www.sport-flash.com/sports/football/fr/calendar/2026-11-21"
+_HES="https://www.hessenschau.de/sport/ergebnisse-tabellen/fussball-1bl100~_matchday-10.html"
+_FLA="https://www.flashscore.es/noticias/futbol-laliga-horarios-canales-television-donde-ver-jornada-13-temporada-26-27-real-madrid-barcelona/CdBrsthU/"
+_REC="https://www.record.com.mx/historia/liga-mx-horarios-y-canales-de-transmision-de-la-jornada-17-del-apertura-2026-2026111822100133426"
+_TEL="https://www.telemundo.com/deportes/liga-mx/ultima-jornada-de-liga-mx-equipos-que-suenan-con-liguilla-y-una-pelea-rcna610090"
+_ACR="https://acritica.net/esportes/cbf-define-data-horario-palmeiras-flamengo-brasileirao-21-novembro/"
+LINK={
+ 'Manchester City|Fulham':("El City, con tres derrotas seguidas, se mide a un Fulham que lleva cuatro partidos invicto","Sports Mole",_SM+"man-city/preview/man-city-vs-fulham-prediction-team-news-lineups_609367.html"),
+ 'Alavés|Deportivo La Coruña':("Un Alavés sin ganar desde septiembre recibe a un Depor en buena racha","Sports Mole",_SM+"deportivo-la-coruna/preview/alaves-vs-deportivo-prediction-team-news-lineups_609413.html"),
+ 'Como|Cagliari':("Serie A, jornada 12: horarios del sábado (Como–Cagliari abre la fecha)","Sport-Flash",_SFES),
+ 'Lazio|Lecce':("La Lazio, líder invicta, recibe a un Lecce que se acerca al descenso","Sports Mole",_SM+"lazio/preview/lazio-vs-lecce-prediction-team-news-lineups_609407.html"),
+ 'Bayer Leverkusen|Paderborn':("Un Leverkusen irregular ante un Paderborn que no pierde desde hace cuatro jornadas","Sports Mole",_SM+"bayer-leverkusen/preview/b-leverkusen-vs-sc-paderborn-prediction-team-news-lineups_609418.html"),
+ 'Borussia Monchengladbach|Borussia Dortmund':("El colista Gladbach, sin Itakura ni Kleindienst, recibe al segundo, el Dortmund","Sports Mole",_SM+"borussia-monchengladbach/preview/borussia-mbach-vs-dortmund-prediction-team-news-lineups_609317.html"),
+ 'Eintracht Frankfurt|Hoffenheim':("Duelo de vecinos en la tabla: Frankfurt y Hoffenheim, ambos con 12 puntos","footballpredictions.com",_FP+"bundesligapredictions/frankfurt-vs-hoffenheim-prediction-21-11-2026/"),
+ 'Union Berlin|RB Leipzig':("El Leipzig, con tres victorias seguidas, visita a un Union que apenas marca en casa","footballpredictions.com",_FP+"bundesligapredictions/union-berlin-vs-leipzig-prediction-21-11-2026/"),
+ 'Elversberg|Freiburg':("El Freiburg, tercero, pone a prueba a un Elversberg mermado por las bajas","footballpredictions.com",_FP+"bundesligapredictions/elversberg-vs-freiburg-prediction-21-11-2026/"),
+ 'Aston Villa|Sunderland':("Villa busca cortar cuatro partidos sin ganar ante un Sunderland sin Xhaka","Sports Mole",_SM+"aston-villa/preview/aston-villa-vs-sunderland-prediction-team-news-lineups_609375.html"),
+ 'Bournemouth|Nottingham Forest':("Premier League, jornada 11: todos los horarios del sábado","Sport-Flash",_SFUK),
+ 'Tottenham|Ipswich Town':("Un Tottenham con dudas físicas recibe a un Ipswich con la plantilla completa","Sports Mole",_SM+"spurs/preview/spurs-vs-ipswich-prediction-team-news-lineups_609360.html"),
+ 'Chelsea|Leeds United':("Un Chelsea con cinco bajas recibe a un Leeds que ya ha vuelto a ganar","Sports Mole",_SM+"chelsea/preview/chelsea-vs-leeds-prediction-team-news-lineups_609370.html"),
+ 'Coventry City|Crystal Palace':("Premier League, jornada 11: todos los horarios del sábado","Sport-Flash",_SFUK),
+ 'Coquimbo Unido|Everton':("Un Coquimbo ya clasificado a la Libertadores recibe a Everton en la pelea por la Sudamericana","Al Aire Libre","https://www.alairelibre.cl/futbol/campeonato-nacional/coquimbo-unido-everton-previa-sudamericana-fecha-28/"),
+ 'Rayo Vallecano|Valencia':("LaLiga, jornada 13: horarios y televisión","Flashscore",_FLA),
+ 'NEC|PSV':("El líder PSV visita un Goffert que no deja de encajar: los últimos 4 NEC–PSV suman 24 goles","Sports Mole",_SM+"nec/preview/nijmegen-vs-psv-prediction-team-news-lineups_609357.html"),
+ 'Nice|Paris Saint-Germain':("Un Nice en racha recibe a un PSG plagado de dudas que sigue invicto lejos de París","Sports Mole",_SM+"nice/preview/nice-vs-psg-prediction-team-news-lineups_609361.html"),
+ 'Parma|Roma':("La Roma, invicta y con Dybala de vuelta, visita a un Parma al borde del descenso","Sports Mole",_SM+"parma/preview/parma-vs-roma-prediction-team-news-lineups_609422.html"),
+ 'Newcastle|Arsenal':("El líder Arsenal, sin Saka ni Zubimendi, visita a un Newcastle sin victorias","Sports Mole",_SM+"arsenal/preview/newcastle-vs-arsenal-prediction-team-news-lineups_609363.html"),
+ 'Sevilla|Real Betis':("Un Betis cuarto llega al derbi ante un Sevilla irregular","Sports Mole",_SM+"sevilla/seville-derby/preview/sevilla-vs-betis-prediction-team-news-lineups_609397.html"),
+ 'Schalke 04|VfB Stuttgart':("Bundesliga, jornada 10: horarios y resultados","hessenschau",_HES),
+ 'Feyenoord|Excelsior':("El Feyenoord, segundo, busca reaccionar ante un Excelsior que encadena cinco derrotas","footballpredictions.com",_FP+"netherlands-eredivisie-predictions/feyenoord-vs-excelsior-prediction-21-11-2026/"),
+ 'FC Utrecht|Cambuur':("Un Utrecht que encaja mucho recibe a un Cambuur goleador","Sports Mole",_SM+"fc-utrecht/preview/utrecht-vs-cambuur-prediction-team-news-lineups_609395.html"),
+ 'Defensa y Justicia|Barracas Central':("Octavos del Clausura: Defensa recibe a un Barracas que viene de vencer a Racing","La Nación","https://www.lanacion.com.ar/deportes/futbol/defensa-y-justicia-vs-barracas-central-por-el-torneo-clausura-2026-dia-hora-y-como-ver-online-nid20112026/"),
+ 'New England Revolution|Philadelphia Union':("Carles Gil y los Revs abren en casa la serie ante un Union que se rearmó","Sports Mole",_SM+"new-england-revolution/preview/new-england-vs-philadelphia-prediction-team-news-lineups_609347.html"),
+ 'Técnico Universitario|Deportivo Cuenca':("Al Cuenca le alcanza un punto en Ambato; Técnico debe ganar para salir del fondo","El Mercurio","https://elmercurio.com.ec/deportes/2026/11/21/deportivo-cuenca-tecnico-universitario-ligapro-3/"),
+ 'Palmeiras|Flamengo':("Al Flamengo le basta un empate en São Paulo para ser campeón","Diário do Rio","https://diariodorio.com/esporte/2026/11/19/brasileirao-2026-saiba-do-que-o-flamengo-precisa-contra-o-palmeiras-para-ser-campeao.html"),
+ 'Lille|Lyon':("Ligue 1, jornada 11: horarios del sábado","Sport-Flash",_SFFR),
+ 'Lens|Toulouse':("Igualdad total en Bollaert: Lens y Toulouse, empatados a 13 puntos","Sports Mole",_SM+"lens/preview/lens-vs-toulouse-prediction-team-news-lineups_609417.html"),
+ 'Strasbourg|Brest':("El Brest, en la pelea por Europa, visita a un Strasbourg hundido en la tabla","Sports Mole",_SM+"strasbourg/preview/strasbourg-vs-brest-prediction-team-news-lineups_609408.html"),
+ 'Monaco|Auxerre':("El Monaco recibe a la defensa más goleada de la liga","Sports Mole",_SM+"as-monaco/preview/monaco-vs-auxerre-prediction-team-news-lineups_609420.html"),
+ 'Napoli|Torino':("Un Napoli con bajas recupera a Neres para un duelo parejo ante el Torino","Sports Mole",_SM+"napoli/preview/napoli-vs-torino-prediction-team-news-lineups_609322.html"),
+ 'Real Madrid|Celta de Vigo':("El Madrid, con ocho victorias seguidas, recupera a Vinícius ante el Celta","Flashscore","https://www.flashscore.co.uk/news/football-laliga-real-madrid-vs-celta-vigo-where-to-watch-preview-line-ups-and-odds/6irtskBD/"),
+ 'Argentinos Juniors|Independiente':("Argentinos, sin Paredes ni Vázquez, recibe a un Independiente que recupera a Montiel","VAVEL","https://www.vavel.com/ar/futbol-argentino/2026/11/20/argentinos-juniors/1280055-argentinos-busca-recuperarse-ante-independiente-en-octavos.html"),
+ 'Alianza Lima|FC Cajamarca':("Alianza cierra el Clausura pensando en la final ante un Cajamarca casi descendido","Líbero","https://libero.pe/futbol-peruano/liga-1/2026/11/20/alianza-lima-vs-fc-cajamarca-en-vivo-gratis-partido-del-torneo-clausura-via-liga-1-max-internet-1867460"),
+ 'Bahia|Coritiba':("El Bahia, fuerte en la Fonte Nova, recibe a un Coritiba golpeado","UmDois Esportes","https://www.umdoisesportes.com.br/coritiba/onde-assistir-coritiba/bahia-x-coritiba-palpite-escalacoes-21-11-2026/"),
+ 'FC Dallas|Portland Timbers':("Musa contra Velde: Dallas recibe a unos Timbers con cuatro victorias seguidas","Sports Mole",_SM+"dallas/preview/dallas-vs-portland-prediction-team-news-lineups_609349.html"),
+ 'OHiggins|U. de Chile':("La U, segunda, visita Rancagua ante un O'Higgins golpeado","El Rancagüino","https://www.elrancaguino.cl/2026/11/20/ohiggins-vs-universidad-de-chile-previa-horario-y-como-llegan-para-la-fecha-28-del-campeonato-chileno/"),
+ 'Universidad Católica|Barcelona SC':("Barcelona está obligado a ganarle a Católica para seguir soñando con la Libertadores","ESPN","https://espndeportes.espn.com/futbol/ecuador/nota/_/id/17534898/universidad-catolica-vs-barcelona-por-la-liga-ecuabet-equipo-fecha-hora-y-tv-en-vivo"),
+ 'Pachuca|Toluca':("Pachuca se juega el boleto a la Liguilla ante un Toluca ya clasificado","Telemundo",_TEL),
+ 'Santos Laguna|León':("A Santos le basta un empate ante León para asegurar la Liguilla","El Siglo de Torreón","https://www.elsiglodetorreon.com.mx/noticia/2026/santos-laguna-y-la-pelea-por-la-liguilla-apertura-2026.html"),
+ 'Inter Miami|Columbus Crew':("Messi abre la defensa del título ante el Crew más en forma de la liga","Sports Mole",_SM+"inter-miami/preview/inter-miami-vs-columbus-crew-prediction-team-news-lineups_609351.html"),
+ 'U. Concepcion|Nublense':("La UdeC, en zona baja, busca repetir triunfo ante Ñublense","El Rancagüino","https://www.elrancaguino.cl/2026/11/19/u-concepcion-vs-nublense-previa-horario-y-como-llegan-para-la-fecha-28-del-campeonato-chileno/"),
+ 'Chapecoense|Cruzeiro':("El colista Chapecoense recibe a un Cruzeiro que suma cinco victorias seguidas","Flashscore","https://www.flashscore.com.br/noticias/futebol-brasileirao-serie-a-chapecoense-x-cruzeiro-onde-assistir-times-e-tudo-sobre-jogo-do-brasileirao/Yw4oxznm/"),
+ 'Pumas UNAM|Monterrey':("Pumas necesita un milagro y Rayados, solo ganar, para meterse en la Liguilla","Publimetro","https://www.publimetro.com.mx/deportes/2026/11/18/pumas-va-por-el-milagro-ante-monterrey-donde-y-a-que-hora-ver-el-partido/"),
+ 'Once Caldas|Atlético Nacional':("Cuadrangulares: Nacional busca revancha en Manizales","ESPN","https://espndeportes.espn.com/futbol/colombia/nota/_/id/17537831/once-caldas-vs-nacional-fecha-1-cuadrangulares-liga-betplay-equipo-fecha-hora-y-tv-en-vivo"),
+ 'Tigres UANL|América':("El América visita a un Tigres eliminado con la mira en el liderato","Telemundo",_TEL),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Palmeiras|Flamengo','Newcastle|Arsenal','Universidad Católica|Barcelona SC','Inter Miami|Columbus Crew']
+COL.update({'Alavés':'#0057a8','Alianza Lima':'#0b1f4b','América':'#f6d30f','Bournemouth':'#da291c','Celta de Vigo':'#8ac3ee','Coquimbo Unido':'#f7c600','Deportivo La Coruña':'#0056a3','FC Dallas':'#d11241','Freiburg':'#c8102e','León':'#006a3e','New England Revolution':'#0a2240','Paderborn':'#003a7d','Philadelphia Union':'#071b2c','Portland Timbers':'#00482b','Tottenham':'#f2f2f2','U. Concepcion':'#f2c400'})
+_V18='https://valorfinal.com.br/brasileirao/2026/rodada-35.md'
+ACIERTOS=[
+ ("Alianza Atlético vs Melgar","1-1","79 % · partido del día (mié 18)","Diario Correo","https://diariocorreo.pe/deportes/melgar-empata-1-1-con-alianza-atletico-de-sullana-noticia/"),
+ ("Flamengo vs Athletico-PR","2-1","77 % · mié 18","imirante","https://m.imirante.com/esporte/brasil/2026/11/18/flamengo-bate-athletico-pr-pode-campeao-sabado"),
+ ("Corinthians vs Botafogo","4-0","72 % · mié 18","ESPN","https://espndeportes.espn.com/futbol/partido/_/juegoId/401841316/botafogo-corinthians"),
+ ("Cruzeiro vs Palmeiras","2-1","72 % · mié 18","imirante","https://m.imirante.com/esporte/brasil/2026/11/18/cruzeiro-vence-complica-palmeiras-briga-titulo"),
+ ("Remo vs Chapecoense","2-0","73 % · mié 18","La Nación","https://www.lanacion.com.ar/deportes/canchallena/remo-vencio-2-0-a-chapecoense-por-el-brasileirao-serie-a-2026-nid18112026/"),
+]
+LLEGAN={
+ 'FC Utrecht|Cambuur':["FC Utrecht en casa: 11 goles a favor y 18 en contra en 6 partidos (4,8 goles por partido)","Cambuur fuera: 11 a favor y 7 en contra en 5 partidos","El Utrecht es 14.º y tiene la segunda peor defensa de la liga (34 goles en contra); el Cambuur suma 25 goles","Fuente: SoccerNews (tablas) y Sports Mole (previa)"],
+ 'NEC|PSV':["NEC en casa: 9 a favor y 12 en contra en 6 partidos (3,5 goles por partido)","PSV fuera: 19 a favor y 10 en contra en 6 partidos (4,8 goles por partido)","El NEC encajó en 19 partidos seguidos; los últimos 4 NEC–PSV sumaron 24 goles","Fuente: SoccerNews (tablas) y Sports Mole (previa)"],
+ 'Inter Miami|Columbus Crew':["Inter Miami en casa: 46 a favor y 31 en contra en 17 partidos (4,5 goles por partido)","Columbus fuera: 30 a favor y 33 en contra en 17 partidos (3,7 goles por partido)","Messi: 26 goles y 17 asistencias; Columbus ganó 8 de sus últimos 9","Fuente: Sports Mole (tablas MLS 2026 y previa)"],
+ 'Elversberg|Freiburg':["Elversberg en casa: 12 a favor y 8 en contra en 4 partidos (5 goles por partido)","Freiburg fuera: 6 a favor y 5 en contra en 4 partidos","En la Bundesliga 2026/27 se marcan 3,5 goles por partido (172 de local y 110 de visita en 81 partidos)","Fuente: SoccerNews y Sports Mole (tablas)"],
+}

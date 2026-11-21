@@ -1,0 +1,226 @@
+{
+ "fecha": "2026-11-18",
+ "auditado": "2026-11-21 06:2x ECU (rutina diaria; recuperado por la regla del histórico sin huecos: las rutinas del 19 y 20-nov no corrieron)",
+ "partidos": 7,
+ "terminados": 7,
+ "anulados": 0,
+ "pendientes": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   0,
+   0
+  ],
+  "GOLES OPTIMISTAS": [
+   5,
+   7
+  ],
+  "Total >=70": [
+   5,
+   7
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   0
+  ],
+  "Marcadores exactos": [
+   1,
+   7
+  ],
+  "Menos de 70 (informativo)": [
+   0,
+   0
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   0,
+   0
+  ],
+  "GOLES OPTIMISTAS": [
+   5,
+   7
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   0,
+   0
+  ],
+  "moderada": [
+   0,
+   0
+  ]
+ },
+ "intervalo_wilson_95": {
+  "GOLES OPTIMISTAS": [
+   35.9,
+   91.8
+  ],
+  "Total >=70": [
+   35.9,
+   91.8
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Alianza Atlético vs Melgar",
+  "over15": 78.9,
+  "resultado": "1-1",
+  "goles": 2,
+  "acierto": true,
+  "estado": "terminado",
+  "fuente": "https://diariocorreo.pe/deportes/melgar-empata-1-1-con-alianza-atletico-de-sullana-noticia/"
+ },
+ "fallos_over15_70": [
+  "Coritiba 0-1 Santos (Over 1.5 al 78,3 % · hubo 1 gol)",
+  "Grêmio 0-0 Bahia (Over 1.5 al 78,5 % · hubo 0 goles)"
+ ],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [],
+ "anulados_lista": [],
+ "pendientes_lista": [],
+ "nota": "Miércoles 18-nov: rodada 35 del Brasileirão (6 partidos) y Alianza Atlético–Melgar (pendiente de la fecha 17 del Clausura de Perú). Resultados finales: ESPN Deportes, imirante, La Nación y Diario Correo (confirmados también por ohoje.com y valorfinal.com.br/brasileirao/2026/rodada-35). Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. Ningún Over 2.5 llegó a 65 % (sin señal). El Dashboard Gol 4.0 no se usó (no expone /api/dia): auditoría manual. El 19 y 20-nov no hubo pronósticos (sin data/).",
+ "resultados": [
+  {
+   "hora": "15:00",
+   "liga": "PER",
+   "local": "Alianza Atlético",
+   "visita": "Melgar",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 78.9,
+   "over25": 54.6,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-18 05:35 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://diariocorreo.pe/deportes/melgar-empata-1-1-con-alianza-atletico-de-sullana-noticia/"
+  },
+  {
+   "hora": "17:30",
+   "liga": "BRA",
+   "local": "Coritiba",
+   "visita": "Santos",
+   "resultado": "0-1",
+   "estado": "terminado",
+   "over15": 78.3,
+   "over25": 53.7,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-18 05:35 ECU (UTC-5)",
+   "goles": 1,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://espndeportes.espn.com/futbol/partido/_/juegoId/401841315/santos-coritiba"
+  },
+  {
+   "hora": "18:00",
+   "liga": "BRA",
+   "local": "Remo",
+   "visita": "Chapecoense",
+   "resultado": "2-0",
+   "estado": "terminado",
+   "over15": 72.8,
+   "over25": 46.3,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-18 05:35 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/remo-vencio-2-0-a-chapecoense-por-el-brasileirao-serie-a-2026-nid18112026/"
+  },
+  {
+   "hora": "18:30",
+   "liga": "BRA",
+   "local": "Flamengo",
+   "visita": "Athletico-PR",
+   "resultado": "2-1",
+   "estado": "terminado",
+   "over15": 76.9,
+   "over25": 51.8,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-18 05:35 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://m.imirante.com/esporte/brasil/2026/11/18/flamengo-bate-athletico-pr-pode-campeao-sabado"
+  },
+  {
+   "hora": "18:30",
+   "liga": "BRA",
+   "local": "Cruzeiro",
+   "visita": "Palmeiras",
+   "resultado": "2-1",
+   "estado": "terminado",
+   "over15": 72.4,
+   "over25": 45.8,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-18 05:35 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://m.imirante.com/esporte/brasil/2026/11/18/cruzeiro-vence-complica-palmeiras-briga-titulo"
+  },
+  {
+   "hora": "19:30",
+   "liga": "BRA",
+   "local": "Corinthians",
+   "visita": "Botafogo",
+   "resultado": "4-0",
+   "estado": "terminado",
+   "over15": 72.2,
+   "over25": 45.5,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-18 05:35 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://espndeportes.espn.com/futbol/partido/_/juegoId/401841316/botafogo-corinthians"
+  },
+  {
+   "hora": "19:30",
+   "liga": "BRA",
+   "local": "Grêmio",
+   "visita": "Bahia",
+   "resultado": "0-0",
+   "estado": "terminado",
+   "over15": 78.5,
+   "over25": 54.0,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-18 05:35 ECU (UTC-5)",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://espndeportes.espn.com/futbol/partido/_/juegoId/401841312/bahia-gremio"
+  }
+ ]
+}

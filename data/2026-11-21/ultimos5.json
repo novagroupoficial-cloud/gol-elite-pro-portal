@@ -1,0 +1,382 @@
+{
+ "fecha": "2026-11-21",
+ "nota": "Fase de medición Kaizen: no entra al modelo. Últimos 5 oficiales de cada equipo (más antiguo → más reciente cuando la fuente no da fechas); 'sin dato' cuando no se encontró. Cuotas fraccionarias de footballpredictions.com (casa no indicada).",
+ "partidos": {
+  "NEC|PSV": {
+   "local": [
+    "Ajax 1-1 NEC (F)",
+    "NEC 2-2 Fortuna Sittard (C)",
+    "NEC 2-2 Groningen (C)",
+    "Heerenveen 1-0 NEC (F)",
+    "Utrecht 2-3 NEC (F, 8-nov)"
+   ],
+   "visita": [
+    "PSV 2-0 Heerenveen (C, la fuente es contradictoria: verificar)",
+    "ADO 2-1 PSV (F)",
+    "PSV 1-1 Feyenoord (C)",
+    "PSV 7-0 Willem II (C)",
+    "Cambuur 2-5 PSV (F)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/nec/preview/nijmegen-vs-psv-prediction-team-news-lineups_609357.html",
+   "fechas": "sin dato (salvo una)",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Nice|Paris Saint-Germain": {
+   "local": [
+    "Nice 2-1 Strasbourg (C)",
+    "Lyon 2-1 Nice (F)",
+    "Brest 1-2 Nice (F)",
+    "Nice 5-2 Rennes (C)",
+    "Angers 0-2 Nice (F)"
+   ],
+   "visita": [
+    "PSG 3-1 Le Mans (C)",
+    "Strasbourg 1-3 PSG (F)",
+    "PSG 2-0 Lyon (C)",
+    "Le Havre 1-5 PSG (F)",
+    "PSG 1-0 Troyes (C)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/nice/preview/nice-vs-psg-prediction-team-news-lineups_609361.html",
+   "fechas": "sin dato",
+   "cuota_over25": "4/11",
+   "cuota_under25": "sin dato",
+   "casa": "sin nombrar",
+   "url_cuota": "https://footballpredictions.com/footballpredictions/ligue1predictions/nice-vs-psg-prediction-21-11-2026/"
+  },
+  "Parma|Roma": {
+   "local": [
+    "Parma 0-3 Torino (C)",
+    "Lazio 2-1 Parma (F)",
+    "Parma 0-0 Udinese (C)",
+    "Atalanta 0-3 Parma (F)",
+    "Parma 1-2 Bologna (C)"
+   ],
+   "visita": [
+    "Roma 2-0 Genoa (C)",
+    "Napoli 3-3 Roma (F)",
+    "Roma 4-2 Cagliari (C)",
+    "Udinese 2-5 Roma (F)",
+    "Roma 3-0 Sassuolo (C)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/parma/preview/parma-vs-roma-prediction-team-news-lineups_609422.html",
+   "fechas": "sin dato",
+   "cuota_over25": "1/2",
+   "cuota_under25": "sin dato",
+   "casa": "sin nombrar",
+   "url_cuota": "https://footballpredictions.com/footballpredictions/serieapredictions/parma-vs-as-roma-prediction-21-11-2026/"
+  },
+  "Feyenoord|Excelsior": {
+   "local": "sin dato (racha LDDWW)",
+   "visita": "sin dato (racha LLLLL)",
+   "fuente": "https://footballpredictions.com/footballpredictions/netherlands-eredivisie-predictions/feyenoord-vs-excelsior-prediction-21-11-2026/",
+   "cuota_over25": "1/3",
+   "cuota_under25": "sin dato",
+   "casa": "sin nombrar"
+  },
+  "FC Utrecht|Cambuur": {
+   "local": [
+    "Utrecht 3-1 Willem II (C)",
+    "Twente 1-2 Utrecht (F)",
+    "Utrecht 1-1 PEC Zwolle (C)",
+    "Telstar 4-2 Utrecht (F)",
+    "Utrecht 2-3 NEC (C)"
+   ],
+   "visita": [
+    "PEC Zwolle 0-1 Cambuur (F)",
+    "Cambuur 2-2 AZ (C)",
+    "Willem II 1-6 Cambuur (F)",
+    "Cambuur 4-0 Go Ahead Eagles (C)",
+    "Cambuur 2-5 PSV (C)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/fc-utrecht/preview/utrecht-vs-cambuur-prediction-team-news-lineups_609395.html",
+   "fechas": "sin dato",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Lens|Toulouse": {
+   "local": [
+    "Club Brugge 3-0 Lens (F)",
+    "Lens 2-1 Paris FC (C)",
+    "Lille 1-0 Lens (F)",
+    "Lens–Como (C, Champions; marcador dudoso en la fuente: sin dato)",
+    "Lens 1-2 Marseille (C)"
+   ],
+   "visita": [
+    "Monaco 2-2 Toulouse (F)",
+    "Le Mans 0-3 Toulouse (F)",
+    "Toulouse 0-0 Troyes (C)",
+    "Marseille 2-0 Toulouse (F)",
+    "Toulouse 3-1 Strasbourg (C)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/lens/preview/lens-vs-toulouse-prediction-team-news-lineups_609417.html",
+   "fechas": "sin dato",
+   "cuota_over25": "4/6",
+   "cuota_under25": "sin dato",
+   "casa": "sin nombrar"
+  },
+  "Strasbourg|Brest": {
+   "local": [
+    "Toulouse 3-1 Strasbourg (F, 6-nov)",
+    "Strasbourg 5-1 Auxerre (C, 1-nov)",
+    "Rennes 3-0 Strasbourg (F)",
+    "Strasbourg 1-3 PSG (C)",
+    "Nice 2-1 Strasbourg (F)"
+   ],
+   "visita": [
+    "Brest 2-0 Lyon (C)",
+    "Lorient 0-2 Brest (F)",
+    "Brest 1-2 Nice (C)",
+    "Lille 1-1 Brest (F)",
+    "Brest 5-1 Angers (C)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/strasbourg/preview/strasbourg-vs-brest-prediction-team-news-lineups_609408.html",
+   "cuota_over25": "4/6",
+   "cuota_under25": "sin dato",
+   "casa": "sin nombrar"
+  },
+  "Monaco|Auxerre": {
+   "local": [
+    "Monaco 2-2 Toulouse (C)",
+    "Lorient 1-0 Monaco (F)",
+    "Monaco 1-1 Lille (C)",
+    "Paris FC 3-1 Monaco (F)",
+    "Le Mans 1-1 Monaco (F)"
+   ],
+   "visita": [
+    "Rennes 4-1 Auxerre (F)",
+    "Le Havre 1-3 Auxerre (F, 18-oct)",
+    "Auxerre 1-1 Le Mans (C)",
+    "Strasbourg 5-1 Auxerre (F)",
+    "Auxerre 0-1 Paris FC (C)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/as-monaco/preview/monaco-vs-auxerre-prediction-team-news-lineups_609420.html",
+   "cuota_over25": "1/2",
+   "cuota_under25": "sin dato",
+   "casa": "sin nombrar"
+  },
+  "Napoli|Torino": {
+   "local": [
+    "Venezia 1-0 Napoli (F)",
+    "Napoli 3-3 Roma (C)",
+    "Monza 1-4 Napoli (F)",
+    "Juventus 2-0 Napoli (F)",
+    "Napoli 1-1 Lazio (C)"
+   ],
+   "visita": [
+    "Parma 0-3 Torino (F)",
+    "Torino 3-2 Monza (C)",
+    "Torino 1-3 Como (C)",
+    "Frosinone 2-0 Torino (F)",
+    "Torino 1-1 Lecce (C)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/napoli/preview/napoli-vs-torino-prediction-team-news-lineups_609322.html",
+   "cuota_over25": "4/6",
+   "cuota_under25": "sin dato",
+   "casa": "sin nombrar"
+  },
+  "New England Revolution|Philadelphia Union": {
+   "local": [
+    "NE 1-0 Chicago",
+    "Philadelphia 1-2 NE (F)",
+    "NE 3-2 NY Red Bulls",
+    "NE 1-2 Inter Miami (C)",
+    "Orlando 1-0 NE (F)"
+   ],
+   "visita": [
+    "PHI 2-2 Charlotte",
+    "PHI 1-2 NE (C)",
+    "Nashville 0-0 PHI (F)",
+    "Cincinnati 1-0 PHI (F)",
+    "PHI 4-1 Toronto"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/new-england-revolution/preview/new-england-vs-philadelphia-prediction-team-news-lineups_609347.html",
+   "fechas": "sin dato",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "FC Dallas|Portland Timbers": {
+   "local": [
+    "Dallas 3-1 Colorado",
+    "Sporting KC 1-1 Dallas (F)",
+    "Dallas 0-2 Columbus",
+    "Dallas 3-0 San José",
+    "Houston 2-2 Dallas (F)"
+   ],
+   "visita": [
+    "Austin 0-2 Portland (F)",
+    "Portland 3-1 Houston",
+    "St. Louis 2-3 Portland (F)",
+    "Portland 3-2 Charlotte",
+    "Portland 0-0 Colorado"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/dallas/preview/dallas-vs-portland-prediction-team-news-lineups_609349.html",
+   "fechas": "sin dato",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Inter Miami|Columbus Crew": {
+   "local": [
+    "Miami 3-3 Charlotte",
+    "New England 1-2 Miami (F)",
+    "Miami 2-2 Cincinnati",
+    "NY Red Bulls 2-0 Miami (F)",
+    "Atlanta 1-3 Miami (F)"
+   ],
+   "visita": [
+    "Chicago 3-4 Columbus (F)",
+    "Columbus 3-0 DC United",
+    "Dallas 0-2 Columbus (F)",
+    "Columbus 4-2 Toronto",
+    "Cincinnati 0-2 Columbus (F)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/inter-miami/preview/inter-miami-vs-columbus-crew-prediction-team-news-lineups_609351.html",
+   "fechas": "sin dato",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Pachuca|Toluca": {
+   "local": [
+    "07-11 Atlas 1-4 Pachuca (F)",
+    "31-10 Pachuca 3-0 Tigres (C)",
+    "25-10 América 1-2 Pachuca (F)",
+    "21-10 Pachuca 1-2 Cruz Azul (C)",
+    "18-10 Monterrey 2-1 Pachuca (F)"
+   ],
+   "visita": [
+    "07-11 Toluca 4-0 Monterrey (C)",
+    "31-10 América 2-2 Toluca (F)",
+    "24-10 León 1-1 Toluca (F)",
+    "21-10 Toluca 2-2 Tijuana (C)",
+    "17-10 Toluca 1-1 San Luis (C)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/pachuca-vs-toluca-liga-mx-2026-11-22",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Pumas UNAM|Monterrey": {
+   "local": [
+    "07-11 Pumas 2-2 América (C)",
+    "30-10 Puebla 1-2 Pumas (F)",
+    "24-10 Pumas 1-1 Tigres (C)",
+    "21-10 Santos 2-0 Pumas (F)",
+    "16-10 Atlante 1-2 Pumas (F)"
+   ],
+   "visita": [
+    "14-11 Querétaro 0-1 Monterrey (F)",
+    "07-11 Toluca 4-0 Monterrey (F)",
+    "31-10 Monterrey 3-3 Tijuana (C)",
+    "24-10 Monterrey 0-1 Chivas (C)",
+    "21-10 Puebla 1-4 Monterrey (F)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/unam-pumas-vs-monterrey-liga-mx-2026-11-22",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Tigres UANL|América": {
+   "local": [
+    "07-11 Tigres 2-3 Cruz Azul (C)",
+    "31-10 Pachuca 3-0 Tigres (F)",
+    "24-10 Pumas 1-1 Tigres (F)",
+    "20-10 Tigres 0-2 León (C)",
+    "17-10 Chivas 1-1 Tigres (F)"
+   ],
+   "visita": [
+    "07-11 Pumas 2-2 América (F)",
+    "31-10 América 2-2 Toluca (C)",
+    "28-10 América 1-1 Tijuana (C)",
+    "25-10 América 1-2 Pachuca (C)",
+    "(14-11 amistoso NY Red Bulls 1-0 América, no oficial)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/tigres-uanl-vs-club-america-liga-mx-2026-11-22",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Chapecoense|Cruzeiro": {
+   "local": [
+    "18-11 Remo 2-0 Chape (F)",
+    "14-11 Chape 0-2 Vasco (C)",
+    "03-11 Chape 1-2 Mirassol (C)",
+    "28-10 Bragantino 3-0 Chape (F)",
+    "24-10 Chape 2-1 Fluminense (C)"
+   ],
+   "visita": [
+    "18-11 Cruzeiro 2-1 Palmeiras (C)",
+    "05-11 Cruzeiro 3-2 Bahia (C)",
+    "29-10 Atlético-MG 0-1 Cruzeiro (F)",
+    "23-10 Cruzeiro 1-0 Remo (C)",
+    "18-10 Grêmio 2-4 Cruzeiro (F)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/chapecoense-sc-vs-cruzeiro-brasileirao-2026-11-22",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Alianza Lima|FC Cajamarca": {
+   "local": [
+    "08-11 Los Chankas 1-1 Alianza (condición dudosa)",
+    "03-11 Cienciano 0-1 Alianza (F)",
+    "29-10 Alianza 2-3 Sporting Cristal (C)",
+    "25-10 Alianza 1-0 Moquegua (C)",
+    "17-10 Atlético Grau 1-3 Alianza (F)"
+   ],
+   "visita": [
+    "07-11 Alianza Atlético 0-2 Cajamarca (F)",
+    "02-11 Cajamarca 0-5 Cristal (C)",
+    "28-10 UTC 3-1 Cajamarca (F)",
+    "25-10 Cajamarca 2-4 Sport Boys (C)",
+    "18-10 Moquegua 1-0 Cajamarca (F)"
+   ],
+   "fuente": "https://espndeportes.espn.com/futbol/partido/_/juegoId/401886135/fc-cajamarca-alianza-lima",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Lazio|Lecce": {
+   "local": "sin dato",
+   "visita": "sin dato",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Bayer Leverkusen|Paderborn": {
+   "local": "sin dato",
+   "visita": "sin dato",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Borussia Monchengladbach|Borussia Dortmund": {
+   "local": "sin dato",
+   "visita": "sin dato",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Eintracht Frankfurt|Hoffenheim": {
+   "local": "sin dato",
+   "visita": "sin dato",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Union Berlin|RB Leipzig": {
+   "local": "sin dato",
+   "visita": "sin dato",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Elversberg|Freiburg": {
+   "local": "sin dato",
+   "visita": "sin dato",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Aston Villa|Sunderland": {
+   "local": "sin dato",
+   "visita": "sin dato",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Tottenham|Ipswich Town": {
+   "local": "sin dato",
+   "visita": "sin dato",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  }
+ }
+}

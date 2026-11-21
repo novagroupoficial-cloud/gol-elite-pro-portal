@@ -1,7 +1,7 @@
 {
  "fecha": "2026-11-21",
  "sellado": "2026-11-21 09:45 ECU",
- "nota": "Solo PLATINO/ESTÁNDAR no iniciados con ficha futboltotal disponible",
+ "nota": "Bloque 1 sellado 09:45 (10 partidos); bloque 2 sellado 10:05 (7 partidos, fuente gidstats/futboltotal)",
  "partidos": {
   "Tottenham|Ipswich Town": {
    "o15": 9,
@@ -502,6 +502,363 @@
     ]
    ],
    "fuente": "https://futboltotal.futbol/partido/napoli-vs-torino-serie-a-2026-11-21"
+  },
+  "Inter Miami|Columbus Crew": {
+   "o15": 10,
+   "o25": 7,
+   "prom": 3.9,
+   "ultimos5_local": [
+    [
+     3,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     4,
+     3
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "fuente": "https://gidstats.com/es/futbol/mls/2026-11-21-1649495-inter-miami-columbus-crew/",
+   "sellado": "2026-11-21 10:05 ECU"
+  },
+  "Tigres UANL|América": {
+   "o15": 10,
+   "o25": 6,
+   "prom": 3.4,
+   "ultimos5_local": [
+    [
+     2,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "fuente": "https://gidstats.com/football/liga-mx/2026-11-21-1551044-tigres-uanl-vs-club-america/",
+   "sellado": "2026-11-21 10:05 ECU"
+  },
+  "Pachuca|Toluca": {
+   "o15": 10,
+   "o25": 8,
+   "prom": 3.3,
+   "ultimos5_local": [
+    [
+     4,
+     1
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     4,
+     0
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "fuente": "https://gidstats.com/es/futbol/liga-mx/2026-11-21-1551041-cf-pachuca-toluca/",
+   "sellado": "2026-11-21 10:05 ECU"
+  },
+  "Pumas UNAM|Monterrey": {
+   "o15": 8,
+   "o25": 6,
+   "prom": 3.1,
+   "ultimos5_local": [
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "fuente": "https://gidstats.com/football/liga-mx/2026-11-21-1551043-u-n-a-m-pumas-vs-monterrey/",
+   "sellado": "2026-11-21 10:05 ECU"
+  },
+  "FC Dallas|Portland Timbers": {
+   "o15": 9,
+   "o25": 6,
+   "prom": 3.1,
+   "ultimos5_local": [
+    [
+     3,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     2,
+     2
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "fuente": "https://gidstats.com/football/mls/2026-11-21-1649494-fc-dallas-vs-portland-timbers/",
+   "sellado": "2026-11-21 10:05 ECU"
+  },
+  "Palmeiras|Flamengo": {
+   "o15": 7,
+   "o25": 6,
+   "prom": 3.0,
+   "ultimos5_local": [
+    [
+     1,
+     2
+    ],
+    [
+     6,
+     1
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "fuente": "https://gidstats.com/football/brasileirao/2026-11-21-1492468-palmeiras-vs-flamengo/",
+   "sellado": "2026-11-21 10:05 ECU"
+  },
+  "Newcastle|Arsenal": {
+   "o15": 6,
+   "o25": 2,
+   "prom": 1.9,
+   "ultimos5_local": [
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/newcastle-vs-arsenal-premier-league-2026-11-21",
+   "sellado": "2026-11-21 10:05 ECU"
   }
  }
 }

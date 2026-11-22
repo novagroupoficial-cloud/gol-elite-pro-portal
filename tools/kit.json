@@ -1,47 +1,31 @@
 {
- "local": "FC Utrecht",
- "fecha_larga": "Sábado 21 de noviembre de 2026",
- "desde": "06:12",
+ "local": "Go Ahead Eagles",
+ "fecha_larga": "Domingo 22 de noviembre de 2026",
+ "desde": "05:38",
  "contexto": [
-  "El Utrecht es 14.º y tiene la segunda peor defensa de la liga: 34 goles en contra.",
-  "Cambuur suma 25 goles y viene de caer 2-5 con el PSV (Sports Mole)."
+  "Go Ahead es 8.º y encaja 2,3 goles por partido (24 a favor y 27 en contra en 12 jornadas).",
+  "Fortuna Sittard lleva 6 partidos oficiales sin perder (footballpredictions.com / Sports Mole)."
  ],
  "auditoria": {
-  "encabezado": "Última auditoría",
-  "titulo": "Miércoles 18 · Brasileirão y Liga 1 · 7 partidos con fuente",
+  "encabezado": "Así nos fue ayer",
+  "titulo": "Sábado 21 · 14 ligas · 48 partidos con fuente",
   "tiles": [
-   [
-    "5/7",
-    "Partidos con 2 goles o más (Over 1.5)",
-    "verde"
-   ],
-   [
-    "1/1",
-    "Partido del día (Alianza Atlético 1-1 Melgar)",
-    "verde"
-   ],
-   [
-    "0/0",
-    "Over 2.5 con señal (ninguno llegó a 65 %)",
-    "dor"
-   ],
-   [
-    "1/7",
-    "Marcador exacto (Alianza Atl. 1-1 Melgar)",
-    "dor"
-   ]
+   ["30/42", "Partidos de 70 % o más con 2 goles o más (Over 1.5)", "verde"],
+   ["1/1", "Partido del día (Utrecht 2-3 Cambuur)", "verde"],
+   ["3/3", "GOLES PLATINO (90 a 94 %)", "verde"],
+   ["4/10", "Over 2.5 con señal (3/3 fuertes)", "dor"]
   ],
-  "nota": "Acertaron Alianza Atl. 1-1 Melgar (79 % · 2 goles), Flamengo 2-1 Athletico-PR (77 % · 3) y Corinthians 4-0 Botafogo (72 % · 4). Fallaron Coritiba 0-1 Santos (78 % · 1 gol) y Grêmio 0-0 Bahia (79 % · 0). Fuentes: ESPN, imirante, Diario Correo."
+  "nota": "Acertaron Utrecht 2-3 Cambuur (92 % · 5 goles), NEC 1-4 PSV (92 % · 5) e Inter Miami 0-3 Columbus (91 % · 3). Fallaron 12, casi todos por un gol: Elversberg 0-1 Freiburg (88 % · 1), Tigres 1-0 América (87 % · 1), Frankfurt 1-0 Hoffenheim (87 % · 1). Fuentes: Sporza, Bundesliga.com, ESPN."
  },
  "acierto": {
-  "encabezado": "Último partido del día auditado",
-  "fecha": "Miércoles 18",
-  "local": "Alianza Atlético",
-  "visita": "Melgar",
-  "liga": "Liga 1 de Perú · Clausura",
-  "resultado": "1-1",
-  "over15": 78.9,
-  "goles": "2",
-  "sellado": "05:35 ECU del 18-nov"
+  "encabezado": "Partido del día de ayer",
+  "fecha": "Sábado 21",
+  "local": "FC Utrecht",
+  "visita": "Cambuur",
+  "liga": "Eredivisie · jornada 13",
+  "resultado": "2-3",
+  "over15": 91.9,
+  "goles": "5",
+  "sellado": "06:12 ECU del 21-nov"
  }
 }

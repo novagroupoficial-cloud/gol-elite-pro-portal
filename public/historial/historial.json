@@ -862,5 +862,42 @@
    "Remo 2-0 Chapecoense (Over 1.5 al 72,8 % · hubo 2 goles)"
   ],
   "partidos": 7
+ },
+ {
+  "fecha": "2026-11-21",
+  "titulo": "Sábado 21 de noviembre de 2026",
+  "imagen": "/historial/2026-11-21.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "3/3",
+    "GOLES PLATINO (90 a 94 %)"
+   ],
+   [
+    "30/42",
+    "Over 1.5 de 70 % o más (71 %)"
+   ],
+   [
+    "4/10",
+    "Over 2.5 con señal (40 %)"
+   ],
+   [
+    "5/48",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Fallaron 12 Over 1.5 de 70 % o más, casi todos por un solo gol: Elversberg 0-1 Freiburg (dimos Over 1.5 al 88,4 % · hubo 1 gol), Tigres 1-0 América (87,0 % · 1 gol), Eintracht Frankfurt 1-0 Hoffenheim (86,9 % · 1 gol), Gladbach 0-1 Dortmund (86,1 % · 1 gol), Strasbourg 0-1 Brest (82,3 % · 1 gol), Aston Villa 0-0 Sunderland (80,2 % · 0 goles), Napoli 1-0 Torino (79,9 % · 1 gol), Schalke 0-0 Stuttgart (79,0 % · 0 goles), Rayo 0-1 Valencia (77,2 % · 1 gol), Bahia 0-1 Coritiba (76,4 % · 1 gol), Once Caldas 0-0 Nacional (73,4 % · 0 goles) y U. Católica 0-1 Barcelona SC (71,6 % · 1 gol). Over 2.5 con señal: 4 de 10 (las 3 fuertes acertaron; de las 7 moderadas solo 1). El partido del día, FC Utrecht 2-3 Cambuur (dimos Over 1.5 al 91,9 %), acertó: hubo 5 goles. GOLES PLATINO 3/3, GOLES ESTÁNDAR 15/22 y GOLES OPTIMISTAS 15/23. Vuelta de las ligas tras la fecha FIFA: 48 partidos auditados con fuente.",
+  "aciertos_destacados": [
+   "FC Utrecht 2-3 Cambuur (Over 1.5 al 91,9 % · hubo 5 goles · partido del día)",
+   "NEC 1-4 PSV (Over 1.5 al 91,6 % · hubo 5 goles)",
+   "Inter Miami 0-3 Columbus Crew (Over 1.5 al 90,9 % · hubo 3 goles)",
+   "Feyenoord 2-3 Excelsior (Over 1.5 al 87,7 % · hubo 5 goles)",
+   "Union Berlin 1-5 RB Leipzig (Over 1.5 al 84,4 % · hubo 6 goles)",
+   "Monaco 1-1 Auxerre y Lens 1-1 Toulouse (marcadores exactos 1-1)"
+  ],
+  "partidos": 48
  }
 ]

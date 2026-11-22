@@ -1,0 +1,420 @@
+{
+ "fecha": "2026-11-22",
+ "nota": "Fase de medición Kaizen: no entra al modelo. Últimos 5 oficiales de cada equipo (todas las competiciones, más antiguo → más reciente cuando la fuente no da fechas); 'sin dato' cuando no se encontró. Cuotas: kickoff.co.uk (Bet365), footballpredictions.com (solo Over, casa no indicada), apuestas-deportivas.pe (Betsson), ESPN (DraftKings).",
+ "partidos": {
+  "Go Ahead Eagles|Fortuna Sittard": {
+   "local": [
+    "Excelsior 0-1 Go Ahead (F, 07-11)",
+    "Cambuur 4-0 Go Ahead (F)",
+    "HFC 0-5 Go Ahead (F, Copa)",
+    "Go Ahead 3-2 Telstar (C)",
+    "PEC Zwolle 4-1 Go Ahead (F)"
+   ],
+   "visita": [
+    "Sittard 2-2 Telstar (C, 07-11)",
+    "Feyenoord 1-1 Sittard (F)",
+    "Sparta 2-2 Sittard (F, Copa)",
+    "Sittard 1-0 Excelsior (C)",
+    "NEC 2-2 Sittard (F)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/eredivisie/go-ahead-eagles-vs-fortuna-sittard_game_263281.html",
+   "cuota_over25": 1.48,
+   "cuota_under25": 2.6,
+   "casa": "Bet365",
+   "url_cuotas": "https://www.kickoff.co.uk/dutch-eredivisie-predictions-stats-odds/ga-eagles-vs-fortuna-sittard/"
+  },
+  "Twente|Willem II": {
+   "local": [
+    "Twente 2-2 Ajax (C, 08-11)",
+    "Twente 3-1 Pafos (C, Conference)",
+    "Excelsior 0-9 Twente (F)",
+    "AZ 0-2 Twente (F)",
+    "Lincoln 1-4 Twente (F, Conference)"
+   ],
+   "visita": [
+    "Willem II 1-1 PEC Zwolle (C, 06-11)",
+    "PSV 7-0 Willem II (F)",
+    "Helmond 3-4 Willem II (F, Copa)",
+    "Willem II 1-6 Cambuur (C)",
+    "Sparta 3-2 Willem II (F)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/eredivisie/fc-twente-vs-willem-ii_game_263230.html",
+   "cuota_over25": 1.22,
+   "cuota_under25": 4.2,
+   "casa": "Bet365",
+   "url_cuotas": "https://www.kickoff.co.uk/dutch-eredivisie-predictions-stats-odds/twente-vs-willem-ii/"
+  },
+  "Sparta Rotterdam|AZ": {
+   "local": [
+    "ADO 3-1 Sparta (F, 07-11)",
+    "Groningen 2-3 Sparta (F)",
+    "Sparta 2-2 Sittard (C, Copa)",
+    "Sparta 1-2 Ajax (C, 25-10)",
+    "Sparta 3-2 Willem II (C)"
+   ],
+   "visita": [
+    "AZ 4-3 Groningen (C, 08-11)",
+    "AZ 1-2 Juventus (C, Europa League)",
+    "Ajax 1-0 AZ (F, 31-10)",
+    "AZ 0-2 Twente (C)",
+    "Ararat-Armenia 0-4 AZ (F, Europa League)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/eredivisie/sparta-rotterdam-vs-az_game_263250.html",
+   "cuota_over25": 1.48,
+   "cuota_under25": 2.6,
+   "casa": "Bet365",
+   "url_cuotas": "https://www.kickoff.co.uk/dutch-eredivisie-predictions-stats-odds/s-rotterdam-vs-az-alkmaar/"
+  },
+  "Augsburg|Mainz": {
+   "local": [
+    "Leipzig 5-2 Augsburg (F, 07-11)",
+    "Augsburg 1-2 Freiburg (C)",
+    "Grossaspach 2-4 Augsburg (F, Copa)",
+    "Augsburg 1-1 Union Berlin (C)",
+    "Elversberg 4-3 Augsburg (F)"
+   ],
+   "visita": [
+    "Mainz 1-2 Bayern (C, 07-11)",
+    "Elversberg 4-1 Mainz (F, 30-10)",
+    "Bochum 2-0 Mainz (F, Copa)",
+    "Mainz 2-3 Werder Bremen (C)",
+    "Schalke 0-1 Mainz (F)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/bundesliga/augsburg-vs-mainz-05_game_263268.html",
+   "cuota_over25": 1.44,
+   "cuota_under25": 2.75,
+   "casa": "Bet365",
+   "url_cuotas": "https://www.kickoff.co.uk/german-bundesliga-predictions-stats-odds/augsburg-vs-mainz/"
+  },
+  "Racing de Santander|Real Sociedad": {
+   "local": [
+    "Osasuna 2-0 Racing (F, 18-10)",
+    "Racing 2-1 Espanyol (C, 24-10)",
+    "Ribadesella 0-2 Racing (F, Copa, 29-10)",
+    "Racing 0-3 Real Madrid (C, 01-11)",
+    "Málaga 1-2 Racing (F, 07-11)"
+   ],
+   "visita": [
+    "Lillestrøm 0-6 Real Sociedad (F, UEL, 22-10)",
+    "Real Sociedad 2-1 Levante (C, 25-10)",
+    "Athletic 2-1 Real Sociedad (F, 01-11)",
+    "Real Sociedad 1-1 Lyon (C, UEL, 05-11)",
+    "Real Sociedad 1-0 Rayo (C, 08-11)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/racing-santander-vs-real-sociedad-la-liga-2026-11-22",
+   "cuota_over25": 1.36,
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "https://footballpredictions.com/footballpredictions/primeradivisionpredictions/racing-santander-vs-real-sociedad-prediction-22-11-2026/"
+  },
+  "Ajax|ADO Den Haag": {
+   "local": [
+    "Twente 2-2 Ajax (F, 08-11)",
+    "Midtjylland 1-6 Ajax (F, Conference, 05-11)",
+    "Ajax 1-0 AZ (C, 31-10)",
+    "Sparta 1-2 Ajax (F, 25-10)",
+    "Ajax 2-0 Atalanta (C, Conference, 22-10)"
+   ],
+   "visita": [
+    "ADO 3-1 Sparta (C, 07-11)",
+    "PEC Zwolle 1-0 ADO (F, 01-11)",
+    "Excelsior '31 1-1 ADO (F, Copa, 27-10)",
+    "ADO 2-3 Heerenveen (C, 24-10)",
+    "ADO 2-1 PSV (C, 17-10)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/ajax/",
+   "cuota_over25": 1.25,
+   "cuota_under25": 4.0,
+   "casa": "Bet365",
+   "url_cuotas": "https://www.kickoff.co.uk/dutch-eredivisie-predictions-stats-odds/ajax-vs-den-haag/"
+  },
+  "Werder Bremen|Hamburger SV": {
+   "local": [
+    "Stuttgart 1-0 Werder (F, 07-11)",
+    "Werder 2-0 Hoffenheim (sede sin dato)",
+    "Mainz 2-3 Werder (F)",
+    "Werder 2-2 Paderborn (sede sin dato)",
+    "Dortmund 2-2 Werder (F)"
+   ],
+   "visita": [
+    "HSV 3-1 Gladbach (C)",
+    "Frankfurt 3-1 HSV (sede sin dato)",
+    "Paderborn 1-0 HSV (F)",
+    "HSV 1-0 Stuttgart (sede sin dato)",
+    "Hoffenheim 2-3 HSV (F)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/werder-bremen/preview/werder-bremen-vs-hamburger-sv-prediction-team-news-lineups_609545.html",
+   "cuota_over25": 1.53,
+   "cuota_under25": 2.5,
+   "casa": "Bet365",
+   "url_cuotas": "https://www.kickoff.co.uk/german-bundesliga-predictions-stats-odds/werder-bremen-vs-hamburg/"
+  },
+  "AC Milan|Frosinone": {
+   "local": [
+    "Milan 3-2 Atalanta (C)",
+    "Udinese 0-2 Milan (F)",
+    "Milan 2-4 Bologna (C)",
+    "Milan 3-1 Inter (C)",
+    "Genoa 1-2 Milan (F)"
+   ],
+   "visita": [
+    "Frosinone 4-2 Sassuolo (C)",
+    "Atalanta 4-4 Frosinone (F)",
+    "Frosinone 5-1 Lecce (C)",
+    "Frosinone 2-0 Torino (C)",
+    "Cagliari 1-0 Frosinone (F)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/ac-milan/preview/ac-milan-vs-frosinone-prediction-team-news-lineups_609496.html",
+   "cuota_over25": 1.36,
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "https://footballpredictions.com/footballpredictions/serieapredictions/milan-vs-frosinone-prediction-22-11-2026/"
+  },
+  "Sporting Cristal|Cienciano": {
+   "local": [
+    "ADT 1-1 Cristal (F, 07-11)",
+    "Cristal 5-0 FC Cajamarca (C, 02-11)",
+    "Cristal 3-2 Alianza Lima (C, 29-10)",
+    "Cusco FC 3-1 Cristal (F, 24-10)",
+    "Cristal 4-2 Comerciantes Unidos (C, 18-10)"
+   ],
+   "visita": [
+    "Cienciano 1-2 Sport Huancayo (C, 07-11)",
+    "Alianza Lima 1-0 Cienciano (F, 03-11)",
+    "Cienciano 3-0 Atlético Grau (C, 28-10)",
+    "Comerciantes Unidos 3-1 Cienciano (F, 25-10)",
+    "Cienciano 1-0 UTC (C, 18-10)"
+   ],
+   "fuente": "https://espndeportes.espn.com/futbol/partido/_/juegoId/401886120/cienciano-del-cusco-sporting-cristal",
+   "cuota_over25": 1.47,
+   "cuota_under25": 2.62,
+   "casa": "Betsson",
+   "url_cuotas": "https://www.apuestas-deportivas.pe/pronostico-sporting-cristal-vs-cienciano-quien-gana-y-cuanto-paga-en-las-apuestas/"
+  },
+  "Marseille|Le Mans": {
+   "local": [
+    "Lens 1-2 Marsella (F, 08-11)",
+    "Leverkusen 0-1 Marsella (F, Europa League)",
+    "Marsella 2-0 Toulouse (C)",
+    "Marsella 4-3 Le Havre (C)",
+    "Sturm Graz 1-0 Marsella (F, Europa League)"
+   ],
+   "visita": [
+    "Le Mans 1-1 Monaco (C, 08-11)",
+    "Troyes 2-0 Le Mans (F)",
+    "Auxerre 1-1 Le Mans (F)",
+    "Le Mans 0-3 Toulouse (C)",
+    "PSG 3-1 Le Mans (F)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/ligue-1/marseille-vs-le-mans_game_263309.html",
+   "cuota_over25": 1.53,
+   "cuota_under25": 2.5,
+   "casa": "Bet365",
+   "url_cuotas": "https://www.kickoff.co.uk/french-ligue-predictions-stats-odds/marseille-vs-le-mans/"
+  },
+  "Sport Huancayo|Universitario": {
+   "local": [
+    "Cienciano 1-2 Sport Huancayo (F, 07-11)",
+    "Melgar 0-2 Sport Huancayo (F, 02-11)",
+    "Sport Huancayo 0-2 Juan Pablo II (C, 27-10)",
+    "Alianza Atlético 1-4 Sport Huancayo (F, 24-10)",
+    "Cusco FC 1-2 Sport Huancayo (F, 16-10)"
+   ],
+   "visita": [
+    "Moquegua 2-2 Universitario (F, 08-11)",
+    "Sport Boys 2-2 Universitario (F, 04-11; América TV da 0-0)",
+    "Universitario 3-1 Atlético Grau (C, 01-11)",
+    "Juan Pablo II 0-3 Universitario (F, 24-10)",
+    "Universitario 4-1 Alianza Atlético (C, 18-10)"
+   ],
+   "fuente": "https://espndeportes.espn.com/futbol/partido/_/juegoId/401886136/universitario-sport-huancayo",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Sassuolo|Genoa": {
+   "local": [
+    "Frosinone 4-2 Sassuolo (F)",
+    "Como 2-0 Sassuolo (F)",
+    "Sassuolo 2-6 Lazio (C)",
+    "Sassuolo 2-4 Fiorentina (C)",
+    "Roma 3-0 Sassuolo (F)"
+   ],
+   "visita": [
+    "Roma 2-0 Genoa (F)",
+    "Genoa 1-0 Venezia (C)",
+    "Genoa 2-0 Juventus (C)",
+    "Lecce 1-2 Genoa (F)",
+    "Genoa 1-2 Milan (C)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/sassuolo/preview/sassuolo-vs-genoa-prediction-team-news-lineups_609480.html",
+   "cuota_over25": 1.91,
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "https://footballpredictions.com/footballpredictions/serieapredictions/sassuolo-vs-genoa-prediction-22-11-2026/"
+  },
+  "Guadalajara|Cruz Azul": {
+   "local": [
+    "León 1-1 Chivas (F, 09-11)",
+    "Chivas 4-2 Atlante",
+    "Chivas 1-0 Monterrey",
+    "Chivas 1-0 Necaxa",
+    "Chivas 1-1 Tigres (sede y fechas sin dato en la fuente)"
+   ],
+   "visita": [
+    "Tigres 2-3 Cruz Azul (F, 08-11)",
+    "Cruz Azul 2-1 León",
+    "Querétaro 1-3 Cruz Azul (F)",
+    "Pachuca 1-2 Cruz Azul (F, 21-10)",
+    "Cruz Azul 5-0 FC Juárez (C, 17-10)"
+   ],
+   "fuente": "https://www.365scores.com/en-us/football/match/liga-mx-141/chivas-cruz-azul-1259-1261-141",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Atalanta|Inter": {
+   "local": [
+    "Milan 3-2 Atalanta (F)",
+    "Atalanta 4-4 Frosinone (C)",
+    "Fiorentina 2-2 Atalanta (F)",
+    "Atalanta 0-3 Parma (C)",
+    "Monza 0-1 Atalanta (F)"
+   ],
+   "visita": [
+    "Bologna 1-3 Inter (F)",
+    "Inter 2-1 Fiorentina (C)",
+    "Venezia 0-2 Inter (F)",
+    "Milan 3-1 Inter (F)",
+    "Inter 2-0 Como (C)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/atalanta-bc/preview/atalanta-vs-inter-milan-prediction-team-news-lineups_609517.html",
+   "cuota_over25": 1.4,
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "https://footballpredictions.com/footballpredictions/serieapredictions/atalanta-vs-inter-prediction-22-11-2026/"
+  },
+  "Barcelona|Villarreal": {
+   "local": [
+    "PSG 4-2 Barça (F)",
+    "Barça 1-2 Real Madrid (C)",
+    "Barça 6-1 Alavés (C)",
+    "Barça 3-0 Aston Villa (C)",
+    "Atlético 1-2 Barça (F)"
+   ],
+   "visita": [
+    "Valencia 1-2 Villarreal (F)",
+    "Manacor 0-5 Villarreal (F, Copa)",
+    "Villarreal 0-1 Espanyol (C)",
+    "Villarreal 0-6 PSG (C)",
+    "Villarreal 2-0 Getafe (C)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/barcelona/race-for-the-la-liga-title/preview/barcelona-vs-villarreal-prediction-team-news-lineups_609474.html",
+   "cuota_over25": 1.17,
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "https://footballpredictions.com/footballpredictions/primeradivisionpredictions/barcelona-vs-villarreal-prediction-22-11-2026/"
+  },
+  "Bologna|Udinese": {
+   "local": [
+    "Bologna 1-3 Inter (C)",
+    "Cagliari 0-2 Bologna (F)",
+    "Milan 2-4 Bologna (F)",
+    "Bologna 2-1 Monza (C)",
+    "Parma 1-2 Bologna (F)"
+   ],
+   "visita": [
+    "Udinese 0-3 Lecce (C)",
+    "Udinese 0-2 Milan (C)",
+    "Parma 0-0 Udinese (F)",
+    "Udinese 2-5 Roma (C)",
+    "Venezia 2-1 Udinese (F)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/bologna/preview/bologna-vs-udinese-prediction-team-news-lineups_609467.html",
+   "cuota_over25": 1.91,
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "https://footballpredictions.com/footballpredictions/serieapredictions/bologna-vs-udinese-prediction-22-11-2026/"
+  },
+  "Lorient|Rennes": {
+   "local": [
+    "Le Havre 0-2 Lorient (F, 08-11)",
+    "Lorient 0-2 Brest (C)",
+    "Angers 0-0 Lorient (F)",
+    "Lorient 1-0 Monaco (C)",
+    "Lorient 1-0 Paris FC (C)"
+   ],
+   "visita": [
+    "Rennes 1-2 Lille (C, 08-11)",
+    "Rennes 0-0 Olympiacos (C, Europa League)",
+    "Nice 5-2 Rennes (F)",
+    "Rennes 3-0 Strasbourg (C)",
+    "Juventus 2-2 Rennes (F, Europa League)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/ligue-1/lorient-vs-rennes_game_263288.html",
+   "cuota_over25": 1.91,
+   "cuota_under25": 1.91,
+   "casa": "Bet365",
+   "url_cuotas": "https://www.kickoff.co.uk/french-ligue-predictions-stats-odds/lorient-vs-rennes/"
+  },
+  "D. Limache|La Serena": {
+   "local": [
+    "U. Católica 3-0 Limache (F, 08-11)",
+    "Limache 2-0 Audax Italiano (C, 02-11)",
+    "U. de Concepción 0-1 Limache (F, 25-10)",
+    "Limache 2-2 Palestino (C, 11-10)",
+    "U. La Calera 1-0 Limache (F, 14-09)"
+   ],
+   "visita": [
+    "La Serena 1-0 Palestino (C, 07-11)",
+    "Huachipato 0-0 La Serena (F, 01-11)",
+    "La Serena 3-1 Dep. Concepción (C, 24-10)",
+    "Everton 3-2 La Serena (F, 11-10)",
+    "La Serena 0-3 U. de Chile (C, 13-09)"
+   ],
+   "fuente": "https://espndeportes.espn.com/futbol/partido/_/juegoId/401850698/la-serena-deportes-limache",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato"
+  },
+  "Colo-Colo|U. Catolica": {
+   "local": [
+    "Ñublense 1-2 Colo-Colo (F, 08-11)",
+    "Colo-Colo 3-0 Puerto Montt (C, Copa Chile, 02-11)",
+    "Colo-Colo 6-1 U. de Concepción (C, 30-10)",
+    "Palestino 1-1 Colo-Colo (F, 25-10)",
+    "Coquimbo 5-2 Colo-Colo (F, 11-10)"
+   ],
+   "visita": [
+    "U. Católica 3-0 Limache (C, 08-11)",
+    "U. Católica 1-0 U. de Chile (C, 01-11)",
+    "U. Católica 1-1 Audax Italiano (C, 28-10)",
+    "U. La Calera 3-1 U. Católica (F, 25-10)",
+    "U. Católica 0-0 U. La Calera (C, Copa Chile, 26-09)"
+   ],
+   "fuente": "https://www.espn.com/soccer/match/_/gameId/401850693",
+   "cuota_over25": 1.61,
+   "cuota_under25": 2.15,
+   "casa": "DraftKings (vía ESPN, revisar)",
+   "url_cuotas": "https://www.espn.com/soccer/match/_/gameId/401850693"
+  },
+  "Paris FC|Angers": {
+   "local": [
+    "Auxerre 0-1 Paris FC (F, 07-11)",
+    "Paris FC 3-1 Monaco (C)",
+    "Lens 2-1 Paris FC (F)",
+    "Paris FC 4-3 Rennes (C)",
+    "Lorient 1-0 Paris FC (F)"
+   ],
+   "visita": [
+    "Angers 0-2 Nice (C, 08-11)",
+    "Lyon 2-0 Angers (F)",
+    "Angers 0-0 Lorient (C)",
+    "Angers 2-5 Marsella (C)",
+    "Brest 5-1 Angers (F)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/ligue-1/paris-fc-vs-angers_game_263258.html",
+   "cuota_over25": 1.57,
+   "cuota_under25": 2.38,
+   "casa": "Bet365",
+   "url_cuotas": "https://www.kickoff.co.uk/french-ligue-predictions-stats-odds/paris-vs-angers/"
+  }
+ }
+}

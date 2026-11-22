@@ -1324,3 +1324,61 @@ LLEGAN={
  'Inter Miami|Columbus Crew':["Inter Miami en casa: 46 a favor y 31 en contra en 17 partidos (4,5 goles por partido)","Columbus fuera: 30 a favor y 33 en contra en 17 partidos (3,7 goles por partido)","Messi: 26 goles y 17 asistencias; Columbus ganó 8 de sus últimos 9","Fuente: Sports Mole (tablas MLS 2026 y previa)"],
  'Elversberg|Freiburg':["Elversberg en casa: 12 a favor y 8 en contra en 4 partidos (5 goles por partido)","Freiburg fuera: 6 a favor y 5 en contra en 4 partidos","En la Bundesliga 2026/27 se marcan 3,5 goles por partido (172 de local y 110 de visita en 81 partidos)","Fuente: SoccerNews y Sports Mole (tablas)"],
 }
+
+# ===== domingo 22-nov-2026 (rutina diaria) =====
+_SM='https://www.sportsmole.co.uk/football/'
+_FP='https://footballpredictions.com/footballpredictions/'
+LINK={
+ 'Twente|Willem II':("El Twente (4.º, 30 goles) recibe al colista Willem II, que encajó 40 en 12 jornadas","footballpredictions.com",_FP+"netherlands-eredivisie-predictions/twente-vs-willem-ii-prediction-22-11-2026/"),
+ 'Juventus|Venezia':("La Juve, 7.ª, recibe a un Venezia que no gana fuera en 10 partidos; bajas de Yildiz y Thuram","footballpredictions.com",_FP+"serieapredictions/juventus-vs-venezia-prediction-22-11-2026/"),
+ 'Barcelona|Villarreal':("El Barça, líder con 48 goles, busca su cuarta victoria seguida ante el Villarreal","Sports Mole",_SM+"barcelona/race-for-the-la-liga-title/preview/barcelona-vs-villarreal-prediction-team-news-lineups_609474.html"),
+ 'Ajax|ADO Den Haag':("El Ajax, a un punto del líder, recibe a un ADO que lleva 20 visitas sin ganarle","Sports Mole",_SM+"ajax/preview/ajax-vs-ado-den-haag-prediction-team-news-lineups_609479.html"),
+ 'Sparta Rotterdam|AZ':("El AZ visita a un Sparta que ya encajó 29 goles; Meerdink llega encendido","footballpredictions.com",_FP+"netherlands-eredivisie-predictions/sparta-rotterdam-vs-az-prediction-22-11-2026/"),
+ 'Hull City|Brighton':("El Brighton, 2.º y con tres victorias seguidas, visita a un Hull que lleva 9 jornadas sin ganar","footballpredictions.com",_FP+"premierleaguepredictions/hull-city-vs-brighton-prediction-22-11-2026/"),
+ 'Bologna|Udinese':("El Bologna de Palladino suma cuatro victorias seguidas y recibe al colista Udinese","Sports Mole",_SM+"bologna/preview/bologna-vs-udinese-prediction-team-news-lineups_609467.html"),
+ 'Sassuolo|Genoa':("D'Aversa debuta con un Sassuolo que encadena cinco derrotas ante el Genoa","Sports Mole",_SM+"sassuolo/preview/sassuolo-vs-genoa-prediction-team-news-lineups_609480.html"),
+ 'Paris FC|Angers':("El Paris FC, 3.º e invicto en casa, recibe a un Angers con 3 goles en sus últimos 5 partidos","Sports Mole",_SM+"paris-fc/preview/paris-fc-vs-angers-prediction-team-news-lineups_609533.html"),
+ 'Augsburg|Mainz':("El Augsburg, 7 jornadas sin ganar, ante un Mainz que encadena tres derrotas","Sports Mole",_SM+"augsburg/preview/augsburg-vs-mainz-prediction-team-news-lineups_609502.html"),
+ 'Huachipato|Concepcion':("Huachipato, sin ganar en tres partidos, recibe a un Concepción con dos triunfos seguidos","Al Aire Libre","https://www.alairelibre.cl/futbol/campeonato-nacional/huachipato-vs-deportes-concepcion-horario-donde-ver-liga-de-primera-2026/"),
+ 'Racing de Santander|Real Sociedad':("La Real, 5.ª, visita El Sardinero ante un Racing que remontó en Málaga","footballpredictions.com",_FP+"primeradivisionpredictions/racing-santander-vs-real-sociedad-prediction-22-11-2026/"),
+ 'Go Ahead Eagles|Fortuna Sittard':("Go Ahead (8.º, 27 goles en contra) recibe a un Sittard con seis partidos sin perder","footballpredictions.com",_FP+"netherlands-eredivisie-predictions/go-ahead-eagles-vs-sittard-prediction-22-11-2026/"),
+ 'Lorient|Rennes':("La mejor defensa del Lorient ante un Rennes que encajó 4 o más en sus tres últimas salidas","Sports Mole",_SM+"lorient/preview/lorient-vs-rennes-prediction-team-news-lineups_609529.html"),
+ 'Liverpool|Manchester United':("Pochettino debuta en Anfield con un United 18.º y ocho jornadas sin ganar","footballpredictions.com",_FP+"premierleaguepredictions/liverpool-vs-manchester-united-prediction-22-11-2026/"),
+ 'Werder Bremen|Hamburger SV':("Nordderby: Füllkrug llega con 9 goles y el Werder sigue invicto en casa","Sports Mole",_SM+"werder-bremen/preview/werder-bremen-vs-hamburger-sv-prediction-team-news-lineups_609545.html"),
+ 'Manta|Delfín':("Clásico manabita en el Jocay: Manta y Delfín, cara a cara por la permanencia","El Diario","https://www.eldiario.ec/deportes/clasico-mantense-raul-duarte-y-juan-carlos-leon-cara-a-cara-por-la-permanencia-en-ligapro-18112026"),
+ 'AC Milan|Frosinone':("El Milan, con cuatro victorias en cinco jornadas, recibe a un Frosinone que concede 2,5 goles por partido","Sports Mole",_SM+"ac-milan/preview/ac-milan-vs-frosinone-prediction-team-news-lineups_609496.html"),
+ 'Osasuna|Málaga':("El Málaga, colista sin ganar y con 23 goles en contra, visita El Sadar","footballpredictions.com",_FP+"primeradivisionpredictions/osasuna-vs-malaga-prediction-22-11-2026/"),
+ 'Athletico-PR|Remo':("El Remo, penúltimo, desciende si no gana en la Arena da Baixada","Paraná Shop","https://www.paranashop.com.br/post/athletico-x-remo-pre-jogo-furacao-recebe-o-vice-lanterna-no-domingo-22-11"),
+ 'Rosario Central|Gimnasia Mendoza':("Central y Gimnasia de Mendoza se cruzan en octavos por primera vez en 44 años","La Capital","https://www.lacapital.com.ar/ovacion/rosario-central-vs-gimnasia-mendoza-el-clausura-hora-canal-y-posibles-formaciones-n10293281.html"),
+ 'Orense|Mushuc Runa':("Orense recibe a Mushuc Runa en Machala en un duelo clave por la permanencia","Diario Correo","https://diariocorreo.com.ec/141841/deportes/orense-recibe-a-mushuc-runa-en-un-duelo-clave-por-la-permanencia"),
+ 'Atalanta|Inter':("La Atalanta lleva 15 duelos sin ganar al Inter, que recupera a Lautaro","Sports Mole",_SM+"atalanta-bc/preview/atalanta-vs-inter-milan-prediction-team-news-lineups_609517.html"),
+ 'Marseille|Le Mans':("El Marsella encadena cinco victorias y recibe a un Le Mans que no gana hace dos meses","Sports Mole",_SM+"marseille/preview/marseille-vs-le-mans-prediction-team-news-lineups_609538.html"),
+ 'Getafe|Atlético de Madrid':("El Atlético, 3.º y con cuatro victorias seguidas fuera, visita a un Getafe sin Gudelj","footballpredictions.com",_FP+"primeradivisionpredictions/getafe-vs-atletico-madrid-prediction-22-11-2026/"),
+ 'Sporting Cristal|Cienciano':("Cristal debe ganarle a Cienciano para pelear el Clausura en la última fecha","Líbero","https://libero.pe/futbol-peruano/sporting-cristal/2026/11/21/hora-juega-sporting-cristal-vs-cienciano-canal-de-transmision-en-vivo-donde-ver-partido-de-liga-1-clausura-1807638"),
+ 'Sport Huancayo|Universitario':("Huancayo, líder, gana el Clausura si vence a una U sin Lapadula","365Scores","https://www.365scores.com/es/news/asi-llega-universitario-a-huancayo-liga/"),
+ 'Colo-Colo|U. Catolica':("Colo-Colo, ya campeón, recibe sin Correa ni Aquino a una UC que pelea el cupo Chile 2","RedGol","https://redgol.cl/colocolo/colo-colo-tiene-cuatro-bajas-para-el-clasico-con-universidad-catolica"),
+ 'Fluminense|Mirassol':("El Fluminense, 4.º y con cuatro triunfos en cinco, recibe al Mirassol en el Maracaná","Fútbol Total","https://futboltotal.futbol/partido/fluminense-vs-mirassol-brasileirao-2026-11-22"),
+ 'LDU Quito|Aucas':("Superclásico sin hinchas de Aucas en el Rodrigo Paz; en la ida empataron 1-1","Primicias","https://www.primicias.ec/deportes/ligapro/liga-de-quito/liga-quito-ldu-prohibicion-entrada-hinchas-aucas-superclasico-137291/"),
+ 'River Plate|Lanus':("River, sin Montiel ni Aníbal Moreno, ante un Lanús que le ganó 5 de los últimos 6 cruces","Río Negro","https://www.rionegro.com.ar/deportes/river-vs-lanus-por-los-octavos-de-final-del-clausura-formaciones-hora-y-tv-4807875/"),
+ 'Bragantino|Vasco da Gama':("Bragantino y Vasco, igualados a 47 puntos; el Vasco ganó 4 de sus últimos 5","Fútbol Total","https://futboltotal.futbol/partido/rb-bragantino-vs-vasco-da-gama-brasileirao-2026-11-22"),
+ 'Guadalajara|Cruz Azul':("Chivas y Cruz Azul se juegan el liderato en el Akron en la última jornada","Nación Fútbol","https://www.nacionfutbol.com.mx/liga-mx/gabriel-milito-le-pone-un-si-es-posible-a-cruz-azul-el-verdugo-de-sus-dos-liguillas-20261121.html"),
+ 'D. Limache|La Serena':("Limache, 4.º, recibe a La Serena, que le ganó 4-1 en la ida, con la Sudamericana en juego","Al Aire Libre","https://www.alairelibre.cl/futbol/campeonato-nacional/deportes-limache-vs-la-serena-horario-donde-ver-liga-de-primera-2026/"),
+ 'Instituto Cordoba|Huracan':("Instituto, 1.º de su zona y con cinco partidos sin perder, recibe a Huracán en el Kempes","El Periódico","https://el-periodico.com.ar/deportes/liga-profesional--instituto-recibe-a-huracan-en-el-kempes-por-los-octavos-de-final_a6b0232199e41dc7ceeed82a1"),
+ 'Querétaro|Necaxa':("Querétaro, con cinco derrotas seguidas, recibe a un Necaxa 17.º","Fútbol Total","https://futboltotal.futbol/partido/club-queretaro-vs-necaxa-liga-mx-2026-11-23"),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Liverpool|Manchester United','Atalanta|Inter','LDU Quito|Aucas','Sport Huancayo|Universitario']
+COL.update({'Twente':'#d50032','Brighton':'#0057b8','Mainz':'#c3141e','Racing de Santander':'#00843d','Málaga':'#5ba4d8','Mushuc Runa':'#c8102e','Atlético de Madrid':'#cb3524','Colo-Colo':'#f2f2f2','Querétaro':'#1d3f8f','Go Ahead Eagles':'#e30613','Fortuna Sittard':'#f7d117'})
+ACIERTOS=[
+ ("FC Utrecht vs Cambuur","2-3","92 % · partido del día (sáb 21)","Sporza","https://sporza.be/nl/sport/voetbal/~3338980/"),
+ ("NEC vs PSV","1-4","92 % · sáb 21","Sporza","https://sporza.be/nl/sport/voetbal/~3338884/"),
+ ("Inter Miami vs Columbus Crew","0-3","91 % · sáb 21","ESPN","https://www.espn.com/soccer/report/_/gameId/401933739"),
+ ("Feyenoord vs Excelsior","2-3","88 % · sáb 21","Sporza","https://sporza.be/nl/sport/voetbal/~3338941/"),
+ ("Union Berlin vs RB Leipzig","1-5","84 % · sáb 21","Bundesliga.com","https://www.bundesliga.com/de/bundesliga/spieltag/2026-2027/10"),
+]
+LLEGAN={
+ 'Go Ahead Eagles|Fortuna Sittard':["Go Ahead en casa: 14 goles a favor y 8 en contra en 5 partidos (4,4 goles por partido)","Sittard fuera: 12 a favor y 9 en contra en 6 partidos (3,5 goles por partido)","Go Ahead promedia 2,0 goles a favor y 2,3 en contra en 12 jornadas; Sittard lleva 6 partidos oficiales sin perder","Fuente: SoccerNews (tablas) y kickoff.co.uk / Sports Mole (previa)"],
+ 'Twente|Willem II':["Twente en casa: 12 a favor y 7 en contra en 6 partidos","Willem II fuera: 6 a favor y 23 en contra en 6 partidos (4,8 goles por partido)","Willem II es colista sin ganar (11-40) y viene de perder 0-7 con el PSV; Weghorst lleva 9 goles","Fuente: SoccerNews (tablas) y footballpredictions.com (previa)"],
+ 'Sparta Rotterdam|AZ':["Sparta en casa: 9 a favor y 14 en contra en 6 partidos (3,8 goles por partido)","AZ fuera: 11 a favor y 8 en contra en 6 partidos","El Sparta ya encajó 29 goles; el AZ ganó 4-3 al Groningen antes del parón","Fuente: SoccerNews (tablas) y footballpredictions.com (previa)"],
+ 'Augsburg|Mainz':["Augsburg en casa: 9 a favor y 7 en contra en 5 partidos","Mainz fuera: 11 a favor y 7 en contra en 4 partidos (4,5 goles por partido)","El Augsburg encajó 2 o más goles en 6 de sus últimos 7 partidos de liga","Fuente: SoccerNews / Sports Mole (tablas y previa)"],
+}

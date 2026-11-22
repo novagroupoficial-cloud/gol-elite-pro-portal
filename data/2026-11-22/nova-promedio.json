@@ -1,0 +1,516 @@
+{
+ "fecha": "2026-11-22",
+ "sellado": "2026-11-22 09:10 ECU",
+ "orden": "por promedio de goles (propuesta Kaizen 22-nov, en medición)",
+ "partidos": {
+  "Go Ahead Eagles|Fortuna Sittard": {
+   "o15": 8,
+   "o25": 6,
+   "prom": 3.4,
+   "ultimos5_local": [
+    [
+     0,
+     1
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     2,
+     2
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/go-ahead-eagles-vs-fortuna-sittard-eredivisie-2026-11-22"
+  },
+  "Racing de Santander|Real Sociedad": {
+   "o15": 9,
+   "o25": 6,
+   "prom": 2.8,
+   "ultimos5_local": [
+    [
+     1,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     6
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/racing-santander-vs-real-sociedad-la-liga-2026-11-22"
+  },
+  "Werder Bremen|Hamburger SV": {
+   "o15": 8,
+   "o25": 6,
+   "prom": 3.2,
+   "ultimos5_local": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     2
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/werder-bremen-vs-hamburger-sv-bundesliga-2026-11-22",
+   "nota": "HSV incluye amistoso 1-1 Hajduk (15-nov) tal como lo lista la fuente"
+  },
+  "AC Milan|Frosinone": {
+   "o15": 9,
+   "o25": 6,
+   "prom": 4.0,
+   "ultimos5_local": [
+    [
+     1,
+     2
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     0,
+     2
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     4,
+     2
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/ac-milan-vs-frosinone-serie-a-2026-11-22"
+  },
+  "Atalanta|Inter": {
+   "o15": 9,
+   "o25": 6,
+   "prom": 3.2,
+   "ultimos5_local": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     4,
+     4
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     2,
+     0
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/atalanta-vs-inter-serie-a-2026-11-22"
+  },
+  "Marseille|Le Mans": {
+   "o15": 8,
+   "o25": 4,
+   "prom": 2.7,
+   "ultimos5_local": [
+    [
+     1,
+     2
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/marseille-vs-le-mans-ligue-1-2026-11-22"
+  },
+  "Lorient|Rennes": {
+   "o15": 6,
+   "o25": 4,
+   "prom": 2.3,
+   "ultimos5_local": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     2
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     2,
+     2
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/lorient-vs-rennes-ligue-1-2026-11-22"
+  },
+  "Liverpool|Manchester United": {
+   "o15": 9,
+   "o25": 6,
+   "prom": 3.7,
+   "ultimos5_local": [
+    [
+     1,
+     3
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     4,
+     4
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/liverpool-vs-manchester-united-premier-league-2026-11-22"
+  },
+  "Guadalajara|Cruz Azul": {
+   "o15": 8,
+   "o25": 6,
+   "prom": 3.2,
+   "ultimos5_local": [
+    [
+     1,
+     1
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     3,
+     2
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     5,
+     0
+    ]
+   ],
+   "fuente": "https://gidstats.com/football/liga-mx/2026-11-22-1551045-guadalajara-chivas-vs-cruz-azul/"
+  },
+  "Chicago Fire|Charlotte FC": {
+   "o15": 9,
+   "o25": 9,
+   "prom": 4.6,
+   "ultimos5_local": [
+    [
+     3,
+     4
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     3,
+     3
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     2,
+     2
+    ]
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/mls/chicago-fire-vs-charlotte-fc_game_263317.html",
+   "nova_gol_chat": {
+    "over15": 87.3,
+    "over25": 68.3,
+    "marcador": "1-1",
+    "categoria": "GOLES ESTÁNDAR",
+    "sellado": "2026-11-22 09:10 ECU",
+    "nota": "playoffs MLS; no estaba en la rutina"
+   }
+  }
+ }
+}

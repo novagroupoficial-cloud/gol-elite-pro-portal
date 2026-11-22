@@ -1,4 +1,4 @@
-# Tablas casa/fuera — miércoles 18-nov-2026 (BRA ValorFinal tras 34ª + PER fecha 17 parcial; bloque MIE18 al final) · antes: lunes 2-nov-2026 (bloque DOM01 con el domingo 1-nov) · antes: miércoles 21-oct-2026 (bloque MAR20 con el martes 20 y Cincinnati-Columbus) · antes: martes 20-oct-2026 (bloque LUN19 con el lunes 19 y Monterrey-Pachuca) · antes: lunes 19-oct-2026 (antes de los partidos del día, incluye todo hasta el domingo 18-oct; bloque DOM18 al final): equipo: (PJ, GF, GC)
+# Tablas casa/fuera — domingo 22-nov-2026 (bloque DOM22 al final: vie 20 y sáb 21-nov) · antes: miércoles 18-nov-2026 (BRA ValorFinal tras 34ª + PER fecha 17 parcial; bloque MIE18 al final) · antes: lunes 2-nov-2026 (bloque DOM01 con el domingo 1-nov) · antes: miércoles 21-oct-2026 (bloque MAR20 con el martes 20 y Cincinnati-Columbus) · antes: martes 20-oct-2026 (bloque LUN19 con el lunes 19 y Monterrey-Pachuca) · antes: lunes 19-oct-2026 (antes de los partidos del día, incluye todo hasta el domingo 18-oct; bloque DOM18 al final): equipo: (PJ, GF, GC)
 # Datos manuales (el Dashboard Gol 4.0 aún no expone /api/dia). Fuente de cada liga en su comentario.
 L={}
 # BRA: base tools/datos.py (valorfinal tabelas-por-recorte, tras 30ª rodada + Mirassol 2-0 Internacional 16/10) + 4 partidos del sábado 17/10 (31ª rodada): Botafogo 1-0 Chapecoense, Atletico MG 1-0 Coritiba, Athletico-PR 0-2 Palmeiras, São Paulo 1-0 Vasco da Gama. Fuentes: https://ptd.verdao.net/brasileirao-2026-resultados-de-sabado-pela-31a-rodada-classificacao-atualizada/ · https://www.supervasco.com/noticias/tabela-atualizada-da-serie-a-apos-os-jogos-deste-sabado-18-da-rodada-31-457982.html · https://365scores.com/pt-br/news/magazine/sao-paulo-vence-vasco-sobe-tabela-brasileirao · calendario https://valorfinal.com.br/brasileirao/2026/rodada-31 . Cotejada equipo por equipo (40/40 filas idénticas) con https://valorfinal.com.br/brasileirao/tabelas-por-recorte (lectura 18/10/2026 06:30). Corte: sábado 17/10/2026 incluido (pendientes 31ª: 4 de hoy + Corinthians–Vitória lun 19/10). 304 partidos · control: PJ 304=304, GF casa 465 = GC fuera 465, GC casa 342 = GF fuera 342
@@ -674,6 +674,27 @@ for _lg,_a,_ga,_gb,_b in SAB21:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 # ARG, COL y CHI: se mantienen las tablas previas (COL corte vie 13-nov, 183 PJ: faltan 7 partidos de la fecha 19; CHI corte 2-nov, 202 PJ). Datos verificados pero con corte anterior: anotado en fuente_datos.
+
+# DOM22 (rutina 22-nov-2026): se suman los partidos de liga del vie 20 y sáb 21-nov con fuente (auditoría del 21 + jornadas completas).
+# ENG J11 (sin partido el viernes): sportschau.de · ESP J13: t-online.de / laliga.com · ITA J12 (sin viernes): fantacalcio.it / t-online.de
+# GER J10: bundesliga.com/de/bundesliga/spieltag/2026-2027/10 · NED J13 (sin viernes): sporza.be · FRA J11 (Troyes–Le Havre ya estaba): sportschau.de / t-online.de
+# BRA 36ª (3 del sábado): ibandce / ESPN · ECU fase final fecha 7 (vie+sáb): elcomercio / primicias / extra.ec · PER: diariocorreo · MEX J17 (vie+sáb): ESPN / Heraldo / ClaroSports
+DOM22=[
+ ('ENG','Manchester City',1,1,'Fulham'),('ENG','Aston Villa',0,0,'Sunderland'),('ENG','Bournemouth',2,0,'Nottingham Forest'),('ENG','Chelsea',1,4,'Leeds United'),('ENG','Coventry City',3,2,'Crystal Palace'),('ENG','Tottenham',2,0,'Ipswich Town'),('ENG','Newcastle',2,2,'Arsenal'),
+ ('ESP','Athletic Club',0,1,'Espanyol'),('ESP','Alavés',3,1,'Deportivo La Coruña'),('ESP','Rayo Vallecano',0,1,'Valencia'),('ESP','Sevilla',1,1,'Real Betis'),('ESP','Real Madrid',2,1,'Celta de Vigo'),
+ ('ITA','Como',2,0,'Cagliari'),('ITA','Lazio',3,0,'Lecce'),('ITA','Parma',1,5,'Roma'),('ITA','Napoli',1,0,'Torino'),
+ ('GER','Bayern Munich',1,1,'FC Koln'),('GER','Bayer Leverkusen',4,0,'Paderborn'),('GER','Borussia Monchengladbach',0,1,'Borussia Dortmund'),('GER','Eintracht Frankfurt',1,0,'Hoffenheim'),('GER','Union Berlin',1,5,'RB Leipzig'),('GER','Elversberg',0,1,'Freiburg'),('GER','Schalke 04',0,0,'VfB Stuttgart'),
+ ('NED','NEC',1,4,'PSV'),('NED','Feyenoord',2,3,'Excelsior'),('NED','FC Utrecht',2,3,'Cambuur'),('NED','Groningen',1,3,'Heerenveen'),('NED','Telstar',1,3,'PEC Zwolle'),
+ ('FRA','Nice',2,3,'Paris Saint-Germain'),('FRA','Lille',0,1,'Lyon'),('FRA','Lens',1,1,'Toulouse'),('FRA','Strasbourg',0,1,'Brest'),('FRA','Monaco',1,1,'Auxerre'),
+ ('BRA','Palmeiras',1,1,'Flamengo'),('BRA','Bahia',0,1,'Coritiba'),('BRA','Chapecoense',1,2,'Cruzeiro'),
+ ('ECU','Independiente del Valle',0,1,'Macará'),('ECU','Técnico Universitario',2,0,'Deportivo Cuenca'),('ECU','Universidad Católica',0,1,'Barcelona SC'),
+ ('PER','Alianza Lima',5,0,'FC Cajamarca'),
+ ('MEX','Puebla',1,1,'Atlético San Luis'),('MEX','Juárez',3,3,'Atlas'),('MEX','Tijuana',1,0,'Atlante'),('MEX','Pachuca',2,0,'Toluca'),('MEX','Santos Laguna',1,2,'León'),('MEX','Pumas UNAM',0,2,'Monterrey'),('MEX','Tigres UANL',1,0,'América'),
+]
+for _lg,_a,_ga,_gb,_b in DOM22:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+# ARG y CHI: se mantienen las tablas previas verificadas (ARG 225 PJ; CHI corte 2-nov, 202 PJ): datos con corte anterior, anotado en fuente_datos. COL sin partidos hoy.
 
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():

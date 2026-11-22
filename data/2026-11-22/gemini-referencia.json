@@ -1,0 +1,52 @@
+{
+ "fecha": "2026-11-22",
+ "registrado": "2026-11-22 09:15 ECU",
+ "origen": "Top 5 de Gemini enviado por Marco (el 5.º llegó incompleto)",
+ "partidos": [
+  {
+   "local": "Liverpool",
+   "visita": "Manchester United",
+   "hora": "11:30",
+   "o15": 10,
+   "o25": 8,
+   "prom": 3.6,
+   "categoria_gemini": "ÉLITE 95"
+  },
+  {
+   "local": "Atalanta",
+   "visita": "Inter",
+   "hora": "14:45",
+   "o15": 10,
+   "o25": 7,
+   "prom": 3.3,
+   "categoria_gemini": "ÉLITE 95"
+  },
+  {
+   "local": "Hull City",
+   "visita": "Brighton",
+   "hora": "09:00",
+   "o15": 9,
+   "o25": 7,
+   "prom": 3.1,
+   "categoria_gemini": "PLATINO"
+  },
+  {
+   "local": "Racing de Santander",
+   "visita": "Real Sociedad",
+   "hora": "10:15",
+   "o15": 9,
+   "o25": 6,
+   "prom": 2.9,
+   "categoria_gemini": "PLATINO"
+  },
+  {
+   "local": "Colo-Colo",
+   "visita": "U. Catolica",
+   "hora": "16:00",
+   "o15": 9,
+   "o25": 6,
+   "prom": null,
+   "categoria_gemini": null
+  }
+ ]
+}

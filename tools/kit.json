@@ -1,31 +1,21 @@
 {
- "local": "Go Ahead Eagles",
- "fecha_larga": "Domingo 22 de noviembre de 2026",
- "desde": "05:38",
+ "local": "Monza",
+ "fecha_larga": "Lunes 23 de noviembre de 2026",
+ "desde": "05:37",
  "contexto": [
-  "Go Ahead es 8.º y encaja 2,3 goles por partido (24 a favor y 27 en contra en 12 jornadas).",
-  "Fortuna Sittard lleva 6 partidos oficiales sin perder (footballpredictions.com / Sports Mole)."
+  "Monza (18.º) y Fiorentina (15.º) llevan 25 goles en contra cada uno en 11 jornadas.",
+  "Monza perdió sus últimos 4 de liga; la Fiorentina viene de 2-2, 4-2 y 2-2 (footballpredictions.com).",
+  "En 6 de los últimos 7 Monza–Fiorentina marcaron los dos equipos."
  ],
  "auditoria": {
   "encabezado": "Así nos fue ayer",
-  "titulo": "Sábado 21 · 14 ligas · 48 partidos con fuente",
+  "titulo": "Domingo 22 · 12 ligas · 36 partidos con fuente",
   "tiles": [
-   ["30/42", "Partidos de 70 % o más con 2 goles o más (Over 1.5)", "verde"],
-   ["1/1", "Partido del día (Utrecht 2-3 Cambuur)", "verde"],
-   ["3/3", "GOLES PLATINO (90 a 94 %)", "verde"],
-   ["4/10", "Over 2.5 con señal (3/3 fuertes)", "dor"]
+   ["25/30", "Partidos de 70 % o más con 2 goles o más (Over 1.5)", "verde"],
+   ["0/1", "Partido del día (Go Ahead 0-1 Sittard)", "dor"],
+   ["8/9", "Over 2.5 con señal (todas moderadas)", "verde"],
+   ["17/18", "GOLES ESTÁNDAR (80 a 89 %)", "verde"]
   ],
-  "nota": "Acertaron Utrecht 2-3 Cambuur (92 % · 5 goles), NEC 1-4 PSV (92 % · 5) e Inter Miami 0-3 Columbus (91 % · 3). Fallaron 12, casi todos por un gol: Elversberg 0-1 Freiburg (88 % · 1), Tigres 1-0 América (87 % · 1), Frankfurt 1-0 Hoffenheim (87 % · 1). Fuentes: Sporza, Bundesliga.com, ESPN."
- },
- "acierto": {
-  "encabezado": "Partido del día de ayer",
-  "fecha": "Sábado 21",
-  "local": "FC Utrecht",
-  "visita": "Cambuur",
-  "liga": "Eredivisie · jornada 13",
-  "resultado": "2-3",
-  "over15": 91.9,
-  "goles": "5",
-  "sellado": "06:12 ECU del 21-nov"
+  "nota": "Acertaron Twente 2-1 Willem II (90 % · 3 goles, marcador exacto), Sparta 1-5 AZ (89 % · 6) y Atalanta 4-4 Inter (84 % · 8). Fallaron 5: el partido del día Go Ahead 0-1 Sittard (91 % · 1 gol), Guadalajara 1-0 Cruz Azul (84 % · 1) y Huachipato 0-0 Concepción (79 % · 0). Fuentes: sportschau, Sports Mole, Fantacalcio."
  }
 }

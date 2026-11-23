@@ -899,5 +899,42 @@
    "Monaco 1-1 Auxerre y Lens 1-1 Toulouse (marcadores exactos 1-1)"
   ],
   "partidos": 48
+ },
+ {
+  "fecha": "2026-11-22",
+  "titulo": "Domingo 22 de noviembre de 2026",
+  "imagen": "/historial/2026-11-22.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "1/2",
+    "GOLES PLATINO (90 a 94 %)"
+   ],
+   [
+    "25/30",
+    "Over 1.5 de 70 % o más (83 %)"
+   ],
+   [
+    "8/9",
+    "Over 2.5 con señal (89 %)"
+   ],
+   [
+    "4/36",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Fallaron 5 Over 1.5 de 70 % o más: el partido del día, Go Ahead Eagles 0-1 Fortuna Sittard (dimos Over 1.5 al 90,6 % · hubo 1 gol), Guadalajara 1-0 Cruz Azul (84,2 % · 1 gol), Huachipato 0-0 Concepción (79,0 % · 0 goles), Bragantino 1-0 Vasco da Gama (76,4 % · 1 gol) y Fluminense 1-0 Mirassol (74,5 % · 1 gol). Over 2.5 con señal: 8 de 9 (todas moderadas; solo falló Go Ahead–Sittard). GOLES PLATINO 1/2, GOLES ESTÁNDAR 17/18 y GOLES OPTIMISTAS 11/16. 36 partidos auditados con fuente.",
+  "aciertos_destacados": [
+   "Twente 2-1 Willem II (Over 1.5 al 90,4 % · hubo 3 goles · marcador exacto 2-1)",
+   "Sparta Rotterdam 1-5 AZ (Over 1.5 al 88,7 % · hubo 6 goles)",
+   "Augsburg 3-1 Mainz (Over 1.5 al 87,9 % · hubo 4 goles)",
+   "Racing de Santander 3-2 Real Sociedad (Over 1.5 al 87,5 % · hubo 5 goles)",
+   "AC Milan 5-1 Frosinone (Over 1.5 al 86,3 % · hubo 6 goles)",
+   "Atalanta 4-4 Inter (Over 1.5 al 84,1 % · hubo 8 goles)"
+  ],
+  "partidos": 36
  }
 ]

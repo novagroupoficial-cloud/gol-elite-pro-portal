@@ -1382,3 +1382,32 @@ LLEGAN={
  'Sparta Rotterdam|AZ':["Sparta en casa: 9 a favor y 14 en contra en 6 partidos (3,8 goles por partido)","AZ fuera: 11 a favor y 8 en contra en 6 partidos","El Sparta ya encajó 29 goles; el AZ ganó 4-3 al Groningen antes del parón","Fuente: SoccerNews (tablas) y footballpredictions.com (previa)"],
  'Augsburg|Mainz':["Augsburg en casa: 9 a favor y 7 en contra en 5 partidos","Mainz fuera: 11 a favor y 7 en contra en 4 partidos (4,5 goles por partido)","El Augsburg encajó 2 o más goles en 6 de sus últimos 7 partidos de liga","Fuente: SoccerNews / Sports Mole (tablas y previa)"],
 }
+
+# ===== lunes 23-nov-2026 (rutina diaria, sellado 05:37 ECU) =====
+_FP='https://footballpredictions.com/footballpredictions/'
+LINK={
+ 'Monza|Fiorentina':("El Monza, 18.º y con cuatro derrotas seguidas, recibe a una Fiorentina que está dos puntos arriba","footballpredictions.com",_FP+"serieapredictions/monza-vs-fiorentina-prediction-23-11-2026/"),
+ 'Brentford|Everton':("El Brentford, sin Igor Thiago (expulsado), recibe a un Everton que ganó sus últimos tres","Brentford FC","https://www.brentfordfc.com/en/news/match-previews-brentford-v-everton-premier-league-23-11-2026"),
+ 'Levante|Elche':("Duelo directo por la permanencia: Levante y Elche, separados por un punto","Comuniate","https://www.comuniate.com/noticias/39203/levante-elche-previa-alineaciones-probables-y-consejos-fantasy-jornada-13-de-laliga"),
+ 'Gimnasia LP|Newells Old Boys':("Octavos del Clausura: Newell's llega al Bosque con una sola victoria en 8 salidas","La Capital","https://www.lacapital.com.ar/newells-no-es-favorito-contra-gimnasia-pero-tiene-que-gritar-victoria-el-bosque-platense-n10292536.html"),
+ 'Internacional|Vitória':("El Inter, 17.º y en descenso, recibe al Vitória, que está tres puntos arriba","Valor Final","https://valorfinal.com.br/brasileirao/2026/jogos/internacional-x-vitoria"),
+ 'Botafogo|São Paulo':("El São Paulo, 12.º, llega con cuatro partidos sin ganar ante un Botafogo dos puntos abajo","Valor Final","https://valorfinal.com.br/brasileirao/2026/jogos/botafogo-x-sao-paulo"),
+ 'Santos|Grêmio':("El Grêmio, 18.º y en descenso, visita a un Santos que ya tiene la permanencia asegurada","Valor Final","https://valorfinal.com.br/brasileirao/2026/jogos/santos-x-gremio"),
+ 'St Louis City|Los Angeles FC':("Playoffs MLS: el St. Louis, 3.º del Oeste, recibe a un LAFC que llega como 6.º","LAFC.com","https://www.lafc.com/news/preview-lafc-st-louis-city-sc-2026-mls-cup-playoffs-round-one-best-of-3-series-game-1-november-23"),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Brentford|Everton','St Louis City|Los Angeles FC','Gimnasia LP|Newells Old Boys']
+COL.update({'Fiorentina':'#5b2a86','Brentford':'#e30613','Everton':'#003399','Elche':'#0a7a3d','Gimnasia LP':'#1d3f8f','Internacional':'#c8102e','Vitória':'#c8102e','São Paulo':'#f2f2f2','Grêmio':'#0d80bf','St Louis City':'#d22630','Los Angeles FC':'#141414'})
+ACIERTOS=[
+ ("Twente vs Willem II","2-1","90 % · dom 22 · marcador exacto","Sports Mole","https://www.sportsmole.co.uk/football/eredivisie/fc-twente-vs-willem-ii_game_263230.html"),
+ ("Sparta Rotterdam vs AZ","1-5","89 % · dom 22","Sports Mole","https://www.sportsmole.co.uk/football/eredivisie/sparta-rotterdam-vs-az_game_263250.html"),
+ ("Augsburg vs Mainz","3-1","88 % · dom 22","Bundesliga.com","https://www.bundesliga.com/de/bundesliga/spieltag/2026-2027/10/fc-augsburg-vs-1-fsv-mainz-05/liveticker"),
+ ("Racing de Santander vs Real Sociedad","3-2","88 % · dom 22","t-online","https://www.t-online.de/sport/live-ticker/fussball/la-liga/sdc_fm-59029/osasuna-malaga-cf-la-liga-im-liveticker.html"),
+ ("AC Milan vs Frosinone","5-1","86 % · dom 22","Fantacalcio","https://www.fantacalcio.it/serie-a/calendario/12/2026-27/milan-frosinone/18070"),
+ ("Atalanta vs Inter","4-4","84 % · dom 22","Fantacalcio","https://www.fantacalcio.it/serie-a/calendario/12/2026-27/atalanta-inter/18065"),
+]
+LLEGAN={
+ 'Monza|Fiorentina':["Monza en casa: 9 goles a favor y 9 en contra en 5 partidos (3,6 goles por partido)","Fiorentina fuera: 10 a favor y 12 en contra en 5 partidos (4,4 goles por partido)","Monza perdió sus últimos 4 de liga; la Fiorentina viene de 2-2, 4-2 y 2-2","Fuente: tablas casa/fuera del portal y footballpredictions.com (previa)"],
+ 'Levante|Elche':["Levante en casa: 13 a favor y 12 en contra en 5 partidos (5 goles por partido)","Elche fuera: 10 a favor y 6 en contra en 6 partidos","Duelo directo por la permanencia: Levante 18.º (11 pts) y Elche 19.º (10 pts)","Fuente: tablas casa/fuera del portal y Comuniate (previa)"],
+ 'St Louis City|Los Angeles FC':["St. Louis en casa: 36 a favor y 23 en contra en 17 partidos (3,5 goles por partido)","LAFC fuera: 20 a favor y 22 en contra en 17 partidos","St. Louis encajó 10 goles en sus últimos 5; LAFC, 9 en los suyos","Fuente: tablas casa/fuera del portal, kickoff.co.uk y LAFC.com"],
+}

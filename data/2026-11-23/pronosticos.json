@@ -1,0 +1,258 @@
+[
+ {
+  "hora": "14:45",
+  "liga": "ITA",
+  "local": "Monza",
+  "visita": "Fiorentina",
+  "casa": [
+   5,
+   9,
+   9
+  ],
+  "fuera": [
+   5,
+   10,
+   12
+  ],
+  "HG": 1.66,
+  "AG": 1.5,
+  "lambda_local": 1.9,
+  "lambda_visita": 1.72,
+  "goles_esperados": 3.6,
+  "over15": 88.3,
+  "over25": 70.0,
+  "under25": 30.0,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "moderada",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+  "fuente_calendario": "fantacalcio.it, brentfordfc.com, gidstats, sport-flash, tribunadejundiai (CBF), mlssoccer.com, Libero.pe; SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py ITA (tabla del 22-nov + resultados del dom 22 del bloque DOM23, con fuente) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública"
+ },
+ {
+  "hora": "15:00",
+  "liga": "ENG",
+  "local": "Brentford",
+  "visita": "Everton",
+  "casa": [
+   5,
+   10,
+   3
+  ],
+  "fuera": [
+   5,
+   4,
+   5
+  ],
+  "HG": 1.56,
+  "AG": 1.18,
+  "lambda_local": 1.5,
+  "lambda_visita": 0.91,
+  "goles_esperados": 2.4,
+  "over15": 70.4,
+  "over25": 43.4,
+  "under25": 56.6,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+  "fuente_calendario": "fantacalcio.it, brentfordfc.com, gidstats, sport-flash, tribunadejundiai (CBF), mlssoccer.com, Libero.pe; SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py ENG (tabla del 22-nov + resultados del dom 22 del bloque DOM23, con fuente) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública"
+ },
+ {
+  "hora": "15:00",
+  "liga": "ESP",
+  "local": "Levante",
+  "visita": "Elche",
+  "casa": [
+   5,
+   13,
+   12
+  ],
+  "fuera": [
+   6,
+   10,
+   6
+  ],
+  "HG": 1.59,
+  "AG": 1.28,
+  "lambda_local": 1.63,
+  "lambda_visita": 1.7,
+  "goles_esperados": 3.3,
+  "over15": 85.2,
+  "over25": 64.6,
+  "under25": 35.4,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+  "fuente_calendario": "fantacalcio.it, brentfordfc.com, gidstats, sport-flash, tribunadejundiai (CBF), mlssoccer.com, Libero.pe; SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py ESP (tabla del 22-nov + resultados del dom 22 del bloque DOM23, con fuente) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública"
+ },
+ {
+  "hora": "15:00",
+  "liga": "ARG",
+  "local": "Gimnasia LP",
+  "visita": "Newells Old Boys",
+  "casa": [
+   7,
+   12,
+   7
+  ],
+  "fuera": [
+   7,
+   3,
+   5
+  ],
+  "HG": 1.24,
+  "AG": 1.06,
+  "lambda_local": 1.18,
+  "lambda_visita": 0.82,
+  "goles_esperados": 2.0,
+  "over15": 60.5,
+  "over25": 32.4,
+  "under25": 67.6,
+  "marcador": "1-0",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+  "fuente_calendario": "fantacalcio.it, brentfordfc.com, gidstats, sport-flash, tribunadejundiai (CBF), mlssoccer.com, Libero.pe; SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py ARG (tabla previa verificada, corte anterior: 225 PJ) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública"
+ },
+ {
+  "hora": "17:30",
+  "liga": "BRA",
+  "local": "Internacional",
+  "visita": "Vitória",
+  "casa": [
+   17,
+   22,
+   17
+  ],
+  "fuera": [
+   17,
+   12,
+   35
+  ],
+  "HG": 1.53,
+  "AG": 1.12,
+  "lambda_local": 1.62,
+  "lambda_visita": 0.9,
+  "goles_esperados": 2.5,
+  "over15": 72.5,
+  "over25": 46.0,
+  "under25": 54.0,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+  "fuente_calendario": "fantacalcio.it, brentfordfc.com, gidstats, sport-flash, tribunadejundiai (CBF), mlssoccer.com, Libero.pe; SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py BRA (tabla del 22-nov + resultados del dom 22 del bloque DOM23, con fuente) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública"
+ },
+ {
+  "hora": "18:00",
+  "liga": "BRA",
+  "local": "Botafogo",
+  "visita": "São Paulo",
+  "casa": [
+   17,
+   27,
+   22
+  ],
+  "fuera": [
+   17,
+   14,
+   26
+  ],
+  "HG": 1.53,
+  "AG": 1.12,
+  "lambda_local": 1.55,
+  "lambda_visita": 1.05,
+  "goles_esperados": 2.6,
+  "over15": 74.3,
+  "over25": 48.3,
+  "under25": 51.7,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+  "fuente_calendario": "fantacalcio.it, brentfordfc.com, gidstats, sport-flash, tribunadejundiai (CBF), mlssoccer.com, Libero.pe; SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py BRA (tabla del 22-nov + resultados del dom 22 del bloque DOM23, con fuente) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública"
+ },
+ {
+  "hora": "19:00",
+  "liga": "BRA",
+  "local": "Santos",
+  "visita": "Grêmio",
+  "casa": [
+   17,
+   23,
+   21
+  ],
+  "fuera": [
+   17,
+   11,
+   26
+  ],
+  "HG": 1.53,
+  "AG": 1.12,
+  "lambda_local": 1.46,
+  "lambda_visita": 0.95,
+  "goles_esperados": 2.4,
+  "over15": 70.2,
+  "over25": 43.1,
+  "under25": 56.9,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+  "fuente_calendario": "fantacalcio.it, brentfordfc.com, gidstats, sport-flash, tribunadejundiai (CBF), mlssoccer.com, Libero.pe; SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py BRA (tabla del 22-nov + resultados del dom 22 del bloque DOM23, con fuente) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública"
+ },
+ {
+  "hora": "20:00",
+  "liga": "USA",
+  "local": "St Louis City",
+  "visita": "Los Angeles FC",
+  "casa": [
+   17,
+   36,
+   23
+  ],
+  "fuera": [
+   17,
+   20,
+   22
+  ],
+  "HG": 1.84,
+  "AG": 1.41,
+  "lambda_local": 1.7,
+  "lambda_visita": 1.29,
+  "goles_esperados": 3.0,
+  "over15": 80.8,
+  "over25": 57.4,
+  "under25": 42.6,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+  "fuente_calendario": "fantacalcio.it, brentfordfc.com, gidstats, sport-flash, tribunadejundiai (CBF), mlssoccer.com, Libero.pe; SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py USA (MLS temporada regular completa, 510 PJ) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública"
+ }
+]

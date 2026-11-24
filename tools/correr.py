@@ -1,15 +1,11 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — lunes 23-nov-2026 (rutina diaria 05:2x ECU). Calendario: fantacalcio, brentfordfc.com, gidstats, sport-flash, tribunadejundiai (CBF), mlssoccer.com, Libero.pe (CET −6 h; BRT/ART −2 h; ET −0). SportyTrader no accesible desde la rutina.
- ('14:45','ITA','Monza','Fiorentina'),
- ('15:00','ENG','Brentford','Everton'),
- ('15:00','ESP','Levante','Elche'),
- ('15:00','ARG','Gimnasia LP','Newells Old Boys'),
- ('17:30','BRA','Internacional','Vitória'),
- ('18:00','BRA','Botafogo','São Paulo'),
- ('19:00','BRA','Santos','Grêmio'),
- ('20:00','USA','St Louis City','Los Angeles FC'),
+P=[ # hora (Ecuador), liga, local, visita — martes 24-nov-2026 (rutina diaria 05:2x ECU). Calendario: valorfinal.com.br/brasileirao/2026/rodada-37 + CBF (18:00 BRT −2 h), publimetro.co/vanguardia (cuadrangulares fecha 2, hora COL = ECU), mlssoccer.com (22:00 ET = ECU). SportyTrader no accesible desde la rutina. Hoy no hay ligas europeas (jornada de Champions).
+ ('16:00','BRA','Chapecoense','Palmeiras'),
+ ('18:20','COL','Millonarios','Bucaramanga'),
+ ('20:30','COL','América de Cali','Deportivo Cali'),
+ ('22:00','USA','San Jose Earthquakes','Houston Dynamo'),
 ]
 out=[]
 for h,lg,a,b in P:

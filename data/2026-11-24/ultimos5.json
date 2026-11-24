@@ -1,0 +1,48 @@
+{
+ "fecha": "2026-11-24",
+ "nota": "Fase de medición Kaizen: no entra al modelo. Últimos 5 oficiales de cada equipo (más reciente primero); 'sin dato' cuando no se encontró. No se encontraron cuotas Over/Under 2.5 en fuentes abiertas.",
+ "partidos": {
+  "San Jose Earthquakes|Houston Dynamo": {
+   "local": [
+    "Minnesota 3-1 San Jose (F, 07-11)",
+    "San Jose 2-1 Real Salt Lake (C, 31-10)",
+    "San Jose 2-2 Colorado (C, 28-10)",
+    "Dallas 3-0 San Jose (F, 24-10)",
+    "San Jose 1-1 Nashville (C, 17-10)"
+   ],
+   "visita": [
+    "Houston 0-1 St. Louis (C, 07-11)",
+    "Portland 3-1 Houston (F, 01-11)",
+    "Seattle 0-1 Houston (F, 28-10)",
+    "Houston 0-0 Minnesota (C, 24-10)",
+    "Houston 2-2 Dallas (C, 17-10)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/san-jose-earthquakes/2026/fixtures-and-results.html · https://www.sportsmole.co.uk/football/houston-dynamo/2026/fixtures-and-results.html",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Chapecoense|Palmeiras": {
+   "local": [
+    "Chapecoense 1-2 Cruzeiro (C, 21-11)",
+    "Remo 2-0 Chapecoense (F, 18-11)",
+    "Chapecoense 0-2 Vasco (C, 14-11)",
+    "Chapecoense 1-2 Mirassol (C, 03-11)",
+    "Bragantino 3-0 Chapecoense (F, 28-10)"
+   ],
+   "visita": [
+    "Palmeiras 1-1 Flamengo (C, 21-11)",
+    "Cruzeiro 2-1 Palmeiras (F, 18-11)",
+    "Vasco 2-1 Palmeiras (F, Copa do Brasil, 08-11)",
+    "Palmeiras 6-1 Remo (C, 05-11)",
+    "Palmeiras 1-0 Vasco (C, Copa do Brasil, 01-11)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/chapecoense-sc-vs-palmeiras-brasileirao-2026-11-24",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  }
+ }
+}

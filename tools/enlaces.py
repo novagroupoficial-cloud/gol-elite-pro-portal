@@ -1411,3 +1411,25 @@ LLEGAN={
  'Levante|Elche':["Levante en casa: 13 a favor y 12 en contra en 5 partidos (5 goles por partido)","Elche fuera: 10 a favor y 6 en contra en 6 partidos","Duelo directo por la permanencia: Levante 18.º (11 pts) y Elche 19.º (10 pts)","Fuente: tablas casa/fuera del portal y Comuniate (previa)"],
  'St Louis City|Los Angeles FC':["St. Louis en casa: 36 a favor y 23 en contra en 17 partidos (3,5 goles por partido)","LAFC fuera: 20 a favor y 22 en contra en 17 partidos","St. Louis encajó 10 goles en sus últimos 5; LAFC, 9 en los suyos","Fuente: tablas casa/fuera del portal, kickoff.co.uk y LAFC.com"],
 }
+
+# ===== martes 24-nov-2026 (rutina diaria, sellado 05:48 ECU) =====
+LINK={
+ 'Chapecoense|Palmeiras':("Brasileirão, fecha 37: la Chapecoense, último y ya descendido, recibe al Palmeiras, 2.º","Valor Final","https://valorfinal.com.br/brasileirao/jogos/chapecoense-x-palmeiras"),
+ 'Millonarios|Bucaramanga':("Sin Cuadrado ni Mackalister Silva: las bajas de Millonarios para recibir al Bucaramanga en El Campín","Oronoticias","https://oronoticias.tv/deportes/sin-cuadrado-ni-mackalister-silva-las-bajas-de-millonarios-para-recibir-al-bucaramanga-en-el-campin/"),
+ 'América de Cali|Deportivo Cali':("Estas son las formaciones que tendrían América y Deportivo Cali para el clásico","El País (Cali)","https://www.elpais.com.co/deportes/america-de-cali/estas-serian-las-formaciones-titulares-del-america-y-deportivo-cali-que-tendrian-varias-novedades-para-el-clasico-de-este-martes-2345.html"),
+ 'San Jose Earthquakes|Houston Dynamo':("Playoffs MLS: las 5 claves del San José–Houston, primer partido de la serie","MLSsoccer.com","https://www.mlssoccer.com/playoffs/2026/news/san-jose-earthquakes-vs-houston-dynamo-5-biggest-storylines-for-western-conference-round-one"),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['San Jose Earthquakes|Houston Dynamo','América de Cali|Deportivo Cali','Chapecoense|Palmeiras','Millonarios|Bucaramanga']
+COL.update({'San Jose Earthquakes':'#0067b1','Houston Dynamo':'#f68712','Chapecoense':'#00843d','Palmeiras':'#006437','Millonarios':'#0a2a66','Bucaramanga':'#f6d11b','América de Cali':'#c8102e','Deportivo Cali':'#0b7a3a'})
+ACIERTOS=[
+ ("Monza vs Fiorentina","3-0","88 % · lun 23 · partido del día","Fantacalcio","https://www.fantacalcio.it/serie-a/calendario/12/2026-27/monza-fiorentina/18071"),
+ ("Levante vs Elche","1-1","85 % · lun 23 · marcador exacto","Diario de Alicante","https://diariodealicante.net/levante-elche-empate-requena-revivo-goleadores/"),
+ ("St. Louis City vs LAFC","3-2","81 % · lun 23","MLSsoccer.com","https://www.mlssoccer.com/news/st-louis-city-sc-hold-off-lafc-to-earn-historic-playoff-win"),
+ ("Botafogo vs São Paulo","1-1","74 % · lun 23 · marcador exacto","Gazeta Esportiva","https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/botafogo-x-sao-paulo-brasileirao-23-11-2026/"),
+ ("Internacional vs Vitória","2-5","73 % · lun 23","Internacional","https://internacional.com.br/noticias/masculino/inter-e-superado-no-beira-rio-1"),
+ ("Brentford vs Everton","4-0","70 % · lun 23","ESPN","https://www.espn.com/soccer/report/_/gameId/401879237"),
+]
+LLEGAN={
+ 'San Jose Earthquakes|Houston Dynamo':["San José en casa: 30 goles a favor y 26 en contra en 17 partidos (3,3 goles por partido)","Houston fuera: 24 a favor y 28 en contra en 17 partidos (3,1 goles por partido)","Preston Judd hizo 17 goles en la temporada regular; Guilherme, 16 goles y 10 asistencias para Houston","Fuente: tablas casa/fuera del portal (Sports Mole) y MLSsoccer.com (previa)"],
+}

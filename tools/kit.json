@@ -1,21 +1,47 @@
 {
- "local": "Monza",
- "fecha_larga": "Lunes 23 de noviembre de 2026",
- "desde": "05:37",
+ "local": "San Jose Earthquakes",
+ "fecha_larga": "Martes 24 de noviembre de 2026",
+ "desde": "05:48",
  "contexto": [
-  "Monza (18.º) y Fiorentina (15.º) llevan 25 goles en contra cada uno en 11 jornadas.",
-  "Monza perdió sus últimos 4 de liga; la Fiorentina viene de 2-2, 4-2 y 2-2 (footballpredictions.com).",
-  "En 6 de los últimos 7 Monza–Fiorentina marcaron los dos equipos."
+  "San José (4.º del Oeste) y Houston (5.º) abren su serie de playoffs al mejor de 3.",
+  "Preston Judd hizo 17 goles; Guilherme, 16 goles y 10 asistencias para Houston.",
+  "San José en casa: 3,3 goles por partido · Houston fuera: 3,1."
  ],
  "auditoria": {
   "encabezado": "Así nos fue ayer",
-  "titulo": "Domingo 22 · 12 ligas · 36 partidos con fuente",
+  "titulo": "Lunes 23 · 6 ligas · 8 partidos con fuente",
   "tiles": [
-   ["25/30", "Partidos de 70 % o más con 2 goles o más (Over 1.5)", "verde"],
-   ["0/1", "Partido del día (Go Ahead 0-1 Sittard)", "dor"],
-   ["8/9", "Over 2.5 con señal (todas moderadas)", "verde"],
-   ["17/18", "GOLES ESTÁNDAR (80 a 89 %)", "verde"]
+   [
+    "8/8",
+    "Partidos con 2 goles o más (Over 1.5)",
+    "verde"
+   ],
+   [
+    "1/1",
+    "Partido del día (Monza 3-0 Fiorentina)",
+    "verde"
+   ],
+   [
+    "1/1",
+    "Over 2.5 con señal (moderada)",
+    "verde"
+   ],
+   [
+    "2/8",
+    "Marcadores exactos (Levante 1-1 Elche y Botafogo 1-1 São Paulo)",
+    "dor"
+   ]
   ],
-  "nota": "Acertaron Twente 2-1 Willem II (90 % · 3 goles, marcador exacto), Sparta 1-5 AZ (89 % · 6) y Atalanta 4-4 Inter (84 % · 8). Fallaron 5: el partido del día Go Ahead 0-1 Sittard (91 % · 1 gol), Guadalajara 1-0 Cruz Azul (84 % · 1) y Huachipato 0-0 Concepción (79 % · 0). Fuentes: sportschau, Sports Mole, Fantacalcio."
+  "nota": "Acertaron Monza 3-0 Fiorentina (88 % · 3 goles), Levante 1-1 Elche (85 % · 2, marcador exacto), St. Louis 3-2 LAFC (81 % · 5) e Inter 2-5 Vitória (73 % · 7). Sin fallos en Over 1.5. Fuentes: Fantacalcio, Diario de Alicante, MLSsoccer.com, Internacional."
+ },
+ "acierto": {
+  "fecha": "lunes 23 de noviembre",
+  "local": "Monza",
+  "visita": "Fiorentina",
+  "liga": "Serie A · Italia",
+  "resultado": "3-0",
+  "over15": 88.3,
+  "goles": "3",
+  "sellado": "05:37 ECU del 23-nov"
  }
 }

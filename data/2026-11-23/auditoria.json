@@ -1,0 +1,252 @@
+{
+ "fecha": "2026-11-23",
+ "auditado": "2026-11-24 05:48 ECU (rutina diaria)",
+ "partidos": 8,
+ "terminados": 8,
+ "anulados": 0,
+ "pendientes": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   3,
+   3
+  ],
+  "GOLES OPTIMISTAS": [
+   5,
+   5
+  ],
+  "Total >=70": [
+   7,
+   7
+  ],
+  "Over 2.5 con señal >=65": [
+   1,
+   1
+  ],
+  "Marcadores exactos": [
+   2,
+   8
+  ],
+  "Menos de 70 (informativo)": [
+   1,
+   1
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   3,
+   3
+  ],
+  "GOLES OPTIMISTAS": [
+   5,
+   5
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   0,
+   0
+  ],
+  "moderada": [
+   1,
+   1
+  ]
+ },
+ "intervalo_wilson_95": {
+  "GOLES ESTÁNDAR": [
+   43.8,
+   100.0
+  ],
+  "GOLES OPTIMISTAS": [
+   56.6,
+   100.0
+  ],
+  "Total >=70": [
+   64.6,
+   100.0
+  ],
+  "Over 2.5 con señal >=65": [
+   20.7,
+   100.0
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Monza vs Fiorentina",
+  "over15": 88.3,
+  "resultado": "3-0",
+  "goles": 3,
+  "acierto": true,
+  "estado": "terminado",
+  "fuente": "https://www.fantacalcio.it/serie-a/calendario/12/2026-27/monza-fiorentina/18071"
+ },
+ "fallos_over15_70": [],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [
+  "Gimnasia LP 2-2 Newells Old Boys (60,5 %, menos de 70: no recomendado; hubo 4 goles)"
+ ],
+ "anulados_lista": [],
+ "pendientes_lista": [],
+ "nota": "Lunes 23-nov: Serie A J12 (Monza–Fiorentina), Premier J12 (Brentford–Everton), LaLiga J13 (Levante–Elche), octavos del Clausura argentino (Gimnasia LP–Newell's, auditado a los 90 minutos: 2-2; terminó 4-2 en el alargue), Brasileirão 36ª (3 partidos) y playoffs MLS ronda 1 juego 1 (St. Louis–LAFC). 8/8 resultados finales con fuente (fantacalcio, ESPN, Diario de Alicante, Los Andes, internacional.com.br, Gazeta Esportiva, TMC, mlssoccer.com). Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. Categorías con la escala del 17-oct sobre el porcentaje redondeado. Dashboard Gol 4.0 sin URL pública; no hubo resultados-en-vivo.json del refresco horario.",
+ "resultados": [
+  {
+   "hora": "14:45",
+   "liga": "ITA",
+   "local": "Monza",
+   "visita": "Fiorentina",
+   "resultado": "3-0",
+   "estado": "terminado",
+   "over15": 88.3,
+   "over25": 70.0,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.fantacalcio.it/serie-a/calendario/12/2026-27/monza-fiorentina/18071"
+  },
+  {
+   "hora": "15:00",
+   "liga": "ENG",
+   "local": "Brentford",
+   "visita": "Everton",
+   "resultado": "4-0",
+   "estado": "terminado",
+   "over15": 70.4,
+   "over25": 43.4,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.espn.com/soccer/report/_/gameId/401879237"
+  },
+  {
+   "hora": "15:00",
+   "liga": "ESP",
+   "local": "Levante",
+   "visita": "Elche",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 85.2,
+   "over25": 64.6,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://diariodealicante.net/levante-elche-empate-requena-revivo-goleadores/"
+  },
+  {
+   "hora": "15:00",
+   "liga": "ARG",
+   "local": "Gimnasia LP",
+   "visita": "Newells Old Boys",
+   "resultado": "2-2",
+   "estado": "terminado",
+   "over15": 60.5,
+   "over25": 32.4,
+   "marcador": "1-0",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.losandes.com.ar/deportes/clausura-gimnasia-goleo-4-2-newells-y-se-metio-los-ocho-mejores-n6015328",
+   "nota": "2-2 a los 90 minutos (4-2 en el alargue); se audita el resultado de los 90 minutos"
+  },
+  {
+   "hora": "17:30",
+   "liga": "BRA",
+   "local": "Internacional",
+   "visita": "Vitória",
+   "resultado": "2-5",
+   "estado": "terminado",
+   "over15": 72.5,
+   "over25": 46.0,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+   "goles": 7,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://internacional.com.br/noticias/masculino/inter-e-superado-no-beira-rio-1"
+  },
+  {
+   "hora": "18:00",
+   "liga": "BRA",
+   "local": "Botafogo",
+   "visita": "São Paulo",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 74.3,
+   "over25": 48.3,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/botafogo-x-sao-paulo-brasileirao-23-11-2026/"
+  },
+  {
+   "hora": "19:00",
+   "liga": "BRA",
+   "local": "Santos",
+   "visita": "Grêmio",
+   "resultado": "0-2",
+   "estado": "terminado",
+   "over15": 70.2,
+   "over25": 43.1,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://tmc.com.br/esporte/veja-gols-santos-0-x-2-gremio-brasileirao-2026/"
+  },
+  {
+   "hora": "20:00",
+   "liga": "USA",
+   "local": "St Louis City",
+   "visita": "Los Angeles FC",
+   "resultado": "3-2",
+   "estado": "terminado",
+   "over15": 80.8,
+   "over25": 57.4,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "sellado": "2026-11-23 05:37 ECU (UTC-5)",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.mlssoccer.com/news/st-louis-city-sc-hold-off-lafc-to-earn-historic-playoff-win"
+  }
+ ]
+}

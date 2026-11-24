@@ -1,0 +1,29 @@
+{
+ "fecha": "2026-11-24",
+ "partidos": {
+  "San Jose Earthquakes|Houston Dynamo": {
+   "titular": "Playoffs MLS: San José, 4.º del Oeste, recibe al Houston, 5.º, en el primer juego de la serie",
+   "texto": "San José (52 puntos, 14-10-10, DT Bruce Arena) y Houston (51 puntos, 14-11-9) abren la serie al mejor de 3 en el PayPal Park, primer partido de playoffs de su historia; juego 2 el 28-nov en Houston. Empate a los 90 minutos = penales directos. Preston Judd marcó 17 goles; Tsakiris (13 asistencias) y Timo Werner (6 goles y 11 asistencias) volvieron de lesión; San José perdió solo 2 de sus últimos 13. Guilherme (Houston) hizo 16 goles y 10 asistencias, récord del club. En 2026: 0-0 en Houston y 1-0 para San José en casa. Conclusión: ataques con figuras en racha, pero los dos cruces del año tuvieron un gol o ninguno; el modelo se apoya en las tablas de local y visitante (3,3 y 3,1 goles por partido).",
+   "fuente": "MLSsoccer.com",
+   "url": "https://www.mlssoccer.com/playoffs/2026/news/san-jose-earthquakes-vs-houston-dynamo-5-biggest-storylines-for-western-conference-round-one"
+  },
+  "Chapecoense|Palmeiras": {
+   "titular": "La Chapecoense, último y ya descendido, recibe al Palmeiras, 2.º",
+   "texto": "Chapecoense 20.ª con 21 puntos en 36 partidos (34 a favor, 74 en contra), descendida y con 5 derrotas seguidas; Palmeiras 2.º con 74 puntos y Top 5 asegurado. En la ida ganó Palmeiras 1-0. Conclusión: favorito claro el visitante; la defensa local es la peor del torneo.",
+   "fuente": "Valor Final",
+   "url": "https://valorfinal.com.br/brasileirao/jogos/chapecoense-x-palmeiras"
+  },
+  "Millonarios|Bucaramanga": {
+   "titular": "Sin Cuadrado ni Mackalister Silva: las bajas de Millonarios para recibir al Bucaramanga",
+   "texto": "Millonarios no tendrá a Juan Guillermo Cuadrado (sobrecarga), Mackalister Silva (esguince de rodilla) ni Daniel Ruiz. En la fecha 1 de cuadrangulares Millonarios empató 0-0 en Cali y Bucaramanga 2-2 con América; en la fase regular Bucaramanga ganó 1-0 en El Campín. Conclusión: local con bajas en ataque; partido cerrado según la historia reciente.",
+   "fuente": "Oronoticias",
+   "url": "https://oronoticias.tv/deportes/sin-cuadrado-ni-mackalister-silva-las-bajas-de-millonarios-para-recibir-al-bucaramanga-en-el-campin/"
+  },
+  "América de Cali|Deportivo Cali": {
+   "titular": "Clásico vallecaucano en los cuadrangulares: los cuatro del grupo B tienen 1 punto",
+   "texto": "América (2.º de la fase regular, 36 puntos, con punto invisible) recibe al Cali (3.º, 35). El último clásico, el 8-nov, terminó 0-0. En Cali vuelven Bello, Moya, Viáfara y Titi Rodríguez; en América siguen fuera Daniel Valencia y Jan Lucumí. Conclusión: clásico parejo y de pocos goles en el antecedente inmediato.",
+   "fuente": "El País (Cali)",
+   "url": "https://www.elpais.com.co/deportes/america-de-cali/estas-serian-las-formaciones-titulares-del-america-y-deportivo-cali-que-tendrian-varias-novedades-para-el-clasico-de-este-martes-2345.html"
+  }
+ }
+}

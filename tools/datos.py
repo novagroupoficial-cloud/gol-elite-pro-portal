@@ -716,6 +716,20 @@ for _lg,_a,_ga,_gb,_b in DOM23:
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 # ARG y CHI: se mantienen las tablas previas verificadas (ARG 225 PJ; CHI corte 2-nov). BOL, URU y PAR: sin tablas casa/fuera verificadas en el sistema.
 
+# LUN23 (rutina 24-nov-2026): partidos de liga del lunes 23-nov (auditoría del 23) + COL completada.
+# BRA 36ª (lun 23): internacional.com.br · gazetaesportiva.com · tmc.com.br
+# COL fecha 19 (7 partidos del sáb 14-nov que faltaban): https://www.clarosports.com/colombia/liga-bet-play/ultima-fecha-de-la-liga-betplay-2026-ii-en-vivo-resultados-al-momento-y-como-se-juegan-los-cuadrangulares-hoy/ (6/7 confirmados en https://www.winsports.co/futbol-colombiano/noticias/asi-quedo-la-tabla-de-posiciones-de-la-liga-tras-la-fecha-19-478711)
+# COL cuadrangulares fecha 1 (vie 20 y sáb 21-nov): winsports.co (minuto a minuto de cada partido). Con esto COL = 190/190 de todos contra todos + 4 de cuadrangulares.
+# USA: se mantiene la temporada regular completa (510 PJ); los partidos de playoffs no se suman (mismo criterio que el 21/22/23-nov).
+LUN23=[
+ ('BRA','Internacional',2,5,'Vitória'),('BRA','Botafogo',1,1,'São Paulo'),('BRA','Santos',0,2,'Grêmio'),
+ ('COL','Águilas Doradas',0,1,'Independiente Medellín'),('COL','Bucaramanga',0,0,'Fortaleza'),('COL','Atlético Nacional',1,1,'Once Caldas'),('COL','Cúcuta',2,0,'Jaguares de Córdoba'),('COL','Deportivo Cali',2,2,'Tolima'),('COL','Millonarios',2,0,'Alianza (ex Alianza Petrolera)'),('COL','Deportivo Pereira',0,2,'América de Cali'),
+ ('COL','Independiente Medellín',1,0,'Santa Fe'),('COL','Bucaramanga',2,2,'América de Cali'),('COL','Deportivo Cali',0,0,'Millonarios'),('COL','Once Caldas',0,0,'Atlético Nacional'),
+]
+for _lg,_a,_ga,_gb,_b in LUN23:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

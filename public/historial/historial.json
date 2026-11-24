@@ -936,5 +936,42 @@
    "Atalanta 4-4 Inter (Over 1.5 al 84,1 % · hubo 8 goles)"
   ],
   "partidos": 36
+ },
+ {
+  "fecha": "2026-11-23",
+  "titulo": "Lunes 23 de noviembre de 2026",
+  "imagen": "/historial/2026-11-23.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "0/0",
+    "GOLES PLATINO (90 a 94 %)"
+   ],
+   [
+    "7/7",
+    "Over 1.5 de 70 % o más (100 %)"
+   ],
+   [
+    "1/1",
+    "Over 2.5 con señal (100 %)"
+   ],
+   [
+    "2/8",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Ningún fallo en Over 1.5: 8 de 8 partidos con 2 goles o más (incluido Gimnasia LP 2-2 Newell's, por debajo de 70 %, auditado a los 90 minutos). Over 2.5 con señal: 1 de 1 (Monza–Fiorentina, moderada). GOLES ESTÁNDAR 3/3 y GOLES OPTIMISTAS 5/5 (no hubo GOL ÉLITE ni GOLES PLATINO). 8 partidos auditados con fuente.",
+  "aciertos_destacados": [
+   "Monza 3-0 Fiorentina (partido del día · Over 1.5 al 88,3 % · hubo 3 goles)",
+   "Levante 1-1 Elche (Over 1.5 al 85,2 % · hubo 2 goles · marcador exacto 1-1)",
+   "St. Louis City 3-2 LAFC (Over 1.5 al 80,8 % · hubo 5 goles)",
+   "Botafogo 1-1 São Paulo (Over 1.5 al 74,3 % · hubo 2 goles · marcador exacto 1-1)",
+   "Internacional 2-5 Vitória (Over 1.5 al 72,5 % · hubo 7 goles)",
+   "Brentford 4-0 Everton (Over 1.5 al 70,4 % · hubo 4 goles)"
+  ],
+  "partidos": 8
  }
 ]

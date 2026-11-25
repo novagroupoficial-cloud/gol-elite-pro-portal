@@ -1,0 +1,176 @@
+{
+ "fecha": "2026-11-24",
+ "auditado": "2026-11-25 05:41 ECU (rutina diaria)",
+ "partidos": 4,
+ "terminados": 4,
+ "anulados": 0,
+ "pendientes": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   1,
+   1
+  ],
+  "GOLES OPTIMISTAS": [
+   3,
+   3
+  ],
+  "Total >=70": [
+   2,
+   2
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   0
+  ],
+  "Marcadores exactos": [
+   0,
+   4
+  ],
+  "Menos de 70 (informativo)": [
+   2,
+   2
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   1,
+   1
+  ],
+  "GOLES OPTIMISTAS": [
+   3,
+   3
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   0,
+   0
+  ],
+  "moderada": [
+   0,
+   0
+  ]
+ },
+ "intervalo_wilson_95": {
+  "GOLES ESTÁNDAR": [
+   20.7,
+   100.0
+  ],
+  "GOLES OPTIMISTAS": [
+   43.8,
+   100.0
+  ],
+  "Total >=70": [
+   34.2,
+   100.0
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "San Jose Earthquakes vs Houston Dynamo",
+  "over15": 83.6,
+  "resultado": "2-1",
+  "goles": 3,
+  "acierto": true,
+  "estado": "terminado",
+  "fuente": "https://www.tsn.ca/soccer/mls/article/vieira-and-lowen-score-as-quakes-beat-dynamo-in-game-1/"
+ },
+ "fallos_over15_70": [],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [
+  "Millonarios 4-1 Bucaramanga (66,1 %, menos de 70: no recomendado; hubo 5 goles)",
+  "América de Cali 2-1 Deportivo Cali (65,9 %, menos de 70: no recomendado; hubo 3 goles)"
+ ],
+ "anulados_lista": [],
+ "pendientes_lista": [],
+ "nota": "Martes 24-nov: Brasileirão 37ª (Chapecoense–Palmeiras), cuadrangulares de la Liga BetPlay fecha 2, grupo B (Millonarios–Bucaramanga y América–Deportivo Cali) y playoffs MLS ronda 1 juego 1 (San José–Houston). 4/4 resultados finales con fuente (ESPN, Infobae, Noticias Caracol, TSN/AP; contraste con gidstats, El Universal, El País Cali, VAVEL y mlssoccer.com). Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. Categorías con la escala del 17-oct sobre el porcentaje redondeado. Dashboard Gol 4.0 sin URL pública; no hubo resultados-en-vivo.json del refresco horario.",
+ "resultados": [
+  {
+   "hora": "16:00",
+   "liga": "BRA",
+   "local": "Chapecoense",
+   "visita": "Palmeiras",
+   "resultado": "3-0",
+   "estado": "terminado",
+   "over15": 76.3,
+   "over25": 50.9,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-24 05:48 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.espn.com/soccer/match/_/gameId/401841335"
+  },
+  {
+   "hora": "18:20",
+   "liga": "COL",
+   "local": "Millonarios",
+   "visita": "Bucaramanga",
+   "resultado": "4-1",
+   "estado": "terminado",
+   "over15": 66.1,
+   "over25": 38.3,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-24 05:48 ECU (UTC-5)",
+   "goles": 5,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.infobae.com/colombia/2026/11/24/millonarios-vs-atletico-bucaramanga-en-vivo-los-equipos-buscan-sus-primeros-tres-puntos-en-los-cuadrangulares-semifinales-de-la-liga-betplay/"
+  },
+  {
+   "hora": "20:30",
+   "liga": "COL",
+   "local": "América de Cali",
+   "visita": "Deportivo Cali",
+   "resultado": "2-1",
+   "estado": "terminado",
+   "over15": 65.9,
+   "over25": 38.1,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-24 05:48 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.noticiascaracol.com/golcaracol/futbol-colombiano/america-con-doblete-de-tomas-angel-gano-el-clasico-y-es-lider-de-su-grupo-2-1-sobre-cali-rg10"
+  },
+  {
+   "hora": "22:00",
+   "liga": "USA",
+   "local": "San Jose Earthquakes",
+   "visita": "Houston Dynamo",
+   "resultado": "2-1",
+   "estado": "terminado",
+   "over15": 83.6,
+   "over25": 61.8,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "sellado": "2026-11-24 05:48 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.tsn.ca/soccer/mls/article/vieira-and-lowen-score-as-quakes-beat-dynamo-in-game-1/"
+  }
+ ]
+}

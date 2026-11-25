@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24 05:50 ECU",
+ "actualizado": "2026-11-25 05:42 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -28,9 +28,10 @@
   "2026-11-18",
   "2026-11-21",
   "2026-11-22",
-  "2026-11-23"
+  "2026-11-23",
+  "2026-11-24"
  ],
- "partidos": 613,
+ "partidos": 617,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -42,12 +43,12 @@
    "partidos": 46
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 175,
-   "partidos": 223
+   "aciertos": 176,
+   "partidos": 224
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 257,
-   "partidos": 339
+   "aciertos": 260,
+   "partidos": 342
   }
  },
  "over90": {
@@ -57,17 +58,17 @@
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 220,
-  "partidos": 274
+  "aciertos": 221,
+  "partidos": 275
  },
  "over25_senal": {
   "aciertos": 75,
   "partidos": 121
  },
  "partido_del_dia": {
-  "aciertos": 20,
-  "dias": 27,
-  "racha_actual": 1,
+  "aciertos": 21,
+  "dias": 28,
+  "racha_actual": 2,
   "detalle": [
    {
     "fecha": "2026-10-11",
@@ -284,6 +285,14 @@
     "goles": 3,
     "acierto": true,
     "over15": 88.3
+   },
+   {
+    "fecha": "2026-11-24",
+    "partido": "San Jose Earthquakes vs Houston Dynamo",
+    "resultado": "2-1",
+    "goles": 3,
+    "acierto": true,
+    "over15": 83.6
    }
   ]
  },
@@ -314,96 +323,60 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 223,
-   "aciertos": 175,
+   "partidos": 224,
+   "aciertos": 176,
    "prometido": 83.8
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 232,
-   "aciertos": 170,
+   "partidos": 233,
+   "aciertos": 171,
    "prometido": 74.8
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 107,
-   "aciertos": 87,
-   "prometido": 63.3
+   "partidos": 109,
+   "aciertos": 89,
+   "prometido": 63.4
   }
  ],
  "ultima_jornada": {
-  "fecha": "2026-11-23",
+  "fecha": "2026-11-24",
   "partidos": [
    {
-    "hora": "14:45",
-    "local": "Monza",
-    "visita": "Fiorentina",
-    "over15": 88.3,
+    "hora": "22:00",
+    "local": "San Jose Earthquakes",
+    "visita": "Houston Dynamo",
+    "over15": 83.6,
+    "resultado": "2-1",
+    "goles": 3,
+    "acierto": true
+   },
+   {
+    "hora": "16:00",
+    "local": "Chapecoense",
+    "visita": "Palmeiras",
+    "over15": 76.3,
     "resultado": "3-0",
     "goles": 3,
     "acierto": true
    },
    {
-    "hora": "15:00",
-    "local": "Levante",
-    "visita": "Elche",
-    "over15": 85.2,
-    "resultado": "1-1",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "20:00",
-    "local": "St Louis City",
-    "visita": "Los Angeles FC",
-    "over15": 80.8,
-    "resultado": "3-2",
+    "hora": "18:20",
+    "local": "Millonarios",
+    "visita": "Bucaramanga",
+    "over15": 66.1,
+    "resultado": "4-1",
     "goles": 5,
     "acierto": true
    },
    {
-    "hora": "18:00",
-    "local": "Botafogo",
-    "visita": "São Paulo",
-    "over15": 74.3,
-    "resultado": "1-1",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "17:30",
-    "local": "Internacional",
-    "visita": "Vitória",
-    "over15": 72.5,
-    "resultado": "2-5",
-    "goles": 7,
-    "acierto": true
-   },
-   {
-    "hora": "15:00",
-    "local": "Brentford",
-    "visita": "Everton",
-    "over15": 70.4,
-    "resultado": "4-0",
-    "goles": 4,
-    "acierto": true
-   },
-   {
-    "hora": "19:00",
-    "local": "Santos",
-    "visita": "Grêmio",
-    "over15": 70.2,
-    "resultado": "0-2",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "15:00",
-    "local": "Gimnasia LP",
-    "visita": "Newells Old Boys",
-    "over15": 60.5,
-    "resultado": "2-2",
-    "goles": 4,
+    "hora": "20:30",
+    "local": "América de Cali",
+    "visita": "Deportivo Cali",
+    "over15": 65.9,
+    "resultado": "2-1",
+    "goles": 3,
     "acierto": true
    }
   ]

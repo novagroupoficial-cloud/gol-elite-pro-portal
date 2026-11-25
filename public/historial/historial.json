@@ -440,7 +440,7 @@
    ],
    [
     "0/0",
-    "Over 2.5 con señal (sin señal ese día)"
+    "Over 2.5 con señal (sin señales)"
    ],
    [
     "0/12",
@@ -476,7 +476,7 @@
    ],
    [
     "0/0",
-    "Over 2.5 con señal (sin señal ese día)"
+    "Over 2.5 con señal (sin señales)"
    ],
    [
     "0/4",
@@ -973,5 +973,40 @@
    "Brentford 4-0 Everton (Over 1.5 al 70,4 % · hubo 4 goles)"
   ],
   "partidos": 8
+ },
+ {
+  "fecha": "2026-11-24",
+  "titulo": "Martes 24 de noviembre de 2026",
+  "imagen": "/historial/2026-11-24.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "0/0",
+    "GOLES PLATINO (90 a 94 %)"
+   ],
+   [
+    "2/2",
+    "Over 1.5 de 70 % o más (100 %)"
+   ],
+   [
+    "0/0",
+    "Over 2.5 con señal (sin señales)"
+   ],
+   [
+    "0/4",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Ningún fallo en Over 1.5: 4 de 4 partidos con 2 goles o más (incluidos Millonarios 4-1 Bucaramanga y América 2-1 Deportivo Cali, por debajo de 70 %). No hubo señales de Over 2.5 (todas por debajo de 65 %), aunque los 4 partidos tuvieron 3 goles o más. Marcadores exactos 0/4 (dimos 1-1 en los cuatro). GOLES ESTÁNDAR 1/1 y GOLES OPTIMISTAS 3/3. 4 partidos auditados con fuente.",
+  "aciertos_destacados": [
+   "San José Earthquakes 2-1 Houston Dynamo (partido del día · Over 1.5 al 83,6 % · hubo 3 goles)",
+   "Chapecoense 3-0 Palmeiras (Over 1.5 al 76,3 % · hubo 3 goles)",
+   "Millonarios 4-1 Bucaramanga (Over 1.5 al 66,1 % · hubo 5 goles)",
+   "América de Cali 2-1 Deportivo Cali (Over 1.5 al 65,9 % · hubo 3 goles)"
+  ],
+  "partidos": 4
  }
 ]

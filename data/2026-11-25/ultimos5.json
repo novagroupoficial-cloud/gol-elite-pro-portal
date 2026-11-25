@@ -1,0 +1,48 @@
+{
+ "fecha": "2026-11-25",
+ "nota": "Fase de medición Kaizen: no entra al modelo. Últimos 5 oficiales de cada equipo (más reciente primero); 'sin dato' cuando no se encontró. No se encontraron cuotas Over/Under 2.5 en fuentes abiertas.",
+ "partidos": {
+  "Monterrey|América": {
+   "local": [
+    "Pumas 0-2 Monterrey (F, 21-11)",
+    "Querétaro 0-1 Monterrey (F, 14-11)",
+    "Toluca 4-0 Monterrey (F, 07-11)",
+    "Monterrey 3-3 Tijuana (C, 31-10)",
+    "Monterrey 0-1 Guadalajara (C, 24-10)"
+   ],
+   "visita": [
+    "Tigres UANL 1-0 América (F, 22-11)",
+    "Pumas 2-2 América (F, 08-11)",
+    "América 2-2 Toluca (C, 31-10)",
+    "América 1-1 Tijuana (C, 28-10)",
+    "América 1-2 Pachuca (C, 25-10)"
+   ],
+   "fuente": "https://futboltotal.futbol/teams/monterrey · https://futboltotal.futbol/teams/club-america",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Toluca|Atlas": {
+   "local": [
+    "Pachuca 2-0 Toluca (F, 21-11)",
+    "Toluca 4-0 Monterrey (C, 07-11)",
+    "América 2-2 Toluca (F, 31-10)",
+    "León 1-1 Toluca (F, 24-10)",
+    "Toluca 2-2 Tijuana (C, 21-10)"
+   ],
+   "visita": [
+    "Juárez 3-3 Atlas (F, 20-11)",
+    "Atlas 1-4 Pachuca (C, 07-11)",
+    "Atlético San Luis 0-1 Atlas (F, 30-10)",
+    "Atlas 4-3 Puebla (C, 25-10)",
+    "Atlas 2-5 América (C, 21-10)"
+   ],
+   "fuente": "https://futboltotal.futbol/league/liga-mx/todos-los-partidos · https://futboltotal.futbol/league/liga-mx/todos-los-partidos",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  }
+ }
+}

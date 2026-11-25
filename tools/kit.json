@@ -1,47 +1,31 @@
 {
- "local": "San Jose Earthquakes",
- "fecha_larga": "Martes 24 de noviembre de 2026",
- "desde": "05:48",
+ "local": "Monterrey",
+ "fecha_larga": "Miércoles 25 de noviembre de 2026",
+ "desde": "05:41",
  "contexto": [
-  "San José (4.º del Oeste) y Houston (5.º) abren su serie de playoffs al mejor de 3.",
-  "Preston Judd hizo 17 goles; Guilherme, 16 goles y 10 asistencias para Houston.",
-  "San José en casa: 3,3 goles por partido · Houston fuera: 3,1."
+  "Ida de cuartos de final del Apertura 2026: Monterrey (6.º) recibe al América (3.º).",
+  "Monterrey en casa: 3,4 goles por partido · América fuera: 4,3.",
+  "Henry Martín lleva 11 goles; Ocampos, 7 para Rayados. En la fase regular: 1-1."
  ],
  "auditoria": {
   "encabezado": "Así nos fue ayer",
-  "titulo": "Lunes 23 · 6 ligas · 8 partidos con fuente",
+  "titulo": "Martes 24 · 3 ligas · 4 partidos con fuente",
   "tiles": [
-   [
-    "8/8",
-    "Partidos con 2 goles o más (Over 1.5)",
-    "verde"
-   ],
-   [
-    "1/1",
-    "Partido del día (Monza 3-0 Fiorentina)",
-    "verde"
-   ],
-   [
-    "1/1",
-    "Over 2.5 con señal (moderada)",
-    "verde"
-   ],
-   [
-    "2/8",
-    "Marcadores exactos (Levante 1-1 Elche y Botafogo 1-1 São Paulo)",
-    "dor"
-   ]
+   ["4/4", "Partidos con 2 goles o más (Over 1.5)", "verde"],
+   ["1/1", "Partido del día (San José 2-1 Houston)", "verde"],
+   ["4/4", "Partidos con 3 goles o más (sin señal de Over 2.5)", "verde"],
+   ["0/4", "Marcadores exactos (dimos 1-1 en los cuatro)", "dor"]
   ],
-  "nota": "Acertaron Monza 3-0 Fiorentina (88 % · 3 goles), Levante 1-1 Elche (85 % · 2, marcador exacto), St. Louis 3-2 LAFC (81 % · 5) e Inter 2-5 Vitória (73 % · 7). Sin fallos en Over 1.5. Fuentes: Fantacalcio, Diario de Alicante, MLSsoccer.com, Internacional."
+  "nota": "Acertaron San José 2-1 Houston (84 % · 3 goles), Chapecoense 3-0 Palmeiras (76 % · 3), Millonarios 4-1 Bucaramanga (66 % · 5) y América 2-1 Cali (66 % · 3). Sin fallos en Over 1.5. Fuentes: TSN/AP, ESPN, Infobae, Noticias Caracol."
  },
  "acierto": {
-  "fecha": "lunes 23 de noviembre",
-  "local": "Monza",
-  "visita": "Fiorentina",
-  "liga": "Serie A · Italia",
-  "resultado": "3-0",
-  "over15": 88.3,
+  "fecha": "martes 24 de noviembre",
+  "local": "San José Earthquakes",
+  "visita": "Houston Dynamo",
+  "liga": "Playoffs MLS · EE. UU.",
+  "resultado": "2-1",
+  "over15": 83.6,
   "goles": "3",
-  "sellado": "05:37 ECU del 23-nov"
+  "sellado": "05:48 ECU del 24-nov"
  }
 }

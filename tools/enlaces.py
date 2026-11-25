@@ -1433,3 +1433,27 @@ ACIERTOS=[
 LLEGAN={
  'San Jose Earthquakes|Houston Dynamo':["San José en casa: 30 goles a favor y 26 en contra en 17 partidos (3,3 goles por partido)","Houston fuera: 24 a favor y 28 en contra en 17 partidos (3,1 goles por partido)","Preston Judd hizo 17 goles en la temporada regular; Guilherme, 16 goles y 10 asistencias para Houston","Fuente: tablas casa/fuera del portal (Sports Mole) y MLSsoccer.com (previa)"],
 }
+
+# ===== miércoles 25-nov-2026 (rutina diaria, sellado 05:41 ECU) =====
+LINK={
+ 'Atletico MG|Corinthians':("Brasileirão, cierre de la 36ª: Atlético-MG recibe al Corinthians en el Arena MRV","O Tempo","https://www.otempo.com.br/sports/atletico/2026/11/24/atletico-x-corinthians-onde-assistir-provaveis-escalacoes-e-mais-sobre-a-partida-pelo-brasileirao"),
+ 'Santa Fe|Once Caldas':("Santa Fe vs. Once Caldas: hora y dónde ver el partido en El Campín por los cuadrangulares","Infobae Colombia","https://www.infobae.com/colombia/deportes/2026/11/25/santa-fe-vs-once-caldas-hora-y-donde-ver-el-partido-en-el-campin-por-los-cuadrangulares-de-la-liga-betplay/"),
+ 'Boca Juniors|Independiente Rivadavia':("Boca e Independiente Rivadavia cierran los octavos del Clausura: hora, TV y formaciones","Los Andes","https://www.losandes.com.ar/deportes/boca-e-independiente-rivadavia-dirimen-el-ultimo-duelo-octavos-final-hora-tv-formaciones-n6015470"),
+ 'Barcelona SC|Independiente del Valle':("Barcelona SC vs. Independiente del Valle: el partido pendiente de la LigaPro","El Universo","https://www.eluniverso.com/deportes/campeonato-ecuatoriano/cuando-a-que-hora-y-donde-ver-en-vivo-barcelona-sc-vs-independiente-del-valle-el-partido-pendiente-de-la-liga-pro-nota/"),
+ 'Toluca|Atlas':("Toluca vs Atlas: horario y dónde ver la ida de los cuartos de final del Apertura 2026","Infobae México","https://www.infobae.com/mexico/deportes/2026/11/24/toluca-vs-atlas-horario-y-donde-ver-en-vivo-el-partido-de-ida-de-los-cuartos-de-final-del-apertura-2026/"),
+ 'Atlético Nacional|Independiente Medellín':("Nacional vs. Medellín por la fecha 2 de cuadrangulares: hora y TV","ESPN","https://espndeportes.espn.com/futbol/colombia/nota/_/id/17556226/nacional-vs-medellin-fecha-2-cuadrangulares-liga-betplay-equipo-fecha-hora-y-tv-en-vivo"),
+ 'Monterrey|América':("Rayados vs. América: dónde y a qué hora ver la ida de los cuartos de final del Apertura 2026","Publimetro México","https://www.publimetro.com.mx/deportes/2026/11/24/rayados-vs-america-donde-y-a-que-hora-ver-en-vivo-la-ida-de-los-4tos-de-final-del-apertura-2026/"),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Barcelona SC|Independiente del Valle','Boca Juniors|Independiente Rivadavia','Atlético Nacional|Independiente Medellín','Atletico MG|Corinthians']
+COL.update({'Toluca':'#d50032','Atlas':'#b0001e','Monterrey':'#0a2a66','América':'#f5d000','Atletico MG':'#111111','Corinthians':'#f2f2f2','Santa Fe':'#c8102e','Once Caldas':'#f2f2f2','Boca Juniors':'#00338d','Independiente Rivadavia':'#003f87','Barcelona SC':'#f6d11b','Independiente del Valle':'#0b0b0b','Atlético Nacional':'#007a33','Independiente Medellín':'#c8102e'})
+ACIERTOS=[
+ ("San José Earthquakes vs Houston Dynamo","2-1","84 % · mar 24 · partido del día","TSN (AP)","https://www.tsn.ca/soccer/mls/article/vieira-and-lowen-score-as-quakes-beat-dynamo-in-game-1/"),
+ ("Chapecoense vs Palmeiras","3-0","76 % · mar 24","ESPN","https://www.espn.com/soccer/match/_/gameId/401841335"),
+ ("Millonarios vs Bucaramanga","4-1","66 % · mar 24","Infobae","https://www.infobae.com/colombia/2026/11/24/millonarios-vs-atletico-bucaramanga-en-vivo-los-equipos-buscan-sus-primeros-tres-puntos-en-los-cuadrangulares-semifinales-de-la-liga-betplay/"),
+ ("América de Cali vs Deportivo Cali","2-1","66 % · mar 24","Noticias Caracol","https://www.noticiascaracol.com/golcaracol/futbol-colombiano/america-con-doblete-de-tomas-angel-gano-el-clasico-y-es-lider-de-su-grupo-2-1-sobre-cali-rg10"),
+]
+LLEGAN={
+ 'Monterrey|América':["Monterrey en casa: 16 goles a favor y 11 en contra en 8 partidos (3,4 goles por partido); goleó 6-1 a Juárez","América fuera: 23 a favor y 16 en contra en 9 partidos (4,3 goles por partido)","Rayados llega con dos triunfos seguidos de visita; el América, con 5 partidos sin ganar","Fuente: tablas casa/fuera del portal y Fútbol Total (resultados del Apertura 2026)"],
+ 'Toluca|Atlas':["Toluca en casa: 22 goles a favor y 11 en contra en 8 partidos (4,1 goles por partido)","Atlas fuera: 17 a favor y 12 en contra en 8 partidos; 4 de sus últimos 5 partidos tuvieron 3 goles o más","En la fase regular, Toluca le ganó 5-2 al Atlas en el Nemesio Díez (12-sep)","Fuente: tablas casa/fuera del portal, Fútbol Total y El Imparcial"],
+}

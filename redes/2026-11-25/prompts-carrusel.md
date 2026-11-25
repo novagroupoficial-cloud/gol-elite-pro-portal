@@ -1,0 +1,41 @@
+# Prompts de carrusel · miércoles 25 de noviembre de 2026
+
+Modelo oficial: `tools/plantilla-carrusel.md`. Un prompt completo por partido de Over 1.5 de 80 % o más (redondeado) que aún no empieza; el partido del día va primero y después el resto por hora. Pronósticos sellados a las 05:41 ECU. El 25-nov-2026 es miércoles (verificado). Estadísticas: tablas de local y visitante verificadas con control de sumas (fuentes en `tools/datos.py`; Liga MX = fase regular completa del Apertura 2026, 153 partidos, cotejada con Fútbol Total). La noticia viene de `data/2026-11-25/noticias.json`. **Hoy 2 partidos llegan a 80 %**, los dos de la ida de cuartos de final de la Liga MX: Monterrey vs América (partido del día, 22:10 ECU) y Toluca vs Atlas (20:00 ECU). Atlético Nacional–Medellín (77 %), Atlético-MG–Corinthians (74 %), Santa Fe–Once Caldas (72 %), Barcelona SC–IDV (71 %) y Boca–Independiente Rivadavia (65 %) no llevan prompt.
+
+**Uniformes:** 4 de 4 con fuente (al final). Toluca (rojo) y Atlas (rojo y negro) comparten el rojo: poner el nombre del equipo bajo cada chica. Escudos oficiales SÍ (si el generador los deforma, pegar el PNG oficial en edición). Sin patrocinadores ni marcas de ropa.
+
+## 1. Monterrey vs América · 22:10 ECU · GOLES ESTÁNDAR 88 % · PARTIDO DEL DÍA
+
+> Póster deportivo vertical 4:5 (1080x1350), estilo infografía premium. Estadio de noche con reflectores verdes, césped brillante y partículas doradas; paleta negro, verde neón y dorado metálico. Arriba, el logo "GOL ÉLITE PRO" (ÉLITE en dorado) con corona y debajo la etiqueta "GOLES ESTÁNDAR · 88 %". Título dorado: "MONTERREY vs AMÉRICA". Subtítulo verde: "LIGA MX · CUARTOS DE FINAL (IDA) · MIÉRCOLES 25 DE NOVIEMBRE · 22:10 HORA ECUADOR". A la izquierda, una mujer joven adulta (~27 años), sonriente, de medio cuerpo, pose de presentadora deportiva, con la camiseta local 2026-27 de Monterrey: rayas verticales azul marino y blancas, cuello redondo con un botón y pequeños detalles rojos (fuente 1); a la derecha, otra con la camiseta local 2026-27 del América: amarilla de estética retro, con el escudo al centro del pecho y remates oscuros en mangas y cuello (fuente 2). Camisetas con el escudo del club, sin logos de patrocinadores ni marcas de ropa. Junto al título, el escudo oficial de cada equipo, fiel al real, sin deformar.
+> En el centro, un panel negro con borde dorado titulado "ESTADÍSTICAS CLAVE", con íconos dorados y estas líneas:
+> • MONTERREY EN CASA: marca 2,00 y recibe 1,38 goles por partido (8 partidos)
+> • AMÉRICA DE VISITA: 4,3 goles por partido en sus partidos (23 a favor y 16 en contra en 9)
+> • AMÉRICA DE VISITA: marca 2,56 y recibe 1,78 goles por partido
+> • América 3.º (30 pts) y Monterrey 6.º (27 pts) · Henry Martín 11 goles, Ocampos 7
+> Después, un recuadro destacado con fondo café oscuro, borde dorado brillante y un ícono de periódico, titulado "LA NOTICIA DEL PARTIDO", con el titular corto en mayúsculas "EL AMÉRICA LLEGA CON 5 PARTIDOS SIN GANAR" y una o dos frases: "Rayados viene de ganar 1-0 en Querétaro y 2-0 en CU; en la fase regular empataron 1-1.", y en letra muy pequeña "Fuente: Fútbol Total · Récord".
+> Al final, un panel destacado más grande titulado "NUESTRO PRONÓSTICO": "PROBABILIDAD OVER 1.5: 88%" (número enorme en verde neón), "Over 2.5: 69%" (más pequeño) y "MARCADOR SUGERIDO: 1-1" (grande, en dorado).
+> Abajo, un botón dorado "¡SÍGUENOS!" y en letra pequeña "Over 1.5 = 2 goles o más en el partido, sin importar quién gane · +18 · Probabilidades estadísticas, no garantías". Texto en español, legible y sin errores.
+
+**ANTI-PROMPT:** sin logos de patrocinadores, sin marcas de ropa deportiva, sin casas de apuestas; sin escudos deformados, inventados o de otros clubes; sin caras de futbolistas reales; sin poses provocativas ni ropa reveladora; sin "apuesta segura", "dinero fácil", "gana seguro" ni promesas de ganancia; sin texto en inglés; sin cifras distintas de las indicadas; sin la palabra "tarjeta".
+
+## 2. Toluca vs Atlas · 20:00 ECU · GOLES ESTÁNDAR 87 %
+
+> Póster deportivo vertical 4:5 (1080x1350), estilo infografía premium. Estadio de noche con reflectores verdes, césped brillante y partículas doradas; paleta negro, verde neón y dorado metálico. Arriba, el logo "GOL ÉLITE PRO" (ÉLITE en dorado) con corona y debajo la etiqueta "GOLES ESTÁNDAR · 87 %". Título dorado: "TOLUCA vs ATLAS". Subtítulo verde: "LIGA MX · CUARTOS DE FINAL (IDA) · MIÉRCOLES 25 DE NOVIEMBRE · 20:00 HORA ECUADOR". A la izquierda, una mujer joven adulta (~27 años), sonriente, de medio cuerpo, pose de presentadora deportiva, con la camiseta 2026-27 del Toluca: rojo escarlata intenso con detalles blancos en mangas, costados y cuello, escudo al centro del pecho con sus estrellas (fuente 3), y debajo el nombre "TOLUCA"; a la derecha, otra con la camiseta local 2026-27 del Atlas: mitad roja y mitad negra, con un patrón sutil en la tela (fuente 4), y debajo el nombre "ATLAS". Camisetas con el escudo del club, sin logos de patrocinadores ni marcas de ropa. Junto al título, el escudo oficial de cada equipo, fiel al real, sin deformar.
+> En el centro, un panel negro con borde dorado titulado "ESTADÍSTICAS CLAVE", con íconos dorados y estas líneas:
+> • TOLUCA EN CASA: marca 2,75 y recibe 1,38 goles por partido (8 partidos)
+> • EN SUS PARTIDOS: 4,1 goles por partido en casa (Toluca) y 3,6 de visita (Atlas)
+> • ATLAS DE VISITA: marca 2,13 y recibe 1,50 goles por partido (8 partidos)
+> • Atlas 4.º (28 pts) y Toluca 5.º (27 pts) · 4 de los últimos 5 del Atlas con 3 goles o más
+> Después, un recuadro destacado con fondo café oscuro, borde dorado brillante y un ícono de periódico, titulado "LA NOTICIA DEL PARTIDO", con el titular corto en mayúsculas "EN LA FASE REGULAR, TOLUCA LE GANÓ 5-2 AL ATLAS" y una o dos frases: "Fue en el Nemesio Díez el 12 de septiembre; Toluca ya ganaba 3-0 al minuto 29.", y en letra muy pequeña "Fuente: El Imparcial".
+> Al final, un panel destacado más grande titulado "NUESTRO PRONÓSTICO": "PROBABILIDAD OVER 1.5: 87%" (número enorme en verde neón), "Over 2.5: 68%" (más pequeño) y "MARCADOR SUGERIDO: 1-1" (grande, en dorado).
+> Abajo, un botón dorado "¡SÍGUENOS!" y en letra pequeña "Over 1.5 = 2 goles o más en el partido, sin importar quién gane · +18 · Probabilidades estadísticas, no garantías". Texto en español, legible y sin errores.
+
+**ANTI-PROMPT:** sin logos de patrocinadores, sin marcas de ropa deportiva, sin casas de apuestas; sin escudos deformados, inventados o de otros clubes; sin caras de futbolistas reales; sin poses provocativas ni ropa reveladora; sin "apuesta segura", "dinero fácil", "gana seguro" ni promesas de ganancia; sin texto en inglés; sin cifras distintas de las indicadas; sin la palabra "tarjeta".
+
+## Fuentes de uniformes
+1. Monterrey 2026-27 local: https://www.footyheadlines.com/1825103421/monterrey-26-27-home-kit-released.html · https://playersoflife.com/monterrey/nuevo-jersey-de-rayados-de-monterrey-2026-2027-cuando-sale-a-la-venta-y-que-tecnologia-incorpora/
+2. América 2026-27 local: https://www.excelsior.com.mx/deportes/joyita-retro-america-presenta-espectacular-jersey-para-apertura-2026-con-escudo-centro · https://www.soccerbible.com/performance/football-apparel/2026/07/club-america-unveil-new-202627-home-shirt-from-adidas/ (las dos fuentes describen distinto el gráfico del pecho: revisar la foto antes de generar)
+3. Toluca Apertura 2026: https://www.clarosports.com/futbol/liga-mx/toluca-presenta-su-nueva-playera-para-el-apertura-2026-inspirada-en-su-legado/
+4. Atlas 2026-27 (110 aniversario): https://www.footyheadlines.com/8701989320/atlas-26-27-110th-anniversary-home-away-kits-released.html
+
+Fecha, hora y etapa: Récord (ida de cuartos, miércoles 25: Toluca–Atlas 19:00 y Rayados–América 21:10 hora del centro de México = 20:00 y 22:10 ECU): https://www.record.com.mx/historia/donde-ver-cuartos-de-final-ida-apertura-2026-fechas-horarios-canales-transmision-2026112421242072610 · Tabla final y resultados: https://futboltotal.futbol/league/liga-mx/round/apertura-17 · https://futboltotal.futbol/league/liga-mx/todos-los-partidos · Toluca 5-2 Atlas (J8): https://www.elimparcial.com/deporte/2026/09/12/toluca-vs-atlas-resumen-goles-y-mejores-momentos-de-la-jornada-8-de-la-liga-mx/

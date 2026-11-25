@@ -730,6 +730,18 @@ for _lg,_a,_ga,_gb,_b in LUN23:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# MAR24 (rutina 25-nov-2026): partidos de liga del martes 24-nov (auditoría del 24), cada uno con su fuente.
+# BRA 37ª: https://www.espn.com/soccer/match/_/gameId/401841335 (Chapecoense 3-0 Palmeiras, FT) + gidstats
+# COL cuadrangulares fecha 2: https://www.infobae.com/colombia/2026/11/24/millonarios-vs-atletico-bucaramanga-en-vivo-los-equipos-buscan-sus-primeros-tres-puntos-en-los-cuadrangulares-semifinales-de-la-liga-betplay/ (4-1) · https://www.noticiascaracol.com/golcaracol/futbol-colombiano/america-con-doblete-de-tomas-angel-gano-el-clasico-y-es-lider-de-su-grupo-2-1-sobre-cali-rg10 (2-1)
+# USA: playoffs no se suman (mismo criterio).
+MAR24=[
+ ('BRA','Chapecoense',3,0,'Palmeiras'),
+ ('COL','Millonarios',4,1,'Bucaramanga'),('COL','América de Cali',2,1,'Deportivo Cali'),
+]
+for _lg,_a,_ga,_gb,_b in MAR24:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

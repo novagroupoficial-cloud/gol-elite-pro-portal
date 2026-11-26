@@ -1,0 +1,99 @@
+[
+ {
+  "hora": "18:00",
+  "liga": "BRA",
+  "local": "São Paulo",
+  "visita": "Remo",
+  "casa": [
+   18,
+   25,
+   14
+  ],
+  "fuera": [
+   18,
+   17,
+   39
+  ],
+  "HG": 1.53,
+  "AG": 1.13,
+  "lambda_local": 1.7,
+  "lambda_visita": 0.91,
+  "goles_esperados": 2.6,
+  "over15": 74.4,
+  "over25": 48.4,
+  "under25": 51.6,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-26 05:37 ECU (UTC-5)",
+  "fuente_calendario": "flashscore.com.br + sport-flash.com + valorfinal.com.br (rodada 37, 20h BRT) + larepublica.pe; SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py BRA (ValorFinal + rodadas 35-37 con fuente, 361 PJ) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública"
+ },
+ {
+  "hora": "20:00",
+  "liga": "MEX",
+  "local": "Pachuca",
+  "visita": "Guadalajara",
+  "casa": [
+   8,
+   15,
+   13
+  ],
+  "fuera": [
+   8,
+   11,
+   6
+  ],
+  "HG": 1.55,
+  "AG": 1.42,
+  "lambda_local": 1.34,
+  "lambda_visita": 1.47,
+  "goles_esperados": 2.8,
+  "over15": 78.1,
+  "over25": 53.4,
+  "under25": 46.6,
+  "marcador": "1-1",
+  "categoria": "GOLES OPTIMISTAS",
+  "senal_o25": "sin señal",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-26 05:37 ECU (UTC-5)",
+  "fuente_calendario": "excelsior.com.mx + de10.com.mx + sport-flash.com + larepublica.pe (ida de cuartos de final); SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py MEX (Apertura 2026 fase regular completa, 153 PJ) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública"
+ },
+ {
+  "hora": "22:10",
+  "liga": "MEX",
+  "local": "León",
+  "visita": "Cruz Azul",
+  "casa": [
+   8,
+   14,
+   11
+  ],
+  "fuera": [
+   9,
+   18,
+   14
+  ],
+  "HG": 1.55,
+  "AG": 1.42,
+  "lambda_local": 1.62,
+  "lambda_visita": 1.59,
+  "goles_esperados": 3.2,
+  "over15": 83.8,
+  "over25": 62.2,
+  "under25": 37.8,
+  "marcador": "1-1",
+  "categoria": "GOLES ESTÁNDAR",
+  "senal_o25": "informativa",
+  "aviso_mercado": null,
+  "modelo_version": "4.1",
+  "sellado": "2026-11-26 05:37 ECU (UTC-5)",
+  "fuente_calendario": "excelsior.com.mx + de10.com.mx + sport-flash.com + larepublica.pe (ida de cuartos de final); SportyTrader no accesible desde la rutina",
+  "fuente_datos": "manual: tools/datos.py MEX (Apertura 2026 fase regular completa, 153 PJ) · control de sumas OK · Dashboard Gol 4.0 /api/dia sin URL pública",
+  "nota_hora": "Infobae publica 21:00 CDMX (21:00 ECU); Excélsior, de10, sport-flash y La República dan 21:10 CDMX = 22:10 ECU. SportyTrader no accesible: vale la mayoría."
+ }
+]

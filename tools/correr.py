@@ -1,14 +1,10 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — miércoles 25-nov-2026 (rutina diaria 05:2x ECU). Calendario: rpp.pe + libero.pe + alairelibre.cl + elliberal.com.ar (agendas del 25-nov), publimetro.co (cuadrangulares fecha 2), lance.com.br + otempo.com.br (Atlético-MG–Corinthians, cierre de la 36ª, 20h BRT). SportyTrader no accesible desde la rutina. Hoy no hay ligas europeas (jornada de Champions) ni MLS (Game 2 el 27/28-nov).
- ('18:00','BRA','Atletico MG','Corinthians'),
- ('18:20','COL','Santa Fe','Once Caldas'),
- ('19:00','ARG','Boca Juniors','Independiente Rivadavia'),
- ('19:00','ECU','Barcelona SC','Independiente del Valle'),
- ('20:00','MEX','Toluca','Atlas'),
- ('20:30','COL','Atlético Nacional','Independiente Medellín'),
- ('22:10','MEX','Monterrey','América'),
+P=[ # hora (Ecuador), liga, local, visita — jueves 26-nov-2026 (rutina diaria 05:2x ECU). Calendario: flashscore.com.br + sport-flash + valorfinal (São Paulo–Remo, 37ª, 20h BRT); excelsior.com.mx + de10.com.mx + sport-flash + larepublica.pe (cuartos de ida Liga MX; León–Cruz Azul 21:10 CDMX, Infobae dice 21:00: vale la mayoría). SportyTrader no accesible desde la rutina. Hoy no hay ligas europeas (Europa/Conference League), ni MLS, COL, ECU, ARG, PER, CHI.
+ ('18:00','BRA','São Paulo','Remo'),
+ ('20:00','MEX','Pachuca','Guadalajara'),
+ ('22:10','MEX','León','Cruz Azul'),
 ]
 out=[]
 for h,lg,a,b in P:

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25 05:42 ECU",
+ "actualizado": "2026-11-26 05:44 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -29,9 +29,10 @@
   "2026-11-21",
   "2026-11-22",
   "2026-11-23",
-  "2026-11-24"
+  "2026-11-24",
+  "2026-11-25"
  ],
- "partidos": 617,
+ "partidos": 624,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -43,12 +44,12 @@
    "partidos": 46
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 176,
-   "partidos": 224
+   "aciertos": 177,
+   "partidos": 226
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 260,
-   "partidos": 342
+   "aciertos": 265,
+   "partidos": 347
   }
  },
  "over90": {
@@ -58,17 +59,17 @@
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 221,
-  "partidos": 275
+  "aciertos": 222,
+  "partidos": 277
  },
  "over25_senal": {
   "aciertos": 75,
-  "partidos": 121
+  "partidos": 123
  },
  "partido_del_dia": {
   "aciertos": 21,
-  "dias": 28,
-  "racha_actual": 2,
+  "dias": 29,
+  "racha_actual": 0,
   "detalle": [
    {
     "fecha": "2026-10-11",
@@ -293,6 +294,14 @@
     "goles": 3,
     "acierto": true,
     "over15": 83.6
+   },
+   {
+    "fecha": "2026-11-25",
+    "partido": "Monterrey vs América",
+    "resultado": "0-0",
+    "goles": 0,
+    "acierto": false,
+    "over15": 87.5
    }
   ]
  },
@@ -323,60 +332,87 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 224,
-   "aciertos": 176,
-   "prometido": 83.8
+   "partidos": 226,
+   "aciertos": 177,
+   "prometido": 83.9
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 233,
-   "aciertos": 171,
-   "prometido": 74.8
+   "partidos": 237,
+   "aciertos": 175,
+   "prometido": 74.7
   },
   {
    "franja": "menos de 70 %",
-   "partidos": 109,
-   "aciertos": 89,
+   "partidos": 110,
+   "aciertos": 90,
    "prometido": 63.4
   }
  ],
  "ultima_jornada": {
-  "fecha": "2026-11-24",
+  "fecha": "2026-11-25",
   "partidos": [
    {
-    "hora": "22:00",
-    "local": "San Jose Earthquakes",
-    "visita": "Houston Dynamo",
-    "over15": 83.6,
-    "resultado": "2-1",
-    "goles": 3,
+    "hora": "22:10",
+    "local": "Monterrey",
+    "visita": "América",
+    "over15": 87.5,
+    "resultado": "0-0",
+    "goles": 0,
+    "acierto": false
+   },
+   {
+    "hora": "20:00",
+    "local": "Toluca",
+    "visita": "Atlas",
+    "over15": 87.2,
+    "resultado": "2-0",
+    "goles": 2,
     "acierto": true
    },
    {
-    "hora": "16:00",
-    "local": "Chapecoense",
-    "visita": "Palmeiras",
-    "over15": 76.3,
+    "hora": "20:30",
+    "local": "Atlético Nacional",
+    "visita": "Independiente Medellín",
+    "over15": 77.0,
+    "resultado": "3-1",
+    "goles": 4,
+    "acierto": true
+   },
+   {
+    "hora": "18:00",
+    "local": "Atletico MG",
+    "visita": "Corinthians",
+    "over15": 74.2,
+    "resultado": "1-1",
+    "goles": 2,
+    "acierto": true
+   },
+   {
+    "hora": "18:20",
+    "local": "Santa Fe",
+    "visita": "Once Caldas",
+    "over15": 71.5,
     "resultado": "3-0",
     "goles": 3,
     "acierto": true
    },
    {
-    "hora": "18:20",
-    "local": "Millonarios",
-    "visita": "Bucaramanga",
-    "over15": 66.1,
-    "resultado": "4-1",
-    "goles": 5,
+    "hora": "19:00",
+    "local": "Barcelona SC",
+    "visita": "Independiente del Valle",
+    "over15": 70.9,
+    "resultado": "1-1",
+    "goles": 2,
     "acierto": true
    },
    {
-    "hora": "20:30",
-    "local": "América de Cali",
-    "visita": "Deportivo Cali",
-    "over15": 65.9,
-    "resultado": "2-1",
-    "goles": 3,
+    "hora": "19:00",
+    "local": "Boca Juniors",
+    "visita": "Independiente Rivadavia",
+    "over15": 64.6,
+    "resultado": "2-0",
+    "goles": 2,
     "acierto": true
    }
   ]

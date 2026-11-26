@@ -1,0 +1,249 @@
+{
+ "fecha": "2026-11-25",
+ "auditado": "2026-11-26 05:40 ECU (rutina diaria)",
+ "partidos": 7,
+ "terminados": 7,
+ "anulados": 0,
+ "pendientes": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   1,
+   2
+  ],
+  "GOLES OPTIMISTAS": [
+   5,
+   5
+  ],
+  "Total >=70": [
+   5,
+   6
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   2
+  ],
+  "Marcadores exactos": [
+   2,
+   7
+  ],
+  "Menos de 70 (informativo)": [
+   1,
+   1
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   1,
+   2
+  ],
+  "GOLES OPTIMISTAS": [
+   5,
+   5
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   0,
+   0
+  ],
+  "moderada": [
+   0,
+   2
+  ]
+ },
+ "intervalo_wilson_95": {
+  "GOLES ESTÁNDAR": [
+   9.5,
+   90.5
+  ],
+  "GOLES OPTIMISTAS": [
+   56.6,
+   100.0
+  ],
+  "Total >=70": [
+   43.6,
+   97.0
+  ],
+  "Over 2.5 con señal >=65": [
+   0.0,
+   65.8
+  ],
+  "Menos de 70 (informativo)": [
+   20.7,
+   100.0
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "Monterrey vs América",
+  "over15": 87.5,
+  "resultado": "0-0",
+  "goles": 0,
+  "acierto": false,
+  "estado": "terminado",
+  "fuente": "https://laopinion.com/2026/11/26/america-perdona-al-monterrey-con-un-hombre-de-mas-y-deja-viva-la-serie-en-la-liguilla/"
+ },
+ "fallos_over15_70": [
+  "Monterrey 0-0 América (Over 1.5 al 87,5 %; hubo 0 goles)"
+ ],
+ "fallos_over25_senal": [
+  "Toluca 2-0 Atlas (Over 2.5 al 68,1 %, señal moderada; hubo 2 goles)",
+  "Monterrey 0-0 América (Over 2.5 al 68,5 %, señal moderada; hubo 0 goles)"
+ ],
+ "informativo_menos_70": [
+  "Boca Juniors 2-0 Independiente Rivadavia (64,6 %, menos de 70: no recomendado; hubo 2 goles)"
+ ],
+ "anulados_lista": [],
+ "pendientes_lista": [],
+ "nota": "Miércoles 25-nov: Brasileirão (Atlético-MG–Corinthians), cuadrangulares Liga BetPlay fecha 2 grupo A (Santa Fe–Once Caldas, Nacional–Medellín), octavos del Clausura argentino (Boca–Ind. Rivadavia), LigaPro hexagonal F1 aplazada (Barcelona–IDV) e ida de cuartos de la Liguilla MX (Toluca–Atlas, Monterrey–América). 7/7 resultados finales con dos fuentes cada uno. Fallo: Monterrey 0-0 América (partido del día, Over 1.5 al 87,5 %; Monterrey con 10 desde el minuto 10). Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. Escala del 17-oct sobre el entero redondeado. Dashboard Gol 4.0 sin URL pública; no hubo resultados-en-vivo.json del refresco horario.",
+ "resultados": [
+  {
+   "hora": "18:00",
+   "liga": "BRA",
+   "local": "Atletico MG",
+   "visita": "Corinthians",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 74.2,
+   "over25": 48.2,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-25 05:41 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.cartacapital.com.br/esporte/com-um-a-menos-atletico-mg-empata-com-corinthians-na-arena-mrv/",
+   "fuente_2": "https://gidstats.com/es/futbol/brasileirao/2026-11-25-1492461-atletico-mg-corinthians/"
+  },
+  {
+   "hora": "18:20",
+   "liga": "COL",
+   "local": "Santa Fe",
+   "visita": "Once Caldas",
+   "resultado": "3-0",
+   "estado": "terminado",
+   "over15": 71.5,
+   "over25": 44.6,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-25 05:41 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.eluniversal.com.co/deportes/2026/11/25/goleada-cardenal-en-el-campin-santa-fe-vence-a-once-caldas-y-se-mete-en-la-pelea-del-grupo-a/",
+   "fuente_2": "https://www.noticiascaracol.com/golcaracol/futbol-colombiano/santa-fe-se-hizo-fuerte-en-el-campin-y-sigue-en-la-pelea-victoria-3-0-sobre-once-caldas-rg10"
+  },
+  {
+   "hora": "19:00",
+   "liga": "ARG",
+   "local": "Boca Juniors",
+   "visita": "Independiente Rivadavia",
+   "resultado": "2-0",
+   "estado": "terminado",
+   "over15": 64.6,
+   "over25": 36.8,
+   "marcador": "1-0",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-25 05:41 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://www.lanacion.com.ar/deportes/canchallena/boca-juniors-vencio-por-2-0-a-independiente-rivadavia-por-el-torneo-clausura-2026-nid25112026/",
+   "fuente_2": "https://www.futboltotal.futbol/partido/boca-juniors-vs-independ-rivadavia-liga-profesional-argentina-2026-11-26"
+  },
+  {
+   "hora": "19:00",
+   "liga": "ECU",
+   "local": "Barcelona SC",
+   "visita": "Independiente del Valle",
+   "resultado": "1-1",
+   "estado": "terminado",
+   "over15": 70.9,
+   "over25": 43.9,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-25 05:41 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": true,
+   "fuente": "https://www.extra.ec/noticia/deportes/barcelona-sc-independiente-valle-resultado-hexagonal-ligapro-2026-168944.html",
+   "fuente_2": "https://www.elfutbolero.com.ec/liga-pro-a/barcelona-sc/barcelona-sc-no-le-hizo-el-pasillo-de-campeon-a-independiente-del-valle-y-empato-1-1-20261126.html"
+  },
+  {
+   "hora": "20:00",
+   "liga": "MEX",
+   "local": "Toluca",
+   "visita": "Atlas",
+   "resultado": "2-0",
+   "estado": "terminado",
+   "over15": 87.2,
+   "over25": 68.1,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "sellado": "2026-11-25 05:41 ECU (UTC-5)",
+   "goles": 2,
+   "acierto_over15": true,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://laopinion.com/2026/11/25/toluca-da-el-primer-golpe-en-la-liguilla-del-adios-de-mohamed-sobre-el-atlas-2-0/",
+   "fuente_2": "https://www.enjuegodeportes.com/liga-mx/toluca-vence-2-0-atlas-ida-cuartos-de-final-liguilla-apertura-2026-helinho/"
+  },
+  {
+   "hora": "20:30",
+   "liga": "COL",
+   "local": "Atlético Nacional",
+   "visita": "Independiente Medellín",
+   "resultado": "3-1",
+   "estado": "terminado",
+   "over15": 77.0,
+   "over25": 52.0,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-25 05:41 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.colombia.com/futbol/liga-colombiana/asi-termino-el-clasico-paisa-entre-nacional-y-medellin-614254",
+   "fuente_2": "https://diariodeportes.com.co/futbol-colombiano/liga-betplay/atletico-nacional-vencio-3x1-a-medellin-en-el-clasico-paisa-por-la-2a-fecha-del-grupo-a-en-los-cuadrangulares-de-liga/"
+  },
+  {
+   "hora": "22:10",
+   "liga": "MEX",
+   "local": "Monterrey",
+   "visita": "América",
+   "resultado": "0-0",
+   "estado": "terminado",
+   "over15": 87.5,
+   "over25": 68.5,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "sellado": "2026-11-25 05:41 ECU (UTC-5)",
+   "goles": 0,
+   "acierto_over15": false,
+   "acierto_over25": false,
+   "marcador_exacto": false,
+   "fuente": "https://laopinion.com/2026/11/26/america-perdona-al-monterrey-con-un-hombre-de-mas-y-deja-viva-la-serie-en-la-liguilla/",
+   "fuente_2": "https://www.excelsior.com.mx/deportes/rayados-sobrevive-america-y-monterrey-empatan-sin-goles-ida-y-dejan-todo-para-vuelta"
+  }
+ ]
+}

@@ -1,31 +1,37 @@
 {
- "local": "Monterrey",
- "fecha_larga": "Miércoles 25 de noviembre de 2026",
- "desde": "05:41",
+ "local": "León",
+ "fecha_larga": "Jueves 26 de noviembre de 2026",
+ "desde": "05:37",
  "contexto": [
-  "Ida de cuartos de final del Apertura 2026: Monterrey (6.º) recibe al América (3.º).",
-  "Monterrey en casa: 3,4 goles por partido · América fuera: 4,3.",
-  "Henry Martín lleva 11 goles; Ocampos, 7 para Rayados. En la fase regular: 1-1."
+  "Ida de cuartos de final del Apertura 2026: León (7.º) recibe a Cruz Azul (2.º).",
+  "León en casa: 3,1 goles por partido · Cruz Azul fuera: 3,6.",
+  "Cruz Azul, 2.ª mejor ofensiva (37 goles), ganó 2-1 a León en la fase regular."
  ],
  "auditoria": {
   "encabezado": "Así nos fue ayer",
-  "titulo": "Martes 24 · 3 ligas · 4 partidos con fuente",
+  "titulo": "Miércoles 25 · 5 ligas · 7 partidos con fuente",
   "tiles": [
-   ["4/4", "Partidos con 2 goles o más (Over 1.5)", "verde"],
-   ["1/1", "Partido del día (San José 2-1 Houston)", "verde"],
-   ["4/4", "Partidos con 3 goles o más (sin señal de Over 2.5)", "verde"],
-   ["0/4", "Marcadores exactos (dimos 1-1 en los cuatro)", "dor"]
+   [
+    "6/7",
+    "Partidos con 2 goles o más (Over 1.5)",
+    "verde"
+   ],
+   [
+    "0/1",
+    "Partido del día (Monterrey 0-0 América)",
+    "rojo"
+   ],
+   [
+    "0/2",
+    "Señales de Over 2.5 (Toluca y Monterrey)",
+    "rojo"
+   ],
+   [
+    "2/7",
+    "Marcadores exactos (Atlético-MG 1-1 y Barcelona 1-1)",
+    "dor"
+   ]
   ],
-  "nota": "Acertaron San José 2-1 Houston (84 % · 3 goles), Chapecoense 3-0 Palmeiras (76 % · 3), Millonarios 4-1 Bucaramanga (66 % · 5) y América 2-1 Cali (66 % · 3). Sin fallos en Over 1.5. Fuentes: TSN/AP, ESPN, Infobae, Noticias Caracol."
- },
- "acierto": {
-  "fecha": "martes 24 de noviembre",
-  "local": "San José Earthquakes",
-  "visita": "Houston Dynamo",
-  "liga": "Playoffs MLS · EE. UU.",
-  "resultado": "2-1",
-  "over15": 83.6,
-  "goles": "3",
-  "sellado": "05:48 ECU del 24-nov"
+  "nota": "Acertaron Toluca 2-0 Atlas (87 % · 2 goles), Nacional 3-1 Medellín (77 % · 4), Atlético-MG 1-1 Corinthians (74 % · 2), Santa Fe 3-0 Once Caldas (72 % · 3), Barcelona 1-1 IDV (71 % · 2) y Boca 2-0 Ind. Rivadavia (65 % · 2). Falló Monterrey 0-0 América (88 % · 0 goles). Fuentes: La Opinión, Colombia.com, CartaCapital, El Universal, Extra, La Nación."
  }
 }

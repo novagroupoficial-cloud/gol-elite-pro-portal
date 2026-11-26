@@ -742,6 +742,20 @@ for _lg,_a,_ga,_gb,_b in MAR24:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# MIE25 (rutina 26-nov-2026): partidos de liga del miércoles 25-nov (auditoría del 25), cada uno con su fuente.
+# BRA: https://gidstats.com/es/futbol/brasileirao/2026-11-25-1492461-atletico-mg-corinthians/ · https://www.cartacapital.com.br/esporte/com-um-a-menos-atletico-mg-empata-com-corinthians-na-arena-mrv/
+# COL cuadrangulares fecha 2: https://www.eluniversal.com.co/deportes/2026/11/25/goleada-cardenal-en-el-campin-santa-fe-vence-a-once-caldas-y-se-mete-en-la-pelea-del-grupo-a/ · https://www.colombia.com/futbol/liga-colombiana/asi-termino-el-clasico-paisa-entre-nacional-y-medellin-614254
+# ECU hexagonal (F1 aplazada): https://www.elfutbolero.com.ec/liga-pro-a/barcelona-sc/barcelona-sc-no-le-hizo-el-pasillo-de-campeon-a-independiente-del-valle-y-empato-1-1-20261126.html · https://www.extra.ec/noticia/deportes/barcelona-sc-independiente-valle-resultado-hexagonal-ligapro-2026-168944.html
+# MEX (liguilla) y ARG (octavos del Clausura): no se suman, mismo criterio que playoffs MLS (tabla de fase regular).
+MIE25=[
+ ('BRA','Atletico MG',1,1,'Corinthians'),
+ ('COL','Santa Fe',3,0,'Once Caldas'),('COL','Atlético Nacional',3,1,'Independiente Medellín'),
+ ('ECU','Barcelona SC',1,1,'Independiente del Valle'),
+]
+for _lg,_a,_ga,_gb,_b in MIE25:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

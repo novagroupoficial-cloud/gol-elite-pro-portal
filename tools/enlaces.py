@@ -1457,3 +1457,25 @@ LLEGAN={
  'Monterrey|América':["Monterrey en casa: 16 goles a favor y 11 en contra en 8 partidos (3,4 goles por partido); goleó 6-1 a Juárez","América fuera: 23 a favor y 16 en contra en 9 partidos (4,3 goles por partido)","Rayados llega con dos triunfos seguidos de visita; el América, con 5 partidos sin ganar","Fuente: tablas casa/fuera del portal y Fútbol Total (resultados del Apertura 2026)"],
  'Toluca|Atlas':["Toluca en casa: 22 goles a favor y 11 en contra en 8 partidos (4,1 goles por partido)","Atlas fuera: 17 a favor y 12 en contra en 8 partidos; 4 de sus últimos 5 partidos tuvieron 3 goles o más","En la fase regular, Toluca le ganó 5-2 al Atlas en el Nemesio Díez (12-sep)","Fuente: tablas casa/fuera del portal, Fútbol Total y El Imparcial"],
 }
+
+# ===== jueves 26-nov-2026 (rutina diaria, sellado 05:37 ECU) =====
+LINK={
+ 'São Paulo|Remo':("São Paulo recibe a Remo para volver a ganar en el Brasileño","Rádio Itatiaia","https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/brasileirao-serie-a/sao-paulo-recebe-remo-para-voltar-a-vencer-no-brasileiro/"),
+ 'Pachuca|Guadalajara':("Pachuca vs Chivas: el Rebaño no pierde en el Hidalgo desde 2022","Excélsior","https://www.excelsior.com.mx/deportes/pachuca-vs-chivas-rebano-no-pierde-hidalgo-desde-2022"),
+ 'León|Cruz Azul':("Cruz Azul va a León sin suspendidos y con una deuda pendiente en la Liga MX","Nación Fútbol","https://www.nacionfutbol.com.mx/liga-mx/cruz-azul/cruz-azul-va-a-leon-sin-suspendidos-y-la-deuda-pendiente-que-tiene-en-liga-mx-20261126.html"),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['León|Cruz Azul','Pachuca|Guadalajara','São Paulo|Remo']
+COL.update({'São Paulo':'#f2f2f2','Remo':'#0a2a66','Pachuca':'#0a2a66','Guadalajara':'#c8102e','León':'#006a3e','Cruz Azul':'#0047ab'})
+ACIERTOS=[
+ ("Toluca vs Atlas","2-0","87 % · mié 25","La Opinión","https://laopinion.com/2026/11/25/toluca-da-el-primer-golpe-en-la-liguilla-del-adios-de-mohamed-sobre-el-atlas-2-0/"),
+ ("Atlético Nacional vs Independiente Medellín","3-1","77 % · mié 25","Colombia.com","https://www.colombia.com/futbol/liga-colombiana/asi-termino-el-clasico-paisa-entre-nacional-y-medellin-614254"),
+ ("Atlético-MG vs Corinthians","1-1","74 % · mié 25 · marcador exacto","CartaCapital","https://www.cartacapital.com.br/esporte/com-um-a-menos-atletico-mg-empata-com-corinthians-na-arena-mrv/"),
+ ("Santa Fe vs Once Caldas","3-0","72 % · mié 25","El Universal","https://www.eluniversal.com.co/deportes/2026/11/25/goleada-cardenal-en-el-campin-santa-fe-vence-a-once-caldas-y-se-mete-en-la-pelea-del-grupo-a/"),
+ ("Barcelona SC vs Independiente del Valle","1-1","71 % · mié 25 · marcador exacto","Extra","https://www.extra.ec/noticia/deportes/barcelona-sc-independiente-valle-resultado-hexagonal-ligapro-2026-168944.html"),
+ ("Boca Juniors vs Independiente Rivadavia","2-0","65 % · mié 25","La Nación","https://www.lanacion.com.ar/deportes/canchallena/boca-juniors-vencio-por-2-0-a-independiente-rivadavia-por-el-torneo-clausura-2026-nid25112026/"),
+]
+LLEGAN={
+ 'León|Cruz Azul':["León en casa: 14 goles a favor y 11 en contra en 8 partidos (3,1 goles por partido)","Cruz Azul fuera: 18 a favor y 14 en contra en 9 partidos (3,6 goles por partido); 2.ª mejor ofensiva del torneo (37 goles)","En la fase regular (J15, 1-nov) Cruz Azul ganó 2-1 a León en el Estadio Banorte","Fuente: tablas casa/fuera del portal, Telemundo y SI"],
+ 'Pachuca|Guadalajara':["Pachuca en casa: 15 a favor y 13 en contra en 8 partidos (3,5 goles por partido); llega con 4 triunfos seguidos","Chivas fuera: 11 a favor y 6 en contra en 8 partidos; invicto de visita en el Apertura (3 victorias y 5 empates)","Salomón Rondón (Pachuca) fue campeón de goleo con 17 goles","Fuente: tablas casa/fuera del portal, Excélsior y López-Dóriga"],
+}

@@ -20,15 +20,15 @@ def key(p): return f"{p['local']}|{p['visita']}"
 NEWS_PRED={}  # (sin uso en la portada actual)
 NEWS_DEST=[]
 FUENTES=[
- ("TSN (AP) · San José 2-1 Houston (mar 24)","https://www.tsn.ca/soccer/mls/article/vieira-and-lowen-score-as-quakes-beat-dynamo-in-game-1/"),
- ("ESPN · Chapecoense 3-0 Palmeiras (mar 24)","https://www.espn.com/soccer/match/_/gameId/401841335"),
- ("Infobae · Millonarios 4-1 Bucaramanga (mar 24)","https://www.infobae.com/colombia/2026/11/24/millonarios-vs-atletico-bucaramanga-en-vivo-los-equipos-buscan-sus-primeros-tres-puntos-en-los-cuadrangulares-semifinales-de-la-liga-betplay/"),
- ("Noticias Caracol · América 2-1 Deportivo Cali (mar 24)","https://www.noticiascaracol.com/golcaracol/futbol-colombiano/america-con-doblete-de-tomas-angel-gano-el-clasico-y-es-lider-de-su-grupo-2-1-sobre-cali-rg10"),
- ("Récord · Calendario de la ida de cuartos de final del Apertura 2026","https://www.record.com.mx/historia/donde-ver-cuartos-de-final-ida-apertura-2026-fechas-horarios-canales-transmision-2026112421242072610"),
- ("Lance · Fechas y horarios de las rodadas 35 y 36 del Brasileirão","https://www.lance.com.br/futebol-nacional/cbf-detalha-rodadas-35-e-36-do-brasileirao-veja-datas-e-horarios-dos-jogos.html"),
- ("Claro Sports · Programación de las fechas 1 y 2 de cuadrangulares","https://www.clarosports.com/colombia/liga-bet-play/partidos-fecha-uno-dos-cuadrangulares/"),
- ("442 · Días y horarios de los octavos del Clausura 2026","https://442.perfil.com/noticias/futbol/liga-profesional-confirmo-dias-y-horarios-para-octavos-de-final-de-playoffs-del-clausura-2026.phtml"),
- ("Extra · Barcelona SC vs IDV, partido pendiente de la LigaPro","https://www.extra.ec/noticia/deportes/barcelona-sc-vs-independiente-valle-fecha-hora-partido-pendiente-ligapro-168431.html"),
+ ("La Opinión · Toluca 2-0 Atlas (mié 25)","https://laopinion.com/2026/11/25/toluca-da-el-primer-golpe-en-la-liguilla-del-adios-de-mohamed-sobre-el-atlas-2-0/"),
+ ("La Opinión · Monterrey 0-0 América (mié 25)","https://laopinion.com/2026/11/26/america-perdona-al-monterrey-con-un-hombre-de-mas-y-deja-viva-la-serie-en-la-liguilla/"),
+ ("Colombia.com · Nacional 3-1 Medellín (mié 25)","https://www.colombia.com/futbol/liga-colombiana/asi-termino-el-clasico-paisa-entre-nacional-y-medellin-614254"),
+ ("CartaCapital · Atlético-MG 1-1 Corinthians (mié 25)","https://www.cartacapital.com.br/esporte/com-um-a-menos-atletico-mg-empata-com-corinthians-na-arena-mrv/"),
+ ("El Universal · Santa Fe 3-0 Once Caldas (mié 25)","https://www.eluniversal.com.co/deportes/2026/11/25/goleada-cardenal-en-el-campin-santa-fe-vence-a-once-caldas-y-se-mete-en-la-pelea-del-grupo-a/"),
+ ("Extra · Barcelona SC 1-1 IDV (mié 25)","https://www.extra.ec/noticia/deportes/barcelona-sc-independiente-valle-resultado-hexagonal-ligapro-2026-168944.html"),
+ ("La Nación · Boca 2-0 Independiente Rivadavia (mié 25)","https://www.lanacion.com.ar/deportes/canchallena/boca-juniors-vencio-por-2-0-a-independiente-rivadavia-por-el-torneo-clausura-2026-nid25112026/"),
+ ("Excélsior · Días y horarios de los cuartos de final del Apertura 2026","https://www.excelsior.com.mx/deportes/liga-mx-apertura-2026-cuartos-final-dias-horarios-canales"),
+ ("Flashscore · Fechas y horarios de las dos últimas rodadas del Brasileirão","https://www.flashscore.com.br/noticias/cbf-divulga-datas-e-horarios-das-duas-ultimas-rodadas-do-brasileirao-veja-jogos/YcKaMBh2/"),
  ("Fútbol Total · Resultados del Apertura 2026 de la Liga MX","https://futboltotal.futbol/league/liga-mx/todos-los-partidos"),
 ]
 
@@ -182,7 +182,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if entero(p['over15'])>=80 else ''}"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=['Premier League, LaLiga, Serie A, Bundesliga, Ligue 1, Eredivisie y Liga Portugal: sin partidos hoy (jornada de Champions). MLS: sin partidos hoy (los juegos 2 de la ronda 1 son el 27 y 28-nov). Perú, Chile, Uruguay y Bolivia: sin partidos de liga hoy.','Argentina: tabla casa/fuera verificada con corte anterior (225 PJ). Liga MX: tabla de la fase regular completa (cuartos de final de ida). Liga BetPlay: todos contra todos completo más las fechas 1 y 2 de cuadrangulares.','SportyTrader no fue accesible desde la rutina: calendario cruzado con agendas (RPP, Líbero, Al Aire Libre) y fuentes oficiales y medios (Lance, Récord, Claro Sports, 442, El Universo).']
+SIN=['Premier League, LaLiga, Serie A, Bundesliga, Ligue 1, Eredivisie y Liga Portugal: sin partidos de liga hoy (jueves de Europa League y Conference League). MLS: sin partidos hoy (los juegos 2 de la ronda 1 son el 27 y 28-nov). LigaPro, Liga BetPlay, Argentina, Perú, Chile y Bolivia: sin partidos de primera división hoy.','Uruguay: Montevideo City Torque–Nacional es semifinal de la Copa AUF (copa nacional, fuera de la cobertura del modelo).','Liga MX: tabla de la fase regular completa (ida de cuartos de final). SportyTrader no fue accesible desde la rutina: calendario cruzado con Excélsior, de10, Flashscore, sport-flash y La República; León–Cruz Azul a las 21:10 de México (22:10 ECU) según la mayoría de fuentes (Infobae decía 21:00).']
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 # Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
@@ -302,30 +302,30 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Miércoles 25 de noviembre de 2026 · 7 partidos con pronóstico en 5 ligas · sellados a las 05:41 (hora de Ecuador). Hoy no juegan las ligas europeas (jornada de Champions) ni la MLS.</div>
+<div class="preview">Jueves 26 de noviembre de 2026 · 3 partidos con pronóstico en 2 ligas · sellados a las 05:37 (hora de Ecuador). Hoy no juegan las ligas europeas (jueves de Europa League) ni la MLS.</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Miércoles 25 de noviembre de 2026 · sellado 05:41 ECU · el de mayor Over 1.5 que aún no empieza</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Jueves 26 de noviembre de 2026 · sellado 05:37 ECU · el de mayor Over 1.5 que aún no empieza</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{pc(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{pc(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.1 (mejora Kaizen del 26-oct), calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK.get(key(top),('','','#'))[1])} · <a href="{LINK.get(key(top),('','','#'))[2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
 {RANK}
-<section id="aciertos"><div class="sh"><h2>¡Acertamos ayer!</h2><p>Martes 24: 4 de 4 partidos con 2 goles o más · 2 de 2 de 70 % o más (100 %) · el partido del día, San José 2-1 Houston (dimos Over 1.5 al 84 % · hubo 3 goles), Chapecoense 3-0 Palmeiras (76 % · hubo 3 goles), Millonarios 4-1 Bucaramanga (66 % · hubo 5 goles) y América 2-1 Deportivo Cali (66 % · hubo 3 goles) · toca para ver el resultado en su medio</p></div>
+<section id="aciertos"><div class="sh"><h2>¡Acertamos ayer!</h2><p>Miércoles 25: 6 de 7 partidos con 2 goles o más · 5 de 6 de 70 % o más (83 %) · Toluca 2-0 Atlas (dimos Over 1.5 al 87 % · hubo 2 goles), Nacional 3-1 Medellín (77 % · hubo 4 goles), Atlético-MG 1-1 Corinthians y Barcelona 1-1 IDV (marcador exacto) y Santa Fe 3-0 Once Caldas · falló el partido del día, Monterrey 0-0 América (88 %; Rayados con 10 desde el minuto 10) · toca para ver el resultado en su medio</p></div>
 {resumen}{champ}{estrella}{recs}{ayer}{calib}<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1 or ('<p class="legal">Hoy solo el partido del día (arriba) llega a 80 % en Over 1.5; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>' if entero(top['over15'])>=80 else '<p class="legal">Hoy ningún partido llega a 80 % en Over 1.5. El más alto está arriba, como partido del día; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>')}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del miércoles</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del jueves</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Miércoles 25 de noviembre de 2026 · pronósticos sellados a las 05:41 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Jueves 26 de noviembre de 2026 · pronósticos sellados a las 05:37 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
-<section class="box" id="historial"><h3>Auditoría: martes 24 de noviembre</h3><p class="legal">4 partidos terminados en 3 ligas, todos con fuente (ESPN, Infobae, Noticias Caracol y TSN/AP).</p>
-<div class="kpis"><div class="kpi g"><b>✔ 3 goles</b><span>Partido del día: San José 2-1 Houston (84 %)</span></div><div class="kpi g"><b>1/1</b><span>GOLES ESTÁNDAR (80 a 89 %)</span></div><div class="kpi g"><b>2/2</b><span>Over 1.5 de 70 % o más (100 %)</span></div><div class="kpi"><b>0/0</b><span>Over 2.5 con señal (sin señales)</span></div><div class="kpi"><b>0/4</b><span>Marcadores exactos</span></div></div>
-<p class="legal">Por categoría: GOLES ESTÁNDAR 1/1 y GOLES OPTIMISTAS 3/3 (no hubo GOL ÉLITE ni GOLES PLATINO). Sin fallos en Over 1.5: los 4 partidos tuvieron 2 goles o más, y los 4 tuvieron 3 o más. Acumulado de la galería (29 jornadas publicadas): 32/33 GOL ÉLITE y 399/517 en Over 1.5 de 70 % o más (77 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
+<section class="box" id="historial"><h3>Auditoría: miércoles 25 de noviembre</h3><p class="legal">7 partidos terminados en 5 ligas, cada uno con dos fuentes (La Opinión, Colombia.com, CartaCapital, El Universal, Extra, La Nación y otras).</p>
+<div class="kpis"><div class="kpi"><b>✘ 0 goles</b><span>Partido del día: Monterrey 0-0 América (88 %)</span></div><div class="kpi"><b>1/2</b><span>GOLES ESTÁNDAR (80 a 89 %)</span></div><div class="kpi g"><b>5/6</b><span>Over 1.5 de 70 % o más (83 %)</span></div><div class="kpi"><b>0/2</b><span>Over 2.5 con señal moderada</span></div><div class="kpi g"><b>2/7</b><span>Marcadores exactos</span></div></div>
+<p class="legal">Por categoría: GOLES ESTÁNDAR 1/2 y GOLES OPTIMISTAS 5/5 (no hubo GOL ÉLITE ni GOLES PLATINO). Fallo en Over 1.5: Monterrey 0-0 América (dimos 87,5 %; hubo 0 goles). Las dos señales de Over 2.5 fallaron (Toluca 2-0 Atlas y Monterrey 0-0 América). Acumulado de la galería (30 jornadas publicadas): 32/33 GOL ÉLITE y 404/523 en Over 1.5 de 70 % o más (77 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul><p class="legal">Porcentajes redondeados: ,5 o más sube (94,8 → 95 %); menos de ,5 se queda (94,4 → 94 %).</p></section>
 <section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos revisados tienen datos verificados de local y visitante.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
@@ -336,7 +336,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-11-25"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-11-26"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

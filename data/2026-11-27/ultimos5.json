@@ -1,0 +1,111 @@
+{
+ "fecha": "2026-11-27",
+ "nota": "Fase de medición Kaizen: no entra al modelo. Últimos 5 oficiales de cada equipo (más reciente primero). Marcador local-visita.",
+ "partidos": {
+  "Groningen|Willem II": {
+   "local": [
+    "Groningen 1-3 Heerenveen (C, 21-11, Eredivisie)",
+    "AZ 4-3 Groningen (F, 08-11, Eredivisie)",
+    "Groningen 2-3 Sparta Rotterdam (C, 01-11, Eredivisie)",
+    "Groningen 0-2 FC Emmen (C, 29-10, KNVB Beker)",
+    "NEC 2-2 Groningen (F, 25-10, Eredivisie)"
+   ],
+   "visita": [
+    "Twente 2-1 Willem II (F, 22-11, Eredivisie)",
+    "Willem II 1-1 PEC Zwolle (C, 06-11, Eredivisie)",
+    "PSV 7-0 Willem II (F, 31-10, Eredivisie)",
+    "Helmond Sport 3-4 Willem II (F, 27-10, KNVB Beker)",
+    "Willem II 1-6 Cambuur (C, 24-10, Eredivisie)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/groningen-vs-willem-ii-eredivisie-2026-11-27 · https://www.sportsmole.co.uk/football/eredivisie/groningen-vs-willem-ii_game_263481.html · https://www.sportsmole.co.uk/football/helmond-sport-vs-willem-ii_game_260538.html",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Levante|Racing de Santander": {
+   "local": [
+    "Levante 1-1 Elche (C, 23-11, LaLiga)",
+    "Tarancón 1-2 Levante (F, 12-11, Copa del Rey)",
+    "Celta de Vigo 0-0 Levante (F, 08-11, LaLiga)",
+    "Levante 0-2 Atlético de Madrid (C, 31-10, LaLiga)",
+    "Real Sociedad 2-1 Levante (F, 25-10, LaLiga)"
+   ],
+   "visita": [
+    "Racing de Santander 3-2 Real Sociedad (C, 22-11, LaLiga)",
+    "Málaga 1-2 Racing de Santander (F, 07-11, LaLiga)",
+    "Racing de Santander 0-3 Real Madrid (C, 01-11, LaLiga)",
+    "Ribadesella CF 0-2 Racing de Santander (F, 29-10, Copa del Rey)",
+    "Racing de Santander 2-1 Espanyol (C, 24-10, LaLiga)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/levante-vs-racing-santander-laliga-1570468",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Werder Bremen|Borussia Monchengladbach": {
+   "local": [
+    "Werder Bremen 4-0 Hamburger SV (C, 22-11, Bundesliga)",
+    "VfB Stuttgart 1-0 Werder Bremen (F, 07-11, Bundesliga)",
+    "Werder Bremen 2-0 Hoffenheim (C, 31-10, Bundesliga)",
+    "Borussia Dortmund 3-2 Werder Bremen (F, 27-10, DFB-Pokal)",
+    "Mainz 2-3 Werder Bremen (F, 24-10, Bundesliga)"
+   ],
+   "visita": [
+    "Borussia Monchengladbach 0-1 Borussia Dortmund (C, 21-11, Bundesliga)",
+    "Hamburger SV 3-1 Borussia Monchengladbach (F, 06-11, Bundesliga)",
+    "Borussia Monchengladbach 0-0 Paderborn (C, 31-10, Bundesliga)",
+    "Borussia Monchengladbach 2-0 Karlsruher SC (C, 27-10, DFB-Pokal)",
+    "VfB Stuttgart 2-3 Borussia Monchengladbach (F, 23-10, Bundesliga)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/werder-bremen-vs-borussia-monchengladbach-bundesliga-2026-11-27 · https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/vfb-stuttgart-vs-borussia-moenchengladbach/news",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Columbus Crew|Inter Miami": {
+   "local": [
+    "Inter Miami 0-3 Columbus Crew (F, 21-11, MLS playoffs R1 J1)",
+    "Chicago Fire 3-4 Columbus Crew (F, 07-11, MLS)",
+    "Columbus Crew 3-0 DC United (C, 31-10, MLS)",
+    "FC Dallas 0-2 Columbus Crew (F, 28-10, MLS)",
+    "Columbus Crew 4-2 Toronto FC (C, 24-10, MLS)"
+   ],
+   "visita": [
+    "Inter Miami 0-3 Columbus Crew (C, 21-11, MLS playoffs R1 J1)",
+    "Inter Miami 3-3 Charlotte FC (C, 07-11, MLS)",
+    "New England Revolution 1-2 Inter Miami (F, 02-11, MLS)",
+    "Inter Miami 2-2 FC Cincinnati (C, 28-10, MLS)",
+    "NY Red Bulls 2-0 Inter Miami (F, 24-10, MLS)"
+   ],
+   "fuente": "https://www.goal.com/en-ae/team/columbus-crew/fixtures-results/chjb0xe5vlaaguop3q2nbalni · https://www.vavel.com/en/data/inter-miami-cf/results/",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Real Salt Lake|Vancouver Whitecaps": {
+   "local": [
+    "Vancouver Whitecaps 2-0 Real Salt Lake (F, 22-11, MLS playoffs R1 J1)",
+    "Seattle Sounders 1-1 Real Salt Lake (RSL gana 4-2 en penales) (F, 19-11, MLS playoffs wild card)",
+    "Real Salt Lake 2-1 LA Galaxy (C, 07-11, MLS)",
+    "San Jose Earthquakes 2-1 Real Salt Lake (F, 31-10, MLS)",
+    "Austin FC 1-2 Real Salt Lake (F, 28-10, MLS)"
+   ],
+   "visita": [
+    "Vancouver Whitecaps 2-0 Real Salt Lake (C, 22-11, MLS playoffs R1 J1)",
+    "CF Montreal 0-2 Vancouver Whitecaps (F, 07-11, MLS)",
+    "Vancouver Whitecaps 5-1 Seattle Sounders (C, 01-11, MLS)",
+    "Vancouver Whitecaps 4-1 San Diego FC (C, 28-10, MLS)",
+    "Colorado Rapids 1-0 Vancouver Whitecaps (F, 24-10, MLS)"
+   ],
+   "fuente": "https://www.goal.com/en-ug/team/real-salt-lake/fixtures-results/29zyafx618w7tvp34n53pzwwb · https://www.goal.com/en-ug/team/vancouver-whitecaps/fixtures-results/cdmq2tqfwo5td2ztv1s62bqlf",
+   "cuota_over25": 1.52,
+   "cuota_under25": 2.53,
+   "casa": "sin dato (la ficha de FOX Sports no nombra la casa; cuotas americanas -192 / +153)",
+   "url_cuotas": "https://www.foxsports.com/soccer/mls-real-salt-lake-vs-vancouver-nov-27-2026-game-boxscore-1112022"
+  }
+ }
+}

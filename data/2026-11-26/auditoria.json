@@ -1,0 +1,154 @@
+{
+ "fecha": "2026-11-26",
+ "auditado": "2026-11-27 05:50 ECU (rutina diaria)",
+ "partidos": 3,
+ "terminados": 3,
+ "anulados": 0,
+ "pendientes": 0,
+ "resumen": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   1,
+   1
+  ],
+  "GOLES OPTIMISTAS": [
+   2,
+   2
+  ],
+  "Total >=70": [
+   3,
+   3
+  ],
+  "Over 2.5 con señal >=65": [
+   0,
+   0
+  ],
+  "Marcadores exactos": [
+   0,
+   3
+  ]
+ },
+ "resumen_escala_17oct": {
+  "GOL ÉLITE": [
+   0,
+   0
+  ],
+  "GOLES PLATINO": [
+   0,
+   0
+  ],
+  "GOLES ESTÁNDAR": [
+   1,
+   1
+  ],
+  "GOLES OPTIMISTAS": [
+   2,
+   2
+  ]
+ },
+ "over25_por_senal": {
+  "fuerte": [
+   0,
+   0
+  ],
+  "moderada": [
+   0,
+   0
+  ]
+ },
+ "intervalo_wilson_95": {
+  "GOLES ESTÁNDAR": [
+   20.7,
+   100.0
+  ],
+  "GOLES OPTIMISTAS": [
+   34.2,
+   100.0
+  ],
+  "Total >=70": [
+   43.8,
+   100.0
+  ]
+ },
+ "partido_del_dia": {
+  "partido": "León vs Cruz Azul",
+  "over15": 83.8,
+  "resultado": "0-4",
+  "goles": 4,
+  "acierto": true,
+  "estado": "terminado",
+  "fuente": "https://www.si.com/mx/liga-mx/cruz-azul-aplasta-al-leon-y-pone-un-pie-en-las-semifinales-del-apertura-2026"
+ },
+ "fallos_over15_70": [],
+ "fallos_over25_senal": [],
+ "informativo_menos_70": [],
+ "anulados_lista": [],
+ "pendientes_lista": [],
+ "nota": "Jueves 26-nov: Brasileirão 37ª (São Paulo–Remo) e ida de cuartos de la Liguilla MX (Pachuca–Guadalajara, León–Cruz Azul). 3/3 resultados finales con dos fuentes cada uno. Pleno en Over 1.5 (3/3), incluido el partido del día León 0-4 Cruz Azul (Over 1.5 al 83,8 %; hubo 4 goles). Los tres partidos tuvieron además 3+ goles, aunque ninguno tenía señal de Over 2.5 ≥65 %. Marcadores exactos 0/3. Over 1.5 acierta con 2+ goles; Over 2.5 con 3+. Escala del 17-oct sobre el entero redondeado. Dashboard Gol 4.0 sin URL pública; no hubo resultados-en-vivo.json del refresco horario.",
+ "resultados": [
+  {
+   "hora": "18:00",
+   "liga": "BRA",
+   "local": "São Paulo",
+   "visita": "Remo",
+   "resultado": "3-1",
+   "estado": "terminado",
+   "over15": 74.4,
+   "over25": 48.4,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-26 05:37 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.cnnbrasil.com.br/esportes/futebol/sao-paulo/em-despedida-melancolica-sao-paulo-sofre-mas-vence-o-remo-no-morumbis/",
+   "fuente_2": "https://sportbuzz.com.br/futebol/2026/11/26/sao-paulo-vence-o-remo-com-dois-gols-de-calleri-e-encerra-jejum/"
+  },
+  {
+   "hora": "20:00",
+   "liga": "MEX",
+   "local": "Pachuca",
+   "visita": "Guadalajara",
+   "resultado": "2-1",
+   "estado": "terminado",
+   "over15": 78.1,
+   "over25": 53.4,
+   "marcador": "1-1",
+   "categoria": "GOLES OPTIMISTAS",
+   "sellado": "2026-11-26 05:37 ECU (UTC-5)",
+   "goles": 3,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.clarosports.com/futbol/liga-mx/idrissi-sentencia-a-chivas-pachuca-remonta-con-un-golazo-al-92-y-toma-ventaja-en-la-ida-de-cuartos-de-final/",
+   "fuente_2": "https://lasillarota.com/deportes/2026/11/26/pachuca-remonto-ante-chivas-con-doblete-de-idrissi-en-la-ida-539166.html"
+  },
+  {
+   "hora": "22:10",
+   "liga": "MEX",
+   "local": "León",
+   "visita": "Cruz Azul",
+   "resultado": "0-4",
+   "estado": "terminado",
+   "over15": 83.8,
+   "over25": 62.2,
+   "marcador": "1-1",
+   "categoria": "GOLES ESTÁNDAR",
+   "sellado": "2026-11-26 05:37 ECU (UTC-5)",
+   "goles": 4,
+   "acierto_over15": true,
+   "acierto_over25": true,
+   "marcador_exacto": false,
+   "fuente": "https://www.si.com/mx/liga-mx/cruz-azul-aplasta-al-leon-y-pone-un-pie-en-las-semifinales-del-apertura-2026",
+   "fuente_2": "https://www.record.com.mx/futbol/partido/leon-cruz-azul-12365949/cobertura-en-vivo"
+  }
+ ]
+}

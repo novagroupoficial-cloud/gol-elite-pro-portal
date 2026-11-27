@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26 05:44 ECU",
+ "actualizado": "2026-11-27 06:06 ECU",
  "dias": [
   "2026-10-11",
   "2026-10-12",
@@ -30,9 +30,10 @@
   "2026-11-22",
   "2026-11-23",
   "2026-11-24",
-  "2026-11-25"
+  "2026-11-25",
+  "2026-11-26"
  ],
- "partidos": 624,
+ "partidos": 627,
  "nota": "Recalculado con la escala actual (porcentaje redondeado: ,5 sube). Over 1.5 = 2 goles o más.",
  "categorias": {
   "GOL ÉLITE": {
@@ -44,12 +45,12 @@
    "partidos": 46
   },
   "GOLES ESTÁNDAR": {
-   "aciertos": 177,
-   "partidos": 226
+   "aciertos": 178,
+   "partidos": 227
   },
   "GOLES OPTIMISTAS": {
-   "aciertos": 265,
-   "partidos": 347
+   "aciertos": 267,
+   "partidos": 349
   }
  },
  "over90": {
@@ -59,17 +60,17 @@
   "racha_max": 17
  },
  "over80": {
-  "aciertos": 222,
-  "partidos": 277
+  "aciertos": 223,
+  "partidos": 278
  },
  "over25_senal": {
   "aciertos": 75,
   "partidos": 123
  },
  "partido_del_dia": {
-  "aciertos": 21,
-  "dias": 29,
-  "racha_actual": 0,
+  "aciertos": 22,
+  "dias": 30,
+  "racha_actual": 1,
   "detalle": [
    {
     "fecha": "2026-10-11",
@@ -302,6 +303,14 @@
     "goles": 0,
     "acierto": false,
     "over15": 87.5
+   },
+   {
+    "fecha": "2026-11-26",
+    "partido": "León vs Cruz Azul",
+    "resultado": "0-4",
+    "goles": 4,
+    "acierto": true,
+    "over15": 83.8
    }
   ]
  },
@@ -332,14 +341,14 @@
   },
   {
    "franja": "80 a 89 %",
-   "partidos": 226,
-   "aciertos": 177,
+   "partidos": 227,
+   "aciertos": 178,
    "prometido": 83.9
   },
   {
    "franja": "70 a 79 %",
-   "partidos": 237,
-   "aciertos": 175,
+   "partidos": 239,
+   "aciertos": 177,
    "prometido": 74.7
   },
   {
@@ -350,69 +359,33 @@
   }
  ],
  "ultima_jornada": {
-  "fecha": "2026-11-25",
+  "fecha": "2026-11-26",
   "partidos": [
    {
     "hora": "22:10",
-    "local": "Monterrey",
-    "visita": "América",
-    "over15": 87.5,
-    "resultado": "0-0",
-    "goles": 0,
-    "acierto": false
-   },
-   {
-    "hora": "20:00",
-    "local": "Toluca",
-    "visita": "Atlas",
-    "over15": 87.2,
-    "resultado": "2-0",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "20:30",
-    "local": "Atlético Nacional",
-    "visita": "Independiente Medellín",
-    "over15": 77.0,
-    "resultado": "3-1",
+    "local": "León",
+    "visita": "Cruz Azul",
+    "over15": 83.8,
+    "resultado": "0-4",
     "goles": 4,
     "acierto": true
    },
    {
-    "hora": "18:00",
-    "local": "Atletico MG",
-    "visita": "Corinthians",
-    "over15": 74.2,
-    "resultado": "1-1",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "18:20",
-    "local": "Santa Fe",
-    "visita": "Once Caldas",
-    "over15": 71.5,
-    "resultado": "3-0",
+    "hora": "20:00",
+    "local": "Pachuca",
+    "visita": "Guadalajara",
+    "over15": 78.1,
+    "resultado": "2-1",
     "goles": 3,
     "acierto": true
    },
    {
-    "hora": "19:00",
-    "local": "Barcelona SC",
-    "visita": "Independiente del Valle",
-    "over15": 70.9,
-    "resultado": "1-1",
-    "goles": 2,
-    "acierto": true
-   },
-   {
-    "hora": "19:00",
-    "local": "Boca Juniors",
-    "visita": "Independiente Rivadavia",
-    "over15": 64.6,
-    "resultado": "2-0",
-    "goles": 2,
+    "hora": "18:00",
+    "local": "São Paulo",
+    "visita": "Remo",
+    "over15": 74.4,
+    "resultado": "3-1",
+    "goles": 4,
     "acierto": true
    }
   ]

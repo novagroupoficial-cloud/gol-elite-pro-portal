@@ -1045,5 +1045,39 @@
    "Boca Juniors 2-0 Independiente Rivadavia (Over 1.5 al 64,6 % · hubo 2 goles)"
   ],
   "partidos": 7
+ },
+ {
+  "fecha": "2026-11-26",
+  "titulo": "Jueves 26 de noviembre de 2026",
+  "imagen": "/historial/2026-11-26.jpg",
+  "resumen": [
+   [
+    "0/0",
+    "GOL ÉLITE · Over 1.5"
+   ],
+   [
+    "0/0",
+    "GOLES PLATINO (90 a 94 %)"
+   ],
+   [
+    "3/3",
+    "Over 1.5 de 70 % o más (100 %)"
+   ],
+   [
+    "0/0",
+    "Over 2.5 con señal (sin señales)"
+   ],
+   [
+    "0/3",
+    "Marcadores exactos"
+   ]
+  ],
+  "fallos": "Sin fallos en Over 1.5: pleno 3/3. No hubo señales de Over 2.5 de 65 % o más (aun así, los tres partidos tuvieron 3 goles o más). Marcadores exactos 0/3 (sugerimos 1-1 en los tres). GOLES ESTÁNDAR 1/1 y GOLES OPTIMISTAS 2/2. 3 partidos auditados con dos fuentes cada uno.",
+  "aciertos_destacados": [
+   "León 0-4 Cruz Azul (partido del día: Over 1.5 al 83,8 % · hubo 4 goles)",
+   "Pachuca 2-1 Guadalajara (Over 1.5 al 78,1 % · hubo 3 goles)",
+   "São Paulo 3-1 Remo (Over 1.5 al 74,4 % · hubo 4 goles)"
+  ],
+  "partidos": 3
  }
 ]

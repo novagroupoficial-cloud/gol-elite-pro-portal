@@ -1,10 +1,21 @@
 import json,sys
 from nova_gol_4 import Equipo, pronostico
 from datos import L
-P=[ # hora (Ecuador), liga, local, visita — jueves 26-nov-2026 (rutina diaria 05:2x ECU). Calendario: flashscore.com.br + sport-flash + valorfinal (São Paulo–Remo, 37ª, 20h BRT); excelsior.com.mx + de10.com.mx + sport-flash + larepublica.pe (cuartos de ida Liga MX; León–Cruz Azul 21:10 CDMX, Infobae dice 21:00: vale la mayoría). SportyTrader no accesible desde la rutina. Hoy no hay ligas europeas (Europa/Conference League), ni MLS, COL, ECU, ARG, PER, CHI.
- ('18:00','BRA','São Paulo','Remo'),
- ('20:00','MEX','Pachuca','Guadalajara'),
- ('22:10','MEX','León','Cruz Azul'),
+P=[ # hora (Ecuador), liga, local, visita — viernes 27-nov-2026 (rutina diaria 05:2x ECU). Calendario: sport-flash.com (páginas por liga/país) + sportschau.de + sporza.be + bundesliga.com + fantacalcio.it + Teleamazonas/El Universo (LigaPro hexagonal descenso F8) + El Espectador (cuadrangulares COL F3) + mlssoccer.com/columbuscrew.com (playoffs R1 J2) + RPP/Libero. SportyTrader no accesible desde la rutina. Sin partidos hoy: ARG, PER, CHI, Liga MX, hexagonal del título LigaPro.
+ ('14:00','NED','Groningen','Willem II'),
+ ('14:00','ECU','Delfín','Orense'),
+ ('14:30','GER','Werder Bremen','Borussia Monchengladbach'),
+ ('14:45','ITA','Venezia','Bologna'),
+ ('14:45','FRA','Brest','Paris FC'),
+ ('15:00','ENG','Nottingham Forest','Chelsea'),
+ ('15:00','ESP','Levante','Racing de Santander'),
+ ('15:15','POR','Maritimo','Nacional'),
+ ('16:30','ECU','Deportivo Cuenca','Manta'),
+ ('18:00','BRA','Fluminense','Cruzeiro'),
+ ('18:35','COL','Deportivo Cali','Bucaramanga'),
+ ('20:00','USA','Columbus Crew','Inter Miami'),
+ ('20:40','COL','Millonarios','América de Cali'),
+ ('22:00','USA','Real Salt Lake','Vancouver Whitecaps'),
 ]
 out=[]
 for h,lg,a,b in P:

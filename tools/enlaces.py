@@ -1479,3 +1479,38 @@ LLEGAN={
  'León|Cruz Azul':["León en casa: 14 goles a favor y 11 en contra en 8 partidos (3,1 goles por partido)","Cruz Azul fuera: 18 a favor y 14 en contra en 9 partidos (3,6 goles por partido); 2.ª mejor ofensiva del torneo (37 goles)","En la fase regular (J15, 1-nov) Cruz Azul ganó 2-1 a León en el Estadio Banorte","Fuente: tablas casa/fuera del portal, Telemundo y SI"],
  'Pachuca|Guadalajara':["Pachuca en casa: 15 a favor y 13 en contra en 8 partidos (3,5 goles por partido); llega con 4 triunfos seguidos","Chivas fuera: 11 a favor y 6 en contra en 8 partidos; invicto de visita en el Apertura (3 victorias y 5 empates)","Salomón Rondón (Pachuca) fue campeón de goleo con 17 goles","Fuente: tablas casa/fuera del portal, Excélsior y López-Dóriga"],
 }
+
+# ===== viernes 27-nov-2026 (rutina diaria, sellado 06:04 ECU) =====
+LINK={
+ 'Groningen|Willem II':("Lukkien vuelve al banquillo: el Groningen busca ante el colista Willem II cortar su mala racha","GIC","https://www.gic.nl/sport/lukkien-terug-op-de-bank-fc-groningen-wil-tegen-willem-ii-de-ommekeer-inzetten"),
+ 'Delfín|Orense':("Orense visita a Delfín en Manta obligado a ganar: ambos con 39 puntos en el descenso","Diario Correo","https://diariocorreo.com.ec/142068/deportes/orense-visita-a-delfin-con-la-consigna-de-los-3-puntos"),
+ 'Werder Bremen|Borussia Monchengladbach':("En el Werder se habla de Europa por primera vez antes de recibir al colista Gladbach","DeichStube","https://www.deichstube.de/news/werder-bremen-vor-gladbach-spiel-erstmals-europa-live-ticker-borussia-moenchengladbach-liveticker-zr-94610190.html"),
+ 'Venezia|Bologna':("Venezia-Bologna abre la jornada 13: alineaciones probables y dónde verlo","Tuttosport","https://www.tuttosport.com/news/calcio/serie-a/2026/11/27-152872193/venezia-bologna_probabili_formazioni_e_diretta_dove_si_vede_in_tv_e_streaming"),
+ 'Brest|Paris FC':("El Paris FC, segundo tras el PSG, visita a un Brest ambicioso en la parte alta","AfricaFootUnited","https://africafootunited.com/brest-paris-fc-le-dauphin-du-psg-defie-un-brest-ambitieux-dans-un-choc-du-haut-de-tableau/"),
+ 'Nottingham Forest|Chelsea':("Nottingham Forest-Chelsea: ¿agravará el Chelsea su mal momento?","Goal","https://goal.com/es/noticias/nottingham-forest-contra-chelsea-previa-de-la-premier-league-y-todo-lo-que-debes-saber/blt1001c2adc3b5a055"),
+ 'Levante|Racing de Santander':("Levante y Racing, mismo objetivo con rachas opuestas","Infobae (EFE)","https://www.infobae.com/espana/agencias/2026/11/26/levante-y-racing-mismo-objetivo-con-rachas-opuestas/"),
+ 'Maritimo|Nacional':("João Henriques (Nacional): el derbi con el Marítimo es un partido diferente y especial","Flashscore (Lusa)","https://www.flashscore.pt/noticias/futebol-liga-portugal-betclic-joao-henriques-nacional-diz-que-derbi-com-maritimo-e-um-jogo-diferente-e-especial/ruEKohYp/"),
+ 'Deportivo Cuenca|Manta':("Manta FC busca dar el golpe ante Deportivo Cuenca en la fecha 8 del hexagonal de descenso","El Diario","https://www.eldiario.ec/deportes/manta-fc-busca-dar-el-golpe-ante-deportivo-cuenca-en-la-fecha-8-del-hexagonal-de-descenso-26112026/"),
+ 'Fluminense|Cruzeiro':("El Cruzeiro visita al Fluminense en el Maracaná para asegurar el 3.er puesto","O Tempo","https://www.otempo.com.br/sports/cruzeiro/2026/11/27/cruzeiro-encara-fluminense-maracana-para-confirmar-colocacao-brasileiro"),
+ 'Deportivo Cali|Bucaramanga':("Cali y Bucaramanga, al borde: la fecha 3 de cuadrangulares define su supervivencia","ClaroSports","https://www.clarosports.com/colombia/liga-bet-play/deportivo-cali-y-bucaramanga-al-borde-de-la-cuerda-floja-la-fecha-3-de-cuadrangulares-define-su-supervivencia/"),
+ 'Columbus Crew|Inter Miami':("Columbus Crew vs Inter Miami: Messi, obligado a ganar para seguir en los playoffs","ClaroSports","https://www.clarosports.com/us/columbus-crew-vs-inter-miami-con-messi-obligado-a-ganar-para-seguir-en-los-playoffs/"),
+ 'Millonarios|América de Cali':("Millonarios vs América, fecha 3 de cuadrangulares: horario, TV y claves en El Campín","ESPN Deportes","https://espndeportes.espn.com/futbol/colombia/nota/_/id/17565247/millonarios-vs-america-fecha-3-cuadrangulares-liga-betplay-equipo-fecha-hora-y-tv-en-vivo"),
+ 'Real Salt Lake|Vancouver Whitecaps':("Tres partidos sin marcar: RSL debe superar la presión del Vancouver para seguir vivo","KSL Sports","https://sports.ksl.com/mls/real-salt-lake/three-matches-zero-goals-rsl-must-solve-vancouvers-press-to-survive/579210"),
+}
+PRED=[f"{p['local']}|{p['visita']}" for p in sorted(_P,key=lambda p:-p['over15']) if not p.get('sin') and round(p['over15'],1)>=79.5]
+DEST=['Columbus Crew|Inter Miami','Nottingham Forest|Chelsea','Millonarios|América de Cali','Delfín|Orense']
+COL.update({'Groningen':'#0b8a3e','Willem II':'#c8102e','Delfín':'#1d3f8f','Orense':'#00843d','Werder Bremen':'#1d9053','Borussia Monchengladbach':'#111111',
+ 'Venezia':'#111111','Bologna':'#a6192e','Brest':'#e30613','Paris FC':'#1a2a5a','Nottingham Forest':'#dd0000','Chelsea':'#034694','Levante':'#1f2f6b','Racing de Santander':'#0b6b3a',
+ 'Maritimo':'#0b6b3a','Nacional':'#111111','Deportivo Cuenca':'#c8102e','Manta':'#1d5fbf','Fluminense':'#7a1f3d','Cruzeiro':'#1d3f8f','Deportivo Cali':'#0b7a3a','Bucaramanga':'#f6d11b',
+ 'Columbus Crew':'#fedd00','Inter Miami':'#111111','Millonarios':'#0a2a66','América de Cali':'#c8102e','Real Salt Lake':'#b30838','Vancouver Whitecaps':'#0a2240'})
+ACIERTOS=[
+ ("León vs Cruz Azul","0-4","84 % · partido del día del jueves 26","Sports Illustrated","https://www.si.com/mx/liga-mx/cruz-azul-aplasta-al-leon-y-pone-un-pie-en-las-semifinales-del-apertura-2026"),
+ ("Pachuca vs Guadalajara","2-1","78 % · jue 26","Claro Sports","https://www.clarosports.com/futbol/liga-mx/idrissi-sentencia-a-chivas-pachuca-remonta-con-un-golazo-al-92-y-toma-ventaja-en-la-ida-de-cuartos-de-final/"),
+ ("São Paulo vs Remo","3-1","74 % · jue 26","CNN Brasil","https://www.cnnbrasil.com.br/esportes/futebol/sao-paulo/em-despedida-melancolica-sao-paulo-sofre-mas-vence-o-remo-no-morumbis/"),
+]
+LLEGAN={
+ 'Groningen|Willem II':["Groningen en casa: 14 goles a favor y 17 en contra en 7 partidos (4,4 goles por partido)","Willem II fuera: 7 a favor y 25 en contra en 7 partidos; es el equipo más goleado a domicilio de la Eredivisie","Willem II es último sin victorias en liga (0-3-10, 42 goles en contra)","Fuente: tablas casa/fuera del portal y Sports Mole"],
+ 'Levante|Racing de Santander':["Levante en casa: 14 goles a favor y 13 en contra en 6 partidos (4,5 goles por partido)","Racing fuera: 6 a favor y 19 en contra en 6 partidos; solo ganó 1 de sus 6 salidas","El Racing es 7.º con 17 puntos pese a su diferencia de goles de 20-32","Fuente: tablas casa/fuera del portal, Comuniate y Fútbol Total"],
+ 'Werder Bremen|Borussia Monchengladbach':["Werder en casa: 14 goles a favor y 5 en contra en 5 partidos; 13 de 15 puntos posibles","Gladbach fuera: 5 a favor y 15 en contra en 5 partidos; es colista con 4 puntos","El Werder viene de golear 4-0 al Hamburgo y lidera la Bundesliga en goles a balón parado","Fuente: tablas casa/fuera del portal y Bundesliga.com"],
+ 'Columbus Crew|Inter Miami':["Columbus en casa (fase regular): 29 a favor y 19 en contra en 17 partidos; ganó sus últimos 4 en casa","Inter Miami fuera: 34 a favor y 28 en contra en 17 partidos (3,6 goles por partido)","Columbus ganó 0-3 el juego 1 en Miami; el Miami juega sin Gonzalo Luján (expulsado)","Fuente: tablas casa/fuera del portal, MLSsoccer.com y 101 Great Goals"],
+}

@@ -756,6 +756,23 @@ for _lg,_a,_ga,_gb,_b in MIE25:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
+# JUE26 (rutina 27-nov-2026): partidos de liga del jueves 26-nov (auditoría del 26), con fuente.
+# BRA 37ª: https://www.cnnbrasil.com.br/esportes/futebol/sao-paulo/em-despedida-melancolica-sao-paulo-sofre-mas-vence-o-remo-no-morumbis/ · https://sportbuzz.com.br/futebol/2026/11/26/sao-paulo-vence-o-remo-com-dois-gols-de-calleri-e-encerra-jejum/
+# MEX (liguilla): no se suma (tabla de fase regular).
+# POR: NO se suman los 12 partidos de J10/J11 (1-8 nov): al cruzarlos con la tabla general 2026/27 (98 PJ; 365scores + sportschau) la base de 86 PJ
+#   no cuadra en varios equipos (Alverca, Benfica, Estoril, Famalicão, Gil Vicente, Guimarães, Moreirense, Nacional, Sporting, Rio Ave) → posible partido duplicado/faltante en la base.
+#   Para el Marítimo–Nacional de hoy se usan las dos filas verificadas aparte con statarea.com (Liga Portugal 2026/2027): Marítimo casa (5,4,9) y Nacional fuera (5,4,9),
+#   que no cambian con esos 12 partidos. Medias de liga de la base (1,31/1,35); futbol24 a 98 PJ da 1,27/1,37. Pendiente: reconstruir POR completa con tabla casa/fuera accesible.
+# + partidos de liga europea del lunes 23-nov que no se habían sumado en LUN23 (detectado hoy por PJ: ENG 109/110, ESP 129/130, ITA 119/120), fuentes de la auditoría del 23:
+#   ITA https://www.fantacalcio.it/serie-a/calendario/12/2026-27/monza-fiorentina/18071 · ENG https://www.espn.com/soccer/report/_/gameId/401879237 · ESP https://diariodealicante.net/levante-elche-empate-requena-revivo-goleadores/
+JUE26=[
+ ('BRA','São Paulo',3,1,'Remo'),
+ ('ITA','Monza',3,0,'Fiorentina'),('ENG','Brentford',4,0,'Everton'),('ESP','Levante',1,1,'Elche'),
+]
+for _lg,_a,_ga,_gb,_b in JUE26:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():
     c,f=_d['casa'],_d['fuera']

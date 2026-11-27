@@ -1,37 +1,32 @@
 {
- "local": "León",
- "fecha_larga": "Jueves 26 de noviembre de 2026",
- "desde": "05:37",
+ "local": "Groningen",
+ "fecha_larga": "Viernes 27 de noviembre de 2026",
+ "desde": "06:04",
  "contexto": [
-  "Ida de cuartos de final del Apertura 2026: León (7.º) recibe a Cruz Azul (2.º).",
-  "León en casa: 3,1 goles por partido · Cruz Azul fuera: 3,6.",
-  "Cruz Azul, 2.ª mejor ofensiva (37 goles), ganó 2-1 a León en la fase regular."
+  "Groningen en casa: 4,4 goles por partido (14 a favor y 17 en contra en 7).",
+  "Willem II fuera: 25 goles en contra en 7 salidas, el más goleado de la Eredivisie.",
+  "Willem II es último y aún no gana en liga (0-3-10, 42 goles en contra)."
  ],
  "auditoria": {
   "encabezado": "Así nos fue ayer",
-  "titulo": "Miércoles 25 · 5 ligas · 7 partidos con fuente",
+  "titulo": "Jueves 26 · 2 ligas · 3 partidos con fuente",
   "tiles": [
-   [
-    "6/7",
-    "Partidos con 2 goles o más (Over 1.5)",
-    "verde"
-   ],
-   [
-    "0/1",
-    "Partido del día (Monterrey 0-0 América)",
-    "rojo"
-   ],
-   [
-    "0/2",
-    "Señales de Over 2.5 (Toluca y Monterrey)",
-    "rojo"
-   ],
-   [
-    "2/7",
-    "Marcadores exactos (Atlético-MG 1-1 y Barcelona 1-1)",
-    "dor"
-   ]
+   ["3/3", "Partidos con 2 goles o más (Over 1.5)", "verde"],
+   ["1/1", "Partido del día (León 0-4 Cruz Azul)", "verde"],
+   ["0/0", "Señales de Over 2.5 (no hubo)", "dor"],
+   ["0/3", "Marcadores exactos (sugerimos 1-1)", "dor"]
   ],
-  "nota": "Acertaron Toluca 2-0 Atlas (87 % · 2 goles), Nacional 3-1 Medellín (77 % · 4), Atlético-MG 1-1 Corinthians (74 % · 2), Santa Fe 3-0 Once Caldas (72 % · 3), Barcelona 1-1 IDV (71 % · 2) y Boca 2-0 Ind. Rivadavia (65 % · 2). Falló Monterrey 0-0 América (88 % · 0 goles). Fuentes: La Opinión, Colombia.com, CartaCapital, El Universal, Extra, La Nación."
+  "nota": "Pleno: León 0-4 Cruz Azul (84 % · 4 goles), Pachuca 2-1 Chivas (78 % · 3) y São Paulo 3-1 Remo (74 % · 4). Sin fallos en Over 1.5; no acertamos ningún marcador exacto. Fuentes: Sports Illustrated, Récord, Claro Sports, La Silla Rota, CNN Brasil, Sportbuzz."
+ },
+ "acierto": {
+  "encabezado": "Partido del día de ayer",
+  "fecha": "Jueves 26 de noviembre",
+  "local": "León",
+  "visita": "Cruz Azul",
+  "liga": "Liga MX · ida de cuartos de final",
+  "resultado": "0-4",
+  "over15": 83.8,
+  "goles": "4",
+  "sellado": "05:37 ECU del 26-nov"
  }
 }

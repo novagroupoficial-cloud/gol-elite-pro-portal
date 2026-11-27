@@ -1,0 +1,242 @@
+{
+ "fecha": "2026-11-27",
+ "sellado": "2026-11-27 08:25 ECU",
+ "orden": "por promedio de goles",
+ "partidos": {
+  "Groningen|Willem II": {
+   "o15": 10,
+   "o25": 8,
+   "prom": 4.8,
+   "fuente": "https://futboltotal.futbol/partido/groningen-vs-willem-ii-eredivisie-2026-11-27 · https://www.sportsmole.co.uk/football/eredivisie/groningen-vs-willem-ii_game_263481.html · https://www.sportsmole.co.uk/football/helmond-sport-vs-willem-ii_game_260538.html",
+   "origen": "ultimos5.json de la rutina"
+  },
+  "Levante|Racing de Santander": {
+   "o15": 9,
+   "o25": 6,
+   "prom": 2.6,
+   "fuente": "https://futboltotal.futbol/partido/levante-vs-racing-santander-laliga-1570468",
+   "origen": "ultimos5.json de la rutina"
+  },
+  "Werder Bremen|Borussia Monchengladbach": {
+   "o15": 7,
+   "o25": 5,
+   "prom": 2.9,
+   "fuente": "https://futboltotal.futbol/partido/werder-bremen-vs-borussia-monchengladbach-bundesliga-2026-11-27 · https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/vfb-stuttgart-vs-borussia-moenchengladbach/news",
+   "origen": "ultimos5.json de la rutina"
+  },
+  "Columbus Crew|Inter Miami": {
+   "o15": 10,
+   "o25": 8,
+   "prom": 3.9,
+   "fuente": "https://www.goal.com/en-ae/team/columbus-crew/fixtures-results/chjb0xe5vlaaguop3q2nbalni · https://www.vavel.com/en/data/inter-miami-cf/results/",
+   "origen": "ultimos5.json de la rutina"
+  },
+  "Real Salt Lake|Vancouver Whitecaps": {
+   "o15": 9,
+   "o25": 5,
+   "prom": 2.9,
+   "fuente": "https://www.goal.com/en-ug/team/real-salt-lake/fixtures-results/29zyafx618w7tvp34n53pzwwb · https://www.goal.com/en-ug/team/vancouver-whitecaps/fixtures-results/cdmq2tqfwo5td2ztv1s62bqlf",
+   "origen": "ultimos5.json de la rutina"
+  },
+  "Venezia|Bologna": {
+   "o15": 8,
+   "o25": 5,
+   "prom": 2.7,
+   "ultimos5_local": [
+    [
+     4,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     0,
+     2
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/venezia-vs-bologna-serie-a-2026-11-29"
+  },
+  "Brest|Paris FC": {
+   "o15": 8,
+   "o25": 5,
+   "prom": 2.9,
+   "ultimos5_local": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     4,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     4,
+     3
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/stade-brestois-29-vs-paris-fc-ligue-1-2026-11-27"
+  },
+  "Nottingham Forest|Chelsea": {
+   "o15": 8,
+   "o25": 2,
+   "prom": 2.3,
+   "ultimos5_local": [
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     2
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/nottingham-forest-vs-chelsea-premier-league-2026-11-27"
+  },
+  "Fluminense|Cruzeiro": {
+   "o15": 6,
+   "o25": 6,
+   "prom": 2.4,
+   "ultimos5_local": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "ultimos5_visita": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "fuente": "https://futboltotal.futbol/partido/fluminense-vs-cruzeiro-brasileirao-2026-11-28"
+  }
+ }
+}

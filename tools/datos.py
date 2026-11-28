@@ -1,4 +1,4 @@
-# Tablas casa/fuera — lunes 23-nov-2026 (bloque DOM23 al final: dom 22-nov) · antes: domingo 22-nov-2026 (bloque DOM22 al final: vie 20 y sáb 21-nov) · antes: miércoles 18-nov-2026 (BRA ValorFinal tras 34ª + PER fecha 17 parcial; bloque MIE18 al final) · antes: lunes 2-nov-2026 (bloque DOM01 con el domingo 1-nov) · antes: miércoles 21-oct-2026 (bloque MAR20 con el martes 20 y Cincinnati-Columbus) · antes: martes 20-oct-2026 (bloque LUN19 con el lunes 19 y Monterrey-Pachuca) · antes: lunes 19-oct-2026 (antes de los partidos del día, incluye todo hasta el domingo 18-oct; bloque DOM18 al final): equipo: (PJ, GF, GC)
+# Tablas casa/fuera — sábado 28-nov-2026 (bloques VIE27 y POR completa al final) · antes: lunes 23-nov-2026 (bloque DOM23 al final: dom 22-nov) · antes: domingo 22-nov-2026 (bloque DOM22 al final: vie 20 y sáb 21-nov) · antes: miércoles 18-nov-2026 (BRA ValorFinal tras 34ª + PER fecha 17 parcial; bloque MIE18 al final) · antes: lunes 2-nov-2026 (bloque DOM01 con el domingo 1-nov) · antes: miércoles 21-oct-2026 (bloque MAR20 con el martes 20 y Cincinnati-Columbus) · antes: martes 20-oct-2026 (bloque LUN19 con el lunes 19 y Monterrey-Pachuca) · antes: lunes 19-oct-2026 (antes de los partidos del día, incluye todo hasta el domingo 18-oct; bloque DOM18 al final): equipo: (PJ, GF, GC)
 # Datos manuales (el Dashboard Gol 4.0 aún no expone /api/dia). Fuente de cada liga en su comentario.
 L={}
 # BRA: base tools/datos.py (valorfinal tabelas-por-recorte, tras 30ª rodada + Mirassol 2-0 Internacional 16/10) + 4 partidos del sábado 17/10 (31ª rodada): Botafogo 1-0 Chapecoense, Atletico MG 1-0 Coritiba, Athletico-PR 0-2 Palmeiras, São Paulo 1-0 Vasco da Gama. Fuentes: https://ptd.verdao.net/brasileirao-2026-resultados-de-sabado-pela-31a-rodada-classificacao-atualizada/ · https://www.supervasco.com/noticias/tabela-atualizada-da-serie-a-apos-os-jogos-deste-sabado-18-da-rodada-31-457982.html · https://365scores.com/pt-br/news/magazine/sao-paulo-vence-vasco-sobe-tabela-brasileirao · calendario https://valorfinal.com.br/brasileirao/2026/rodada-31 . Cotejada equipo por equipo (40/40 filas idénticas) con https://valorfinal.com.br/brasileirao/tabelas-por-recorte (lectura 18/10/2026 06:30). Corte: sábado 17/10/2026 incluido (pendientes 31ª: 4 de hoy + Corinthians–Vitória lun 19/10). 304 partidos · control: PJ 304=304, GF casa 465 = GC fuera 465, GC casa 342 = GF fuera 342
@@ -772,6 +772,32 @@ JUE26=[
 for _lg,_a,_ga,_gb,_b in JUE26:
     _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
     _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
+# VIE27 (rutina 28-nov-2026): partidos de liga del viernes 27-nov (auditoría del 27), cada uno con dos fuentes en data/2026-11-27/auditoria.json.
+# NED oogtv.nl · ECU foxsports/studiofutbol · GER news.de · ITA tuttosport · FRA footmercato · ENG espn 401879225 · ESP sportschau · BRA jovempan · COL infobae/espn.
+# USA (playoffs) no se suma (tabla de fase regular). POR: se reemplaza la tabla completa (abajo) y luego se suma Marítimo 1-2 Nacional.
+VIE27=[
+ ('NED','Groningen',1,1,'Willem II'),('ECU','Delfín',0,3,'Orense'),('ECU','Deportivo Cuenca',3,0,'Manta'),
+ ('GER','Werder Bremen',3,3,'Borussia Monchengladbach'),('ITA','Venezia',0,0,'Bologna'),('FRA','Brest',1,0,'Paris FC'),
+ ('ENG','Nottingham Forest',3,2,'Chelsea'),('ESP','Levante',1,3,'Racing de Santander'),('BRA','Fluminense',0,1,'Cruzeiro'),
+ ('COL','Deportivo Cali',1,1,'Bucaramanga'),('COL','Millonarios',0,0,'América de Cali'),
+]
+for _lg,_a,_ga,_gb,_b in VIE27:
+    _c=L[_lg]['casa'][_a]; L[_lg]['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L[_lg]['fuera'][_b]; L[_lg]['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
+
+# POR (rutina 28-nov-2026): tabla casa/fuera COMPLETA reemplazada (la base de 86 PJ no cuadraba, ver JUE26). Liga Portugal 2026/27 tras J11 (98 PJ; Estoril–Marítimo aplazado):
+# https://thefishy.co.uk/leaguetable.php?table=37 ("Last result 08-Nov-2026") = https://www.sportsmole.co.uk/football/primeira-liga/table.html (coinciden cifra a cifra).
+# Control: PJ 98=98, GF casa 124 = GC fuera 124, GC casa 134 = GF fuera 134. Marítimo casa (5,4,9) y Nacional fuera (5,4,9) coinciden con statarea (rutina del 27).
+_POR=[('FC Porto',(5,13,2),(6,14,3)),('Benfica',(5,10,4),(6,20,6)),('Sporting CP',(6,12,7),(5,12,4)),('Santa Clara',(6,9,6),(5,7,2)),
+ ('Arouca',(5,9,3),(6,4,5)),('Academico Viseu',(5,6,7),(6,9,6)),('Gil Vicente',(6,4,3),(5,6,5)),('Sporting Braga',(5,7,5),(6,6,6)),
+ ('Moreirense',(5,7,9),(6,6,9)),('Famalicao',(5,4,7),(6,11,7)),('Alverca',(6,6,7),(5,8,8)),('Estrela Amadora',(6,8,12),(5,9,10)),
+ ('Nacional',(6,7,10),(5,4,9)),('Guimaraes',(6,8,4),(5,3,8)),('Maritimo',(5,4,9),(5,5,12)),('Casa Pia',(5,1,15),(6,5,5)),
+ ('Rio Ave',(6,6,16),(5,3,8)),('Estoril',(5,3,8),(5,2,11))]
+L['POR']=dict(casa={k:c for k,c,f in _POR},fuera={k:f for k,c,f in _POR})
+for _a,_ga,_gb,_b in [('Maritimo',1,2,'Nacional')]:  # vie 27-nov · https://observador.pt/2026/11/27/nacional-vence-em-casa-do-rival-maritimo-mais-de-14-anos-depois/
+    _c=L['POR']['casa'][_a]; L['POR']['casa'][_a]=(_c[0]+1,_c[1]+_ga,_c[2]+_gb)
+    _f=L['POR']['fuera'][_b]; L['POR']['fuera'][_b]=(_f[0]+1,_f[1]+_gb,_f[2]+_ga)
 
 # Verificación obligatoria y medias de liga (calculadas, no escritas a mano)
 for _k,_d in L.items():

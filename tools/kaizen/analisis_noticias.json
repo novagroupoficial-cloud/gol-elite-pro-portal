@@ -2,67 +2,67 @@
  "nota": "Con menos de 30 partidos por etiqueta es solo indicio, no conclusión.",
  "etiquetas": {
   "bajas": {
-   "partidos": 62,
-   "over15_real": 77.4,
-   "over15_prometido": 84.6,
-   "over25_real": 62.9,
-   "over25_prometido": 64.1,
+   "partidos": 64,
+   "over15_real": 78.1,
+   "over15_prometido": 84.8,
+   "over25_real": 62.5,
+   "over25_prometido": 64.4,
    "goles_reales": 3.19,
-   "goles_esperados": 3.33
+   "goles_esperados": 3.35
   },
   "regreso_figura": {
-   "partidos": 19,
-   "over15_real": 68.4,
-   "over15_prometido": 84.9,
-   "over25_real": 52.6,
-   "over25_prometido": 64.6,
-   "goles_reales": 3.37,
-   "goles_esperados": 3.36
+   "partidos": 20,
+   "over15_real": 70.0,
+   "over15_prometido": 85.2,
+   "over25_real": 50.0,
+   "over25_prometido": 65.3,
+   "goles_reales": 3.3,
+   "goles_esperados": 3.4
   },
   "racha_mala": {
-   "partidos": 66,
-   "over15_real": 81.8,
-   "over15_prometido": 84.3,
-   "over25_real": 57.6,
-   "over25_prometido": 63.8,
+   "partidos": 68,
+   "over15_real": 82.4,
+   "over15_prometido": 84.5,
+   "over25_real": 57.4,
+   "over25_prometido": 64.1,
    "goles_reales": 3.21,
-   "goles_esperados": 3.33
+   "goles_esperados": 3.35
   },
   "racha_buena": {
-   "partidos": 43,
-   "over15_real": 86.0,
+   "partidos": 44,
+   "over15_real": 84.1,
    "over15_prometido": 85.0,
-   "over25_real": 69.8,
+   "over25_real": 68.2,
    "over25_prometido": 65.1,
-   "goles_reales": 3.53,
-   "goles_esperados": 3.42
+   "goles_reales": 3.48,
+   "goles_esperados": 3.41
   },
   "defensa_debil": {
-   "partidos": 116,
-   "over15_real": 84.5,
-   "over15_prometido": 84.2,
-   "over25_real": 62.1,
-   "over25_prometido": 63.5,
+   "partidos": 120,
+   "over15_real": 84.2,
+   "over15_prometido": 84.3,
+   "over25_real": 61.7,
+   "over25_prometido": 63.7,
    "goles_reales": 3.15,
-   "goles_esperados": 3.32
+   "goles_esperados": 3.33
   },
   "goleada_reciente": {
-   "partidos": 61,
-   "over15_real": 85.2,
-   "over15_prometido": 85.7,
-   "over25_real": 65.6,
-   "over25_prometido": 66.2,
-   "goles_reales": 3.44,
-   "goles_esperados": 3.47
+   "partidos": 65,
+   "over15_real": 84.6,
+   "over15_prometido": 85.8,
+   "over25_real": 64.6,
+   "over25_prometido": 66.5,
+   "goles_reales": 3.43,
+   "goles_esperados": 3.49
   },
   "descenso": {
-   "partidos": 49,
-   "over15_real": 79.6,
-   "over15_prometido": 84.2,
-   "over25_real": 67.3,
-   "over25_prometido": 63.5,
-   "goles_reales": 3.33,
-   "goles_esperados": 3.31
+   "partidos": 51,
+   "over15_real": 80.4,
+   "over15_prometido": 84.4,
+   "over25_real": 66.7,
+   "over25_prometido": 64.0,
+   "goles_reales": 3.35,
+   "goles_esperados": 3.34
   },
   "muchos_goles_h2h": {
    "partidos": 17,
@@ -101,21 +101,21 @@
    "goles_esperados": 3.38
   },
   "(con noticia)": {
-   "partidos": 192,
-   "over15_real": 80.7,
-   "over15_prometido": 83.7,
-   "over25_real": 60.4,
-   "over25_prometido": 62.9,
-   "goles_reales": 3.17,
-   "goles_esperados": 3.29
+   "partidos": 197,
+   "over15_real": 80.2,
+   "over15_prometido": 83.8,
+   "over25_real": 59.9,
+   "over25_prometido": 63.0,
+   "goles_reales": 3.16,
+   "goles_esperados": 3.3
   },
   "(sin noticia)": {
-   "partidos": 435,
-   "over15_real": 77.0,
-   "over15_prometido": 74.7,
-   "over25_real": 50.3,
+   "partidos": 444,
+   "over15_real": 76.6,
+   "over15_prometido": 74.6,
+   "over25_real": 50.2,
    "over25_prometido": 49.8,
-   "goles_reales": 2.82,
+   "goles_reales": 2.8,
    "goles_esperados": 2.7
   }
  }

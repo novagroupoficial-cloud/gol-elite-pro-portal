@@ -20,16 +20,16 @@ def key(p): return f"{p['local']}|{p['visita']}"
 NEWS_PRED={}  # (sin uso en la portada actual)
 NEWS_DEST=[]
 FUENTES=[
- ("La Opinión · Toluca 2-0 Atlas (mié 25)","https://laopinion.com/2026/11/25/toluca-da-el-primer-golpe-en-la-liguilla-del-adios-de-mohamed-sobre-el-atlas-2-0/"),
- ("La Opinión · Monterrey 0-0 América (mié 25)","https://laopinion.com/2026/11/26/america-perdona-al-monterrey-con-un-hombre-de-mas-y-deja-viva-la-serie-en-la-liguilla/"),
- ("Colombia.com · Nacional 3-1 Medellín (mié 25)","https://www.colombia.com/futbol/liga-colombiana/asi-termino-el-clasico-paisa-entre-nacional-y-medellin-614254"),
- ("CartaCapital · Atlético-MG 1-1 Corinthians (mié 25)","https://www.cartacapital.com.br/esporte/com-um-a-menos-atletico-mg-empata-com-corinthians-na-arena-mrv/"),
- ("El Universal · Santa Fe 3-0 Once Caldas (mié 25)","https://www.eluniversal.com.co/deportes/2026/11/25/goleada-cardenal-en-el-campin-santa-fe-vence-a-once-caldas-y-se-mete-en-la-pelea-del-grupo-a/"),
- ("Extra · Barcelona SC 1-1 IDV (mié 25)","https://www.extra.ec/noticia/deportes/barcelona-sc-independiente-valle-resultado-hexagonal-ligapro-2026-168944.html"),
- ("La Nación · Boca 2-0 Independiente Rivadavia (mié 25)","https://www.lanacion.com.ar/deportes/canchallena/boca-juniors-vencio-por-2-0-a-independiente-rivadavia-por-el-torneo-clausura-2026-nid25112026/"),
- ("Excélsior · Días y horarios de los cuartos de final del Apertura 2026","https://www.excelsior.com.mx/deportes/liga-mx-apertura-2026-cuartos-final-dias-horarios-canales"),
- ("Flashscore · Fechas y horarios de las dos últimas rodadas del Brasileirão","https://www.flashscore.com.br/noticias/cbf-divulga-datas-e-horarios-das-duas-ultimas-rodadas-do-brasileirao-veja-jogos/YcKaMBh2/"),
- ("Fútbol Total · Resultados del Apertura 2026 de la Liga MX","https://futboltotal.futbol/league/liga-mx/todos-los-partidos"),
+ ("Bundesliga.com · Jornada 11 de la Bundesliga 2026-27","https://www.bundesliga.com/de/bundesliga/spieltag/2026-2027/11"),
+ ("Ligue 1 · Programa de la jornada 12","https://ligue1.com/fr/articles/l1_article_5843-"),
+ ("MLSsoccer.com · Calendario de la primera ronda de los playoffs 2026","https://mlssoccer.com/news/mls-announces-schedule-for-audi-2026-mls-cup-playoffs-round-one-best-of-3-series"),
+ ("El Universo · Así se jugará la fecha 8 de los hexagonales de LigaPro","https://www.eluniverso.com/deportes/campeonato-ecuatoriano/asi-se-jugara-la-fecha-8-de-los-hexagonales-principal-y-de-descenso-de-la-liga-ecuabet-en-fin-de-semana-de-elecciones-seccionales-2026-nota/"),
+ ("Barcelona SC · Boletos para Barcelona SC–Aucas (sábado 28)","https://www.barcelonasc.com.ec/2026/11/27/boletos-barcelona-sc-aucas-noviembre-2026/"),
+ ("Infobae · Cronograma de cuartos de final del Clausura","https://www.infobae.com/deportes/2026/11/26/con-cambios-de-horarios-se-confirmo-el-cronograma-de-cuartos-de-final-del-torneo-clausura/"),
+ ("Win Sports · Programación de la fecha 3 de cuadrangulares","https://www.winsports.co/futbol-colombiano/noticias/liga-betplay-2026-2-programacion-de-la-fecha-3-de-cuadrangulares-481723"),
+ ("Sports Mole · Tabla de la Liga Portugal 2026-27 (casa y fuera)","https://www.sportsmole.co.uk/football/primeira-liga/table.html"),
+ ("ESPN · Nottingham Forest 3-2 Chelsea (vie 27)","https://www.espn.com/soccer/report/_/gameId/401879225"),
+ ("ABC News · Columbus elimina al Inter Miami 1-0 (vie 27)","https://abcnews.com/Sports/wireStory/crew-eliminate-defending-champion-inter-miami-1-0-138492221"),
 ]
 
 ES.update({'Maritimo':'Marítimo','Bucaramanga':'Atlético Bucaramanga'})
@@ -183,7 +183,7 @@ for p in sorted(P,key=lambda p:(p['hora'],-p['over15'])):
 <div class="ev-o"><div class="odd {'hot' if entero(p['over15'])>=80 else ''}"><span>Over 1.5</span><b>{pc(p['over15'])}%</b></div><div class="odd {'hot' if p['over25']>=65 else ''}"><span>Over 2.5</span><b>{pc(p['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{p['marcador']}</b></div></div>
 <div class="ev-c">{chips(p)}</div></summary>{stats(p)}</details>'''
 
-SIN=['Uruguay (Racing–Liverpool, 18:30): sin tablas casa/fuera verificadas en el sistema y sin confirmar quién es local.','Paraguay (Nacional–Rubio Ñu 15:30; Sportivo Luqueño–Olimpia 18:00) y Bolivia (Academia del Balompié–Tomayapo y Independiente–Real Oruro, 14:00): una sola fuente de calendario y sin tablas casa/fuera verificadas.','Sin partidos de liga hoy: Liga MX (vueltas de cuartos el fin de semana), Argentina (cuartos el 28-29), Perú (playoffs desde el 28), Chile (fecha 29 el 28-29) y el hexagonal del título de LigaPro (sábado y domingo).','Liga Portugal: Marítimo–Nacional con filas verificadas aparte (statarea) porque la tabla completa casa/fuera no fue accesible. MLS y Liga MX: se usan tablas de fase regular. SportyTrader no fue accesible desde la rutina: calendario cruzado con sport-flash, sportschau, sporza, bundesliga.com, fantacalcio, Teleamazonas, El Espectador y mlssoccer.com.']
+SIN=['Copa Libertadores, final (Palmeiras–Estudiantes, 15:00, sede neutral): no es partido de liga y no hay tabla de local y visitante aplicable.','Uruguay, Paraguay, Bolivia y Venezuela: sin calendario confirmado para hoy y sin tablas casa/fuera verificadas en el sistema.','Sin partidos de liga hoy: Perú (semifinal de ida el domingo 29) y el hexagonal del descenso de LigaPro (lunes 30).','Datos con corte anterior, anotados en cada pronóstico: Chile (tabla al 2-nov), Argentina, Liga MX y MLS (tablas de fase regular para los playoffs). Liga Portugal: tabla casa/fuera completa nueva (Sports Mole y TheFishy, tras la jornada 11). SportyTrader no fue accesible desde la rutina: calendario cruzado con sport-flash, bundesliga.com, ligue1.com, la Lega, MLSsoccer.com, El Universo, Barcelona SC, Infobae y Win Sports.']
 fu=''.join(f'<li id="f{i+1}"><a href="{u}" target="_blank" rel="noopener">{e(t)}</a></li>' for i,(t,u) in enumerate(FUENTES))
 
 # Ranking del día (tools/refresco.py). Solo se muestra si corresponde a los mismos partidos de pron.json (evita mostrar el de ayer).
@@ -303,30 +303,30 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 <a class="cta" href="#fundadores">Miembro Fundador</a></div></header>
 <div class="tabs"><div class="tabs-in" role="tablist"><a class="tabl" href="/galeria.html">★ Galería de aciertos</a>{tabs}</div></div>
 <div class="wrap"><main>
-<div class="preview">Viernes 27 de noviembre de 2026 · 14 partidos con pronóstico en 11 ligas · sellados a las 06:04 (hora de Ecuador). Vuelven las ligas europeas, juegos 2 de los playoffs de la MLS, cuadrangulares en Colombia y el hexagonal del descenso de LigaPro.</div>
+<div class="preview">Sábado 28 de noviembre de 2026 · 44 partidos con pronóstico en 14 ligas · sellados a las 05:45 (hora de Ecuador). Sábado completo en Europa, seis juegos 2 de los playoffs de la MLS, vuelta de cuartos de la Liga MX, cuartos del Clausura argentino, hexagonal del título de LigaPro y Santa Fe–Nacional en Colombia.</div>
 <section class="hero" aria-label="Partido del día"><img src="data:image/jpeg;base64,{FOTO}" alt="Presentadora de Gol Élite Pro">
-<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Viernes 27 de noviembre de 2026 · sellado 06:04 ECU · el de mayor Over 1.5 que aún no empieza</div>
+<div class="hero-b"><div class="hero-k">Partido con mayor probabilidad del día</div><div class="src">Sábado 28 de noviembre de 2026 · sellado 05:45 ECU · el de mayor Over 1.5 que aún no empieza</div>
 <h2>{e(n(top['local']))} vs {e(n(top['visita']))}</h2>
 <div class="vsx">{NOM[top['liga']]} · <span class="hk">{top['hora']} ECU</span> {chips(top)}</div>
 <div class="odds"><div class="odd hot"><span>Over 1.5</span><b>{pc(top['over15'])}%</b></div><div class="odd hot"><span>Over 2.5</span><b>{pc(top['over25'])}%</b></div><div class="odd"><span>Marcador</span><b>{top['marcador']}</b></div></div>
 <p>Probabilidades del modelo Nova Gol 4.1 (mejora Kaizen del 26-oct), calculadas con datos de local y visitante. Referencia estadística, no garantía.</p><div class="src">{e(LINK.get(key(top),('','','#'))[1])} · <a href="{LINK.get(key(top),('','','#'))[2]}" target="_blank" rel="noopener">Leer la noticia del partido ↗</a></div></div></section>
 <p class="nota-over"><b>¿Qué es Over 1.5?</b> Que en el partido haya <b>2 goles o más</b>, sin importar quién gane. Over 2.5 = 3 goles o más.</p>
 {RANK}
-<section id="aciertos"><div class="sh"><h2>¡Acertamos ayer!</h2><p>Jueves 26: pleno, 3 de 3 partidos con 2 goles o más · León 0-4 Cruz Azul, el partido del día (dimos Over 1.5 al 84 % · hubo 4 goles), Pachuca 2-1 Chivas (78 % · hubo 3 goles) y São Paulo 3-1 Remo (74 % · hubo 4 goles) · toca para ver el resultado en su medio</p></div>
+<section id="aciertos"><div class="sh"><h2>¡Acertamos ayer!</h2><p>Viernes 27: el partido del día cumplió · Groningen 1-1 Willem II (dimos Over 1.5 al 93 % · hubo 2 goles, el empate llegó en el 90+3'), Levante 1-3 Racing (89 % · hubo 4 goles), Werder 3-3 Gladbach (89 % · hubo 6 goles), Marítimo 1-2 Nacional y Cuenca 3-0 Manta (74 % y 72 % · hubo 3 goles) · también publicamos los fallos en la auditoría · toca para ver el resultado en su medio</p></div>
 {resumen}{champ}{estrella}{recs}{ayer}{calib}<div class="acg">{acier}</div><p class="legal" style="margin-top:8px"><a href="/galeria.html">Ver todos los aciertos en la Galería →</a></p></section>
 <section id="predicciones"><div class="sh"><h2>Nuestras principales predicciones</h2><p>Over 1.5 de 80 % o más · toca una noticia para leerla en su medio</p></div>
 <div class="grid">{sec1 or ('<p class="legal">Hoy solo el partido del día (arriba) llega a 80 % en Over 1.5; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>' if entero(top['over15'])>=80 else '<p class="legal">Hoy ningún partido llega a 80 % en Over 1.5. El más alto está arriba, como partido del día; todos los demás están en «Partidos del día». Preferimos decirlo antes que inflar números.</p>')}</div></section>
-<section id="destacados"><div class="sh"><h2>Lo más importante del viernes</h2><p>Los partidos que más se miran hoy</p></div>
+<section id="destacados"><div class="sh"><h2>Lo más importante del sábado</h2><p>Los partidos que más se miran hoy</p></div>
 <div class="grid">{sec2}</div></section>
 <section id="llegan"><div class="sh"><h2>Cómo llegan los favoritos de hoy</h2><p>Estadísticas que respaldan nuestras mayores probabilidades</p></div>
 <div class="llg">{secll}</div></section>
-<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Viernes 27 de noviembre de 2026 · pronósticos sellados a las 06:04 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
+<section id="partidos"><div class="sh"><h2>Partidos del día</h2><p>Sábado 28 de noviembre de 2026 · pronósticos sellados a las 05:45 (hora de Ecuador), solo partidos aún no empezados · toca un partido para ver sus datos</p></div>
 <div class="book">{rows}</div></section>
 </main>
 <aside>
-<section class="box" id="historial"><h3>Auditoría: jueves 26 de noviembre</h3><p class="legal">3 partidos terminados en 2 ligas, cada uno con dos fuentes (CNN Brasil, Sportbuzz, Claro Sports, La Silla Rota, Sports Illustrated y Récord).</p>
-<div class="kpis"><div class="kpi g"><b>✔ 4 goles</b><span>Partido del día: León 0-4 Cruz Azul (84 %)</span></div><div class="kpi g"><b>1/1</b><span>GOLES ESTÁNDAR (80 a 89 %)</span></div><div class="kpi g"><b>3/3</b><span>Over 1.5 de 70 % o más (100 %)</span></div><div class="kpi"><b>0/0</b><span>Over 2.5 con señal (sin señales)</span></div><div class="kpi"><b>0/3</b><span>Marcadores exactos</span></div></div>
-<p class="legal">Por categoría: GOLES ESTÁNDAR 1/1 y GOLES OPTIMISTAS 2/2 (no hubo GOL ÉLITE ni GOLES PLATINO). Sin fallos en Over 1.5. No hubo señales de Over 2.5, aunque los tres partidos tuvieron 3 goles o más. Acumulado de la galería (31 jornadas publicadas): 32/33 GOL ÉLITE y 407/526 en Over 1.5 de 70 % o más (77 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
+<section class="box" id="historial"><h3>Auditoría: viernes 27 de noviembre</h3><p class="legal">14 partidos terminados en 11 ligas, cada uno con dos fuentes (ESPN, ABC News, MLSsoccer.com, Observador, Tuttosport, Infobae, OOG TV, news.de, VAVEL, entre otras).</p>
+<div class="kpis"><div class="kpi g"><b>✔ 2 goles</b><span>Partido del día: Groningen 1-1 Willem II (93 %)</span></div><div class="kpi g"><b>1/1</b><span>GOLES PLATINO (90 a 94 %)</span></div><div class="kpi"><b>2/4</b><span>GOLES ESTÁNDAR (80 a 89 %)</span></div><div class="kpi"><b>6/11</b><span>Over 1.5 de 70 % o más (55 %)</span></div><div class="kpi"><b>2/3</b><span>Over 2.5 con señal (67 %)</span></div><div class="kpi"><b>1/14</b><span>Marcadores exactos</span></div></div>
+<p class="legal">Por categoría: GOLES PLATINO 1/1, GOLES ESTÁNDAR 2/4 y GOLES OPTIMISTAS 5/9 (no hubo GOL ÉLITE). Fallos en Over 1.5: Columbus 1-0 Inter Miami (84 %), Real Salt Lake 0-1 Vancouver (81 %), Fluminense 0-1 Cruzeiro (79 %), Venezia 0-0 Bolonia (79 %) y Brest 1-0 Paris FC (77 %). Over 2.5 fuerte 0/1 (Groningen–Willem II quedó en 2 goles) y moderadas 2/2. Acumulado de la galería (32 jornadas publicadas): 32/33 GOL ÉLITE y 413/537 en Over 1.5 de 70 % o más (77 %). Pronósticos sellados antes de cada partido y nunca modificados.</p><a class="cta" style="margin:0;justify-self:start" href="/galeria.html">Ver galería de aciertos →</a></section>
 <section class="box"><h3>Escala Nova Gol 4.0</h3><ul><li><span class="badge elite">GOL ÉLITE</span> Over 1.5 de 95 % o más</li><li><span class="badge plat">GOLES PLATINO</span> de 90 % a 94 %</li><li><span class="badge r80">GOLES ESTÁNDAR</span> de 80 % a 89 %</li><li><span class="badge r70">GOLES OPTIMISTAS</span> menos de 80 %</li></ul><p class="legal">Porcentajes redondeados: ,5 o más sube (94,8 → 95 %); menos de ,5 se queda (94,4 → 94 %).</p></section>
 <section class="box"><h3>Sin pronóstico hoy</h3><p class="legal">Sin datos verificables de local y visitante. No inventamos números.</p>{('<ul>'+''.join(f'<li>{e(s)}</li>' for s in SIN)+'</ul>') if SIN else '<p class="legal">Hoy todos los partidos revisados tienen datos verificados de local y visitante.</p>'}</section>
 <section class="box legal" id="fundadores"><h3>Uso responsable</h3><p>Análisis estadístico informativo para mayores de 18 años. La probabilidad no garantiza resultados ni promete ganancias.</p>
@@ -337,7 +337,7 @@ aside{{display:grid;gap:16px;align-content:start;min-width:0}}
 (function(){{
   // hora actual en Ecuador (UTC-5) para marcar partidos ya iniciados
   var now=new Date(Date.now()-5*3600e3), hm=now.getUTCHours()*60+now.getUTCMinutes(), dia=now.toISOString().slice(0,10);
-  if(dia==="2026-11-27"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
+  if(dia==="2026-11-28"){{document.querySelectorAll('[data-ko]').forEach(function(el){{var t=el.getAttribute('data-ko').split(':');if(hm>=(+t[0])*60+(+t[1])){{var l=el.querySelector('.live');if(l)l.hidden=false;}}}});}}
   var tabs=document.querySelectorAll('.tab');
   tabs.forEach(function(b){{b.addEventListener('click',function(){{tabs.forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');var l=b.getAttribute('data-l');
     document.querySelectorAll('.ev').forEach(function(ev){{ev.classList.toggle('hide',l!=='all'&&ev.getAttribute('data-l')!==l)}});

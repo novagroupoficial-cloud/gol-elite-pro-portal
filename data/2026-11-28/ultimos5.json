@@ -1,0 +1,531 @@
+{
+ "fecha": "2026-11-28",
+ "nota": "Fase de medición Kaizen (no entra al modelo). Últimos 5 resultados oficiales de cada equipo (todas las competiciones) tomados de la ficha o previa citada; \"s/f\" = la fuente no da la fecha. Cuotas Over/Under 2.5 solo si la fuente abierta las muestra; si no, \"sin dato\". En la MLS las cuotas son de mercados de predicción (centavos, con su decimal aproximado).",
+ "partidos": {
+  "Cambuur|Sparta Rotterdam": {
+   "local": [
+    "Utrecht 2-3 Cambuur (F, 21-11, Eredivisie)",
+    "Cambuur 2-5 PSV (C, 08-11, Eredivisie)",
+    "Cambuur 4-0 Go Ahead Eagles (C, 31-10, Eredivisie)",
+    "Kloetinge 0-2 Cambuur (F, ~27-10, KNVB Beker 1ª ronda)",
+    "Willem II 1-6 Cambuur (F, 24-10, Eredivisie)"
+   ],
+   "visita": [
+    "Sparta Rotterdam 1-5 AZ (C, 22-11, Eredivisie)",
+    "ADO Den Haag 3-1 Sparta Rotterdam (F, 07-11, Eredivisie)",
+    "Groningen 2-3 Sparta Rotterdam (F, 01-11, Eredivisie)",
+    "Sparta Rotterdam 2-2 Fortuna Sittard (C, ~27-10, KNVB Beker 1ª ronda; eliminado 2-3 en penaltis)",
+    "Sparta Rotterdam 1-2 Ajax (C, 25-10, Eredivisie)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/cambuur-vs-sparta-rotterdam-eredivisie-2026-11-28 · https://www.sportsmole.co.uk/football/cambuur/preview/cambuur-vs-sparta-prediction-team-news-lineups_609937.html · https://sporza.be/nl/2026/10/26/dankzij-een-heerlijke-omhaal-willem-ii-met-twee-belgen-overleeft-spektakelduel-in-eerste-ronde-knvb-beker~1793005430592/",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "PSV|Go Ahead Eagles": {
+   "local": [
+    "Real Madrid 5-1 PSV (F, 24-11, Champions League)",
+    "NEC 1-4 PSV (F, 21-11, Eredivisie)",
+    "Cambuur 2-5 PSV (F, 08-11, Eredivisie)",
+    "PSV 1-2 Club Brugge (C, 04-11, Champions League)",
+    "PSV 7-0 Willem II (C, 31-10, Eredivisie)"
+   ],
+   "visita": [
+    "Go Ahead Eagles 0-1 Fortuna Sittard (C, 22-11, Eredivisie)",
+    "Excelsior 0-1 Go Ahead Eagles (F, 07-11, Eredivisie)",
+    "Cambuur 4-0 Go Ahead Eagles (F, 31-10, Eredivisie)",
+    "Koninklijke HFC 0-5 Go Ahead Eagles (F, ~27-10, KNVB Beker 1ª ronda)",
+    "Go Ahead Eagles 3-2 Telstar (C, 23-10, Eredivisie)"
+   ],
+   "fuente": "https://gidstats.com/football/eredivisie/2026-11-28-1552240-psv-eindhoven-vs-go-ahead-eagles/ · https://sporza.be/nl/2026/10/26/dankzij-een-heerlijke-omhaal-willem-ii-met-twee-belgen-overleeft-spektakelduel-in-eerste-ronde-knvb-beker~1793005430592/ · https://www.voetbalwedden.net/wedstrijden/go-ahead-eagles-psv/voorbeschouwing",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Portland Timbers|FC Dallas": {
+   "local": [
+    "Portland Timbers 3-2 Charlotte FC (C, s/f, MLS)",
+    "St Louis City 2-3 Portland Timbers (F, s/f, MLS)",
+    "Portland Timbers 3-1 Houston Dynamo (C, s/f, MLS)",
+    "Austin FC 0-2 Portland Timbers (F, s/f, MLS)",
+    "FC Dallas 3-0 Portland Timbers (F, 21-11, MLS Playoffs J1)"
+   ],
+   "visita": [
+    "FC Dallas 3-0 San Jose Earthquakes (C, s/f, MLS)",
+    "FC Dallas 0-2 Columbus Crew (C, s/f, MLS)",
+    "Sporting Kansas City 1-1 FC Dallas (F, s/f, MLS)",
+    "FC Dallas 3-1 Colorado Rapids (C, s/f, MLS)",
+    "FC Dallas 3-0 Portland Timbers (C, 21-11, MLS Playoffs J1)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/portland-timbers/preview/portland-vs-dallas-prediction-team-news-lineups_609851.html · https://www.sportsmole.co.uk/football/dallas/preview/dallas-vs-portland-prediction-team-news-lineups_609349.html",
+   "cuota_over25": "64¢ (≈1.56, Polymarket)",
+   "cuota_under25": "+180 (2.80, BetRivers)",
+   "casa": "Polymarket (Over) / BetRivers (Under), vía Dimers",
+   "url_cuotas": "https://www.dimers.com/mls/news/portland-timbers-vs-fc-dallas-prediction-11-28-2026-ac"
+  },
+  "VfB Stuttgart|Eintracht Frankfurt": {
+   "local": [
+    "Inter Milan 2-0 Stuttgart (F, 25-11, Champions League)",
+    "Schalke 04 0-0 Stuttgart (F, 21-11, Bundesliga)",
+    "Stuttgart 1-0 Werder Bremen (C, 07-11, Bundesliga)",
+    "Galatasaray 2-0 Stuttgart (F, 03-11, Champions League)",
+    "Bayer Leverkusen 2-4 Stuttgart (F, 31-10, Bundesliga)"
+   ],
+   "visita": [
+    "Eintracht Frankfurt 1-0 Hoffenheim (C, 21-11, Bundesliga)",
+    "SC Paderborn 2-2 Eintracht Frankfurt (F, 07-11, Bundesliga)",
+    "Eintracht Frankfurt 3-1 Hamburger SV (C, 01-11, Bundesliga)",
+    "Hamburger SV 1-3 Eintracht Frankfurt (F, 27-10, DFB-Pokal)",
+    "Borussia Dortmund 1-0 Eintracht Frankfurt (F, 24-10, Bundesliga)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/stuttgart/fixtures-and-results.html · https://www.sportsmole.co.uk/football/eintracht-frankfurt/ · https://www.sportsmole.co.uk/football/paderborn/ · https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/eintracht-frankfurt-vs-tsg-hoffenheim/liveticker",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Mainz|Union Berlin": {
+   "local": [
+    "Augsburg 3-1 Mainz 05 (F, 22-11, Bundesliga)",
+    "Mainz 05 1-2 Bayern Munich (C, 07-11, Bundesliga)",
+    "Elversberg 4-1 Mainz 05 (F, 30-10, Bundesliga)",
+    "VfL Bochum 2-0 Mainz 05 (F, 27-10, DFB-Pokal)",
+    "Mainz 05 2-3 Werder Bremen (C, 24-10, Bundesliga)"
+   ],
+   "visita": [
+    "Union Berlin 1-5 RB Leipzig (C, 21-11, Bundesliga)",
+    "Freiburg 2-0 Union Berlin (F, 08-11, Bundesliga)",
+    "Union Berlin 1-1 FC Koln (C, 01-11, Bundesliga)",
+    "FC Koln 5-0 Union Berlin (F, 27-10, DFB-Pokal)",
+    "Augsburg 1-1 Union Berlin (F, 24-10, Bundesliga)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/mainz-05/fixtures-and-results.html · https://www.sportsmole.co.uk/football/union-berlin/",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Excelsior|Telstar": {
+   "local": [
+    "Feyenoord 2-3 Excelsior (F, 21-11, Eredivisie)",
+    "Excelsior 0-1 Go Ahead Eagles (C, 07-11, Eredivisie)",
+    "Excelsior 0-9 Twente (C, 01-11, Eredivisie)",
+    "MVV 0-3 Excelsior (F, ~27-10, KNVB Beker 1ª ronda)",
+    "Fortuna Sittard 1-0 Excelsior (F, 25-10, Eredivisie)"
+   ],
+   "visita": [
+    "Telstar 1-3 PEC Zwolle (C, 21-11, Eredivisie)",
+    "Fortuna Sittard 2-2 Telstar (F, 07-11, Eredivisie)",
+    "Telstar 4-2 Utrecht (C, 01-11, Eredivisie)",
+    "Telstar 0-2 Almere City (C, ~27-10, KNVB Beker 1ª ronda)",
+    "Go Ahead Eagles 3-2 Telstar (F, 23-10, Eredivisie)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/excelsior-vs-telstar-eredivisie-2026-11-28 · https://sporza.be/nl/2026/10/26/dankzij-een-heerlijke-omhaal-willem-ii-met-twee-belgen-overleeft-spektakelduel-in-eerste-ronde-knvb-beker~1793005430592/ · https://www.sportsmole.co.uk/football/sbv-excelsior/preview/excelsior-vs-telstar-prediction-team-news-lineups_609968.html",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Charlotte FC|Chicago Fire": {
+   "local": [
+    "Portland Timbers 3-2 Charlotte FC (F, s/f, MLS)",
+    "Charlotte FC 4-0 CF Montréal (C, s/f, MLS)",
+    "Charlotte FC 4-0 Orlando City (C, s/f, MLS)",
+    "Inter Miami 3-3 Charlotte FC (F, s/f, MLS)",
+    "Chicago Fire 1-2 Charlotte FC (F, 22-11, MLS Playoffs J1)"
+   ],
+   "visita": [
+    "Atlanta United 2-3 Chicago Fire (F, s/f, MLS)",
+    "Chicago Fire 2-2 Orlando City (C, s/f, MLS)",
+    "Colorado Rapids 2-4 Chicago Fire (F, s/f, MLS)",
+    "Chicago Fire 3-4 Columbus Crew (C, s/f, MLS)",
+    "Chicago Fire 1-2 Charlotte FC (C, 22-11, MLS Playoffs J1)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/charlotte-fc/preview/charlotte-fc-vs-chicago-fire-prediction-team-news-lineups_609855.html · https://www.meninred97.com/do-over-chicago-fire-at-charlotte-fc-game-2-playoff-preview/",
+   "cuota_over25": "69¢ (≈1.45)",
+   "cuota_under25": "32¢ (≈3.13)",
+   "casa": "Novig (mercado de predicción), vía Dimers",
+   "url_cuotas": "https://www.dimers.com/mls/news/charlotte-fc-vs-chicago-fire-prediction-11-28-2026-ac"
+  },
+  "Colo-Colo|La Serena": {
+   "local": [
+    "Colo-Colo 1-1 Palestino (C, 25-10, Liga de Primera)",
+    "U. de Concepción 1-6 Colo-Colo (F, 30-10, Liga de Primera)",
+    "Puerto Montt 0-3 Colo-Colo (F, 02-11, Copa Chile)",
+    "Ñublense 1-2 Colo-Colo (F, 08-11, Liga de Primera)",
+    "Colo-Colo 3-0 U. Católica (C, 22-11, Liga de Primera)"
+   ],
+   "visita": [
+    "Everton 3-2 D. La Serena (F, 11-10, Liga de Primera)",
+    "D. La Serena 3-1 D. Concepción (C, 24-10, Liga de Primera)",
+    "Huachipato 0-0 D. La Serena (F, 01-11, Liga de Primera)",
+    "D. La Serena 1-0 Palestino (C, 07-11, Liga de Primera)",
+    "Deportes Limache 1-2 D. La Serena (F, 22-11, Liga de Primera)"
+   ],
+   "fuente": "https://www.alairelibre.cl/futbol/campeonato-nacional/colo-colo-vs-la-serena-horario-donde-ver-liga-de-primera-2026/ · https://espndeportes.espn.com/futbol/equipo/resultados/_/id/2688/colo-colo · https://espndeportes.espn.com/futbol/equipo/resultados/_/id/4137/la-serena",
+   "cuota_over25": "1.41",
+   "cuota_under25": "2.52",
+   "casa": "1xBet (según RCDM)",
+   "url_cuotas": "https://rcdm.es/apuestas-y-pronostico-del-colo-colo-vs-deportes-la-serena-28-11-26/"
+  },
+  "Hamburger SV|Bayern Munich": {
+   "local": [
+    "Werder Bremen 4-0 Hamburger SV (F, 22-11, Bundesliga)",
+    "Hamburger SV 3-1 Borussia Monchengladbach (C, 06-11, Bundesliga)",
+    "Eintracht Frankfurt 3-1 Hamburger SV (F, 01-11, Bundesliga)",
+    "Hamburger SV 1-3 Eintracht Frankfurt (C, 27-10, DFB-Pokal)",
+    "SC Paderborn 1-0 Hamburger SV (F, 24-10, Bundesliga)"
+   ],
+   "visita": [
+    "Lille 2-1 Bayern Munich (F, 25-11, Champions League)",
+    "Bayern Munich 1-1 FC Koln (C, 20-11, Bundesliga)",
+    "Mainz 05 1-2 Bayern Munich (F, 07-11, Bundesliga)",
+    "Atletico Madrid 0-2 Bayern Munich (F, 03-11, Champions League)",
+    "Bayern Munich 2-2 Borussia Dortmund (C, 31-10, Bundesliga)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/hamburger-sv/ · https://www.sportsmole.co.uk/football/bayern-munich/2026-27/fixtures-and-results.html",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Frosinone|Parma": {
+   "local": [
+    "AC Milan 5-1 Frosinone (F, 22-11, Serie A)",
+    "Cagliari 1-0 Frosinone (F, 07-11, Serie A)",
+    "Frosinone 2-0 Torino (C, 01-11, Serie A)",
+    "Frosinone 5-1 Lecce (C, 29-10, Serie A)",
+    "Atalanta 4-4 Frosinone (F, 25-10, Serie A)"
+   ],
+   "visita": [
+    "Parma 1-5 Roma (C, 21-11, Serie A)",
+    "Parma 1-2 Bologna (C, 07-11, Serie A)",
+    "Atalanta 0-3 Parma (F, 02-11, Serie A)",
+    "Parma 0-0 Udinese (C, 28-10, Serie A)",
+    "Lazio 2-1 Parma (F, 24-10, Serie A)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/frosinone/fixtures-and-results.html · https://www.sportsmole.co.uk/football/parma/fixtures-and-results.html",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Atlas|Toluca": {
+   "local": [
+    "Atlas 4-3 Puebla (C, s/f, Liga MX)",
+    "San Luis 0-1 Atlas (F, s/f, Liga MX)",
+    "Atlas 1-4 Pachuca (C, s/f, Liga MX)",
+    "Juárez 3-3 Atlas (F, s/f, Liga MX)",
+    "Toluca 2-0 Atlas (F, 25-11, Liga MX cuartos ida)"
+   ],
+   "visita": [
+    "León 1-1 Toluca (F, s/f, Liga MX)",
+    "América 2-2 Toluca (F, s/f, Liga MX)",
+    "Toluca 4-0 Monterrey (C, s/f, Liga MX)",
+    "Pachuca 2-0 Toluca (F, s/f, Liga MX)",
+    "Toluca 2-0 Atlas (C, 25-11, Liga MX cuartos ida)"
+   ],
+   "fuente": "https://www.si.com/es-us/atlas-vs-toluca-previa-predicciones-y-alineaciones-28-11-2026 · https://lasillarota.com/deportes/2026/11/25/toluca-2-0-atlas-helinho-brilla-en-la-ida-de-cuartos-de-liga-mx-539047.html",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Manchester United|Brentford": {
+   "local": [
+    "Sporting CP 2-2 Manchester United (F, 25-11, Champions League)",
+    "Liverpool 4-0 Manchester United (F, 22-11, Premier League)",
+    "Manchester United 4-4 Aston Villa (C, 08-11, Premier League)",
+    "Manchester United 3-2 Roma (C, 03-11, Champions League)",
+    "Chelsea 2-0 Manchester United (F, 31-10, Premier League)"
+   ],
+   "visita": [
+    "Brentford 4-0 Everton (C, 23-11, Premier League)",
+    "Brighton 2-0 Brentford (F, 08-11, Premier League)",
+    "Brentford 2-0 Nottingham Forest (C, 31-10, Premier League)",
+    "Sunderland 3-2 Brentford (F, 28-10, Carabao Cup)",
+    "Hull City 1-1 Brentford (F, 25-10, Premier League)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/manchester-united-vs-brentford-premier-league-2026-11-28 · https://www.rotowire.com/betting/soccer/game/manchester-united-vs-brentford-odds-2026-11-28-2645312",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Inter|Genoa": {
+   "local": [
+    "Inter Milan 2-0 Stuttgart (C, 25-11, Champions League)",
+    "Atalanta 4-4 Inter Milan (F, 22-11, Serie A)",
+    "Inter Milan 2-0 Como (C, 08-11, Serie A)",
+    "Feyenoord 0-3 Inter Milan (F, 03-11, Champions League)",
+    "AC Milan 3-1 Inter Milan (F, 31-10, Serie A)"
+   ],
+   "visita": [
+    "Sassuolo 0-2 Genoa (F, 22-11, Serie A)",
+    "Genoa 1-2 AC Milan (C, 08-11, Serie A)",
+    "Lecce 1-2 Genoa (F, 01-11, Serie A)",
+    "Genoa 2-0 Juventus (C, 28-10, Serie A)",
+    "Genoa 1-0 Venezia (C, 25-10, Serie A)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/inter-milan/fixtures-and-results.html · https://www.sportsmole.co.uk/football/serie-a/ac-milan-vs-inter-milan_game_260863.html · https://www.sportsmole.co.uk/football/genoa/fixtures-and-results.html",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Real Betis|Rayo Vallecano": {
+   "local": [
+    "Slovan Bratislava 0-2 Real Betis (F, 24-11, Champions League)",
+    "Sevilla 1-1 Real Betis (F, 21-11, LaLiga)",
+    "Navalcarnero 2-3 Real Betis (F, 12-11, Copa del Rey)",
+    "Elche 0-2 Real Betis (F, 08-11, LaLiga)",
+    "Borussia Dortmund 2-1 Real Betis (F, 04-11, Champions League)"
+   ],
+   "visita": [
+    "Rayo Vallecano 0-1 Valencia (C, 21-11, LaLiga)",
+    "Real Sociedad 1-0 Rayo Vallecano (F, 08-11, LaLiga)",
+    "Rayo Vallecano 3-0 Celta de Vigo (C, 31-10, LaLiga)",
+    "Recreativo Huelva 2-3 Rayo Vallecano (F, 27-10, Copa del Rey)",
+    "Rayo Vallecano 0-3 Elche (C, 24-10, LaLiga)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/real-betis-vs-rayo-vallecano-la-liga-2026-11-29",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Torino|Lazio": {
+   "local": [
+    "Napoli 1-0 Torino (F, 21-11, Serie A)",
+    "Torino 1-1 Lecce (C, 07-11, Serie A)",
+    "Frosinone 2-0 Torino (F, 01-11, Serie A)",
+    "Torino 1-3 Como (C, 27-10, Serie A)",
+    "Torino 3-2 Monza (C, 23-10, Serie A)"
+   ],
+   "visita": [
+    "Lazio 3-0 Lecce (C, 21-11, Serie A)",
+    "Napoli 1-1 Lazio (F, 08-11, Serie A)",
+    "Lazio 2-1 Cagliari (C, 01-11, Serie A)",
+    "Sassuolo 2-6 Lazio (F, 27-10, Serie A)",
+    "Lazio 2-1 Parma (C, 24-10, Serie A)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/torino/ · https://www.sportsmole.co.uk/football/lazio/fixtures-and-results.html",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "FC Cincinnati|Nashville SC": {
+   "local": [
+    "Inter Miami 2-2 FC Cincinnati (F, s/f, MLS)",
+    "FC Cincinnati 1-0 Philadelphia Union (C, s/f, MLS)",
+    "FC Cincinnati 0-2 Nashville SC (C, 07-11, MLS)",
+    "Orlando City 1-3 FC Cincinnati (F, s/f, MLS Playoffs Wild Card)",
+    "Nashville SC 0-1 FC Cincinnati (F, 22-11, MLS Playoffs J1)"
+   ],
+   "visita": [
+    "CF Montréal 0-2 Nashville SC (F, s/f, MLS)",
+    "Nashville SC 0-0 Philadelphia Union (C, s/f, MLS)",
+    "Nashville SC 3-2 New York Red Bulls (C, s/f, MLS)",
+    "FC Cincinnati 0-2 Nashville SC (F, 07-11, MLS)",
+    "Nashville SC 0-1 FC Cincinnati (C, 22-11, MLS Playoffs J1)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/fc-cincinnati/preview/cincinnati-vs-nashville-prediction-team-news-lineups_609894.html · https://www.oddschecker.com/us/soccer/cng202-20261107-fc-cincinnati-vs-nashville-sc-confirmed-lineups-game-prediction",
+   "cuota_over25": "64¢ (≈1.56, Novig)",
+   "cuota_under25": "37¢ (≈2.70, Polymarket)",
+   "casa": "Novig / Polymarket (mercados de predicción), vía Dimers",
+   "url_cuotas": "https://www.dimers.com/mls/news/fc-cincinnati-vs-nashville-sc-prediction-11-28-2026-ac"
+  },
+  "Le Havre|Strasbourg": {
+   "local": [
+    "Troyes 3-1 Le Havre (F, 20-11, Ligue 1)",
+    "Le Havre 0-2 Lorient (C, 08-11, Ligue 1)",
+    "Le Havre 1-5 Paris Saint-Germain (C, 30-10, Ligue 1)",
+    "Marseille 4-3 Le Havre (F, 25-10, Ligue 1)",
+    "Le Havre 1-3 Auxerre (C, 18-10, Ligue 1)"
+   ],
+   "visita": [
+    "Strasbourg 0-1 Brest (C, 21-11, Ligue 1)",
+    "Toulouse 3-1 Strasbourg (F, 06-11, Ligue 1)",
+    "Strasbourg 5-1 Auxerre (C, 01-11, Ligue 1)",
+    "Rennes 3-0 Strasbourg (F, 25-10, Ligue 1)",
+    "Strasbourg 1-3 Paris Saint-Germain (C, 17-10, Ligue 1)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/le-havre-vs-strasbourg-ligue-1-2026-11-28 · https://gidstats.com/football/ligue-1/2026-11-28-1552831-le-havre-vs-strasbourg/",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "FC Koln|Elversberg": {
+   "local": [
+    "Bayern Munich 1-1 FC Koln (F, 20-11, Bundesliga)",
+    "FC Koln 1-2 Bayer Leverkusen (C, 08-11, Bundesliga)",
+    "Union Berlin 1-1 FC Koln (F, 01-11, Bundesliga)",
+    "FC Koln 5-0 Union Berlin (C, 27-10, DFB-Pokal)",
+    "FC Koln 0-0 Schalke 04 (C, 24-10, Bundesliga)"
+   ],
+   "visita": [
+    "Elversberg 0-1 Freiburg (C, 21-11, Bundesliga)",
+    "Borussia Dortmund 2-1 Elversberg (F, 07-11, Bundesliga)",
+    "Elversberg 4-1 Mainz 05 (C, 30-10, Bundesliga)",
+    "Elversberg 0-2 Darmstadt 98 (C, 27-10, DFB-Pokal)",
+    "RB Leipzig 4-0 Elversberg (F, 24-10, Bundesliga)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/fc-koln/ · https://www.sportsmole.co.uk/football/elversberg/ · https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/sv-elversberg-vs-sport-club-freiburg · https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/borussia-dortmund-vs-sv-elversberg/liveticker",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Philadelphia Union|New England Revolution": {
+   "local": [
+    "Philadelphia Union 1-2 New England Revolution (C, s/f, MLS)",
+    "Nashville SC 0-0 Philadelphia Union (F, s/f, MLS)",
+    "FC Cincinnati 1-0 Philadelphia Union (F, s/f, MLS)",
+    "Philadelphia Union 4-1 Toronto FC (C, s/f, MLS)",
+    "New England Revolution 2-0 Philadelphia Union (F, 21-11, MLS Playoffs J1)"
+   ],
+   "visita": [
+    "Philadelphia Union 1-2 New England Revolution (F, s/f, MLS)",
+    "New England Revolution 3-2 New York Red Bulls (C, s/f, MLS)",
+    "New England Revolution 1-2 Inter Miami (C, s/f, MLS)",
+    "Orlando City 1-0 New England Revolution (F, s/f, MLS)",
+    "New England Revolution 2-0 Philadelphia Union (C, 21-11, MLS Playoffs J1)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/philadelphia-union/preview/philadelphia-vs-new-england-prediction-team-news-lineups_609853.html",
+   "cuota_over25": "65¢ (≈1.54)",
+   "cuota_under25": "35¢ (≈2.86)",
+   "casa": "Novig (mercado de predicción), vía Dimers",
+   "url_cuotas": "https://www.dimers.com/mls/news/philadelphia-union-vs-new-england-revolution-prediction-11-28-2026-ac"
+  },
+  "Real Madrid|Alavés": {
+   "local": [
+    "Real Madrid 5-1 PSV Eindhoven (C, 24-11, Champions League)",
+    "Real Madrid 2-1 Celta de Vigo (C, 21-11, LaLiga)",
+    "Valencia 0-3 Real Madrid (F, 07-11, LaLiga)",
+    "AEK Atenas 2-3 Real Madrid (F, 04-11, Champions League)",
+    "Racing de Santander 0-3 Real Madrid (F, 01-11, LaLiga)"
+   ],
+   "visita": [
+    "Deportivo Alavés 3-1 Deportivo de La Coruña (C, 21-11, LaLiga)",
+    "Anaitasuna 1-6 Deportivo Alavés (F, 10-11, Copa del Rey)",
+    "Sevilla 0-0 Deportivo Alavés (F, 06-11, LaLiga)",
+    "FC Barcelona 6-1 Deportivo Alavés (F, 31-10, LaLiga)",
+    "Deportivo Alavés 1-1 Málaga (C, 23-10, LaLiga)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/real-madrid-vs-alaves-la-liga-2026-11-29",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Ipswich Town|Aston Villa": {
+   "local": [
+    "Tottenham 2-0 Ipswich Town (F, 21-11, Premier League)",
+    "Ipswich Town 1-2 Bournemouth (C, 08-11, Premier League)",
+    "Hull City 2-2 Ipswich Town (F, 31-10, Premier League)",
+    "Ipswich Town 1-1 Nottingham Forest (C, 23-10, Premier League)",
+    "Manchester City 3-2 Ipswich Town (F, 17-10, Premier League)"
+   ],
+   "visita": [
+    "Galatasaray 1-0 Aston Villa (F, 24-11, Champions League)",
+    "Aston Villa 0-0 Sunderland (C, 21-11, Premier League)",
+    "Manchester United 4-4 Aston Villa (F, 08-11, Premier League)",
+    "FC Barcelona 3-0 Aston Villa (F, 03-11, Champions League)",
+    "Aston Villa 1-1 Fulham (C, 31-10, Premier League)"
+   ],
+   "fuente": "https://futboltotal.futbol/partido/ipswich-vs-aston-villa-premier-league-2026-11-28 · https://oddslot.com/football/match/premier-league/ipswich/aston-villa/28-nov-2026/",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Coquimbo Unido|D. Limache": {
+   "local": [
+    "Coquimbo Unido 1-0 Unión La Calera (C, 30-10, Liga de Primera)",
+    "Unión La Calera 0-2 Coquimbo Unido (F, 04-11, Copa Chile)",
+    "Audax Italiano 0-1 Coquimbo Unido (F, 08-11, Liga de Primera)",
+    "Coquimbo Unido 2-1 Everton (C, 21-11, Liga de Primera)",
+    "Coquimbo Unido 1-1 Unión La Calera (C, 24-11, Copa Chile)"
+   ],
+   "visita": [
+    "Deportes Limache 2-2 Palestino (C, 11-10, Liga de Primera)",
+    "U. de Concepción 0-1 Deportes Limache (F, 25-10, Liga de Primera)",
+    "Deportes Limache 2-0 Audax Italiano (C, 02-11, Liga de Primera)",
+    "U. Católica 3-0 Deportes Limache (F, 08-11, Liga de Primera)",
+    "Deportes Limache 1-2 D. La Serena (C, 22-11, Liga de Primera)"
+   ],
+   "fuente": "https://www.alairelibre.cl/futbol/clubes/coquimbo-unido/fixture/ · https://www.alairelibre.cl/futbol/campeonato-nacional/limache-coquimbo-previa-sudamericana-fecha-29/ · https://espndeportes.espn.com/futbol/equipo/resultados/_/id/19195/deportes_limache · https://www.encancha.cl/futbol-chileno/primera/2026/11/22/en-vivo-deportes-limache-vs-d-la-serena-por-liga-de-primera-minuto-a-minuto-326025.html",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Los Angeles FC|St Louis City": {
+   "local": [
+    "New York City FC 1-1 Los Angeles FC (F, s/f, MLS)",
+    "Los Angeles FC 2-2 LA Galaxy (C, s/f, MLS)",
+    "Los Angeles FC 1-3 Minnesota United (C, s/f, MLS)",
+    "Seattle Sounders 2-1 Los Angeles FC (F, s/f, MLS)",
+    "St Louis City 3-2 Los Angeles FC (F, 23-11, MLS Playoffs J1)"
+   ],
+   "visita": [
+    "Real Salt Lake 3-0 St Louis City (F, s/f, MLS)",
+    "St Louis City 2-3 Portland Timbers (C, s/f, MLS)",
+    "St Louis City 0-1 San Diego FC (C, s/f, MLS)",
+    "Houston Dynamo 0-1 St Louis City (F, s/f, MLS)",
+    "St Louis City 3-2 Los Angeles FC (C, 23-11, MLS Playoffs J1)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/los-angeles-fc/preview/los-angeles-vs-st-louis-city-prediction-team-news-lineups_609852.html · https://www.lafc.com/news/preview-st-louis-city-vs-lafc-game-2-audi-2026-mls-cup-playoffs-round-one-best-of-3-series-november-28",
+   "cuota_over25": "62¢ (≈1.61, Novig)",
+   "cuota_under25": "39¢ (≈2.56, Polymarket)",
+   "casa": "Novig / Polymarket (mercados de predicción), vía Dimers",
+   "url_cuotas": "https://www.dimers.com/mls/news/los-angeles-fc-vs-st-louis-city-sc-prediction-11-28-2026-ac"
+  },
+  "América|Monterrey": {
+   "local": [
+    "América 1-1 Tijuana (C, s/f, Liga MX)",
+    "América 2-2 Toluca (C, s/f, Liga MX)",
+    "Pumas 2-2 América (F, s/f, Liga MX)",
+    "Tigres 1-0 América (F, s/f, Liga MX)",
+    "Monterrey 0-0 América (F, 25-11, Liga MX cuartos ida)"
+   ],
+   "visita": [
+    "Monterrey 3-3 Tijuana (C, s/f, Liga MX)",
+    "Toluca 4-0 Monterrey (F, s/f, Liga MX)",
+    "Querétaro 0-1 Monterrey (F, s/f, Liga MX)",
+    "Pumas 0-2 Monterrey (F, 22-11, Liga MX J17)",
+    "Monterrey 0-0 América (C, 25-11, Liga MX cuartos ida)"
+   ],
+   "fuente": "https://www.si.com/es-us/monterrey-vs-america-previa-predicciones-y-alineaciones-25-11-2026 · https://www.cronica.com.mx/deportes/2026/11/27/america-vs-monterrey-analisis-pronostico-y-alineaciones-de-la-vuelta-de-cuartos-de-final/",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  },
+  "Paderborn|Schalke 04": {
+   "local": [
+    "Bayer Leverkusen 4-0 SC Paderborn (F, 21-11, Bundesliga)",
+    "SC Paderborn 2-2 Eintracht Frankfurt (C, 07-11, Bundesliga)",
+    "Borussia Monchengladbach 0-0 SC Paderborn (F, 31-10, Bundesliga)",
+    "SC Paderborn 0-1 Stuttgart (C, 28-10, DFB-Pokal)",
+    "SC Paderborn 1-0 Hamburger SV (C, 24-10, Bundesliga)"
+   ],
+   "visita": [
+    "Schalke 04 0-0 Stuttgart (C, 21-11, Bundesliga)",
+    "Hoffenheim 2-1 Schalke 04 (F, 08-11, Bundesliga)",
+    "Schalke 04 0-2 RB Leipzig (C, 31-10, Bundesliga)",
+    "Dynamo Dresden 2-0 Schalke 04 (F, 28-10, DFB-Pokal)",
+    "FC Koln 0-0 Schalke 04 (F, 24-10, Bundesliga)"
+   ],
+   "fuente": "https://www.sportsmole.co.uk/football/paderborn/ · https://www.sportsmole.co.uk/football/schalke-04/fixtures-and-results.html",
+   "cuota_over25": "sin dato",
+   "cuota_under25": "sin dato",
+   "casa": "sin dato",
+   "url_cuotas": "sin dato"
+  }
+ }
+}
